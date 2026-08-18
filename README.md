@@ -254,6 +254,25 @@ erreur ni absence, juste des fichiers qui s'écrivent. Au matin, des milliers de
 copies du même match. Deux grilles différentes ne partagent pas sept matchs
 *et* sept scores : trois répétitions suffisent à conclure.
 
+### Après chaque nuit, auditer
+
+```bash
+python verifier_base.py
+```
+
+À trois grilles on relit les fichiers à l'œil ; à cinq cents, non — et c'est
+précisément là qu'une erreur d'extraction devient invisible, parce qu'elle ne se
+signale pas, elle se fond. Le script repose sur toute la base les questions
+qu'on posait à la main sur les premières grilles : résultat cohérent avec le
+score, aucun score inventé sur un match annulé, somme des rapports retombant sur
+le montant distribué, deux grilles ne partageant pas leurs matchs. Il compte
+aussi les identifiants absents et les lignes que le scraper n'a pas su lire.
+
+Il ne va sur aucun réseau et ne modifie rien. Il **ne dit pas** si les données
+correspondent au site : une base peut être parfaitement cohérente et fausse si
+le scraper a lu la mauvaise colonne partout. Seule une comparaison à l'écran
+répond à ça, sur un échantillon.
+
 ### Compter en nuits, pas en heures
 
 À rythme poli, chaque grille coûte une dizaine de secondes, chargement compris.
