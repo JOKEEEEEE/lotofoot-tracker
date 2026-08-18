@@ -166,6 +166,30 @@ def test_grille_entierement_annulee_reste_enregistree():
     assert "annulation_indice" in data, data
 
 
+def test_grille_non_reglee_n_est_pas_terminee():
+    """Des matchs lisibles ne prouvent pas qu'une grille est réglée.
+
+    Relevé sur la grille 3836 : un match sans résultat, un autre annulé,
+    aucune mention « Terminée », et « Montant garanti » au lieu de « Montant
+    distribué » — la page d'une grille avant son règlement.
+
+    Le mot « annulé » de l'autre ligne suffisait à franchir le filtre d'entrée,
+    et les matchs lisibles à conclure « terminée ». On aurait enregistré une
+    grille non réglée comme réglée, rapports vides, sans qu'aucun contrôle de
+    cohérence puisse s'en apercevoir faute de montant à comparer.
+    """
+    html = FIXTURE.read_text(encoding="utf-8")
+    html = html.replace("Statut : Terminée", "")           # pas encore réglée
+    html = html.replace("Montant distribué :", "Montant garanti :")
+    html = html.replace(
+        '<span class="sc-jAZUkk sc-ccHeIS jAoxrH iuBVCj">Zeta AC</span></div>',
+        '<span class="sc-jAZUkk sc-ccHeIS jAoxrH iuBVCj">Zeta AC</span>'
+        '<span class="sc-jYPihs dyByel">Annulé</span></div>')
+
+    assert _grille_depuis_html(html) is None, (
+        "une grille non réglée ne doit pas être enregistrée comme terminée")
+
+
 if __name__ == "__main__":
     echecs = 0
     for nom, fonction in sorted(globals().items()):

@@ -141,7 +141,20 @@ def _parse_montant(text: str):
         return None
 
 
-def _score_de_ligne(texte: str):
+# Plafond du texte libre : un score de football tient sous 20 buts, et cette
+# borne est ce qui distingue « 2 - 1 » d'un créneau « 18 - 21 ». Elle ne vaut
+# QUE pour le texte d'une ligne entière, où l'un et l'autre se côtoient.
+MAX_BUTS_TEXTE = 20
+
+# Plafond de la cellule dédiée : elle ne contient que le score, il n'y a donc
+# rien à en distinguer. Mesuré sur la grille 3740 : « Western Bulldogs 29 - 52
+# Hawthorn Hawks », du football australien sur une grille Winamax. Le plafond
+# à 20 l'écartait comme implausible — une donnée parfaitement lisible perdue
+# par une prudence appliquée au mauvais endroit.
+MAX_BUTS_CELLULE = 99
+
+
+def _score_de_ligne(texte: str, maximum: int = MAX_BUTS_TEXTE):
     """Le score d'une ligne, ou None.
 
     ON NE PREND PAS LE PREMIER NOMBRE VENU. Le texte d'une ligne contient
@@ -154,7 +167,8 @@ def _score_de_ligne(texte: str):
     candidats coexistent — l'ambiguïté remonte, elle ne se tranche pas ici.
     """
     trouves = RE_SCORE.findall(texte or "")
-    plausibles = [(int(a), int(b)) for a, b in trouves if int(a) <= 20 and int(b) <= 20]
+    plausibles = [(int(a), int(b)) for a, b in trouves
+                  if int(a) <= maximum and int(b) <= maximum]
     if len(plausibles) != 1:
         return None
     return plausibles[0]
@@ -191,7 +205,7 @@ def _score_de_row(row):
     """
     cellule = row.locator(SEL_SCORE)
     if cellule.count() == 1:
-        score = _score_de_ligne(cellule.inner_text() or "")
+        score = _score_de_ligne(cellule.inner_text() or "", maximum=MAX_BUTS_CELLULE)
         if score is not None:
             return score
     return _score_de_ligne(row.inner_text() or "")
@@ -216,8 +230,9 @@ def scrape_grille(page, grille_type: str, grille_id: int):
 
     # « annul » quelque part dans la page suffit à passer la grille en revue,
     # mais ne conclut plus rien : voir plus bas, après l'extraction.
+    terminee = "terminee" in plie
     mention_annul = "annul" in plie
-    if "terminee" not in plie and not mention_annul:
+    if not terminee and not mention_annul:
         print(f"  [{grille_type}-{grille_id}] pas encore terminée")
         return None
 
@@ -300,6 +315,27 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     # annulée : la présence de matchs prime sur la présence d'un mot. La
     # mention est conservée à part, parce qu'elle reste une information — et
     # parce qu'un jour elle signalera peut-être une vraie annulation.
+    # UNE GRILLE N'EST TERMINÉE QUE SI LA PAGE LE DIT.
+    #
+    # Relevé sur la grille 3836 : un match sans résultat (icône « i »), un
+    # autre annulé, aucune mention « Terminée », et en bas « Montant GARANTI »
+    # au lieu de « Montant distribué » — c'est ce qu'affiche une grille avant
+    # son règlement. Rien n'a encore été payé, il n'y a donc pas de rapports.
+    #
+    # Or le mot « annulé » de l'autre ligne suffisait à franchir le filtre du
+    # haut, et six matchs lisibles suffisaient ensuite à conclure « terminée ».
+    # On aurait enregistré une grille non réglée comme réglée, avec des
+    # rapports vides — et le contrôle de cohérence n'aurait rien pu en dire,
+    # faute de montant à comparer. Le pire des cas : faux, et silencieux.
+    #
+    # La présence de matchs ne prouve donc que l'existence de la grille, pas
+    # son règlement. Les deux se constatent séparément.
+    if matches and not terminee:
+        print(f"  [{grille_type}-{grille_id}] existe mais NON RÉGLÉE : "
+              f"{len(matches)} match(s) lisible(s), aucune mention « Terminée » "
+              f"— probablement un match sans résultat")
+        return None
+
     indice = None
     if matches:
         # UNE MENTION EXPLIQUÉE N'EST PLUS UN SIGNAL. Si un match annulé a été

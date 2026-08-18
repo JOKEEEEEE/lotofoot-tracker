@@ -154,6 +154,15 @@ l'explique** — un bouton de bannière, ou une vraie annulation mal lue — le
 contexte part dans `mention_annulation`. Une mention expliquée n'y est pas
 notée : elle noierait le seul cas qui mérite un coup d'œil.
 
+**Une grille n'est terminée que si la page le dit.** La grille 3836 affiche un
+match sans résultat, un autre annulé, aucune mention « Terminée », et en bas
+« Montant **garanti** » au lieu de « Montant distribué » — ce qu'affiche une
+grille avant son règlement. Le mot « annulé » de l'autre ligne suffisait à
+franchir le premier filtre, et six matchs lisibles à conclure « terminée » : on
+aurait enregistré une grille non réglée comme réglée, rapports vides, sans
+qu'aucun contrôle puisse s'en apercevoir faute de montant à comparer. La
+présence de matchs prouve l'existence de la grille, pas son règlement.
+
 `statut` vaut `terminee` ou `annulee`. **Une grille annulée est enregistrée**,
 avec ses listes vides : Winamax annule une liste quand trop de matchs sont
 donnés gagnants par forfait ou report, et confondre une annulation avec un trou
@@ -171,6 +180,12 @@ que deux des cinq espaces qui circulent dans les pages françaises : mesuré,
 `1.234,56 €`, où le point sépare les milliers, aussi. Le séparateur décimal se
 décide maintenant d'après le dernier symbole rencontré. Neuf formats testés,
 neuf corrects.
+
+**Le plafond de 20 buts ne vaut que pour le texte libre.** Il distingue un score
+d'un créneau horaire là où les deux se côtoient. Dans la cellule dédiée, qui ne
+contient que le score, il n'y a rien à distinguer — et l'appliquer y perdait des
+données : grille 3740, « Western Bulldogs 29 - 52 Hawthorn Hawks », du football
+australien sur une grille Winamax, écarté comme implausible.
 
 **Le score pouvait être lu sur le mauvais nombre.** Le motif d'origine
 `(\d+)-(\d+)` prenait le premier couple venu dans la ligne, sans distinguer un
@@ -267,6 +282,20 @@ qu'on posait à la main sur les premières grilles : résultat cohérent avec le
 score, aucun score inventé sur un match annulé, somme des rapports retombant sur
 le montant distribué, deux grilles ne partageant pas leurs matchs. Il compte
 aussi les identifiants absents et les lignes que le scraper n'a pas su lire.
+
+**L'écart toléré sur les rapports croît avec le nombre de gagnants**, parce que
+l'arrondi se fait par gagnant et non sur le total. Winamax divise la part d'un
+rang par le nombre de gagnants puis arrondit au centime : chacun emporte jusqu'à
+un demi-centime de trop ou de trop peu. Sur la grille 3833, la part exacte
+valait 2,1730 € affichée 2,17 € — trois millièmes × 2 065 gagnants = 6,20 € sur
+ce seul rang. Un seuil fixe se trompait donc exactement là où il ne faut pas :
+sur les 507 premières grilles, un plafond à 2 € produisait **73 fausses alertes
+et zéro vraie**.
+
+Le rapport distingue aussi les **trous** — quelques identifiants manquants au
+milieu d'une zone collectée, qui méritent un coup d'œil — des **plages jamais
+demandées**. Les confondre donnait « 3 663 absents », un chiffre qui noyait les
+trois seuls qui comptaient.
 
 Il ne va sur aucun réseau et ne modifie rien. Il **ne dit pas** si les données
 correspondent au site : une base peut être parfaitement cohérente et fausse si

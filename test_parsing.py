@@ -48,6 +48,7 @@ SCORES = [
     ("Saint-Étienne1N2Clermont3 - 1", (3, 1)),
     ("Nancy1N2Montpellier0 - 1", (0, 1)),
     ("PSG 123 - 4 OM", None),                   # chiffre collé : toujours refusé
+    ("18 - 21", None),                          # créneau horaire, dans du texte libre
     ("PSG 2 – 1 OM", (2, 1)),                   # tiret demi-cadratin
     ("0 - 0", (0, 0)),                          # 0-0 est un score, pas une absence
     ("Coup d'envoi 15:30 — PSG 2 - 1 OM", (2, 1)),   # l'heure n'est pas candidate
@@ -70,6 +71,24 @@ def test_score_de_ligne():
     for texte, attendu in SCORES:
         obtenu = _score_de_ligne(texte)
         assert obtenu == attendu, f"_score_de_ligne({texte!r}) = {obtenu!r}, attendu {attendu!r}"
+
+
+def test_plafond_selon_la_source():
+    """Le plafond à 20 buts protège du texte libre, pas de la cellule dédiée.
+
+    Mesuré sur la grille 3740 : « 29 - 52 », un match de football australien.
+    Dans le texte d'une ligne, ce couple est indistinguable d'un créneau
+    horaire, donc refusé. Dans la cellule qui ne contient QUE le score, il n'y
+    a rien à en distinguer, et le refuser perdait une donnée lisible.
+    """
+    from scrape_grille import MAX_BUTS_CELLULE, MAX_BUTS_TEXTE
+    assert _score_de_ligne("29 - 52") is None
+    assert _score_de_ligne("29 - 52", maximum=MAX_BUTS_CELLULE) == (29, 52)
+    # La borne du texte libre reste celle qui écarte une heure.
+    assert _score_de_ligne("18 - 21", maximum=MAX_BUTS_TEXTE) is None
+    # Et un score ordinaire passe des deux côtés.
+    assert _score_de_ligne("2 - 1") == (2, 1)
+    assert _score_de_ligne("2 - 1", maximum=MAX_BUTS_CELLULE) == (2, 1)
 
 
 def test_sans_accents():

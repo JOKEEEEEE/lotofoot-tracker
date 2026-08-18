@@ -25,10 +25,28 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / "data" / "grilles"
 
-# La somme des rapports doit retomber sur le montant distribué. L'écart tient
-# aux arrondis au centime sur chaque gagnant : quelques dizaines de centimes
-# sur des milliers d'euros. Au-delà, ce n'est plus de l'arrondi.
-TOLERANCE_EUROS = 2.0
+# Au-delà de cette longueur, une série d'identifiants manquants n'est plus un
+# trou dans une zone collectée mais une plage qu'on n'a pas encore demandée.
+SEUIL_TROU = 20
+
+# L'ARRONDI SE FAIT PAR GAGNANT, PAS SUR LE TOTAL — et c'est toute la
+# différence. Winamax divise la part d'un rang par le nombre de gagnants puis
+# arrondit au centime : chaque gagnant emporte jusqu'à un demi-centime de trop
+# ou de trop peu, et l'écart final se multiplie par leur nombre.
+#
+# Mesuré sur la grille 3833 : part exacte 2,1730 € affichée 2,17 €, soit trois
+# millièmes × 2 065 gagnants = 6,20 € sur ce seul rang, 14,69 € sur la grille.
+#
+# Un seuil fixe se trompait donc exactement là où il ne faut pas : il laissait
+# passer une vraie erreur sur une grille à peu de gagnants, et hurlait sur les
+# grosses grilles parfaitement saines. Sur les 507 premières grilles, un seuil
+# à 2 € produisait 73 fausses alertes et zéro vraie.
+DEMI_CENTIME = 0.005
+MARGE_FLOTTANTS = 0.02
+
+
+def _plafond_arrondi(nombre_gagnants: int) -> float:
+    return DEMI_CENTIME * nombre_gagnants + MARGE_FLOTTANTS
 
 
 def _anomalie(liste, gid, quoi, detail=""):
@@ -73,17 +91,29 @@ def verifier_grille(d: dict, anomalies: list):
                                       f"pour un score {dom}-{ext}")
 
     md = d.get("montant_distribue")
-    if d["rapports"] and md:
-        somme = 0.0
-        for r in d["rapports"]:
-            n, montant = r.get("nombre_gagnants"), r.get("montant")
-            if n is None or montant is None:
-                _anomalie(anomalies, gid, f"rapport incomplet au rang {r.get('rang')}")
-                continue
-            somme += n * montant
-        if abs(somme - md) > TOLERANCE_EUROS:
-            _anomalie(anomalies, gid, "somme des rapports ≠ montant distribué",
-                      f"{somme:.2f} contre {md:.2f}")
+    if not d["rapports"] or md is None:
+        # UNE GRILLE TERMINÉE SANS RAPPORTS EST SUSPECTE. C'est la forme que
+        # prend une grille non réglée enregistrée par erreur : des matchs, un
+        # statut « terminée », et rien à distribuer. Le contrôle de somme la
+        # laissait passer sans un mot, faute d'avoir quoi que ce soit à
+        # comparer — c'est précisément pour ça qu'il faut le dire.
+        _anomalie(anomalies, gid, "terminée mais sans rapports ni montant",
+                  f"{len(d['rapports'])} rapport(s), montant {md}")
+        return
+
+    somme, gagnants = 0.0, 0
+    for r in d["rapports"]:
+        n, montant = r.get("nombre_gagnants"), r.get("montant")
+        if n is None or montant is None:
+            _anomalie(anomalies, gid, f"rapport incomplet au rang {r.get('rang')}")
+            continue
+        somme += n * montant
+        gagnants += n
+    plafond = _plafond_arrondi(gagnants)
+    if abs(somme - md) > plafond:
+        _anomalie(anomalies, gid, "somme des rapports ≠ montant distribué",
+                  f"{somme:.2f} contre {md:.2f}, écart {abs(somme - md):.2f} "
+                  f"pour un plafond d'arrondi de {plafond:.2f} ({gagnants} gagnants)")
 
 
 def verifier_type(grille_type: str) -> int:
@@ -131,13 +161,37 @@ def verifier_type(grille_type: str) -> int:
     if mentions:
         print(f"  mentions d'annulation inexpliquées : {mentions}  <-- à relire")
 
-    # Les trous sont attendus — tous les identifiants n'existent pas — mais on
-    # les compte pour que « il manque des grilles » ne soit jamais une surprise.
+    # DEUX SORTES DE MANQUES, ET LES CONFONDRE REND LE RAPPORT INUTILE.
+    #
+    # Après le premier lot, la base contenait dix sondages épars — jusqu'à
+    # l'identifiant 1 — et cinq cents grilles contiguës. Compter naïvement les
+    # absents entre le minimum et le maximum donnait « 3 663 absents », un
+    # chiffre qui ne dit rien : il mélange les milliers d'identifiants jamais
+    # demandés avec les trois que le scraper n'a pas su collecter. Or ce sont
+    # ces trois-là, et eux seuls, qui méritent un coup d'œil.
+    #
+    # On distingue donc par la longueur de la série manquante : quelques
+    # identifiants isolés au milieu du collecté sont des trous, une plage de
+    # centaines est une zone qu'on n'a pas encore explorée.
     manquants = sorted(set(range(min(ids), max(ids) + 1)) - set(ids))
-    if manquants:
-        apercu = ", ".join(str(m) for m in manquants[:12])
-        suite = f" … (+{len(manquants) - 12})" if len(manquants) > 12 else ""
-        print(f"  absents        : {len(manquants)} identifiant(s) — {apercu}{suite}")
+    series, trous, non_explore = [], [], 0
+    for m in manquants:
+        if series and m == series[-1][-1] + 1:
+            series[-1].append(m)
+        else:
+            series.append([m])
+    for serie in series:
+        if len(serie) <= SEUIL_TROU:
+            trous.extend(serie)
+        else:
+            non_explore += len(serie)
+    if trous:
+        apercu = ", ".join(str(m) for m in trous[:20])
+        suite = f" … (+{len(trous) - 20})" if len(trous) > 20 else ""
+        print(f"  trous          : {len(trous)} identifiant(s) dans une zone collectée "
+              f"— {apercu}{suite}")
+    if non_explore:
+        print(f"  non exploré    : {non_explore} identifiant(s) en plages jamais demandées")
 
     if anomalies:
         print(f"\n  {len(anomalies)} ANOMALIE(S) :")
