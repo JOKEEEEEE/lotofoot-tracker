@@ -8,14 +8,40 @@ Rien n'est publié. Rien n'est revendu.
 
 ---
 
-## État : le scraper n'est pas validé
+## État : sélecteurs validés sur une grille, le 18 août 2026
 
-**Les sélecteurs n'ont jamais été confrontés au site réel.** Ils viennent d'une
-inspection manuelle d'une seule grille (`grille7-4168`) et personne n'a encore
-vérifié qu'ils matchent.
+Le diagnostic a tourné depuis une machine en France sur `grille7-4168`, et la
+page a été rejouée hors ligne, élément par élément. Les trois sélecteurs
+trouvent leurs éléments : 7 lignes de match, 14 noms d'équipes, 3 lignes de
+rapport.
 
-La validation n'a pas pu se faire depuis un environnement distant. Trois voies
-essayées le 18 août 2026, trois échecs :
+**Un bug bloquant est ressorti de cette confrontation.** Les sélecteurs
+matchaient, et pourtant le scraper n'aurait produit aucun match : `inner_text()`
+colle le nom de l'équipe au score, `Reims1N2Dunkerque3 - 3`, et le motif exigeait
+une frontière de mot avant le chiffre — il n'y en a pas entre `e` et `3`. Sept
+lignes, sept scores illisibles. Le garde-fou « AUCUN match extrait » aurait
+arrêté le lot, donc l'échec était bruyant, mais il était total. C'est
+exactement ce qu'une inspection à l'œil ne pouvait pas voir.
+
+Corrigé de deux façons, qui ne meurent pas des mêmes causes : le score est
+d'abord lu dans son élément dédié (`SEL_SCORE`), et à défaut dans le texte de la
+ligne avec un motif qui tolère une lettre collée mais toujours pas un chiffre.
+
+Les montants se recoupent, ce qui est le meilleur signe que les colonnes sont
+lues dans le bon ordre : 7 × 946,13 € + 128 × 51,74 € = 13 245,63 €, contre
+13 245,75 € affichés comme montant distribué — l'écart est de l'arrondi.
+
+**Ce qui reste non vérifié :** la comparaison écran par écran d'une deuxième et
+d'une troisième grille ; les types `grille9` et `grille12`, jamais ouverts ; une
+grille annulée, dont aucune page n'a encore été vue — la détection cherche
+« annul » dans tout le texte, ce qu'un bouton « Annuler » suffirait à déclencher,
+alors le contexte est désormais enregistré dans le JSON pour qu'un faux positif
+se voie.
+
+## Pourquoi la validation n'a pas pu se faire d'ici
+
+Trois voies essayées depuis l'environnement distant le 18 août 2026, trois
+échecs :
 
 | Voie | Résultat |
 |---|---|
@@ -115,10 +141,18 @@ est faux en booléen ; un intervalle inversé produisait un lot vide en silence.
 ## Ce qui est testé, et ce qui ne l'est pas
 
 ```bash
-python test_parsing.py        # ou : pytest test_parsing.py
+python test_parsing.py        # fonctions pures, aucune dépendance
+python test_selecteurs.py     # sélecteurs rejoués sur une page figée
 ```
 
-Trente-quatre cas sur les trois fonctions pures — les montants dans cinq
+`test_selecteurs.py` rejoue le vrai `scrape_grille()` sur `fixture_grille.html`,
+une reproduction de la structure du DOM aux données inventées — aucune donnée du
+site n'est republiée ici. Il va jusqu'au JSON, et c'est ce qui compte : un test
+qui se contente de compter les éléments trouvés aurait laissé passer le bug de
+lecture du score, puisque les sélecteurs matchaient. Il demande Chromium, là où
+`test_parsing.py` tourne sans rien.
+
+Trente-huit cas sur les trois fonctions pures — les montants dans cinq
 espaces et deux conventions décimales, la lecture du score, le pliage des
 accents. Chacun a été vérifié contre le défaut d'origine qu'il couvre : en
 remettant l'ancienne version de la fonction, le test correspondant casse. Un

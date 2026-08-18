@@ -41,6 +41,13 @@ MONTANTS = [
 
 SCORES = [
     ("PSG 2 - 1 OM", (2, 1)),
+    # Mesuré sur la vraie page le 18/08/2026 : inner_text() colle le nom de
+    # l'équipe au score. Le motif d'avant exigeait une frontière de mot avant
+    # le chiffre et ne lisait donc AUCUN des sept scores de la grille.
+    ("Reims1N2Dunkerque3 - 3", (3, 3)),
+    ("Saint-Étienne1N2Clermont3 - 1", (3, 1)),
+    ("Nancy1N2Montpellier0 - 1", (0, 1)),
+    ("PSG 123 - 4 OM", None),                   # chiffre collé : toujours refusé
     ("PSG 2 – 1 OM", (2, 1)),                   # tiret demi-cadratin
     ("0 - 0", (0, 0)),                          # 0-0 est un score, pas une absence
     ("Coup d'envoi 15:30 — PSG 2 - 1 OM", (2, 1)),   # l'heure n'est pas candidate

@@ -4,9 +4,19 @@ Pages publiques, aucune connexion requise.
 
 ÉTAT DE VALIDATION — À LIRE AVANT DE S'EN SERVIR
 ================================================
-Les sélecteurs ci-dessous N'ONT JAMAIS ÉTÉ CONFRONTÉS AU SITE RÉEL. Ils
-viennent d'une inspection manuelle d'une seule grille (grille7-4168), et
-personne n'a encore vérifié qu'ils matchent.
+Sélecteurs confrontés au site le 18 août 2026 sur grille7-4168, depuis une
+machine en France, puis rejoués hors ligne élément par élément. Les trois
+trouvent leurs éléments et le JSON produit est cohérent : 7 matchs, et la
+somme des rapports retombe sur le montant distribué à l'arrondi près.
+
+Cette confrontation a révélé un bug bloquant que l'inspection à l'œil ne
+pouvait pas voir : les sélecteurs matchaient, mais AUCUN score n'était lu
+(voir le commentaire de RE_SCORE). Corrigé, avec un test de non-régression
+dans test_selecteurs.py.
+
+RESTE NON VÉRIFIÉ : grille9 et grille12, jamais ouverts ; une grille
+annulée, dont aucune page n'a encore été vue ; la comparaison écran par
+écran d'une deuxième grille.
 
 La vérification n'a pas pu se faire depuis un environnement d'exécution
 distant : winamax.fr répond 403 CloudFront à toute requête venant d'une IP
@@ -21,14 +31,16 @@ Contrairement au dépôt factxi-sportlab, il n'y aura donc pas de collecte
 automatisée côté serveur.
 
 MARCHE À SUIVRE, DANS CET ORDRE
-    1. python scrape_grille.py --diagnostic 4168
-    2. lire le rapport imprimé : il dit, sélecteur par sélecteur, combien
+    1. python test_parsing.py && python test_selecteurs.py
+    2. python scrape_grille.py --diagnostic 4168
+    3. lire le rapport imprimé : il dit, sélecteur par sélecteur, combien
        d'éléments matchent et ce qu'ils contiennent
-    3. si un sélecteur matche 0 élément, NE PAS deviner : envoyer le
+    4. si un sélecteur matche 0 élément, NE PAS deviner : envoyer le
        fichier diagnostic/*.html produit, les sélecteurs se corrigent
        dessus
-    4. une fois validés, tester sur 2 ou 3 grilles et comparer le JSON à
-       l'écran avant tout lot
+    5. tester sur 2 ou 3 grilles et comparer le JSON à l'écran avant tout
+       lot — les sélecteurs peuvent matcher et extraire faux, c'est
+       précisément ce qui s'est produit le 18 août
 
 CONDITIONS D'UTILISATION : l'accès automatisé est probablement contraire
 aux CGU de Winamax. Usage strictement personnel, sans republication, et
@@ -52,17 +64,28 @@ BASE_URL = "https://www.winamax.fr/paris-sportifs/grilles/{type}-{id}"
 DATA_DIR = Path(__file__).parent / "data" / "grilles"
 DIAGNOSTIC_DIR = Path(__file__).parent / "diagnostic"
 
-# HYPOTHÈSE, PAS CERTITUDE. Les classes "sc-XXXXXX" viennent de
-# styled-components et changent à chaque redéploiement du site ; ce sont les
-# plus fragiles qui soient. Les classes littérales ("grid-line") sont écrites
-# à la main dans le source et tiennent mieux.
+# CONFRONTÉS AU SITE LE 18 AOÛT 2026 sur grille7-4168, et vérifiés élément par
+# élément : 7 lignes, 14 noms d'équipes, 3 lignes de rapport. Les classes
+# "sc-XXXXXX" viennent de styled-components et changent à chaque redéploiement
+# du site ; ce sont les plus fragiles qui soient. La classe littérale
+# ("grid-line") est écrite à la main dans le source et tient mieux.
 SEL_MATCH_ROW = ".grid-line"
 SEL_TEAM_NAME = "[class*='sc-jAZUkk']"
 SEL_RAPPORT_ROW = "p[class*='sc-rnDvD']"
+# Le score a son propre élément. Le lire là plutôt que dans le texte de la
+# ligne évite d'avoir à le distinguer des cotes et du numéro de match.
+SEL_SCORE = "[class*='sc-jYPihs']"
 
 # Un score de football tient en un ou deux chiffres. Exiger cette borne évite
 # de confondre le score avec une heure (« 18 - 21 »), une date ou une cote.
-RE_SCORE = re.compile(r"\b(\d{1,2})\s*[-–]\s*(\d{1,2})\b")
+#
+# PAS DE \b À GAUCHE. Mesuré sur la vraie page : inner_text() colle le nom de
+# l'équipe au score, « Reims1N2Dunkerque3 - 3 ». Entre « e » et « 3 » il n'y a
+# pas de frontière de mot, donc \b ne matchait rien et AUCUN score n'était lu
+# — sur les sept lignes de la grille testée, sept échecs. On interdit donc un
+# chiffre adjacent, ce qui protège toujours de « 123 - 4 », mais on tolère une
+# lettre collée.
+RE_SCORE = re.compile(r"(?<!\d)(\d{1,2})\s*[-–]\s*(\d{1,2})(?!\d)")
 
 STATUT_TERMINEE = "terminee"
 STATUT_EN_COURS = "en_cours"
@@ -132,6 +155,27 @@ def _score_de_ligne(texte: str):
     return plausibles[0]
 
 
+def _score_de_row(row):
+    """Le score d'une ligne du DOM : l'élément dédié d'abord, le texte ensuite.
+
+    DEUX CHEMINS PLUTÔT QU'UN, parce qu'ils ne meurent pas de la même chose.
+    L'élément dédié (SEL_SCORE) est sans ambiguïté — il ne contient que le
+    score — mais sa classe est un « sc-XXXXXX » de styled-components, qui
+    changera au prochain redéploiement du site. Le texte de la ligne, lui,
+    survit aux changements de classes mais demande d'écarter les cotes et le
+    numéro de match.
+
+    On prend donc le précis quand il est là, et on retombe sur le robuste
+    quand il a disparu, plutôt que de tout arrêter.
+    """
+    cellule = row.locator(SEL_SCORE)
+    if cellule.count() == 1:
+        score = _score_de_ligne(cellule.inner_text() or "")
+        if score is not None:
+            return score
+    return _score_de_ligne(row.inner_text() or "")
+
+
 def scrape_grille(page, grille_type: str, grille_id: int):
     """Une grille terminée, ou None avec un motif imprimé."""
     url = BASE_URL.format(type=grille_type, id=grille_id)
@@ -154,11 +198,20 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     # gagnants par forfait ou report. La confondre avec un trou fausserait plus
     # tard toute étude de biais : une annulation est une information.
     if "annul" in plie:
-        print(f"  [{grille_type}-{grille_id}] ANNULÉE par Winamax")
+        # L'INDICE VOYAGE AVEC LA CONCLUSION. Ce test cherche « annul » dans
+        # TOUT le texte de la page : un bouton « Annuler » d'une bannière
+        # cookies suffirait à faire passer une grille normale pour annulée, et
+        # le JSON n'en garderait aucune trace. Aucune page de grille annulée
+        # n'ayant encore été observée, on ne peut pas resserrer le motif sans
+        # deviner — alors on enregistre le contexte, et un faux positif se
+        # verra en relisant le fichier au lieu de se fondre dans la base.
+        pos = plie.find("annul")
+        indice = " ".join(plie[max(0, pos - 60):pos + 60].split())
+        print(f"  [{grille_type}-{grille_id}] ANNULÉE par Winamax — indice : {indice}")
         return {"grille_id": grille_id, "grille_type": grille_type, "url": url,
                 "scraped_at": datetime.now(timezone.utc).isoformat(),
                 "statut": STATUT_ANNULEE, "matches": [], "rapports": [],
-                "montant_distribue": None}
+                "montant_distribue": None, "annulation_indice": indice}
 
     if "terminee" not in plie:
         print(f"  [{grille_type}-{grille_id}] pas encore terminée")
@@ -168,7 +221,7 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     rows = page.locator(SEL_MATCH_ROW)
     for i in range(rows.count()):
         texte = rows.nth(i).inner_text() or ""
-        score = _score_de_ligne(texte)
+        score = _score_de_row(rows.nth(i))
         if score is None:
             lignes_ignorees.append({"ligne": i, "motif": "score introuvable ou ambigu",
                                     "texte": texte[:120]})

@@ -1,0 +1,33 @@
+<!doctype html>
+<!--
+Reproduction MINIMALE de la structure du DOM Winamax, relevée sur
+grille7-4168 le 18 août 2026. Équipes, scores et montants sont INVENTÉS :
+ce fichier reproduit une structure, il ne republie aucune donnée du site.
+
+Trois pièges y sont volontairement conservés, parce que ce sont eux qui
+cassent :
+
+  1. les <span> sont adjacents SANS espace dans la source, donc inner_text()
+     rend « Alpha FC1N2Beta SC3 - 3 » d'un seul tenant, nom d'équipe collé
+     au score — c'est ce collage qui mettait le motif en échec ;
+  2. la deuxième ligne porte une classe de score DIFFÉRENTE, comme après un
+     redéploiement de styled-components : elle vérifie que la lecture
+     retombe sur le texte de la ligne au lieu de s'arrêter ;
+  3. les lignes de rapport répètent le montant dans un quatrième <span>.
+-->
+<html lang="fr"><head><meta charset="utf-8"><title>Fixture</title></head>
+<body>
+<div>Statut : Terminée</div>
+
+<div class="sc-iZDJVJ gdzlGM grid-line"><span class="sc-jAZUkk sc-iBOvYB jAoxrH dSgrJ">Alpha FC</span><span class="sc-ffhVJN fAQQsw">1</span><span class="sc-ffhVJN fAQQsw">N</span><span class="sc-ffhVJN fAQQsw">2</span><span class="sc-jAZUkk sc-ccHeIS jAoxrH iuBVCj">Beta SC</span><span class="sc-jYPihs dyByel">3 - 3</span></div>
+
+<div class="sc-iZDJVJ gdzlGM grid-line"><span class="sc-jAZUkk sc-iBOvYB jAoxrH dSgrJ">Gamma</span><span class="sc-ffhVJN fAQQsw">1</span><span class="sc-ffhVJN fAQQsw">N</span><span class="sc-ffhVJN fAQQsw">2</span><span class="sc-jAZUkk sc-ccHeIS jAoxrH iuBVCj">Delta United</span><span class="sc-zzzzzz apresRedeploiement">0 - 1</span></div>
+
+<div class="sc-iZDJVJ gdzlGM grid-line"><span class="sc-jAZUkk sc-iBOvYB jAoxrH dSgrJ">Epsilon</span><span class="sc-ffhVJN fAQQsw">1</span><span class="sc-ffhVJN fAQQsw">N</span><span class="sc-ffhVJN fAQQsw">2</span><span class="sc-jAZUkk sc-ccHeIS jAoxrH iuBVCj">Zeta AC</span></div>
+
+<p class="sc-rnDvD entmHZ"><span>Résultat</span><span>Nombre</span><span>Montant</span></p>
+<p class="sc-rnDvD entmHZ"><span>7 / 7</span><span>4</span><span>1&nbsp;500,50&nbsp;€</span><span>1&nbsp;500,50&nbsp;€</span></p>
+<p class="sc-rnDvD entmHZ"><span>6 / 7</span><span>112</span><span>25,25&nbsp;€</span><span>25,25&nbsp;€</span></p>
+
+<div>Montant distribué :</div><div>8&nbsp;830,00&nbsp;€</div>
+</body></html>
