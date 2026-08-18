@@ -319,6 +319,13 @@ est visible ; sans CSS, des éléments masqués referaient surface et le texte l
 serait plus celui de la page. Quelques dixièmes de seconde ne valent pas ce
 risque.
 
+Un Chromium neuf est ouvert à chaque lot. Les premiers lots tenaient sur 500
+navigations ; la collecte complète en demande sept fois plus dans le même
+navigateur, et rien ne dit qu'il encaisse. Il est donc refermé pendant la pause
+de lot : deux secondes de relance contre le risque de retrouver la collecte
+arrêtée au matin. C'est une raison de plus de garder `--lot` non nul sur un long
+parcours.
+
 ### Mesurer plutôt que d'estimer
 
 Les durées ci-dessous sont des ordres de grandeur, pas des promesses. Vingt
@@ -330,6 +337,11 @@ time python scrape_grille.py --from-id 3669 --to-id 3650 --pause 1 2
 
 Divise le temps total par 20, multiplie par ce qui reste. C'est plus fiable que
 n'importe quel tableau.
+
+Mesuré le 18 août 2026 sur un MacBook Air : **46 s pour 20 grilles**, soit 2,3 s
+par grille dont 1,5 s de pause volontaire. Le chargement réel d'une page tient
+donc en **0,8 s** une fois les images et les polices écartées — dix fois moins
+que l'estimation faite avant de mesurer, qui figurait ici même.
 
 ### Trois rythmes, à toi de choisir
 

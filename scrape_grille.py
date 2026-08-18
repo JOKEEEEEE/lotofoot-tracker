@@ -488,6 +488,14 @@ def diagnostic_dump(page, grille_type: str, grille_id: int):
     print("\n  Si un sélecteur est à zéro, ne pas deviner : envoyer le fichier HTML.\n")
 
 
+def _ouvrir_navigateur(playwright, alleger: bool):
+    nav = playwright.chromium.launch(headless=True)
+    page = nav.new_page(locale="fr-FR", timezone_id="Europe/Paris")
+    if alleger:
+        page.route("**/*", _bloquer_ressources_inutiles)
+    return nav, page
+
+
 def _bloquer_ressources_inutiles(route):
     if route.request.resource_type in RESSOURCES_IGNOREES:
         route.abort()
@@ -545,10 +553,7 @@ def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0),
     motif_arret, rang_arret = None, len(ids)
 
     with sync_playwright() as p:
-        nav = p.chromium.launch(headless=True)
-        page = nav.new_page(locale="fr-FR", timezone_id="Europe/Paris")
-        if alleger:
-            page.route("**/*", _bloquer_ressources_inutiles)
+        nav, page = _ouvrir_navigateur(p, alleger)
         demandees = 0                        # grilles réellement allées chercher
         for rang, gid in enumerate(ids):
             if not refaire and _chemin_grille(grille_type, gid).exists():
@@ -606,7 +611,15 @@ def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0),
             if lot and demandees % lot == 0:
                 repos = random.uniform(*pause_lot)
                 print(f"  --- lot de {lot} terminé, pause de {repos / 60:.1f} min ---")
+                # NAVIGATEUR NEUF À CHAQUE LOT. Les premiers lots tenaient sur
+                # 500 navigations ; la collecte complète en demande sept fois
+                # plus dans le même Chromium, et rien ne dit qu'il encaisse.
+                # On le referme donc pendant la pause, ce qui ne coûte que deux
+                # secondes de relance — moins cher qu'un lot trouvé arrêté au
+                # matin, même si la reprise est gratuite.
+                nav.close()
                 time.sleep(repos)
+                nav, page = _ouvrir_navigateur(p, alleger)
             else:
                 time.sleep(random.uniform(*pause))
         nav.close()

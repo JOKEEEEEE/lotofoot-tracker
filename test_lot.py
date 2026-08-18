@@ -38,8 +38,18 @@ class _FauxNav:
         pass
 
 
+class _FauxChromium:
+    def __init__(self):
+        self.lancements = 0
+
+    def launch(self, **kw):
+        self.lancements += 1
+        return _FauxNav()
+
+
 class _FauxPlaywright:
-    chromium = type("_C", (), {"launch": lambda self, **kw: _FauxNav()})()
+    def __init__(self):
+        self.chromium = _FauxChromium()
 
     def __enter__(self):
         return self
@@ -73,7 +83,8 @@ def _lancer(reponses, deja_en_base=(), **kwargs):
             raise r
         return r
 
-    sg.sync_playwright = lambda: _FauxPlaywright()
+    playwright = _FauxPlaywright()
+    sg.sync_playwright = lambda: playwright
     sg.time = temps
     sg.save_grille = lambda data: sauvees.append(data["grille_id"])
     sg._chemin_grille = lambda t, gid: type("_P", (), {"exists": lambda self: gid in deja_en_base})()
@@ -82,7 +93,7 @@ def _lancer(reponses, deja_en_base=(), **kwargs):
         sortie = io.StringIO()
         with redirect_stdout(sortie):
             code = sg.run_batch("grille7", list(reponses), **kwargs)
-        return code, sauvees, temps.attentes, sortie.getvalue()
+        return code, sauvees, temps.attentes, sortie.getvalue(), playwright
     finally:
         (sg.sync_playwright, sg.time, sg.save_grille,
          sg._chemin_grille, sg.scrape_grille) = vrais
@@ -104,7 +115,7 @@ def _grille(gid, matches=None):
 
 
 def test_reprise_ne_redemande_pas_ce_qui_est_en_base():
-    code, sauvees, attentes, texte = _lancer(
+    code, sauvees, attentes, texte, _ = _lancer(
         {4170: _grille(4170), 4169: _grille(4169), 4168: _grille(4168)},
         deja_en_base=(4169,))
     assert code == 0, texte
@@ -117,7 +128,7 @@ def test_reprise_ne_redemande_pas_ce_qui_est_en_base():
 
 def test_arret_apres_erreurs_consecutives():
     reponses = {i: RuntimeError("coupé") for i in range(4170, 4160, -1)}
-    code, sauvees, _, texte = _lancer(reponses, arret_erreurs=3)
+    code, sauvees, _, texte, _ = _lancer(reponses, arret_erreurs=3)
     assert code == 1, texte
     assert sauvees == []
     assert "3 erreurs d'affilée" in texte, texte
@@ -130,14 +141,14 @@ def test_une_reussite_remet_le_compteur_a_zero():
     # erreur, erreur, succès, erreur, erreur : jamais trois d'affilée.
     reponses = {4170: RuntimeError("x"), 4169: RuntimeError("x"),
                 4168: _grille(4168), 4167: RuntimeError("x"), 4166: RuntimeError("x")}
-    code, sauvees, _, texte = _lancer(reponses, arret_erreurs=3)
+    code, sauvees, _, texte, _ = _lancer(reponses, arret_erreurs=3)
     assert code == 0, texte
     assert sauvees == [4168], sauvees
 
 
 def test_arret_apres_absences_consecutives():
     reponses = {i: None for i in range(4170, 4150, -1)}
-    code, _, _, texte = _lancer(reponses, arret_absences=5)
+    code, _, _, texte, _ = _lancer(reponses, arret_absences=5)
     assert code == 1, texte
     assert "5 grilles introuvables d'affilée" in texte, texte
     # L'arrêt ne doit pas trancher entre fin d'archive et blocage.
@@ -146,7 +157,7 @@ def test_arret_apres_absences_consecutives():
 
 def test_pause_longue_entre_les_lots():
     reponses = {i: _grille(i) for i in range(4170, 4162, -1)}      # 8 grilles
-    code, _, attentes, texte = _lancer(reponses, lot=3, pause_lot=(600.0, 601.0))
+    code, _, attentes, texte, _ = _lancer(reponses, lot=3, pause_lot=(600.0, 601.0))
     assert code == 0, texte
     longues = [a for a in attentes if a >= 600.0]
     assert len(longues) == 2, attentes          # après la 3e et la 6e
@@ -159,7 +170,7 @@ def test_arret_sur_grilles_identiques():
     memes = [{"home": "Alpha", "away": "Beta", "score_home": 1,
               "score_away": 0, "resultat": "1"}]
     reponses = {i: _grille(i, matches=memes) for i in range(4170, 4160, -1)}
-    code, sauvees, _, texte = _lancer(reponses, arret_identiques=3)
+    code, sauvees, _, texte, _ = _lancer(reponses, arret_identiques=3)
     assert code == 1, texte
     assert len(sauvees) == 3, sauvees                  # arrêt à la troisième
     assert "mêmes matchs" in texte, texte
@@ -168,7 +179,7 @@ def test_arret_sur_grilles_identiques():
 
 def test_grilles_differentes_ne_declenchent_pas_l_arret():
     reponses = {i: _grille(i) for i in range(4170, 4150, -1)}
-    code, sauvees, _, texte = _lancer(reponses, arret_identiques=3)
+    code, sauvees, _, texte, _ = _lancer(reponses, arret_identiques=3)
     assert code == 0, texte
     assert len(sauvees) == 20, len(sauvees)
 
@@ -205,6 +216,23 @@ def test_ressources_inutiles_bloquees():
     assert sorted(abandonnees) == ["font", "image", "media"], abandonnees
     assert "stylesheet" in poursuivies, poursuivies
     assert "xhr" in poursuivies and "script" in poursuivies, poursuivies
+
+
+def test_navigateur_renouvele_a_chaque_lot():
+    """Un Chromium neuf à chaque lot, plutôt qu'un seul sur 3 660 pages.
+
+    Les premiers lots tenaient sur 500 navigations. La collecte complète en
+    demande sept fois plus, et rien ne dit que le même navigateur encaisse.
+    On le referme pendant la pause de lot : deux secondes de relance contre
+    le risque de retrouver la collecte arrêtée au matin.
+    """
+    reponses = {i: _grille(i) for i in range(4170, 4160, -1)}      # 10 grilles
+    code, sauvees, _, _, playwright = _lancer(reponses, lot=3, pause_lot=(0.0, 0.1))
+    assert code == 0
+    assert len(sauvees) == 10, sauvees
+    # Un lancement au départ, puis un après chacune des pauses de lot
+    # (après la 3e, la 6e et la 9e grille).
+    assert playwright.chromium.lancements == 4, playwright.chromium.lancements
 
 
 def test_sens_de_parcours():
