@@ -149,6 +149,26 @@ Le match annulé est donc un match à part entière, avec ses deux équipes,
 ni un 1/N/2 arbitraire : lui attribuer une issue fausserait un futur calcul Elo
 comme une étude de biais.
 
+**Une cellule de score vide, ou portant une icône « i », vaut aussi
+annulation.** Relevé sur les grilles 1152, 1749, 1751 et 3580, vérifié sur le
+site : ces grilles se règlent normalement, avec des rangs sur 7 matchs — ces
+lignes ont donc bien compté, comme des matchs annulés.
+
+Mais la conclusion ne se prend qu'**après avoir lu toute la grille, et à
+condition qu'au moins un vrai score y figure**. Sans ce témoin, on ne tranche
+pas. Deux raisons, et la seconde est la plus sérieuse : la grille 1848 n'a
+aucune cellule de score dans son DOM — Winamax n'a pas conservé les scores de
+cette journée de Ligue des champions dont un match fut interrompu — et la règle
+seule en aurait fait sept matchs annulés « gagnants pour tous », soit sept
+résultats inventés. Le même piège se refermerait si la classe de la cellule
+changeait au prochain redéploiement : toutes les grilles deviendraient annulées,
+silencieusement. Une panne doit rester bruyante.
+
+Le champ `annulation_deduite_de` conserve ce qui a mené à la conclusion —
+`"Annulé"` écrit noir sur blanc n'a pas la même force qu'une cellule vide, et le
+jour où une cellule vide voudra dire autre chose, elles se retrouvent toutes
+d'une recherche.
+
 Quand le mot « annulé » apparaît dans la page **sans qu'aucun match ne
 l'explique** — un bouton de bannière, ou une vraie annulation mal lue — le
 contexte part dans `mention_annulation`. Une mention expliquée n'y est pas

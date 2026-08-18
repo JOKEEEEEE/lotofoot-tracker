@@ -190,6 +190,54 @@ def test_grille_non_reglee_n_est_pas_terminee():
         "une grille non réglée ne doit pas être enregistrée comme terminée")
 
 
+def test_cellule_sans_score_vaut_annulation():
+    """Cellule vide ou portant « i » : match annulé, gagnant pour tous.
+
+    Relevé sur les grilles 1152, 1749, 1751 et 3580, et vérifié sur le site.
+    Ces grilles se règlent normalement, avec des rangs sur 7 matchs : ces
+    lignes ont donc bien compté, comme des matchs annulés.
+    """
+    for contenu in ("", "i"):
+        html = FIXTURE.read_text(encoding="utf-8").replace(
+            '<span class="sc-jAZUkk sc-ccHeIS jAoxrH iuBVCj">Zeta AC</span></div>',
+            '<span class="sc-jAZUkk sc-ccHeIS jAoxrH iuBVCj">Zeta AC</span>'
+            f'<span class="sc-jYPihs dyByel">{contenu}</span></div>')
+        data = _grille_depuis_html(html)
+
+        assert data is not None, contenu
+        assert len(data["matches"]) == 3, (contenu, data["matches"])
+        assert data.get("lignes_ignorees", []) == [], (contenu, data.get("lignes_ignorees"))
+        annule = data["matches"][2]
+        assert annule["resultat"] == sg.RESULTAT_ANNULE, annule
+        assert annule["tous_gagnants"] is True, annule
+        assert annule["score_home"] is None and annule["score_away"] is None, annule
+        # D'où vient la conclusion : une cellule vide n'a pas la force d'un
+        # « Annulé » écrit noir sur blanc, et le JSON doit le dire.
+        assert annule["annulation_deduite_de"] == (contenu or "cellule vide"), annule
+
+
+def test_aucun_score_nulle_part_n_annule_pas_la_grille():
+    """Le garde-fou : sans un seul vrai score, on ne conclut rien.
+
+    Relevé sur la grille 1848 : sept lignes, les équipes se lisent, et AUCUNE
+    cellule de score dans le DOM — Winamax n'a pas conservé les scores de
+    cette grille. Sans garde-fou, la règle ci-dessus en aurait fait sept
+    matchs annulés « gagnants pour tous », c'est-à-dire sept résultats
+    inventés dans une base destinée à une étude.
+
+    Le même piège se refermerait si la classe de la cellule changeait au
+    prochain redéploiement du site : toutes les grilles deviendraient
+    annulées, silencieusement. Une panne doit rester bruyante.
+    """
+    html = FIXTURE.read_text(encoding="utf-8")
+    for score in ('<span class="sc-jYPihs dyByel">3 - 3</span>',
+                  '<span class="sc-zzzzzz apresRedeploiement">0 - 1</span>'):
+        html = html.replace(score, '<span class="sc-jYPihs dyByel"></span>')
+
+    assert _grille_depuis_html(html) is None, (
+        "sans aucun score lisible, la grille ne doit pas être enregistrée")
+
+
 if __name__ == "__main__":
     echecs = 0
     for nom, fonction in sorted(globals().items()):

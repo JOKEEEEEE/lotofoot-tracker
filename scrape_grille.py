@@ -213,6 +213,20 @@ def _match_annule(row) -> bool:
     return "annul" in _sans_accents(row.inner_text() or "")
 
 
+def _cellule_score(row):
+    """Le texte brut de la cellule de score, ou None si elle n'existe pas.
+
+    None et chaîne vide ne disent PAS la même chose. Pas de cellule du tout,
+    c'est un sélecteur qui ne matche plus ; une cellule présente mais vide,
+    c'est la page qui n'a rien à y mettre. Confondre les deux ferait passer
+    une panne de sélecteur pour une grille entièrement annulée.
+    """
+    cellule = row.locator(SEL_SCORE)
+    if cellule.count() != 1:
+        return None
+    return (cellule.inner_text() or "").strip()
+
+
 def _score_de_row(row):
     """Le score d'une ligne du DOM : l'élément dédié d'abord, le texte ensuite.
 
@@ -314,7 +328,7 @@ def scrape_grille(page, grille_type: str, grille_id: int):
         print(f"  [{grille_type}-{grille_id}] pas encore terminée")
         return None
 
-    matches, lignes_ignorees = [], []
+    matches, lignes_ignorees, candidats_annules = [], [], []
     rows = page.locator(SEL_MATCH_ROW)
     for i in range(rows.count()):
         texte = rows.nth(i).inner_text() or ""
@@ -343,8 +357,24 @@ def scrape_grille(page, grille_type: str, grille_id: int):
 
         score = _score_de_row(rows.nth(i))
         if score is None:
-            lignes_ignorees.append({"ligne": i, "motif": "score introuvable ou ambigu",
-                                    "texte": texte[:120]})
+            # UNE CELLULE PRÉSENTE MAIS SANS SCORE LISIBLE — vide, ou portant
+            # l'icône « i » — signale un match annulé : Winamax le donne alors
+            # gagnant sur les trois issues. Relevé sur les grilles 1152, 1749,
+            # 1751 et 3580, et confirmé sur le site.
+            #
+            # MAIS ON NE CONCLUT PAS TOUT DE SUITE. Si la classe de la cellule
+            # changeait au prochain redéploiement, ou si la page n'avait pas
+            # fini de se peindre, TOUTES les lignes tomberaient ici et la
+            # grille entière deviendrait « annulée » — une base pleine de faux
+            # là où on attendait une panne bruyante. La décision est donc
+            # différée : voir plus bas, elle exige qu'au moins un vrai score
+            # ait été lu sur cette grille.
+            brut = _cellule_score(rows.nth(i))
+            if brut is not None:
+                candidats_annules.append((i, dom_nom, ext_nom, brut))
+            else:
+                lignes_ignorees.append({"ligne": i, "motif": "aucune cellule de score",
+                                        "texte": texte[:120]})
             continue
         dom, ext = score
         matches.append({
@@ -374,6 +404,34 @@ def scrape_grille(page, grille_type: str, grille_id: int):
             "nombre_gagnants": nombre,
             "montant": _parse_montant((cellules.nth(2).inner_text() or "").strip()),
         })
+
+    # LE VERDICT SUR LES CELLULES SANS SCORE, une fois la grille entière lue.
+    # Au moins un vrai score ailleurs prouve que les sélecteurs fonctionnent et
+    # que la page était peinte : une cellule vide au milieu de scores lisibles
+    # veut donc bien dire ce qu'elle a l'air de dire. Sans ce témoin, on ne
+    # tranche pas — les lignes repartent en écartées, et le silence devient
+    # visible au lieu de se déguiser en donnée.
+    if candidats_annules:
+        if matches:
+            for rang, dom_nom, ext_nom, brut in candidats_annules:
+                matches.append({
+                    "home": dom_nom, "away": ext_nom,
+                    "score_home": None, "score_away": None,
+                    "resultat": RESULTAT_ANNULE, "tous_gagnants": True,
+                    # D'où vient la conclusion : « Annulé » écrit noir sur
+                    # blanc n'a pas la même force qu'une cellule vide. Le jour
+                    # où une cellule vide voudra dire autre chose, elles se
+                    # retrouvent toutes d'une recherche.
+                    "annulation_deduite_de": brut or "cellule vide",
+                })
+            print(f"    {len(candidats_annules)} match(s) sans score lisible, "
+                  f"annulé(s) — {matches[-1]['annulation_deduite_de']!r}")
+        else:
+            for rang, dom_nom, ext_nom, brut in candidats_annules:
+                lignes_ignorees.append({
+                    "ligne": rang, "motif": "cellule de score sans score lisible, "
+                                            "et aucun score valide ailleurs sur la grille",
+                    "texte": f"{dom_nom} - {ext_nom} [{brut!r}]"[:120]})
 
     montant = None
     m = re.search(r"montant distribue\s*:?\s*([\d\s  .,]+)", plie)
