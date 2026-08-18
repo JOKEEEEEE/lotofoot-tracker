@@ -341,28 +341,104 @@ def diagnostic_dump(page, grille_type: str, grille_id: int):
     print("\n  Si un sélecteur est à zéro, ne pas deviner : envoyer le fichier HTML.\n")
 
 
-def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0)):
+def _chemin_grille(grille_type: str, grille_id: int) -> Path:
+    return DATA_DIR / grille_type / f"{grille_id}.json"
+
+
+def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0),
+              lot: int = 0, pause_lot: tuple = (90.0, 240.0),
+              arret_erreurs: int = 5, arret_absences: int = 40,
+              refaire: bool = False):
+    """Un lot de grilles, interruptible et reprenable.
+
+    TROIS GARDE-FOUS, parce qu'un lot de plusieurs milliers d'identifiants ne
+    se surveille pas à l'œil pendant des heures.
+
+    1. CE QUI EST DÉJÀ EN BASE N'EST PAS REDEMANDÉ. Une grille terminée ne
+       change plus : la relire coûterait une requête pour un fichier
+       identique. C'est aussi ce qui rend une reprise gratuite — relancer la
+       même commande ne refait que ce qui manque. `refaire=True` force.
+
+    2. UNE SÉRIE D'ERREURS ARRÊTE TOUT. La version d'origine comptait les
+       erreurs et continuait : si le site coupait à la centième grille, les
+       quatre mille suivantes défilaient en pure perte, et le bilan final
+       n'aurait dit qu'un grand nombre. On s'arrête au bout de
+       `arret_erreurs` erreurs d'affilée, en disant où reprendre.
+
+    3. UNE SÉRIE D'ABSENCES ARRÊTE AUSSI. Descendre jusqu'au début des
+       archives finit forcément par ne plus rien trouver. Mais un blocage
+       renvoyant une page vide ressemble EXACTEMENT à une fin d'archive :
+       les deux se traitent donc pareil, arrêt et vérification humaine.
+       Continuer serait choisir la plus optimiste des deux lectures.
+
+    Les compteurs se remettent à zéro dès qu'une grille passe : ce sont bien
+    des séries consécutives, pas des totaux.
+    """
+    ok = absentes = erreurs = deja = 0
+    erreurs_suite = absences_suite = 0
+    motif_arret, rang_arret = None, len(ids)
+
     with sync_playwright() as p:
         nav = p.chromium.launch(headless=True)
         page = nav.new_page(locale="fr-FR", timezone_id="Europe/Paris")
-        ok = ignorees = erreurs = 0
+        demandees = 0                        # grilles réellement allées chercher
         for rang, gid in enumerate(ids):
+            if not refaire and _chemin_grille(grille_type, gid).exists():
+                deja += 1
+                continue                     # aucune requête, donc aucune attente
+
             print(f"[{grille_type}-{gid}]")
             try:
                 data = scrape_grille(page, grille_type, gid)
-            except Exception as e:                       # noqa: BLE001
+            except Exception as e:           # noqa: BLE001
                 print(f"  ERREUR {type(e).__name__} : {str(e)[:120]}")
                 erreurs += 1
-                continue
-            if data is None:
-                ignorees += 1
+                erreurs_suite += 1
+                absences_suite = 0
+                if erreurs_suite >= arret_erreurs:
+                    motif_arret = f"{erreurs_suite} erreurs d'affilée"
+                    rang_arret = rang
+                    break
             else:
-                save_grille(data)
-                ok += 1
-            if rang < len(ids) - 1:                      # pas d'attente après la dernière
+                if data is None:
+                    absentes += 1
+                    absences_suite += 1
+                    if absences_suite >= arret_absences:
+                        motif_arret = (f"{absences_suite} grilles introuvables d'affilée — "
+                                       f"soit les archives s'arrêtent ici, soit l'accès est "
+                                       f"coupé. Ouvrir une URL dans un navigateur pour trancher")
+                        rang_arret = rang
+                        break
+                else:
+                    save_grille(data)
+                    ok += 1
+                    absences_suite = 0
+                erreurs_suite = 0
+
+            demandees += 1
+            if rang == len(ids) - 1:
+                continue                     # pas d'attente après la dernière
+            if lot and demandees % lot == 0:
+                repos = random.uniform(*pause_lot)
+                print(f"  --- lot de {lot} terminé, pause de {repos / 60:.1f} min ---")
+                time.sleep(repos)
+            else:
                 time.sleep(random.uniform(*pause))
         nav.close()
-        print(f"\nBilan : {ok} sauvée(s), {ignorees} ignorée(s), {erreurs} en erreur.")
+
+    print(f"\nBilan : {ok} sauvée(s), {deja} déjà en base, "
+          f"{absentes} introuvable(s), {erreurs} en erreur.")
+
+    restants = ids[rang_arret:] if motif_arret else []
+    if motif_arret:
+        print(f"\nARRÊT : {motif_arret}.")
+        print(f"Il reste {len(restants)} identifiant(s), de {restants[0]} à {restants[-1]}.")
+        print("Reprendre avec :")
+        print(f"  python scrape_grille.py --type {grille_type} "
+              f"--from-id {restants[0]} --to-id {restants[-1]}")
+        print("Ce qui est déjà en base ne sera pas redemandé.")
+        return 1
+    return 0
 
 
 def main() -> int:
@@ -373,7 +449,23 @@ def main() -> int:
     ap.add_argument("--ids", type=str, help="ex: 4168,4167,4166")
     ap.add_argument("--diagnostic", type=int, metavar="ID",
                     help="dump + rapport de sélecteurs sur un seul ID (à faire en premier)")
+    ap.add_argument("--lot", type=int, default=0, metavar="N",
+                    help="pause longue toutes les N grilles (0 = pas de lots)")
+    ap.add_argument("--pause", type=float, nargs=2, default=[3.0, 6.0],
+                    metavar=("MIN", "MAX"), help="attente entre deux grilles, en secondes")
+    ap.add_argument("--pause-lot", type=float, nargs=2, default=[90.0, 240.0],
+                    metavar=("MIN", "MAX"), help="attente entre deux lots, en secondes")
+    ap.add_argument("--arret-erreurs", type=int, default=5, metavar="N",
+                    help="arrêter après N erreurs d'affilée")
+    ap.add_argument("--arret-absences", type=int, default=40, metavar="N",
+                    help="arrêter après N grilles introuvables d'affilée")
+    ap.add_argument("--refaire", action="store_true",
+                    help="redemander aussi les grilles déjà en base")
     args = ap.parse_args()
+
+    reglages = dict(pause=tuple(args.pause), lot=args.lot, pause_lot=tuple(args.pause_lot),
+                    arret_erreurs=args.arret_erreurs, arret_absences=args.arret_absences,
+                    refaire=args.refaire)
 
     # `is not None` et non la valeur : un ID valant 0 est faux en booléen et
     # aurait fait tomber la commande dans la branche d'erreur.
@@ -385,11 +477,24 @@ def main() -> int:
             nav.close()
         return 0
     if args.ids:
-        return run_batch(args.type, [int(x) for x in args.ids.split(",")]) or 0
+        return run_batch(args.type, [int(x) for x in args.ids.split(",")], **reglages)
     if args.from_id is not None and args.to_id is not None:
+        # UN INTERVALLE DÉCROISSANT EST UNE DEMANDE, PAS UNE FAUTE DE FRAPPE.
+        # Le garde-fou d'avant refusait --from-id 4170 --to-id 1, alors que
+        # commencer par les grilles récentes est le sens naturel d'un
+        # rattrapage : ce qui vient d'être joué intéresse plus que 2011, et si
+        # le lot s'interrompt, on s'est arrêté au bon bout. Le défaut qu'on
+        # voulait éviter était un lot vide EN SILENCE : le sens du parcours est
+        # donc annoncé, et il n'y a plus rien de muet.
         if args.to_id < args.from_id:
-            ap.error("--to-id est inférieur à --from-id : l'intervalle serait vide.")
-        return run_batch(args.type, list(range(args.from_id, args.to_id + 1))) or 0
+            ids = list(range(args.from_id, args.to_id - 1, -1))
+            print(f"Parcours décroissant : {args.from_id} vers {args.to_id}, "
+                  f"{len(ids)} identifiant(s).")
+        else:
+            ids = list(range(args.from_id, args.to_id + 1))
+            print(f"Parcours croissant : {args.from_id} vers {args.to_id}, "
+                  f"{len(ids)} identifiant(s).")
+        return run_batch(args.type, ids, **reglages)
     ap.error("Utiliser --diagnostic ID, --ids a,b,c, ou --from-id X --to-id Y")
     return 2
 

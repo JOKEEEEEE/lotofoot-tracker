@@ -160,11 +160,102 @@ colle les textes de deux balises voisines et cassait la recherche de « Montant
 distribué » ; `--diagnostic 0` tombait dans la branche d'erreur parce que zéro
 est faux en booléen ; un intervalle inversé produisait un lot vide en silence.
 
+## Collecter tout l'historique
+
+### D'abord sonder, avant d'engager une nuit entière
+
+**Rien ne dit que les archives descendent jusqu'à l'identifiant 1.** Dix
+requêtes, une minute, et on connaît la borne au lieu de la supposer :
+
+```bash
+python scrape_grille.py --ids 4000,3500,3000,2500,2000,1500,1000,500,100,1
+```
+
+Chaque identifiant introuvable est annoncé. Là où ça s'arrête de répondre, on
+tient le plancher réel — et peut-être dix heures de requêtes évitées.
+
+### Puis descendre, par lots
+
+```bash
+python scrape_grille.py --from-id 4170 --to-id 1 --lot 50 --pause-lot 120 300
+```
+
+Le sens décroissant n'est pas cosmétique : les grilles récentes sont celles qui
+comptent le plus, et si le lot s'interrompt on s'est arrêté du bon côté.
+
+| Réglage | Défaut | Ce qu'il fait |
+|---|---|---|
+| `--pause MIN MAX` | 3 6 | attente entre deux grilles, tirée au hasard |
+| `--lot N` | 0 | pause longue toutes les N grilles |
+| `--pause-lot MIN MAX` | 90 240 | durée de cette pause longue |
+| `--arret-erreurs N` | 5 | arrêt après N erreurs d'affilée |
+| `--arret-absences N` | 40 | arrêt après N grilles introuvables d'affilée |
+| `--refaire` | — | redemander aussi ce qui est déjà en base |
+
+### La reprise est gratuite, donc il n'y a rien à noter
+
+**Une grille déjà en base n'est jamais redemandée** — aucune requête, aucune
+attente. Relancer exactement la même commande après une coupure reprend là où
+ça s'était arrêté, sans qu'on ait à retenir quoi que ce soit. C'est aussi ce qui
+rend un `Ctrl+C` sans conséquence.
+
+Et quand un arrêt se déclenche, la commande de reprise est imprimée, prête à
+coller.
+
+### Deux arrêts, pour deux dangers différents
+
+**Cinq erreurs d'affilée arrêtent tout.** Sans ça, un site qui coupe à la
+centième grille laisserait les quatre mille suivantes défiler en pure perte, et
+le bilan final ne dirait qu'un grand nombre.
+
+**Quarante absences d'affilée arrêtent aussi.** Descendre jusqu'au début des
+archives finit par ne plus rien trouver — mais un blocage qui renvoie une page
+vide ressemble *exactement* à une fin d'archive. Les deux se traitent donc
+pareil : arrêt, et vérification humaine dans un navigateur. Continuer
+reviendrait à choisir la plus optimiste des deux lectures.
+
+Les compteurs se remettent à zéro dès qu'une grille passe : ce sont des séries
+consécutives, pas des totaux.
+
+### Compter en nuits, pas en heures
+
+À rythme poli, chaque grille coûte une dizaine de secondes, chargement compris.
+Pour 4 170 grilles :
+
+| | Durée |
+|---|---|
+| Requêtes et attentes courtes | ~11 h |
+| Pauses de lot (`--lot 50 --pause-lot 120 300`) | ~5 h |
+| **Total** | **~16 h** |
+
+C'est un travail de plusieurs nuits, pas d'une soirée. Découper est plus
+confortable, et la reprise étant gratuite, ça ne coûte rien :
+
+```bash
+python scrape_grille.py --from-id 4170 --to-id 3670 --lot 50 --pause-lot 120 300
+```
+
+Cinq cents grilles font environ deux heures. Le lendemain, on décale la fenêtre.
+
+### Ce que l'aléatoire ne fait pas
+
+Les attentes tirées au hasard évitent la signature d'un métronome et étalent la
+charge. **Elles ne dissimulent pas le volume.** Quatre mille pages depuis une
+seule IP restent quatre mille pages, quel que soit l'espacement, et personne ne
+devrait se convaincre du contraire en lisant ce README.
+
+Ce qui protège réellement, c'est le reste : une seule requête à la fois, un
+rythme lent, aucune authentification en jeu — ce sont des pages publiques, donc
+il n'y a pas de compte à suspendre — et un arrêt propre au premier signe de
+refus plutôt qu'un acharnement. Le risque résiduel est un blocage d'IP
+temporaire, et il se constate au lieu de se subir.
+
 ## Ce qui est testé, et ce qui ne l'est pas
 
 ```bash
 python test_parsing.py        # fonctions pures, aucune dépendance
 python test_selecteurs.py     # sélecteurs rejoués sur une page figée
+python test_lot.py            # reprise et arrêts d'un lot, sans réseau
 ```
 
 `test_selecteurs.py` rejoue le vrai `scrape_grille()` sur `fixture_grille.html`,
