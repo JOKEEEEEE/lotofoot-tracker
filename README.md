@@ -112,6 +112,22 @@ colle les textes de deux balises voisines et cassait la recherche de « Montant
 distribué » ; `--diagnostic 0` tombait dans la branche d'erreur parce que zéro
 est faux en booléen ; un intervalle inversé produisait un lot vide en silence.
 
+## Ce qui est testé, et ce qui ne l'est pas
+
+```bash
+python test_parsing.py        # ou : pytest test_parsing.py
+```
+
+Trente-quatre cas sur les trois fonctions pures — les montants dans cinq
+espaces et deux conventions décimales, la lecture du score, le pliage des
+accents. Chacun a été vérifié contre le défaut d'origine qu'il couvre : en
+remettant l'ancienne version de la fonction, le test correspondant casse. Un
+test qui ne casse jamais ne teste rien.
+
+**Cela ne dit rien du scraping.** Les sélecteurs CSS restent non validés, et
+aucun test ne peut les couvrir sans accès au site. Le vert ici ne vaut que
+pour l'analyse de texte.
+
 ## Conditions d'utilisation
 
 L'accès automatisé est probablement contraire aux CGU de Winamax. L'usage ici
