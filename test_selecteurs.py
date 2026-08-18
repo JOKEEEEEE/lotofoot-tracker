@@ -88,14 +88,21 @@ def test_rapports_et_montant():
     assert abs(somme - data["montant_distribue"]) < 1.0, (somme, data["montant_distribue"])
 
 
-def test_un_match_annule_ne_condamne_pas_la_grille():
-    """UN match annulé n'est pas UNE grille annulée.
+def test_un_match_annule_devient_un_match_a_part_entiere():
+    """UN match annulé n'est pas UNE grille annulée, ni une ligne illisible.
 
-    C'est le piège que la grille 4170 a révélé. Un forfait ou un report écrit
-    « Annulé » sur une ligne, dans une page par ailleurs normale. Le code
-    concluait alors « grille annulée » et rendait des listes vides : six
-    scores parfaitement lisibles partaient à la poubelle sous une étiquette
-    fausse, et rien dans le JSON n'aurait permis de s'en apercevoir.
+    Relevé sur la grille 4170 : Celta Vigo - Osasuna, cellule de score
+    « Annulé ». Deux erreurs se sont succédé sur ce cas.
+
+    La première jetait toute la grille : le mot « annulé » était cherché dans
+    la page entière avant qu'on ait regardé les matchs, et six scores
+    parfaitement lisibles partaient sous une étiquette fausse.
+
+    La seconde, plus discrète, rangeait cette ligne parmi les lignes écartées
+    faute de score. On y perdait les deux équipes, et surtout on confondait
+    « pas de score parce que tout le monde a gagné » avec « pas de score
+    parce qu'on n'a pas su lire ». La première est une donnée, la seconde un
+    aveu d'échec.
     """
     html = FIXTURE.read_text(encoding="utf-8").replace(
         '<span class="sc-jAZUkk sc-ccHeIS jAoxrH iuBVCj">Zeta AC</span></div>',
@@ -105,12 +112,37 @@ def test_un_match_annule_ne_condamne_pas_la_grille():
 
     assert data is not None, "grille perdue à cause d'une seule ligne annulée"
     assert data["statut"] == sg.STATUT_TERMINEE, data["statut"]
+    assert len(data["matches"]) == 3, data["matches"]
+    assert data.get("lignes_ignorees", []) == [], data.get("lignes_ignorees")
+
+    annule = data["matches"][2]
+    assert annule["home"] == "Epsilon" and annule["away"] == "Zeta AC", annule
+    assert annule["resultat"] == sg.RESULTAT_ANNULE, annule
+    assert annule["tous_gagnants"] is True, annule
+    # Pas de score inventé : ni 0-0, ni un 1/N/2 arbitraire.
+    assert annule["score_home"] is None and annule["score_away"] is None, annule
+
+    # La mention de la page est expliquée par ce match : la signaler en plus
+    # noierait le seul cas qui mérite un coup d'œil.
+    assert "mention_annulation" not in data, data
+
+
+def test_mention_inexpliquee_est_signalee():
+    """« annul » sans aucun match annulé : là, il faut regarder.
+
+    Le test porte sur toute la page — un bouton « Annuler » d'une bannière
+    cookies suffirait. On ne peut pas resserrer le motif sans avoir vu le
+    cas, alors on garde le contexte pour qu'un faux positif se voie au lieu
+    de se fondre dans la base.
+    """
+    html = FIXTURE.read_text(encoding="utf-8").replace(
+        "<body>", "<body><button>Annuler</button>")
+    data = _grille_depuis_html(html)
+
+    assert data["statut"] == sg.STATUT_TERMINEE, data["statut"]
     assert len(data["matches"]) == 2, data["matches"]
-    # La mention reste une information : elle est conservée, pas effacée.
     assert "mention_annulation" in data, data
     assert "annul" in data["mention_annulation"]
-    # Et la ligne sans score reste signalée plutôt que devinée.
-    assert len(data["lignes_ignorees"]) == 1, data["lignes_ignorees"]
 
 
 def test_grille_entierement_annulee_reste_enregistree():

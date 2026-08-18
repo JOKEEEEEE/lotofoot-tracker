@@ -87,6 +87,11 @@ SEL_SCORE = "[class*='sc-jYPihs']"
 # lettre collée.
 RE_SCORE = re.compile(r"(?<!\d)(\d{1,2})\s*[-–]\s*(\d{1,2})(?!\d)")
 
+# Un match annulé — forfait, report — est donné gagnant sur les trois issues.
+# Ce n'est ni un 1, ni un N, ni un 2 : lui en attribuer un fausserait un futur
+# calcul Elo comme une étude de biais. Il lui faut sa propre valeur.
+RESULTAT_ANNULE = "annule"
+
 STATUT_TERMINEE = "terminee"
 STATUT_EN_COURS = "en_cours"
 STATUT_ANNULEE = "annulee"
@@ -155,6 +160,22 @@ def _score_de_ligne(texte: str):
     return plausibles[0]
 
 
+def _match_annule(row) -> bool:
+    """Le match de cette ligne a-t-il été annulé ?
+
+    Observé sur grille7-4170 : la cellule qui porte d'habitude « 3 - 0 »
+    contient « Annulé ». Le DOM le confirme d'une deuxième façon — sur une
+    ligne normale un seul des trois boutons 1/N/2 porte la classe des issues
+    gagnantes, sur celle-ci les trois la portent. On lit quand même le texte
+    plutôt que ces classes : « Annulé » restera écrit ainsi au prochain
+    redéploiement du site, « hsGWid » non.
+    """
+    cellule = row.locator(SEL_SCORE)
+    if cellule.count() == 1:
+        return "annul" in _sans_accents(cellule.inner_text() or "")
+    return "annul" in _sans_accents(row.inner_text() or "")
+
+
 def _score_de_row(row):
     """Le score d'une ligne du DOM : l'élément dédié d'abord, le texte ensuite.
 
@@ -204,20 +225,37 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     rows = page.locator(SEL_MATCH_ROW)
     for i in range(rows.count()):
         texte = rows.nth(i).inner_text() or ""
-        score = _score_de_row(rows.nth(i))
-        if score is None:
-            lignes_ignorees.append({"ligne": i, "motif": "score introuvable ou ambigu",
-                                    "texte": texte[:120]})
-            continue
         equipes = rows.nth(i).locator(SEL_TEAM_NAME)
         if equipes.count() < 2:
             lignes_ignorees.append({"ligne": i, "motif": f"{equipes.count()} équipe(s) lue(s)",
                                     "texte": texte[:120]})
             continue
+        dom_nom = (equipes.nth(0).inner_text() or "").strip()
+        ext_nom = (equipes.nth(1).inner_text() or "").strip()
+
+        # L'ANNULATION SE TESTE AVANT LE SCORE, sinon ce match partirait dans
+        # les lignes écartées faute de score lisible. Ce serait dommage deux
+        # fois : on perdrait les deux équipes, et surtout on confondrait « pas
+        # de score parce que tout le monde a gagné » avec « pas de score parce
+        # qu'on n'a pas su lire ». La première est une donnée, la seconde un
+        # aveu d'échec, et une base ne peut pas les ranger au même endroit.
+        if _match_annule(rows.nth(i)):
+            matches.append({
+                "home": dom_nom, "away": ext_nom,
+                "score_home": None, "score_away": None,
+                "resultat": RESULTAT_ANNULE, "tous_gagnants": True,
+            })
+            print(f"    match annulé : {dom_nom} - {ext_nom} (toutes issues gagnantes)")
+            continue
+
+        score = _score_de_row(rows.nth(i))
+        if score is None:
+            lignes_ignorees.append({"ligne": i, "motif": "score introuvable ou ambigu",
+                                    "texte": texte[:120]})
+            continue
         dom, ext = score
         matches.append({
-            "home": (equipes.nth(0).inner_text() or "").strip(),
-            "away": (equipes.nth(1).inner_text() or "").strip(),
+            "home": dom_nom, "away": ext_nom,
             "score_home": dom, "score_away": ext,
             # 1/N/2 déduit du SCORE, jamais d'un indice visuel : les classes de
             # couleur changent à chaque redéploiement du site.
@@ -262,12 +300,19 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     # annulée : la présence de matchs prime sur la présence d'un mot. La
     # mention est conservée à part, parce qu'elle reste une information — et
     # parce qu'un jour elle signalera peut-être une vraie annulation.
+    indice = None
     if matches:
-        if mention_annul:
+        # UNE MENTION EXPLIQUÉE N'EST PLUS UN SIGNAL. Si un match annulé a été
+        # relevé, le mot « annulé » dans la page est justement son fait : le
+        # noter en plus noierait le seul cas qui mérite un coup d'œil, celui
+        # d'une mention qu'aucun match n'explique — un bouton de bannière, ou
+        # une vraie annulation qu'on aurait mal lue.
+        explique = any(m["resultat"] == RESULTAT_ANNULE for m in matches)
+        if mention_annul and not explique:
             pos = plie.find("annul")
             indice = " ".join(plie[max(0, pos - 60):pos + 60].split())
-            print(f"    mention d'annulation dans la page, {len(matches)} match(s) "
-                  f"extrait(s) quand même — conservée dans le JSON")
+            print(f"    mention d'annulation inexpliquée, {len(matches)} match(s) "
+                  f"extrait(s) — conservée dans le JSON")
     elif mention_annul:
         # Aucun match lisible ET le mot est là : c'est le cas où l'annulation
         # de toute la liste est l'explication la plus probable. Winamax annule
@@ -295,7 +340,7 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     # LES LIGNES ÉCARTÉES VOYAGENT AVEC LA GRILLE. Les taire donnerait un JSON
     # d'apparence complète auquel il manque un match, et personne ne s'en
     # apercevrait en relisant le fichier six mois plus tard.
-    if mention_annul:
+    if indice:
         resultat["mention_annulation"] = indice
     if lignes_ignorees:
         resultat["lignes_ignorees"] = lignes_ignorees

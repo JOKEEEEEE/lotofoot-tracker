@@ -119,19 +119,40 @@ Un fichier par grille, `data/grilles/{type}/{id}.json` :
   "grille_id": 4168, "grille_type": "grille7",
   "statut": "terminee",
   "matches": [{"home": "...", "away": "...", "score_home": 2,
-               "score_away": 1, "resultat": "1"}],
+               "score_away": 1, "resultat": "1"},
+              {"home": "...", "away": "...", "score_home": null,
+               "score_away": null, "resultat": "annule",
+               "tous_gagnants": true}],
   "rapports": [{"rang": "7/7", "nombre_gagnants": 3, "montant": 12345.6}],
   "montant_distribue": 45678.9
 }
 ```
 
-**Un match annulé n'est pas une grille annulée.** Un forfait ou un report écrit
-« Annulé » sur une ligne, dans une page par ailleurs normale — c'est le cas de
-la grille 4170. La version précédente concluait « grille annulée » dès que le
-mot apparaissait quelque part et rendait des listes vides : six scores lisibles
-partaient à la poubelle sous une étiquette fausse. La décision se prend
-désormais **après** l'extraction — une grille dont on a su extraire des matchs
-n'est pas annulée, et la mention est conservée à part dans `mention_annulation`.
+**Un match annulé n'est pas une grille annulée, ni une ligne illisible.** La
+grille 4170 en contient un : Celta Vigo – Osasuna, dont la cellule de score
+affiche « Annulé » — forfait ou report, l'issue est donnée gagnante pour tout le
+monde. Le DOM le confirme deux fois : sur une ligne normale un seul des trois
+boutons 1/N/2 porte la classe des issues gagnantes, sur celle-là les trois la
+portent.
+
+Ce cas a fait tomber deux versions successives. La première jetait la grille
+entière : le mot « annulé » était cherché dans toute la page avant même qu'on
+ait regardé les matchs, et six scores lisibles partaient sous une étiquette
+fausse. La seconde, plus discrète, rangeait la ligne parmi les `lignes_ignorees`
+faute de score — on y perdait les deux équipes, et surtout on confondait « pas
+de score parce que tout le monde a gagné » avec « pas de score parce qu'on n'a
+pas su lire ». La première est une donnée, la seconde un aveu d'échec ; une base
+ne peut pas les ranger au même endroit.
+
+Le match annulé est donc un match à part entière, avec ses deux équipes,
+`resultat: "annule"`, `tous_gagnants: true` et **aucun score inventé**. Ni 0-0,
+ni un 1/N/2 arbitraire : lui attribuer une issue fausserait un futur calcul Elo
+comme une étude de biais.
+
+Quand le mot « annulé » apparaît dans la page **sans qu'aucun match ne
+l'explique** — un bouton de bannière, ou une vraie annulation mal lue — le
+contexte part dans `mention_annulation`. Une mention expliquée n'y est pas
+notée : elle noierait le seul cas qui mérite un coup d'œil.
 
 `statut` vaut `terminee` ou `annulee`. **Une grille annulée est enregistrée**,
 avec ses listes vides : Winamax annule une liste quand trop de matchs sont
