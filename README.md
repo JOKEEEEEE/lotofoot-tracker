@@ -272,8 +272,18 @@ copies du même match. Deux grilles différentes ne partagent pas sept matchs
 ### Après chaque nuit, auditer
 
 ```bash
-python verifier_base.py
+python verifier_base.py --rapport
 ```
+
+L'écran donne la forme du problème, le fichier permet de le traiter. Sur quatre
+mille grilles, un terminal tronqué à quarante lignes ne sert à rien — le rapport
+complet part dans `diagnostic/audit.txt` (dossier déjà ignoré par git), sans
+troncature, avec la liste intégrale des trous.
+
+Il finit par **les commandes de reprise, prêtes à coller** : les identifiants à
+recollecter, groupés par motif. Un audit qui liste des problèmes sans dire par
+quelle commande les reprendre laisse le travail à moitié fait, et recopier des
+identifiants à la main est exactement le genre de tâche où l'on en oublie un.
 
 À trois grilles on relit les fichiers à l'œil ; à cinq cents, non — et c'est
 précisément là qu'une erreur d'extraction devient invisible, parce qu'elle ne se

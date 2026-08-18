@@ -29,6 +29,12 @@ DATA_DIR = Path(__file__).parent / "data" / "grilles"
 # trou dans une zone collectée mais une plage qu'on n'a pas encore demandée.
 SEUIL_TROU = 20
 
+# CE QUI EST TRONQUÉ À L'ÉCRAN NE L'EST PAS DANS LE RAPPORT. Un terminal qui
+# déroule quatre mille lignes ne se lit pas ; un fichier, si. L'écran donne la
+# forme du problème, le fichier permet de le traiter.
+ECRAN_ANOMALIES = 40
+ECRAN_TROUS = 20
+
 # L'ARRONDI SE FAIT PAR GAGNANT, PAS SUR LE TOTAL — et c'est toute la
 # différence. Winamax divise la part d'un rang par le nombre de gagnants puis
 # arrondit au centime : chaque gagnant emporte jusqu'à un demi-centime de trop
@@ -51,6 +57,13 @@ def _plafond_arrondi(nombre_gagnants: int) -> float:
 
 def _anomalie(liste, gid, quoi, detail=""):
     liste.append((gid, quoi, detail))
+
+
+def _dire(rapport, texte="", ecran=True):
+    """Une ligne : toujours dans le rapport, à l'écran seulement si demandé."""
+    rapport.append(texte)
+    if ecran:
+        print(texte)
 
 
 def verifier_grille(d: dict, anomalies: list):
@@ -116,15 +129,16 @@ def verifier_grille(d: dict, anomalies: list):
                   f"pour un plafond d'arrondi de {plafond:.2f} ({gagnants} gagnants)")
 
 
-def verifier_type(grille_type: str) -> int:
+def verifier_type(grille_type: str, rapport: list) -> int:
     dossier = DATA_DIR / grille_type
     fichiers = sorted(dossier.glob("*.json"), key=lambda f: int(f.stem))
     if not fichiers:
-        print(f"  {grille_type} : aucun fichier")
+        _dire(rapport, f"  {grille_type} : aucun fichier")
         return 0
 
     anomalies, statuts, signatures = [], Counter(), {}
     ids, matchs_total, annules, ignorees, mentions = [], 0, 0, 0, 0
+    a_relire = {"lignes écartées": [], "mention d'annulation": []}
 
     for f in fichiers:
         try:
@@ -137,8 +151,12 @@ def verifier_type(grille_type: str) -> int:
         statuts[d.get("statut", "?")] += 1
         matchs_total += len(d.get("matches", []))
         annules += sum(1 for m in d.get("matches", []) if m.get("resultat") == "annule")
-        ignorees += len(d.get("lignes_ignorees", []))
-        mentions += 1 if "mention_annulation" in d else 0
+        if d.get("lignes_ignorees"):
+            ignorees += len(d["lignes_ignorees"])
+            a_relire["lignes écartées"].append(d.get("grille_id"))
+        if "mention_annulation" in d:
+            mentions += 1
+            a_relire["mention d'annulation"].append(d.get("grille_id"))
         verifier_grille(d, anomalies)
 
         # DEUX GRILLES NE PARTAGENT PAS LEURS MATCHS. Si c'est le cas, le site
@@ -152,14 +170,16 @@ def verifier_type(grille_type: str) -> int:
             else:
                 signatures[cle] = d.get("grille_id")
 
-    print(f"\n=== {grille_type} : {len(fichiers)} fichier(s) ===")
-    print(f"  identifiants   : {min(ids)} à {max(ids)}")
-    print(f"  statuts        : {', '.join(f'{k} {v}' for k, v in statuts.most_common())}")
-    print(f"  matchs         : {matchs_total}  (dont {annules} annulé(s))")
+    _dire(rapport, f"\n=== {grille_type} : {len(fichiers)} fichier(s) ===")
+    _dire(rapport, f"  identifiants   : {min(ids)} à {max(ids)}")
+    _dire(rapport, f"  statuts        : "
+                   f"{', '.join(f'{k} {v}' for k, v in statuts.most_common())}")
+    _dire(rapport, f"  matchs         : {matchs_total}  (dont {annules} annulé(s))")
     if ignorees:
-        print(f"  lignes écartées: {ignorees}  <-- à relire, le scraper n'a pas su lire")
+        _dire(rapport, f"  lignes écartées: {ignorees}  <-- à relire, "
+                       f"le scraper n'a pas su lire")
     if mentions:
-        print(f"  mentions d'annulation inexpliquées : {mentions}  <-- à relire")
+        _dire(rapport, f"  mentions d'annulation inexpliquées : {mentions}  <-- à relire")
 
     # DEUX SORTES DE MANQUES, ET LES CONFONDRE REND LE RAPPORT INUTILE.
     #
@@ -186,21 +206,46 @@ def verifier_type(grille_type: str) -> int:
         else:
             non_explore += len(serie)
     if trous:
-        apercu = ", ".join(str(m) for m in trous[:20])
-        suite = f" … (+{len(trous) - 20})" if len(trous) > 20 else ""
+        apercu = ", ".join(str(m) for m in trous[:ECRAN_TROUS])
+        suite = f" … (+{len(trous) - ECRAN_TROUS})" if len(trous) > ECRAN_TROUS else ""
+        _dire(rapport, f"  trous          : {len(trous)} identifiant(s) dans une zone "
+                       f"collectée — {apercu}{suite}", ecran=False)
         print(f"  trous          : {len(trous)} identifiant(s) dans une zone collectée "
               f"— {apercu}{suite}")
+        rapport.append("  liste complète des trous :")
+        rapport.append("    " + ", ".join(str(m) for m in trous))
     if non_explore:
-        print(f"  non exploré    : {non_explore} identifiant(s) en plages jamais demandées")
+        _dire(rapport, f"  non exploré    : {non_explore} identifiant(s) en plages "
+                       f"jamais demandées")
+
+    # DE QUOI AGIR, PAS SEULEMENT CONSTATER. Un audit qui liste des problèmes
+    # sans dire par quelle commande les reprendre laisse le travail à moitié
+    # fait — et sur quatre mille grilles, recopier des identifiants à la main
+    # est exactement le genre de tâche où l'on en oublie un.
+    reprises = {motif: sorted(gids) for motif, gids in a_relire.items() if gids}
+    if trous:
+        reprises["trous"] = trous
+    if reprises:
+        rapport.append("\n  À REPRENDRE, commandes prêtes à coller :")
+        for motif, gids in reprises.items():
+            drapeau = "--refaire " if motif != "trous" else ""
+            rapport.append(f"    # {len(gids)} grille(s) — {motif}")
+            rapport.append(f"    python scrape_grille.py --type {grille_type} "
+                           f"{drapeau}--ids {','.join(str(g) for g in gids)}")
+        print(f"\n  À reprendre : "
+              + ", ".join(f"{len(g)} {motif}" for motif, g in reprises.items())
+              + " — commandes dans le rapport")
 
     if anomalies:
-        print(f"\n  {len(anomalies)} ANOMALIE(S) :")
-        for gid, quoi, detail in anomalies[:40]:
-            print(f"    [{gid}] {quoi}" + (f" — {detail}" if detail else ""))
-        if len(anomalies) > 40:
-            print(f"    … et {len(anomalies) - 40} autre(s)")
+        _dire(rapport, f"\n  {len(anomalies)} ANOMALIE(S) :")
+        for rang, (gid, quoi, detail) in enumerate(anomalies):
+            ligne = f"    [{gid}] {quoi}" + (f" — {detail}" if detail else "")
+            _dire(rapport, ligne, ecran=rang < ECRAN_ANOMALIES)
+        if len(anomalies) > ECRAN_ANOMALIES:
+            print(f"    … et {len(anomalies) - ECRAN_ANOMALIES} autre(s) "
+                  f"— tout est dans le rapport, voir --rapport")
     else:
-        print("  aucune anomalie")
+        _dire(rapport, "  aucune anomalie")
     return len(anomalies)
 
 
@@ -208,6 +253,10 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Audit des grilles collectées")
     ap.add_argument("--type", choices=["grille7", "grille9", "grille12"],
                     help="n'auditer qu'un type (défaut : tous)")
+    ap.add_argument("--rapport", nargs="?", const="diagnostic/audit.txt", default=None,
+                    metavar="FICHIER",
+                    help="écrire le rapport complet, sans troncature "
+                         "(défaut : diagnostic/audit.txt)")
     args = ap.parse_args()
 
     types = [args.type] if args.type else sorted(
@@ -216,8 +265,15 @@ def main() -> int:
         print("Aucune donnée dans data/grilles.")
         return 0
 
-    total = sum(verifier_type(t) for t in types)
-    print(f"\nTotal : {total} anomalie(s).")
+    rapport = []
+    total = sum(verifier_type(t, rapport) for t in types)
+    _dire(rapport, f"\nTotal : {total} anomalie(s).")
+
+    if args.rapport:
+        chemin = Path(args.rapport)
+        chemin.parent.mkdir(parents=True, exist_ok=True)
+        chemin.write_text("\n".join(rapport) + "\n", encoding="utf-8")
+        print(f"Rapport complet : {chemin}  ({len(rapport)} ligne(s))")
     return 1 if total else 0
 
 
