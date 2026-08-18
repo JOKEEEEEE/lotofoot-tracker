@@ -106,6 +106,12 @@ RESULTAT_ANNULE = "annule"
 # contre le risque de tout fausser.
 RESSOURCES_IGNOREES = {"image", "media", "font"}
 
+# Délai d'apparition des lignes de match, et second essai. Mesuré : sur 140
+# identifiants déclarés introuvables lors d'un grand lot, 117 sont revenus au
+# simple fait d'être redemandés — 84 %. Une absence n'était donc pas une
+# absence, c'était une lenteur. Voir _attendre_lignes().
+ATTENTE_LIGNES_MS = 10000
+
 REGLEMENT_ESSAIS = 5
 REGLEMENT_PAUSE_MS = 1000
 
@@ -228,6 +234,30 @@ def _score_de_row(row):
     return _score_de_ligne(row.inner_text() or "")
 
 
+def _attendre_lignes(page) -> bool:
+    """Les lignes de match sont-elles là ? Avec un second essai avant d'abandonner.
+
+    UNE PAGE ABSENTE ET UNE PAGE LENTE SE RESSEMBLENT EXACTEMENT : dans les
+    deux cas, aucune ligne n'apparaît et le site affiche « Chargement en
+    cours » indéfiniment. Rien ne permet de les distinguer sur un seul essai.
+
+    Mesuré : un lot de 3 669 identifiants a déclaré 140 grilles introuvables.
+    Redemandées telles quelles, 117 sont revenues — elles existaient toutes.
+    Un seul essai de plus valait 117 grilles.
+
+    On recharge donc une fois avant de conclure. Le coût ne tombe que sur les
+    pages qui semblent vides, c'est-à-dire presque jamais.
+    """
+    for essai in (1, 2):
+        try:
+            page.wait_for_selector(SEL_MATCH_ROW, timeout=ATTENTE_LIGNES_MS)
+            return True
+        except PlaywrightTimeoutError:
+            if essai == 1:
+                page.reload(timeout=20000, wait_until="domcontentloaded")
+    return False
+
+
 def _texte_regle(page) -> str:
     """Le texte de la page, une fois les résultats arrivés — ou après attente.
 
@@ -266,10 +296,9 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     # navigateur.
     page.goto(url, timeout=20000, wait_until="domcontentloaded")
 
-    try:
-        page.wait_for_selector(SEL_MATCH_ROW, timeout=10000)
-    except PlaywrightTimeoutError:
-        print(f"  [{grille_type}-{grille_id}] absente : aucun élément « {SEL_MATCH_ROW} »")
+    if not _attendre_lignes(page):
+        print(f"  [{grille_type}-{grille_id}] absente : aucun élément "
+              f"« {SEL_MATCH_ROW} » après deux essais")
         return None
 
     # inner_text() et non text_content() : le second colle les textes de deux
@@ -511,7 +540,7 @@ def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0),
               lot: int = 0, pause_lot: tuple = (90.0, 240.0),
               arret_erreurs: int = 5, arret_absences: int = 40,
               arret_identiques: int = 3, refaire: bool = False,
-              alleger: bool = True):
+              alleger: bool = True, renouveler: int = 500):
     """Un lot de grilles, interruptible et reprenable.
 
     TROIS GARDE-FOUS, parce qu'un lot de plusieurs milliers d'identifiants ne
@@ -608,18 +637,25 @@ def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0),
             demandees += 1
             if rang == len(ids) - 1:
                 continue                     # pas d'attente après la dernière
+            # LE RENOUVELLEMENT NE SUIT PLUS LES LOTS. Il était accroché à
+            # --lot, donc tous les cent pages : un lot de 3 669 identifiants
+            # a perdu 117 grilles, groupées juste après chaque relance. Un
+            # navigateur qui vient de démarrer n'est pas prêt tout de suite,
+            # et les pages suivantes le payaient. La précaution coûtait plus
+            # cher que le risque qu'elle couvrait.
+            #
+            # Elle reste utile sur la durée — mais toutes les 500 pages, pas
+            # toutes les 100, et le second essai de _attendre_lignes() rattrape
+            # désormais ce qu'une relance perturbe encore.
+            if renouveler and demandees % renouveler == 0:
+                print(f"  --- {demandees} pages, navigateur renouvelé ---")
+                nav.close()
+                nav, page = _ouvrir_navigateur(p, alleger)
+
             if lot and demandees % lot == 0:
                 repos = random.uniform(*pause_lot)
                 print(f"  --- lot de {lot} terminé, pause de {repos / 60:.1f} min ---")
-                # NAVIGATEUR NEUF À CHAQUE LOT. Les premiers lots tenaient sur
-                # 500 navigations ; la collecte complète en demande sept fois
-                # plus dans le même Chromium, et rien ne dit qu'il encaisse.
-                # On le referme donc pendant la pause, ce qui ne coûte que deux
-                # secondes de relance — moins cher qu'un lot trouvé arrêté au
-                # matin, même si la reprise est gratuite.
-                nav.close()
                 time.sleep(repos)
-                nav, page = _ouvrir_navigateur(p, alleger)
             else:
                 time.sleep(random.uniform(*pause))
         nav.close()
@@ -661,6 +697,8 @@ def main() -> int:
                     help="arrêter après N grilles d'affilée aux matchs identiques")
     ap.add_argument("--refaire", action="store_true",
                     help="redemander aussi les grilles déjà en base")
+    ap.add_argument("--renouveler", type=int, default=500, metavar="N",
+                    help="rouvrir le navigateur toutes les N pages (0 = jamais)")
     ap.add_argument("--tout-charger", action="store_true",
                     help="télécharger aussi images, polices et vidéos (plus lent)")
     args = ap.parse_args()
@@ -668,7 +706,7 @@ def main() -> int:
     reglages = dict(pause=tuple(args.pause), lot=args.lot, pause_lot=tuple(args.pause_lot),
                     arret_erreurs=args.arret_erreurs, arret_absences=args.arret_absences,
                     arret_identiques=args.arret_identiques, refaire=args.refaire,
-                    alleger=not args.tout_charger)
+                    alleger=not args.tout_charger, renouveler=args.renouveler)
 
     # `is not None` et non la valeur : un ID valant 0 est faux en booléen et
     # aurait fait tomber la commande dans la branche d'erreur.

@@ -218,21 +218,60 @@ def test_ressources_inutiles_bloquees():
     assert "xhr" in poursuivies and "script" in poursuivies, poursuivies
 
 
-def test_navigateur_renouvele_a_chaque_lot():
-    """Un Chromium neuf à chaque lot, plutôt qu'un seul sur 3 660 pages.
+def test_renouvellement_independant_des_lots():
+    """Le renouvellement du navigateur ne suit plus les lots.
 
-    Les premiers lots tenaient sur 500 navigations. La collecte complète en
-    demande sept fois plus, et rien ne dit que le même navigateur encaisse.
-    On le referme pendant la pause de lot : deux secondes de relance contre
-    le risque de retrouver la collecte arrêtée au matin.
+    Il y était accroché, donc toutes les cent pages. Un lot de 3 669
+    identifiants a perdu 117 grilles, groupées juste après chaque relance :
+    un navigateur qui vient de démarrer n'est pas prêt tout de suite, et les
+    pages suivantes le payaient. La précaution coûtait plus cher que le
+    risque qu'elle couvrait.
+
+    Les deux réglages sont donc séparés : on peut faire des pauses de lot
+    sans relancer le navigateur, et l'inverse.
     """
     reponses = {i: _grille(i) for i in range(4170, 4160, -1)}      # 10 grilles
-    code, sauvees, _, _, playwright = _lancer(reponses, lot=3, pause_lot=(0.0, 0.1))
-    assert code == 0
-    assert len(sauvees) == 10, sauvees
-    # Un lancement au départ, puis un après chacune des pauses de lot
-    # (après la 3e, la 6e et la 9e grille).
-    assert playwright.chromium.lancements == 4, playwright.chromium.lancements
+
+    # Des lots courts, aucun renouvellement demandé : un seul navigateur.
+    code, sauvees, _, _, playwright = _lancer(reponses, lot=3, pause_lot=(0.0, 0.1),
+                                              renouveler=0)
+    assert code == 0 and len(sauvees) == 10, sauvees
+    assert playwright.chromium.lancements == 1, playwright.chromium.lancements
+
+    # Renouvellement demandé toutes les 4 pages, sans lots : un au départ,
+    # puis après la 4e et la 8e.
+    code, sauvees, _, _, playwright = _lancer(reponses, lot=0, renouveler=4)
+    assert code == 0 and len(sauvees) == 10, sauvees
+    assert playwright.chromium.lancements == 3, playwright.chromium.lancements
+
+
+def test_second_essai_avant_de_declarer_absente():
+    """Une page lente ne doit pas être prise pour une page absente.
+
+    Les deux se ressemblent exactement : aucune ligne n'apparaît, et le site
+    affiche « Chargement en cours » indéfiniment. Mesuré sur un vrai lot :
+    sur 140 grilles déclarées introuvables, 117 sont revenues au simple fait
+    d'être redemandées. Un essai de plus valait 117 grilles.
+    """
+    class _PageLente:
+        def __init__(self, echecs):
+            self.echecs, self.essais, self.rechargements = echecs, 0, 0
+
+        def wait_for_selector(self, sel, timeout=None):
+            self.essais += 1
+            if self.essais <= self.echecs:
+                raise sg.PlaywrightTimeoutError("rien")
+
+        def reload(self, **kw):
+            self.rechargements += 1
+
+    lente = _PageLente(echecs=1)                 # échoue une fois, puis répond
+    assert sg._attendre_lignes(lente) is True
+    assert (lente.essais, lente.rechargements) == (2, 1), vars(lente)
+
+    absente = _PageLente(echecs=99)              # ne répond jamais
+    assert sg._attendre_lignes(absente) is False
+    assert absente.essais == 2, vars(absente)    # on n'insiste pas indéfiniment
 
 
 def test_sens_de_parcours():

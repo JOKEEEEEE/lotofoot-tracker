@@ -235,6 +235,7 @@ comptent le plus, et si le lot s'interrompt on s'est arrêté du bon côté.
 | `--arret-erreurs N` | 5 | arrêt après N erreurs d'affilée |
 | `--arret-absences N` | 40 | arrêt après N grilles introuvables d'affilée |
 | `--arret-identiques N` | 3 | arrêt après N grilles d'affilée aux matchs identiques |
+| `--renouveler N` | 500 | rouvrir le navigateur toutes les N pages (0 = jamais) |
 | `--refaire` | — | redemander aussi ce qui est déjà en base |
 
 ### La reprise est gratuite, donc il n'y a rien à noter
@@ -329,12 +330,32 @@ est visible ; sans CSS, des éléments masqués referaient surface et le texte l
 serait plus celui de la page. Quelques dixièmes de seconde ne valent pas ce
 risque.
 
-Un Chromium neuf est ouvert à chaque lot. Les premiers lots tenaient sur 500
-navigations ; la collecte complète en demande sept fois plus dans le même
-navigateur, et rien ne dit qu'il encaisse. Il est donc refermé pendant la pause
-de lot : deux secondes de relance contre le risque de retrouver la collecte
-arrêtée au matin. C'est une raison de plus de garder `--lot` non nul sur un long
-parcours.
+### Une page lente n'est pas une page absente
+
+Les deux se ressemblent **exactement** : aucune ligne n'apparaît et le site
+affiche « Chargement en cours » indéfiniment. Rien ne les distingue sur un seul
+essai.
+
+Le scraper recharge donc une fois avant de conclure. Ce n'est pas de la
+prudence gratuite : sur un lot de 3 669 identifiants, 140 grilles avaient été
+déclarées introuvables ; redemandées telles quelles, **117 sont revenues**. Un
+essai de plus valait 117 grilles.
+
+### Le renouvellement du navigateur ne suit plus les lots
+
+Il y était accroché — donc toutes les cent pages — et c'est lui qui avait causé
+ces 140 pertes : elles se groupaient juste après chaque relance, 86 % d'entre
+elles tombant au même endroit de chaque centaine. Un navigateur qui vient de
+démarrer n'est pas prêt tout de suite, et les pages suivantes le payaient.
+
+| Lot | Réglages | Grilles perdues |
+|---|---|---|
+| 4169→3670 | `--lot 50`, sans renouvellement | 3 sur 500 — 0,6 % |
+| 3669→1 | `--lot 100`, renouvellement à chaque lot | 137 sur 3 669 — 3,7 % |
+
+La précaution coûtait six fois plus cher que le risque qu'elle couvrait. Elle
+reste utile sur la durée, mais `--renouveler` la règle séparément — toutes les
+500 pages par défaut, `0` pour ne jamais relancer.
 
 ### Mesurer plutôt que d'estimer
 
