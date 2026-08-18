@@ -4,11 +4,14 @@ Historique des grilles Loto Foot (Winamax), pour un usage personnel : constituer
 une base de résultats et de rapports en vue d'un futur calcul Elo et d'une étude
 du biais du public sur le pari mutuel.
 
-Rien n'est publié. Rien n'est revendu.
+Rien n'est revendu. **En revanche, ce dépôt est public à ce jour**, et les JSON
+de grilles y sont versionnés : ils sont donc lisibles, clonables et indexables
+par tout le monde. Le passage en privé est prévu mais pas fait — tant qu'il ne
+l'est pas, autant que ce soit écrit noir sur blanc plutôt que sous-entendu.
 
 ---
 
-## État : sélecteurs validés sur une grille, le 18 août 2026
+## État : validé sur trois grilles `grille7`, le 18 août 2026
 
 Le diagnostic a tourné depuis une machine en France sur `grille7-4168`, et la
 page a été rejouée hors ligne, élément par élément. Les trois sélecteurs
@@ -30,6 +33,25 @@ ligne avec un motif qui tolère une lettre collée mais toujours pas un chiffre.
 Les montants se recoupent, ce qui est le meilleur signe que les colonnes sont
 lues dans le bon ordre : 7 × 946,13 € + 128 × 51,74 € = 13 245,63 €, contre
 13 245,75 € affichés comme montant distribué — l'écart est de l'arrondi.
+
+Le lot `--ids 4167,4166` a ensuite tourné pour de bon. Trois grilles, 21 matchs,
+**zéro ligne écartée, zéro résultat incohérent avec son score, zéro nom d'équipe
+vide.**
+
+Et un contrôle qu'on n'avait pas prévu s'est mis à parler tout seul : sur les
+trois grilles, la répartition entre les rangs tombe sur **50,0 % / 50,0 %** du
+montant distribué.
+
+| Grille | 7/7 | 6/7 | Distribué | Écart |
+|---|---|---|---|---|
+| 4166 | 4 × 660,75 € | 63 × 41,95 € | 5 286,00 € | 0,15 € |
+| 4167 | 9 × 271,08 € | 114 × 21,40 € | 4 879,50 € | 0,18 € |
+| 4168 | 7 × 946,13 € | 128 × 51,74 € | 13 245,75 € | 0,12 € |
+
+C'est la règle du pari mutuel qui ressort des chiffres. Une lecture de colonnes
+décalée ne produirait jamais trois fois cette symétrie : c'est la vérification
+la plus solide dont on dispose, et elle ne coûte rien puisque les données la
+portent en elles.
 
 **Ce qui reste non vérifié :** la comparaison écran par écran d'une deuxième et
 d'une troisième grille ; les types `grille9` et `grille12`, jamais ouverts ; une
@@ -164,10 +186,16 @@ pour l'analyse de texte.
 
 ## Conditions d'utilisation
 
-L'accès automatisé est probablement contraire aux CGU de Winamax. L'usage ici
-est strictement personnel, sans republication des données, et le rythme est
-volontairement lent (3 à 6 secondes entre deux grilles, aléatoire). C'est un
-arbitrage assumé, noté ici pour qu'il soit explicite.
+L'accès automatisé est probablement contraire aux CGU de Winamax. Le rythme est
+volontairement lent — 3 à 6 secondes entre deux grilles, aléatoire — et l'usage
+est personnel : ni revente, ni service construit dessus.
+
+**Mais les données sont republiées de fait**, puisque le dépôt est public. C'est
+la partie de l'arbitrage qui pèse le plus lourd, et elle disparaîtra au passage
+en privé. Elle est notée ici parce qu'un arbitrage tacite n'en est pas un.
+
+Aucune donnée personnelle n'est collectée : ces pages ne contiennent que des
+résultats sportifs et des montants agrégés, rien qui se rapporte à un parieur.
 
 ## Points signalés, non tranchés
 
