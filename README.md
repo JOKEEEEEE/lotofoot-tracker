@@ -125,6 +125,14 @@ Un fichier par grille, `data/grilles/{type}/{id}.json` :
 }
 ```
 
+**Un match annulé n'est pas une grille annulée.** Un forfait ou un report écrit
+« Annulé » sur une ligne, dans une page par ailleurs normale — c'est le cas de
+la grille 4170. La version précédente concluait « grille annulée » dès que le
+mot apparaissait quelque part et rendait des listes vides : six scores lisibles
+partaient à la poubelle sous une étiquette fausse. La décision se prend
+désormais **après** l'extraction — une grille dont on a su extraire des matchs
+n'est pas annulée, et la mention est conservée à part dans `mention_annulation`.
+
 `statut` vaut `terminee` ou `annulee`. **Une grille annulée est enregistrée**,
 avec ses listes vides : Winamax annule une liste quand trop de matchs sont
 donnés gagnants par forfait ou report, et confondre une annulation avec un trou
@@ -190,6 +198,7 @@ comptent le plus, et si le lot s'interrompt on s'est arrêté du bon côté.
 | `--pause-lot MIN MAX` | 90 240 | durée de cette pause longue |
 | `--arret-erreurs N` | 5 | arrêt après N erreurs d'affilée |
 | `--arret-absences N` | 40 | arrêt après N grilles introuvables d'affilée |
+| `--arret-identiques N` | 3 | arrêt après N grilles d'affilée aux matchs identiques |
 | `--refaire` | — | redemander aussi ce qui est déjà en base |
 
 ### La reprise est gratuite, donc il n'y a rien à noter
@@ -216,6 +225,13 @@ reviendrait à choisir la plus optimiste des deux lectures.
 
 Les compteurs se remettent à zéro dès qu'une grille passe : ce sont des séries
 consécutives, pas des totaux.
+
+**Trois grilles identiques d'affilée arrêtent aussi.** C'est le seul échec qui
+ne ressemble pas à un échec : si le site se met à servir la même page quel que
+soit l'identifiant — repli après un excès de requêtes, redirection — il n'y a ni
+erreur ni absence, juste des fichiers qui s'écrivent. Au matin, des milliers de
+copies du même match. Deux grilles différentes ne partagent pas sept matchs
+*et* sept scores : trois répétitions suffisent à conclure.
 
 ### Compter en nuits, pas en heures
 

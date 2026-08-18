@@ -78,8 +78,19 @@ def _lancer(reponses, deja_en_base=(), **kwargs):
          sg._chemin_grille, sg.scrape_grille) = vrais
 
 
-def _grille(gid):
-    return {"grille_id": gid, "grille_type": "grille7", "matches": [{}]}
+def _grille(gid, matches=None):
+    """Une grille plausible : ses matchs la distinguent des autres.
+
+    La première version renvoyait `matches: [{}]` pour tout le monde. C'était
+    commode et faux : deux grilles réelles ne partagent jamais les mêmes sept
+    matchs, et le garde-fou des grilles identiques prenait ces doublures pour
+    la panne qu'il surveille. Une doublure qui ne ressemble pas à la réalité
+    finit toujours par mentir sur le code.
+    """
+    return {"grille_id": gid, "grille_type": "grille7",
+            "matches": matches or [{"home": f"Club {gid}", "away": f"Club {gid + 1}",
+                                    "score_home": gid % 4, "score_away": gid % 3,
+                                    "resultat": "1"}]}
 
 
 def test_reprise_ne_redemande_pas_ce_qui_est_en_base():
@@ -130,6 +141,26 @@ def test_pause_longue_entre_les_lots():
     longues = [a for a in attentes if a >= 600.0]
     assert len(longues) == 2, attentes          # après la 3e et la 6e
     assert "lot de 3 terminé" in texte, texte
+
+
+def test_arret_sur_grilles_identiques():
+    # Le site se met à servir la même page quel que soit l'ID : aucune erreur,
+    # aucune absence, des fichiers qui s'écrivent — et tout est faux.
+    memes = [{"home": "Alpha", "away": "Beta", "score_home": 1,
+              "score_away": 0, "resultat": "1"}]
+    reponses = {i: _grille(i, matches=memes) for i in range(4170, 4160, -1)}
+    code, sauvees, _, texte = _lancer(reponses, arret_identiques=3)
+    assert code == 1, texte
+    assert len(sauvees) == 3, sauvees                  # arrêt à la troisième
+    assert "mêmes matchs" in texte, texte
+    assert "AVANT de reprendre" in texte, texte
+
+
+def test_grilles_differentes_ne_declenchent_pas_l_arret():
+    reponses = {i: _grille(i) for i in range(4170, 4150, -1)}
+    code, sauvees, _, texte = _lancer(reponses, arret_identiques=3)
+    assert code == 0, texte
+    assert len(sauvees) == 20, len(sauvees)
 
 
 def test_sens_de_parcours():

@@ -29,18 +29,22 @@ import scrape_grille as sg
 FIXTURE = Path(__file__).parent / "fixture_grille.html"
 
 
-def _grille_depuis_fixture():
-    """Le scrape_grille() du dépôt, mais sur la fixture au lieu du site."""
+def _grille_depuis_html(html: str):
+    """Le scrape_grille() du dépôt, mais sur un HTML donné au lieu du site."""
     with sync_playwright() as p:
         nav = p.chromium.launch(headless=True)
         page = nav.new_page(locale="fr-FR", timezone_id="Europe/Paris")
         # Seule la navigation est remplacée : tout le reste est le vrai code.
         page.goto = lambda url, **kw: None
-        page.set_content(FIXTURE.read_text(encoding="utf-8"))
+        page.set_content(html)
         try:
             return sg.scrape_grille(page, "grille7", 4168)
         finally:
             nav.close()
+
+
+def _grille_depuis_fixture():
+    return _grille_depuis_html(FIXTURE.read_text(encoding="utf-8"))
 
 
 def test_extraction_complete():
@@ -82,6 +86,52 @@ def test_rapports_et_montant():
     # Cohérence : la somme des rapports doit approcher le montant distribué.
     somme = sum(r["nombre_gagnants"] * r["montant"] for r in data["rapports"])
     assert abs(somme - data["montant_distribue"]) < 1.0, (somme, data["montant_distribue"])
+
+
+def test_un_match_annule_ne_condamne_pas_la_grille():
+    """UN match annulé n'est pas UNE grille annulée.
+
+    C'est le piège que la grille 4170 a révélé. Un forfait ou un report écrit
+    « Annulé » sur une ligne, dans une page par ailleurs normale. Le code
+    concluait alors « grille annulée » et rendait des listes vides : six
+    scores parfaitement lisibles partaient à la poubelle sous une étiquette
+    fausse, et rien dans le JSON n'aurait permis de s'en apercevoir.
+    """
+    html = FIXTURE.read_text(encoding="utf-8").replace(
+        '<span class="sc-jAZUkk sc-ccHeIS jAoxrH iuBVCj">Zeta AC</span></div>',
+        '<span class="sc-jAZUkk sc-ccHeIS jAoxrH iuBVCj">Zeta AC</span>'
+        '<span class="sc-jYPihs dyByel">Annulé</span></div>')
+    data = _grille_depuis_html(html)
+
+    assert data is not None, "grille perdue à cause d'une seule ligne annulée"
+    assert data["statut"] == sg.STATUT_TERMINEE, data["statut"]
+    assert len(data["matches"]) == 2, data["matches"]
+    # La mention reste une information : elle est conservée, pas effacée.
+    assert "mention_annulation" in data, data
+    assert "annul" in data["mention_annulation"]
+    # Et la ligne sans score reste signalée plutôt que devinée.
+    assert len(data["lignes_ignorees"]) == 1, data["lignes_ignorees"]
+
+
+def test_grille_entierement_annulee_reste_enregistree():
+    """Aucun match lisible ET la mention : là, l'annulation est la lecture.
+
+    Une grille annulée n'est pas un trou. Winamax annule une liste quand trop
+    de matchs sont donnés gagnants par forfait ou report ; la confondre avec
+    une grille absente fausserait plus tard toute étude de biais.
+    """
+    html = FIXTURE.read_text(encoding="utf-8")
+    html = html.replace("Statut : Terminée", "Statut : Annulée")
+    for score in ('<span class="sc-jYPihs dyByel">3 - 3</span>',
+                  '<span class="sc-zzzzzz apresRedeploiement">0 - 1</span>'):
+        html = html.replace(score, "")
+    data = _grille_depuis_html(html)
+
+    assert data is not None, "une grille annulée doit être enregistrée, pas ignorée"
+    assert data["statut"] == sg.STATUT_ANNULEE, data["statut"]
+    assert data["matches"] == []
+    assert data["montant_distribue"] is None
+    assert "annulation_indice" in data, data
 
 
 if __name__ == "__main__":

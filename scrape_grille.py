@@ -193,27 +193,10 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     plein = page.locator("body").inner_text() or ""
     plie = _sans_accents(plein)
 
-    # LA GRILLE ANNULÉE N'EST PAS UNE GRILLE ABSENTE, et le brief le demandait
-    # explicitement. Winamax annule une liste quand trop de matchs sont donnés
-    # gagnants par forfait ou report. La confondre avec un trou fausserait plus
-    # tard toute étude de biais : une annulation est une information.
-    if "annul" in plie:
-        # L'INDICE VOYAGE AVEC LA CONCLUSION. Ce test cherche « annul » dans
-        # TOUT le texte de la page : un bouton « Annuler » d'une bannière
-        # cookies suffirait à faire passer une grille normale pour annulée, et
-        # le JSON n'en garderait aucune trace. Aucune page de grille annulée
-        # n'ayant encore été observée, on ne peut pas resserrer le motif sans
-        # deviner — alors on enregistre le contexte, et un faux positif se
-        # verra en relisant le fichier au lieu de se fondre dans la base.
-        pos = plie.find("annul")
-        indice = " ".join(plie[max(0, pos - 60):pos + 60].split())
-        print(f"  [{grille_type}-{grille_id}] ANNULÉE par Winamax — indice : {indice}")
-        return {"grille_id": grille_id, "grille_type": grille_type, "url": url,
-                "scraped_at": datetime.now(timezone.utc).isoformat(),
-                "statut": STATUT_ANNULEE, "matches": [], "rapports": [],
-                "montant_distribue": None, "annulation_indice": indice}
-
-    if "terminee" not in plie:
+    # « annul » quelque part dans la page suffit à passer la grille en revue,
+    # mais ne conclut plus rien : voir plus bas, après l'extraction.
+    mention_annul = "annul" in plie
+    if "terminee" not in plie and not mention_annul:
         print(f"  [{grille_type}-{grille_id}] pas encore terminée")
         return None
 
@@ -266,7 +249,39 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     if m:
         montant = _parse_montant(m.group(1))
 
-    if not matches:
+    # ON DÉCIDE APRÈS AVOIR VU LES MATCHS, PAS AVANT.
+    #
+    # La version précédente concluait « grille annulée » dès que le mot
+    # « annul » apparaissait quelque part dans la page, et rendait aussitôt
+    # des listes vides. Or un SEUL match annulé — forfait, report, tout le
+    # monde gagnant sur cette ligne — écrit ce mot dans une page par ailleurs
+    # parfaitement normale. La grille entière partait alors à la poubelle avec
+    # ses six autres scores, sous une étiquette fausse.
+    #
+    # Une grille dont on a su extraire des matchs n'est pas une grille
+    # annulée : la présence de matchs prime sur la présence d'un mot. La
+    # mention est conservée à part, parce qu'elle reste une information — et
+    # parce qu'un jour elle signalera peut-être une vraie annulation.
+    if matches:
+        if mention_annul:
+            pos = plie.find("annul")
+            indice = " ".join(plie[max(0, pos - 60):pos + 60].split())
+            print(f"    mention d'annulation dans la page, {len(matches)} match(s) "
+                  f"extrait(s) quand même — conservée dans le JSON")
+    elif mention_annul:
+        # Aucun match lisible ET le mot est là : c'est le cas où l'annulation
+        # de toute la liste est l'explication la plus probable. Winamax annule
+        # une liste quand trop de matchs sont donnés gagnants par forfait ou
+        # report, et une annulation est une information : la confondre avec un
+        # trou fausserait plus tard toute étude de biais.
+        pos = plie.find("annul")
+        indice = " ".join(plie[max(0, pos - 60):pos + 60].split())
+        print(f"  [{grille_type}-{grille_id}] ANNULÉE par Winamax — indice : {indice}")
+        return {"grille_id": grille_id, "grille_type": grille_type, "url": url,
+                "scraped_at": datetime.now(timezone.utc).isoformat(),
+                "statut": STATUT_ANNULEE, "matches": [], "rapports": [],
+                "montant_distribue": None, "annulation_indice": indice}
+    else:
         print(f"  [{grille_type}-{grille_id}] AUCUN match extrait alors que la page "
               f"existe — sélecteurs probablement périmés, relancer --diagnostic")
         return None
@@ -280,6 +295,8 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     # LES LIGNES ÉCARTÉES VOYAGENT AVEC LA GRILLE. Les taire donnerait un JSON
     # d'apparence complète auquel il manque un match, et personne ne s'en
     # apercevrait en relisant le fichier six mois plus tard.
+    if mention_annul:
+        resultat["mention_annulation"] = indice
     if lignes_ignorees:
         resultat["lignes_ignorees"] = lignes_ignorees
         print(f"    {len(lignes_ignorees)} ligne(s) écartée(s), conservées dans le JSON")
@@ -348,7 +365,7 @@ def _chemin_grille(grille_type: str, grille_id: int) -> Path:
 def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0),
               lot: int = 0, pause_lot: tuple = (90.0, 240.0),
               arret_erreurs: int = 5, arret_absences: int = 40,
-              refaire: bool = False):
+              arret_identiques: int = 3, refaire: bool = False):
     """Un lot de grilles, interruptible et reprenable.
 
     TROIS GARDE-FOUS, parce qu'un lot de plusieurs milliers d'identifiants ne
@@ -371,11 +388,22 @@ def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0),
        les deux se traitent donc pareil, arrêt et vérification humaine.
        Continuer serait choisir la plus optimiste des deux lectures.
 
+    4. UNE SÉRIE DE GRILLES IDENTIQUES ARRÊTE AUSSI. C'est le seul échec qui
+       ne ressemble pas à un échec : si le site se met à servir la même page
+       quel que soit l'identifiant demandé — repli après un excès de
+       requêtes, redirection — tout se passe bien en apparence. Aucune
+       erreur, aucune absence, des fichiers qui s'écrivent. Au matin, des
+       milliers de copies du même match, et rien pour les distinguer d'une
+       collecte saine. Trois extractions consécutives rigoureusement
+       identiques suffisent à arrêter : deux grilles différentes ne
+       partagent pas sept matchs ET sept scores.
+
     Les compteurs se remettent à zéro dès qu'une grille passe : ce sont bien
     des séries consécutives, pas des totaux.
     """
     ok = absentes = erreurs = deja = 0
     erreurs_suite = absences_suite = 0
+    signature_precedente, identiques_suite = None, 0
     motif_arret, rang_arret = None, len(ids)
 
     with sync_playwright() as p:
@@ -413,6 +441,23 @@ def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0),
                     save_grille(data)
                     ok += 1
                     absences_suite = 0
+                    # Une grille annulée a des listes vides, donc toutes se
+                    # ressemblent : on ne compare que des grilles pleines.
+                    signature = json.dumps(data["matches"], sort_keys=True,
+                                           ensure_ascii=False)
+                    if data["matches"] and signature == signature_precedente:
+                        identiques_suite += 1
+                    else:
+                        identiques_suite = 1
+                    signature_precedente = signature
+                    if identiques_suite >= arret_identiques:
+                        motif_arret = (f"{identiques_suite} grilles d'affilée avec "
+                                       f"exactement les mêmes matchs — le site sert "
+                                       f"probablement la même page quel que soit l'ID "
+                                       f"demandé. Vérifier les derniers fichiers écrits "
+                                       f"AVANT de reprendre : ils sont sans doute faux")
+                        rang_arret = rang
+                        break
                 erreurs_suite = 0
 
             demandees += 1
@@ -459,13 +504,15 @@ def main() -> int:
                     help="arrêter après N erreurs d'affilée")
     ap.add_argument("--arret-absences", type=int, default=40, metavar="N",
                     help="arrêter après N grilles introuvables d'affilée")
+    ap.add_argument("--arret-identiques", type=int, default=3, metavar="N",
+                    help="arrêter après N grilles d'affilée aux matchs identiques")
     ap.add_argument("--refaire", action="store_true",
                     help="redemander aussi les grilles déjà en base")
     args = ap.parse_args()
 
     reglages = dict(pause=tuple(args.pause), lot=args.lot, pause_lot=tuple(args.pause_lot),
                     arret_erreurs=args.arret_erreurs, arret_absences=args.arret_absences,
-                    refaire=args.refaire)
+                    arret_identiques=args.arret_identiques, refaire=args.refaire)
 
     # `is not None` et non la valeur : un ID valant 0 est faux en booléen et
     # aurait fait tomber la commande dans la branche d'erreur.
