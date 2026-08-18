@@ -20,9 +20,19 @@ from contextlib import redirect_stdout
 import scrape_grille as sg
 
 
+class _FaussePage:
+    """Une page qui expose ce que run_batch attend d'elle, et rien de plus."""
+
+    def __init__(self):
+        self.filtres = []
+
+    def route(self, motif, gestionnaire):
+        self.filtres.append((motif, gestionnaire))
+
+
 class _FauxNav:
     def new_page(self, **kw):
-        return object()
+        return _FaussePage()
 
     def close(self):
         pass
@@ -161,6 +171,40 @@ def test_grilles_differentes_ne_declenchent_pas_l_arret():
     code, sauvees, _, texte = _lancer(reponses, arret_identiques=3)
     assert code == 0, texte
     assert len(sauvees) == 20, len(sauvees)
+
+
+def test_ressources_inutiles_bloquees():
+    """On lit du texte : images, polices et vidéos ne sont pas téléchargées.
+
+    Les feuilles de style, si — inner_text() ne rend que ce qui est visible,
+    et sans CSS des éléments masqués referaient surface. On gagnerait quelques
+    dixièmes de seconde contre le risque de lire une autre page que celle
+    affichée.
+    """
+    abandonnees, poursuivies = [], []
+
+    class _FausseRequete:
+        def __init__(self, type_):
+            self.resource_type = type_
+
+    class _FausseRoute:
+        def __init__(self, type_):
+            self.request = _FausseRequete(type_)
+            self._type = type_
+
+        def abort(self):
+            abandonnees.append(self._type)
+
+        def continue_(self):
+            poursuivies.append(self._type)
+
+    for type_ in ("image", "media", "font", "stylesheet", "document",
+                  "script", "xhr", "fetch"):
+        sg._bloquer_ressources_inutiles(_FausseRoute(type_))
+
+    assert sorted(abandonnees) == ["font", "image", "media"], abandonnees
+    assert "stylesheet" in poursuivies, poursuivies
+    assert "xhr" in poursuivies and "script" in poursuivies, poursuivies
 
 
 def test_sens_de_parcours():

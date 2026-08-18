@@ -302,25 +302,50 @@ correspondent au site : une base peut être parfaitement cohérente et fausse si
 le scraper a lu la mauvaise colonne partout. Seule une comparaison à l'écran
 répond à ça, sur un échantillon.
 
-### Compter en nuits, pas en heures
+### Où passe le temps
 
-À rythme poli, chaque grille coûte une dizaine de secondes, chargement compris.
-Pour 4 170 grilles :
+Le premier lot — 500 identifiants, aucune erreur — a montré que l'essentiel du
+temps ne partait pas dans les pauses mais dans le chargement des pages. Or on ne
+lit que du texte : images, polices et vidéos sont téléchargées pour rien.
 
-| | Durée |
-|---|---|
-| Requêtes et attentes courtes | ~11 h |
-| Pauses de lot (`--lot 50 --pause-lot 120 300`) | ~5 h |
-| **Total** | **~16 h** |
+Elles ne le sont plus. `--tout-charger` rétablit l'ancien comportement si jamais
+ça posait problème. Le gain va dans les deux sens, ce qui est assez rare pour
+être noté : **moins de requêtes pour Winamax, moins d'attente pour nous.** Et
+`goto` ne patiente plus jusqu'au dernier traceur : c'est la présence des lignes
+de match qui décide que la page est prête, pas un critère de navigateur.
 
-C'est un travail de plusieurs nuits, pas d'une soirée. Découper est plus
-confortable, et la reprise étant gratuite, ça ne coûte rien :
+Les feuilles de style, elles, restent chargées. `inner_text()` ne rend que ce qui
+est visible ; sans CSS, des éléments masqués referaient surface et le texte lu ne
+serait plus celui de la page. Quelques dixièmes de seconde ne valent pas ce
+risque.
+
+### Mesurer plutôt que d'estimer
+
+Les durées ci-dessous sont des ordres de grandeur, pas des promesses. Vingt
+grilles suffisent à connaître le vrai rythme d'une machine et d'une connexion :
 
 ```bash
-python scrape_grille.py --from-id 4170 --to-id 3670 --lot 50 --pause-lot 120 300
+time python scrape_grille.py --from-id 3669 --to-id 3650 --pause 1 2
 ```
 
-Cinq cents grilles font environ deux heures. Le lendemain, on décale la fenêtre.
+Divise le temps total par 20, multiplie par ce qui reste. C'est plus fiable que
+n'importe quel tableau.
+
+### Trois rythmes, à toi de choisir
+
+| | Pauses | ~3 660 grilles |
+|---|---|---|
+| Prudent | `--pause 3 6 --lot 50 --pause-lot 120 300` | une dizaine d'heures |
+| Intermédiaire | `--pause 1 2 --lot 100 --pause-lot 60 120` | 4 à 5 h |
+| Rapide | `--pause 0.5 1.5` | 2 à 3 h |
+
+Le premier lot n'a produit **aucune erreur sur 500 requêtes** : rien n'indique
+qu'on approche d'une limite. Ce n'est pas une garantie qu'il n'y en a pas, c'est
+une absence de signal contraire — et les arrêts automatiques sont précisément là
+pour le cas où elle se manifesterait. Une reprise ne coûte rien.
+
+Le rythme est ton arbitrage, pas le mien. Ce qui est écrit ici est ce qu'on
+sait : où passe le temps, ce qu'on a mesuré, et ce qu'on ignore.
 
 ### Ce que l'aléatoire ne fait pas
 

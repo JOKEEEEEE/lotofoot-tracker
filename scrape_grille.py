@@ -92,6 +92,23 @@ RE_SCORE = re.compile(r"(?<!\d)(\d{1,2})\s*[-–]\s*(\d{1,2})(?!\d)")
 # calcul Elo comme une étude de biais. Il lui faut sa propre valeur.
 RESULTAT_ANNULE = "annule"
 
+# Attente d'un signe de règlement avant de conclure qu'il n'y en a pas. Elle
+# ne coûte QUE sur les grilles qui en semblent dépourvues : dès que le mot
+# paraît, on repart. Voir _texte_regle().
+# CE QU'ON NE TÉLÉCHARGE PAS. On lit du texte : images, polices et vidéos ne
+# servent à rien ici, et ce sont elles qui pèsent. Les bloquer accélère la
+# collecte ET allège le site d'autant de requêtes — les deux vont dans le même
+# sens, ce qui est assez rare pour être noté.
+#
+# LES FEUILLES DE STYLE, EN REVANCHE, RESTENT. inner_text() ne rend que ce qui
+# est visible : sans CSS, des éléments masqués referaient surface et le texte
+# lu ne serait plus celui de la page. On gagnerait quelques dixièmes de seconde
+# contre le risque de tout fausser.
+RESSOURCES_IGNOREES = {"image", "media", "font"}
+
+REGLEMENT_ESSAIS = 5
+REGLEMENT_PAUSE_MS = 1000
+
 STATUT_TERMINEE = "terminee"
 STATUT_EN_COURS = "en_cours"
 STATUT_ANNULEE = "annulee"
@@ -211,10 +228,43 @@ def _score_de_row(row):
     return _score_de_ligne(row.inner_text() or "")
 
 
+def _texte_regle(page) -> str:
+    """Le texte de la page, une fois les résultats arrivés — ou après attente.
+
+    wait_for_selector() REND LA MAIN DÈS LA PREMIÈRE LIGNE, pas quand la page
+    est prête. Les lignes de match arrivent avec la structure de la grille ;
+    les scores, le statut et les mentions d'annulation viennent après, d'un
+    second rendu. Lire le texte dans cet intervalle donne une page à moitié
+    peuplée — et, faute d'y trouver « Terminée », la conclusion « pas encore
+    terminée » sur une grille qui l'était depuis des mois.
+
+    Mesuré : sur 500 grilles collectées, 3 sont tombées dans cet intervalle —
+    3836, 4008 et 4157 — et sont ressorties comme des trous. Le navigateur,
+    lui, affiche bien leurs scores.
+
+    On attend donc un signe de règlement plutôt qu'un délai fixe : les grilles
+    déjà prêtes ne paient rien, et seules celles qui semblent vides coûtent
+    quelques secondes.
+    """
+    plie = ""
+    for essai in range(REGLEMENT_ESSAIS):
+        plie = _sans_accents(page.locator("body").inner_text() or "")
+        if "terminee" in plie or "annul" in plie:
+            return plie
+        if essai < REGLEMENT_ESSAIS - 1:
+            page.wait_for_timeout(REGLEMENT_PAUSE_MS)
+    return plie
+
+
 def scrape_grille(page, grille_type: str, grille_id: int):
     """Une grille terminée, ou None avec un motif imprimé."""
     url = BASE_URL.format(type=grille_type, id=grille_id)
-    page.goto(url, timeout=20000)
+    # « domcontentloaded » et non « load » : inutile d'attendre la dernière
+    # image ou le dernier traceur pour commencer à chercher les lignes de
+    # match. C'est wait_for_selector, juste après, qui décide que la page est
+    # prête — sur un critère qui nous concerne, au lieu d'un critère de
+    # navigateur.
+    page.goto(url, timeout=20000, wait_until="domcontentloaded")
 
     try:
         page.wait_for_selector(SEL_MATCH_ROW, timeout=10000)
@@ -225,8 +275,7 @@ def scrape_grille(page, grille_type: str, grille_id: int):
     # inner_text() et non text_content() : le second colle les textes de deux
     # éléments voisins sans séparateur, ce qui casse la recherche de « Montant
     # distribué » dès que le libellé et la valeur vivent dans deux balises.
-    plein = page.locator("body").inner_text() or ""
-    plie = _sans_accents(plein)
+    plie = _texte_regle(page)
 
     # « annul » quelque part dans la page suffit à passer la grille en revue,
     # mais ne conclut plus rien : voir plus bas, après l'extraction.
@@ -439,6 +488,13 @@ def diagnostic_dump(page, grille_type: str, grille_id: int):
     print("\n  Si un sélecteur est à zéro, ne pas deviner : envoyer le fichier HTML.\n")
 
 
+def _bloquer_ressources_inutiles(route):
+    if route.request.resource_type in RESSOURCES_IGNOREES:
+        route.abort()
+    else:
+        route.continue_()
+
+
 def _chemin_grille(grille_type: str, grille_id: int) -> Path:
     return DATA_DIR / grille_type / f"{grille_id}.json"
 
@@ -446,7 +502,8 @@ def _chemin_grille(grille_type: str, grille_id: int) -> Path:
 def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0),
               lot: int = 0, pause_lot: tuple = (90.0, 240.0),
               arret_erreurs: int = 5, arret_absences: int = 40,
-              arret_identiques: int = 3, refaire: bool = False):
+              arret_identiques: int = 3, refaire: bool = False,
+              alleger: bool = True):
     """Un lot de grilles, interruptible et reprenable.
 
     TROIS GARDE-FOUS, parce qu'un lot de plusieurs milliers d'identifiants ne
@@ -490,6 +547,8 @@ def run_batch(grille_type: str, ids: list, pause: tuple = (3.0, 6.0),
     with sync_playwright() as p:
         nav = p.chromium.launch(headless=True)
         page = nav.new_page(locale="fr-FR", timezone_id="Europe/Paris")
+        if alleger:
+            page.route("**/*", _bloquer_ressources_inutiles)
         demandees = 0                        # grilles réellement allées chercher
         for rang, gid in enumerate(ids):
             if not refaire and _chemin_grille(grille_type, gid).exists():
@@ -589,11 +648,14 @@ def main() -> int:
                     help="arrêter après N grilles d'affilée aux matchs identiques")
     ap.add_argument("--refaire", action="store_true",
                     help="redemander aussi les grilles déjà en base")
+    ap.add_argument("--tout-charger", action="store_true",
+                    help="télécharger aussi images, polices et vidéos (plus lent)")
     args = ap.parse_args()
 
     reglages = dict(pause=tuple(args.pause), lot=args.lot, pause_lot=tuple(args.pause_lot),
                     arret_erreurs=args.arret_erreurs, arret_absences=args.arret_absences,
-                    arret_identiques=args.arret_identiques, refaire=args.refaire)
+                    arret_identiques=args.arret_identiques, refaire=args.refaire,
+                    alleger=not args.tout_charger)
 
     # `is not None` et non la valeur : un ID valant 0 est faux en booléen et
     # aurait fait tomber la commande dans la branche d'erreur.
