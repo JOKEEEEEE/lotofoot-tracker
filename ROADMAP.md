@@ -116,7 +116,7 @@ avant tout lot, comme d'habitude. C'est cette discipline qui a évité d'enregis
 **Critère de fin :** les trois types collectés, `verifier_base.py --rapport`
 sans anomalie, et les trous expliqués.
 
-## Étape 1 — Dater les grilles
+## Étape 1 — Dater les grilles ✅ faite le 18 août 2026
 
 **Pourquoi d'abord :** rien de chronologique n'est possible sans dates, et il
 n'y en a aucune sur les pages de Winamax — ni visible, ni cachée. Vérifié.
@@ -148,7 +148,12 @@ deux ancres est d'**une grille et d'un jour** : l'interpolation encadrera donc
 la grande majorité des autres à quelques jours près. Période couverte par les
 ancres : à partir du 11 septembre 2015.
 
-**Critère de fin :** une date pour au moins 70 % des grilles, chacune validée
+**Résultat : 4 029 grilles datées sur 4 030**, dont 2 047 par les affiches et
+1 982 par interpolation avec une incertitude médiane de 5 jours. 86 % de la base
+est datée à 7 jours près ou mieux. Période couverte : 11 septembre 2015 au
+17 août 2026. Voir le README pour la méthode en deux temps.
+
+**Critère de fin (atteint) :** une date pour au moins 70 % des grilles, chacune validée
 par la règle des trois jours — les sept matchs d'une grille doivent tenir dans
 une fenêtre de trois jours — et par la croissance des dates avec les numéros.
 Les 30 % restants sont listés, pas cachés.

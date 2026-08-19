@@ -433,6 +433,7 @@ temporaire, et il se constate au lieu de se subir.
 python test_parsing.py        # fonctions pures, aucune dépendance
 python test_selecteurs.py     # sélecteurs rejoués sur une page figée
 python test_lot.py            # reprise et arrêts d'un lot, sans réseau
+python test_dates.py          # ancrage, chronologie, interpolation
 ```
 
 `test_selecteurs.py` rejoue le vrai `scrape_grille()` sur `fixture_grille.html`,
@@ -451,6 +452,63 @@ test qui ne casse jamais ne teste rien.
 **Cela ne dit rien du scraping.** Les sélecteurs CSS restent non validés, et
 aucun test ne peut les couvrir sans accès au site. Le vert ici ne vaut que
 pour l'analyse de texte.
+
+## Dater les grilles
+
+```bash
+python dater_grilles.py --rapport      # --telecharger la première fois
+```
+
+**Aucune date n'existe sur les pages de Winamax** — vérifié sur trois grilles
+d'époques différentes, ni dans le texte, ni dans un attribut, ni dans un bloc
+JSON. Il faut donc les reconstruire, à partir de deux sources.
+
+**Les affiches.** Les sept matchs d'une grille l'identifient dans une base de
+rencontres datée — [football-data.co.uk](https://www.football-data.co.uk/data.php),
+libre et gratuite. C'est ainsi que la grille 1848 s'est révélée être le
+8 décembre 2020, sixième journée de Ligue des champions.
+
+**L'ordre des numéros.** Les identifiants croissent avec le temps, donc une
+grille prise entre deux grilles datées est encadrée.
+
+Ce qu'on ne fait **pas** : déduire la date du seul numéro. Testé et réfuté —
+2 322 numéros pour 2 078 jours entre deux ancrages, et une erreur de huit mois
+sur la grille 1848.
+
+### Un squelette sûr, puis des ancres d'appoint
+
+Trois affiches concordantes sont fiables, deux ne le sont pas : mesuré sur les
+4 030 grilles, le taux d'incohérence chronologique passe de 0,7 % à 4,8 %. Mais
+exiger trois affiches fait tomber la datation à sept jours près de 86 % à 77 %.
+
+D'où la construction en deux temps : le squelette est bâti à trois affiches, et
+une ancre à deux n'est admise que si elle tombe **dans l'intervalle que le
+squelette autorise déjà**. Résultat : 2 048 ancres — autant qu'en acceptant tout
+— mais **une seule** incohérence résiduelle au lieu de 103.
+
+Une ancre fausse ne se contente pas d'être fausse : elle contamine par
+interpolation toutes ses voisines. D'où aussi le contrôle final, qui ne retient
+que la plus longue sous-suite chronologiquement croissante plutôt que d'écarter
+naïvement toute ancre en désaccord avec la précédente — ce qui supprimerait la
+bonne une fois sur deux.
+
+### Ce que ça donne
+
+| | |
+|---|---|
+| Grilles datées | **4 029 sur 4 030** |
+| Par les affiches | 2 047 |
+| Par interpolation | 1 982, incertitude médiane **5 jours** |
+| À 7 jours près ou mieux | **86 %** |
+| Période couverte | **11 septembre 2015 → 17 août 2026** |
+
+Les dates vivent dans `data/dates_grilles.json`, **à côté** des grilles et non
+dedans : un `--refaire` du scraper réécrit un fichier de grille en entier et
+effacerait tout travail logé à l'intérieur.
+
+Chaque entrée porte `date`, `date_min`, `date_max` et `source` — `affiches`,
+`interpolation` ou `hors_ancrage`. Une estimation à dix-neuf jours près et une
+date confirmée par six affiches ne doivent pas se ressembler dans le JSON.
 
 ## Conditions d'utilisation
 
