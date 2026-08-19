@@ -84,6 +84,23 @@ def _plier(nom: str) -> str:
     return re.sub(r"[^a-z0-9]", "", s)
 
 
+# LE DICTIONNAIRE DES NOMS, s'il a été construit. Winamax écrit en français,
+# football-data en anglais : sans lui, « FC Barcelone » et « Barcelona » sont
+# deux équipes différentes. Il est produit par apparier_equipes.py, et chacune
+# de ses entrées a été confirmée par une date — jamais écrite à la main.
+_FICHIER_ALIAS = RACINE / "data" / "alias_equipes.json"
+ALIAS = {}
+if _FICHIER_ALIAS.exists():
+    ALIAS = {k: v["vers"] for k, v in
+             json.loads(_FICHIER_ALIAS.read_text(encoding="utf-8")).items()}
+
+
+def _cle(nom: str) -> str:
+    """Le nom d'une équipe de grille, ramené au vocabulaire de football-data."""
+    plie = _plier(nom)
+    return ALIAS.get(plie, plie)
+
+
 def _date_fr(texte: str):
     for fmt in ("%d/%m/%Y", "%d/%m/%y"):
         try:
@@ -147,9 +164,9 @@ def ancrer(grilles: list, fixtures: dict, mini: int = None) -> dict:
     mini = AFFICHES_MINI if mini is None else mini
     ancres = {}
     for gid, matchs in grilles:
-        listes = [fixtures[(_plier(m["home"]), _plier(m["away"]))]
+        listes = [fixtures[(_cle(m["home"]), _cle(m["away"]))]
                   for m in matchs
-                  if (_plier(m["home"]), _plier(m["away"])) in fixtures]
+                  if (_cle(m["home"]), _cle(m["away"])) in fixtures]
         candidats = sorted({j for liste in listes for j in liste})
         meilleur, jour = 0, None
         for ref in candidats:

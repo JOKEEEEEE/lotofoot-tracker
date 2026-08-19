@@ -126,6 +126,54 @@ def test_ancre_manuelle_prime_et_signale_son_desaccord():
     assert (gid, auto, main_) == (10, date(2020, 1, 1), date(2021, 6, 6))
 
 
+def test_alias_refuse_sans_confirmation_par_les_dates():
+    """La ressemblance propose, la date dispose.
+
+    « Milan » ressemble autant à « Milan AC » qu'à « Inter Milan ». Retenir le
+    plus ressemblant reviendrait à inventer un alias une fois sur deux : seule
+    la date de la rencontre tranche, et un candidat que les dates ne
+    confirment pas est rejeté même s'il est le seul en lice.
+    """
+    from datetime import date as _d
+    import apparier_equipes as ae
+
+    noms_fd = {"milan": "Milan", "inter": "Inter"}
+    fixtures = {("milan", "juventus"): [_d(2021, 5, 9)],
+                ("inter", "juventus"): [_d(2019, 3, 3)]}
+    grilles = [(10, [{"home": "Milan AC", "away": "juventus"}]),
+               (11, [{"home": "Milan AC", "away": "juventus"}])]
+    dates = {"10": {"date_min": "2021-05-08", "date_max": "2021-05-10"},
+             "11": {"date_min": "2021-05-08", "date_max": "2021-05-10"}}
+
+    alias, refuses = ae.apparier(grilles, fixtures, dates, noms_fd)
+    assert "milanac" in alias, alias
+    assert alias["milanac"]["nom_football_data"] == "Milan", alias
+    assert alias["milanac"]["confirmations"] == 2, alias
+
+    # Mêmes noms, mais des fenêtres de dates qui ne correspondent à rien :
+    # aucun alias ne doit sortir.
+    dates_fausses = {"10": {"date_min": "2010-01-01", "date_max": "2010-01-02"},
+                     "11": {"date_min": "2010-01-01", "date_max": "2010-01-02"}}
+    alias2, refuses2 = ae.apparier(grilles, fixtures, dates_fausses, noms_fd)
+    assert alias2 == {}, alias2
+    assert refuses2 and refuses2[0][0] == "Milan AC", refuses2
+
+
+def test_alias_exige_deux_confirmations():
+    """Une coïncidence isolée ne fait pas un alias."""
+    from datetime import date as _d
+    import apparier_equipes as ae
+
+    noms_fd = {"barcelona": "Barcelona"}
+    fixtures = {("barcelona", "getafe"): [_d(2021, 4, 22)]}
+    grilles = [(10, [{"home": "FC Barcelone", "away": "getafe"}])]
+    dates = {"10": {"date_min": "2021-04-21", "date_max": "2021-04-23"}}
+
+    alias, refuses = ae.apparier(grilles, fixtures, dates, noms_fd)
+    assert alias == {}, alias                      # une seule confirmation
+    assert refuses[0][3] == 1, refuses             # elle est comptée, pas ignorée
+
+
 if __name__ == "__main__":
     echecs = 0
     for nom, fonction in sorted(globals().items()):

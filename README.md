@@ -492,15 +492,51 @@ que la plus longue sous-suite chronologiquement croissante plutôt que d'écarte
 naïvement toute ancre en désaccord avec la précédente — ce qui supprimerait la
 bonne une fois sur deux.
 
+### Le dictionnaire des noms, validé par les dates
+
+```bash
+python apparier_equipes.py --rapport
+```
+
+**Winamax écrit en français, football-data en anglais.** « FC Barcelone » contre
+`Barcelona`, « Manchester United » contre `Man United`, « Naples » contre
+`Napoli`. Sur les quinze noms les plus fréquemment introuvables, **quinze**
+étaient présents sous un autre libellé : ce qui ressemblait à un trou de
+couverture de 68 % était un dictionnaire manquant.
+
+Ce qui rend ce dictionnaire fiable n'est pas la ressemblance des chaînes — elle
+ne fait que proposer des candidats — mais **la date**. Un alias n'est retenu que
+si, une fois substitué, la rencontre tombe dans la fenêtre de la grille, et il
+faut deux confirmations. « Milan » ressemble autant à « Milan AC » qu'à « Inter
+Milan » ; seule la date tranche. **Aucun alias n'est écrit à la main.**
+
+Les deux étapes se nourrissent l'une l'autre : les dates valident les noms, et
+les noms ainsi validés produisent de nouvelles ancres qui resserrent les dates.
+270 alias confirmés, 14 697 apparitions récupérées, convergence en une passe.
+
 ### Ce que ça donne
 
-| | |
-|---|---|
-| Grilles datées | **4 029 sur 4 030** |
-| Par les affiches | 2 047 |
-| Par interpolation | 1 982, incertitude médiane **5 jours** |
-| À 7 jours près ou mieux | **86 %** |
-| Période couverte | **11 septembre 2015 → 17 août 2026** |
+| | Sans dictionnaire | **Avec** |
+|---|---|---|
+| Ancres | 2 048 | **2 825** |
+| Incohérences résiduelles | 1 | **0** |
+| Incertitude médiane des interpolations | 5 jours | **4 jours** |
+| Grilles datées à 7 jours près ou mieux | 86 % | **95 %** |
+| **Matchs liables à une cote** | 29 % | **57 %** |
+
+Grilles datées : **4 029 sur 4 030**. Période : **11 septembre 2015 → 17 août
+2026**.
+
+### Le plafond, et d'où il vient
+
+Les 43 % de matchs non liés ne le sont pas par manque d'astuce mais par manque
+de source : parmi eux, 21 % opposent **deux équipes pourtant connues** — Real
+Madrid – Chelsea, Seattle Sounders – Paris SG — parce que football-data ne
+publie que des championnats nationaux, jamais les coupes ni les compétitions
+internationales. Les 49 % restants relèvent de championnats hors périmètre et
+de sélections.
+
+Aller au-delà demandera une autre source, pas un meilleur appariement.
 
 Les dates vivent dans `data/dates_grilles.json`, **à côté** des grilles et non
 dedans : un `--refaire` du scraper réécrit un fichier de grille en entier et
