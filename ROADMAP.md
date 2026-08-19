@@ -1,6 +1,12 @@
 # Cadrage
 
-**Objectif : apprendre.** La donnée Loto Foot est le terrain, pas la finalité.
+**Objectif : les statistiques appliquées au sport, et en particulier les biais
+de marché** — favourite-longshot bias, sagesse des foules, efficience d'un
+marché de paris. Apprendre en les mesurant pour de vrai.
+
+Le Loto Foot est le premier instrument, pas la finalité. Le sujet n'est pas le
+football : c'est le comportement d'une foule qui parie.
+
 Environ dix heures par semaine.
 
 Ce cadrage a été écrit le 18 août 2026, après deux jours de collecte, parce que
@@ -28,6 +34,30 @@ et elle aura peut-être perdu son urgence — c'est même le but.
 | Prélèvement du pari mutuel | **25 %** (distribué = 75 % des mises, mesuré sur 3 617 grilles) |
 | Grilles à montant garanti | 413, soit une sur dix |
 
+## Pourquoi ce jeu de données vaut mieux qu'il n'en a l'air
+
+**Le pari mutuel est un meilleur laboratoire que la cote fixe.** Chez un
+bookmaker on observe un prix, déjà corrigé par un professionnel qui connaît le
+longshot bias et le facture. En pari mutuel on observe **la répartition brute de
+l'argent du public**, sans intermédiaire : la matière première, pas le produit
+transformé.
+
+Deux mesures directes, à partir de ce qui est déjà collecté :
+
+- **Sagesse des foules** — le nombre de gagnants à 7/7 comparé à celui
+  qu'on attendrait si les mises suivaient les vraies probabilités. Coïncidence
+  = foule bien calibrée.
+- **Favourite-longshot bias** — les grilles gagnées par des combinaisons
+  improbables comptent-elles proportionnellement moins de gagnants que la
+  théorie ne le prévoit ? C'est la signature d'un public qui sur-parie
+  l'improbable.
+
+**Sortir du football se fait en gardant la question, pas en changeant de
+données.** Le longshot bias a été documenté d'abord sur les courses hippiques,
+en pari mutuel — le PMU en France. Même mécanique, données publiques,
+littérature abondante pour confronter ses résultats. C'est l'extension
+naturelle, bien avant les données joueurs.
+
 ## Ce qui est écarté, et pourquoi
 
 **Le gain financier.** Non par principe, mais par arithmétique : le prélèvement
@@ -38,9 +68,22 @@ chacun à environ 473 €. L'avantage est plafonné par sa propre exploitation.
 
 C'est noté ici pour ne pas y revenir tous les deux mois.
 
-**Un service pour d'autres.** Le scraper ne tourne que depuis une machine en
-France, republier les données contredirait les CGU de Winamax, et diffuser des
-conseils de pari relève du cadre ANJ. Trois obstacles, aucun technique.
+**Publier — ce qui n'est PAS écarté, contrairement à une première version de ce
+fichier.** La distinction n'est pas « produit ou pas », elle est « quoi
+publier » :
+
+| | |
+|---|---|
+| Ses propres analyses, graphiques, conclusions | rien ne s'y oppose |
+| Les données brutes de Winamax | contraire à leurs CGU |
+| Des pronostics ou conseils de mise | relève du cadre ANJ |
+
+Le blocage géographique contraint la **collecte**, pas la publication : le
+scraper tourne en France, le site peut vivre n'importe où. Un site d'analyses de
+biais de marché est du contenu de recherche, pas un service de pronostics.
+
+Rien n'oblige à publier, et ce n'est pas un objectif d'étape. Mais c'est
+possible, et l'étape 3 en fournirait la matière.
 
 ## Étape 1 — Dater les grilles
 
@@ -79,10 +122,15 @@ sur des données qu'il n'a pas vues. Aucune information postérieure au match ne
 doit entrer dans son calcul ; c'est le piège classique, et il faut le vérifier
 explicitement.
 
-## Étape 3 — L'étude du biais
+## Étape 3 — Les biais du public (le cœur du sujet)
+
+C'est l'étape pour laquelle les deux précédentes existent. Les autres sont des
+prérequis ; celle-ci est la raison d'être du projet.
 
 **Livrable :** la réponse à la question du README initial — le public se
-trompe-t-il, et où ?
+trompe-t-il, et où ? — traitée sous l'angle des deux biais documentés par la
+littérature, de sorte que les résultats soient comparables à ce qui est publié
+ailleurs.
 
 **Comment :** comparer le nombre de gagnants observés à chaque rang avec celui
 qu'on attendrait si les mises suivaient les probabilités du modèle. L'écart est
