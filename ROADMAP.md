@@ -1,13 +1,28 @@
 # Cadrage
 
-**Objectif : les statistiques appliquées au sport, et en particulier les biais
-de marché** — favourite-longshot bias, sagesse des foules, efficience d'un
-marché de paris. Apprendre en les mesurant pour de vrai.
+**Destination : une brique Loto Foot dans le projet Fact XI**, qui s'élargit aux
+cotes des paris sportifs.
 
-Le Loto Foot est le premier instrument, pas la finalité. Le sujet n'est pas le
-football : c'est le comportement d'une foule qui parie.
+Ce dépôt n'est donc pas un projet autonome : il produit et entretient un jeu de
+données. Ce qu'on en fera — analyses de biais de marché, notes d'après-match,
+études ponctuelles — vit ailleurs.
+
+**Le sujet de fond reste le même** : les biais d'une foule qui parie —
+favourite-longshot bias, sagesse des foules, efficience d'un marché. Le pari
+mutuel en est un observatoire privilégié, parce qu'on y voit la répartition
+brute de l'argent du public et non un prix déjà corrigé par un professionnel.
 
 Environ dix heures par semaine.
+
+## L'ordre décidé
+
+1. **Tout l'historique Winamax d'abord** — grilles 7, 9 et 12. On ne construit
+   rien tant que la matière n'est pas complète.
+2. **Les dates ensuite.**
+3. **Les cotes enfin.**
+
+Cet ordre n'est pas négociable en cours de route : c'est le remède au défaut
+identifié plus bas.
 
 Ce cadrage a été écrit le 18 août 2026, après deux jours de collecte, parce que
 le risque principal de ce projet n'est pas technique : c'est de partir dans
@@ -85,6 +100,22 @@ biais de marché est du contenu de recherche, pas un service de pronostics.
 Rien n'oblige à publier, et ce n'est pas un objectif d'étape. Mais c'est
 possible, et l'étape 3 en fournirait la matière.
 
+## Étape 0 — Compléter l'historique
+
+**Grilles 9 et 12.** Les compteurs sont séparés de celui des grilles 7 : relevé
+le 18 août 2026 sur la barre latérale du site, la grille 9 en est à son numéro
+21 et la grille 12 à son numéro 402. Une vingtaine de grilles d'un côté, quatre
+cents de l'autre — une vingtaine de minutes de collecte, pas une nuit.
+
+**Le code ne présuppose rien sur le nombre de matchs** : les rangs de rapports
+sont lus tels quels sur la page, et rien n'est codé en dur. Mais la structure du
+DOM n'a jamais été vue sur autre chose qu'une grille 7 — donc `--diagnostic`
+avant tout lot, comme d'habitude. C'est cette discipline qui a évité d'enregistrer
+4 000 grilles sans un seul score lisible.
+
+**Critère de fin :** les trois types collectés, `verifier_base.py --rapport`
+sans anomalie, et les trous expliqués.
+
 ## Étape 1 — Dater les grilles
 
 **Pourquoi d'abord :** rien de chronologique n'est possible sans dates, et il
@@ -103,6 +134,19 @@ mesure de couverture. C'est le cœur de tout projet de données, et le plus
 sous-estimé. 2 053 noms d'équipes distincts attendent.
 
 **Livrable :** `dater_grilles.py`, et un rapport de couverture honnête.
+
+**Mesuré le 18 août 2026, avant d'écrire une ligne :** sur 11 saisons de
+football-data (20 championnats), 27 % des affiches et 13 % des équipes se
+retrouvent — la couverture est structurellement limitée parce que football-data
+ne couvre que les championnats nationaux, ni coupes d'Europe ni sélections.
+Seules 24 % des grilles sont datables directement.
+
+**Mais l'ordre des numéros sauve la mise.** Les 965 grilles ancrées ainsi
+s'ordonnent chronologiquement à 99,7 % — trouvées indépendamment, par des
+affiches différentes, et pourtant cohérentes entre elles. L'écart médian entre
+deux ancres est d'**une grille et d'un jour** : l'interpolation encadrera donc
+la grande majorité des autres à quelques jours près. Période couverte par les
+ancres : à partir du 11 septembre 2015.
 
 **Critère de fin :** une date pour au moins 70 % des grilles, chacune validée
 par la règle des trois jours — les sept matchs d'une grille doivent tenir dans
