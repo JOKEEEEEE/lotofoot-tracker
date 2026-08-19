@@ -4,6 +4,10 @@ Historique des grilles Loto Foot (Winamax), pour un usage personnel : constituer
 une base de résultats et de rapports en vue d'un futur calcul Elo et d'une étude
 du biais du public sur le pari mutuel.
 
+**Le cadrage du projet est dans [ROADMAP.md](ROADMAP.md)** : l'objectif, ce qui
+est volontairement écarté, et les étapes dans l'ordre. À relire avant d'ouvrir
+un nouveau chantier.
+
 Rien n'est revendu. **En revanche, ce dépôt est public à ce jour**, et les JSON
 de grilles y sont versionnés : ils sont donc lisibles, clonables et indexables
 par tout le monde. Le passage en privé est prévu mais pas fait — tant qu'il ne
