@@ -135,6 +135,29 @@ def test_un_double_ne_se_pose_pas_sur_un_match_deja_triple():
         assert len(couverts) == 4, couverts       # 3 doubles + 1 triple
 
 
+def test_la_regle_adaptative_suit_la_grille():
+    """Une taille fixe pose trois doubles même quand un seul favori est net.
+
+    Le seuil s'adapte : la grille de test a des favoris de 0,85 à 0,43, donc
+    un seuil à 0,60 doit doubler exactement les quatre premiers matchs.
+    """
+    g = _grille()                       # favoris : .85 .78 .71 .64 .57 .50 .43
+    jeux = S.adaptative(0.60)(g)
+    assert len(jeux) == 2 ** 4, len(jeux)
+    couverts = [j for j in range(7) if len({c[j] for c in jeux}) > 1]
+    assert couverts == [0, 1, 2, 3], couverts
+
+    # Un seuil plus haut ne double plus rien : une seule combinaison.
+    assert len(S.adaptative(0.90)(g)) == 1
+
+
+def test_l_adaptative_place_ses_triples_sur_les_serres():
+    g = _grille()
+    jeux = S.adaptative(0.60, triples=1)(g)
+    assert len(jeux) == 3 * 2 ** 4, len(jeux)
+    assert len({c[6] for c in jeux}) == 3, "le triple va sur le match le plus serré"
+
+
 def test_sans_la_tete_retire_bien_les_meilleures():
     """Le garde-fou anti-loterie : si retirer trois grilles fait tout
     tomber, le rendement moyen ne décrivait qu'elles."""

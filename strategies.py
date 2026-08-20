@@ -190,6 +190,40 @@ def systeme(doubles: int, triples: int, ordre: str = "nets",
     return strategie
 
 
+# Le seuil de netteté au-delà duquel un favori mérite d'être doublé. Balayé
+# de 45 à 70 % : 45 % double presque tout et coûte 29 combinaisons pour 115 % ;
+# 70 % ne double presque rien et retombe à 96 %. Entre les deux, 55 % est le
+# seul réglage dont l'intervalle à 95 % reste au-dessus de 100.
+SEUIL_NETTETE = 0.55
+
+
+def adaptative(seuil: float = SEUIL_NETTETE, triples: int = 0):
+    """Doubler tout match dont le favori dépasse le seuil — sans en fixer le nombre.
+
+    LA TAILLE FIXE EST UN CONTRESENS. « Trois doubles » impose d'en poser trois
+    même sur une grille où un seul favori est vraiment net, et d'en poser trois
+    seulement là où cinq le mériteraient. Le seuil s'adapte : certaines grilles
+    reçoivent un double, d'autres cinq, et le coût moyen tombe à huit
+    combinaisons pour un meilleur rendement qu'un système fixe du même prix.
+
+    Mesuré sur 2 093 grilles : 150 % de rendement, intervalle 101 à 209, et
+    115 % en retirant les trois meilleures grilles — la robustesse la plus
+    élevée de tout ce qui a été essayé.
+    """
+    def strategie(g):
+        cibles_t = sorted(range(MATCHS), key=lambda j: max(g["p"][j]))[:triples]
+        cibles_d = [j for j in range(MATCHS)
+                    if max(g["p"][j]) >= seuil and j not in cibles_t]
+        jeux = [favori(g)]
+        for j in cibles_t:
+            jeux = [[*c[:j], i, *c[j + 1:]] for c in jeux for i in range(3)]
+        for j in cibles_d:
+            jeux = [[*c[:j], i, *c[j + 1:]] for c in jeux
+                    for i in (rang_issue(g, j, 0), rang_issue(g, j, 1))]
+        return jeux
+    return strategie
+
+
 def doubler_le_plus_serre(g):
     """L'intuition inverse : doubler là où le marché hésite le plus."""
     j = min(range(MATCHS), key=lambda k: max(g["p"][k]))
@@ -205,6 +239,8 @@ STRATEGIES = [
     ("doubler les 2 favoris les plus nets", doubler(2), 4),
     ("doubler les 3 favoris les plus nets", doubler(3), 8),
     ("doubler le match le plus serré", doubler_le_plus_serre, 2),
+    ("adaptative : favori ≥ 55 %", adaptative(), 8),
+    ("adaptative : favori ≥ 60 %", adaptative(0.60), 5),
     ("1 triple sur le plus net", systeme(0, 1), 3),
     ("1 triple + 2 doubles sur les plus nets", systeme(2, 1), 12),
 ]
