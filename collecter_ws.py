@@ -275,7 +275,13 @@ def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True,
             if essai > 1:
                 rattrapees += 1
             pools, matchs = extraire(list(trames), pid)
-            if not pools:
+            # UNE TRAME INCOMPLÈTE NE VAUT PAS UNE TRAME. visiter() renvoie 0
+            # quand la grille n'est jamais arrivée entière ; le pool peut
+            # pourtant être là, amputé de ses matchs. L'enregistrer donnerait
+            # un fichier sans statut, sans date et sans match — que
+            # --sauter-existantes tiendrait ensuite pour acquis, et qui ne
+            # serait jamais recollecté. Mesuré sur la grille 4174.
+            if not pools or essai == 0:
                 print(f"  [{grille_type}-{gid}] aucune trame pour cette grille")
                 vides += 1
                 vides_suite += 1
@@ -293,8 +299,12 @@ def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True,
                 r = donnees["repartition"]
                 cotes = sum(1 for m in donnees["matches"] if m.get("cote_1"))
                 marque = "  (2e essai)" if essai > 1 else ""
-                print(f"  [{grille_type}-{gid}] {donnees['statut']:<7} "
-                      f"{donnees['fin'][:10] if donnees['fin'] else '?'} | "
+                # Le statut peut manquer : on l'affiche tel quel plutôt que
+                # de planter en tentant de formater None, ce qui arrêtait net
+                # une collecte de plusieurs heures.
+                statut = donnees["statut"] or "?"
+                print(f"  [{grille_type}-{gid}] {statut:<7} "
+                      f"{donnees['fin'][:10] if donnees['fin'] else '?':<10} | "
                       f"{len(donnees['matches'])} matchs | "
                       f"{cotes} avec cotes | repartition : "
                       f"{'oui' if r else 'non'}{marque}")

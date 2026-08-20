@@ -234,13 +234,16 @@ def _lancer_collecte(reponses, **kwargs):
     trames_courantes = []
 
     def faux_visiter(page, trames, url, attente=None, pid=None):
+        """Reproduit le vrai visiter() : réussi seulement si la grille est
+        complète, pool ET matchs. Une doublure plus indulgente que le code
+        qu'elle imite ne prouve rien."""
         trames.clear()
         gid = int(url.rsplit("-", 1)[1])
         trame = reponses.get(gid)
-        if trame:
-            trames.append(trame)
-            return 1
-        return 0
+        if not trame:
+            return 0
+        trames.append(trame)
+        return 1 if cw._pool_complet(list(trames), pid) else 0
 
     cw.sync_playwright = lambda: _Faux()
     cw._ouvrir = lambda p: (lancements.append(1), (_Faux(), object()))[1]
@@ -281,6 +284,27 @@ def test_une_grille_trouvee_remet_le_compteur_a_zero():
     code, sauvees, _, texte, _ = _lancer_collecte(reponses, arret_vides=3, lot=0)
     assert code == 0, texte
     assert sauvees == [4168], sauvees
+
+
+def test_trame_incomplete_n_est_pas_enregistree():
+    """Un pool amputé de ses matchs ne doit pas produire de fichier.
+
+    Relevé sur la grille 4174 : le pool était arrivé, ses matchs non. Le
+    fichier écrit portait un statut nul, aucune date et aucun match — et
+    --sauter-existantes l'aurait tenu pour acquis, si bien qu'il n'aurait
+    jamais été recollecté. L'affichage plantait en prime sur ce statut nul,
+    arrêtant net une collecte de plusieurs heures.
+
+    Mieux vaut déclarer la grille muette : elle sera redemandée.
+    """
+    import collecter_ws as cw
+
+    ampute = _trame({"pools": {"7004174": {"poolId": 7004174, "poolStatus": None,
+                                           "poolEnd": None, "matches": [999]}},
+                     "matches": {}})
+    code, sauvees, _, texte, _ = _lancer_collecte({4174: ampute}, arret_vides=99, lot=0)
+    assert sauvees == [], sauvees
+    assert "aucune trame" in texte, texte
 
 
 def test_pause_longue_entre_les_lots():

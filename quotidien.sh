@@ -10,13 +10,16 @@
 # POURQUOI PAS GITHUB ACTIONS. Winamax bloque les IP de centre de données,
 # runners GitHub compris. Ce script tourne donc sur la machine, par launchd.
 #
-# Installation :
+# Installation. `launchctl load` est déprécié et répond « Load failed: 5 » sur
+# macOS récent ; c'est `bootstrap` qu'il faut, et `bootout` d'abord pour
+# écarter un reliquat.
 #     chmod +x quotidien.sh
 #     cp fr.lotofoot.quotidien.plist ~/Library/LaunchAgents/
-#     launchctl load ~/Library/LaunchAgents/fr.lotofoot.quotidien.plist
+#     launchctl bootout gui/$(id -u)/fr.lotofoot.quotidien 2>/dev/null
+#     launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/fr.lotofoot.quotidien.plist
 #
 # Vérification :
-#     launchctl list | grep lotofoot
+#     launchctl print gui/$(id -u)/fr.lotofoot.quotidien | head -15
 #     tail -20 diagnostic/quotidien.log
 
 set -e
