@@ -208,4 +208,28 @@ heure de travail et ça ne bloque rien.
 
 ## Envies en attente
 
-Rien pour l'instant. Ce fichier est fait pour se remplir.
+**Catégoriser les grilles par compétition** — « grille Ligue 1 » quand les sept
+matchs en relèvent, « multi-compétition » sinon.
+
+Vérifié le 20 août 2026 : les matchs d'une grille ne portent **aucun champ de
+compétition** dans le websocket. Ni `tournamentId`, ni `categoryId`, ni
+`sportId` — seulement les équipes, la date, le score et les cotes. Les tables de
+tournois sont pourtant dans la trame, mais rien n'y relie un match de grille.
+
+La voie praticable passe donc par les dates exactes : la colonne `Div` de
+football-data donne la compétition réelle d'une rencontre — `F1`, `E0`, `SP1` —
+dès lors qu'on la rapproche par équipes et date. Sept `F1` font une grille
+Ligue 1 ; des `Div` mêlés font une grille multi-compétition ; une affiche
+introuvable alors que les deux équipes sont connues est un match de coupe, car
+football-data ne publie jamais les coupes. On avait mesuré 2 205 affiches dans
+ce cas.
+
+Ce qu'on ne saura pas : **quelle** coupe. Ligue des champions, Europa League et
+Coupe de France se ressembleront. Les nommer demande une source qui couvre les
+coupes — la même conclusion qu'ailleurs, atteinte par un troisième chemin.
+
+**Piste pour les grilles futures, à tester :** les matchs d'une grille encore
+ouverte sont aussi proposés au pari classique, où l'état applicatif de la page
+les accompagne d'un `tournamentId`. La collecte quotidienne pourrait donc
+enregistrer la compétition tant que la grille est à venir. Même logique que
+`repart` : ce qui est facile aujourd'hui devient impossible demain.
