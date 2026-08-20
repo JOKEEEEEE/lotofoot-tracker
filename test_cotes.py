@@ -147,6 +147,42 @@ def test_un_fichier_vide_ne_fait_pas_tomber_le_chargement():
     assert len(index) == 2, index
 
 
+def test_refuse_un_marche_deja_regle():
+    """Le piège le plus coûteux rencontré dans ce projet.
+
+    Turquie - Italie du 11 juin 2021, finale de poule perdue 0-3, est servie
+    par Winamax avec les cotes 250 / 250 / 1,00. L'issue réalisée y vaut 1,00 :
+    ces cotes CONTIENNENT le résultat. 3 092 matchs sur 5 070 sont dans ce cas,
+    et une analyse qui les garde retrouve le résultat qu'elle croit prédire —
+    le « suiveur de cotes » y trouvait 6,6 bons résultats sur 7.
+    """
+    assert not dg.cote_plausible((250.0, 250.0, 1.0))
+    assert not dg.cote_plausible((225.0, 6.5, 1.01))
+    assert not dg.cote_plausible((1.0, 7.0, 250.0))
+    # Un marché réel, même très déséquilibré, reste dans les bornes.
+    assert dg.cote_plausible((1.06, 12.0, 30.0))
+    assert dg.cote_plausible((1.15, 8.0, 50.9))     # le plus court vu chez Pinnacle
+    assert dg.cote_plausible((2.4, 3.35, 2.7))
+
+
+def test_chaque_borne_arrete_quelque_chose_a_elle_seule():
+    """Les deux bornes se couvraient l'une l'autre dans le test précédent.
+
+    Un marché réglé viole les deux à la fois, si bien qu'en supprimer une
+    n'échouait nulle part. Il faut donc un cas par borne.
+    """
+    # Plancher seul : 1,04 est trop court, le reste est ordinaire.
+    assert not dg.cote_plausible((1.04, 8.0, 30.0))
+    # Plafond seul : 150 n'existe pas sur un 1/N/2, le reste est ordinaire.
+    assert not dg.cote_plausible((1.5, 8.0, 150.0))
+
+
+def test_un_triplet_incomplet_n_est_pas_un_marche():
+    assert not dg.cote_plausible((2.4, None, 2.7))
+    assert not dg.cote_plausible((2.4, 3.35))
+    assert not dg.cote_plausible(None)
+
+
 def test_match_sans_date_jamais_rapproche():
     index = _index(("Lyon", "Nantes", date(2023, 4, 15), (2, 1), COTES))
     trouvee, motif = rapprocher(_match(debut=None), index)

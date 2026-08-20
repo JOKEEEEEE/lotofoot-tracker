@@ -145,6 +145,7 @@ def main() -> int:
     # fois au dénominateur et son motif de refus autant : le taux de
     # couverture s'en trouvait sous-estimé.
     vus = set()
+    rejets, cotes_rejetees = 0, set()
     for t in types:
         for f in sorted((DATA_POOLS / t).glob("*.json"), key=lambda f: int(f.stem)):
             d = json.loads(f.read_text(encoding="utf-8"))
@@ -153,12 +154,23 @@ def main() -> int:
                 if mid is None or mid in vus:
                     continue
                 vus.add(mid)
-                if m.get("cote_1") and m.get("cote_N") and m.get("cote_2"):
-                    resultat[mid] = {"cote_1": m["cote_1"], "cote_N": m["cote_N"],
-                                     "cote_2": m["cote_2"], "source": "winamax",
-                                     "grille_type": t, "grille_id": d["grille_id"]}
-                    sources["winamax"] += 1
-                    continue
+                sienne = (m.get("cote_1"), m.get("cote_N"), m.get("cote_2"))
+                if all(sienne):
+                    # Une cote d'opérateur ne se croit pas sur parole : sur les
+                    # grilles de 2020-2021, Winamax sert des marchés déjà réglés
+                    # où l'issue réalisée vaut 1,00. Elles sont refusées ici,
+                    # et le compteur le dit plutôt que de les faire disparaître.
+                    if dg.cote_plausible(sienne):
+                        resultat[mid] = {"cote_1": sienne[0], "cote_N": sienne[1],
+                                         "cote_2": sienne[2], "source": "winamax",
+                                         "grille_type": t, "grille_id": d["grille_id"]}
+                        sources["winamax"] += 1
+                        continue
+                    # Refusée, mais pas perdue : une source tierce peut très
+                    # bien coter ce match. Renoncer ici reviendrait à punir le
+                    # match pour un défaut qui n'est pas le sien.
+                    rejets += 1
+                    cotes_rejetees.add(mid)
                 trouvee, motif = rapprocher(m, index)
                 if trouvee is None and motif == "affiche absente de football-data":
                     trouvee, motif_fq = rapprocher(m, index_fq, table_fq)
@@ -184,6 +196,10 @@ def main() -> int:
     print(f"matchs cotés     : {len(resultat)}  ({100 * len(resultat) / total:.0f} %)")
     for nom, n in sources.most_common():
         print(f"    {nom:<20} {n:>6}")
+    if rejets:
+        recuperes = sum(1 for k in resultat if k in cotes_rejetees)
+        print(f"\ncotes Winamax d'après-match écartées : {rejets}"
+              f"  (dont {recuperes} recotées par une source tierce)")
     print("\nnon rapprochés :")
     for motif, n in motifs.most_common():
         print(f"    {motif:<38} {n:>6}")

@@ -150,6 +150,29 @@ COLONNES_COTES = [
 ]
 
 
+# CE QU'UN MARCHÉ 1/N/2 D'AVANT-MATCH NE FAIT JAMAIS. Une issue à 1,00 et
+# les deux autres à 250 : ce n'est pas une cote, c'est un marché réglé, relevé
+# après le coup de sifflet final. Winamax en sert 3 092 de cette nature sur les
+# grilles de 2020-2021, soit 61 % de ses cotes — l'issue réalisée y est à 1,00,
+# si bien qu'elles CONTIENNENT LE RÉSULTAT. Toute analyse qui les utilise
+# raisonne en rond : elle retrouve le résultat qu'elle croit prédire.
+#
+# Les bornes sont réglées sur ce que les vrais marchés font. La cote la plus
+# courte relevée chez Pinnacle sur ces onze ans est 1,04, la plus longue 50,9 ;
+# chez Footiqo, 1,03 et 64. Un plancher à 1,06 et un plafond à 100 laissent
+# donc passer tout le marché réel et arrêtent net les cotes d'après-match : ils
+# écartent 4 rencontres Pinnacle sur 15 303, et 3 092 Winamax sur 5 070.
+COTE_PLANCHER = 1.06
+COTE_PLAFOND = 100.0
+
+
+def cote_plausible(trio) -> bool:
+    """Ce triplet peut-il être un marché 1/N/2 relevé avant le match ?"""
+    if not trio or len(trio) != 3 or any(o is None for o in trio):
+        return False
+    return COTE_PLANCHER <= min(trio) and max(trio) <= COTE_PLAFOND
+
+
 def _flottant(valeur):
     """Une cote, ou rien. Une cote de 1.00 ne paie pas : ce n'est pas une cote."""
     try:
@@ -197,7 +220,7 @@ def charger_rencontres() -> dict:
                 for nom, (h, x, a) in COLONNES_COTES:
                     trio = (_flottant(ligne.get(h)), _flottant(ligne.get(x)),
                             _flottant(ligne.get(a)))
-                    if all(trio):
+                    if cote_plausible(trio):
                         cotes[nom] = trio
                 buts = (ligne.get("FTHG") or ligne.get("HG"),
                         ligne.get("FTAG") or ligne.get("AG"))
