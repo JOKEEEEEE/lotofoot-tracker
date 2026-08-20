@@ -93,8 +93,9 @@ def test_la_marge_du_combine_se_multiplie():
     Chaque jambe subit le prélèvement, et les prélèvements se composent. À
     12,3 % la jambe, il reste 0,877 puissance 7, soit 40 % — et non 88 %.
     """
-    jambe = (3.42, 3.42, 3.42)               # surcote 1,140 exactement
-    assert abs(sum(1/o for o in jambe) - 1.140) < 0.001
+    # Trois cotes égales à 3 / 1,140 : la surcote vaut exactement 1,140.
+    jambe = (3 / 1.140,) * 3
+    assert abs(sum(1 / o for o in jambe) - 1.140) < 1e-9
     une = retention_combine([jambe])
     sept = retention_combine([jambe] * 7)
     assert abs(une - 1 / 1.140) < 1e-6, une
