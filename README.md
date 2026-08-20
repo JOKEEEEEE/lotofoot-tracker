@@ -827,13 +827,22 @@ clé peut changer, pas cette somme.
     python sonder_cotes.py 4170     # témoin : une grille qui a ses cotes
     python sonder_cotes.py 3000     # le trou : une grille qui n'en a pas
 
-Puis comparer les deux inventaires de clés. Trois issues possibles :
+**Verdict, relevé le 20 août 2026 sur la grille 3000 du 13 août 2023 :** la
+clé `odds1` est bien là sur les sept matchs de la grille, et elle est nulle sur
+les sept. Aucun autre triplet ayant la forme d'un marché ne leur est accroché.
+Winamax garde le champ et le vide. **Il n'y a rien à aller chercher ailleurs**,
+et les 1 640 grilles du trou ne récupéreront jamais leurs cotes.
 
-1. **la clé existe et vaut `null`** — Winamax a vidé le champ, il n'y a rien à
-   aller chercher, et il faut une source tierce ;
-2. **la clé a disparu** — le modèle a changé, les cotes sont peut-être ailleurs
-   dans la trame, et la sonde le dira ;
-3. **un triplet inattendu apparaît** — c'est la piste, et elle vaut le détour.
+La sonde a d'ailleurs failli dire l'inverse. Elle comptait les clés sur les 49
+fiches de match que porte la trame, sans voir que 42 d'entre elles
+appartiennent aux **grilles en cours** — et celles-là ont leurs cotes, puisque
+leurs matchs sont à venir. « `odds1` : 49 présentes, 33 remplies » rassurait
+sur une grille dont aucun des sept matchs n'en a. Les deux populations sont
+désormais séparées dans le rapport.
+
+Conséquence pratique : la collecte quotidienne n'est plus une commodité, c'est
+le seul moyen d'accumuler des cotes Winamax. Ce qui n'est pas pris dans les
+neuf mois est perdu.
 
 ## Conditions d'utilisation
 

@@ -312,20 +312,38 @@ sont disponibles pour le vérifier.
 cohérence suppose deux rangs à 50 % — vrai pour la grille 7, faux pour les
 autres.
 
-## À vérifier chez Winamax, depuis le Mac
+## Winamax ne peut plus rien pour le passé ✅ tranché le 20 août 2026
 
 Les cotes manquent sur 1 640 grilles — quatre ans, de novembre 2021 à novembre
-2025 — alors que `repart`, l'histogramme des bulletins par nombre de bons
-résultats, est servi sur la même période. Avant d'aller acheter des cotes ailleurs, il faut savoir si Winamax
-les cache ou s'il ne les a plus.
+2025. `sonder_cotes.py` a tranché sur la grille 3000 : la clé `odds1` est
+présente sur les sept matchs de la grille et nulle sur les sept, et aucun autre
+triplet ayant la forme d'un marché ne leur est accroché dans la trame. Le champ
+est conservé et vidé.
 
-    python sonder_cotes.py 4170     # témoin
-    python sonder_cotes.py 3000     # le trou
+Deux conséquences.
 
-Si la clé `odds1` existe et vaut `null` sur la 3000 comme elle vaut 2,40 sur la
-4170, l'affaire est close : il faudra une source tierce pour les coupes et les
-sélections. Si elle a disparu, ou si la sonde signale un triplet ailleurs dans
-la trame, c'est une piste — et de loin la moins chère.
+**La collecte quotidienne devient critique.** Elle n'est plus une commodité :
+c'est le seul moyen d'accumuler des cotes Winamax, et ce qui n'est pas pris
+dans la fenêtre de neuf mois est perdu pour toujours.
+
+**Les 9 038 matchs de coupe et de sélection demandent une source tierce.**
+football-data ne publie que des championnats nationaux ; c'est structurel, et
+aucun appariement plus malin ne le contournera. Les pistes, par ordre de coût
+croissant :
+
+1. **Attendre.** 70 % des matchs sont cotés, et la part monte mécaniquement à
+   chaque grille collectée. Pour une première mesure du biais collectif, c'est
+   assez — les coupes ne sont pas une catégorie à part du point de vue du
+   parieur.
+2. **Une API de cotes historiques** (the-odds-api, api-football et
+   consorts) : couvre les coupes et les sélections, mais rarement avant 2020,
+   et l'abonnement se compte en dizaines d'euros par mois. À évaluer sur un
+   mois avant de s'engager.
+3. **Un archiveur de cotes** type oddsportal ou betexplorer : la couverture
+   remonte bien avant 2015, mais c'est du scraping, avec le même arbitrage de
+   CGU que Winamax — sauf qu'ici rien n'oblige à le prendre.
+
+À trancher quand l'étape 3 aura dit ce qui manque vraiment.
 
 ## Envies en attente
 
