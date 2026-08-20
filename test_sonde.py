@@ -85,6 +85,25 @@ def test_inventaire_distingue_absente_et_vidée():
     assert presentes["score1"] == 3 and remplies["score1"] == 3, remplies
 
 
+def test_inventaire_ne_melange_pas_deux_populations():
+    """Le piège qui a failli marcher.
+
+    Sur la grille 3000, du 13 août 2023, la trame porte 49 fiches de match :
+    les 7 de la grille, et 42 appartenant aux grilles en cours. Compter tout
+    ensemble affichait « odds1 : 49 présentes, 33 remplies » — un chiffre
+    rassurant, alors qu'aucun des sept matchs de la grille n'a de cote. Les
+    33 cotes étaient celles des matchs à venir.
+    """
+    siens = {42003079, 42003089}
+    matchs = {42003079: {"odds1": None}, 42003089: {"odds1": None},
+              73399174: {"odds1": 1.25}, 73399230: {"odds1": 14.0}}
+
+    _, remplies = inventaire({k: v for k, v in matchs.items() if k in siens})
+    assert remplies["odds1"] == 0, remplies
+    _, ailleurs = inventaire({k: v for k, v in matchs.items() if k not in siens})
+    assert ailleurs["odds1"] == 2, ailleurs
+
+
 if __name__ == "__main__":
     echecs = 0
     for nom, fonction in sorted(globals().items()):

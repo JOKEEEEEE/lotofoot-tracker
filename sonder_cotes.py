@@ -120,11 +120,27 @@ def sonder(grille_type: str, grille_id: int) -> int:
           f"{len(matchs)} objets match reçus")
     print(f"trame brute : {brut}\n")
 
-    print("CLÉS DES OBJETS MATCH   (présentes / dont remplies)")
-    presentes, remplies = inventaire(matchs)
+    # NE PAS MÉLANGER LES DEUX POPULATIONS. La trame ne porte pas que la
+    # grille demandée : elle charrie aussi les matchs des grilles en cours,
+    # une quarantaine, et ceux-là ont leurs cotes puisqu'ils sont à venir.
+    # Compter tout ensemble donnait « odds1 : 49 présentes, 33 remplies » sur
+    # une grille de 2023 dont AUCUN des sept matchs n'a de cote — le chiffre
+    # rassurait alors qu'il disait le contraire.
+    siens = set(pool.get("matches") or [])
+    dedans = {k: v for k, v in matchs.items() if k in siens}
+    dehors = {k: v for k, v in matchs.items() if k not in siens}
+
+    print(f"LES {len(dedans)} MATCHS DE LA GRILLE   (présentes / dont remplies)")
+    presentes, remplies = inventaire(dedans)
     for k, n in presentes.most_common():
-        marque = "  <-- vide partout" if remplies[k] == 0 else ""
+        marque = "  <-- présente mais vide" if remplies[k] == 0 else ""
         print(f"    {k:<28} {n:>3} / {remplies[k]:<3}{marque}")
+
+    if dehors:
+        pres_d, rempl_d = inventaire(dehors)
+        print(f"\n  (la trame porte aussi {len(dehors)} matchs d'autres grilles, "
+              f"dont {rempl_d.get('odds1', 0)} avec cotes — ils ne disent rien "
+              f"de celle-ci)")
 
     print("\nCLÉS DU POOL")
     for k, v in sorted(pool.items()):
@@ -134,11 +150,18 @@ def sonder(grille_type: str, grille_id: int) -> int:
     suspects = []
     for charge in brutes:
         suspects += triplets_suspects(cw._decoder_trame(charge))
+    # Seuls comptent les triplets accrochés aux matchs de CETTE grille.
+    # Les autres sont ceux des grilles en cours, et ils sont attendus.
+    siens_txt = {str(m) for m in siens}
+    suspects = [t for t in suspects
+                if not t[0].startswith("matches.")
+                or t[0].split(".")[1] in siens_txt]
     # Par marge croissante : un vrai 1/N/2 tourne autour de 1,05 à 1,20, et
     # les triplets fortuits — un score glissé à la place d'une cote — s'en
     # écartent. C'est un ordre de lecture, pas un filtre : rien n'est jeté.
     suspects.sort(key=lambda t: t[3])
-    print(f"\nTRIPLETS AYANT LA FORME D'UNE COTE : {len(suspects)}")
+    print(f"\nTRIPLETS AYANT LA FORME D'UNE COTE, HORS MATCHS ÉTRANGERS : "
+          f"{len(suspects)}")
     for chemin, cles, valeurs, marge in suspects[:20]:
         print(f"    {chemin}\n        {cles} = {valeurs}   marge {marge}")
     if len(suspects) > 20:
