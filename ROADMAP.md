@@ -217,6 +217,36 @@ une grille ouverte et disparaît à son règlement. Chaque jour sans le lire est
 perdu définitivement — l'historique de 4 152 grilles ne l'aura jamais. C'est une
 heure de travail et ça ne bloque rien.
 
+## Ce que la collecte a révélé sur la répartition du pot
+
+Relevé le 20 août 2026, en confrontant les trois types.
+
+| Type | Parts | Observé |
+|---|---|---|
+| grille7 | **2** | 50 % / 50 %, invariable sur 4 155 grilles |
+| grille9 | **4** | 50 / 25 / 25 quand le rang supérieur a un gagnant |
+| grille12 | **5** | 20 % chacune quand personne ne fait le maximum |
+
+Le pot se divise en parts égales, une par rang, et **les rangs sans gagnant
+n'apparaissent pas dans les rapports** — d'où des sommes qui ne font pas 100 %
+du montant distribué.
+
+**Le rang supérieur accumule les reports.** Grille 12 n°223 : le 12/12 emporte
+45 % du pot. Grille 12 n°186 : il en emporte 69 %, et le montant distribué —
+46 587 € — dépasse le montant garanti de 40 000 €. Quand personne ne trouve les
+douze bons résultats, la part non réclamée s'ajoute à la grille suivante.
+
+**Pourquoi c'est intéressant pour le sujet.** Un rang dont la dotation grossit
+sans que les mises suivent est structurellement plus favorable, exactement comme
+les 413 grilles à montant garanti repérées sur la grille 7 — mais en plus
+marqué. Si le public ne réagit pas au report, l'écart se mesure. 403 grilles 12
+sont disponibles pour le vérifier.
+
+**À faire quand on y viendra :** un auditeur pour `data/pools/`.
+`verifier_base.py` ne connaît que le format du scraper HTML, et son contrôle de
+cohérence suppose deux rangs à 50 % — vrai pour la grille 7, faux pour les
+autres.
+
 ## Envies en attente
 
 **Catégoriser les grilles par compétition** — « grille Ligue 1 » quand les sept
