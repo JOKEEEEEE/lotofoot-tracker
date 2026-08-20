@@ -72,6 +72,25 @@ def test_le_bruit_ne_casse_rien():
     assert pools == {} and matchs == {}
 
 
+def test_pool_nul_est_ignore():
+    """Une grille inexistante répond `null`, ce qui n'est pas un pool.
+
+    Relevé en attaquant les grilles 9 et 12 : demander la n°30 quand le
+    compteur en est à 22 fait répondre le serveur `"pools": {"9000030":
+    null}`. Il dit explicitement « rien » au lieu de se taire, comme le
+    faisaient les identifiants absents de la grille 7 — si bien que le cas
+    n'était jamais apparu, et que la collecte s'arrêtait sur une erreur au
+    premier numéro trop élevé.
+    """
+    nul = _trame({"pools": {"9000030": None}, "matches": {"7": None}})
+    pools, matchs = extraire([nul])
+    assert pools == {} and matchs == {}, (pools, matchs)
+    # Et le sondage doit conclure « pas encore là » plutôt que planter.
+    from collecter_ws import _pool_complet
+    assert _pool_complet([nul], 9000030) is False
+    assert _pool_complet([nul]) is False
+
+
 def test_extraction_accumule_les_trames():
     """Les trames se complètent : la grille demandée peut arriver après."""
     pools, matchs = extraire(BRUIT + [RECENTE] + BRUIT + [ANCIENNE])

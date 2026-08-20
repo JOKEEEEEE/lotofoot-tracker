@@ -123,10 +123,19 @@ def extraire(trames: list, pid: int = None) -> tuple:
     pools, matchs = {}, {}
     for charge in trames:
         etat = _decoder_trame(charge)
+        # UN `null` N'EST PAS UN POOL. Demander une grille qui n'existe pas —
+        # grille9 n°30 quand le compteur en est à 22 — fait répondre au
+        # serveur `"pools": {"9000030": null}` : il dit explicitement « rien »
+        # au lieu de se taire. Les identifiants absents de la grille 7 ne
+        # produisaient aucune entrée du tout, si bien que le cas n'était
+        # jamais apparu, et la collecte s'arrêtait sur une erreur au premier
+        # numéro trop élevé.
         for cle, valeur in etat.get("pools", {}).items():
-            pools[int(cle)] = valeur
+            if valeur:
+                pools[int(cle)] = valeur
         for cle, valeur in etat.get("matches", {}).items():
-            matchs[int(cle)] = valeur
+            if valeur:
+                matchs[int(cle)] = valeur
     if pid is not None:
         pools = {k: v for k, v in pools.items() if k == pid}
     return pools, matchs
