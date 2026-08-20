@@ -1,0 +1,127 @@
+{
+  "grille_id": 713,
+  "grille_type": "grille7",
+  "pool_id": 7000713,
+  "titre": "Grille 7 n°713",
+  "statut": "CLOSED",
+  "fin": "2017-11-05T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:51:26.074043+00:00",
+  "mises_nettes": 18357,
+  "montant_distribue": 18357,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 96,
+      "winningsPerGrid": 95.61
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1054,
+      "winningsPerGrid": 8.71
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11833190,
+      "debut": "2017-11-05T16:00:00+00:00",
+      "home": "Marseille",
+      "away": "Caen",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1667",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832970,
+      "debut": "2017-11-05T16:00:00+00:00",
+      "home": "Metz",
+      "away": "Lille",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1643",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830324,
+      "debut": "2017-11-05T16:30:00+00:00",
+      "home": "Chelsea",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830276,
+      "debut": "2017-11-05T16:30:00+00:00",
+      "home": "Everton",
+      "away": "Watford",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:24",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090166,
+      "debut": "2017-11-05T19:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971754,
+      "debut": "2017-11-05T20:15:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Braga",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:2999",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833388,
+      "debut": "2017-11-05T20:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1649",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

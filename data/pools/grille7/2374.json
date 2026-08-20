@@ -1,0 +1,136 @@
+{
+  "grille_id": 2374,
+  "grille_type": "grille7",
+  "pool_id": 7002374,
+  "titre": "Grille 7 n°2374",
+  "statut": "CLOSED",
+  "fin": "2022-02-22T19:45:00+00:00",
+  "collecte_le": "2026-08-20T09:22:58.560604+00:00",
+  "mises_nettes": 13417.5,
+  "montant_distribue": 13417.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100111001001100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 44,
+      "winningsPerGrid": 152.47
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 557,
+      "winningsPerGrid": 12.04
+    }
+  ],
+  "repartition": [
+    0,
+    538,
+    2961,
+    5777,
+    5486,
+    2527,
+    557,
+    44
+  ],
+  "matches": [
+    {
+      "match_id": 31004985,
+      "debut": "2022-02-22T20:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Lille",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:1643",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31004991,
+      "debut": "2022-02-22T20:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27867748,
+      "debut": "2022-02-22T19:45:00+00:00",
+      "home": "Middlesbrough",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:8",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27867746,
+      "debut": "2022-02-22T19:45:00+00:00",
+      "home": "Hull City",
+      "away": "Barnsley",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:23",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27867744,
+      "debut": "2022-02-22T19:45:00+00:00",
+      "home": "Bristol City",
+      "away": "Coventry City",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:11",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27867752,
+      "debut": "2022-02-22T19:45:00+00:00",
+      "home": "Swansea",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:60",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27867754,
+      "debut": "2022-02-22T20:00:00+00:00",
+      "home": "Reading",
+      "away": "Birmingham",
+      "home_id": "sr:competitor:28",
+      "away_id": "sr:competitor:9",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

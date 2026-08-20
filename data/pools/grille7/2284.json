@@ -1,0 +1,136 @@
+{
+  "grille_id": 2284,
+  "grille_type": "grille7",
+  "pool_id": 7002284,
+  "titre": "Grille 7 n°2284",
+  "statut": "CLOSED",
+  "fin": "2021-12-08T19:45:00+00:00",
+  "collecte_le": "2026-08-20T09:32:47.209523+00:00",
+  "mises_nettes": 18503.25,
+  "montant_distribue": 18503.25,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 1027.96
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 157,
+      "winningsPerGrid": 58.93
+    }
+  ],
+  "repartition": [
+    285,
+    2581,
+    7633,
+    8496,
+    4350,
+    1160,
+    157,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 30289063,
+      "debut": "2021-12-08T19:45:00+00:00",
+      "home": "Livingston FC",
+      "away": "Hibernian FC",
+      "home_id": "sr:competitor:2356",
+      "away_id": "sr:competitor:2354",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933548,
+      "debut": "2021-12-08T20:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:2817",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933550,
+      "debut": "2021-12-08T20:00:00+00:00",
+      "home": "Benfica",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3305",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933572,
+      "debut": "2021-12-09T18:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2819",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933574,
+      "debut": "2021-12-08T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:2445",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933596,
+      "debut": "2021-12-08T20:00:00+00:00",
+      "home": "Red Bull Salzbourg",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2046",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933598,
+      "debut": "2021-12-08T20:00:00+00:00",
+      "home": "Wolfsbourg",
+      "away": "Lille",
+      "home_id": "sr:competitor:2524",
+      "away_id": "sr:competitor:1643",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1536,
+  "grille_type": "grille7",
+  "pool_id": 7001536,
+  "titre": "Grille 7 n°1536",
+  "statut": "CLOSED",
+  "fin": "2020-01-27T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:40:35.755290+00:00",
+  "mises_nettes": 8184.75,
+  "montant_distribue": 8184.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 41,
+      "winningsPerGrid": 99.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 548,
+      "winningsPerGrid": 7.47
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18660466,
+      "debut": "2020-01-27T18:45:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3036",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442446,
+      "debut": "2020-01-27T19:45:00+00:00",
+      "home": "Le Havre",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1652",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18553310,
+      "debut": "2020-01-27T19:45:00+00:00",
+      "home": "Coleraine",
+      "away": "Cliftonville",
+      "home_id": "sr:competitor:5270",
+      "away_id": "sr:competitor:5181",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18661112,
+      "debut": "2020-01-27T19:45:00+00:00",
+      "home": "Estoril",
+      "away": "Benfica B",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:74465",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20881969,
+      "debut": "2020-01-27T20:00:00+00:00",
+      "home": "Bournemouth",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030386,
+      "debut": "2020-01-27T20:00:00+00:00",
+      "home": "Pérouse",
+      "away": "Livourne",
+      "home_id": "sr:competitor:2698",
+      "away_id": "sr:competitor:2726",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660454,
+      "debut": "2020-01-27T21:00:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Maritimo",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3007",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

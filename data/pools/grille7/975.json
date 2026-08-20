@@ -1,0 +1,127 @@
+{
+  "grille_id": 975,
+  "grille_type": "grille7",
+  "pool_id": 7000975,
+  "titre": "Grille 7 n°975",
+  "statut": "CLOSED",
+  "fin": "2018-08-02T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:30:52.482463+00:00",
+  "mises_nettes": 11824.5,
+  "montant_distribue": 11824.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 311.17
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 221,
+      "winningsPerGrid": 26.75
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15046491,
+      "debut": "2018-08-02T18:45:00+00:00",
+      "home": "Bordeaux",
+      "away": "Ventspils",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:5354",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14777261,
+      "debut": "2018-08-02T18:45:00+00:00",
+      "home": "Burnley",
+      "away": "Aberdeen",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:2355",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15046503,
+      "debut": "2018-08-02T18:45:00+00:00",
+      "home": "Sarpsborg 08",
+      "away": "Saint-Gall",
+      "home_id": "sr:competitor:822",
+      "away_id": "sr:competitor:2442",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15046479,
+      "debut": "2018-08-02T18:45:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Osijek",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2040",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15046511,
+      "debut": "2018-08-02T18:45:00+00:00",
+      "home": "Lech Poznan",
+      "away": "Shakhtar Soligorsk",
+      "home_id": "sr:competitor:3121",
+      "away_id": "sr:competitor:3357",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15046507,
+      "debut": "2018-08-02T19:00:00+00:00",
+      "home": "Ujpest",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:1924",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14777259,
+      "debut": "2018-08-02T19:00:00+00:00",
+      "home": "Rio Ave",
+      "away": "Jagiellonia Bialystok",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:7691",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

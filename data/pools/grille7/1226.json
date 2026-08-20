@@ -1,0 +1,127 @@
+{
+  "grille_id": 1226,
+  "grille_type": "grille7",
+  "pool_id": 7001226,
+  "titre": "Grille 7 n°1226",
+  "statut": "CLOSED",
+  "fin": "2019-04-16T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:06:32.932288+00:00",
+  "mises_nettes": 10050.75,
+  "montant_distribue": 11000,
+  "montant_garanti": 11000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1833.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 72,
+      "winningsPerGrid": 76.39
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17724390,
+      "debut": "2019-04-16T18:45:00+00:00",
+      "home": "Brighton",
+      "away": "Cardiff",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:61",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17679858,
+      "debut": "2019-04-16T19:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2953",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17679874,
+      "debut": "2019-04-16T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:35",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17791474,
+      "debut": "2019-04-16T22:15:00+00:00",
+      "home": "Deportivo Capiata",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:87470",
+      "away_id": "sr:competitor:5991",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899589,
+      "debut": "2019-04-17T00:45:00+00:00",
+      "home": "Bucaramanga",
+      "away": "Once Caldas",
+      "home_id": "sr:competitor:6103",
+      "away_id": "sr:competitor:6118",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17791476,
+      "debut": "2019-04-17T00:15:00+00:00",
+      "home": "Olimpia Asuncion",
+      "away": "Sportivo Luqueno",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:5998",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17934227,
+      "debut": "2019-04-17T14:00:00+00:00",
+      "home": "Sfaxien",
+      "away": "Monastir",
+      "home_id": "sr:competitor:44463",
+      "away_id": "sr:competitor:59638",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

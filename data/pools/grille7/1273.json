@@ -1,0 +1,127 @@
+{
+  "grille_id": 1273,
+  "grille_type": "grille7",
+  "pool_id": 7001273,
+  "titre": "Grille 7 n°1273",
+  "statut": "CLOSED",
+  "fin": "2019-06-02T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:03:07.804717+00:00",
+  "mises_nettes": 6346.5,
+  "montant_distribue": 6346.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 27,
+      "winningsPerGrid": 117.53
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 243,
+      "winningsPerGrid": 13.06
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18297893,
+      "debut": "2019-06-02T19:00:00+00:00",
+      "home": "Dijon",
+      "away": "Lens",
+      "home_id": "sr:competitor:1686",
+      "away_id": "sr:competitor:1648",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788920,
+      "debut": "2019-06-02T19:00:00+00:00",
+      "home": "Ceara CE",
+      "away": "Santos",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1968",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788924,
+      "debut": "2019-06-02T19:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1954",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788934,
+      "debut": "2019-06-02T19:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:1961",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18303851,
+      "debut": "2019-06-02T19:15:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Cittadella",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2717",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681427,
+      "debut": "2019-06-02T20:00:00+00:00",
+      "home": "Minnesota United FC",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:41618",
+      "away_id": "sr:competitor:39833",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788930,
+      "debut": "2019-06-02T22:00:00+00:00",
+      "home": "Chapecoense",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:21845",
+      "away_id": "sr:competitor:1963",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

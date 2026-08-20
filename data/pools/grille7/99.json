@@ -1,0 +1,127 @@
+{
+  "grille_id": 99,
+  "grille_type": "grille7",
+  "pool_id": 7000099,
+  "titre": "Grille 7 n°99",
+  "statut": "CLOSED",
+  "fin": "2015-12-29T19:45:00+00:00",
+  "collecte_le": "2026-08-20T12:49:09.355678+00:00",
+  "mises_nettes": 8881.5,
+  "montant_distribue": 8881.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1480.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 57,
+      "winningsPerGrid": 77.91
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7464812,
+      "debut": "2015-12-29T19:45:00+00:00",
+      "home": "Leicester",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466316,
+      "debut": "2015-12-29T19:45:00+00:00",
+      "home": "Brighton",
+      "away": "Ipswich",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:32",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466320,
+      "debut": "2015-12-29T19:45:00+00:00",
+      "home": "Cardiff",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:14",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466324,
+      "debut": "2015-12-29T19:45:00+00:00",
+      "home": "Fulham",
+      "away": "Rotherham",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:13",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466326,
+      "debut": "2015-12-29T19:45:00+00:00",
+      "home": "Leeds",
+      "away": "Derby County",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:27",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7479920,
+      "debut": "2015-12-29T19:45:00+00:00",
+      "home": "Ross County",
+      "away": "Kilmarnock",
+      "home_id": "sr:competitor:2365",
+      "away_id": "sr:competitor:2347",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8632494,
+      "debut": "2015-12-29T19:45:00+00:00",
+      "home": "Aberystwyth",
+      "away": "Carmarthen",
+      "home_id": "sr:competitor:4905",
+      "away_id": "sr:competitor:4911",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1008,
+  "grille_type": "grille7",
+  "pool_id": 7001008,
+  "titre": "Grille 7 n°1008",
+  "statut": "CLOSED",
+  "fin": "2018-09-04T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:27:01.824763+00:00",
+  "mises_nettes": 6831,
+  "montant_distribue": 6831,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001111100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 123,
+      "winningsPerGrid": 27.77
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 958,
+      "winningsPerGrid": 3.57
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11626595,
+      "debut": "2018-09-04T18:30:00+00:00",
+      "home": "Irlande du Nord (F)",
+      "away": "Slovaquie (F)",
+      "home_id": "sr:competitor:38099",
+      "away_id": "sr:competitor:38101",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11626795,
+      "debut": "2018-09-04T18:30:00+00:00",
+      "home": "Espagne (F)",
+      "away": "Serbie (F)",
+      "home_id": "sr:competitor:37371",
+      "away_id": "sr:competitor:38100",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11626797,
+      "debut": "2018-09-04T15:00:00+00:00",
+      "home": "Autriche (F)",
+      "away": "Finlande (F)",
+      "home_id": "sr:competitor:34014",
+      "away_id": "sr:competitor:21802",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15011365,
+      "debut": "2018-09-04T21:00:00+00:00",
+      "home": "Deportivo Rionegro",
+      "away": "Boyaca Chico FC",
+      "home_id": "sr:competitor:89362",
+      "away_id": "sr:competitor:6107",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15011367,
+      "debut": "2018-09-04T23:00:00+00:00",
+      "home": "Tolima",
+      "away": "Atletico Huila",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6104",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15011377,
+      "debut": "2018-09-05T01:00:00+00:00",
+      "home": "Alianza Petrolera",
+      "away": "Millonarios ",
+      "home_id": "sr:competitor:89156",
+      "away_id": "sr:competitor:6117",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14779689,
+      "debut": "2018-09-05T02:00:00+00:00",
+      "home": "États-Unis (F)",
+      "away": "Chili (F)",
+      "home_id": "sr:competitor:7424",
+      "away_id": "sr:competitor:49281",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

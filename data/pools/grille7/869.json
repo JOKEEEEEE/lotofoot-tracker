@@ -1,0 +1,127 @@
+{
+  "grille_id": 869,
+  "grille_type": "grille7",
+  "pool_id": 7000869,
+  "titre": "Grille 7 n°869",
+  "statut": "CLOSED",
+  "fin": "2018-04-15T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:40:36.402847+00:00",
+  "mises_nettes": 16853.25,
+  "montant_distribue": 16853.25,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 268,
+      "winningsPerGrid": 31.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1781,
+      "winningsPerGrid": 4.73
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11833320,
+      "debut": "2018-04-15T15:00:00+00:00",
+      "home": "Troyes",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1641",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090196,
+      "debut": "2018-04-15T16:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2711",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11914144,
+      "debut": "2018-04-15T16:00:00+00:00",
+      "home": "Werder Brême",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:36360",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12004838,
+      "debut": "2018-04-15T16:00:00+00:00",
+      "home": "Galatasaray",
+      "away": "Istanbul Basaksehir",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:3086",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055694,
+      "debut": "2018-04-15T16:30:00+00:00",
+      "home": "Getafe",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2814",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090192,
+      "debut": "2018-04-15T18:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2702",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833176,
+      "debut": "2018-04-15T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1653",
+      "score_home": 7,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

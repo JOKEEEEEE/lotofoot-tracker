@@ -1,0 +1,136 @@
+{
+  "grille_id": 2172,
+  "grille_type": "grille7",
+  "pool_id": 7002172,
+  "titre": "Grille 7 n°2172",
+  "statut": "CLOSED",
+  "fin": "2021-09-12T18:45:00+00:00",
+  "collecte_le": "2026-08-20T09:43:01.307051+00:00",
+  "mises_nettes": 10187.25,
+  "montant_distribue": 10187.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 35,
+      "winningsPerGrid": 145.53
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 427,
+      "winningsPerGrid": 11.93
+    }
+  ],
+  "repartition": [
+    67,
+    669,
+    2065,
+    3972,
+    4206,
+    2142,
+    427,
+    35
+  ],
+  "matches": [
+    {
+      "match_id": 27884792,
+      "debut": "2021-09-12T18:45:00+00:00",
+      "home": "Lyon",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1659",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 28159840,
+      "debut": "2021-09-12T18:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2793",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 18,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27965236,
+      "debut": "2021-09-12T19:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2821",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27649274,
+      "debut": "2021-09-12T19:00:00+00:00",
+      "home": "Racing Genk",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:4860",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 48,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27649278,
+      "debut": "2021-09-12T19:00:00+00:00",
+      "home": "O-H Louvain",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2918",
+      "away_id": "sr:competitor:4858",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 48,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27973150,
+      "debut": "2021-09-12T19:30:00+00:00",
+      "home": "Malaga",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:24264",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 48,
+      "cote_2": 250
+    },
+    {
+      "match_id": 28077110,
+      "debut": "2021-09-12T19:30:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3004",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 12,
+      "cote_N": 1.14,
+      "cote_2": 5.3
+    }
+  ]
+}

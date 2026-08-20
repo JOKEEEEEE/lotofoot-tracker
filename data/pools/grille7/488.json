@@ -1,0 +1,127 @@
+{
+  "grille_id": 488,
+  "grille_type": "grille7",
+  "pool_id": 7000488,
+  "titre": "Grille 7 n°488",
+  "statut": "CLOSED",
+  "fin": "2017-03-09T20:05:00+00:00",
+  "collecte_le": "2026-08-20T12:13:45.449915+00:00",
+  "mises_nettes": 10917.75,
+  "montant_distribue": 10917.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 21,
+      "winningsPerGrid": 259.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 242,
+      "winningsPerGrid": 22.56
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11156591,
+      "debut": "2017-03-09T20:05:00+00:00",
+      "home": "Lyon",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:2702",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11156579,
+      "debut": "2017-03-09T20:05:00+00:00",
+      "home": "Celta Vigo",
+      "away": "FK Krasnodar",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:34425",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11156599,
+      "debut": "2017-03-09T20:05:00+00:00",
+      "home": "Olympiakos",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:3050",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11156603,
+      "debut": "2017-03-09T20:05:00+00:00",
+      "home": "La Gantoise",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11156587,
+      "debut": "2017-03-09T20:05:00+00:00",
+      "home": "Schalke 04",
+      "away": "Borussia M'Gladbach",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:2527",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9820943,
+      "debut": "2017-03-10T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2692",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769679,
+      "debut": "2017-03-10T19:45:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:6577",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 268,
+  "grille_type": "grille7",
+  "pool_id": 7000268,
+  "titre": "Grille 7 n°268",
+  "statut": "CLOSED",
+  "fin": "2016-07-16T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:33:40.966278+00:00",
+  "mises_nettes": 3725.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 23,
+      "winningsPerGrid": 108.7
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8693224,
+      "debut": "2016-07-16T18:30:00+00:00",
+      "home": "Bray",
+      "away": "Finn Harps",
+      "home_id": "sr:competitor:3171",
+      "away_id": "sr:competitor:3181",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211841,
+      "debut": "2016-07-16T19:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:5981",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211847,
+      "debut": "2016-07-16T21:30:00+00:00",
+      "home": "Santos",
+      "away": "Ponte Preta",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1969",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697666,
+      "debut": "2016-07-16T23:30:00+00:00",
+      "home": "Columbus Crew",
+      "away": "DC United",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:2502",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697664,
+      "debut": "2016-07-17T02:00:00+00:00",
+      "home": "Vancouver",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:22010",
+      "away_id": "sr:competitor:52237",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697672,
+      "debut": "2016-07-17T02:00:00+00:00",
+      "home": "Real Salt Lake",
+      "away": "New England Revolution",
+      "home_id": "sr:competitor:5133",
+      "away_id": "sr:competitor:2511",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697674,
+      "debut": "2016-07-17T02:30:00+00:00",
+      "home": "San Jose Earthquakes",
+      "away": "Toronto FC",
+      "home_id": "sr:competitor:21825",
+      "away_id": "sr:competitor:7080",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

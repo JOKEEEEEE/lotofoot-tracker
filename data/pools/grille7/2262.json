@@ -1,0 +1,136 @@
+{
+  "grille_id": 2262,
+  "grille_type": "grille7",
+  "pool_id": 7002262,
+  "titre": "Grille 7 n°2262",
+  "statut": "CLOSED",
+  "fin": "2021-11-21T19:45:00+00:00",
+  "collecte_le": "2026-08-20T09:34:15.663277+00:00",
+  "mises_nettes": 8783.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010100001111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 31,
+      "winningsPerGrid": 161.29
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 268,
+      "winningsPerGrid": 18.66
+    }
+  ],
+  "repartition": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 27884952,
+      "debut": "2021-11-21T19:45:00+00:00",
+      "home": "Lyon",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160076,
+      "debut": "2021-11-21T19:45:00+00:00",
+      "home": "Genoa",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2702",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27649428,
+      "debut": "2021-11-21T20:00:00+00:00",
+      "home": "K. Beerschot V.A.",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:169260",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965434,
+      "debut": "2021-11-21T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Valence",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2828",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 30349975,
+      "debut": "2021-11-21T20:00:00+00:00",
+      "home": "New York City FC",
+      "away": "Atlanta United FC",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:305920",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27472172,
+      "debut": "2021-11-21T22:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Cuiaba MT",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:49202",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 30349981,
+      "debut": "2021-11-21T22:30:00+00:00",
+      "home": "Portland Timbers",
+      "away": "Minnesota United FC",
+      "home_id": "sr:competitor:22007",
+      "away_id": "sr:competitor:41618",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3073,
+  "grille_type": "grille7",
+  "pool_id": 7003073,
+  "titre": "Grille 7 n°3073",
+  "statut": "CLOSED",
+  "fin": "2023-10-13T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:16:45.093316+00:00",
+  "mises_nettes": 15474.75,
+  "montant_distribue": 15474.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 132,
+      "winningsPerGrid": 58.62
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1263,
+      "winningsPerGrid": 6.13
+    }
+  ],
+  "repartition": [
+    42,
+    493,
+    2518,
+    5528,
+    6465,
+    4192,
+    1263,
+    132
+  ],
+  "matches": [
+    {
+      "match_id": 36601695,
+      "debut": "2023-10-13T18:45:00+00:00",
+      "home": "Pays-Bas",
+      "away": "France",
+      "home_id": "sr:competitor:4705",
+      "away_id": "sr:competitor:4481",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36604829,
+      "debut": "2023-10-13T18:45:00+00:00",
+      "home": "Portugal",
+      "away": "Slovaquie",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4697",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36603019,
+      "debut": "2023-10-13T18:45:00+00:00",
+      "home": "Autriche",
+      "away": "Belgique",
+      "home_id": "sr:competitor:4718",
+      "away_id": "sr:competitor:4717",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36601697,
+      "debut": "2023-10-13T18:45:00+00:00",
+      "home": "République d'Irlande",
+      "away": "Grèce",
+      "home_id": "sr:competitor:4693",
+      "away_id": "sr:competitor:4710",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36604807,
+      "debut": "2023-10-13T18:45:00+00:00",
+      "home": "Islande",
+      "away": "Luxembourg",
+      "home_id": "sr:competitor:4708",
+      "away_id": "sr:competitor:4478",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41721575,
+      "debut": "2023-10-13T18:45:00+00:00",
+      "home": "Angleterre",
+      "away": "Australie",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:4741",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984041,
+      "debut": "2023-10-13T19:00:00+00:00",
+      "home": "Real Oviedo",
+      "away": "Albacete",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:2848",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1455,
+  "grille_type": "grille7",
+  "pool_id": 7001455,
+  "titre": "Grille 7 n°1455",
+  "statut": "CLOSED",
+  "fin": "2019-11-22T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:48:06.289920+00:00",
+  "mises_nettes": 19420.5,
+  "montant_distribue": 19420.5,
+  "montant_garanti": 17500,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 50,
+      "winningsPerGrid": 194.21
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 574,
+      "winningsPerGrid": 16.92
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18442326,
+      "debut": "2019-11-22T19:00:00+00:00",
+      "home": "Châteauroux",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1666",
+      "away_id": "sr:competitor:1656",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442324,
+      "debut": "2019-11-22T19:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Clermont",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1680",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442316,
+      "debut": "2019-11-22T19:00:00+00:00",
+      "home": "Paris FC",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1646",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442318,
+      "debut": "2019-11-22T19:00:00+00:00",
+      "home": "Caen",
+      "away": "Le Mans",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1672",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442322,
+      "debut": "2019-11-22T19:00:00+00:00",
+      "home": "Grenoble",
+      "away": "Nancy",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1675",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442332,
+      "debut": "2019-11-22T19:00:00+00:00",
+      "home": "Niort",
+      "away": "Rodez",
+      "home_id": "sr:competitor:1665",
+      "away_id": "sr:competitor:6925",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440174,
+      "debut": "2019-11-22T19:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Lille",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1643",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

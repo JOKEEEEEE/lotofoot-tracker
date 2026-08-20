@@ -1,0 +1,127 @@
+{
+  "grille_id": 1121,
+  "grille_type": "grille7",
+  "pool_id": 7001121,
+  "titre": "Grille 7 n°1121",
+  "statut": "CLOSED",
+  "fin": "2018-12-30T14:15:00+00:00",
+  "collecte_le": "2026-08-20T11:16:05.535664+00:00",
+  "mises_nettes": 14271,
+  "montant_distribue": 14271,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 89,
+      "winningsPerGrid": 80.17
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 842,
+      "winningsPerGrid": 8.47
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14736623,
+      "debut": "2018-12-30T14:15:00+00:00",
+      "home": "Burnley",
+      "away": "West Ham",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:37",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736635,
+      "debut": "2018-12-30T14:15:00+00:00",
+      "home": "Southampton",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:17",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324542,
+      "debut": "2018-12-30T15:00:00+00:00",
+      "home": "Benevento",
+      "away": "Brescia",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:2691",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736633,
+      "debut": "2018-12-30T16:30:00+00:00",
+      "home": "Manchester United",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:60",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324550,
+      "debut": "2018-12-30T17:00:00+00:00",
+      "home": "Livourne",
+      "away": "Padoue",
+      "home_id": "sr:competitor:2726",
+      "away_id": "sr:competitor:2741",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15433938,
+      "debut": "2018-12-30T17:00:00+00:00",
+      "home": "Belenenses",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3004",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15433940,
+      "debut": "2018-12-30T17:00:00+00:00",
+      "home": "Chaves",
+      "away": "SC Varzim",
+      "home_id": "sr:competitor:3025",
+      "away_id": "sr:competitor:3005",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

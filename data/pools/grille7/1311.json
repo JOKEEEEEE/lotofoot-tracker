@@ -1,0 +1,127 @@
+{
+  "grille_id": 1311,
+  "grille_type": "grille7",
+  "pool_id": 7001311,
+  "titre": "Grille 7 n°1311",
+  "statut": "CLOSED",
+  "fin": "2019-07-12T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:59:15.598883+00:00",
+  "mises_nettes": 6138,
+  "montant_distribue": 6138,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 13,
+      "winningsPerGrid": 236.08
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 149,
+      "winningsPerGrid": 20.6
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18538284,
+      "debut": "2019-07-12T18:45:00+00:00",
+      "home": "Derry City",
+      "away": "UC Dublin",
+      "home_id": "sr:competitor:3170",
+      "away_id": "sr:competitor:3168",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18548320,
+      "debut": "2019-07-12T21:00:00+00:00",
+      "home": "Deportivo Capiata",
+      "away": "Sportivo Luqueno",
+      "home_id": "sr:competitor:87470",
+      "away_id": "sr:competitor:5998",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681707,
+      "debut": "2019-07-12T23:00:00+00:00",
+      "home": "DC United",
+      "away": "New England Revolution",
+      "home_id": "sr:competitor:2502",
+      "away_id": "sr:competitor:2511",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18548316,
+      "debut": "2019-07-12T23:30:00+00:00",
+      "home": "Guarani Asuncion",
+      "away": "Club River Plate Asuncion",
+      "home_id": "sr:competitor:5994",
+      "away_id": "sr:competitor:90970",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681713,
+      "debut": "2019-07-13T01:00:00+00:00",
+      "home": "Houston Dynamo",
+      "away": "Los Angeles FC",
+      "home_id": "sr:competitor:2508",
+      "away_id": "sr:competitor:402227",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16638871,
+      "debut": "2019-07-13T01:00:00+00:00",
+      "home": "Deportivo Cuenca",
+      "away": "Mushuc Runa",
+      "home_id": "sr:competitor:5251",
+      "away_id": "sr:competitor:134976",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681717,
+      "debut": "2019-07-13T03:00:00+00:00",
+      "home": "Los Angeles Galaxy",
+      "away": "San Jose Earthquakes",
+      "home_id": "sr:competitor:2513",
+      "away_id": "sr:competitor:21825",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

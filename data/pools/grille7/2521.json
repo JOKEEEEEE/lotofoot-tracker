@@ -1,0 +1,136 @@
+{
+  "grille_id": 2521,
+  "grille_type": "grille7",
+  "pool_id": 7002521,
+  "titre": "Grille 7 n°2521",
+  "statut": "CLOSED",
+  "fin": "2022-06-27T17:00:00+00:00",
+  "collecte_le": "2026-08-20T09:09:45.491414+00:00",
+  "mises_nettes": 3654,
+  "montant_distribue": 3654,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 107.47
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 201,
+      "winningsPerGrid": 9.09
+    }
+  ],
+  "repartition": [
+    39,
+    257,
+    739,
+    1333,
+    1463,
+    823,
+    201,
+    17
+  ],
+  "matches": [
+    {
+      "match_id": 31603007,
+      "debut": "2022-06-27T17:00:00+00:00",
+      "home": "Elfsborg",
+      "away": "Varbergs Bois",
+      "home_id": "sr:competitor:1762",
+      "away_id": "sr:competitor:7101",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31603009,
+      "debut": "2022-06-27T17:00:00+00:00",
+      "home": "IK Sirius",
+      "away": "IFK Göteborg",
+      "home_id": "sr:competitor:1793",
+      "away_id": "sr:competitor:1761",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31603011,
+      "debut": "2022-06-27T17:00:00+00:00",
+      "home": "Kalmar",
+      "away": "IFK Värnamo",
+      "home_id": "sr:competitor:1891",
+      "away_id": "sr:competitor:1842",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31603013,
+      "debut": "2022-06-27T17:00:00+00:00",
+      "home": "Malmö",
+      "away": "Helsingborg IF",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:1890",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839269,
+      "debut": "2022-06-27T18:30:00+00:00",
+      "home": "Patronato ",
+      "away": "Independiente",
+      "home_id": "sr:competitor:43741",
+      "away_id": "sr:competitor:3209",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34006409,
+      "debut": "2022-06-27T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3177",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32038769,
+      "debut": "2022-06-27T21:00:00+00:00",
+      "home": "Sportivo Ameliano",
+      "away": "Guairena FC",
+      "home_id": "sr:competitor:607728",
+      "away_id": "sr:competitor:322375",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

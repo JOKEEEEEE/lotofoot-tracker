@@ -1,0 +1,136 @@
+{
+  "grille_id": 2975,
+  "grille_type": "grille7",
+  "pool_id": 7002975,
+  "titre": "Grille 7 n°2975",
+  "statut": "CLOSED",
+  "fin": "2023-07-19T16:00:00+00:00",
+  "collecte_le": "2026-08-20T08:32:59.497257+00:00",
+  "mises_nettes": 4486.5,
+  "montant_distribue": 4486.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 448.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 101,
+      "winningsPerGrid": 22.21
+    }
+  ],
+  "repartition": [
+    38,
+    302,
+    1170,
+    1974,
+    1728,
+    664,
+    101,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 41861465,
+      "debut": "2023-07-19T16:00:00+00:00",
+      "home": "Ferencvaros",
+      "away": "Klaksvik",
+      "home_id": "sr:competitor:1925",
+      "away_id": "sr:competitor:5194",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41861799,
+      "debut": "2023-07-19T16:00:00+00:00",
+      "home": "Dinamo Tbilisi",
+      "away": "FC Astana",
+      "home_id": "sr:competitor:5171",
+      "away_id": "sr:competitor:36155",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41861485,
+      "debut": "2023-07-19T16:00:00+00:00",
+      "home": "Qarabag Agdam",
+      "away": "Lincoln FC",
+      "home_id": "sr:competitor:5962",
+      "away_id": "sr:competitor:126304",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41720373,
+      "debut": "2023-07-19T16:00:00+00:00",
+      "home": "Lillestrom SK",
+      "away": "Aalesund",
+      "home_id": "sr:competitor:664",
+      "away_id": "sr:competitor:677",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41861455,
+      "debut": "2023-07-19T18:00:00+00:00",
+      "home": "Ludogorets",
+      "away": "KF Ballkani",
+      "home_id": "sr:competitor:43840",
+      "away_id": "sr:competitor:280003",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41861495,
+      "debut": "2023-07-19T18:00:00+00:00",
+      "home": "Swift Hesperange",
+      "away": "Slovan Bratislava",
+      "home_id": "sr:competitor:5382",
+      "away_id": "sr:competitor:2404",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41861477,
+      "debut": "2023-07-19T18:30:00+00:00",
+      "home": "Larne",
+      "away": "HJK Helsinki",
+      "home_id": "sr:competitor:5184",
+      "away_id": "sr:competitor:2242",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

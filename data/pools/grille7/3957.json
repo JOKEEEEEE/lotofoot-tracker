@@ -1,0 +1,136 @@
+{
+  "grille_id": 3957,
+  "grille_type": "grille7",
+  "pool_id": 7003957,
+  "titre": "Grille 7 n°3957",
+  "statut": "CLOSED",
+  "fin": "2026-01-13T17:30:00+00:00",
+  "collecte_le": "2026-08-20T06:34:26.940685+00:00",
+  "mises_nettes": 8419.5,
+  "montant_distribue": 8419.5,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100111100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 94,
+      "winningsPerGrid": 44.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1520,
+      "winningsPerGrid": 2.77
+    }
+  ],
+  "repartition": [
+    0,
+    46,
+    320,
+    1827,
+    3829,
+    3554,
+    1510,
+    92
+  ],
+  "matches": [
+    {
+      "match_id": 61513902,
+      "debut": "2026-01-13T17:30:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2674",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.56,
+      "cote_N": 3.8,
+      "cote_2": 3.95
+    },
+    {
+      "match_id": 61513896,
+      "debut": "2026-01-13T19:30:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Werder Brême",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2534",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.38,
+      "cote_N": 4.9,
+      "cote_2": 6.5
+    },
+    {
+      "match_id": 61513912,
+      "debut": "2026-01-13T19:30:00+00:00",
+      "home": "Hambourg",
+      "away": "Bayer Leverkusen",
+      "home_id": "sr:competitor:2676",
+      "away_id": "sr:competitor:2681",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": 3.35,
+      "cote_N": 3.6,
+      "cote_2": 1.98
+    },
+    {
+      "match_id": 61513898,
+      "debut": "2026-01-13T19:30:00+00:00",
+      "home": "Mayence",
+      "away": "Heidenheim",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:5885",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.64,
+      "cote_N": 3.35,
+      "cote_2": 4
+    },
+    {
+      "match_id": 67055744,
+      "debut": "2026-01-13T20:00:00+00:00",
+      "home": "FC Bayeux",
+      "away": "Marseille",
+      "home_id": "sr:competitor:46482",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 9,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 25,
+      "cote_2": 1.02
+    },
+    {
+      "match_id": 66911898,
+      "debut": "2026-01-13T20:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.35,
+      "cote_N": 3.25,
+      "cote_2": 2.3
+    },
+    {
+      "match_id": 64100003,
+      "debut": "2026-01-13T20:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Torino",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2696",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.52,
+      "cote_N": 3.4,
+      "cote_2": 4.9
+    }
+  ]
+}

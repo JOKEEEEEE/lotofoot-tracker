@@ -1,0 +1,127 @@
+{
+  "grille_id": 286,
+  "grille_type": "grille7",
+  "pool_id": 7000286,
+  "titre": "Grille 7 n°286",
+  "statut": "CLOSED",
+  "fin": "2016-08-04T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:32:41.083642+00:00",
+  "mises_nettes": 6131.25,
+  "montant_distribue": 6131.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 17,
+      "winningsPerGrid": 180.33
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 129,
+      "winningsPerGrid": 23.76
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9765531,
+      "debut": "2016-08-04T18:00:00+00:00",
+      "home": "AEK Athènes",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:3250",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302065,
+      "debut": "2016-08-04T18:00:00+00:00",
+      "home": "Honduras",
+      "away": "Algerie",
+      "home_id": "sr:competitor:24251",
+      "away_id": "sr:competitor:252145",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9765547,
+      "debut": "2016-08-04T18:15:00+00:00",
+      "home": "FC Viitorul",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:37426",
+      "away_id": "sr:competitor:2903",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9812377,
+      "debut": "2016-08-04T18:15:00+00:00",
+      "home": "Brøndby",
+      "away": "Hertha Berlin",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:2528",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9812485,
+      "debut": "2016-08-04T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:2890",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302055,
+      "debut": "2016-08-04T20:00:00+00:00",
+      "home": "Mexique",
+      "away": "Allemagne",
+      "home_id": "sr:competitor:69230",
+      "away_id": "sr:competitor:252153",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302067,
+      "debut": "2016-08-04T21:00:00+00:00",
+      "home": "Portugal",
+      "away": "Argentine",
+      "home_id": "sr:competitor:252157",
+      "away_id": "sr:competitor:24246",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

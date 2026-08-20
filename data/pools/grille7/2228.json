@@ -1,0 +1,136 @@
+{
+  "grille_id": 2228,
+  "grille_type": "grille7",
+  "pool_id": 7002228,
+  "titre": "Grille 7 n°2228",
+  "statut": "CLOSED",
+  "fin": "2021-10-25T18:45:00+00:00",
+  "collecte_le": "2026-08-20T09:37:43.013840+00:00",
+  "mises_nettes": 10736.25,
+  "montant_distribue": 10736.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 766.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 88,
+      "winningsPerGrid": 61
+    }
+  ],
+  "repartition": [
+    557,
+    2339,
+    4400,
+    4136,
+    2165,
+    623,
+    88,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 27885986,
+      "debut": "2021-10-25T18:45:00+00:00",
+      "home": "Auxerre",
+      "away": "Bastia",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1655",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 55,
+      "cote_2": null
+    },
+    {
+      "match_id": 25853050,
+      "debut": "2021-10-25T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Waterford United",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3194",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 34,
+      "cote_2": 1
+    },
+    {
+      "match_id": 25853056,
+      "debut": "2021-10-25T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3179",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 55,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965350,
+      "debut": "2021-10-25T19:00:00+00:00",
+      "home": "Getafe",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2821",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27973302,
+      "debut": "2021-10-25T19:00:00+00:00",
+      "home": "Gérone",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2815",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 48,
+      "cote_N": 1,
+      "cote_2": 55
+    },
+    {
+      "match_id": 27959594,
+      "debut": "2021-10-25T19:45:00+00:00",
+      "home": "Lanus",
+      "away": "CA Talleres",
+      "home_id": "sr:competitor:3218",
+      "away_id": "sr:competitor:3210",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 44,
+      "cote_N": 1,
+      "cote_2": 55
+    },
+    {
+      "match_id": 28077190,
+      "debut": "2021-10-25T20:15:00+00:00",
+      "home": "Boavista",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3004",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 50,
+      "cote_N": 1,
+      "cote_2": 65
+    }
+  ]
+}

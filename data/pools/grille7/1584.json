@@ -1,0 +1,127 @@
+{
+  "grille_id": 1584,
+  "grille_type": "grille7",
+  "pool_id": 7001584,
+  "titre": "Grille 7 n°1584",
+  "statut": "CLOSED",
+  "fin": "2020-03-02T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:35:38.055194+00:00",
+  "mises_nettes": 15972,
+  "montant_distribue": 15972,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010001111010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 31,
+      "winningsPerGrid": 257.61
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 807,
+      "winningsPerGrid": 9.9
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18660552,
+      "debut": "2020-03-02T19:30:00+00:00",
+      "home": "Santa Clara",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3011",
+      "away_id": "sr:competitor:3002",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18573264,
+      "debut": "2020-03-02T19:30:00+00:00",
+      "home": "Hanovre 96",
+      "away": "Holstein Kiel",
+      "home_id": "sr:competitor:2541",
+      "away_id": "sr:competitor:2573",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442572,
+      "debut": "2020-03-02T19:45:00+00:00",
+      "home": "Paris FC",
+      "away": "Lens",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1648",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490650,
+      "debut": "2020-03-02T19:45:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:14",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927294,
+      "debut": "2020-03-02T19:45:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2701",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21129021,
+      "debut": "2020-03-02T19:45:00+00:00",
+      "home": "Portsmouth",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:2",
+      "away_id": "sr:competitor:42",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660550,
+      "debut": "2020-03-02T20:45:00+00:00",
+      "home": "Benfica",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3014",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

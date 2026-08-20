@@ -1,0 +1,136 @@
+{
+  "grille_id": 3134,
+  "grille_type": "grille7",
+  "pool_id": 7003134,
+  "titre": "Grille 7 n°3134",
+  "statut": "CLOSED",
+  "fin": "2023-12-01T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:12:35.346904+00:00",
+  "mises_nettes": 11801.25,
+  "montant_distribue": 11801.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 44,
+      "winningsPerGrid": 134.11
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 404,
+      "winningsPerGrid": 14.61
+    }
+  ],
+  "repartition": [
+    136,
+    991,
+    3246,
+    5126,
+    4066,
+    1722,
+    404,
+    44
+  ],
+  "matches": [
+    {
+      "match_id": 42023173,
+      "debut": "2023-12-01T19:30:00+00:00",
+      "home": "Darmstadt",
+      "away": "FC Cologne",
+      "home_id": "sr:competitor:2576",
+      "away_id": "sr:competitor:2671",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893919,
+      "debut": "2023-12-01T19:45:00+00:00",
+      "home": "Westerlo",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:2893",
+      "away_id": "sr:competitor:2900",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134377,
+      "debut": "2023-12-01T19:45:00+00:00",
+      "home": "Monza",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2729",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42004763,
+      "debut": "2023-12-01T20:00:00+00:00",
+      "home": "Reims",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1659",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893195,
+      "debut": "2023-12-01T20:00:00+00:00",
+      "home": "Las Palmas",
+      "away": "Getafe",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:2859",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41888051,
+      "debut": "2023-12-01T20:00:00+00:00",
+      "home": "Preston North End",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:21",
+      "away_id": "sr:competitor:1",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146371,
+      "debut": "2023-12-01T20:30:00+00:00",
+      "home": "Chaves",
+      "away": "FC Vizela",
+      "home_id": "sr:competitor:3025",
+      "away_id": "sr:competitor:5136",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

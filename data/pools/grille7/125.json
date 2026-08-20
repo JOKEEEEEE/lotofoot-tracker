@@ -1,0 +1,127 @@
+{
+  "grille_id": 125,
+  "grille_type": "grille7",
+  "pool_id": 7000125,
+  "titre": "Grille 7 n°125",
+  "statut": "CLOSED",
+  "fin": "2016-01-25T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:47:12.110288+00:00",
+  "mises_nettes": 7306.5,
+  "montant_distribue": 7306.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 260.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 168,
+      "winningsPerGrid": 21.75
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7588550,
+      "debut": "2016-01-25T18:00:00+00:00",
+      "home": "Istanbul Basaksehir",
+      "away": "Kasimpasa",
+      "home_id": "sr:competitor:3086",
+      "away_id": "sr:competitor:6063",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474582,
+      "debut": "2016-01-25T19:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Brest",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1715",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474590,
+      "debut": "2016-01-25T19:30:00+00:00",
+      "home": "Clermont",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1662",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989206,
+      "debut": "2016-01-25T19:30:00+00:00",
+      "home": "Livourne",
+      "away": "Côme",
+      "home_id": "sr:competitor:2726",
+      "away_id": "sr:competitor:2704",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610552,
+      "debut": "2016-01-25T19:30:00+00:00",
+      "home": "Levante",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:6577",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466414,
+      "debut": "2016-01-25T19:45:00+00:00",
+      "home": "Burnley",
+      "away": "Derby County",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:27",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558312,
+      "debut": "2016-01-25T20:00:00+00:00",
+      "home": "Tondela",
+      "away": "Boavista",
+      "home_id": "sr:competitor:38396",
+      "away_id": "sr:competitor:2995",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

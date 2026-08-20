@@ -1,0 +1,136 @@
+{
+  "grille_id": 2986,
+  "grille_type": "grille7",
+  "pool_id": 7002986,
+  "titre": "Grille 7 n°2986",
+  "statut": "CLOSED",
+  "fin": "2023-07-31T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:32:29.163218+00:00",
+  "mises_nettes": 5566.5,
+  "montant_distribue": 5566.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 111,
+      "winningsPerGrid": 25.07
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 577,
+      "winningsPerGrid": 4.82
+    }
+  ],
+  "repartition": [
+    17,
+    198,
+    900,
+    1917,
+    2219,
+    1483,
+    577,
+    111
+  ],
+  "matches": [
+    {
+      "match_id": 41754791,
+      "debut": "2023-07-31T17:00:00+00:00",
+      "home": "Aarhus GF",
+      "away": "Nordsjælland",
+      "home_id": "sr:competitor:1291",
+      "away_id": "sr:competitor:1292",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37844245,
+      "debut": "2023-07-31T17:00:00+00:00",
+      "home": "IK Sirius",
+      "away": "AIK Stockholm",
+      "home_id": "sr:competitor:1793",
+      "away_id": "sr:competitor:1764",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37844239,
+      "debut": "2023-07-31T17:00:00+00:00",
+      "home": "Malmö",
+      "away": "IFK Värnamo",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:1842",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41906423,
+      "debut": "2023-07-31T18:00:00+00:00",
+      "home": "Debrecen",
+      "away": "Mezokovesd Zsory",
+      "home_id": "sr:competitor:1921",
+      "away_id": "sr:competitor:25608",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41753827,
+      "debut": "2023-07-31T18:15:00+00:00",
+      "home": "Lokomotiv Plovdiv",
+      "away": "Botev Vratsa",
+      "home_id": "sr:competitor:3272",
+      "away_id": "sr:competitor:36938",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41978155,
+      "debut": "2023-07-31T18:30:00+00:00",
+      "home": "Dinamo Bucarest",
+      "away": "Sepsi OSK",
+      "home_id": "sr:competitor:3292",
+      "away_id": "sr:competitor:276385",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38453767,
+      "debut": "2023-07-31T19:15:00+00:00",
+      "home": "KR Reykjavik",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1902",
+      "away_id": "sr:competitor:1899",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

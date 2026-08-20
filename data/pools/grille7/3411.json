@@ -1,0 +1,136 @@
+{
+  "grille_id": 3411,
+  "grille_type": "grille7",
+  "pool_id": 7003411,
+  "titre": "Grille 7 n°3411",
+  "statut": "CLOSED",
+  "fin": "2024-07-29T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:53:15.300968+00:00",
+  "mises_nettes": 3182.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 333.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 97,
+      "winningsPerGrid": 20.62
+    }
+  ],
+  "repartition": [
+    22,
+    206,
+    723,
+    1345,
+    1279,
+    565,
+    97,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 50606071,
+      "debut": "2024-07-29T17:00:00+00:00",
+      "home": "Brøndby",
+      "away": "Vejle",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:4872",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46300999,
+      "debut": "2024-07-29T17:00:00+00:00",
+      "home": "AIK Stockholm",
+      "away": "GAIS Göteborg",
+      "home_id": "sr:competitor:1764",
+      "away_id": "sr:competitor:1786",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50592579,
+      "debut": "2024-07-29T17:00:00+00:00",
+      "home": "Rakow Czestochowa",
+      "away": "KS Cracovie",
+      "home_id": "sr:competitor:35268",
+      "away_id": "sr:competitor:4901",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51079535,
+      "debut": "2024-07-29T18:00:00+00:00",
+      "home": "Al-Ahly Cairo",
+      "away": "Ceramica Cleopatra",
+      "home_id": "sr:competitor:6910",
+      "away_id": "sr:competitor:758264",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50748309,
+      "debut": "2024-07-29T18:15:00+00:00",
+      "home": "Cherno More",
+      "away": "FK Septemvri Sofia",
+      "home_id": "sr:competitor:3280",
+      "away_id": "sr:competitor:214054",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51146679,
+      "debut": "2024-07-29T18:15:00+00:00",
+      "home": "Bravo",
+      "away": "Primorje",
+      "home_id": "sr:competitor:362744",
+      "away_id": "sr:competitor:2414",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51518101,
+      "debut": "2024-07-29T19:00:00+00:00",
+      "home": "FC Petrolul Ploiești",
+      "away": "Rapid Bucarest",
+      "home_id": "sr:competitor:25856",
+      "away_id": "sr:competitor:3302",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

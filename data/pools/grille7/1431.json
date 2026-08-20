@@ -1,0 +1,127 @@
+{
+  "grille_id": 1431,
+  "grille_type": "grille7",
+  "pool_id": 7001431,
+  "titre": "Grille 7 n°1431",
+  "statut": "CLOSED",
+  "fin": "2019-10-31T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:49:46.813811+00:00",
+  "mises_nettes": 6746.25,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1333.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 124,
+      "winningsPerGrid": 32.26
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18600572,
+      "debut": "2019-10-31T19:30:00+00:00",
+      "home": "Anderlecht",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2903",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660290,
+      "debut": "2019-10-31T19:45:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723492,
+      "debut": "2019-10-31T20:00:00+00:00",
+      "home": "Arsenal Sarandi",
+      "away": "Central Cordoba Sde",
+      "home_id": "sr:competitor:3221",
+      "away_id": "sr:competitor:65676",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18926972,
+      "debut": "2019-10-31T20:00:00+00:00",
+      "home": "Milan AC",
+      "away": "Spal 2013",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:113755",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660298,
+      "debut": "2019-10-31T20:15:00+00:00",
+      "home": "Santa Clara",
+      "away": "Vitoria Setubal",
+      "home_id": "sr:competitor:3011",
+      "away_id": "sr:competitor:3008",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660296,
+      "debut": "2019-10-31T20:15:00+00:00",
+      "home": "Boavista",
+      "away": "Braga",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:2999",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640848,
+      "debut": "2019-10-31T20:15:00+00:00",
+      "home": "Getafe",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:33779",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

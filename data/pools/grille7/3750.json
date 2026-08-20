@@ -1,0 +1,136 @@
+{
+  "grille_id": 3750,
+  "grille_type": "grille7",
+  "pool_id": 7003750,
+  "titre": "Grille 7 n°3750",
+  "statut": "CLOSED",
+  "fin": "2025-06-14T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:23:08.172917+00:00",
+  "mises_nettes": 2664.75,
+  "montant_distribue": 2664.75,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 1332.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 13,
+      "winningsPerGrid": 102.49
+    }
+  ],
+  "repartition": [
+    107,
+    570,
+    1139,
+    1066,
+    529,
+    128,
+    13,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 57159309,
+      "debut": "2025-06-14T16:00:00+00:00",
+      "home": "KuPS",
+      "away": "FC Ilves",
+      "home_id": "sr:competitor:2244",
+      "away_id": "sr:competitor:22386",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380321,
+      "debut": "2025-06-14T16:30:00+00:00",
+      "home": "Palestino",
+      "away": "La Serena",
+      "home_id": "sr:competitor:3157",
+      "away_id": "sr:competitor:5031",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525771,
+      "debut": "2025-06-14T18:45:00+00:00",
+      "home": "Sligo Rovers",
+      "away": "Waterford",
+      "home_id": "sr:competitor:3190",
+      "away_id": "sr:competitor:3194",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380335,
+      "debut": "2025-06-14T18:58:00+00:00",
+      "home": "Universidad Catolica",
+      "away": "Huachipato",
+      "home_id": "sr:competitor:3151",
+      "away_id": "sr:competitor:3164",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57381371,
+      "debut": "2025-06-14T19:00:00+00:00",
+      "home": "Independiente Del Valle",
+      "away": "Libertad",
+      "home_id": "sr:competitor:39723",
+      "away_id": "sr:competitor:838486",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56958227,
+      "debut": "2025-06-14T19:15:00+00:00",
+      "home": "Stjarnan",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:1899",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690765,
+      "debut": "2025-06-14T20:30:00+00:00",
+      "home": "Saint Louis City SC",
+      "away": "Los Angeles Galaxy",
+      "home_id": "sr:competitor:874725",
+      "away_id": "sr:competitor:2513",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

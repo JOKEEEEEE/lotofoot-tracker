@@ -1,0 +1,136 @@
+{
+  "grille_id": 2920,
+  "grille_type": "grille7",
+  "pool_id": 7002920,
+  "titre": "Grille 7 n°2920",
+  "statut": "CLOSED",
+  "fin": "2023-05-25T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:36:28.239502+00:00",
+  "mises_nettes": 6160.5,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 625
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 95,
+      "winningsPerGrid": 39.47
+    }
+  ],
+  "repartition": [
+    253,
+    1198,
+    2274,
+    2487,
+    1416,
+    485,
+    95,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 34175245,
+      "debut": "2023-05-25T18:30:00+00:00",
+      "home": "Servette FC",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:2448",
+      "away_id": "sr:competitor:2501",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34175241,
+      "debut": "2023-05-25T18:30:00+00:00",
+      "home": "Grasshopper Zurich",
+      "away": "Saint-Gall",
+      "home_id": "sr:competitor:2449",
+      "away_id": "sr:competitor:2442",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34175243,
+      "debut": "2023-05-25T18:30:00+00:00",
+      "home": "FC Lugano",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:2443",
+      "away_id": "sr:competitor:2445",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34175247,
+      "debut": "2023-05-25T18:30:00+00:00",
+      "home": "Sion",
+      "away": "Lucerne",
+      "home_id": "sr:competitor:2452",
+      "away_id": "sr:competitor:2453",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34175249,
+      "debut": "2023-05-25T18:30:00+00:00",
+      "home": "FC Winterthur",
+      "away": "FC Zurich",
+      "home_id": "sr:competitor:2458",
+      "away_id": "sr:competitor:2450",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40821743,
+      "debut": "2023-05-25T19:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:38",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277907,
+      "debut": "2023-05-25T19:30:00+00:00",
+      "home": "Osasuna",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2825",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1917,
+  "grille_type": "grille7",
+  "pool_id": 7001917,
+  "titre": "Grille 7 n°1917",
+  "statut": "CLOSED",
+  "fin": "2021-02-04T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:01:10.534465+00:00",
+  "mises_nettes": 14461.5,
+  "montant_distribue": 14461.5,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 657.34
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 238,
+      "winningsPerGrid": 30.38
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23320341,
+      "debut": "2021-02-04T19:00:00+00:00",
+      "home": "Belenenses",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3004",
+      "away_id": "sr:competitor:3002",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 27,
+      "cote_N": 1.03,
+      "cote_2": 9
+    },
+    {
+      "match_id": 22943495,
+      "debut": "2021-02-04T19:00:00+00:00",
+      "home": "Nordsjælland",
+      "away": "Brøndby",
+      "home_id": "sr:competitor:1292",
+      "away_id": "sr:competitor:1281",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 22,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23378185,
+      "debut": "2021-02-04T19:30:00+00:00",
+      "home": "FC Lausanne",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:2446",
+      "away_id": "sr:competitor:2501",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 225,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23204217,
+      "debut": "2021-02-04T20:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:38",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 22,
+      "cote_2": 1
+    },
+    {
+      "match_id": 25604918,
+      "debut": "2021-02-04T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2825",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 12,
+      "cote_2": 150
+    },
+    {
+      "match_id": 23320347,
+      "debut": "2021-02-04T21:00:00+00:00",
+      "home": "Braga",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3026",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 27,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23320337,
+      "debut": "2021-02-04T21:30:00+00:00",
+      "home": "Famalicao",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:3014",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    }
+  ]
+}

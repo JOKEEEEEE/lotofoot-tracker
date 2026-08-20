@@ -1,0 +1,127 @@
+{
+  "grille_id": 562,
+  "grille_type": "grille7",
+  "pool_id": 7000562,
+  "titre": "Grille 7 n°562",
+  "statut": "CLOSED",
+  "fin": "2017-05-29T17:00:00+00:00",
+  "collecte_le": "2026-08-20T12:04:19.044550+00:00",
+  "mises_nettes": 5150.25,
+  "montant_distribue": 5150.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 515.03
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 63,
+      "winningsPerGrid": 40.88
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11698811,
+      "debut": "2017-05-29T17:00:00+00:00",
+      "home": "Randers",
+      "away": "Odense",
+      "home_id": "sr:competitor:1301",
+      "away_id": "sr:competitor:1286",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10922780,
+      "debut": "2017-05-29T17:00:00+00:00",
+      "home": "Häcken",
+      "away": "Östersunds FK",
+      "home_id": "sr:competitor:1760",
+      "away_id": "sr:competitor:1836",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10922782,
+      "debut": "2017-05-29T17:00:00+00:00",
+      "home": "AIK Stockholm",
+      "away": "Malmö",
+      "home_id": "sr:competitor:1764",
+      "away_id": "sr:competitor:1892",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10922784,
+      "debut": "2017-05-29T17:00:00+00:00",
+      "home": "Örebro",
+      "away": "IK Sirius",
+      "home_id": "sr:competitor:1768",
+      "away_id": "sr:competitor:1793",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9792039,
+      "debut": "2017-05-29T17:00:00+00:00",
+      "home": "Alanyaspor",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:6362",
+      "away_id": "sr:competitor:3061",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11710007,
+      "debut": "2017-05-29T18:30:00+00:00",
+      "home": "Eintracht Brunswick",
+      "away": "Wolfsbourg",
+      "home_id": "sr:competitor:2557",
+      "away_id": "sr:competitor:2524",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11723941,
+      "debut": "2017-05-29T18:30:00+00:00",
+      "home": "Frosinone",
+      "away": "Carpi",
+      "home_id": "sr:competitor:2801",
+      "away_id": "sr:competitor:43685",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

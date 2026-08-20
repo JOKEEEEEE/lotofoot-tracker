@@ -1,0 +1,127 @@
+{
+  "grille_id": 1024,
+  "grille_type": "grille7",
+  "pool_id": 7001024,
+  "titre": "Grille 7 n°1024",
+  "statut": "CLOSED",
+  "fin": "2018-09-20T19:00:00+00:00",
+  "collecte_le": "2026-08-20T13:29:05.731671+00:00",
+  "mises_nettes": 20518.5,
+  "montant_distribue": 20518.5,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 415,
+      "winningsPerGrid": 24.72
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 2680,
+      "winningsPerGrid": 3.83
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15518870,
+      "debut": "2018-09-20T19:00:00+00:00",
+      "home": "Slavia Prague",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:2216",
+      "away_id": "sr:competitor:1645",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15518846,
+      "debut": "2018-09-20T19:00:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "Rosenborg",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:1161",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15518868,
+      "debut": "2018-09-20T19:00:00+00:00",
+      "home": "FC Copenhague",
+      "away": "Zénith St-Pétersbourg",
+      "home_id": "sr:competitor:1284",
+      "away_id": "sr:competitor:2321",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15518932,
+      "debut": "2018-09-20T19:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Vorskla Poltava",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:3309",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15518988,
+      "debut": "2018-09-20T19:00:00+00:00",
+      "home": "F91 Dudelange",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:5207",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15518990,
+      "debut": "2018-09-20T19:00:00+00:00",
+      "home": "Olympiakos",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:2816",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15518930,
+      "debut": "2018-09-20T19:00:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Qarabag Agdam",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:5962",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

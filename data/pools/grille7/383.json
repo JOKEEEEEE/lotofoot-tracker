@@ -1,0 +1,127 @@
+{
+  "grille_id": 383,
+  "grille_type": "grille7",
+  "pool_id": 7000383,
+  "titre": "Grille 7 n°383",
+  "statut": "CLOSED",
+  "fin": "2016-11-16T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:23:59.274196+00:00",
+  "mises_nettes": 4752,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 833.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 118,
+      "winningsPerGrid": 21.19
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10420076,
+      "debut": "2016-11-16T18:00:00+00:00",
+      "home": "FC Twente",
+      "away": "Barcelone",
+      "home_id": "sr:competitor:55511",
+      "away_id": "sr:competitor:77889",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10420082,
+      "debut": "2016-11-16T18:00:00+00:00",
+      "home": "Fortuna Hjorring (F)",
+      "away": "Brescia (F)",
+      "home_id": "sr:competitor:1367",
+      "away_id": "sr:competitor:171122",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9212241,
+      "debut": "2016-11-16T21:30:00+00:00",
+      "home": "Botafogo",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:21845",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9212253,
+      "debut": "2016-11-16T23:00:00+00:00",
+      "home": "Coritiba",
+      "away": "Santa Cruz PE",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1976",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9212255,
+      "debut": "2016-11-16T23:45:00+00:00",
+      "home": "Figueirense",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:1985",
+      "away_id": "sr:competitor:1957",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9212257,
+      "debut": "2016-11-16T23:45:00+00:00",
+      "home": "America Mineiro MG",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1973",
+      "away_id": "sr:competitor:5981",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9212259,
+      "debut": "2016-11-16T23:45:00+00:00",
+      "home": "Sport Recife ",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1959",
+      "away_id": "sr:competitor:1954",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

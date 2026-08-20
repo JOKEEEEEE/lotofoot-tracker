@@ -1,0 +1,136 @@
+{
+  "grille_id": 2797,
+  "grille_type": "grille7",
+  "pool_id": 7002797,
+  "titre": "Grille 7 n°2797",
+  "statut": "CLOSED",
+  "fin": "2023-02-16T20:00:00+00:00",
+  "collecte_le": "2026-08-20T08:48:12.032959+00:00",
+  "mises_nettes": 10302,
+  "montant_distribue": 10302,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 858.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 77,
+      "winningsPerGrid": 66.9
+    }
+  ],
+  "repartition": [
+    292,
+    2019,
+    4232,
+    4361,
+    2180,
+    569,
+    77,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 37293609,
+      "debut": "2023-02-16T20:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Nantes",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:1647",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37293709,
+      "debut": "2023-02-16T20:00:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Monaco",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:1653",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37293613,
+      "debut": "2023-02-16T20:00:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:1289",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37293797,
+      "debut": "2023-02-16T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2952",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37295471,
+      "debut": "2023-02-16T20:00:00+00:00",
+      "home": "Lazio Rome",
+      "away": "CFR Cluj",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:5287",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37295491,
+      "debut": "2023-02-16T20:00:00+00:00",
+      "home": "Sheriff Tiraspol",
+      "away": "Partizan Belgrade",
+      "home_id": "sr:competitor:5173",
+      "away_id": "sr:competitor:5152",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37295497,
+      "debut": "2023-02-16T20:00:00+00:00",
+      "home": "Ludogorets",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:43840",
+      "away_id": "sr:competitor:2900",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

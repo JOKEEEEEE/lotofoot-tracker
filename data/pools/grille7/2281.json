@@ -1,0 +1,136 @@
+{
+  "grille_id": 2281,
+  "grille_type": "grille7",
+  "pool_id": 7002281,
+  "titre": "Grille 7 n°2281",
+  "statut": "CLOSED",
+  "fin": "2021-12-05T19:45:00+00:00",
+  "collecte_le": "2026-08-20T09:32:54.014830+00:00",
+  "mises_nettes": 10908,
+  "montant_distribue": 10908,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001001001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 16,
+      "winningsPerGrid": 340.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 199,
+      "winningsPerGrid": 27.41
+    }
+  ],
+  "repartition": [
+    117,
+    1109,
+    3579,
+    4989,
+    3358,
+    1177,
+    199,
+    16
+  ],
+  "matches": [
+    {
+      "match_id": 27885006,
+      "debut": "2021-12-05T19:45:00+00:00",
+      "home": "Bordeaux",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1649",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160136,
+      "debut": "2021-12-05T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2713",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27649460,
+      "debut": "2021-12-05T20:00:00+00:00",
+      "home": "Malines",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:5044",
+      "away_id": "sr:competitor:2890",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965466,
+      "debut": "2021-12-05T20:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Valence",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 30756987,
+      "debut": "2021-12-05T20:00:00+00:00",
+      "home": "Philadelphia Union",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:39833",
+      "away_id": "sr:competitor:167510",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077876,
+      "debut": "2021-12-05T20:30:00+00:00",
+      "home": "CD Mafra",
+      "away": "Farense",
+      "home_id": "sr:competitor:38744",
+      "away_id": "sr:competitor:2998",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077252,
+      "debut": "2021-12-05T20:30:00+00:00",
+      "home": "Braga",
+      "away": "Estoril",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:4500",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

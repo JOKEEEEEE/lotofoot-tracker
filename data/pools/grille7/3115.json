@@ -1,0 +1,136 @@
+{
+  "grille_id": 3115,
+  "grille_type": "grille7",
+  "pool_id": 7003115,
+  "titre": "Grille 7 n°3115",
+  "statut": "CLOSED",
+  "fin": "2023-11-15T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:14:04.268944+00:00",
+  "mises_nettes": 6777,
+  "montant_distribue": 6777,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 34,
+      "winningsPerGrid": 99.66
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 319,
+      "winningsPerGrid": 10.62
+    }
+  ],
+  "repartition": [
+    259,
+    1386,
+    2917,
+    2824,
+    1297,
+    319,
+    34,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 41528477,
+      "debut": "2023-11-15T19:45:00+00:00",
+      "home": "Belgique",
+      "away": "Serbie",
+      "home_id": "sr:competitor:4717",
+      "away_id": "sr:competitor:6355",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44431568,
+      "debut": "2023-11-15T19:45:00+00:00",
+      "home": "Israël",
+      "away": "Suisse",
+      "home_id": "sr:competitor:4480",
+      "away_id": "sr:competitor:4699",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44694228,
+      "debut": "2023-11-15T20:00:00+00:00",
+      "home": "Ajax Amsterdam (F)",
+      "away": "Paris SG (F)",
+      "home_id": "sr:competitor:178260",
+      "away_id": "sr:competitor:55505",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44694528,
+      "debut": "2023-11-15T20:00:00+00:00",
+      "home": "Real Madrid (F)",
+      "away": "Chelsea (F)",
+      "home_id": "sr:competitor:522312",
+      "away_id": "sr:competitor:66768",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42590817,
+      "debut": "2023-11-16T11:00:00+00:00",
+      "home": "Philippines",
+      "away": "Vietnam",
+      "home_id": "sr:competitor:4791",
+      "away_id": "sr:competitor:7050",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42590751,
+      "debut": "2023-11-16T12:30:00+00:00",
+      "home": "Thaïlande",
+      "away": "Chine",
+      "home_id": "sr:competitor:4730",
+      "away_id": "sr:competitor:4755",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42590833,
+      "debut": "2023-11-16T13:00:00+00:00",
+      "home": "Tajikistan",
+      "away": "Jordanie",
+      "home_id": "sr:competitor:23488",
+      "away_id": "sr:competitor:4771",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1946,
+  "grille_type": "grille7",
+  "pool_id": 7001946,
+  "titre": "Grille 7 n°1946",
+  "statut": "CLOSED",
+  "fin": "2021-02-25T20:00:00+00:00",
+  "collecte_le": "2026-08-20T09:58:37.488252+00:00",
+  "mises_nettes": 9207,
+  "montant_distribue": 9207,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 11,
+      "winningsPerGrid": 418.5
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 162,
+      "winningsPerGrid": 28.42
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 24894538,
+      "debut": "2021-02-25T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:2824",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 23,
+      "cote_N": 1.02,
+      "cote_2": 25
+    },
+    {
+      "match_id": 24894458,
+      "debut": "2021-02-25T20:00:00+00:00",
+      "home": "Club Bruges",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:3305",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 20,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 24894612,
+      "debut": "2021-02-25T20:00:00+00:00",
+      "home": "Milan AC",
+      "away": "Etoile Rouge de Belgrade",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:5149",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 8.5,
+      "cote_N": 1.05,
+      "cote_2": 34
+    },
+    {
+      "match_id": 24894786,
+      "debut": "2021-02-25T20:00:00+00:00",
+      "home": "Leicester",
+      "away": "Slavia Prague",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:2216",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 24894832,
+      "debut": "2021-02-25T20:00:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "FK Krasnodar",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:34425",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 17,
+      "cote_2": 225
+    },
+    {
+      "match_id": 24894838,
+      "debut": "2021-02-25T20:00:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2445",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 24894864,
+      "debut": "2021-02-25T20:00:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:3245",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 22,
+      "cote_2": 250
+    }
+  ]
+}

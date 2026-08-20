@@ -1,0 +1,136 @@
+{
+  "grille_id": 3354,
+  "grille_type": "grille7",
+  "pool_id": 7003354,
+  "titre": "Grille 7 n°3354",
+  "statut": "CLOSED",
+  "fin": "2024-06-03T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:57:58.063291+00:00",
+  "mises_nettes": 4756.5,
+  "montant_distribue": 4756.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2378.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 21,
+      "winningsPerGrid": 113.25
+    }
+  ],
+  "repartition": [
+    424,
+    1529,
+    2146,
+    1464,
+    611,
+    146,
+    21,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 49054061,
+      "debut": "2024-06-03T18:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Ukraine",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4701",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46487337,
+      "debut": "2024-06-03T19:15:00+00:00",
+      "home": "KR Reykjavik",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1902",
+      "away_id": "sr:competitor:1899",
+      "score_home": 3,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46188179,
+      "debut": "2024-06-03T22:00:00+00:00",
+      "home": "Sol De America",
+      "away": "Sportivo Ameliano",
+      "home_id": "sr:competitor:36439",
+      "away_id": "sr:competitor:607728",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655635,
+      "debut": "2024-06-03T22:00:00+00:00",
+      "home": "San Lorenzo",
+      "away": "Sarmiento",
+      "home_id": "sr:competitor:3201",
+      "away_id": "sr:competitor:42338",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655625,
+      "debut": "2024-06-04T00:15:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "Independiente",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:3209",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655637,
+      "debut": "2024-06-04T00:15:00+00:00",
+      "home": "Estudiantes",
+      "away": "Godoy Cruz",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:6074",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48508405,
+      "debut": "2024-06-04T14:00:00+00:00",
+      "home": "Kazakhstan (F)",
+      "away": "Arménie (F)",
+      "home_id": "sr:competitor:38094",
+      "away_id": "sr:competitor:38079",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3179,
+  "grille_type": "grille7",
+  "pool_id": 7003179,
+  "titre": "Grille 7 n°3179",
+  "statut": "CLOSED",
+  "fin": "2024-01-11T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:09:53.828910+00:00",
+  "mises_nettes": 6252.75,
+  "montant_distribue": 6252.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 64,
+      "winningsPerGrid": 48.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 514,
+      "winningsPerGrid": 6.08
+    }
+  ],
+  "repartition": [
+    17,
+    176,
+    969,
+    2086,
+    2733,
+    1778,
+    514,
+    64
+  ],
+  "matches": [
+    {
+      "match_id": 46164487,
+      "debut": "2024-01-11T17:00:00+00:00",
+      "home": "Trabzonspor",
+      "away": "Samsunspor",
+      "home_id": "sr:competitor:3051",
+      "away_id": "sr:competitor:3053",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45816041,
+      "debut": "2024-01-11T18:00:00+00:00",
+      "home": "Santa Clara",
+      "away": "Nacional Madeira ",
+      "home_id": "sr:competitor:3011",
+      "away_id": "sr:competitor:3013",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44876658,
+      "debut": "2024-01-11T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2820",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46728783,
+      "debut": "2024-01-11T20:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2801",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45816019,
+      "debut": "2024-01-11T20:15:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Penafiel",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3017",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46716567,
+      "debut": "2024-01-12T06:30:00+00:00",
+      "home": "Macarthur FC",
+      "away": "Western United",
+      "home_id": "sr:competitor:744369",
+      "away_id": "sr:competitor:199320",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43255243,
+      "debut": "2024-01-12T09:15:00+00:00",
+      "home": "Melbourne City",
+      "away": "WS Wanderers",
+      "home_id": "sr:competitor:42210",
+      "away_id": "sr:competitor:72926",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

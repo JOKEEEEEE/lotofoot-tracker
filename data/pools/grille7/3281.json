@@ -1,0 +1,136 @@
+{
+  "grille_id": 3281,
+  "grille_type": "grille7",
+  "pool_id": 7003281,
+  "titre": "Grille 7 n°3281",
+  "statut": "CLOSED",
+  "fin": "2024-04-01T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:03:01.315124+00:00",
+  "mises_nettes": 10713,
+  "montant_distribue": 10713,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 456,
+      "winningsPerGrid": 11.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1919,
+      "winningsPerGrid": 2.79
+    }
+  ],
+  "repartition": [
+    36,
+    247,
+    1111,
+    2880,
+    4011,
+    3624,
+    1919,
+    456
+  ],
+  "matches": [
+    {
+      "match_id": 42262203,
+      "debut": "2024-04-01T18:30:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Ternana",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2708",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42005785,
+      "debut": "2024-04-01T18:45:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1646",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134701,
+      "debut": "2024-04-01T18:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2705",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893501,
+      "debut": "2024-04-01T19:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41888553,
+      "debut": "2024-04-01T19:00:00+00:00",
+      "home": "Leeds",
+      "away": "Hull City",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:96",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42417123,
+      "debut": "2024-04-01T19:00:00+00:00",
+      "home": "Al Ahli SC",
+      "away": "Al-Ittihad FC",
+      "home_id": "sr:competitor:34469",
+      "away_id": "sr:competitor:34315",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146645,
+      "debut": "2024-04-01T19:15:00+00:00",
+      "home": "Portimonense",
+      "away": "Braga",
+      "home_id": "sr:competitor:3026",
+      "away_id": "sr:competitor:2999",
+      "score_home": 3,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

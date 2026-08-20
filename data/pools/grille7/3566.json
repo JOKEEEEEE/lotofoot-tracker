@@ -1,0 +1,136 @@
+{
+  "grille_id": 3566,
+  "grille_type": "grille7",
+  "pool_id": 7003566,
+  "titre": "Grille 7 n°3566",
+  "statut": "CLOSED",
+  "fin": "2024-12-15T14:00:00+00:00",
+  "collecte_le": "2026-08-20T07:42:05.223167+00:00",
+  "mises_nettes": 8396.25,
+  "montant_distribue": 8396.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1399.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 46,
+      "winningsPerGrid": 91.26
+    }
+  ],
+  "repartition": [
+    377,
+    1803,
+    3517,
+    3439,
+    1614,
+    396,
+    46,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 50955603,
+      "debut": "2024-12-15T14:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Nice",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1661",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850271,
+      "debut": "2024-12-15T14:00:00+00:00",
+      "home": "Brighton",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:7",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271725,
+      "debut": "2024-12-15T14:00:00+00:00",
+      "home": "Bologne",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2693",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955593,
+      "debut": "2024-12-15T16:00:00+00:00",
+      "home": "Rennes",
+      "away": "Angers",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1684",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955595,
+      "debut": "2024-12-15T16:00:00+00:00",
+      "home": "Le Havre",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1659",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955605,
+      "debut": "2024-12-15T16:00:00+00:00",
+      "home": "Brest",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1647",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850277,
+      "debut": "2024-12-15T16:30:00+00:00",
+      "home": "Manchester City",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

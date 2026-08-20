@@ -1,0 +1,127 @@
+{
+  "grille_id": 955,
+  "grille_type": "grille7",
+  "pool_id": 7000955,
+  "titre": "Grille 7 n°955",
+  "statut": "CLOSED",
+  "fin": "2018-07-13T18:15:00+00:00",
+  "collecte_le": "2026-08-20T11:32:00.147478+00:00",
+  "mises_nettes": 4496.25,
+  "montant_distribue": 4496.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2248.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 36,
+      "winningsPerGrid": 62.45
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14695513,
+      "debut": "2018-07-13T18:15:00+00:00",
+      "home": "Sønderjyske",
+      "away": "Aalborg",
+      "home_id": "sr:competitor:1295",
+      "away_id": "sr:competitor:1290",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370600,
+      "debut": "2018-07-13T18:30:00+00:00",
+      "home": "Vikingur Reykjavik",
+      "away": "Keflavik",
+      "home_id": "sr:competitor:1908",
+      "away_id": "sr:competitor:1900",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644417,
+      "debut": "2018-07-13T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3190",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13588635,
+      "debut": "2018-07-14T14:00:00+00:00",
+      "home": "Belgique",
+      "away": "Angleterre",
+      "home_id": "sr:competitor:4717",
+      "away_id": "sr:competitor:4713",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13414751,
+      "debut": "2018-07-14T16:00:00+00:00",
+      "home": "Malmö",
+      "away": "Östersunds FK",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:1836",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13414755,
+      "debut": "2018-07-14T16:00:00+00:00",
+      "home": "Brommapojkarna",
+      "away": "IK Sirius",
+      "home_id": "sr:competitor:1787",
+      "away_id": "sr:competitor:1793",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13414757,
+      "debut": "2018-07-14T16:00:00+00:00",
+      "home": "Dalkurd FF",
+      "away": "Trelleborgs FF",
+      "home_id": "sr:competitor:22260",
+      "away_id": "sr:competitor:1771",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

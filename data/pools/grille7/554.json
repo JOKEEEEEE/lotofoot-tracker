@@ -1,0 +1,127 @@
+{
+  "grille_id": 554,
+  "grille_type": "grille7",
+  "pool_id": 7000554,
+  "titre": "Grille 7 n°554",
+  "statut": "CLOSED",
+  "fin": "2017-05-21T14:00:00+00:00",
+  "collecte_le": "2026-08-20T12:05:02.585589+00:00",
+  "mises_nettes": 9300,
+  "montant_distribue": 9300,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 35,
+      "winningsPerGrid": 132.86
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 502,
+      "winningsPerGrid": 9.26
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9600503,
+      "debut": "2017-05-21T14:00:00+00:00",
+      "home": "Watford",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600485,
+      "debut": "2017-05-21T14:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Everton",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:48",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600497,
+      "debut": "2017-05-21T14:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:7",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769909,
+      "debut": "2017-05-21T14:45:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2825",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769919,
+      "debut": "2017-05-21T14:45:00+00:00",
+      "home": "Valence",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:2819",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769927,
+      "debut": "2017-05-21T14:45:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2824",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821303,
+      "debut": "2017-05-21T18:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1304,
+  "grille_type": "grille7",
+  "pool_id": 7001304,
+  "titre": "Grille 7 n°1304",
+  "statut": "CLOSED",
+  "fin": "2019-07-05T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:59:50.588335+00:00",
+  "mises_nettes": 8433.75,
+  "montant_distribue": 8433.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010001100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2108.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 52,
+      "winningsPerGrid": 81.09
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17159991,
+      "debut": "2019-07-05T18:45:00+00:00",
+      "home": "Waterford United",
+      "away": "St Patricks",
+      "home_id": "sr:competitor:3194",
+      "away_id": "sr:competitor:3169",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159987,
+      "debut": "2019-07-05T18:45:00+00:00",
+      "home": "Derry City",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3170",
+      "away_id": "sr:competitor:3179",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159989,
+      "debut": "2019-07-05T18:45:00+00:00",
+      "home": "UC Dublin",
+      "away": "Finn Harps",
+      "home_id": "sr:competitor:3168",
+      "away_id": "sr:competitor:3181",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18078315,
+      "debut": "2019-07-05T19:00:00+00:00",
+      "home": "Ouganda",
+      "away": "Sénégal",
+      "home_id": "sr:competitor:4726",
+      "away_id": "sr:competitor:4739",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159993,
+      "debut": "2019-07-05T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3190",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159985,
+      "debut": "2019-07-05T19:00:00+00:00",
+      "home": "Cork City",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:3173",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16599661,
+      "debut": "2019-07-05T19:00:00+00:00",
+      "home": "Viking",
+      "away": "Haugesund",
+      "home_id": "sr:competitor:1164",
+      "away_id": "sr:competitor:673",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

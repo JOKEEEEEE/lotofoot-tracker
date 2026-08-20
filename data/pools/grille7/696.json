@@ -1,0 +1,127 @@
+{
+  "grille_id": 696,
+  "grille_type": "grille7",
+  "pool_id": 7000696,
+  "titre": "Grille 7 n°696",
+  "statut": "CLOSED",
+  "fin": "2017-10-19T19:05:00+00:00",
+  "collecte_le": "2026-08-20T13:30:53.488243+00:00",
+  "mises_nettes": 16275.75,
+  "montant_distribue": 16275.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 2712.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 75,
+      "winningsPerGrid": 108.51
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12340232,
+      "debut": "2017-10-19T19:05:00+00:00",
+      "home": "Everton",
+      "away": "Lyon",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12339968,
+      "debut": "2017-10-19T19:05:00+00:00",
+      "home": "Milan AC",
+      "away": "AEK Athènes",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:3250",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12339758,
+      "debut": "2017-10-19T19:05:00+00:00",
+      "home": "Villarreal",
+      "away": "Slavia Prague",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2216",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12339788,
+      "debut": "2017-10-19T19:05:00+00:00",
+      "home": "Dynamo Kiev",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:3305",
+      "away_id": "sr:competitor:2445",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12339858,
+      "debut": "2017-10-19T19:05:00+00:00",
+      "home": "Hoffenheim",
+      "away": "Istanbul Basaksehir",
+      "home_id": "sr:competitor:2569",
+      "away_id": "sr:competitor:3086",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12339916,
+      "debut": "2017-10-19T19:05:00+00:00",
+      "home": "Braga",
+      "away": "Ludogorets",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:43840",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12339966,
+      "debut": "2017-10-19T19:05:00+00:00",
+      "home": "Austria Vienne",
+      "away": "Rijeka",
+      "home_id": "sr:competitor:2203",
+      "away_id": "sr:competitor:2039",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

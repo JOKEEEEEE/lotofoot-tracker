@@ -1,0 +1,127 @@
+{
+  "grille_id": 97,
+  "grille_type": "grille7",
+  "pool_id": 7000097,
+  "titre": "Grille 7 n°97",
+  "statut": "CLOSED",
+  "fin": "2015-12-27T14:00:00+00:00",
+  "collecte_le": "2026-08-20T12:50:48.741563+00:00",
+  "mises_nettes": 8806.5,
+  "montant_distribue": 8806.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100111010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 78,
+      "winningsPerGrid": 56.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 810,
+      "winningsPerGrid": 5.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7588522,
+      "debut": "2015-12-27T14:00:00+00:00",
+      "home": "Kayserispor",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:3072",
+      "away_id": "sr:competitor:3061",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7588512,
+      "debut": "2015-12-27T14:30:00+00:00",
+      "home": "Akhisar Belediyespor",
+      "away": "Osmanlispor",
+      "home_id": "sr:competitor:24748",
+      "away_id": "sr:competitor:3057",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466304,
+      "debut": "2015-12-27T16:30:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Leeds",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:34",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989168,
+      "debut": "2015-12-27T16:30:00+00:00",
+      "home": "Pérouse",
+      "away": "Vicenza",
+      "home_id": "sr:competitor:2698",
+      "away_id": "sr:competitor:2722",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7433682,
+      "debut": "2015-12-27T17:00:00+00:00",
+      "home": "Anderlecht",
+      "away": "Westerlo",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2893",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7588514,
+      "debut": "2015-12-27T17:00:00+00:00",
+      "home": "Besiktas",
+      "away": "Konyaspor",
+      "home_id": "sr:competitor:3050",
+      "away_id": "sr:competitor:3085",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7433688,
+      "debut": "2015-12-27T19:00:00+00:00",
+      "home": "Zulte Waregem",
+      "away": "Ostende",
+      "home_id": "sr:competitor:2933",
+      "away_id": "sr:competitor:4494",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

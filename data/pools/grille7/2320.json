@@ -1,0 +1,136 @@
+{
+  "grille_id": 2320,
+  "grille_type": "grille7",
+  "pool_id": 7002320,
+  "titre": "Grille 7 n°2320",
+  "statut": "CLOSED",
+  "fin": "2022-01-10T16:00:00+00:00",
+  "collecte_le": "2026-08-20T13:17:10.196850+00:00",
+  "mises_nettes": 10589.25,
+  "montant_distribue": 10589.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100111001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 29,
+      "winningsPerGrid": 182.57
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 338,
+      "winningsPerGrid": 15.66
+    }
+  ],
+  "repartition": [
+    0,
+    382,
+    2040,
+    4281,
+    4516,
+    2533,
+    338,
+    29
+  ],
+  "matches": [
+    {
+      "match_id": 28799052,
+      "debut": "2022-01-10T16:00:00+00:00",
+      "home": "Maroc",
+      "away": "Ghana",
+      "home_id": "sr:competitor:4778",
+      "away_id": "sr:competitor:4764",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28799038,
+      "debut": "2022-01-10T16:00:00+00:00",
+      "home": "Guinée",
+      "away": "Malawi",
+      "home_id": "sr:competitor:4826",
+      "away_id": "sr:competitor:8043",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28153334,
+      "debut": "2022-01-10T17:00:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Adana Demirspor",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:3101",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28799054,
+      "debut": "2022-01-10T19:00:00+00:00",
+      "home": "Comores",
+      "away": "Gabon",
+      "home_id": "sr:competitor:23494",
+      "away_id": "sr:competitor:4761",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27886138,
+      "debut": "2022-01-10T19:45:00+00:00",
+      "home": "Toulouse",
+      "away": "Nancy",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1675",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 30872667,
+      "debut": "2022-01-10T19:55:00+00:00",
+      "home": "Manchester United",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:40",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965546,
+      "debut": "2022-01-10T20:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Elche",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2846",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

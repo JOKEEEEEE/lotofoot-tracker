@@ -1,0 +1,127 @@
+{
+  "grille_id": 1617,
+  "grille_type": "grille7",
+  "pool_id": 7001617,
+  "titre": "Grille 7 n°1617",
+  "statut": "CLOSED",
+  "fin": "2020-05-24T11:30:00+00:00",
+  "collecte_le": "2026-08-20T10:29:31.281584+00:00",
+  "mises_nettes": 16833,
+  "montant_distribue": 16833,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001010100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 2104.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 52,
+      "winningsPerGrid": 161.86
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21971099,
+      "debut": "2020-05-24T11:30:00+00:00",
+      "home": "Schalke 04",
+      "away": "Augsbourg",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:2600",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971095,
+      "debut": "2020-05-24T11:30:00+00:00",
+      "home": "Hambourg",
+      "away": "Arminia Bielefeld",
+      "home_id": "sr:competitor:2676",
+      "away_id": "sr:competitor:2540",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971105,
+      "debut": "2020-05-24T11:30:00+00:00",
+      "home": "Holstein Kiel",
+      "away": "VfB Stuttgart",
+      "home_id": "sr:competitor:2573",
+      "away_id": "sr:competitor:2677",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971123,
+      "debut": "2020-05-24T11:30:00+00:00",
+      "home": "Karlsruhe",
+      "away": "Bochum",
+      "home_id": "sr:competitor:2553",
+      "away_id": "sr:competitor:2542",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971091,
+      "debut": "2020-05-24T13:30:00+00:00",
+      "home": "Mayence",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:36360",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21940869,
+      "debut": "2020-05-24T14:00:00+00:00",
+      "home": "Dinamo Brest",
+      "away": "BATE Borisov",
+      "home_id": "sr:competitor:3353",
+      "away_id": "sr:competitor:3350",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971103,
+      "debut": "2020-05-24T16:00:00+00:00",
+      "home": "Cologne",
+      "away": "Düsseldorf",
+      "home_id": "sr:competitor:2671",
+      "away_id": "sr:competitor:2588",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3731,
+  "grille_type": "grille7",
+  "pool_id": 7003731,
+  "titre": "Grille 7 n°3731",
+  "statut": "CLOSED",
+  "fin": "2025-05-26T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:24:29.790826+00:00",
+  "mises_nettes": 3537.75,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 37,
+      "winningsPerGrid": 54.05
+    }
+  ],
+  "repartition": [
+    200,
+    803,
+    1343,
+    1301,
+    784,
+    248,
+    37,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 56523587,
+      "debut": "2025-05-26T17:00:00+00:00",
+      "home": "Norrköping",
+      "away": "Mjallby",
+      "home_id": "sr:competitor:1769",
+      "away_id": "sr:competitor:1783",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56677341,
+      "debut": "2025-05-26T17:00:00+00:00",
+      "home": "KFUM Oslo",
+      "away": "Vålerenga",
+      "home_id": "sr:competitor:786",
+      "away_id": "sr:competitor:1165",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60668823,
+      "debut": "2025-05-26T17:00:00+00:00",
+      "home": "FC Voluntari",
+      "away": "Unirea Slobozia",
+      "home_id": "sr:competitor:44255",
+      "away_id": "sr:competitor:44259",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60010663,
+      "debut": "2025-05-26T17:45:00+00:00",
+      "home": "Botev Plovdiv",
+      "away": "CSKA Sofia",
+      "home_id": "sr:competitor:5241",
+      "away_id": "sr:competitor:3275",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52034883,
+      "debut": "2025-05-26T18:00:00+00:00",
+      "home": "Al Fateh",
+      "away": "Al-Nassr",
+      "home_id": "sr:competitor:56023",
+      "away_id": "sr:competitor:23400",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60433921,
+      "debut": "2025-05-26T18:30:00+00:00",
+      "home": "SV Elversberg",
+      "away": "Heidenheim",
+      "home_id": "sr:competitor:2598",
+      "away_id": "sr:competitor:5885",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60557977,
+      "debut": "2025-05-26T19:30:00+00:00",
+      "home": "Sportivo Ameliano",
+      "away": "CA Tembetary",
+      "home_id": "sr:competitor:607728",
+      "away_id": "sr:competitor:584551",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

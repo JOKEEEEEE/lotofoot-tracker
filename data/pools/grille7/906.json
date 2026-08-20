@@ -1,0 +1,127 @@
+{
+  "grille_id": 906,
+  "grille_type": "grille7",
+  "pool_id": 7000906,
+  "titre": "Grille 7 n°906",
+  "statut": "CLOSED",
+  "fin": "2018-05-22T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:36:16.578801+00:00",
+  "mises_nettes": 6945.75,
+  "montant_distribue": 6945.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 496.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 63,
+      "winningsPerGrid": 55.13
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14537650,
+      "debut": "2018-05-22T18:45:00+00:00",
+      "home": "Grenoble",
+      "away": "Bourg-en-Bresse",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:35056",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644355,
+      "debut": "2018-05-22T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "St Patricks",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3169",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370512,
+      "debut": "2018-05-23T19:15:00+00:00",
+      "home": "Breidablik",
+      "away": "Vikingur Reykjavik",
+      "home_id": "sr:competitor:1901",
+      "away_id": "sr:competitor:1908",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370514,
+      "debut": "2018-05-23T19:15:00+00:00",
+      "home": "Stjarnan",
+      "away": "Fylkir",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:1896",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370516,
+      "debut": "2018-05-23T19:15:00+00:00",
+      "home": "Grindavik",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1897",
+      "away_id": "sr:competitor:1899",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13649017,
+      "debut": "2018-05-23T00:30:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:3215",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13854997,
+      "debut": "2018-05-23T00:30:00+00:00",
+      "home": "Universidad De Chile",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:3161",
+      "away_id": "sr:competitor:1974",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

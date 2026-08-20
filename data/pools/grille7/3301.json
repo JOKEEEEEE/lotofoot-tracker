@@ -1,0 +1,136 @@
+{
+  "grille_id": 3301,
+  "grille_type": "grille7",
+  "pool_id": 7003301,
+  "titre": "Grille 7 n°3301",
+  "statut": "CLOSED",
+  "fin": "2024-04-17T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:01:46.762611+00:00",
+  "mises_nettes": 10024.5,
+  "montant_distribue": 10024.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1670.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 50,
+      "winningsPerGrid": 100.25
+    }
+  ],
+  "repartition": [
+    413,
+    2149,
+    4276,
+    4110,
+    1944,
+    421,
+    50,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 48613067,
+      "debut": "2024-04-17T19:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2829",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48613053,
+      "debut": "2024-04-17T19:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49369283,
+      "debut": "2024-04-17T19:00:00+00:00",
+      "home": "Dundee FC",
+      "away": "Glasgow Rangers",
+      "home_id": "sr:competitor:2357",
+      "away_id": "sr:competitor:2351",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48276129,
+      "debut": "2024-04-17T19:15:00+00:00",
+      "home": "FC Porto",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3009",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214413,
+      "debut": "2024-04-17T22:00:00+00:00",
+      "home": "Grêmio",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:1967",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214425,
+      "debut": "2024-04-17T22:00:00+00:00",
+      "home": "Bragantino SP",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:1974",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214423,
+      "debut": "2024-04-17T23:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

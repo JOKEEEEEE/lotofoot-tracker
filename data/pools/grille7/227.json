@@ -1,0 +1,127 @@
+{
+  "grille_id": 227,
+  "grille_type": "grille7",
+  "pool_id": 7000227,
+  "titre": "Grille 7 n°227",
+  "statut": "CLOSED",
+  "fin": "2016-05-18T16:30:00+00:00",
+  "collecte_le": "2026-08-20T12:37:39.643526+00:00",
+  "mises_nettes": 5439,
+  "montant_distribue": 5439,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001111010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 159.97
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 182,
+      "winningsPerGrid": 14.94
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8630348,
+      "debut": "2016-05-18T16:30:00+00:00",
+      "home": "Hammarby IF",
+      "away": "Malmö",
+      "home_id": "sr:competitor:1758",
+      "away_id": "sr:competitor:1892",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8630350,
+      "debut": "2016-05-18T16:30:00+00:00",
+      "home": "GIF Sundsvall",
+      "away": "Elfsborg",
+      "home_id": "sr:competitor:1763",
+      "away_id": "sr:competitor:1762",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8630352,
+      "debut": "2016-05-18T16:30:00+00:00",
+      "home": "Häcken",
+      "away": "Jönköpings Södra",
+      "home_id": "sr:competitor:1760",
+      "away_id": "sr:competitor:1841",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8630354,
+      "debut": "2016-05-18T16:30:00+00:00",
+      "home": "Helsingborg IF",
+      "away": "Östersunds FK",
+      "home_id": "sr:competitor:1890",
+      "away_id": "sr:competitor:1836",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9374469,
+      "debut": "2016-05-18T16:30:00+00:00",
+      "home": "Panathinaïkos",
+      "away": "AEK Athènes",
+      "home_id": "sr:competitor:3248",
+      "away_id": "sr:competitor:3250",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9408347,
+      "debut": "2016-05-18T18:45:00+00:00",
+      "home": "Liverpool",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697506,
+      "debut": "2016-05-18T23:00:00+00:00",
+      "home": "Toronto FC",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:7080",
+      "away_id": "sr:competitor:167510",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

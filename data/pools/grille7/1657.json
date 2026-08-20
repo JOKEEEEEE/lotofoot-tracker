@@ -1,0 +1,127 @@
+{
+  "grille_id": 1657,
+  "grille_type": "grille7",
+  "pool_id": 7001657,
+  "titre": "Grille 7 n°1657",
+  "statut": "CLOSED",
+  "fin": "2020-06-29T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:26:30.039750+00:00",
+  "mises_nettes": 13954.5,
+  "montant_distribue": 13954.5,
+  "montant_garanti": 11000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1395.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 103,
+      "winningsPerGrid": 67.74
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22206311,
+      "debut": "2020-06-29T19:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Burnley",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:6",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194449,
+      "debut": "2020-06-29T19:00:00+00:00",
+      "home": "Chievo Vérone",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:2694",
+      "away_id": "sr:competitor:2801",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194457,
+      "debut": "2020-06-29T19:00:00+00:00",
+      "home": "Pescara Calcio",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2728",
+      "away_id": "sr:competitor:2705",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194441,
+      "debut": "2020-06-29T19:00:00+00:00",
+      "home": "Ascoli",
+      "away": "Crotone",
+      "home_id": "sr:competitor:2707",
+      "away_id": "sr:competitor:2718",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22181235,
+      "debut": "2020-06-29T19:45:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:24265",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22169329,
+      "debut": "2020-06-29T20:00:00+00:00",
+      "home": "Getafe",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2824",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085423,
+      "debut": "2020-06-29T20:15:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:3002",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

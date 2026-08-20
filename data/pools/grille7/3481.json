@@ -1,0 +1,136 @@
+{
+  "grille_id": 3481,
+  "grille_type": "grille7",
+  "pool_id": 7003481,
+  "titre": "Grille 7 n°3481",
+  "statut": "CLOSED",
+  "fin": "2024-09-30T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:24:49.223569+00:00",
+  "mises_nettes": 8303.25,
+  "montant_distribue": 8303.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1383.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 55,
+      "winningsPerGrid": 75.48
+    }
+  ],
+  "repartition": [
+    156,
+    1469,
+    3451,
+    3589,
+    1883,
+    465,
+    55,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 51467707,
+      "debut": "2024-09-30T18:30:00+00:00",
+      "home": "Brescia",
+      "away": "Cremonese",
+      "home_id": "sr:competitor:2691",
+      "away_id": "sr:competitor:2761",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51103059,
+      "debut": "2024-09-30T18:30:00+00:00",
+      "home": "Racing Santander",
+      "away": "FC Cartagena",
+      "home_id": "sr:competitor:2835",
+      "away_id": "sr:competitor:24329",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271537,
+      "debut": "2024-09-30T18:45:00+00:00",
+      "home": "Parme",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2690",
+      "away_id": "sr:competitor:2719",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53468043,
+      "debut": "2024-09-30T18:45:00+00:00",
+      "home": "Guingamp",
+      "away": "Caen",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1667",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850067,
+      "debut": "2024-09-30T19:00:00+00:00",
+      "home": "Bournemouth",
+      "away": "Southampton",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:45",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852233,
+      "debut": "2024-09-30T19:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:6577",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388827,
+      "debut": "2024-09-30T19:15:00+00:00",
+      "home": "AVS Futebol SAD",
+      "away": "Farense",
+      "home_id": "sr:competitor:1031053",
+      "away_id": "sr:competitor:2998",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

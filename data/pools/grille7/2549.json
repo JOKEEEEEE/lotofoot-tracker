@@ -1,0 +1,136 @@
+{
+  "grille_id": 2549,
+  "grille_type": "grille7",
+  "pool_id": 7002549,
+  "titre": "Grille 7 n°2549",
+  "statut": "CLOSED",
+  "fin": "2022-07-25T17:00:00+00:00",
+  "collecte_le": "2026-08-20T09:08:41.818826+00:00",
+  "mises_nettes": 3639.75,
+  "montant_distribue": 3639.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 202.21
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 102,
+      "winningsPerGrid": 17.84
+    }
+  ],
+  "repartition": [
+    46,
+    386,
+    1093,
+    1577,
+    1156,
+    484,
+    102,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 33907727,
+      "debut": "2022-07-25T17:00:00+00:00",
+      "home": "AC Horsens",
+      "away": "Lyngby",
+      "home_id": "sr:competitor:1297",
+      "away_id": "sr:competitor:1756",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31603071,
+      "debut": "2022-07-25T17:00:00+00:00",
+      "home": "Norrköping",
+      "away": "IFK Göteborg",
+      "home_id": "sr:competitor:1769",
+      "away_id": "sr:competitor:1761",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31603081,
+      "debut": "2022-07-25T17:00:00+00:00",
+      "home": "Varbergs Bois",
+      "away": "Hammarby IF",
+      "home_id": "sr:competitor:7101",
+      "away_id": "sr:competitor:1758",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34157553,
+      "debut": "2022-07-25T17:30:00+00:00",
+      "home": "CSKA Sofia",
+      "away": "Cherno More",
+      "home_id": "sr:competitor:3275",
+      "away_id": "sr:competitor:3280",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31421255,
+      "debut": "2022-07-25T19:15:00+00:00",
+      "home": "KR Reykjavik",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1902",
+      "away_id": "sr:competitor:1899",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31421253,
+      "debut": "2022-07-25T19:15:00+00:00",
+      "home": "IA Akranes",
+      "away": "Fram",
+      "home_id": "sr:competitor:1898",
+      "away_id": "sr:competitor:1893",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839423,
+      "debut": "2022-07-25T19:30:00+00:00",
+      "home": "San Lorenzo",
+      "away": "CA Talleres",
+      "home_id": "sr:competitor:3201",
+      "away_id": "sr:competitor:3210",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

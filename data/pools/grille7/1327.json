@@ -1,0 +1,127 @@
+{
+  "grille_id": 1327,
+  "grille_type": "grille7",
+  "pool_id": 7001327,
+  "titre": "Grille 7 n°1327",
+  "statut": "CLOSED",
+  "fin": "2019-07-28T16:00:00+00:00",
+  "collecte_le": "2026-08-20T10:58:21.227643+00:00",
+  "mises_nettes": 7284,
+  "montant_distribue": 7284,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 47,
+      "winningsPerGrid": 77.49
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 461,
+      "winningsPerGrid": 7.9
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18382087,
+      "debut": "2019-07-28T16:00:00+00:00",
+      "home": "CSKA Moscou",
+      "away": "Lokomotiv Moscou",
+      "home_id": "sr:competitor:2325",
+      "away_id": "sr:competitor:2320",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18390847,
+      "debut": "2019-07-28T16:00:00+00:00",
+      "home": "Brøndby",
+      "away": "Odense",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:1286",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18600392,
+      "debut": "2019-07-28T16:00:00+00:00",
+      "home": "Charleroi",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:2898",
+      "away_id": "sr:competitor:2903",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18600394,
+      "debut": "2019-07-28T18:00:00+00:00",
+      "home": "Eupen",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:2926",
+      "away_id": "sr:competitor:2889",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723252,
+      "debut": "2019-07-28T18:30:00+00:00",
+      "home": "CA Talleres",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:3210",
+      "away_id": "sr:competitor:3208",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789024,
+      "debut": "2019-07-28T19:00:00+00:00",
+      "home": "Santos",
+      "away": "Avai ",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:7315",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789026,
+      "debut": "2019-07-28T19:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1958",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

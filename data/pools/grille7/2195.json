@@ -1,0 +1,136 @@
+{
+  "grille_id": 2195,
+  "grille_type": "grille7",
+  "pool_id": 7002195,
+  "titre": "Grille 7 n°2195",
+  "statut": "CLOSED",
+  "fin": "2021-09-29T18:45:00+00:00",
+  "collecte_le": "2026-08-20T13:18:31.189226+00:00",
+  "mises_nettes": 24807.75,
+  "montant_distribue": 24807.75,
+  "montant_garanti": 20000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 61,
+      "winningsPerGrid": 203.34
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 777,
+      "winningsPerGrid": 15.96
+    }
+  ],
+  "repartition": [
+    89,
+    1576,
+    6802,
+    11291,
+    8901,
+    3580,
+    777,
+    61
+  ],
+  "matches": [
+    {
+      "match_id": 27867172,
+      "debut": "2021-09-29T18:45:00+00:00",
+      "home": "Derby County",
+      "away": "Reading",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:28",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 55,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933532,
+      "debut": "2021-09-29T19:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:3305",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933534,
+      "debut": "2021-09-29T19:00:00+00:00",
+      "home": "Benfica",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2817",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933558,
+      "debut": "2021-09-29T19:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:2819",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 60,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933580,
+      "debut": "2021-09-29T19:00:00+00:00",
+      "home": "Red Bull Salzbourg",
+      "away": "Lille",
+      "home_id": "sr:competitor:2046",
+      "away_id": "sr:competitor:1643",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 60,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933582,
+      "debut": "2021-09-29T19:00:00+00:00",
+      "home": "Wolfsbourg",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2524",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 70,
+      "cote_N": 1.01,
+      "cote_2": 34
+    },
+    {
+      "match_id": 28933606,
+      "debut": "2021-09-29T19:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 42,
+      "cote_2": null
+    }
+  ]
+}

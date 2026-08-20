@@ -1,0 +1,136 @@
+{
+  "grille_id": 2890,
+  "grille_type": "grille7",
+  "pool_id": 7002890,
+  "titre": "Grille 7 n°2890",
+  "statut": "CLOSED",
+  "fin": "2023-05-01T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:39:51.495476+00:00",
+  "mises_nettes": 9770.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 59,
+      "winningsPerGrid": 84.75
+    }
+  ],
+  "repartition": [
+    425,
+    2263,
+    4273,
+    3873,
+    1697,
+    433,
+    59,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 34744891,
+      "debut": "2023-05-01T18:30:00+00:00",
+      "home": "Frosinone",
+      "away": "Reggina",
+      "home_id": "sr:competitor:2801",
+      "away_id": "sr:competitor:223522",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34171883,
+      "debut": "2023-05-01T18:45:00+00:00",
+      "home": "Sochaux",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1657",
+      "away_id": "sr:competitor:1686",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34279219,
+      "debut": "2023-05-01T19:00:00+00:00",
+      "home": "Burgos CF",
+      "away": "Villarreal CF B",
+      "home_id": "sr:competitor:2854",
+      "away_id": "sr:competitor:24338",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277837,
+      "debut": "2023-05-01T19:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:24264",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152357,
+      "debut": "2023-05-01T19:00:00+00:00",
+      "home": "Leicester",
+      "away": "Everton",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:48",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38638643,
+      "debut": "2023-05-01T20:00:00+00:00",
+      "home": "Envigado FC",
+      "away": "Atletico Huila",
+      "home_id": "sr:competitor:6114",
+      "away_id": "sr:competitor:6104",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38638659,
+      "debut": "2023-05-01T22:15:00+00:00",
+      "home": "Jaguares De Cordoba",
+      "away": "Once Caldas",
+      "home_id": "sr:competitor:89370",
+      "away_id": "sr:competitor:6118",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

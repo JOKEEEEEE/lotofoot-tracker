@@ -1,0 +1,127 @@
+{
+  "grille_id": 1544,
+  "grille_type": "grille7",
+  "pool_id": 7001544,
+  "titre": "Grille 7 n°1544",
+  "statut": "CLOSED",
+  "fin": "2020-02-02T19:45:00+00:00",
+  "collecte_le": "2026-08-20T13:22:05.400160+00:00",
+  "mises_nettes": 9353.25,
+  "montant_distribue": 9353.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 42,
+      "winningsPerGrid": 111.35
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 444,
+      "winningsPerGrid": 10.53
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18927212,
+      "debut": "2020-02-02T19:45:00+00:00",
+      "home": "Udinese",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2695",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440354,
+      "debut": "2020-02-02T20:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18641060,
+      "debut": "2020-02-02T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Levante",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2849",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660480,
+      "debut": "2020-02-02T20:00:00+00:00",
+      "home": "Boavista",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3009",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030408,
+      "debut": "2020-02-02T20:00:00+00:00",
+      "home": "Benevento",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:2710",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20932959,
+      "debut": "2020-02-02T20:15:00+00:00",
+      "home": "Deportivo Pereira",
+      "away": "Cucuta Deportivo",
+      "home_id": "sr:competitor:6109",
+      "away_id": "sr:competitor:6108",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723646,
+      "debut": "2020-02-02T20:35:00+00:00",
+      "home": "River Plate",
+      "away": "Central Cordoba Sde",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:65676",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

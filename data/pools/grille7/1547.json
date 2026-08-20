@@ -1,0 +1,127 @@
+{
+  "grille_id": 1547,
+  "grille_type": "grille7",
+  "pool_id": 7001547,
+  "titre": "Grille 7 n°1547",
+  "statut": "CLOSED",
+  "fin": "2020-02-05T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:39:05.252513+00:00",
+  "mises_nettes": 17351.25,
+  "montant_distribue": 17351.25,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "010100001010010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 2891.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 54,
+      "winningsPerGrid": 160.66
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18440374,
+      "debut": "2020-02-05T18:00:00+00:00",
+      "home": "Lyon",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1676",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440364,
+      "debut": "2020-02-05T18:00:00+00:00",
+      "home": "Reims",
+      "away": "Nice",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440376,
+      "debut": "2020-02-05T18:00:00+00:00",
+      "home": "Brest",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1645",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440368,
+      "debut": "2020-02-05T18:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Metz",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1651",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440360,
+      "debut": "2020-02-05T18:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1659",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440366,
+      "debut": "2020-02-05T18:00:00+00:00",
+      "home": "Nîmes",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:1686",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18507514,
+      "debut": "2020-02-05T18:00:00+00:00",
+      "home": "Maccabi Netanya",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:5395",
+      "away_id": "sr:competitor:5202",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

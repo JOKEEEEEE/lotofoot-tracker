@@ -1,0 +1,127 @@
+{
+  "grille_id": 1511,
+  "grille_type": "grille7",
+  "pool_id": 7001511,
+  "titre": "Grille 7 n°1511",
+  "statut": "CLOSED",
+  "fin": "2020-01-05T16:01:00+00:00",
+  "collecte_le": "2026-08-20T10:42:27.228770+00:00",
+  "mises_nettes": 15796.5,
+  "montant_distribue": 15796.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 877.58
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 222,
+      "winningsPerGrid": 35.58
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 20554203,
+      "debut": "2020-01-05T16:01:00+00:00",
+      "home": "Liverpool",
+      "away": "Everton",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:48",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20640957,
+      "debut": "2020-01-05T16:15:00+00:00",
+      "home": "Valenciennes",
+      "away": "Dijon",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1686",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20639307,
+      "debut": "2020-01-05T16:15:00+00:00",
+      "home": "Grande Synthe",
+      "away": "Nancy",
+      "home_id": "sr:competitor:32930",
+      "away_id": "sr:competitor:1675",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927130,
+      "debut": "2020-01-05T17:00:00+00:00",
+      "home": "Genoa",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2793",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660412,
+      "debut": "2020-01-05T17:30:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927140,
+      "debut": "2020-01-05T19:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Torino",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2696",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18641002,
+      "debut": "2020-01-05T20:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2820",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

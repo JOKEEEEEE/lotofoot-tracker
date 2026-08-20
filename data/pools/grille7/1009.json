@@ -1,0 +1,127 @@
+{
+  "grille_id": 1009,
+  "grille_type": "grille7",
+  "pool_id": 7001009,
+  "titre": "Grille 7 n°1009",
+  "statut": "CLOSED",
+  "fin": "2018-09-05T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:26:59.920244+00:00",
+  "mises_nettes": 10422.75,
+  "montant_distribue": 10422.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 51,
+      "winningsPerGrid": 102.18
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 475,
+      "winningsPerGrid": 10.97
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15312208,
+      "debut": "2018-09-05T18:45:00+00:00",
+      "home": "Slovaquie",
+      "away": "Danemark",
+      "home_id": "sr:competitor:4697",
+      "away_id": "sr:competitor:4476",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805803,
+      "debut": "2018-09-05T22:30:00+00:00",
+      "home": "Bahia ",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1959",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805807,
+      "debut": "2018-09-05T22:30:00+00:00",
+      "home": "Botafogo",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1954",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805809,
+      "debut": "2018-09-05T23:00:00+00:00",
+      "home": "Ceara CE",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1957",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805813,
+      "debut": "2018-09-06T00:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1967",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805797,
+      "debut": "2018-09-06T00:45:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805815,
+      "debut": "2018-09-06T00:45:00+00:00",
+      "home": "Internacional ",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:5981",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

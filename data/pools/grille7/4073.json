@@ -1,0 +1,136 @@
+{
+  "grille_id": 4073,
+  "grille_type": "grille7",
+  "pool_id": 7004073,
+  "titre": "Grille 7 n°4073",
+  "statut": "CLOSED",
+  "fin": "2026-05-12T17:00:00+00:00",
+  "collecte_le": "2026-08-20T06:07:20.015962+00:00",
+  "mises_nettes": 7785,
+  "montant_distribue": 7785,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100001010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1946.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 63,
+      "winningsPerGrid": 61.79
+    }
+  ],
+  "repartition": [
+    224,
+    1324,
+    3154,
+    3293,
+    1796,
+    524,
+    63,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 61624642,
+      "debut": "2026-05-12T17:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Levante",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2849",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.84,
+      "cote_N": 3.65,
+      "cote_2": 3.7
+    },
+    {
+      "match_id": 61624640,
+      "debut": "2026-05-12T18:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Elche",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2846",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.58,
+      "cote_N": 4.1,
+      "cote_2": 4.7
+    },
+    {
+      "match_id": 64055859,
+      "debut": "2026-05-12T18:00:00+00:00",
+      "home": "Al-Nassr",
+      "away": "Al-Hilal",
+      "home_id": "sr:competitor:23400",
+      "away_id": "sr:competitor:21895",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2,
+      "cote_N": 3.45,
+      "cote_2": 2.65
+    },
+    {
+      "match_id": 70674928,
+      "debut": "2026-05-12T18:45:00+00:00",
+      "home": "Aberdeen",
+      "away": "St. Mirren",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:2359",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.1,
+      "cote_N": 3.2,
+      "cote_2": 2.8
+    },
+    {
+      "match_id": 70674932,
+      "debut": "2026-05-12T18:45:00+00:00",
+      "home": "Kilmarnock",
+      "away": "Dundee FC",
+      "home_id": "sr:competitor:2347",
+      "away_id": "sr:competitor:2357",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.5,
+      "cote_N": 4,
+      "cote_2": 4.4
+    },
+    {
+      "match_id": 71240670,
+      "debut": "2026-05-12T19:00:00+00:00",
+      "home": "Southampton",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:36",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.3,
+      "cote_N": 3.2,
+      "cote_2": 2.5
+    },
+    {
+      "match_id": 61624650,
+      "debut": "2026-05-12T19:30:00+00:00",
+      "home": "Osasuna",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.35,
+      "cote_N": 3.25,
+      "cote_2": 2.4
+    }
+  ]
+}

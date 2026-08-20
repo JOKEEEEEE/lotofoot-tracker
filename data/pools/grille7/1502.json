@@ -1,0 +1,127 @@
+{
+  "grille_id": 1502,
+  "grille_type": "grille7",
+  "pool_id": 7001502,
+  "titre": "Grille 7 n°1502",
+  "statut": "CLOSED",
+  "fin": "2019-12-26T15:00:00+00:00",
+  "collecte_le": "2026-08-20T10:43:05.774460+00:00",
+  "mises_nettes": 23572.5,
+  "montant_distribue": 23572.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 841.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 437,
+      "winningsPerGrid": 26.97
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18427886,
+      "debut": "2019-12-26T15:00:00+00:00",
+      "home": "Bournemouth",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427888,
+      "debut": "2019-12-26T15:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Southampton",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:45",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427892,
+      "debut": "2019-12-26T15:00:00+00:00",
+      "home": "Everton",
+      "away": "Burnley",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:6",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427890,
+      "debut": "2019-12-26T15:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "West Ham",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:37",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427884,
+      "debut": "2019-12-26T15:00:00+00:00",
+      "home": "Aston Villa",
+      "away": "Norwich",
+      "home_id": "sr:competitor:40",
+      "away_id": "sr:competitor:263",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427896,
+      "debut": "2019-12-26T17:30:00+00:00",
+      "home": "Manchester United",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:39",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427894,
+      "debut": "2019-12-26T20:00:00+00:00",
+      "home": "Leicester",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2524,
+  "grille_type": "grille7",
+  "pool_id": 7002524,
+  "titre": "Grille 7 n°2524",
+  "statut": "CLOSED",
+  "fin": "2022-06-30T22:15:00+00:00",
+  "collecte_le": "2026-08-20T09:09:38.334508+00:00",
+  "mises_nettes": 4862.25,
+  "montant_distribue": 4862.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2431.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 73,
+      "winningsPerGrid": 33.3
+    }
+  ],
+  "repartition": [
+    109,
+    679,
+    1654,
+    2126,
+    1378,
+    463,
+    73,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 33842269,
+      "debut": "2022-06-30T22:15:00+00:00",
+      "home": "Independiente Del Valle",
+      "away": "Lanus",
+      "home_id": "sr:competitor:39723",
+      "away_id": "sr:competitor:3218",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099853,
+      "debut": "2022-06-30T23:00:00+00:00",
+      "home": "Charlotte FC",
+      "away": "Austin FC",
+      "home_id": "sr:competitor:863473",
+      "away_id": "sr:competitor:772256",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31802533,
+      "debut": "2022-06-30T23:00:00+00:00",
+      "home": "Nublense",
+      "away": "Audax Italiano",
+      "home_id": "sr:competitor:7029",
+      "away_id": "sr:competitor:3162",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099857,
+      "debut": "2022-07-01T00:00:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "Atlanta United FC",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:305920",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842189,
+      "debut": "2022-07-01T00:30:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:3206",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842259,
+      "debut": "2022-07-01T00:30:00+00:00",
+      "home": "Universidad Catolica",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:3151",
+      "away_id": "sr:competitor:1981",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842267,
+      "debut": "2022-07-01T00:30:00+00:00",
+      "home": "Olimpia Asuncion",
+      "away": "Atletico GO",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:7314",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

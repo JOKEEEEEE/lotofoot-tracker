@@ -1,0 +1,136 @@
+{
+  "grille_id": 2481,
+  "grille_type": "grille7",
+  "pool_id": 7002481,
+  "titre": "Grille 7 n°2481",
+  "statut": "CLOSED",
+  "fin": "2022-05-18T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:13:28.131242+00:00",
+  "mises_nettes": 7101.75,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 15,
+      "winningsPerGrid": 333.33
+    }
+  ],
+  "repartition": [
+    746,
+    2513,
+    3185,
+    2049,
+    789,
+    171,
+    15,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 33514593,
+      "debut": "2022-05-18T19:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Glasgow Rangers",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:2351",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099701,
+      "debut": "2022-05-18T23:30:00+00:00",
+      "home": "DC United",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:2502",
+      "away_id": "sr:competitor:167510",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099703,
+      "debut": "2022-05-18T23:30:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "Chicago Fire",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:2505",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099705,
+      "debut": "2022-05-18T23:30:00+00:00",
+      "home": "Philadelphia Union",
+      "away": "Inter Miami CF",
+      "home_id": "sr:competitor:39833",
+      "away_id": "sr:competitor:659691",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099707,
+      "debut": "2022-05-19T00:00:00+00:00",
+      "home": "Minnesota United FC",
+      "away": "Los Angeles Galaxy",
+      "home_id": "sr:competitor:41618",
+      "away_id": "sr:competitor:2513",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099709,
+      "debut": "2022-05-19T00:38:00+00:00",
+      "home": "Houston Dynamo",
+      "away": "Seattle Sounders",
+      "home_id": "sr:competitor:2508",
+      "away_id": "sr:competitor:22009",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099711,
+      "debut": "2022-05-19T00:38:00+00:00",
+      "home": "Kansas City",
+      "away": "Colorado Rapids",
+      "home_id": "sr:competitor:2509",
+      "away_id": "sr:competitor:2510",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

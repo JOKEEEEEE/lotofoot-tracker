@@ -1,0 +1,136 @@
+{
+  "grille_id": 2774,
+  "grille_type": "grille7",
+  "pool_id": 7002774,
+  "titre": "Grille 7 n°2774",
+  "statut": "CLOSED",
+  "fin": "2023-01-29T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:49:45.333363+00:00",
+  "mises_nettes": 9617.25,
+  "montant_distribue": 9617.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010010100010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1602.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 99,
+      "winningsPerGrid": 48.57
+    }
+  ],
+  "repartition": [
+    179,
+    1301,
+    3445,
+    4325,
+    2628,
+    843,
+    99,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 34172385,
+      "debut": "2023-01-29T19:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Reims",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1682",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286909,
+      "debut": "2023-01-29T19:45:00+00:00",
+      "home": "Naples",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277561,
+      "debut": "2023-01-29T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2824",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38170705,
+      "debut": "2023-01-29T20:00:00+00:00",
+      "home": "Racing Genk",
+      "away": "RFC Seraing United",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:34985",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278945,
+      "debut": "2023-01-29T20:00:00+00:00",
+      "home": "UD Ibiza",
+      "away": "FC Cartagena",
+      "home_id": "sr:competitor:24368",
+      "away_id": "sr:competitor:24329",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37744049,
+      "debut": "2023-01-29T20:00:00+00:00",
+      "home": "Club Atletico Platense",
+      "away": "Newell's Old Boys",
+      "home_id": "sr:competitor:36837",
+      "away_id": "sr:competitor:3212",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504877,
+      "debut": "2023-01-29T20:30:00+00:00",
+      "home": "Famalicao",
+      "away": "Estoril",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:4500",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

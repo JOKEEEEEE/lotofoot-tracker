@@ -1,0 +1,127 @@
+{
+  "grille_id": 174,
+  "grille_type": "grille7",
+  "pool_id": 7000174,
+  "titre": "Grille 7 n°174",
+  "statut": "CLOSED",
+  "fin": "2016-03-14T19:15:00+00:00",
+  "collecte_le": "2026-08-20T12:42:53.209404+00:00",
+  "mises_nettes": 12261.75,
+  "montant_distribue": 12261.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 875.84
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 143,
+      "winningsPerGrid": 42.87
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7517490,
+      "debut": "2016-03-14T19:15:00+00:00",
+      "home": "Kaiserslautern",
+      "away": "Bochum",
+      "home_id": "sr:competitor:2675",
+      "away_id": "sr:competitor:2542",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474754,
+      "debut": "2016-03-14T19:30:00+00:00",
+      "home": "Red Star",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:52874",
+      "away_id": "sr:competitor:1646",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989380,
+      "debut": "2016-03-14T19:30:00+00:00",
+      "home": "Cagliari",
+      "away": "Pérouse",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2698",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610728,
+      "debut": "2016-03-14T19:30:00+00:00",
+      "home": "Grenade",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2814",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8692930,
+      "debut": "2016-03-14T19:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3173",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7465036,
+      "debut": "2016-03-14T20:00:00+00:00",
+      "home": "Leicester",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:39",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558448,
+      "debut": "2016-03-14T20:00:00+00:00",
+      "home": "Benfica",
+      "away": "Tondela",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:38396",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

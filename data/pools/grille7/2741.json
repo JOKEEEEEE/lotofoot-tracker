@@ -1,0 +1,136 @@
+{
+  "grille_id": 2741,
+  "grille_type": "grille7",
+  "pool_id": 7002741,
+  "titre": "Grille 7 n°2741",
+  "statut": "CLOSED",
+  "fin": "2023-01-03T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:52:43.124691+00:00",
+  "mises_nettes": 12165.75,
+  "montant_distribue": 12165.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 28,
+      "winningsPerGrid": 217.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 436,
+      "winningsPerGrid": 13.95
+    }
+  ],
+  "repartition": [
+    59,
+    481,
+    2258,
+    5473,
+    5188,
+    2298,
+    436,
+    28
+  ],
+  "matches": [
+    {
+      "match_id": 34984997,
+      "debut": "2023-01-03T19:30:00+00:00",
+      "home": "Ionikos",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:3249",
+      "away_id": "sr:competitor:3245",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152045,
+      "debut": "2023-01-03T19:45:00+00:00",
+      "home": "Arsenal",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:39",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152055,
+      "debut": "2023-01-03T19:45:00+00:00",
+      "home": "Everton",
+      "away": "Brighton",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:30",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152059,
+      "debut": "2023-01-03T19:45:00+00:00",
+      "home": "Leicester",
+      "away": "Fulham",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:43",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38243757,
+      "debut": "2023-01-03T19:45:00+00:00",
+      "home": "Cearnarfon Town",
+      "away": "The New Saints",
+      "home_id": "sr:competitor:4909",
+      "away_id": "sr:competitor:4921",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38243759,
+      "debut": "2023-01-03T19:45:00+00:00",
+      "home": "Pontypridd Town",
+      "away": "Bala Town",
+      "home_id": "sr:competitor:37937",
+      "away_id": "sr:competitor:36255",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152061,
+      "debut": "2023-01-03T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:60",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

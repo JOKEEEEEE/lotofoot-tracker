@@ -1,0 +1,127 @@
+{
+  "grille_id": 294,
+  "grille_type": "grille7",
+  "pool_id": 7000294,
+  "titre": "Grille 7 n°294",
+  "statut": "CLOSED",
+  "fin": "2016-08-13T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:31:56.462612+00:00",
+  "mises_nettes": 7968.75,
+  "montant_distribue": 7968.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 14,
+      "winningsPerGrid": 284.6
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 186,
+      "winningsPerGrid": 21.42
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9536763,
+      "debut": "2016-08-13T18:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Angers",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1684",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9536771,
+      "debut": "2016-08-13T18:00:00+00:00",
+      "home": "Dijon",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1686",
+      "away_id": "sr:competitor:1647",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9536775,
+      "debut": "2016-08-13T18:00:00+00:00",
+      "home": "Caen",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1656",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9536777,
+      "debut": "2016-08-13T18:00:00+00:00",
+      "home": "Metz",
+      "away": "Lille",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1643",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9720423,
+      "debut": "2016-08-13T18:00:00+00:00",
+      "home": "Malines",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:5044",
+      "away_id": "sr:competitor:4858",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9720431,
+      "debut": "2016-08-13T18:00:00+00:00",
+      "home": "Westerlo",
+      "away": "Eupen",
+      "home_id": "sr:competitor:2893",
+      "away_id": "sr:competitor:2926",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9720411,
+      "debut": "2016-08-13T18:30:00+00:00",
+      "home": "Racing Genk",
+      "away": "Waasland-Beveren",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:4859",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

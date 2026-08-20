@@ -1,0 +1,127 @@
+{
+  "grille_id": 135,
+  "grille_type": "grille7",
+  "pool_id": 7000135,
+  "titre": "Grille 7 n°135",
+  "statut": "CLOSED",
+  "fin": "2016-02-04T19:30:00+00:00",
+  "collecte_le": "2026-08-20T12:46:16.396920+00:00",
+  "mises_nettes": 8921.25,
+  "montant_distribue": 8921.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 150,
+      "winningsPerGrid": 29.74
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1012,
+      "winningsPerGrid": 4.41
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8814606,
+      "debut": "2016-02-04T19:30:00+00:00",
+      "home": "FC Séville",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2821",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473870,
+      "debut": "2016-02-04T20:00:00+00:00",
+      "home": "Rennes",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8732466,
+      "debut": "2016-02-04T20:00:00+00:00",
+      "home": "Braga",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3036",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474652,
+      "debut": "2016-02-05T19:00:00+00:00",
+      "home": "Nîmes",
+      "away": "Niort",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:1665",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474660,
+      "debut": "2016-02-05T19:00:00+00:00",
+      "home": "Valenciennes",
+      "away": "Créteil",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1677",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7518146,
+      "debut": "2016-02-05T19:30:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Werder Brême",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2534",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610598,
+      "debut": "2016-02-05T19:30:00+00:00",
+      "home": "Malaga",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2859",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

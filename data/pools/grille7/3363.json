@@ -1,0 +1,136 @@
+{
+  "grille_id": 3363,
+  "grille_type": "grille7",
+  "pool_id": 7003363,
+  "titre": "Grille 7 n°3363",
+  "statut": "CLOSED",
+  "fin": "2024-06-12T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:57:25.500566+00:00",
+  "mises_nettes": 3794.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 666.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 40,
+      "winningsPerGrid": 50
+    }
+  ],
+  "repartition": [
+    105,
+    533,
+    1268,
+    1581,
+    1168,
+    361,
+    40,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 47114351,
+      "debut": "2024-06-12T16:00:00+00:00",
+      "home": "IF Gnistan",
+      "away": "HJK Helsinki",
+      "home_id": "sr:competitor:2271",
+      "away_id": "sr:competitor:2242",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50515773,
+      "debut": "2024-06-12T19:00:00+00:00",
+      "home": "Eibar",
+      "away": "Real Oviedo",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2851",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655655,
+      "debut": "2024-06-12T20:00:00+00:00",
+      "home": "Godoy Cruz",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:6074",
+      "away_id": "sr:competitor:3217",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655647,
+      "debut": "2024-06-12T22:00:00+00:00",
+      "home": "Argentinos Juniors",
+      "away": "Central Cordoba",
+      "home_id": "sr:competitor:3216",
+      "away_id": "sr:competitor:65676",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48194147,
+      "debut": "2024-06-12T23:00:00+00:00",
+      "home": "États-Unis",
+      "away": "Brésil",
+      "home_id": "sr:competitor:4724",
+      "away_id": "sr:competitor:4748",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655663,
+      "debut": "2024-06-13T00:15:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "Club Atletico Barracas Central",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:65668",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655667,
+      "debut": "2024-06-13T00:15:00+00:00",
+      "home": "Independiente",
+      "away": "Banfield",
+      "home_id": "sr:competitor:3209",
+      "away_id": "sr:competitor:3219",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

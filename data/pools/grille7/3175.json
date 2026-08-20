@@ -1,0 +1,136 @@
+{
+  "grille_id": 3175,
+  "grille_type": "grille7",
+  "pool_id": 7003175,
+  "titre": "Grille 7 n°3175",
+  "statut": "CLOSED",
+  "fin": "2024-01-07T16:30:00+00:00",
+  "collecte_le": "2026-08-20T08:10:02.051988+00:00",
+  "mises_nettes": 11599.5,
+  "montant_distribue": 11599.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001001001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 112,
+      "winningsPerGrid": 51.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1061,
+      "winningsPerGrid": 5.47
+    }
+  ],
+  "repartition": [
+    48,
+    462,
+    1820,
+    3760,
+    4819,
+    3384,
+    1061,
+    112
+  ],
+  "matches": [
+    {
+      "match_id": 45916917,
+      "debut": "2024-01-07T16:30:00+00:00",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46145431,
+      "debut": "2024-01-07T16:30:00+00:00",
+      "home": "Chambery SF",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:36391",
+      "away_id": "sr:competitor:1681",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46145403,
+      "debut": "2024-01-07T16:30:00+00:00",
+      "home": "Bergerac Perigord FC",
+      "away": "Libourne",
+      "home_id": "sr:competitor:300302",
+      "away_id": "sr:competitor:1698",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46230939,
+      "debut": "2024-01-07T16:30:00+00:00",
+      "home": "Louhans Cuiseaux",
+      "away": "Rouen",
+      "home_id": "sr:competitor:1683",
+      "away_id": "sr:competitor:4493",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46145401,
+      "debut": "2024-01-07T16:30:00+00:00",
+      "home": "FC Dieppe",
+      "away": "Laval",
+      "home_id": "sr:competitor:33766",
+      "away_id": "sr:competitor:1673",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134479,
+      "debut": "2024-01-07T17:00:00+00:00",
+      "home": "Salernitana",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134477,
+      "debut": "2024-01-07T19:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

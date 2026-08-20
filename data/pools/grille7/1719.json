@@ -1,0 +1,127 @@
+{
+  "grille_id": 1719,
+  "grille_type": "grille7",
+  "pool_id": 7001719,
+  "titre": "Grille 7 n°1719",
+  "statut": "CLOSED",
+  "fin": "2020-08-26T17:30:00+00:00",
+  "collecte_le": "2026-08-20T10:19:39.368078+00:00",
+  "mises_nettes": 11003.25,
+  "montant_distribue": 11003.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 9,
+      "winningsPerGrid": 611.29
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 139,
+      "winningsPerGrid": 39.58
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22906379,
+      "debut": "2020-08-26T17:30:00+00:00",
+      "home": "FK Krasnodar",
+      "away": "CSKA Moscou",
+      "home_id": "sr:competitor:34425",
+      "away_id": "sr:competitor:2325",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23202807,
+      "debut": "2020-08-26T17:30:00+00:00",
+      "home": "Ludogorets",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:43840",
+      "away_id": "sr:competitor:1289",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22906381,
+      "debut": "2020-08-26T17:45:00+00:00",
+      "home": "Dynamo Moscou",
+      "away": "Zénith St-Pétersbourg",
+      "home_id": "sr:competitor:2315",
+      "away_id": "sr:competitor:2321",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23202817,
+      "debut": "2020-08-26T18:00:00+00:00",
+      "home": "Dinamo Brest",
+      "away": "FK Sarajevo",
+      "home_id": "sr:competitor:3353",
+      "away_id": "sr:competitor:5237",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23202803,
+      "debut": "2020-08-26T18:00:00+00:00",
+      "home": "Legia Varsovie",
+      "away": "Omonia Nicosie",
+      "home_id": "sr:competitor:3106",
+      "away_id": "sr:competitor:3395",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23202797,
+      "debut": "2020-08-26T18:00:00+00:00",
+      "home": "CFR Cluj",
+      "away": "Dinamo Zagreb",
+      "home_id": "sr:competitor:5287",
+      "away_id": "sr:competitor:2032",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23202799,
+      "debut": "2020-08-26T18:45:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "Ferencvaros",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:1925",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

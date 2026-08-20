@@ -1,0 +1,136 @@
+{
+  "grille_id": 2565,
+  "grille_type": "grille7",
+  "pool_id": 7002565,
+  "titre": "Grille 7 n°2565",
+  "statut": "CLOSED",
+  "fin": "2022-08-09T18:00:00+00:00",
+  "collecte_le": "2026-08-20T13:11:10.978830+00:00",
+  "mises_nettes": 11161.5,
+  "montant_distribue": 11161.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010010100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1116.15
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 100,
+      "winningsPerGrid": 55.81
+    }
+  ],
+  "repartition": [
+    353,
+    1991,
+    4505,
+    4757,
+    2452,
+    719,
+    100,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 34995041,
+      "debut": "2022-08-09T18:00:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "Ludogorets",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:43840",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35021041,
+      "debut": "2022-08-09T18:00:00+00:00",
+      "home": "Ferencvaros",
+      "away": "Qarabag Agdam",
+      "home_id": "sr:competitor:1925",
+      "away_id": "sr:competitor:5962",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34820467,
+      "debut": "2022-08-09T18:30:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "Monaco",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:1653",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35020963,
+      "debut": "2022-08-09T18:30:00+00:00",
+      "home": "Sturm Graz",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:2051",
+      "away_id": "sr:competitor:3305",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34293091,
+      "debut": "2022-08-09T18:45:00+00:00",
+      "home": "Norwich",
+      "away": "Birmingham",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:9",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34292971,
+      "debut": "2022-08-09T18:45:00+00:00",
+      "home": "Charlton",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:47",
+      "away_id": "sr:competitor:1",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34820469,
+      "debut": "2022-08-09T18:45:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:4860",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

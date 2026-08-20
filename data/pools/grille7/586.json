@@ -1,0 +1,127 @@
+{
+  "grille_id": 586,
+  "grille_type": "grille7",
+  "pool_id": 7000586,
+  "titre": "Grille 7 n°586",
+  "statut": "CLOSED",
+  "fin": "2017-06-24T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:02:27.986734+00:00",
+  "mises_nettes": 4447.5,
+  "montant_distribue": 4447.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1111.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 35,
+      "winningsPerGrid": 63.54
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10678644,
+      "debut": "2017-06-24T18:45:00+00:00",
+      "home": "Italie U21",
+      "away": "Allemagne U21",
+      "home_id": "sr:competitor:4888",
+      "away_id": "sr:competitor:4890",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10678646,
+      "debut": "2017-06-24T18:45:00+00:00",
+      "home": "République Tchèque U21",
+      "away": "Danemark U21",
+      "home_id": "sr:competitor:6022",
+      "away_id": "sr:competitor:6023",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11848402,
+      "debut": "2017-06-24T19:00:00+00:00",
+      "home": "Getafe",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2822",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439313,
+      "debut": "2017-06-24T22:00:00+00:00",
+      "home": "Santos",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1959",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893866,
+      "debut": "2017-06-24T23:00:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "Colorado Rapids",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:2510",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893872,
+      "debut": "2017-06-24T23:00:00+00:00",
+      "home": "Philadelphia Union",
+      "away": "DC United",
+      "home_id": "sr:competitor:39833",
+      "away_id": "sr:competitor:2502",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893876,
+      "debut": "2017-06-24T23:30:00+00:00",
+      "home": "Columbus Crew",
+      "away": "Montréal",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:22006",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

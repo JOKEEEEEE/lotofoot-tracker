@@ -1,0 +1,127 @@
+{
+  "grille_id": 104,
+  "grille_type": "grille7",
+  "pool_id": 7000104,
+  "titre": "Grille 7 n°104",
+  "statut": "CLOSED",
+  "fin": "2016-01-03T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:48:45.787475+00:00",
+  "mises_nettes": 5586,
+  "montant_distribue": 5586,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010111010001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 931
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 80,
+      "winningsPerGrid": 34.91
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7464830,
+      "debut": "2016-01-03T16:00:00+00:00",
+      "home": "Everton",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8548780,
+      "debut": "2016-01-03T16:00:00+00:00",
+      "home": "Amiens AC",
+      "away": "Lille",
+      "home_id": "sr:competitor:59786",
+      "away_id": "sr:competitor:1643",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610494,
+      "debut": "2016-01-03T17:15:00+00:00",
+      "home": "Deportivo La Corogne",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2832",
+      "away_id": "sr:competitor:2819",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610504,
+      "debut": "2016-01-03T17:15:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:6577",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558244,
+      "debut": "2016-01-02T18:00:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:3004",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610492,
+      "debut": "2016-01-03T19:30:00+00:00",
+      "home": "Valence",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:2829",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8548756,
+      "debut": "2016-01-03T19:45:00+00:00",
+      "home": "Caen",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

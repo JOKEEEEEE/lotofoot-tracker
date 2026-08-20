@@ -1,0 +1,127 @@
+{
+  "grille_id": 605,
+  "grille_type": "grille7",
+  "pool_id": 7000605,
+  "titre": "Grille 7 n°605",
+  "statut": "CLOSED",
+  "fin": "2017-07-14T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:59:36.151301+00:00",
+  "mises_nettes": 2968.5,
+  "montant_distribue": 3000,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 166.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 81,
+      "winningsPerGrid": 18.52
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11951150,
+      "debut": "2017-07-14T18:00:00+00:00",
+      "home": "Inter Zapresic",
+      "away": "Cibalia Vinkovci",
+      "home_id": "sr:competitor:2045",
+      "away_id": "sr:competitor:2031",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11962834,
+      "debut": "2017-07-14T18:00:00+00:00",
+      "home": "Universitatea Craiova",
+      "away": "FC Politehnica Iasi",
+      "home_id": "sr:competitor:116223",
+      "away_id": "sr:competitor:5334",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11918988,
+      "debut": "2017-07-14T18:00:00+00:00",
+      "home": "Beroe",
+      "away": "FC Vereya",
+      "home_id": "sr:competitor:3281",
+      "away_id": "sr:competitor:59722",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11802586,
+      "debut": "2017-07-14T18:30:00+00:00",
+      "home": "Pogon Szczecin",
+      "away": "Wisla Cracovie",
+      "home_id": "sr:competitor:3117",
+      "away_id": "sr:competitor:3111",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799222,
+      "debut": "2017-07-14T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3170",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799052,
+      "debut": "2017-07-14T19:00:00+00:00",
+      "home": "Finn Harps",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3181",
+      "away_id": "sr:competitor:3173",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11927782,
+      "debut": "2017-07-15T00:45:00+00:00",
+      "home": "Cortulua",
+      "away": "Tigres ",
+      "home_id": "sr:competitor:39866",
+      "away_id": "sr:competitor:89354",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

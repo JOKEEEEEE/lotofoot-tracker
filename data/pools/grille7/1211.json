@@ -1,0 +1,127 @@
+{
+  "grille_id": 1211,
+  "grille_type": "grille7",
+  "pool_id": 7001211,
+  "titre": "Grille 7 n°1211",
+  "statut": "CLOSED",
+  "fin": "2019-04-01T18:30:00+00:00",
+  "collecte_le": "2026-08-20T13:28:04.660623+00:00",
+  "mises_nettes": 13604.25,
+  "montant_distribue": 14000,
+  "montant_garanti": 14000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 54,
+      "winningsPerGrid": 129.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 538,
+      "winningsPerGrid": 13.01
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701239,
+      "debut": "2019-04-01T18:30:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Nîmes",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1663",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14895211,
+      "debut": "2019-04-01T18:30:00+00:00",
+      "home": "Erzgebirge Aue",
+      "away": "Dynamo Dresden",
+      "home_id": "sr:competitor:2566",
+      "away_id": "sr:competitor:2595",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745339,
+      "debut": "2019-04-01T18:45:00+00:00",
+      "home": "Lens",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1662",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736861,
+      "debut": "2019-04-01T19:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:39",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145775,
+      "debut": "2019-04-01T19:00:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Gimnastic Tarragone",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:2840",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946235,
+      "debut": "2019-04-01T19:15:00+00:00",
+      "home": "Feirense",
+      "away": "Vitoria Setubal",
+      "home_id": "sr:competitor:4501",
+      "away_id": "sr:competitor:3008",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15201599,
+      "debut": "2019-04-01T22:00:00+00:00",
+      "home": "Estudiantes",
+      "away": "San Martin Tucuman",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:23950",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

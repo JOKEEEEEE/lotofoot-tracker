@@ -1,0 +1,127 @@
+{
+  "grille_id": 1029,
+  "grille_type": "grille7",
+  "pool_id": 7001029,
+  "titre": "Grille 7 n°1029",
+  "statut": "CLOSED",
+  "fin": "2018-09-25T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:24:04.049079+00:00",
+  "mises_nettes": 19296,
+  "montant_distribue": 19296,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1929.6
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 101,
+      "winningsPerGrid": 95.52
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14700771,
+      "debut": "2018-09-25T17:00:00+00:00",
+      "home": "Monaco",
+      "away": "Angers",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1684",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700773,
+      "debut": "2018-09-25T17:00:00+00:00",
+      "home": "Nantes",
+      "away": "Nice",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700779,
+      "debut": "2018-09-25T19:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1678",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159733,
+      "debut": "2018-09-25T19:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2693",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15510656,
+      "debut": "2018-09-25T19:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:7",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15510692,
+      "debut": "2018-09-25T19:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Derby County",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:27",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109073,
+      "debut": "2018-09-25T20:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:24265",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

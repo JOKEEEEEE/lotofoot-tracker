@@ -1,0 +1,127 @@
+{
+  "grille_id": 1312,
+  "grille_type": "grille7",
+  "pool_id": 7001312,
+  "titre": "Grille 7 n°1312",
+  "statut": "CLOSED",
+  "fin": "2019-07-13T20:00:00+00:00",
+  "collecte_le": "2026-08-20T10:59:06.868410+00:00",
+  "mises_nettes": 6733.5,
+  "montant_distribue": 6733.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 29,
+      "winningsPerGrid": 116.09
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 319,
+      "winningsPerGrid": 10.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17788976,
+      "debut": "2019-07-13T20:00:00+00:00",
+      "home": "Grêmio",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:1974",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788980,
+      "debut": "2019-07-13T20:00:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Avai ",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:7315",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788984,
+      "debut": "2019-07-13T22:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1963",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788992,
+      "debut": "2019-07-13T22:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Santos",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1968",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681725,
+      "debut": "2019-07-13T23:30:00+00:00",
+      "home": "Montréal",
+      "away": "Toronto FC",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:7080",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681727,
+      "debut": "2019-07-13T23:30:00+00:00",
+      "home": "Orlando City SC",
+      "away": "Columbus Crew",
+      "home_id": "sr:competitor:52237",
+      "away_id": "sr:competitor:2504",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681743,
+      "debut": "2019-07-14T00:00:00+00:00",
+      "home": "Minnesota United FC",
+      "away": "FC Dallas",
+      "home_id": "sr:competitor:41618",
+      "away_id": "sr:competitor:2512",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

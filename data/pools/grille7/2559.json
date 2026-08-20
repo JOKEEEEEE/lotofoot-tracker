@@ -1,0 +1,136 @@
+{
+  "grille_id": 2559,
+  "grille_type": "grille7",
+  "pool_id": 7002559,
+  "titre": "Grille 7 n°2559",
+  "statut": "CLOSED",
+  "fin": "2022-08-04T18:30:00+00:00",
+  "collecte_le": "2026-08-20T09:08:18.766030+00:00",
+  "mises_nettes": 7065,
+  "montant_distribue": 7065,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1766.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 42,
+      "winningsPerGrid": 84.11
+    }
+  ],
+  "repartition": [
+    352,
+    1671,
+    3210,
+    2642,
+    1197,
+    304,
+    42,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 35037801,
+      "debut": "2022-08-04T18:30:00+00:00",
+      "home": "Brøndby",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:2501",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35023821,
+      "debut": "2022-08-04T18:45:00+00:00",
+      "home": "Linfield",
+      "away": "FC Zurich",
+      "home_id": "sr:competitor:5272",
+      "away_id": "sr:competitor:2450",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35037739,
+      "debut": "2022-08-04T18:45:00+00:00",
+      "home": "Vikingur Reykjavik",
+      "away": "Lech Poznan",
+      "home_id": "sr:competitor:1908",
+      "away_id": "sr:competitor:3121",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35037781,
+      "debut": "2022-08-04T18:45:00+00:00",
+      "home": "Breidablik",
+      "away": "Istanbul Basaksehir",
+      "home_id": "sr:competitor:1901",
+      "away_id": "sr:competitor:3086",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35023825,
+      "debut": "2022-08-04T19:00:00+00:00",
+      "home": "Olympiakos",
+      "away": "Slovan Bratislava",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:2404",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35037797,
+      "debut": "2022-08-04T19:00:00+00:00",
+      "home": "Hajduk Split",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:2036",
+      "away_id": "sr:competitor:3009",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35037819,
+      "debut": "2022-08-04T19:00:00+00:00",
+      "home": "Dundee United",
+      "away": "AZ Alkmaar",
+      "home_id": "sr:competitor:2349",
+      "away_id": "sr:competitor:2950",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

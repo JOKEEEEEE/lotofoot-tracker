@@ -1,0 +1,136 @@
+{
+  "grille_id": 2869,
+  "grille_type": "grille7",
+  "pool_id": 7002869,
+  "titre": "Grille 7 n°2869",
+  "statut": "CLOSED",
+  "fin": "2023-04-15T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:41:41.478652+00:00",
+  "mises_nettes": 8432.25,
+  "montant_distribue": 8432.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1054.03
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 118,
+      "winningsPerGrid": 35.73
+    }
+  ],
+  "repartition": [
+    289,
+    1417,
+    2902,
+    3327,
+    2311,
+    875,
+    118,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 34171859,
+      "debut": "2023-04-15T17:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1676",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34171857,
+      "debut": "2023-04-15T17:00:00+00:00",
+      "home": "Caen",
+      "away": "Paris FC",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:6070",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34171855,
+      "debut": "2023-04-15T17:00:00+00:00",
+      "home": "Nîmes",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:1662",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34171845,
+      "debut": "2023-04-15T17:00:00+00:00",
+      "home": "Sochaux",
+      "away": "Pau",
+      "home_id": "sr:competitor:1657",
+      "away_id": "sr:competitor:1685",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34171847,
+      "debut": "2023-04-15T17:00:00+00:00",
+      "home": "Rodez",
+      "away": "Laval",
+      "home_id": "sr:competitor:6925",
+      "away_id": "sr:competitor:1673",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34171843,
+      "debut": "2023-04-15T17:00:00+00:00",
+      "home": "Quevilly Rouen",
+      "away": "Dijon",
+      "home_id": "sr:competitor:233162",
+      "away_id": "sr:competitor:1686",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172603,
+      "debut": "2023-04-15T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Lens",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1648",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

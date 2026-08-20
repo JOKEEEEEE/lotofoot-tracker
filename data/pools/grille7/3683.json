@@ -1,0 +1,136 @@
+{
+  "grille_id": 3683,
+  "grille_type": "grille7",
+  "pool_id": 7003683,
+  "titre": "Grille 7 n°3683",
+  "statut": "CLOSED",
+  "fin": "2025-04-12T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:28:05.888514+00:00",
+  "mises_nettes": 5579.25,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001010010001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 20,
+      "winningsPerGrid": 187.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 325,
+      "winningsPerGrid": 11.54
+    }
+  ],
+  "repartition": [
+    16,
+    219,
+    957,
+    2120,
+    2447,
+    1335,
+    325,
+    20
+  ],
+  "matches": [
+    {
+      "match_id": 51273437,
+      "debut": "2025-04-12T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Lecce",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2689",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59014897,
+      "debut": "2025-04-12T18:45:00+00:00",
+      "home": "Union Saint-Gilloise",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:4860",
+      "away_id": "sr:competitor:2900",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690457,
+      "debut": "2025-04-12T18:45:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "New England Revolution",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:2511",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852691,
+      "debut": "2025-04-12T19:00:00+00:00",
+      "home": "Leganes",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50868483,
+      "debut": "2025-04-12T19:00:00+00:00",
+      "home": "NAC Breda",
+      "away": "GO Ahead Eagles",
+      "home_id": "sr:competitor:2947",
+      "away_id": "sr:competitor:2979",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955857,
+      "debut": "2025-04-12T19:05:00+00:00",
+      "home": "Strasbourg",
+      "away": "Nice",
+      "home_id": "sr:competitor:1659",
+      "away_id": "sr:competitor:1661",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51389279,
+      "debut": "2025-04-12T19:30:00+00:00",
+      "home": "Casa Pia AC",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:36365",
+      "away_id": "sr:competitor:3002",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

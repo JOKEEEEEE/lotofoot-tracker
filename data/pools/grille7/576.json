@@ -1,0 +1,127 @@
+{
+  "grille_id": 576,
+  "grille_type": "grille7",
+  "pool_id": 7000576,
+  "titre": "Grille 7 n°576",
+  "statut": "CLOSED",
+  "fin": "2017-06-14T19:15:00+00:00",
+  "collecte_le": "2026-08-20T12:03:14.490503+00:00",
+  "mises_nettes": 4928.25,
+  "montant_distribue": 4928.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 821.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 38,
+      "winningsPerGrid": 64.85
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11549855,
+      "debut": "2017-06-14T19:15:00+00:00",
+      "home": "KA Akureyri",
+      "away": "IA Akranes",
+      "home_id": "sr:competitor:1904",
+      "away_id": "sr:competitor:1898",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549859,
+      "debut": "2017-06-14T19:15:00+00:00",
+      "home": "Breidablik",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1901",
+      "away_id": "sr:competitor:1899",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549857,
+      "debut": "2017-06-14T20:00:00+00:00",
+      "home": "Grindavik",
+      "away": "FH Hafnarfjordur",
+      "home_id": "sr:competitor:1897",
+      "away_id": "sr:competitor:1894",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439253,
+      "debut": "2017-06-14T22:30:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1967",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439255,
+      "debut": "2017-06-14T22:30:00+00:00",
+      "home": "Vitoria",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:1962",
+      "away_id": "sr:competitor:1958",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439257,
+      "debut": "2017-06-14T22:30:00+00:00",
+      "home": "Atletico GO",
+      "away": "Avai ",
+      "home_id": "sr:competitor:7314",
+      "away_id": "sr:competitor:7315",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439259,
+      "debut": "2017-06-15T00:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Ponte Preta",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1969",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3801,
+  "grille_type": "grille7",
+  "pool_id": 7003801,
+  "titre": "Grille 7 n°3801",
+  "statut": "CLOSED",
+  "fin": "2025-08-04T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:31:48.658620+00:00",
+  "mises_nettes": 2284.5,
+  "montant_distribue": 2284.5,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 142.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 68,
+      "winningsPerGrid": 16.8
+    }
+  ],
+  "repartition": [
+    52,
+    294,
+    728,
+    948,
+    668,
+    280,
+    68,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 62149744,
+      "debut": "2025-08-04T18:00:00+00:00",
+      "home": "NK Varazdin",
+      "away": "HNK Gorica",
+      "home_id": "sr:competitor:282653",
+      "away_id": "sr:competitor:43917",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61199103,
+      "debut": "2025-08-04T18:15:00+00:00",
+      "home": "Botev Plovdiv",
+      "away": "FC Arda Kardzhali",
+      "home_id": "sr:competitor:5241",
+      "away_id": "sr:competitor:364786",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61470361,
+      "debut": "2025-08-04T18:30:00+00:00",
+      "home": "Rapid Bucarest",
+      "away": "FC Botosani",
+      "home_id": "sr:competitor:3302",
+      "away_id": "sr:competitor:24798",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61352327,
+      "debut": "2025-08-04T19:00:00+00:00",
+      "home": "Heart of Midlothian",
+      "away": "Aberdeen",
+      "home_id": "sr:competitor:2353",
+      "away_id": "sr:competitor:2355",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62259914,
+      "debut": "2025-08-04T19:00:00+00:00",
+      "home": "Sportivo Ameliano",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:607728",
+      "away_id": "sr:competitor:5996",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61231601,
+      "debut": "2025-08-04T17:00:00+00:00",
+      "home": "Železničar",
+      "away": "Napredak Krusevac",
+      "home_id": "sr:competitor:425695",
+      "away_id": "sr:competitor:7674",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62259916,
+      "debut": "2025-08-04T21:30:00+00:00",
+      "home": "CD Recoleta",
+      "away": "Guarani Asuncion",
+      "home_id": "sr:competitor:463345",
+      "away_id": "sr:competitor:5994",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

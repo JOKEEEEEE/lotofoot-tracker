@@ -1,0 +1,136 @@
+{
+  "grille_id": 3345,
+  "grille_type": "grille7",
+  "pool_id": 7003345,
+  "titre": "Grille 7 n°3345",
+  "statut": "CLOSED",
+  "fin": "2024-05-25T14:00:00+00:00",
+  "collecte_le": "2026-08-20T07:58:32.048932+00:00",
+  "mises_nettes": 7523.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 79,
+      "winningsPerGrid": 63.29
+    }
+  ],
+  "repartition": [
+    124,
+    1110,
+    2680,
+    3206,
+    2121,
+    707,
+    79,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 49593321,
+      "debut": "2024-05-25T14:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49591997,
+      "debut": "2024-05-25T14:00:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "Glasgow Rangers",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:2351",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893661,
+      "debut": "2024-05-25T14:15:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134869,
+      "debut": "2024-05-25T16:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Monza",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2729",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49782377,
+      "debut": "2024-05-25T16:00:00+00:00",
+      "home": "Barcelone (F)",
+      "away": "Olympique Lyonnais (F)",
+      "home_id": "sr:competitor:77889",
+      "away_id": "sr:competitor:26245",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893665,
+      "debut": "2024-05-25T19:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2816",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49200239,
+      "debut": "2024-05-25T19:00:00+00:00",
+      "home": "Lyon",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

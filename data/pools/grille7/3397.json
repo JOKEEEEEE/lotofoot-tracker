@@ -1,0 +1,136 @@
+{
+  "grille_id": 3397,
+  "grille_type": "grille7",
+  "pool_id": 7003397,
+  "titre": "Grille 7 n°3397",
+  "statut": "CLOSED",
+  "fin": "2024-07-15T15:30:00+00:00",
+  "collecte_le": "2026-08-20T07:54:26.804314+00:00",
+  "mises_nettes": 4539,
+  "montant_distribue": 4539,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 567.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 45,
+      "winningsPerGrid": 50.43
+    }
+  ],
+  "repartition": [
+    184,
+    1170,
+    2032,
+    1613,
+    768,
+    236,
+    45,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 51207559,
+      "debut": "2024-07-15T15:30:00+00:00",
+      "home": "FC Botoșani",
+      "away": "SC Oțelul Galați",
+      "home_id": "sr:competitor:24798",
+      "away_id": "sr:competitor:3291",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47114395,
+      "debut": "2024-07-15T16:00:00+00:00",
+      "home": "FC Haka",
+      "away": "FC Ilves",
+      "home_id": "sr:competitor:2240",
+      "away_id": "sr:competitor:22386",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46300969,
+      "debut": "2024-07-15T17:00:00+00:00",
+      "home": "Hammarby IF",
+      "away": "IFK Göteborg",
+      "home_id": "sr:competitor:1758",
+      "away_id": "sr:competitor:1761",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46300973,
+      "debut": "2024-07-15T17:00:00+00:00",
+      "home": "Halmstad",
+      "away": "AIK Stockholm",
+      "home_id": "sr:competitor:1767",
+      "away_id": "sr:competitor:1764",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51207547,
+      "debut": "2024-07-15T18:30:00+00:00",
+      "home": "FC Petrolul Ploiesti",
+      "away": "FC Gloria Buzău",
+      "home_id": "sr:competitor:25856",
+      "away_id": "sr:competitor:7732",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46487395,
+      "debut": "2024-07-15T19:15:00+00:00",
+      "home": "Fylkir Reykjavik",
+      "away": "IA Akranes",
+      "home_id": "sr:competitor:1896",
+      "away_id": "sr:competitor:1898",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49498155,
+      "debut": "2024-07-15T19:15:00+00:00",
+      "home": "FH Hafnarfjordur",
+      "away": "HK Kopavogs",
+      "home_id": "sr:competitor:1894",
+      "away_id": "sr:competitor:7121",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

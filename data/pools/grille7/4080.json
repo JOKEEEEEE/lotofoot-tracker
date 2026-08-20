@@ -1,0 +1,127 @@
+{
+  "grille_id": 4080,
+  "grille_type": "grille7",
+  "pool_id": 7004080,
+  "titre": "Grille 7 n°4080",
+  "statut": "CLOSED",
+  "fin": "2026-05-19T18:00:00+00:00",
+  "collecte_le": "2026-08-20T06:05:41.250809+00:00",
+  "mises_nettes": 5019.75,
+  "montant_distribue": 5019.75,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001010010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2509.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 27,
+      "winningsPerGrid": 92.96
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 71477636,
+      "debut": "2026-05-19T18:00:00+00:00",
+      "home": "Monza",
+      "away": "Juve Stabia",
+      "home_id": "sr:competitor:2729",
+      "away_id": "sr:competitor:5324",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.82,
+      "cote_N": 3.15,
+      "cote_2": 3.7
+    },
+    {
+      "match_id": 61301247,
+      "debut": "2026-05-19T18:30:00+00:00",
+      "home": "Bournemouth",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:17",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 4.1,
+      "cote_N": 3.9,
+      "cote_2": 1.56
+    },
+    {
+      "match_id": 70207504,
+      "debut": "2026-05-19T18:30:00+00:00",
+      "home": "Charleroi",
+      "away": "O-H Louvain",
+      "home_id": "sr:competitor:2898",
+      "away_id": "sr:competitor:2918",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.4,
+      "cote_N": 4.2,
+      "cote_2": 5.7
+    },
+    {
+      "match_id": 70207506,
+      "debut": "2026-05-19T18:30:00+00:00",
+      "home": "Genk",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2889",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.41,
+      "cote_N": 4.2,
+      "cote_2": 5.5
+    },
+    {
+      "match_id": 70207508,
+      "debut": "2026-05-19T18:30:00+00:00",
+      "home": "Westerlo",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:2893",
+      "away_id": "sr:competitor:2901",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.82,
+      "cote_N": 3.65,
+      "cote_2": 3.2
+    },
+    {
+      "match_id": 71173724,
+      "debut": "2026-05-19T19:15:00+00:00",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 3.15,
+      "cote_2": 2.95
+    },
+    {
+      "match_id": 70075680,
+      "debut": "2026-05-19T22:00:00+00:00",
+      "home": "Coquimbo Unido",
+      "away": "Tolima",
+      "home_id": "sr:competitor:3165",
+      "away_id": "sr:competitor:6111",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2,
+      "cote_N": 2.9,
+      "cote_2": 3.3
+    }
+  ]
+}

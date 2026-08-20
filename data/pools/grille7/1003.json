@@ -1,0 +1,127 @@
+{
+  "grille_id": 1003,
+  "grille_type": "grille7",
+  "pool_id": 7001003,
+  "titre": "Grille 7 n°1003",
+  "statut": "CLOSED",
+  "fin": "2018-08-30T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:27:19.699479+00:00",
+  "mises_nettes": 14045.25,
+  "montant_distribue": 14045.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 121,
+      "winningsPerGrid": 58.04
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1023,
+      "winningsPerGrid": 6.86
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15345624,
+      "debut": "2018-08-30T18:30:00+00:00",
+      "home": "Spartak Trnava",
+      "away": "Olimpija Ljubljana",
+      "home_id": "sr:competitor:2406",
+      "away_id": "sr:competitor:2416",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15346018,
+      "debut": "2018-08-30T18:30:00+00:00",
+      "home": "Brøndby",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15346036,
+      "debut": "2018-08-30T18:30:00+00:00",
+      "home": "FC Steaua Bucarest",
+      "away": "Rapid Vienne",
+      "home_id": "sr:competitor:3301",
+      "away_id": "sr:competitor:2055",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15346046,
+      "debut": "2018-08-30T18:45:00+00:00",
+      "home": "Bordeaux",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:2903",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15346086,
+      "debut": "2018-08-30T18:45:00+00:00",
+      "home": "Burnley",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:3245",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15345740,
+      "debut": "2018-08-30T19:00:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "Suduva",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:5343",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15345748,
+      "debut": "2018-08-30T19:45:00+00:00",
+      "home": "FC Séville",
+      "away": "Sigma Olomouc",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2207",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

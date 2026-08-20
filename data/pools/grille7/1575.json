@@ -1,0 +1,127 @@
+{
+  "grille_id": 1575,
+  "grille_type": "grille7",
+  "pool_id": 7001575,
+  "titre": "Grille 7 n°1575",
+  "statut": "CLOSED",
+  "fin": "2020-02-25T19:45:00+00:00",
+  "collecte_le": "2026-08-20T13:21:38.674576+00:00",
+  "mises_nettes": 15455.25,
+  "montant_distribue": 15455.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 858.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 164,
+      "winningsPerGrid": 47.12
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18490614,
+      "debut": "2020-02-25T19:45:00+00:00",
+      "home": "Cardiff",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:14",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490618,
+      "debut": "2020-02-25T19:45:00+00:00",
+      "home": "Huddersfield",
+      "away": "Bristol City",
+      "home_id": "sr:competitor:59",
+      "away_id": "sr:competitor:58",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490620,
+      "debut": "2020-02-25T19:45:00+00:00",
+      "home": "Luton Town",
+      "away": "Brentford",
+      "home_id": "sr:competitor:72",
+      "away_id": "sr:competitor:50",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490622,
+      "debut": "2020-02-25T19:45:00+00:00",
+      "home": "Queens Park Rangers",
+      "away": "Derby County",
+      "home_id": "sr:competitor:1",
+      "away_id": "sr:competitor:27",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490624,
+      "debut": "2020-02-25T20:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Preston North End",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:21",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20691707,
+      "debut": "2020-02-25T20:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:2672",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20691901,
+      "debut": "2020-02-25T20:00:00+00:00",
+      "home": "Naples",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

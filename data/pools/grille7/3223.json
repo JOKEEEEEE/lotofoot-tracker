@@ -1,0 +1,136 @@
+{
+  "grille_id": 3223,
+  "grille_type": "grille7",
+  "pool_id": 7003223,
+  "titre": "Grille 7 n°3223",
+  "statut": "CLOSED",
+  "fin": "2024-02-15T17:45:00+00:00",
+  "collecte_le": "2026-08-20T08:06:33.275025+00:00",
+  "mises_nettes": 10101,
+  "montant_distribue": 10101,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 67,
+      "winningsPerGrid": 75.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 488,
+      "winningsPerGrid": 10.35
+    }
+  ],
+  "repartition": [
+    155,
+    980,
+    2574,
+    3945,
+    3596,
+    1663,
+    488,
+    67
+  ],
+  "matches": [
+    {
+      "match_id": 46297041,
+      "debut": "2024-02-15T17:45:00+00:00",
+      "home": "Shakhtar Donetsk",
+      "away": "Marseille",
+      "home_id": "sr:competitor:3313",
+      "away_id": "sr:competitor:1641",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46296955,
+      "debut": "2024-02-15T17:45:00+00:00",
+      "home": "Feyenoord",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2959",
+      "away_id": "sr:competitor:2702",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46297025,
+      "debut": "2024-02-15T17:45:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46297925,
+      "debut": "2024-02-15T17:45:00+00:00",
+      "home": "Molde",
+      "away": "Legia Varsovie",
+      "home_id": "sr:competitor:661",
+      "away_id": "sr:competitor:3106",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46297705,
+      "debut": "2024-02-15T17:45:00+00:00",
+      "home": "Olympiakos",
+      "away": "Ferencvaros",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:1925",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46297655,
+      "debut": "2024-02-15T17:45:00+00:00",
+      "home": "Union Saint-Gilloise",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:4860",
+      "away_id": "sr:competitor:2674",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46297037,
+      "debut": "2024-02-15T17:45:00+00:00",
+      "home": "Galatasaray",
+      "away": "Sparta Prague",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:2218",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

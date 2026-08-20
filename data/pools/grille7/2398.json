@@ -1,0 +1,136 @@
+{
+  "grille_id": 2398,
+  "grille_type": "grille7",
+  "pool_id": 7002398,
+  "titre": "Grille 7 n°2398",
+  "statut": "CLOSED",
+  "fin": "2022-03-12T18:00:00+00:00",
+  "collecte_le": "2026-08-20T09:19:47.360728+00:00",
+  "mises_nettes": 10636.5,
+  "montant_distribue": 10636.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1063.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 94,
+      "winningsPerGrid": 56.58
+    }
+  ],
+  "repartition": [
+    303,
+    2003,
+    4559,
+    4501,
+    2118,
+    599,
+    94,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 27886288,
+      "debut": "2022-03-12T18:00:00+00:00",
+      "home": "Caen",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1681",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27886296,
+      "debut": "2022-03-12T18:00:00+00:00",
+      "home": "Le Havre",
+      "away": "Nîmes",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1663",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27886284,
+      "debut": "2022-03-12T18:00:00+00:00",
+      "home": "Amiens",
+      "away": "Nancy",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1675",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27886290,
+      "debut": "2022-03-12T18:00:00+00:00",
+      "home": "Dunkerque",
+      "away": "Pau",
+      "home_id": "sr:competitor:6918",
+      "away_id": "sr:competitor:1685",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27886298,
+      "debut": "2022-03-12T18:00:00+00:00",
+      "home": "Paris FC",
+      "away": "Niort",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1665",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27886300,
+      "debut": "2022-03-12T18:00:00+00:00",
+      "home": "Valenciennes",
+      "away": "Dijon",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1686",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27885244,
+      "debut": "2022-03-12T20:00:00+00:00",
+      "home": "Troyes",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1647",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

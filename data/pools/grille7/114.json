@@ -1,0 +1,127 @@
+{
+  "grille_id": 114,
+  "grille_type": "grille7",
+  "pool_id": 7000114,
+  "titre": "Grille 7 n°114",
+  "statut": "CLOSED",
+  "fin": "2016-01-14T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:47:37.926991+00:00",
+  "mises_nettes": 6378,
+  "montant_distribue": 6378,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 112,
+      "winningsPerGrid": 28.47
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 808,
+      "winningsPerGrid": 3.95
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8606410,
+      "debut": "2016-01-14T19:00:00+00:00",
+      "home": "Grenade",
+      "away": "Valence",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2828",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8606586,
+      "debut": "2016-01-14T19:30:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2818",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474562,
+      "debut": "2016-01-15T19:00:00+00:00",
+      "home": "Dijon",
+      "away": "Bourg-en-Bresse",
+      "home_id": "sr:competitor:1686",
+      "away_id": "sr:competitor:35056",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474574,
+      "debut": "2016-01-15T19:00:00+00:00",
+      "home": "Laval",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1673",
+      "away_id": "sr:competitor:1646",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7433752,
+      "debut": "2016-01-15T19:30:00+00:00",
+      "home": "Racing Genk",
+      "away": "Zulte Waregem",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2933",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466386,
+      "debut": "2016-01-15T19:45:00+00:00",
+      "home": "Brentford",
+      "away": "Burnley",
+      "home_id": "sr:competitor:50",
+      "away_id": "sr:competitor:6",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7479934,
+      "debut": "2016-01-15T19:45:00+00:00",
+      "home": "Dundee United",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:2349",
+      "away_id": "sr:competitor:2352",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

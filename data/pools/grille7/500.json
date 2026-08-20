@@ -1,0 +1,127 @@
+{
+  "grille_id": 500,
+  "grille_type": "grille7",
+  "pool_id": 7000500,
+  "titre": "Grille 7 n°500",
+  "statut": "CLOSED",
+  "fin": "2017-03-23T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:11:28.553162+00:00",
+  "mises_nettes": 8083.5,
+  "montant_distribue": 8083.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 71,
+      "winningsPerGrid": 56.93
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 635,
+      "winningsPerGrid": 6.36
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10641930,
+      "debut": "2017-03-23T18:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Paris SG (F)",
+      "home_id": "sr:competitor:5543",
+      "away_id": "sr:competitor:55505",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10641928,
+      "debut": "2017-03-23T19:15:00+00:00",
+      "home": "Wolfsburg",
+      "away": "Lyon",
+      "home_id": "sr:competitor:5556",
+      "away_id": "sr:competitor:26245",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7696068,
+      "debut": "2017-03-23T20:30:00+00:00",
+      "home": "Colombie",
+      "away": "Bolivie",
+      "home_id": "sr:competitor:4820",
+      "away_id": "sr:competitor:4746",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7696070,
+      "debut": "2017-03-23T23:00:00+00:00",
+      "home": "Paraguay",
+      "away": "Equateur",
+      "home_id": "sr:competitor:4789",
+      "away_id": "sr:competitor:4757",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7696076,
+      "debut": "2017-03-23T23:00:00+00:00",
+      "home": "Uruguay",
+      "away": "Brésil",
+      "home_id": "sr:competitor:4725",
+      "away_id": "sr:competitor:4748",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7696072,
+      "debut": "2017-03-23T23:30:00+00:00",
+      "home": "Argentine",
+      "away": "Chili",
+      "home_id": "sr:competitor:4819",
+      "away_id": "sr:competitor:4754",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7696074,
+      "debut": "2017-03-23T23:30:00+00:00",
+      "home": "Vénézuela",
+      "away": "Pérou",
+      "home_id": "sr:competitor:4722",
+      "away_id": "sr:competitor:4790",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1530,
+  "grille_type": "grille7",
+  "pool_id": 7001530,
+  "titre": "Grille 7 n°1530",
+  "statut": "CLOSED",
+  "fin": "2020-01-23T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:41:09.530483+00:00",
+  "mises_nettes": 7578.75,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100001010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1333.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 60,
+      "winningsPerGrid": 66.67
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 20747753,
+      "debut": "2020-01-23T19:30:00+00:00",
+      "home": "College 1975 FC",
+      "away": "Europa Point FC",
+      "home_id": "sr:competitor:558886",
+      "away_id": "sr:competitor:286013",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20742107,
+      "debut": "2020-01-23T19:45:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:4858",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20960061,
+      "debut": "2020-01-23T19:45:00+00:00",
+      "home": "Tranmere Rovers",
+      "away": "Watford",
+      "home_id": "sr:competitor:51",
+      "away_id": "sr:competitor:24",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427994,
+      "debut": "2020-01-23T20:00:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20958065,
+      "debut": "2020-01-23T20:00:00+00:00",
+      "home": "CD Badajoz",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2853",
+      "away_id": "sr:competitor:2839",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20958263,
+      "debut": "2020-01-23T20:00:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2816",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20932913,
+      "debut": "2020-01-24T00:45:00+00:00",
+      "home": "Tolima",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6115",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1740,
+  "grille_type": "grille7",
+  "pool_id": 7001740,
+  "titre": "Grille 7 n°1740",
+  "statut": "CLOSED",
+  "fin": "2020-09-14T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:18:04.515976+00:00",
+  "mises_nettes": 13053.75,
+  "montant_distribue": 13053.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 383.93
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 208,
+      "winningsPerGrid": 31.38
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23203799,
+      "debut": "2020-09-14T17:00:00+00:00",
+      "home": "Sheffield United",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:15",
+      "away_id": "sr:competitor:3",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23300523,
+      "debut": "2020-09-14T17:00:00+00:00",
+      "home": "Hatayspor",
+      "away": "Istanbul Basaksehir",
+      "home_id": "sr:competitor:3091",
+      "away_id": "sr:competitor:3086",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22906411,
+      "debut": "2020-09-14T17:30:00+00:00",
+      "home": "FK Rostov",
+      "away": "Lokomotiv Moscou",
+      "home_id": "sr:competitor:2326",
+      "away_id": "sr:competitor:2320",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22651237,
+      "debut": "2020-09-14T18:45:00+00:00",
+      "home": "Toulouse",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1657",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22873149,
+      "debut": "2020-09-14T18:45:00+00:00",
+      "home": "MSV Duisbourg",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2543",
+      "away_id": "sr:competitor:2673",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23030819,
+      "debut": "2020-09-14T18:45:00+00:00",
+      "home": "Kfco Beerschot-Wilrijk",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:169260",
+      "away_id": "sr:competitor:2890",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23203797,
+      "debut": "2020-09-14T19:15:00+00:00",
+      "home": "Brighton",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

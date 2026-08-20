@@ -1,0 +1,136 @@
+{
+  "grille_id": 2899,
+  "grille_type": "grille7",
+  "pool_id": 7002899,
+  "titre": "Grille 7 n°2899",
+  "statut": "CLOSED",
+  "fin": "2023-05-07T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:38:08.813493+00:00",
+  "mises_nettes": 7152.75,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 22,
+      "winningsPerGrid": 170.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 231,
+      "winningsPerGrid": 16.23
+    }
+  ],
+  "repartition": [
+    52,
+    463,
+    1766,
+    3136,
+    2774,
+    1093,
+    231,
+    22
+  ],
+  "matches": [
+    {
+      "match_id": 34172671,
+      "debut": "2023-05-07T18:45:00+00:00",
+      "home": "Troyes",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34287179,
+      "debut": "2023-05-07T18:45:00+00:00",
+      "home": "Lecce",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2689",
+      "away_id": "sr:competitor:2701",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438863,
+      "debut": "2023-05-07T19:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1966",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34279249,
+      "debut": "2023-05-07T19:00:00+00:00",
+      "home": "FC Cartagena",
+      "away": "Burgos CF",
+      "home_id": "sr:competitor:24329",
+      "away_id": "sr:competitor:2854",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34505119,
+      "debut": "2023-05-07T19:30:00+00:00",
+      "home": "Pacos de Ferreira",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:3001",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38185769,
+      "debut": "2023-05-07T20:30:00+00:00",
+      "home": "Seattle Sounders",
+      "away": "Kansas City",
+      "home_id": "sr:competitor:22009",
+      "away_id": "sr:competitor:2509",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546005,
+      "debut": "2023-05-07T20:30:00+00:00",
+      "home": "River Plate",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:3202",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

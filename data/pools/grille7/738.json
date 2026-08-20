@@ -1,0 +1,127 @@
+{
+  "grille_id": 738,
+  "grille_type": "grille7",
+  "pool_id": 7000738,
+  "titre": "Grille 7 n°738",
+  "statut": "CLOSED",
+  "fin": "2017-12-01T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:49:33.924772+00:00",
+  "mises_nettes": 13698.75,
+  "montant_distribue": 13698.75,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1369.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 82,
+      "winningsPerGrid": 83.53
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11913856,
+      "debut": "2017-12-01T19:30:00+00:00",
+      "home": "Fribourg",
+      "away": "Hambourg",
+      "home_id": "sr:competitor:2538",
+      "away_id": "sr:competitor:2676",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833350,
+      "debut": "2017-12-01T19:45:00+00:00",
+      "home": "Dijon",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1686",
+      "away_id": "sr:competitor:1645",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090278,
+      "debut": "2017-12-01T19:45:00+00:00",
+      "home": "Naples",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868456,
+      "debut": "2017-12-01T19:45:00+00:00",
+      "home": "Leeds",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:40",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868450,
+      "debut": "2017-12-01T19:45:00+00:00",
+      "home": "Cardiff",
+      "away": "Norwich",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:263",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055336,
+      "debut": "2017-12-01T20:00:00+00:00",
+      "home": "Malaga",
+      "away": "Levante",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2849",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971782,
+      "debut": "2017-12-01T20:30:00+00:00",
+      "home": "FC Porto",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3006",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

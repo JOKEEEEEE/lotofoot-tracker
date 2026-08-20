@@ -1,0 +1,127 @@
+{
+  "grille_id": 1099,
+  "grille_type": "grille7",
+  "pool_id": 7001099,
+  "titre": "Grille 7 n°1099",
+  "statut": "CLOSED",
+  "fin": "2018-12-06T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:17:04.685350+00:00",
+  "mises_nettes": 8378.25,
+  "montant_distribue": 8378.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 147,
+      "winningsPerGrid": 28.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1161,
+      "winningsPerGrid": 3.61
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16025276,
+      "debut": "2018-12-06T17:30:00+00:00",
+      "home": "Huesca",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:2825",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16025268,
+      "debut": "2018-12-06T17:30:00+00:00",
+      "home": "Eibar",
+      "away": "Gijon",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2852",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14937201,
+      "debut": "2018-12-06T18:00:00+00:00",
+      "home": "Concordia Chiajna",
+      "away": "Universitatea Craiova",
+      "home_id": "sr:competitor:24790",
+      "away_id": "sr:competitor:116223",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16197546,
+      "debut": "2018-12-06T19:00:00+00:00",
+      "home": "Feyenoord",
+      "away": "VVV Venlo",
+      "home_id": "sr:competitor:2959",
+      "away_id": "sr:competitor:2980",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16025258,
+      "debut": "2018-12-06T19:45:00+00:00",
+      "home": "Betis Séville",
+      "away": "Racing Santander",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2835",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15957386,
+      "debut": "2018-12-06T19:45:00+00:00",
+      "home": "Union Saint-Gilloise",
+      "away": "Royal Knokke FC",
+      "home_id": "sr:competitor:4860",
+      "away_id": "sr:competitor:169272",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15305052,
+      "debut": "2018-12-06T19:45:00+00:00",
+      "home": "Torino",
+      "away": "FC Sudtirol",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2760",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

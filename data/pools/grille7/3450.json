@@ -1,0 +1,136 @@
+{
+  "grille_id": 3450,
+  "grille_type": "grille7",
+  "pool_id": 7003450,
+  "titre": "Grille 7 n°3450",
+  "statut": "CLOSED",
+  "fin": "2024-09-02T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:50:41.046659+00:00",
+  "mises_nettes": 6578.25,
+  "montant_distribue": 6578.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 32,
+      "winningsPerGrid": 102.79
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 332,
+      "winningsPerGrid": 9.91
+    }
+  ],
+  "repartition": [
+    65,
+    513,
+    1656,
+    2583,
+    2331,
+    1259,
+    332,
+    32
+  ],
+  "matches": [
+    {
+      "match_id": 51207665,
+      "debut": "2024-09-02T18:30:00+00:00",
+      "home": "FC Universitatea Cluj",
+      "away": "Dinamo Bucarest",
+      "home_id": "sr:competitor:7734",
+      "away_id": "sr:competitor:3292",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51859005,
+      "debut": "2024-09-02T19:00:00+00:00",
+      "home": "Borac Banja Luka",
+      "away": "NK Gosk Gabela",
+      "home_id": "sr:competitor:5235",
+      "away_id": "sr:competitor:25837",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51102977,
+      "debut": "2024-09-02T19:30:00+00:00",
+      "home": "Elche",
+      "away": "Cordoue",
+      "home_id": "sr:competitor:2846",
+      "away_id": "sr:competitor:2850",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655879,
+      "debut": "2024-09-02T20:00:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "Argentinos Juniors",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:3216",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655871,
+      "debut": "2024-09-02T22:00:00+00:00",
+      "home": "Godoy Cruz",
+      "away": "Central Cordoba",
+      "home_id": "sr:competitor:6074",
+      "away_id": "sr:competitor:65676",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52452719,
+      "debut": "2024-09-02T23:30:00+00:00",
+      "home": "Sportivo Trinidense",
+      "away": "Sol De America",
+      "home_id": "sr:competitor:39722",
+      "away_id": "sr:competitor:36439",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47344829,
+      "debut": "2024-09-03T00:00:00+00:00",
+      "home": "Cumbayá FC",
+      "away": "Imbabura SC",
+      "home_id": "sr:competitor:780238",
+      "away_id": "sr:competitor:7049",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

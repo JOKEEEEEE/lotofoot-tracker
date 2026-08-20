@@ -1,0 +1,127 @@
+{
+  "grille_id": 1503,
+  "grille_type": "grille7",
+  "pool_id": 7001503,
+  "titre": "Grille 7 n°1503",
+  "statut": "CLOSED",
+  "fin": "2019-12-27T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:43:03.727886+00:00",
+  "mises_nettes": 9146.25,
+  "montant_distribue": 9146.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 762.19
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 103,
+      "winningsPerGrid": 44.4
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18600710,
+      "debut": "2019-12-27T17:00:00+00:00",
+      "home": "Charleroi",
+      "away": "Ostende",
+      "home_id": "sr:competitor:2898",
+      "away_id": "sr:competitor:4494",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18807910,
+      "debut": "2019-12-27T17:30:00+00:00",
+      "home": "Besiktas",
+      "away": "Genclerbirligi",
+      "home_id": "sr:competitor:3050",
+      "away_id": "sr:competitor:7802",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20049790,
+      "debut": "2019-12-27T19:00:00+00:00",
+      "home": "Raja Casablanca",
+      "away": "JS Kabylie",
+      "home_id": "sr:competitor:41757",
+      "away_id": "sr:competitor:42202",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20049788,
+      "debut": "2019-12-27T19:00:00+00:00",
+      "home": "Espérance de Tunis",
+      "away": "AS Vita Club",
+      "home_id": "sr:competitor:59628",
+      "away_id": "sr:competitor:134278",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18600712,
+      "debut": "2019-12-27T19:30:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:2900",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427902,
+      "debut": "2019-12-27T19:45:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:17",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427906,
+      "debut": "2019-12-28T12:30:00+00:00",
+      "home": "Brighton",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:60",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 637,
+  "grille_type": "grille7",
+  "pool_id": 7000637,
+  "titre": "Grille 7 n°637",
+  "statut": "CLOSED",
+  "fin": "2017-08-16T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:57:34.731938+00:00",
+  "mises_nettes": 10584,
+  "montant_distribue": 10584,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 200,
+      "winningsPerGrid": 26.46
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1526,
+      "winningsPerGrid": 3.47
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12152592,
+      "debut": "2017-08-16T18:45:00+00:00",
+      "home": "Naples",
+      "away": "Nice",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:1661",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152566,
+      "debut": "2017-08-16T18:45:00+00:00",
+      "home": "Olympiakos",
+      "away": "Rijeka",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:2039",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152570,
+      "debut": "2017-08-16T18:45:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "FC Astana",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:36155",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152576,
+      "debut": "2017-08-16T18:45:00+00:00",
+      "home": "Hapoel Beer Sheva",
+      "away": "Maribor",
+      "home_id": "sr:competitor:5202",
+      "away_id": "sr:competitor:2420",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152580,
+      "debut": "2017-08-16T18:45:00+00:00",
+      "home": "Istanbul Basaksehir",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:3086",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11927906,
+      "debut": "2017-08-17T01:00:00+00:00",
+      "home": "Deportivo Cali",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6112",
+      "away_id": "sr:competitor:6115",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11904996,
+      "debut": "2017-08-16T21:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2817",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

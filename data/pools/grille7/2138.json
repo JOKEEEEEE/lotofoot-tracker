@@ -1,0 +1,136 @@
+{
+  "grille_id": 2138,
+  "grille_type": "grille7",
+  "pool_id": 7002138,
+  "titre": "Grille 7 n°2138",
+  "statut": "CLOSED",
+  "fin": "2021-08-15T18:00:00+00:00",
+  "collecte_le": "2026-08-20T09:44:36.506876+00:00",
+  "mises_nettes": 8286.75,
+  "montant_distribue": 8286.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 295.96
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 216,
+      "winningsPerGrid": 19.18
+    }
+  ],
+  "repartition": [
+    130,
+    851,
+    2401,
+    3554,
+    2792,
+    1091,
+    216,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 27964596,
+      "debut": "2021-08-15T18:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2824",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27884738,
+      "debut": "2021-08-15T18:45:00+00:00",
+      "home": "Marseille",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1645",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 14,
+      "cote_N": 1.06,
+      "cote_2": 11
+    },
+    {
+      "match_id": 28152954,
+      "debut": "2021-08-15T18:45:00+00:00",
+      "home": "Adana Demirspor",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:3101",
+      "away_id": "sr:competitor:3052",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 200,
+      "cote_N": 14.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 26574278,
+      "debut": "2021-08-15T20:00:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "Los Angeles FC",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:402227",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 20,
+      "cote_2": 200
+    },
+    {
+      "match_id": 27966462,
+      "debut": "2021-08-15T20:00:00+00:00",
+      "home": "Las Palmas",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:2831",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 55,
+      "cote_N": 1,
+      "cote_2": 50
+    },
+    {
+      "match_id": 27964610,
+      "debut": "2021-08-15T20:15:00+00:00",
+      "home": "FC Séville",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2818",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27471732,
+      "debut": "2021-08-15T21:15:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Santos",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1968",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 36,
+      "cote_N": 1,
+      "cote_2": 55
+    }
+  ]
+}

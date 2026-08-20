@@ -1,0 +1,136 @@
+{
+  "grille_id": 2841,
+  "grille_type": "grille7",
+  "pool_id": 7002841,
+  "titre": "Grille 7 n°2841",
+  "statut": "CLOSED",
+  "fin": "2023-03-19T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:43:41.813722+00:00",
+  "mises_nettes": 7913.25,
+  "montant_distribue": 7913.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001010100001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 3956.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 44,
+      "winningsPerGrid": 89.92
+    }
+  ],
+  "repartition": [
+    435,
+    2095,
+    3499,
+    2854,
+    1287,
+    336,
+    44,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 34172547,
+      "debut": "2023-03-19T19:45:00+00:00",
+      "home": "Reims",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34287037,
+      "debut": "2023-03-19T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277701,
+      "debut": "2023-03-19T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2829",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34505005,
+      "debut": "2023-03-19T20:30:00+00:00",
+      "home": "Boavista",
+      "away": "Famalicao",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:49531",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38638489,
+      "debut": "2023-03-19T20:30:00+00:00",
+      "home": "America De Cali",
+      "away": "Alianza Petrolera",
+      "home_id": "sr:competitor:6102",
+      "away_id": "sr:competitor:89156",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38306727,
+      "debut": "2023-03-19T21:00:00+00:00",
+      "home": "Universidad De Chile",
+      "away": "Deportes Copiapo",
+      "home_id": "sr:competitor:3161",
+      "away_id": "sr:competitor:89506",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545799,
+      "debut": "2023-03-19T22:00:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Instituto AC Cordoba",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:4937",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

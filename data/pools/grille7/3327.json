@@ -1,0 +1,136 @@
+{
+  "grille_id": 3327,
+  "grille_type": "grille7",
+  "pool_id": 7003327,
+  "titre": "Grille 7 n°3327",
+  "statut": "CLOSED",
+  "fin": "2024-05-09T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:00:05.530341+00:00",
+  "mises_nettes": 10538.25,
+  "montant_distribue": 10538.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 439.09
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 209,
+      "winningsPerGrid": 25.21
+    }
+  ],
+  "repartition": [
+    305,
+    1534,
+    3440,
+    4291,
+    3089,
+    1171,
+    209,
+    12
+  ],
+  "matches": [
+    {
+      "match_id": 48615873,
+      "debut": "2024-05-09T19:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Marseille",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:1641",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48615877,
+      "debut": "2024-05-09T19:00:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48619031,
+      "debut": "2024-05-09T19:00:00+00:00",
+      "home": "Olympiakos",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:40",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722581,
+      "debut": "2024-05-09T22:00:00+00:00",
+      "home": "San Lorenzo",
+      "away": "Independiente Del Valle",
+      "home_id": "sr:competitor:3201",
+      "away_id": "sr:competitor:39723",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722583,
+      "debut": "2024-05-09T22:00:00+00:00",
+      "home": "Liverpool Montevideo",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:6879",
+      "away_id": "sr:competitor:1963",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722765,
+      "debut": "2024-05-10T00:00:00+00:00",
+      "home": "Colo Colo",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:3155",
+      "away_id": "sr:competitor:1961",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722777,
+      "debut": "2024-05-10T00:00:00+00:00",
+      "home": "The Strongest",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:32529",
+      "away_id": "sr:competitor:3206",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

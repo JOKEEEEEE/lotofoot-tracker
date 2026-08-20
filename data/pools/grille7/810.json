@@ -1,0 +1,127 @@
+{
+  "grille_id": 810,
+  "grille_type": "grille7",
+  "pool_id": 7000810,
+  "titre": "Grille 7 n°810",
+  "statut": "CLOSED",
+  "fin": "2018-02-14T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:44:09.306624+00:00",
+  "mises_nettes": 19093.5,
+  "montant_distribue": 19093.5,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 79,
+      "winningsPerGrid": 120.84
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 826,
+      "winningsPerGrid": 11.56
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13330247,
+      "debut": "2018-02-14T19:45:00+00:00",
+      "home": "Real Madrid",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:1644",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13330225,
+      "debut": "2018-02-14T19:45:00+00:00",
+      "home": "FC Porto",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13332835,
+      "debut": "2018-02-15T18:00:00+00:00",
+      "home": "Nice",
+      "away": "Lokomotiv Moscou",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:2320",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13332733,
+      "debut": "2018-02-15T18:00:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2686",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13333513,
+      "debut": "2018-02-15T18:00:00+00:00",
+      "home": "Ludogorets",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:43840",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13333613,
+      "debut": "2018-02-15T18:00:00+00:00",
+      "home": "Marseille",
+      "away": "Braga",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:2999",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13333111,
+      "debut": "2018-02-15T18:00:00+00:00",
+      "home": "Spartak Moscou",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2323",
+      "away_id": "sr:competitor:2825",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

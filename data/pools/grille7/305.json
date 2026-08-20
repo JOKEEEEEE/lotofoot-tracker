@@ -1,0 +1,127 @@
+{
+  "grille_id": 305,
+  "grille_type": "grille7",
+  "pool_id": 7000305,
+  "titre": "Grille 7 n°305",
+  "statut": "CLOSED",
+  "fin": "2016-08-24T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:29:17.550769+00:00",
+  "mises_nettes": 10276.5,
+  "montant_distribue": 10276.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 45,
+      "winningsPerGrid": 114.18
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 496,
+      "winningsPerGrid": 10.36
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9909699,
+      "debut": "2016-08-24T18:45:00+00:00",
+      "home": "Manchester City",
+      "away": "FC Steaua Bucarest",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:3301",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909703,
+      "debut": "2016-08-24T18:45:00+00:00",
+      "home": "FK Rostov",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:2326",
+      "away_id": "sr:competitor:2953",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909705,
+      "debut": "2016-08-24T18:45:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2445",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909693,
+      "debut": "2016-08-24T18:45:00+00:00",
+      "home": "APOEL Nicosie",
+      "away": "FC Copenhague",
+      "home_id": "sr:competitor:3398",
+      "away_id": "sr:competitor:1284",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909697,
+      "debut": "2016-08-24T18:45:00+00:00",
+      "home": "Red Bull Salzbourg",
+      "away": "Dinamo Zagreb",
+      "home_id": "sr:competitor:2046",
+      "away_id": "sr:competitor:2032",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9943071,
+      "debut": "2016-08-24T18:45:00+00:00",
+      "home": "Morecambe",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:81",
+      "away_id": "sr:competitor:60",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9943079,
+      "debut": "2016-08-24T18:45:00+00:00",
+      "home": "Fulham",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:36",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

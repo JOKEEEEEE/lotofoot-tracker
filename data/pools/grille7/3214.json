@@ -1,0 +1,136 @@
+{
+  "grille_id": 3214,
+  "grille_type": "grille7",
+  "pool_id": 7003214,
+  "titre": "Grille 7 n°3214",
+  "statut": "CLOSED",
+  "fin": "2024-02-08T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:26:00.388923+00:00",
+  "mises_nettes": 7131.75,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100100001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 535.71
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 106,
+      "winningsPerGrid": 35.38
+    }
+  ],
+  "repartition": [
+    60,
+    1107,
+    2705,
+    3076,
+    1865,
+    583,
+    106,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 47280801,
+      "debut": "2024-02-08T19:00:00+00:00",
+      "home": "Ostende",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:4494",
+      "away_id": "sr:competitor:2889",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41906635,
+      "debut": "2024-02-08T19:00:00+00:00",
+      "home": "Kecskemeti",
+      "away": "Diosgyori VTK",
+      "home_id": "sr:competitor:23956",
+      "away_id": "sr:competitor:5121",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47171735,
+      "debut": "2024-02-08T19:45:00+00:00",
+      "home": "Rouen",
+      "away": "Monaco",
+      "home_id": "sr:competitor:4493",
+      "away_id": "sr:competitor:1653",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47017073,
+      "debut": "2024-02-08T20:45:00+00:00",
+      "home": "FC Vizela",
+      "away": "Benfica",
+      "home_id": "sr:competitor:5136",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46477589,
+      "debut": "2024-02-08T21:00:00+00:00",
+      "home": "Deportivo Pereira",
+      "away": "Fortaleza FC",
+      "home_id": "sr:competitor:6109",
+      "away_id": "sr:competitor:89368",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655385,
+      "debut": "2024-02-08T22:30:00+00:00",
+      "home": "Rosario Central",
+      "away": "Independiente Rivadavia De Mendoza",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:36842",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655383,
+      "debut": "2024-02-09T00:15:00+00:00",
+      "home": "Huracan",
+      "away": "Independiente",
+      "home_id": "sr:competitor:7629",
+      "away_id": "sr:competitor:3209",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

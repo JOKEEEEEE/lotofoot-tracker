@@ -1,0 +1,136 @@
+{
+  "grille_id": 2085,
+  "grille_type": "grille7",
+  "pool_id": 7002085,
+  "titre": "Grille 7 n°2085",
+  "statut": "CLOSED",
+  "fin": "2021-06-25T16:00:00+00:00",
+  "collecte_le": "2026-08-20T09:48:21.213012+00:00",
+  "mises_nettes": 4524.75,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 11,
+      "winningsPerGrid": 227.27
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 127,
+      "winningsPerGrid": 19.69
+    }
+  ],
+  "repartition": [
+    361,
+    1502,
+    2089,
+    1394,
+    549,
+    127,
+    11,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 26693538,
+      "debut": "2021-06-25T16:00:00+00:00",
+      "home": "Sarpsborg 08",
+      "away": "Viking",
+      "home_id": "sr:competitor:822",
+      "away_id": "sr:competitor:1164",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 19,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 26693536,
+      "debut": "2021-06-25T18:00:00+00:00",
+      "home": "Lillestrøm",
+      "away": "Rosenborg",
+      "home_id": "sr:competitor:664",
+      "away_id": "sr:competitor:1161",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 18,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25852910,
+      "debut": "2021-06-25T18:45:00+00:00",
+      "home": "Dundalk",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3179",
+      "away_id": "sr:competitor:3170",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 14,
+      "cote_2": 110
+    },
+    {
+      "match_id": 25852912,
+      "debut": "2021-06-25T18:45:00+00:00",
+      "home": "Waterford United",
+      "away": "St Patricks",
+      "home_id": "sr:competitor:3194",
+      "away_id": "sr:competitor:3169",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 12.5,
+      "cote_N": 1.05,
+      "cote_2": 9.5
+    },
+    {
+      "match_id": 25852914,
+      "debut": "2021-06-25T19:00:00+00:00",
+      "home": "Finn Harps",
+      "away": "Longford Town",
+      "home_id": "sr:competitor:3181",
+      "away_id": "sr:competitor:3175",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 6,
+      "cote_N": 1.12,
+      "cote_2": 11
+    },
+    {
+      "match_id": 25852916,
+      "debut": "2021-06-25T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3180",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 5.8,
+      "cote_N": 1.1,
+      "cote_2": 19
+    },
+    {
+      "match_id": 26574024,
+      "debut": "2021-06-26T00:00:00+00:00",
+      "home": "Inter Miami CF",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:659691",
+      "away_id": "sr:competitor:52237",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 19,
+      "cote_2": 1.01
+    }
+  ]
+}

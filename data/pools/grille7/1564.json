@@ -1,0 +1,127 @@
+{
+  "grille_id": 1564,
+  "grille_type": "grille7",
+  "pool_id": 7001564,
+  "titre": "Grille 7 n°1564",
+  "statut": "CLOSED",
+  "fin": "2020-02-17T19:30:00+00:00",
+  "collecte_le": "2026-08-20T13:21:42.933273+00:00",
+  "mises_nettes": 12248.25,
+  "montant_distribue": 12248.25,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1531.03
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 81,
+      "winningsPerGrid": 75.61
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18573238,
+      "debut": "2020-02-17T19:30:00+00:00",
+      "home": "Bochum",
+      "away": "VfB Stuttgart",
+      "home_id": "sr:competitor:2542",
+      "away_id": "sr:competitor:2677",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442526,
+      "debut": "2020-02-17T19:45:00+00:00",
+      "home": "Châteauroux",
+      "away": "Lens",
+      "home_id": "sr:competitor:1666",
+      "away_id": "sr:competitor:1648",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18661154,
+      "debut": "2020-02-17T19:45:00+00:00",
+      "home": "Penafiel",
+      "away": "Chaves",
+      "home_id": "sr:competitor:3017",
+      "away_id": "sr:competitor:3025",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927262,
+      "debut": "2020-02-17T19:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Torino",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2696",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18428030,
+      "debut": "2020-02-17T20:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:35",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030448,
+      "debut": "2020-02-17T20:00:00+00:00",
+      "home": "Chievo Vérone",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:2694",
+      "away_id": "sr:competitor:2710",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723702,
+      "debut": "2020-02-17T22:00:00+00:00",
+      "home": "Estudiantes",
+      "away": "Defensa Y Justicia",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:36839",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

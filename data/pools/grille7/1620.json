@@ -1,0 +1,127 @@
+{
+  "grille_id": 1620,
+  "grille_type": "grille7",
+  "pool_id": 7001620,
+  "titre": "Grille 7 n°1620",
+  "statut": "CLOSED",
+  "fin": "2020-05-28T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:29:17.987425+00:00",
+  "mises_nettes": 7334.25,
+  "montant_distribue": 7334.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 28,
+      "winningsPerGrid": 130.97
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 257,
+      "winningsPerGrid": 14.27
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22001785,
+      "debut": "2020-05-28T17:00:00+00:00",
+      "home": "Aarhus GF",
+      "away": "Randers",
+      "home_id": "sr:competitor:1291",
+      "away_id": "sr:competitor:1301",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22005487,
+      "debut": "2020-05-28T18:00:00+00:00",
+      "home": "Klaksvik",
+      "away": "Streymur",
+      "home_id": "sr:competitor:5194",
+      "away_id": "sr:competitor:5260",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22005493,
+      "debut": "2020-05-28T18:00:00+00:00",
+      "home": "Skala",
+      "away": "Argir",
+      "home_id": "sr:competitor:5190",
+      "away_id": "sr:competitor:36145",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971125,
+      "debut": "2020-05-28T18:30:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Hambourg",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2676",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21984519,
+      "debut": "2020-05-29T10:30:00+00:00",
+      "home": "Daegu FC",
+      "away": "Sangju Sangmu",
+      "home_id": "sr:competitor:7644",
+      "away_id": "sr:competitor:7647",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21981409,
+      "debut": "2020-05-29T13:00:00+00:00",
+      "home": "FK Indjija",
+      "away": "Spartak Subotica",
+      "home_id": "sr:competitor:35326",
+      "away_id": "sr:competitor:36967",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22064213,
+      "debut": "2020-05-29T15:00:00+00:00",
+      "home": "Torpedo-Belaz",
+      "away": "FC Smolevichi",
+      "home_id": "sr:competitor:3359",
+      "away_id": "sr:competitor:42964",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

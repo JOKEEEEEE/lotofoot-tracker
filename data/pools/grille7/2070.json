@@ -1,0 +1,136 @@
+{
+  "grille_id": 2070,
+  "grille_type": "grille7",
+  "pool_id": 7002070,
+  "titre": "Grille 7 n°2070",
+  "statut": "CLOSED",
+  "fin": "2021-06-08T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:49:36.700515+00:00",
+  "mises_nettes": 15124.5,
+  "montant_distribue": 15124.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1512.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 169,
+      "winningsPerGrid": 44.75
+    }
+  ],
+  "repartition": [
+    90,
+    1304,
+    4766,
+    7624,
+    4823,
+    1385,
+    169,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 27448792,
+      "debut": "2021-06-08T19:00:00+00:00",
+      "home": "Maroc",
+      "away": "Ghana",
+      "home_id": "sr:competitor:4778",
+      "away_id": "sr:competitor:4764",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 36,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27378074,
+      "debut": "2021-06-08T19:13:00+00:00",
+      "home": "France",
+      "away": "Bulgarie",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4716",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 20718025,
+      "debut": "2021-06-08T21:00:00+00:00",
+      "home": "Equateur",
+      "away": "Pérou",
+      "home_id": "sr:competitor:4757",
+      "away_id": "sr:competitor:4790",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 150,
+      "cote_N": 11.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 20718031,
+      "debut": "2021-06-08T22:30:00+00:00",
+      "home": "Vénézuela",
+      "away": "Uruguay",
+      "home_id": "sr:competitor:4722",
+      "away_id": "sr:competitor:4725",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 34,
+      "cote_N": 1.01,
+      "cote_2": 17
+    },
+    {
+      "match_id": 20718033,
+      "debut": "2021-06-08T23:00:00+00:00",
+      "home": "Colombie",
+      "away": "Argentine",
+      "home_id": "sr:competitor:4820",
+      "away_id": "sr:competitor:4819",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 16,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 20718029,
+      "debut": "2021-06-09T00:30:00+00:00",
+      "home": "Paraguay",
+      "away": "Brésil",
+      "home_id": "sr:competitor:4789",
+      "away_id": "sr:competitor:4748",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 25,
+      "cote_2": 1
+    },
+    {
+      "match_id": 20718027,
+      "debut": "2021-06-09T01:30:00+00:00",
+      "home": "Chili",
+      "away": "Bolivie",
+      "home_id": "sr:competitor:4754",
+      "away_id": "sr:competitor:4746",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 8,
+      "cote_N": 1.04,
+      "cote_2": 29
+    }
+  ]
+}

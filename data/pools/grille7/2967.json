@@ -1,0 +1,136 @@
+{
+  "grille_id": 2967,
+  "grille_type": "grille7",
+  "pool_id": 7002967,
+  "titre": "Grille 7 n°2967",
+  "statut": "CLOSED",
+  "fin": "2023-07-11T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:33:30.709433+00:00",
+  "mises_nettes": 5782.5,
+  "montant_distribue": 5782.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 361.41
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 134,
+      "winningsPerGrid": 21.58
+    }
+  ],
+  "repartition": [
+    93,
+    613,
+    1755,
+    2593,
+    1862,
+    652,
+    134,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 41861469,
+      "debut": "2023-07-11T18:00:00+00:00",
+      "home": "Olimpija Ljubljana",
+      "away": "Valmiera FK",
+      "home_id": "sr:competitor:2416",
+      "away_id": "sr:competitor:5353",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41861489,
+      "debut": "2023-07-11T18:00:00+00:00",
+      "home": "Rakow Czestochowa",
+      "away": "Flora Tallinn",
+      "home_id": "sr:competitor:35268",
+      "away_id": "sr:competitor:3346",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41861801,
+      "debut": "2023-07-11T18:00:00+00:00",
+      "home": "Hamrun Spartans",
+      "away": "Maccabi Haifa",
+      "home_id": "sr:competitor:33583",
+      "away_id": "sr:competitor:5197",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42109091,
+      "debut": "2023-07-11T18:45:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Breidablik",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:1901",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41861453,
+      "debut": "2023-07-11T18:45:00+00:00",
+      "home": "KF Ballkani",
+      "away": "Ludogorets",
+      "home_id": "sr:competitor:280003",
+      "away_id": "sr:competitor:43840",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41861463,
+      "debut": "2023-07-11T18:45:00+00:00",
+      "home": "Klaksvik",
+      "away": "Ferencvaros",
+      "home_id": "sr:competitor:5194",
+      "away_id": "sr:competitor:1925",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41861795,
+      "debut": "2023-07-11T18:45:00+00:00",
+      "home": "Partizani Tirana",
+      "away": "BATE Borisov",
+      "home_id": "sr:competitor:5222",
+      "away_id": "sr:competitor:3350",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

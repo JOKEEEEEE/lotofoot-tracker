@@ -1,0 +1,136 @@
+{
+  "grille_id": 4059,
+  "grille_type": "grille7",
+  "pool_id": 7004059,
+  "titre": "Grille 7 n°4059",
+  "statut": "CLOSED",
+  "fin": "2026-04-28T19:00:00+00:00",
+  "collecte_le": "2026-08-20T06:10:36.599524+00:00",
+  "mises_nettes": 5643.75,
+  "montant_distribue": 5643.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 82,
+      "winningsPerGrid": 34.41
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 480,
+      "winningsPerGrid": 5.88
+    }
+  ],
+  "repartition": [
+    86,
+    478,
+    1225,
+    2006,
+    1957,
+    1211,
+    480,
+    82
+  ],
+  "matches": [
+    {
+      "match_id": 69339430,
+      "debut": "2026-04-28T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:2672",
+      "score_home": 5,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 2.2,
+      "cote_N": 3.65,
+      "cote_2": 2.45
+    },
+    {
+      "match_id": 70076012,
+      "debut": "2026-04-28T22:00:00+00:00",
+      "home": "Lanus",
+      "away": "LDU Quito",
+      "home_id": "sr:competitor:3218",
+      "away_id": "sr:competitor:5257",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.35,
+      "cote_N": 4.1,
+      "cote_2": 6.5
+    },
+    {
+      "match_id": 70076098,
+      "debut": "2026-04-28T22:00:00+00:00",
+      "home": "Libertad Asuncion",
+      "away": "Independiente Del Valle",
+      "home_id": "sr:competitor:5996",
+      "away_id": "sr:competitor:39723",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.45,
+      "cote_N": 2.95,
+      "cote_2": 2.55
+    },
+    {
+      "match_id": 70076100,
+      "debut": "2026-04-29T00:00:00+00:00",
+      "home": "FC UCV",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:324069",
+      "away_id": "sr:competitor:3217",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 6.5,
+      "cote_N": 3.8,
+      "cote_2": 1.41
+    },
+    {
+      "match_id": 70075742,
+      "debut": "2026-04-29T00:30:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:3202",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.35,
+      "cote_N": 2.7,
+      "cote_2": 2.85
+    },
+    {
+      "match_id": 70075866,
+      "debut": "2026-04-29T02:00:00+00:00",
+      "home": "Sporting Cristal",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:2302",
+      "away_id": "sr:competitor:6105",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.35,
+      "cote_N": 2.95,
+      "cote_2": 2.7
+    },
+    {
+      "match_id": 70075672,
+      "debut": "2026-04-29T02:00:00+00:00",
+      "home": "Tolima",
+      "away": "Coquimbo Unido",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:3165",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.68,
+      "cote_N": 3.1,
+      "cote_2": 4.5
+    }
+  ]
+}

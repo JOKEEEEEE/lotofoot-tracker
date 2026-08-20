@@ -1,0 +1,127 @@
+{
+  "grille_id": 1706,
+  "grille_type": "grille7",
+  "pool_id": 7001706,
+  "titre": "Grille 7 n°1706",
+  "statut": "CLOSED",
+  "fin": "2020-08-13T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:21:35.828067+00:00",
+  "mises_nettes": 10002,
+  "montant_distribue": 10002,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1000.2
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 82,
+      "winningsPerGrid": 60.99
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22532757,
+      "debut": "2020-08-13T17:00:00+00:00",
+      "home": "Elfsborg",
+      "away": "Falkenbergs",
+      "home_id": "sr:competitor:1762",
+      "away_id": "sr:competitor:1812",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22532761,
+      "debut": "2020-08-13T17:00:00+00:00",
+      "home": "Norrköping",
+      "away": "Hammarby IF",
+      "home_id": "sr:competitor:1769",
+      "away_id": "sr:competitor:1758",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22532763,
+      "debut": "2020-08-13T17:00:00+00:00",
+      "home": "AIK Stockholm",
+      "away": "Östersunds FK",
+      "home_id": "sr:competitor:1764",
+      "away_id": "sr:competitor:1836",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22532765,
+      "debut": "2020-08-13T17:00:00+00:00",
+      "home": "IK Sirius",
+      "away": "Helsingborg IF",
+      "home_id": "sr:competitor:1793",
+      "away_id": "sr:competitor:1890",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22532771,
+      "debut": "2020-08-13T17:00:00+00:00",
+      "home": "Kalmar",
+      "away": "IFK Göteborg",
+      "home_id": "sr:competitor:1891",
+      "away_id": "sr:competitor:1761",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22660055,
+      "debut": "2020-08-13T19:00:00+00:00",
+      "home": "RB Leipzig",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:36360",
+      "away_id": "sr:competitor:2836",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23040035,
+      "debut": "2020-08-13T20:00:00+00:00",
+      "home": "Elche",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:2846",
+      "away_id": "sr:competitor:2815",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

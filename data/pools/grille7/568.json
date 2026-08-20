@@ -1,0 +1,127 @@
+{
+  "grille_id": 568,
+  "grille_type": "grille7",
+  "pool_id": 7000568,
+  "titre": "Grille 7 n°568",
+  "statut": "CLOSED",
+  "fin": "2017-06-04T17:00:00+00:00",
+  "collecte_le": "2026-08-20T12:03:51.934719+00:00",
+  "mises_nettes": 6081.75,
+  "montant_distribue": 6081.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1520.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 37,
+      "winningsPerGrid": 82.19
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11185731,
+      "debut": "2017-06-04T17:00:00+00:00",
+      "home": "République d'Irlande",
+      "away": "Uruguay",
+      "home_id": "sr:competitor:4693",
+      "away_id": "sr:competitor:4725",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11372067,
+      "debut": "2017-06-04T17:30:00+00:00",
+      "home": "Pays-Bas",
+      "away": "Côte d'Ivoire",
+      "home_id": "sr:competitor:4705",
+      "away_id": "sr:competitor:4768",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10828974,
+      "debut": "2017-06-04T18:00:00+00:00",
+      "home": "Odd",
+      "away": "Brann",
+      "home_id": "sr:competitor:659",
+      "away_id": "sr:competitor:1159",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9775137,
+      "debut": "2017-06-04T18:00:00+00:00",
+      "home": "Ucam Murcia",
+      "away": "Alcorcon",
+      "home_id": "sr:competitor:55785",
+      "away_id": "sr:competitor:24322",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11760516,
+      "debut": "2017-06-04T18:30:00+00:00",
+      "home": "Carpi",
+      "away": "Benevento",
+      "home_id": "sr:competitor:43685",
+      "away_id": "sr:competitor:2759",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439201,
+      "debut": "2017-06-04T19:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439205,
+      "debut": "2017-06-04T19:00:00+00:00",
+      "home": "Ponte Preta",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1969",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

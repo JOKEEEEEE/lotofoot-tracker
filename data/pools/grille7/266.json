@@ -1,0 +1,127 @@
+{
+  "grille_id": 266,
+  "grille_type": "grille7",
+  "pool_id": 7000266,
+  "titre": "Grille 7 n°266",
+  "statut": "CLOSED",
+  "fin": "2016-07-13T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:33:45.395463+00:00",
+  "mises_nettes": 5350.5,
+  "montant_distribue": 5350.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 668.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 48,
+      "winningsPerGrid": 55.73
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9630067,
+      "debut": "2016-07-13T18:30:00+00:00",
+      "home": "Olimpija Ljubljana",
+      "away": "AS Trencin",
+      "home_id": "sr:competitor:2416",
+      "away_id": "sr:competitor:2398",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9630185,
+      "debut": "2016-07-13T18:45:00+00:00",
+      "home": "Dundalk",
+      "away": "FH Hafnarfjordur",
+      "home_id": "sr:competitor:3179",
+      "away_id": "sr:competitor:1894",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697652,
+      "debut": "2016-07-13T23:00:00+00:00",
+      "home": "Columbus Crew",
+      "away": "Toronto FC",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:7080",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697656,
+      "debut": "2016-07-14T02:00:00+00:00",
+      "home": "Chicago Fire",
+      "away": "Kansas City",
+      "home_id": "sr:competitor:2505",
+      "away_id": "sr:competitor:2509",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9505909,
+      "debut": "2016-07-14T00:45:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:1981",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697658,
+      "debut": "2016-07-14T02:30:00+00:00",
+      "home": "Seattle Sounders",
+      "away": "FC Dallas",
+      "home_id": "sr:competitor:22009",
+      "away_id": "sr:competitor:2512",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697660,
+      "debut": "2016-07-14T02:30:00+00:00",
+      "home": "Portland Timbers",
+      "away": "Montréal",
+      "home_id": "sr:competitor:22007",
+      "away_id": "sr:competitor:22006",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

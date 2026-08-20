@@ -1,0 +1,136 @@
+{
+  "grille_id": 2324,
+  "grille_type": "grille7",
+  "pool_id": 7002324,
+  "titre": "Grille 7 n°2324",
+  "statut": "CLOSED",
+  "fin": "2022-01-14T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:27:35.303490+00:00",
+  "mises_nettes": 10740,
+  "montant_distribue": 10740,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 767.14
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 152,
+      "winningsPerGrid": 35.33
+    }
+  ],
+  "repartition": [
+    282,
+    1569,
+    4045,
+    4709,
+    2696,
+    860,
+    152,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 28799058,
+      "debut": "2022-01-14T19:00:00+00:00",
+      "home": "Gabon",
+      "away": "Ghana",
+      "home_id": "sr:competitor:4761",
+      "away_id": "sr:competitor:4764",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27647054,
+      "debut": "2022-01-14T19:00:00+00:00",
+      "home": "Zwolle",
+      "away": "Willem II",
+      "home_id": "sr:competitor:2971",
+      "away_id": "sr:competitor:2961",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27883412,
+      "debut": "2022-01-14T19:30:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Fribourg",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2538",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31201737,
+      "debut": "2022-01-14T19:30:00+00:00",
+      "home": "Ternana",
+      "away": "Ascoli",
+      "home_id": "sr:competitor:2708",
+      "away_id": "sr:competitor:2707",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27649546,
+      "debut": "2022-01-14T19:45:00+00:00",
+      "home": "La Gantoise",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:4858",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751474,
+      "debut": "2022-01-14T20:00:00+00:00",
+      "home": "Brighton",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:7",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27885092,
+      "debut": "2022-01-14T20:00:00+00:00",
+      "home": "Nice",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1647",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

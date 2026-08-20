@@ -1,0 +1,136 @@
+{
+  "grille_id": 2221,
+  "grille_type": "grille7",
+  "pool_id": 7002221,
+  "titre": "Grille 7 n°2221",
+  "statut": "CLOSED",
+  "fin": "2021-10-21T16:45:00+00:00",
+  "collecte_le": "2026-08-20T09:38:12.123399+00:00",
+  "mises_nettes": 14643,
+  "montant_distribue": 14643,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100010100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 1045.93
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 102,
+      "winningsPerGrid": 71.78
+    }
+  ],
+  "repartition": [
+    281,
+    2906,
+    6536,
+    6015,
+    2881,
+    796,
+    102,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 28936250,
+      "debut": "2021-10-21T16:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Marseille",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 50,
+      "cote_N": 1,
+      "cote_2": 60
+    },
+    {
+      "match_id": 28937440,
+      "debut": "2021-10-21T16:45:00+00:00",
+      "home": "NS Mura",
+      "away": "Rennes",
+      "home_id": "sr:competitor:2410",
+      "away_id": "sr:competitor:1658",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 65,
+      "cote_2": 1
+    },
+    {
+      "match_id": 28936332,
+      "debut": "2021-10-21T16:45:00+00:00",
+      "home": "Rapid Vienne",
+      "away": "Dinamo Zagreb",
+      "home_id": "sr:competitor:2055",
+      "away_id": "sr:competitor:2032",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 55,
+      "cote_2": null
+    },
+    {
+      "match_id": 28936278,
+      "debut": "2021-10-21T16:45:00+00:00",
+      "home": "Midtjylland",
+      "away": "Etoile Rouge de Belgrade",
+      "home_id": "sr:competitor:1289",
+      "away_id": "sr:competitor:5149",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 50,
+      "cote_N": 1,
+      "cote_2": 65
+    },
+    {
+      "match_id": 28937280,
+      "debut": "2021-10-21T16:45:00+00:00",
+      "home": "Feyenoord",
+      "away": "Union Berlin",
+      "home_id": "sr:competitor:2959",
+      "away_id": "sr:competitor:2547",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28936220,
+      "debut": "2021-10-21T16:45:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:2889",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 38,
+      "cote_N": 1,
+      "cote_2": 60
+    },
+    {
+      "match_id": 28936306,
+      "debut": "2021-10-21T16:45:00+00:00",
+      "home": "Betis Séville",
+      "away": "Bayer Leverkusen",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2681",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 40,
+      "cote_N": 1,
+      "cote_2": 42
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 579,
+  "grille_type": "grille7",
+  "pool_id": 7000579,
+  "titre": "Grille 7 n°579",
+  "statut": "CLOSED",
+  "fin": "2017-06-17T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:02:56.102264+00:00",
+  "mises_nettes": 4283.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 357.14
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 75,
+      "winningsPerGrid": 33.33
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10799330,
+      "debut": "2017-06-17T18:45:00+00:00",
+      "home": "Sligo Rovers",
+      "away": "Galway United",
+      "home_id": "sr:competitor:3190",
+      "away_id": "sr:competitor:3172",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9935503,
+      "debut": "2017-06-17T20:15:00+00:00",
+      "home": "Atletico Rafaela",
+      "away": "Quilmes",
+      "home_id": "sr:competitor:34976",
+      "away_id": "sr:competitor:4936",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9935499,
+      "debut": "2017-06-17T20:45:00+00:00",
+      "home": "Aldosivi",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:36836",
+      "away_id": "sr:competitor:3202",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893724,
+      "debut": "2017-06-17T23:00:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "Columbus Crew",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:2504",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893742,
+      "debut": "2017-06-18T01:00:00+00:00",
+      "home": "San Jose Earthquakes",
+      "away": "Kansas City",
+      "home_id": "sr:competitor:21825",
+      "away_id": "sr:competitor:2509",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893776,
+      "debut": "2017-06-18T01:30:00+00:00",
+      "home": "Colorado Rapids",
+      "away": "Portland Timbers",
+      "home_id": "sr:competitor:2510",
+      "away_id": "sr:competitor:22007",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893748,
+      "debut": "2017-06-18T02:00:00+00:00",
+      "home": "Vancouver",
+      "away": "FC Dallas",
+      "home_id": "sr:competitor:22010",
+      "away_id": "sr:competitor:2512",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

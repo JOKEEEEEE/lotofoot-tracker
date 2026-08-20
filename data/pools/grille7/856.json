@@ -1,0 +1,127 @@
+{
+  "grille_id": 856,
+  "grille_type": "grille7",
+  "pool_id": 7000856,
+  "titre": "Grille 7 n°856",
+  "statut": "CLOSED",
+  "fin": "2018-04-02T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:41:11.055081+00:00",
+  "mises_nettes": 13268.25,
+  "montant_distribue": 13268.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 30,
+      "winningsPerGrid": 221.14
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 405,
+      "winningsPerGrid": 16.38
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11915190,
+      "debut": "2018-04-02T18:30:00+00:00",
+      "home": "Darmstadt",
+      "away": "Düsseldorf",
+      "home_id": "sr:competitor:2576",
+      "away_id": "sr:competitor:2588",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13984005,
+      "debut": "2018-04-02T18:30:00+00:00",
+      "home": "Parme",
+      "away": "Palerme",
+      "home_id": "sr:competitor:2690",
+      "away_id": "sr:competitor:2715",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11837088,
+      "debut": "2018-04-02T18:45:00+00:00",
+      "home": "Lens",
+      "away": "Châteauroux",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1666",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868944,
+      "debut": "2018-04-02T18:45:00+00:00",
+      "home": "Sheffield United",
+      "away": "Cardiff",
+      "home_id": "sr:competitor:15",
+      "away_id": "sr:competitor:61",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11972054,
+      "debut": "2018-04-02T19:00:00+00:00",
+      "home": "Belenenses",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3004",
+      "away_id": "sr:competitor:3002",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055654,
+      "debut": "2018-04-02T19:00:00+00:00",
+      "home": "Getafe",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2816",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12213244,
+      "debut": "2018-04-02T22:00:00+00:00",
+      "home": "Olimpo",
+      "away": "Temperley",
+      "home_id": "sr:competitor:3222",
+      "away_id": "sr:competitor:112499",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

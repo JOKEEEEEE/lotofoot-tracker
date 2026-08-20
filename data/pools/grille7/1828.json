@@ -1,0 +1,127 @@
+{
+  "grille_id": 1828,
+  "grille_type": "grille7",
+  "pool_id": 7001828,
+  "titre": "Grille 7 n°1828",
+  "statut": "CLOSED",
+  "fin": "2020-11-24T20:00:00+00:00",
+  "collecte_le": "2026-08-20T10:10:03.520805+00:00",
+  "mises_nettes": 24255.75,
+  "montant_distribue": 24255.75,
+  "montant_garanti": 20000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3612,
+      "winningsPerGrid": 3.36
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 7792,
+      "winningsPerGrid": 1.56
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23831807,
+      "debut": "2020-11-24T20:00:00+00:00",
+      "home": "Paris SG",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:36360",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 15,
+      "cote_2": 225
+    },
+    {
+      "match_id": 23831751,
+      "debut": "2020-11-24T20:00:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2888",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23831755,
+      "debut": "2020-11-24T20:00:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Zénith St-Pétersbourg",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2321",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23216565,
+      "debut": "2020-11-24T20:00:00+00:00",
+      "home": "Bournemouth",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:14",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23831787,
+      "debut": "2020-11-24T20:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Ferencvaros",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:1925",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 40,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23831789,
+      "debut": "2020-11-24T20:00:00+00:00",
+      "home": "Dynamo Kiev",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:3305",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23831809,
+      "debut": "2020-11-24T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Istanbul Basaksehir",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:3086",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

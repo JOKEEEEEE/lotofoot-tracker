@@ -1,0 +1,127 @@
+{
+  "grille_id": 1002,
+  "grille_type": "grille7",
+  "pool_id": 7001002,
+  "titre": "Grille 7 n°1002",
+  "statut": "CLOSED",
+  "fin": "2018-08-29T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:27:21.900283+00:00",
+  "mises_nettes": 14623.5,
+  "montant_distribue": 14623.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 28,
+      "winningsPerGrid": 261.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 394,
+      "winningsPerGrid": 18.56
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15325664,
+      "debut": "2018-08-29T19:00:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "BATE Borisov",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:3350",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15325832,
+      "debut": "2018-08-29T19:00:00+00:00",
+      "home": "PAOK Salonique",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3251",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15325948,
+      "debut": "2018-08-29T19:00:00+00:00",
+      "home": "Red Bull Salzbourg",
+      "away": "Etoile Rouge de Belgrade",
+      "home_id": "sr:competitor:2046",
+      "away_id": "sr:competitor:5149",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805639,
+      "debut": "2018-08-29T22:30:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:1974",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805649,
+      "debut": "2018-08-29T22:30:00+00:00",
+      "home": "Ceara CE",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1955",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14689921,
+      "debut": "2018-08-29T22:30:00+00:00",
+      "home": "River Plate",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:3215",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14689933,
+      "debut": "2018-08-30T00:45:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:5981",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

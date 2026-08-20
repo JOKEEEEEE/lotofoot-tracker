@@ -1,0 +1,136 @@
+{
+  "grille_id": 3663,
+  "grille_type": "grille7",
+  "pool_id": 7003663,
+  "titre": "Grille 7 n°3663",
+  "statut": "CLOSED",
+  "fin": "2025-03-23T19:45:00+00:00",
+  "collecte_le": "2026-08-20T07:29:24.986777+00:00",
+  "mises_nettes": 8640,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 47,
+      "winningsPerGrid": 106.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 464,
+      "winningsPerGrid": 10.78
+    }
+  ],
+  "repartition": [
+    88,
+    575,
+    1788,
+    3178,
+    3401,
+    1979,
+    464,
+    47
+  ],
+  "matches": [
+    {
+      "match_id": 55807551,
+      "debut": "2025-03-23T19:45:00+00:00",
+      "home": "France",
+      "away": "Croatie",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4715",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55807537,
+      "debut": "2025-03-23T19:45:00+00:00",
+      "home": "Espagne",
+      "away": "Pays-Bas",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4705",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55807545,
+      "debut": "2025-03-23T19:45:00+00:00",
+      "home": "Portugal",
+      "away": "Danemark",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4476",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55807557,
+      "debut": "2025-03-23T19:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Italie",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4707",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55807497,
+      "debut": "2025-03-23T19:45:00+00:00",
+      "home": "République d'Irlande",
+      "away": "Bulgarie",
+      "home_id": "sr:competitor:4693",
+      "away_id": "sr:competitor:4716",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55807519,
+      "debut": "2025-03-23T19:45:00+00:00",
+      "home": "Belgique",
+      "away": "Ukraine",
+      "home_id": "sr:competitor:4717",
+      "away_id": "sr:competitor:4701",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690395,
+      "debut": "2025-03-23T20:00:00+00:00",
+      "home": "Austin FC",
+      "away": "San Diego FC",
+      "home_id": "sr:competitor:772256",
+      "away_id": "sr:competitor:1217911",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

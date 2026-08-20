@@ -1,0 +1,127 @@
+{
+  "grille_id": 1257,
+  "grille_type": "grille7",
+  "pool_id": 7001257,
+  "titre": "Grille 7 n°1257",
+  "statut": "CLOSED",
+  "fin": "2019-05-17T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:04:17.380954+00:00",
+  "mises_nettes": 9940.5,
+  "montant_distribue": 9940.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 31,
+      "winningsPerGrid": 160.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 533,
+      "winningsPerGrid": 9.33
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14745493,
+      "debut": "2019-05-17T18:45:00+00:00",
+      "home": "Paris FC",
+      "away": "GFC Ajaccio",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:7924",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18204299,
+      "debut": "2019-05-17T18:45:00+00:00",
+      "home": "Dundee United",
+      "away": "Inverness",
+      "home_id": "sr:competitor:2349",
+      "away_id": "sr:competitor:2362",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159915,
+      "debut": "2019-05-17T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:3179",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145929,
+      "debut": "2019-05-17T19:00:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Gijon",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:2852",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18220115,
+      "debut": "2019-05-17T19:00:00+00:00",
+      "home": "Spezia",
+      "away": "Cittadella",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:2717",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159917,
+      "debut": "2019-05-17T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3173",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946361,
+      "debut": "2019-05-17T19:30:00+00:00",
+      "home": "Braga",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3026",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

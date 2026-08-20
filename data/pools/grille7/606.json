@@ -1,0 +1,127 @@
+{
+  "grille_id": 606,
+  "grille_type": "grille7",
+  "pool_id": 7000606,
+  "titre": "Grille 7 n°606",
+  "statut": "CLOSED",
+  "fin": "2017-07-15T18:30:00+00:00",
+  "collecte_le": "2026-08-20T13:31:00.203028+00:00",
+  "mises_nettes": 3228,
+  "montant_distribue": 3228,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 1614
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 19,
+      "winningsPerGrid": 84.95
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11802582,
+      "debut": "2017-07-15T18:30:00+00:00",
+      "home": "Gornik Zabrze",
+      "away": "Legia Varsovie",
+      "home_id": "sr:competitor:3110",
+      "away_id": "sr:competitor:3106",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799304,
+      "debut": "2017-07-15T18:45:00+00:00",
+      "home": "Sligo Rovers",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:3190",
+      "away_id": "sr:competitor:3180",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11951146,
+      "debut": "2017-07-15T19:00:00+00:00",
+      "home": "Rijeka",
+      "away": "Slaven Belupo",
+      "home_id": "sr:competitor:2039",
+      "away_id": "sr:competitor:2042",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439467,
+      "debut": "2017-07-15T22:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1967",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11927784,
+      "debut": "2017-07-15T22:30:00+00:00",
+      "home": "Once Caldas",
+      "away": "Boyaca Patriotas FC",
+      "home_id": "sr:competitor:6118",
+      "away_id": "sr:competitor:61504",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11927788,
+      "debut": "2017-07-16T00:35:00+00:00",
+      "home": "Envigado FC",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6114",
+      "away_id": "sr:competitor:6115",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11927796,
+      "debut": "2017-07-16T00:45:00+00:00",
+      "home": "America De Cali",
+      "away": "Tolima",
+      "home_id": "sr:competitor:6102",
+      "away_id": "sr:competitor:6111",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

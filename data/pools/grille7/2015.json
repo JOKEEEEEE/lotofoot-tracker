@@ -1,0 +1,136 @@
+{
+  "grille_id": 2015,
+  "grille_type": "grille7",
+  "pool_id": 7002015,
+  "titre": "Grille 7 n°2015",
+  "statut": "CLOSED",
+  "fin": "2021-04-23T18:30:00+00:00",
+  "collecte_le": "2026-08-20T09:53:13.278758+00:00",
+  "mises_nettes": 14212.5,
+  "montant_distribue": 14212.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 2368.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 75,
+      "winningsPerGrid": 94.75
+    }
+  ],
+  "repartition": [
+    606,
+    3282,
+    6492,
+    5505,
+    2405,
+    582,
+    75,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 23032385,
+      "debut": "2021-04-23T18:30:00+00:00",
+      "home": "Augsbourg",
+      "away": "Cologne",
+      "home_id": "sr:competitor:2600",
+      "away_id": "sr:competitor:2671",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 19,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 22974635,
+      "debut": "2021-04-23T18:30:00+00:00",
+      "home": "Podbeskidzie Bielsko Biala",
+      "away": "Lech Poznan",
+      "home_id": "sr:competitor:7919",
+      "away_id": "sr:competitor:3121",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 14,
+      "cote_2": 200
+    },
+    {
+      "match_id": 22650987,
+      "debut": "2021-04-23T19:00:00+00:00",
+      "home": "Reims",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 180,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23204439,
+      "debut": "2021-04-23T19:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Everton",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:48",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 18,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23362985,
+      "debut": "2021-04-23T19:00:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Gijon",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:2852",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 22,
+      "cote_N": 1.01,
+      "cote_2": 19
+    },
+    {
+      "match_id": 25852806,
+      "debut": "2021-04-23T18:45:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3173",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 25,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23345889,
+      "debut": "2021-04-23T19:15:00+00:00",
+      "home": "Estoril",
+      "away": "Casa Pia AC",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:36365",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 7.75,
+      "cote_N": 1.06,
+      "cote_2": 16
+    }
+  ]
+}

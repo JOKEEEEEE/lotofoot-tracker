@@ -1,0 +1,136 @@
+{
+  "grille_id": 3885,
+  "grille_type": "grille7",
+  "pool_id": 7003885,
+  "titre": "Grille 7 n°3885",
+  "statut": "CLOSED",
+  "fin": "2025-10-30T17:30:00+00:00",
+  "collecte_le": "2026-08-20T06:51:11.222539+00:00",
+  "mises_nettes": 5254.5,
+  "montant_distribue": 5254.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 11,
+      "winningsPerGrid": 238.84
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 142,
+      "winningsPerGrid": 18.5
+    }
+  ],
+  "repartition": [
+    398,
+    1592,
+    2401,
+    1782,
+    680,
+    142,
+    11,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 61060873,
+      "debut": "2025-10-30T17:30:00+00:00",
+      "home": "Cagliari",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2793",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 64055399,
+      "debut": "2025-10-30T17:30:00+00:00",
+      "home": "Al Ahli SC",
+      "away": "Al Riyadh",
+      "home_id": "sr:competitor:34469",
+      "away_id": "sr:competitor:168088",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61731842,
+      "debut": "2025-10-30T18:00:00+00:00",
+      "home": "Portimonense",
+      "away": "Torreense",
+      "home_id": "sr:competitor:3026",
+      "away_id": "sr:competitor:25787",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61731844,
+      "debut": "2025-10-30T18:00:00+00:00",
+      "home": "Benfica B",
+      "away": "Pacos de Ferreira",
+      "home_id": "sr:competitor:74465",
+      "away_id": "sr:competitor:3003",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61394595,
+      "debut": "2025-10-30T19:30:00+00:00",
+      "home": "FC Lugano",
+      "away": "Lucerne",
+      "home_id": "sr:competitor:2443",
+      "away_id": "sr:competitor:2453",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61394599,
+      "debut": "2025-10-30T19:30:00+00:00",
+      "home": "Grasshopper Zurich",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:2449",
+      "away_id": "sr:competitor:2445",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61060885,
+      "debut": "2025-10-30T19:45:00+00:00",
+      "home": "Pisa",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2737",
+      "away_id": "sr:competitor:2699",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2649,
+  "grille_type": "grille7",
+  "pool_id": 7002649,
+  "titre": "Grille 7 n°2649",
+  "statut": "CLOSED",
+  "fin": "2022-10-13T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:00:13.304798+00:00",
+  "mises_nettes": 9387,
+  "montant_distribue": 9387,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 938.7
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 122,
+      "winningsPerGrid": 38.47
+    }
+  ],
+  "repartition": [
+    70,
+    764,
+    2793,
+    4810,
+    3037,
+    915,
+    122,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 35649379,
+      "debut": "2022-10-13T19:00:00+00:00",
+      "home": "Trabzonspor",
+      "away": "Monaco",
+      "home_id": "sr:competitor:3051",
+      "away_id": "sr:competitor:1653",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35647659,
+      "debut": "2022-10-13T19:00:00+00:00",
+      "home": "Nice",
+      "away": "Slovacko",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:4871",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35647163,
+      "debut": "2022-10-13T19:00:00+00:00",
+      "home": "West Ham",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:2900",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35648759,
+      "debut": "2022-10-13T19:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Omonia Nicosie",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:3395",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35648761,
+      "debut": "2022-10-13T19:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Sheriff Tiraspol",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:5173",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35648839,
+      "debut": "2022-10-13T19:00:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Sturm Graz",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2051",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35649381,
+      "debut": "2022-10-13T19:00:00+00:00",
+      "home": "Ferencvaros",
+      "away": "Etoile Rouge de Belgrade",
+      "home_id": "sr:competitor:1925",
+      "away_id": "sr:competitor:5149",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

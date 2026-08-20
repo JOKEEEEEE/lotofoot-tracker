@@ -1,0 +1,127 @@
+{
+  "grille_id": 1771,
+  "grille_type": "grille7",
+  "pool_id": 7001771,
+  "titre": "Grille 7 n°1771",
+  "statut": "CLOSED",
+  "fin": "2020-10-10T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:15:57.723037+00:00",
+  "mises_nettes": 14389.5,
+  "montant_distribue": 14389.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 96,
+      "winningsPerGrid": 74.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 908,
+      "winningsPerGrid": 7.92
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21595987,
+      "debut": "2020-10-10T18:45:00+00:00",
+      "home": "Espagne",
+      "away": "Suisse",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4699",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 40,
+      "cote_2": 250
+    },
+    {
+      "match_id": 21596065,
+      "debut": "2020-10-10T18:45:00+00:00",
+      "home": "Ukraine",
+      "away": "Allemagne",
+      "home_id": "sr:competitor:4701",
+      "away_id": "sr:competitor:4711",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 27,
+      "cote_2": 1
+    },
+    {
+      "match_id": 21596511,
+      "debut": "2020-10-10T18:45:00+00:00",
+      "home": "Andorre",
+      "away": "Malte",
+      "home_id": "sr:competitor:4818",
+      "away_id": "sr:competitor:4483",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 32,
+      "cote_N": 1.01,
+      "cote_2": 21
+    },
+    {
+      "match_id": 23511411,
+      "debut": "2020-10-10T19:00:00+00:00",
+      "home": "La Equidad",
+      "away": "Once Caldas",
+      "home_id": "sr:competitor:6975",
+      "away_id": "sr:competitor:6118",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23742935,
+      "debut": "2020-10-10T19:00:00+00:00",
+      "home": "Everton",
+      "away": "Santiago Wanderers",
+      "home_id": "sr:competitor:5032",
+      "away_id": "sr:competitor:3150",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 24,
+      "cote_N": 1.01,
+      "cote_2": 24
+    },
+    {
+      "match_id": 22727561,
+      "debut": "2020-10-10T20:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 36,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23728219,
+      "debut": "2020-10-10T21:00:00+00:00",
+      "home": "Inter Miami CF",
+      "away": "Houston Dynamo",
+      "home_id": "sr:competitor:659691",
+      "away_id": "sr:competitor:2508",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 14,
+      "cote_2": 200
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2688,
+  "grille_type": "grille7",
+  "pool_id": 7002688,
+  "titre": "Grille 7 n°2688",
+  "statut": "CLOSED",
+  "fin": "2022-11-11T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:57:19.966028+00:00",
+  "mises_nettes": 11684.25,
+  "montant_distribue": 11684.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1460.53
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 116,
+      "winningsPerGrid": 50.36
+    }
+  ],
+  "repartition": [
+    492,
+    2262,
+    4439,
+    4668,
+    2757,
+    841,
+    116,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 34169209,
+      "debut": "2022-11-11T19:30:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2673",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34744435,
+      "debut": "2022-11-11T19:30:00+00:00",
+      "home": "Ascoli",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:2707",
+      "away_id": "sr:competitor:2801",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271257,
+      "debut": "2022-11-11T19:45:00+00:00",
+      "home": "O-H Louvain",
+      "away": "RFC Seraing United",
+      "home_id": "sr:competitor:2918",
+      "away_id": "sr:competitor:34985",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286797,
+      "debut": "2022-11-11T19:45:00+00:00",
+      "home": "Empoli",
+      "away": "Cremonese",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2761",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172281,
+      "debut": "2022-11-11T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Nice",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265623,
+      "debut": "2022-11-11T20:00:00+00:00",
+      "home": "Birmingham",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:41",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34505921,
+      "debut": "2022-11-11T20:15:00+00:00",
+      "home": "Torreense",
+      "away": "Vilafranquense",
+      "home_id": "sr:competitor:25787",
+      "away_id": "sr:competitor:36470",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

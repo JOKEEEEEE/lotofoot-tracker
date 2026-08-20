@@ -1,0 +1,136 @@
+{
+  "grille_id": 2978,
+  "grille_type": "grille7",
+  "pool_id": 7002978,
+  "titre": "Grille 7 n°2978",
+  "statut": "CLOSED",
+  "fin": "2023-07-23T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:32:46.293013+00:00",
+  "mises_nettes": 4326,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100111010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 625
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 65,
+      "winningsPerGrid": 38.46
+    }
+  ],
+  "repartition": [
+    0,
+    408,
+    1364,
+    2006,
+    1454,
+    467,
+    65,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 39439259,
+      "debut": "2023-07-23T19:00:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Goias",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1960",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439257,
+      "debut": "2023-07-23T19:00:00+00:00",
+      "home": "Bragantino SP",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439255,
+      "debut": "2023-07-23T19:00:00+00:00",
+      "home": "Santos",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1958",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38306877,
+      "debut": "2023-07-23T19:00:00+00:00",
+      "home": "Nublense",
+      "away": "Colo Colo",
+      "home_id": "sr:competitor:7029",
+      "away_id": "sr:competitor:3155",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546381,
+      "debut": "2023-07-23T19:30:00+00:00",
+      "home": "Atletico Tucuman",
+      "away": "Independiente",
+      "home_id": "sr:competitor:36833",
+      "away_id": "sr:competitor:3209",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439251,
+      "debut": "2023-07-23T21:30:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:1967",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546371,
+      "debut": "2023-07-23T21:45:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "Sarmiento",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:42338",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 4082,
+  "grille_type": "grille7",
+  "pool_id": 7004082,
+  "titre": "Grille 7 n°4082",
+  "statut": "CLOSED",
+  "fin": "2026-05-21T18:00:00+00:00",
+  "collecte_le": "2026-08-20T06:05:11.791035+00:00",
+  "mises_nettes": 4278,
+  "montant_distribue": 4278,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 152.79
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 205,
+      "winningsPerGrid": 10.43
+    }
+  ],
+  "repartition": [
+    34,
+    160,
+    799,
+    1713,
+    1836,
+    943,
+    205,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 64055897,
+      "debut": "2026-05-21T18:00:00+00:00",
+      "home": "Al-Nassr",
+      "away": "Damac",
+      "home_id": "sr:competitor:23400",
+      "away_id": "sr:competitor:220298",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.15,
+      "cote_N": 6.5,
+      "cote_2": 11.5
+    },
+    {
+      "match_id": 64055885,
+      "debut": "2026-05-21T18:00:00+00:00",
+      "home": "Al Feiha",
+      "away": "Al-Hilal",
+      "home_id": "sr:competitor:168094",
+      "away_id": "sr:competitor:21895",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 9.5,
+      "cote_N": 5.7,
+      "cote_2": 1.19
+    },
+    {
+      "match_id": 64055889,
+      "debut": "2026-05-21T18:00:00+00:00",
+      "home": "Al-Ittihad FC",
+      "away": "Al-Qadsiah",
+      "home_id": "sr:competitor:34315",
+      "away_id": "sr:competitor:56027",
+      "score_home": 1,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 2.7,
+      "cote_N": 3.55,
+      "cote_2": 1.96
+    },
+    {
+      "match_id": 71443804,
+      "debut": "2026-05-21T18:30:00+00:00",
+      "home": "Wolfsbourg",
+      "away": "Paderborn",
+      "home_id": "sr:competitor:2524",
+      "away_id": "sr:competitor:2561",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.56,
+      "cote_N": 3.65,
+      "cote_2": 4.5
+    },
+    {
+      "match_id": 70207438,
+      "debut": "2026-05-21T18:30:00+00:00",
+      "home": "Anderlecht",
+      "away": "Saint-Trond",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2895",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.88,
+      "cote_N": 3.5,
+      "cote_2": 3.1
+    },
+    {
+      "match_id": 71558148,
+      "debut": "2026-05-21T19:00:00+00:00",
+      "home": "Utrecht",
+      "away": "Heerenveen",
+      "home_id": "sr:competitor:2948",
+      "away_id": "sr:competitor:2964",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.84,
+      "cote_N": 3.5,
+      "cote_2": 3.25
+    },
+    {
+      "match_id": 71538008,
+      "debut": "2026-05-21T19:00:00+00:00",
+      "home": "Partick Thistle",
+      "away": "St. Mirren",
+      "home_id": "sr:competitor:2358",
+      "away_id": "sr:competitor:2359",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.4,
+      "cote_N": 3.05,
+      "cote_2": 2.5
+    }
+  ]
+}

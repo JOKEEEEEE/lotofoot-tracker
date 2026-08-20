@@ -1,0 +1,127 @@
+{
+  "grille_id": 536,
+  "grille_type": "grille7",
+  "pool_id": 7000536,
+  "titre": "Grille 7 n°536",
+  "statut": "CLOSED",
+  "fin": "2017-05-01T17:00:00+00:00",
+  "collecte_le": "2026-08-20T12:06:26.944654+00:00",
+  "mises_nettes": 10281,
+  "montant_distribue": 10281,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 33,
+      "winningsPerGrid": 155.77
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 460,
+      "winningsPerGrid": 11.18
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9791967,
+      "debut": "2017-05-01T17:00:00+00:00",
+      "home": "Bursaspor",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:3055",
+      "away_id": "sr:competitor:3061",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9791959,
+      "debut": "2017-05-01T17:00:00+00:00",
+      "home": "Osmanlispor",
+      "away": "Konyaspor",
+      "home_id": "sr:competitor:3057",
+      "away_id": "sr:competitor:3085",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10828878,
+      "debut": "2017-05-01T17:00:00+00:00",
+      "home": "Sarpsborg 08",
+      "away": "Rosenborg",
+      "home_id": "sr:competitor:822",
+      "away_id": "sr:competitor:1161",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9913937,
+      "debut": "2017-05-01T18:30:00+00:00",
+      "home": "Salernitana",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2801",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566207,
+      "debut": "2017-05-01T18:45:00+00:00",
+      "home": "Lens",
+      "away": "Laval",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1673",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600439,
+      "debut": "2017-05-01T19:00:00+00:00",
+      "home": "Watford",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769865,
+      "debut": "2017-05-01T19:00:00+00:00",
+      "home": "Malaga",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2833",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2090,
+  "grille_type": "grille7",
+  "pool_id": 7002090,
+  "titre": "Grille 7 n°2090",
+  "statut": "CLOSED",
+  "fin": "2021-06-30T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:48:02.932714+00:00",
+  "mises_nettes": 7284,
+  "montant_distribue": 7284,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1214
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 50,
+      "winningsPerGrid": 72.84
+    }
+  ],
+  "repartition": [
+    324,
+    1938,
+    3175,
+    2595,
+    1274,
+    353,
+    50,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 27471562,
+      "debut": "2021-06-30T19:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:1967",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27471556,
+      "debut": "2021-06-30T19:00:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:21845",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 44,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27471558,
+      "debut": "2021-06-30T22:00:00+00:00",
+      "home": "Bahia ",
+      "away": "America Mineiro MG",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1973",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 160,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27471560,
+      "debut": "2021-06-30T22:00:00+00:00",
+      "home": "Internacional ",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1963",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 30,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27471564,
+      "debut": "2021-06-30T23:30:00+00:00",
+      "home": "Santos",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1959",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 48,
+      "cote_N": 1,
+      "cote_2": 65
+    },
+    {
+      "match_id": 27471566,
+      "debut": "2021-07-01T00:30:00+00:00",
+      "home": "Corinthians",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1981",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 44,
+      "cote_N": 1,
+      "cote_2": 38
+    },
+    {
+      "match_id": 27471568,
+      "debut": "2021-07-01T00:30:00+00:00",
+      "home": "Juventude RS",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1980",
+      "away_id": "sr:competitor:5926",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

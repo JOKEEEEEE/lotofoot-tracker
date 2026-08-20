@@ -1,0 +1,127 @@
+{
+  "grille_id": 304,
+  "grille_type": "grille7",
+  "pool_id": 7000304,
+  "titre": "Grille 7 n°304",
+  "statut": "CLOSED",
+  "fin": "2016-08-23T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:29:19.967650+00:00",
+  "mises_nettes": 10020,
+  "montant_distribue": 10020,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 17,
+      "winningsPerGrid": 294.71
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 177,
+      "winningsPerGrid": 28.31
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9909707,
+      "debut": "2016-08-23T18:45:00+00:00",
+      "home": "Monaco",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:2819",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909701,
+      "debut": "2016-08-23T18:45:00+00:00",
+      "home": "AS Rome",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:3002",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909695,
+      "debut": "2016-08-23T18:45:00+00:00",
+      "home": "Legia Varsovie",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3106",
+      "away_id": "sr:competitor:3179",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909691,
+      "debut": "2016-08-23T18:45:00+00:00",
+      "home": "Hapoel Beer Sheva",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:5202",
+      "away_id": "sr:competitor:2352",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909689,
+      "debut": "2016-08-23T18:45:00+00:00",
+      "home": "Viktoria Plzen",
+      "away": "Ludogorets",
+      "home_id": "sr:competitor:4502",
+      "away_id": "sr:competitor:43840",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9968753,
+      "debut": "2016-08-23T18:45:00+00:00",
+      "home": "Scunthorpe United",
+      "away": "Bristol City",
+      "home_id": "sr:competitor:85",
+      "away_id": "sr:competitor:58",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9943087,
+      "debut": "2016-08-23T18:45:00+00:00",
+      "home": "Northampton Town",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:57",
+      "away_id": "sr:competitor:8",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

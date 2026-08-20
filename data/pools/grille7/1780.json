@@ -1,0 +1,127 @@
+{
+  "grille_id": 1780,
+  "grille_type": "grille7",
+  "pool_id": 7001780,
+  "titre": "Grille 7 n°1780",
+  "statut": "CLOSED",
+  "fin": "2020-10-18T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:15:00.297418+00:00",
+  "mises_nettes": 10706.25,
+  "montant_distribue": 10706.25,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 100,
+      "winningsPerGrid": 53.53
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 930,
+      "winningsPerGrid": 5.76
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23390633,
+      "debut": "2020-10-18T18:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Benevento",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2759",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22650455,
+      "debut": "2020-10-18T19:00:00+00:00",
+      "home": "Lille",
+      "away": "Lens",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1648",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360423,
+      "debut": "2020-10-18T19:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2824",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23320117,
+      "debut": "2020-10-18T19:00:00+00:00",
+      "home": "Rio Ave",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:3006",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 21571239,
+      "debut": "2020-10-18T19:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23362329,
+      "debut": "2020-10-18T19:00:00+00:00",
+      "home": "Gijon",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:2822",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 27,
+      "cote_N": 1.01,
+      "cote_2": 28
+    },
+    {
+      "match_id": 21571241,
+      "debut": "2020-10-18T21:15:00+00:00",
+      "home": "Internacional ",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1974",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

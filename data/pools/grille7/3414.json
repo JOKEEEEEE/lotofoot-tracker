@@ -1,0 +1,136 @@
+{
+  "grille_id": 3414,
+  "grille_type": "grille7",
+  "pool_id": 7003414,
+  "titre": "Grille 7 n°3414",
+  "statut": "CLOSED",
+  "fin": "2024-08-01T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:53:08.075017+00:00",
+  "mises_nettes": 4785.75,
+  "montant_distribue": 4785.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 125.94
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 199,
+      "winningsPerGrid": 12.02
+    }
+  ],
+  "repartition": [
+    34,
+    277,
+    1192,
+    2070,
+    1788,
+    802,
+    199,
+    19
+  ],
+  "matches": [
+    {
+      "match_id": 51636373,
+      "debut": "2024-08-01T18:30:00+00:00",
+      "home": "Rapid Vienne",
+      "away": "Wisla Cracovie",
+      "home_id": "sr:competitor:2055",
+      "away_id": "sr:competitor:3111",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51638707,
+      "debut": "2024-08-01T18:30:00+00:00",
+      "home": "DAC Dunajská Streda",
+      "away": "Zira FK",
+      "home_id": "sr:competitor:23833",
+      "away_id": "sr:competitor:173406",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51638697,
+      "debut": "2024-08-01T18:45:00+00:00",
+      "home": "St. Mirren",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:2359",
+      "away_id": "sr:competitor:1899",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51638749,
+      "debut": "2024-08-01T18:45:00+00:00",
+      "home": "Shelbourne",
+      "away": "FC Zurich",
+      "home_id": "sr:competitor:3174",
+      "away_id": "sr:competitor:2450",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51638703,
+      "debut": "2024-08-01T19:00:00+00:00",
+      "home": "Buducnost Podgorica",
+      "away": "FC CSKA 1948",
+      "home_id": "sr:competitor:5143",
+      "away_id": "sr:competitor:288687",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50898139,
+      "debut": "2024-08-01T19:00:00+00:00",
+      "home": "HB Torshavn",
+      "away": "Hajduk Split",
+      "home_id": "sr:competitor:5187",
+      "away_id": "sr:competitor:2036",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51638729,
+      "debut": "2024-08-01T19:15:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Floriana",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:33584",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

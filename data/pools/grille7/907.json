@@ -1,0 +1,127 @@
+{
+  "grille_id": 907,
+  "grille_type": "grille7",
+  "pool_id": 7000907,
+  "titre": "Grille 7 n°907",
+  "statut": "CLOSED",
+  "fin": "2018-05-23T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:36:14.648918+00:00",
+  "mises_nettes": 6048,
+  "montant_distribue": 7000,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 233.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 168,
+      "winningsPerGrid": 20.83
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13414699,
+      "debut": "2018-05-23T17:00:00+00:00",
+      "home": "Norrköping",
+      "away": "GIF Sundsvall",
+      "home_id": "sr:competitor:1769",
+      "away_id": "sr:competitor:1763",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13414701,
+      "debut": "2018-05-23T17:00:00+00:00",
+      "home": "Häcken",
+      "away": "AIK Stockholm",
+      "home_id": "sr:competitor:1760",
+      "away_id": "sr:competitor:1764",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13414703,
+      "debut": "2018-05-23T17:00:00+00:00",
+      "home": "Östersunds FK",
+      "away": "IK Sirius",
+      "home_id": "sr:competitor:1836",
+      "away_id": "sr:competitor:1793",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14567236,
+      "debut": "2018-05-23T18:30:00+00:00",
+      "home": "Zulte Waregem",
+      "away": "Lokeren",
+      "home_id": "sr:competitor:2933",
+      "away_id": "sr:competitor:2887",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14579188,
+      "debut": "2018-05-23T18:45:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1681",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13649001,
+      "debut": "2018-05-24T00:45:00+00:00",
+      "home": "River Plate",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:5981",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13854605,
+      "debut": "2018-05-24T00:45:00+00:00",
+      "home": "Club Sport Emelec",
+      "away": "Santa Fe",
+      "home_id": "sr:competitor:5255",
+      "away_id": "sr:competitor:6116",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

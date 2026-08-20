@@ -1,0 +1,136 @@
+{
+  "grille_id": 3924,
+  "grille_type": "grille7",
+  "pool_id": 7003924,
+  "titre": "Grille 7 n°3924",
+  "statut": "CLOSED",
+  "fin": "2025-12-11T17:45:00+00:00",
+  "collecte_le": "2026-08-20T06:42:07.509894+00:00",
+  "mises_nettes": 10104.75,
+  "montant_distribue": 10104.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 41,
+      "winningsPerGrid": 123.23
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 639,
+      "winningsPerGrid": 7.91
+    }
+  ],
+  "repartition": [
+    69,
+    544,
+    1969,
+    3691,
+    4009,
+    2511,
+    639,
+    41
+  ],
+  "matches": [
+    {
+      "match_id": 63377947,
+      "debut": "2025-12-11T17:45:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Lille",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:1643",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 4.2,
+      "cote_N": 3.65,
+      "cote_2": 1.49
+    },
+    {
+      "match_id": 63377939,
+      "debut": "2025-12-11T17:45:00+00:00",
+      "home": "Nice",
+      "away": "Braga",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.75,
+      "cote_N": 3.2,
+      "cote_2": 2.05
+    },
+    {
+      "match_id": 63377963,
+      "debut": "2025-12-11T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "GO Ahead Eagles",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:2979",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.15,
+      "cote_N": 5.8,
+      "cote_2": 9.5
+    },
+    {
+      "match_id": 63377599,
+      "debut": "2025-12-11T20:00:00+00:00",
+      "home": "Aberdeen",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:1659",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 4.3,
+      "cote_N": 3.65,
+      "cote_2": 1.54
+    },
+    {
+      "match_id": 63377955,
+      "debut": "2025-12-11T20:00:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:2702",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.6,
+      "cote_N": 3.05,
+      "cote_2": 2.05
+    },
+    {
+      "match_id": 63377953,
+      "debut": "2025-12-11T20:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2685",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.1,
+      "cote_N": 3.15,
+      "cote_2": 2.7
+    },
+    {
+      "match_id": 63377949,
+      "debut": "2025-12-11T20:00:00+00:00",
+      "home": "FC Bâle",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:40",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3.85,
+      "cote_N": 3.6,
+      "cote_2": 1.6
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 701,
+  "grille_type": "grille7",
+  "pool_id": 7000701,
+  "titre": "Grille 7 n°701",
+  "statut": "CLOSED",
+  "fin": "2017-10-24T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:52:30.212214+00:00",
+  "mises_nettes": 11943.75,
+  "montant_distribue": 11943.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 229,
+      "winningsPerGrid": 26.08
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1617,
+      "winningsPerGrid": 3.69
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12090074,
+      "debut": "2017-10-24T18:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2711",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12568334,
+      "debut": "2017-10-24T18:45:00+00:00",
+      "home": "Leicester",
+      "away": "Leeds",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:34",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12568342,
+      "debut": "2017-10-24T18:45:00+00:00",
+      "home": "Swansea",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:35",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12568344,
+      "debut": "2017-10-24T18:45:00+00:00",
+      "home": "Bristol City",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:7",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12568332,
+      "debut": "2017-10-24T18:45:00+00:00",
+      "home": "Bournemouth",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:36",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12578254,
+      "debut": "2017-10-24T19:05:00+00:00",
+      "home": "Guingamp",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1642",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12642636,
+      "debut": "2017-10-24T19:30:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:2816",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

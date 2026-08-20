@@ -1,0 +1,136 @@
+{
+  "grille_id": 3338,
+  "grille_type": "grille7",
+  "pool_id": 7003338,
+  "titre": "Grille 7 n°3338",
+  "statut": "CLOSED",
+  "fin": "2024-05-18T13:30:00+00:00",
+  "collecte_le": "2026-08-20T07:58:49.424246+00:00",
+  "mises_nettes": 7146,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 29,
+      "winningsPerGrid": 129.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 367,
+      "winningsPerGrid": 10.22
+    }
+  ],
+  "repartition": [
+    41,
+    297,
+    1414,
+    2975,
+    2920,
+    1485,
+    367,
+    29
+  ],
+  "matches": [
+    {
+      "match_id": 42023681,
+      "debut": "2024-05-18T13:30:00+00:00",
+      "home": "TSG Hoffenheim",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2569",
+      "away_id": "sr:competitor:2672",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42023671,
+      "debut": "2024-05-18T13:30:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Darmstadt",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2576",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42023675,
+      "debut": "2024-05-18T13:30:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Augsbourg",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2600",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42023673,
+      "debut": "2024-05-18T13:30:00+00:00",
+      "home": "Union Berlin",
+      "away": "Fribourg",
+      "home_id": "sr:competitor:2547",
+      "away_id": "sr:competitor:2538",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42023683,
+      "debut": "2024-05-18T13:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Bochum",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2542",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42023679,
+      "debut": "2024-05-18T13:30:00+00:00",
+      "home": "Wolfsbourg",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2524",
+      "away_id": "sr:competitor:2556",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42023677,
+      "debut": "2024-05-18T13:30:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:36360",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

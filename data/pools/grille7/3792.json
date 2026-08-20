@@ -1,0 +1,136 @@
+{
+  "grille_id": 3792,
+  "grille_type": "grille7",
+  "pool_id": 7003792,
+  "titre": "Grille 7 n°3792",
+  "statut": "CLOSED",
+  "fin": "2025-07-26T17:30:00+00:00",
+  "collecte_le": "2026-08-20T07:31:52.881977+00:00",
+  "mises_nettes": 2643,
+  "montant_distribue": 2643,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 12,
+      "winningsPerGrid": 110.13
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 107,
+      "winningsPerGrid": 12.35
+    }
+  ],
+  "repartition": [
+    182,
+    724,
+    1154,
+    923,
+    422,
+    107,
+    12,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 61098481,
+      "debut": "2025-07-26T17:30:00+00:00",
+      "home": "Aldosivi",
+      "away": "Newell's Old Boys",
+      "home_id": "sr:competitor:36836",
+      "away_id": "sr:competitor:3212",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61381941,
+      "debut": "2025-07-26T18:30:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Servette FC",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:2448",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61358219,
+      "debut": "2025-07-26T18:45:00+00:00",
+      "home": "RAAL La Louvière",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:752197",
+      "away_id": "sr:competitor:2901",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098495,
+      "debut": "2025-07-26T20:01:00+00:00",
+      "home": "Rosario Central",
+      "away": "San Martín",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:7772",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052721,
+      "debut": "2025-07-26T21:30:00+00:00",
+      "home": "Botafogo",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1957",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052737,
+      "debut": "2025-07-26T21:30:00+00:00",
+      "home": "Sport Recife ",
+      "away": "Santos",
+      "home_id": "sr:competitor:1959",
+      "away_id": "sr:competitor:1968",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052735,
+      "debut": "2025-07-26T21:30:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1999",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

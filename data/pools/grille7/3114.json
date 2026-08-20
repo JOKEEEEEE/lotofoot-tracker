@@ -1,0 +1,136 @@
+{
+  "grille_id": 3114,
+  "grille_type": "grille7",
+  "pool_id": 7003114,
+  "titre": "Grille 7 n°3114",
+  "statut": "CLOSED",
+  "fin": "2023-11-13T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:14:06.621811+00:00",
+  "mises_nettes": 5181.75,
+  "montant_distribue": 5181.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001010010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2590.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 34,
+      "winningsPerGrid": 76.2
+    }
+  ],
+  "repartition": [
+    340,
+    1505,
+    2283,
+    1760,
+    777,
+    209,
+    34,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 44559336,
+      "debut": "2023-11-13T18:00:00+00:00",
+      "home": "Ruch Chorzow",
+      "away": "Radomiak Radom",
+      "home_id": "sr:competitor:3105",
+      "away_id": "sr:competitor:7295",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41978427,
+      "debut": "2023-11-13T18:30:00+00:00",
+      "home": "UTA Arad",
+      "away": "SC Otelul Galati",
+      "home_id": "sr:competitor:221210",
+      "away_id": "sr:competitor:3291",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44451002,
+      "debut": "2023-11-13T19:45:00+00:00",
+      "home": "Coleraine",
+      "away": "Glentoran",
+      "home_id": "sr:competitor:5270",
+      "away_id": "sr:competitor:5179",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984141,
+      "debut": "2023-11-13T20:00:00+00:00",
+      "home": "Real Oviedo",
+      "away": "FC Cartagena",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:24329",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45235744,
+      "debut": "2023-11-13T21:00:00+00:00",
+      "home": "Resistencia FC",
+      "away": "Guarani Asuncion",
+      "home_id": "sr:competitor:90968",
+      "away_id": "sr:competitor:5994",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42788407,
+      "debut": "2023-11-13T22:00:00+00:00",
+      "home": "Sarmiento",
+      "away": "Godoy Cruz",
+      "home_id": "sr:competitor:42338",
+      "away_id": "sr:competitor:6074",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42787907,
+      "debut": "2023-11-14T00:00:00+00:00",
+      "home": "Instituto AC Cordoba",
+      "away": "Club Atletico Barracas Central",
+      "home_id": "sr:competitor:4937",
+      "away_id": "sr:competitor:65668",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

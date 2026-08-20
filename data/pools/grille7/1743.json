@@ -1,0 +1,127 @@
+{
+  "grille_id": 1743,
+  "grille_type": "grille7",
+  "pool_id": 7001743,
+  "titre": "Grille 7 n°1743",
+  "statut": "CLOSED",
+  "fin": "2020-09-17T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:17:57.454421+00:00",
+  "mises_nettes": 13401,
+  "montant_distribue": 13401,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 478.61
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 203,
+      "winningsPerGrid": 33.01
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23359009,
+      "debut": "2020-09-17T18:45:00+00:00",
+      "home": "Servette FC",
+      "away": "Reims",
+      "home_id": "sr:competitor:2448",
+      "away_id": "sr:competitor:1682",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23431633,
+      "debut": "2020-09-17T18:45:00+00:00",
+      "home": "Brighton",
+      "away": "Portsmouth",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:2",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23359359,
+      "debut": "2020-09-17T18:45:00+00:00",
+      "home": "Osijek",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:2040",
+      "away_id": "sr:competitor:2501",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23359033,
+      "debut": "2020-09-17T18:45:00+00:00",
+      "home": "Dunajska Streda",
+      "away": "Jablonec",
+      "home_id": "sr:competitor:23833",
+      "away_id": "sr:competitor:2205",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23179879,
+      "debut": "2020-09-17T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23358995,
+      "debut": "2020-09-17T19:00:00+00:00",
+      "home": "FK Tsc Backa Topola",
+      "away": "FC Steaua Bucarest",
+      "home_id": "sr:competitor:368638",
+      "away_id": "sr:competitor:3301",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23359073,
+      "debut": "2020-09-17T19:05:00+00:00",
+      "home": "Budapest Honved",
+      "away": "Malmö",
+      "home_id": "sr:competitor:1916",
+      "away_id": "sr:competitor:1892",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 288,
+  "grille_type": "grille7",
+  "pool_id": 7000288,
+  "titre": "Grille 7 n°288",
+  "statut": "CLOSED",
+  "fin": "2016-08-06T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:32:23.140216+00:00",
+  "mises_nettes": 6396.75,
+  "montant_distribue": 6396.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 110,
+      "winningsPerGrid": 29.08
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 582,
+      "winningsPerGrid": 5.5
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9712751,
+      "debut": "2016-08-06T18:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1649",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9639807,
+      "debut": "2016-08-06T18:45:00+00:00",
+      "home": "Willem II",
+      "away": "Vitesse Arnhem",
+      "home_id": "sr:competitor:2961",
+      "away_id": "sr:competitor:2958",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302271,
+      "debut": "2016-08-06T20:00:00+00:00",
+      "home": "États-Unis (F)",
+      "away": "France (F)",
+      "home_id": "sr:competitor:7424",
+      "away_id": "sr:competitor:32485",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211923,
+      "debut": "2016-08-06T21:30:00+00:00",
+      "home": "Flamengo",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1967",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302247,
+      "debut": "2016-08-06T22:00:00+00:00",
+      "home": "Afrique du Sud (F)",
+      "away": "Chine (F)",
+      "home_id": "sr:competitor:65336",
+      "away_id": "sr:competitor:7413",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302273,
+      "debut": "2016-08-06T23:00:00+00:00",
+      "home": "Colombie (F)",
+      "away": "Nouvelle-Zélande (F)",
+      "home_id": "sr:competitor:46631",
+      "away_id": "sr:competitor:7419",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302249,
+      "debut": "2016-08-07T01:00:00+00:00",
+      "home": "Brésil (F)",
+      "away": "Suède (F)",
+      "home_id": "sr:competitor:7411",
+      "away_id": "sr:competitor:7423",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

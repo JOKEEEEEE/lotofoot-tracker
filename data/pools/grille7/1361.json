@@ -1,0 +1,127 @@
+{
+  "grille_id": 1361,
+  "grille_type": "grille7",
+  "pool_id": 7001361,
+  "titre": "Grille 7 n°1361",
+  "statut": "CLOSED",
+  "fin": "2019-08-31T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:55:34.806738+00:00",
+  "mises_nettes": 11316.75,
+  "montant_distribue": 11316.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 32,
+      "winningsPerGrid": 176.82
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 498,
+      "winningsPerGrid": 11.36
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18439970,
+      "debut": "2019-08-31T18:00:00+00:00",
+      "home": "Angers",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1686",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18439972,
+      "debut": "2019-08-31T18:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1676",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18439978,
+      "debut": "2019-08-31T18:00:00+00:00",
+      "home": "Nantes",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1642",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18439984,
+      "debut": "2019-08-31T18:00:00+00:00",
+      "home": "Nîmes",
+      "away": "Brest",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:1715",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18926812,
+      "debut": "2019-08-31T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Naples",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2714",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18807668,
+      "debut": "2019-08-31T18:45:00+00:00",
+      "home": "Besiktas",
+      "away": "Rizespor",
+      "home_id": "sr:competitor:3050",
+      "away_id": "sr:competitor:3064",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640682,
+      "debut": "2019-08-31T19:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2845",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

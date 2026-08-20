@@ -1,0 +1,127 @@
+{
+  "grille_id": 2421,
+  "grille_type": "grille7",
+  "pool_id": 7002421,
+  "titre": "Grille 7 n°2421",
+  "statut": "CLOSED",
+  "fin": "2022-04-01T18:30:00+00:00",
+  "collecte_le": "2026-08-20T09:18:22.537823+00:00",
+  "mises_nettes": 9975.75,
+  "montant_distribue": 9975.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 554.21
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 223,
+      "winningsPerGrid": 22.37
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 27883580,
+      "debut": "2022-04-01T18:30:00+00:00",
+      "home": "Union Berlin",
+      "away": "Cologne",
+      "home_id": "sr:competitor:2547",
+      "away_id": "sr:competitor:2671",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27649752,
+      "debut": "2022-04-01T18:45:00+00:00",
+      "home": "K. Beerschot V.A.",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:169260",
+      "away_id": "sr:competitor:2888",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27867902,
+      "debut": "2022-04-01T18:45:00+00:00",
+      "home": "Hull City",
+      "away": "Huddersfield",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:59",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31184615,
+      "debut": "2022-04-01T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3170",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31184623,
+      "debut": "2022-04-01T18:45:00+00:00",
+      "home": "Sligo Rovers",
+      "away": "Shelbourne Dublin",
+      "home_id": "sr:competitor:3190",
+      "away_id": "sr:competitor:3174",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27973786,
+      "debut": "2022-04-01T19:00:00+00:00",
+      "home": "Gérone",
+      "away": "Malaga",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2830",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077520,
+      "debut": "2022-04-01T19:15:00+00:00",
+      "home": "Braga",
+      "away": "Benfica",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3006",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

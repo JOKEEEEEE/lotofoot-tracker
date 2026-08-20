@@ -1,0 +1,127 @@
+{
+  "grille_id": 610,
+  "grille_type": "grille7",
+  "pool_id": 7000610,
+  "titre": "Grille 7 n°610",
+  "statut": "CLOSED",
+  "fin": "2017-07-19T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:58:59.086648+00:00",
+  "mises_nettes": 3466.5,
+  "montant_distribue": 3466.5,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 82,
+      "winningsPerGrid": 21.14
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 420,
+      "winningsPerGrid": 4.13
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10555480,
+      "debut": "2017-07-19T18:45:00+00:00",
+      "home": "Angleterre (F)",
+      "away": "Écosse (F)",
+      "home_id": "sr:competitor:7415",
+      "away_id": "sr:competitor:37372",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854834,
+      "debut": "2017-07-19T19:15:00+00:00",
+      "home": "Budapest Honved",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:1916",
+      "away_id": "sr:competitor:5202",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11927802,
+      "debut": "2017-07-19T21:00:00+00:00",
+      "home": "La Equidad",
+      "away": "Jaguares De Cordoba",
+      "home_id": "sr:competitor:6975",
+      "away_id": "sr:competitor:89370",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439495,
+      "debut": "2017-07-19T22:30:00+00:00",
+      "home": "Vitoria",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1962",
+      "away_id": "sr:competitor:5926",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893774,
+      "debut": "2017-07-19T23:30:00+00:00",
+      "home": "Montréal",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:39833",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439497,
+      "debut": "2017-07-20T00:00:00+00:00",
+      "home": "Ponte Preta",
+      "away": "Coritiba",
+      "home_id": "sr:competitor:1969",
+      "away_id": "sr:competitor:1982",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893782,
+      "debut": "2017-07-20T00:00:00+00:00",
+      "home": "Minnesota United FC",
+      "away": "Houston Dynamo",
+      "home_id": "sr:competitor:41618",
+      "away_id": "sr:competitor:2508",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

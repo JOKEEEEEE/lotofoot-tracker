@@ -1,0 +1,127 @@
+{
+  "grille_id": 1925,
+  "grille_type": "grille7",
+  "pool_id": 7001925,
+  "titre": "Grille 7 n°1925",
+  "statut": "CLOSED",
+  "fin": "2021-02-10T19:30:00+00:00",
+  "collecte_le": "2026-08-20T13:19:09.627058+00:00",
+  "mises_nettes": 20461.5,
+  "montant_distribue": 20461.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 263,
+      "winningsPerGrid": 38.9
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 2162,
+      "winningsPerGrid": 4.73
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 25495040,
+      "debut": "2021-02-10T19:30:00+00:00",
+      "home": "Leicester",
+      "away": "Brighton",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:30",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 20,
+      "cote_N": 1.01,
+      "cote_2": 26
+    },
+    {
+      "match_id": 25481826,
+      "debut": "2021-02-10T19:30:00+00:00",
+      "home": "Sheffield United",
+      "away": "Bristol City",
+      "home_id": "sr:competitor:15",
+      "away_id": "sr:competitor:58",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 36,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25589584,
+      "debut": "2021-02-10T19:45:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Naples",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2714",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25719036,
+      "debut": "2021-02-10T19:45:00+00:00",
+      "home": "Club Bruges",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:2889",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 170,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25474690,
+      "debut": "2021-02-10T20:05:00+00:00",
+      "home": "Caen",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 34,
+      "cote_2": 1
+    },
+    {
+      "match_id": 25739200,
+      "debut": "2021-02-10T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2817",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 200,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25527190,
+      "debut": "2021-02-10T20:15:00+00:00",
+      "home": "Everton",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:33",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 26,
+      "cote_N": 1.01,
+      "cote_2": 17
+    }
+  ]
+}

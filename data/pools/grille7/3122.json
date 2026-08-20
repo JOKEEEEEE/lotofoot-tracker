@@ -1,0 +1,136 @@
+{
+  "grille_id": 3122,
+  "grille_type": "grille7",
+  "pool_id": 7003122,
+  "titre": "Grille 7 n°3122",
+  "statut": "CLOSED",
+  "fin": "2023-11-22T20:00:00+00:00",
+  "collecte_le": "2026-08-20T08:13:41.869780+00:00",
+  "mises_nettes": 3815.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 227.27
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 150,
+      "winningsPerGrid": 16.67
+    }
+  ],
+  "repartition": [
+    34,
+    305,
+    965,
+    1559,
+    1410,
+    653,
+    150,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 44693902,
+      "debut": "2023-11-22T20:00:00+00:00",
+      "home": "Francfort (F)",
+      "away": "Barcelone (F)",
+      "home_id": "sr:competitor:5541",
+      "away_id": "sr:competitor:77889",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44721882,
+      "debut": "2023-11-22T20:00:00+00:00",
+      "home": "SL Benfica (F)",
+      "away": "Rosengard (F)",
+      "home_id": "sr:competitor:475052",
+      "away_id": "sr:competitor:1886",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44892828,
+      "debut": "2023-11-22T22:00:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1974",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439621,
+      "debut": "2023-11-23T00:30:00+00:00",
+      "home": "Fluminense",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45432804,
+      "debut": "2023-11-23T19:00:00+00:00",
+      "home": "KF Tirana",
+      "away": "KS Kukesi",
+      "home_id": "sr:competitor:5195",
+      "away_id": "sr:competitor:53064",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44694230,
+      "debut": "2023-11-23T17:45:00+00:00",
+      "home": "Paris SG (F)",
+      "away": "Bayern Munich (F)",
+      "home_id": "sr:competitor:55505",
+      "away_id": "sr:competitor:5543",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44694530,
+      "debut": "2023-11-23T17:45:00+00:00",
+      "home": "BK Häcken (F)",
+      "away": "Real Madrid (F)",
+      "home_id": "sr:competitor:1889",
+      "away_id": "sr:competitor:522312",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

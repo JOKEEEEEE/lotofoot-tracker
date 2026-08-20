@@ -1,0 +1,136 @@
+{
+  "grille_id": 2881,
+  "grille_type": "grille7",
+  "pool_id": 7002881,
+  "titre": "Grille 7 n°2881",
+  "statut": "CLOSED",
+  "fin": "2023-04-24T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:40:25.225108+00:00",
+  "mises_nettes": 10739.25,
+  "montant_distribue": 10739.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 383.55
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 239,
+      "winningsPerGrid": 22.47
+    }
+  ],
+  "repartition": [
+    255,
+    1412,
+    3445,
+    4464,
+    3222,
+    1268,
+    239,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 35016661,
+      "debut": "2023-04-24T18:45:00+00:00",
+      "home": "Bordeaux",
+      "away": "Grenoble",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1671",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545959,
+      "debut": "2023-04-24T18:30:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Defensa Y Justicia",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:36839",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34287113,
+      "debut": "2023-04-24T18:45:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2702",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34267475,
+      "debut": "2023-04-24T19:00:00+00:00",
+      "home": "Luton Town",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:72",
+      "away_id": "sr:competitor:36",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34279201,
+      "debut": "2023-04-24T19:00:00+00:00",
+      "home": "Huesca",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:2822",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34505085,
+      "debut": "2023-04-24T19:15:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3001",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545949,
+      "debut": "2023-04-24T22:00:00+00:00",
+      "home": "Racing Club",
+      "away": "Atletico Tucuman",
+      "home_id": "sr:competitor:3215",
+      "away_id": "sr:competitor:36833",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

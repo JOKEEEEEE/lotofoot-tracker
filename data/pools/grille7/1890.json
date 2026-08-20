@@ -1,0 +1,127 @@
+{
+  "grille_id": 1890,
+  "grille_type": "grille7",
+  "pool_id": 7001890,
+  "titre": "Grille 7 n°1890",
+  "statut": "CLOSED",
+  "fin": "2021-01-14T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:05:06.928953+00:00",
+  "mises_nettes": 12495,
+  "montant_distribue": 12495,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001001010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 446.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 297,
+      "winningsPerGrid": 21.04
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23117371,
+      "debut": "2021-01-14T18:00:00+00:00",
+      "home": "CFR Cluj",
+      "away": "CS FC Clinceni",
+      "home_id": "sr:competitor:5287",
+      "away_id": "sr:competitor:24789",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22870757,
+      "debut": "2021-01-14T19:00:00+00:00",
+      "home": "Twente",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:2955",
+      "away_id": "sr:competitor:2953",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23204121,
+      "debut": "2021-01-14T20:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:7",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 14.5,
+      "cote_N": 1.01,
+      "cote_2": 30
+    },
+    {
+      "match_id": 24947890,
+      "debut": "2021-01-14T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2825",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 130,
+      "cote_N": 11,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 22870759,
+      "debut": "2021-01-14T20:00:00+00:00",
+      "home": "Willem II",
+      "away": "Groningue",
+      "home_id": "sr:competitor:2961",
+      "away_id": "sr:competitor:2951",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 14,
+      "cote_N": 1.01,
+      "cote_2": 12
+    },
+    {
+      "match_id": 24649158,
+      "debut": "2021-01-14T20:15:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2719",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25072494,
+      "debut": "2021-01-14T20:30:00+00:00",
+      "home": "Gil Vicente",
+      "away": "Academico Viseu",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:3022",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 7.5,
+      "cote_N": 1.06,
+      "cote_2": 18
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2663,
+  "grille_type": "grille7",
+  "pool_id": 7002663,
+  "titre": "Grille 7 n°2663",
+  "statut": "CLOSED",
+  "fin": "2022-10-23T18:45:00+00:00",
+  "collecte_le": "2026-08-20T13:10:35.229559+00:00",
+  "mises_nettes": 11169,
+  "montant_distribue": 11169,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 180,
+      "winningsPerGrid": 31.03
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1059,
+      "winningsPerGrid": 5.27
+    }
+  ],
+  "repartition": [
+    78,
+    546,
+    2225,
+    4005,
+    4100,
+    2699,
+    1059,
+    180
+  ],
+  "matches": [
+    {
+      "match_id": 34172219,
+      "debut": "2022-10-23T18:45:00+00:00",
+      "home": "Lille",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1653",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286725,
+      "debut": "2022-10-23T18:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Naples",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2714",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277405,
+      "debut": "2022-10-23T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2825",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271213,
+      "debut": "2022-10-23T19:00:00+00:00",
+      "home": "Ostende",
+      "away": "Zulte Waregem",
+      "home_id": "sr:competitor:4494",
+      "away_id": "sr:competitor:2933",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278657,
+      "debut": "2022-10-23T19:00:00+00:00",
+      "home": "Las Palmas",
+      "away": "FC Cartagena",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:24329",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932811,
+      "debut": "2022-10-23T19:00:00+00:00",
+      "home": "Juventude RS",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1980",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504735,
+      "debut": "2022-10-23T19:30:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:2995",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3298,
+  "grille_type": "grille7",
+  "pool_id": 7003298,
+  "titre": "Grille 7 n°3298",
+  "statut": "CLOSED",
+  "fin": "2024-04-14T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:01:59.895479+00:00",
+  "mises_nettes": 6005.25,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 28,
+      "winningsPerGrid": 133.93
+    }
+  ],
+  "repartition": [
+    431,
+    1587,
+    2526,
+    2130,
+    1052,
+    250,
+    28,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 42005037,
+      "debut": "2024-04-14T18:45:00+00:00",
+      "home": "Lyon",
+      "away": "Brest",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1715",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134739,
+      "debut": "2024-04-14T18:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2719",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893519,
+      "debut": "2024-04-14T19:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Almeria",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2858",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214401,
+      "debut": "2024-04-14T19:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:5926",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214403,
+      "debut": "2024-04-14T19:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214395,
+      "debut": "2024-04-14T20:00:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1958",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46364633,
+      "debut": "2024-04-14T20:45:00+00:00",
+      "home": "Saint Louis City SC",
+      "away": "Austin FC",
+      "home_id": "sr:competitor:874725",
+      "away_id": "sr:competitor:772256",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

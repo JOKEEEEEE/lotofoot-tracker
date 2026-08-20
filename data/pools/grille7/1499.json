@@ -1,0 +1,127 @@
+{
+  "grille_id": 1499,
+  "grille_type": "grille7",
+  "pool_id": 7001499,
+  "titre": "Grille 7 n°1499",
+  "statut": "CLOSED",
+  "fin": "2019-12-22T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:43:18.144276+00:00",
+  "mises_nettes": 5916.75,
+  "montant_distribue": 5916.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 591.68
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 93,
+      "winningsPerGrid": 31.81
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18583372,
+      "debut": "2019-12-22T18:00:00+00:00",
+      "home": "FC Steaua Bucarest",
+      "away": "Universitatea Craiova",
+      "home_id": "sr:competitor:3301",
+      "away_id": "sr:competitor:116223",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18600684,
+      "debut": "2019-12-22T19:00:00+00:00",
+      "home": "Anderlecht",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18659430,
+      "debut": "2019-12-22T19:00:00+00:00",
+      "home": "Gérone",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:35092",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19410906,
+      "debut": "2019-12-22T19:15:00+00:00",
+      "home": "Chaves",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3025",
+      "away_id": "sr:competitor:3002",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927118,
+      "debut": "2019-12-22T19:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Naples",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2714",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030310,
+      "debut": "2019-12-22T20:00:00+00:00",
+      "home": "Pordenone",
+      "away": "Ascoli",
+      "home_id": "sr:competitor:111205",
+      "away_id": "sr:competitor:2707",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640992,
+      "debut": "2019-12-22T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2825",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 519,
+  "grille_type": "grille7",
+  "pool_id": 7000519,
+  "titre": "Grille 7 n°519",
+  "statut": "CLOSED",
+  "fin": "2017-04-14T18:00:00+00:00",
+  "collecte_le": "2026-08-20T13:32:02.169599+00:00",
+  "mises_nettes": 10928.25,
+  "montant_distribue": 10928.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 29,
+      "winningsPerGrid": 188.42
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 375,
+      "winningsPerGrid": 14.57
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9566281,
+      "debut": "2017-04-14T18:00:00+00:00",
+      "home": "Amiens",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1662",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566287,
+      "debut": "2017-04-14T18:00:00+00:00",
+      "home": "Laval",
+      "away": "Reims",
+      "home_id": "sr:competitor:1673",
+      "away_id": "sr:competitor:1682",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566291,
+      "debut": "2017-04-14T18:00:00+00:00",
+      "home": "Nîmes",
+      "away": "Orléans",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:6921",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566293,
+      "debut": "2017-04-14T18:00:00+00:00",
+      "home": "Niort",
+      "away": "Brest",
+      "home_id": "sr:competitor:1665",
+      "away_id": "sr:competitor:1715",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566297,
+      "debut": "2017-04-14T18:00:00+00:00",
+      "home": "Tours",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1727",
+      "away_id": "sr:competitor:1657",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566283,
+      "debut": "2017-04-14T18:00:00+00:00",
+      "home": "Bourg-en-Bresse",
+      "away": "Valenciennes",
+      "home_id": "sr:competitor:35056",
+      "away_id": "sr:competitor:5061",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9540197,
+      "debut": "2017-04-14T18:45:00+00:00",
+      "home": "Angers",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 604,
+  "grille_type": "grille7",
+  "pool_id": 7000604,
+  "titre": "Grille 7 n°604",
+  "statut": "CLOSED",
+  "fin": "2017-07-13T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:59:38.110745+00:00",
+  "mises_nettes": 4972.5,
+  "montant_distribue": 4972.5,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2486.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 33,
+      "winningsPerGrid": 75.34
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11956606,
+      "debut": "2017-07-13T18:45:00+00:00",
+      "home": "Zeljeznicar",
+      "away": "AIK Stockholm",
+      "home_id": "sr:competitor:5240",
+      "away_id": "sr:competitor:1764",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11956700,
+      "debut": "2017-07-13T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "AEK Larnaca",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:3404",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11956724,
+      "debut": "2017-07-13T18:45:00+00:00",
+      "home": "Aberdeen",
+      "away": "NK Siroki Brijeg",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:5239",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11956796,
+      "debut": "2017-07-13T18:45:00+00:00",
+      "home": "Osijek",
+      "away": "Lucerne",
+      "home_id": "sr:competitor:2040",
+      "away_id": "sr:competitor:2453",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11956702,
+      "debut": "2017-07-13T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Mlada Boleslav",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:2224",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11956734,
+      "debut": "2017-07-13T19:00:00+00:00",
+      "home": "Ferencvaros",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:1925",
+      "away_id": "sr:competitor:1289",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11956780,
+      "debut": "2017-07-13T20:00:00+00:00",
+      "home": "Valur Reykjavik",
+      "away": "Domzale",
+      "home_id": "sr:competitor:1899",
+      "away_id": "sr:competitor:2418",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

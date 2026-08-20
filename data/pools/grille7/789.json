@@ -1,0 +1,127 @@
+{
+  "grille_id": 789,
+  "grille_type": "grille7",
+  "pool_id": 7000789,
+  "titre": "Grille 7 n°789",
+  "statut": "CLOSED",
+  "fin": "2018-01-23T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:46:47.896933+00:00",
+  "mises_nettes": 14016,
+  "montant_distribue": 14016,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 467.2
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 257,
+      "winningsPerGrid": 27.27
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13518117,
+      "debut": "2018-01-23T17:30:00+00:00",
+      "home": "Bourg-en-Bresse",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:35056",
+      "away_id": "sr:competitor:1681",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13518121,
+      "debut": "2018-01-23T17:30:00+00:00",
+      "home": "Châteauroux",
+      "away": "Chambly",
+      "home_id": "sr:competitor:1666",
+      "away_id": "sr:competitor:61612",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13518137,
+      "debut": "2018-01-23T17:30:00+00:00",
+      "home": "Nantes",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1646",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13522837,
+      "debut": "2018-01-23T17:30:00+00:00",
+      "home": "Saint-Brieuc",
+      "away": "Lens",
+      "home_id": "sr:competitor:236320",
+      "away_id": "sr:competitor:1648",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13404585,
+      "debut": "2018-01-23T19:45:00+00:00",
+      "home": "Bristol City",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:17",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13518127,
+      "debut": "2018-01-23T20:00:00+00:00",
+      "home": "Epinal",
+      "away": "Marseille",
+      "home_id": "sr:competitor:35064",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13540013,
+      "debut": "2018-01-23T20:30:00+00:00",
+      "home": "FC Séville",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2836",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

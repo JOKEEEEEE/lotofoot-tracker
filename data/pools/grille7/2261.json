@@ -1,0 +1,136 @@
+{
+  "grille_id": 2261,
+  "grille_type": "grille7",
+  "pool_id": 7002261,
+  "titre": "Grille 7 n°2261",
+  "statut": "CLOSED",
+  "fin": "2021-11-21T14:00:00+00:00",
+  "collecte_le": "2026-08-20T09:34:24.848838+00:00",
+  "mises_nettes": 13133.25,
+  "montant_distribue": 13133.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001001010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 57,
+      "winningsPerGrid": 115.2
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 578,
+      "winningsPerGrid": 11.36
+    }
+  ],
+  "repartition": [
+    181,
+    1059,
+    3131,
+    5149,
+    4863,
+    2493,
+    578,
+    57
+  ],
+  "matches": [
+    {
+      "match_id": 27884946,
+      "debut": "2021-11-21T14:00:00+00:00",
+      "home": "Angers",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1656",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 55,
+      "cote_2": null
+    },
+    {
+      "match_id": 27884954,
+      "debut": "2021-11-21T14:00:00+00:00",
+      "home": "Metz",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1645",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 1,
+      "cote_2": 34
+    },
+    {
+      "match_id": 27884962,
+      "debut": "2021-11-21T14:00:00+00:00",
+      "home": "Strasbourg",
+      "away": "Reims",
+      "home_id": "sr:competitor:1659",
+      "away_id": "sr:competitor:1682",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 46,
+      "cote_N": 1,
+      "cote_2": 65
+    },
+    {
+      "match_id": 27884964,
+      "debut": "2021-11-21T14:00:00+00:00",
+      "home": "Troyes",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 50,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27965430,
+      "debut": "2021-11-21T15:15:00+00:00",
+      "home": "Grenade",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2829",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27884950,
+      "debut": "2021-11-21T16:00:00+00:00",
+      "home": "Clermont",
+      "away": "Nice",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 50,
+      "cote_2": 1
+    },
+    {
+      "match_id": 28160080,
+      "debut": "2021-11-21T17:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Naples",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2714",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 46,
+      "cote_2": 500
+    }
+  ]
+}

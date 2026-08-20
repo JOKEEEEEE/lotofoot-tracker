@@ -1,0 +1,127 @@
+{
+  "grille_id": 230,
+  "grille_type": "grille7",
+  "pool_id": 7000230,
+  "titre": "Grille 7 n°230",
+  "statut": "CLOSED",
+  "fin": "2016-05-22T16:15:00+00:00",
+  "collecte_le": "2026-08-20T12:37:13.284353+00:00",
+  "mises_nettes": 5499,
+  "montant_distribue": 5499,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 916.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 44,
+      "winningsPerGrid": 62.49
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9169363,
+      "debut": "2016-05-22T16:15:00+00:00",
+      "home": "FC Porto",
+      "away": "Braga",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:2999",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9192185,
+      "debut": "2016-05-22T16:15:00+00:00",
+      "home": "Angleterre",
+      "away": "Turquie",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:4700",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211581,
+      "debut": "2016-05-22T19:00:00+00:00",
+      "home": "Vitoria",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:1962",
+      "away_id": "sr:competitor:1957",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211591,
+      "debut": "2016-05-22T19:00:00+00:00",
+      "home": "Grêmio",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8903628,
+      "debut": "2016-05-22T19:30:00+00:00",
+      "home": "FC Barcelone",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2833",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697526,
+      "debut": "2016-05-22T20:30:00+00:00",
+      "home": "Portland Timbers",
+      "away": "Vancouver",
+      "home_id": "sr:competitor:22007",
+      "away_id": "sr:competitor:22010",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736670,
+      "debut": "2016-05-22T21:30:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Defensa Y Justicia",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:36839",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

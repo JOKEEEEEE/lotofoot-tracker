@@ -1,0 +1,136 @@
+{
+  "grille_id": 2173,
+  "grille_type": "grille7",
+  "pool_id": 7002173,
+  "titre": "Grille 7 n°2173",
+  "statut": "CLOSED",
+  "fin": "2021-09-13T18:00:00+00:00",
+  "collecte_le": "2026-08-20T09:42:59.462013+00:00",
+  "mises_nettes": 11915.25,
+  "montant_distribue": 11915.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 25,
+      "winningsPerGrid": 238.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 351,
+      "winningsPerGrid": 16.97
+    }
+  ],
+  "repartition": [
+    213,
+    1364,
+    3608,
+    4827,
+    3853,
+    1646,
+    351,
+    25
+  ],
+  "matches": [
+    {
+      "match_id": 27965224,
+      "debut": "2021-09-13T18:00:00+00:00",
+      "home": "Getafe",
+      "away": "Elche",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2846",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 170,
+      "cote_N": 13,
+      "cote_2": 1.02
+    },
+    {
+      "match_id": 27649284,
+      "debut": "2021-09-13T18:00:00+00:00",
+      "home": "Kfco Beerschot-Wilrijk",
+      "away": "Saint-Trond",
+      "home_id": "sr:competitor:169260",
+      "away_id": "sr:competitor:2895",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 225,
+      "cote_N": 15,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27885876,
+      "debut": "2021-09-13T18:45:00+00:00",
+      "home": "Le Havre",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1681",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 44,
+      "cote_N": 1,
+      "cote_2": 40
+    },
+    {
+      "match_id": 28159836,
+      "debut": "2021-09-13T18:45:00+00:00",
+      "home": "Bologne",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2701",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 23,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27751120,
+      "debut": "2021-09-13T19:00:00+00:00",
+      "home": "Everton",
+      "away": "Burnley",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:6",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27965228,
+      "debut": "2021-09-13T20:00:00+00:00",
+      "home": "Grenade",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2816",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 23,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 28077116,
+      "debut": "2021-09-13T20:15:00+00:00",
+      "home": "Tondela",
+      "away": "Estoril",
+      "home_id": "sr:competitor:38396",
+      "away_id": "sr:competitor:4500",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 50,
+      "cote_2": 1
+    }
+  ]
+}

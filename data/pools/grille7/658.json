@@ -1,0 +1,127 @@
+{
+  "grille_id": 658,
+  "grille_type": "grille7",
+  "pool_id": 7000658,
+  "titre": "Grille 7 n°658",
+  "statut": "CLOSED",
+  "fin": "2017-09-09T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:56:46.062875+00:00",
+  "mises_nettes": 9133.5,
+  "montant_distribue": 9133.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100111010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 28,
+      "winningsPerGrid": 163.1
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 386,
+      "winningsPerGrid": 11.83
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11832750,
+      "debut": "2017-09-09T18:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1647",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832842,
+      "debut": "2017-09-09T18:00:00+00:00",
+      "home": "Caen",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1686",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833036,
+      "debut": "2017-09-09T18:00:00+00:00",
+      "home": "Strasbourg",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1659",
+      "away_id": "sr:competitor:1676",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833306,
+      "debut": "2017-09-09T18:00:00+00:00",
+      "home": "Troyes",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1681",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12089228,
+      "debut": "2017-09-09T18:45:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2702",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055114,
+      "debut": "2017-09-09T18:45:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2814",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11841842,
+      "debut": "2017-09-09T18:45:00+00:00",
+      "home": "Excelsior Rotterdam",
+      "away": "Vitesse Arnhem",
+      "home_id": "sr:competitor:2967",
+      "away_id": "sr:competitor:2958",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

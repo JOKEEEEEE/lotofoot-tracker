@@ -1,0 +1,136 @@
+{
+  "grille_id": 2243,
+  "grille_type": "grille7",
+  "pool_id": 7002243,
+  "titre": "Grille 7 n°2243",
+  "statut": "CLOSED",
+  "fin": "2021-11-05T19:45:00+00:00",
+  "collecte_le": "2026-08-20T13:17:40.235411+00:00",
+  "mises_nettes": 12375.75,
+  "montant_distribue": 12375.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 3093.94
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 110,
+      "winningsPerGrid": 56.25
+    }
+  ],
+  "repartition": [
+    464,
+    2515,
+    5004,
+    4869,
+    2714,
+    823,
+    110,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 27883276,
+      "debut": "2021-11-05T19:30:00+00:00",
+      "home": "Mayence",
+      "away": "Borussia M'Gladbach",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:2527",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 50,
+      "cote_N": 1,
+      "cote_2": 55
+    },
+    {
+      "match_id": 28160052,
+      "debut": "2021-11-05T19:45:00+00:00",
+      "home": "Empoli",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2713",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 50,
+      "cote_N": 1,
+      "cote_2": 50
+    },
+    {
+      "match_id": 27649402,
+      "debut": "2021-11-05T19:45:00+00:00",
+      "home": "O-H Louvain",
+      "away": "Ostende",
+      "home_id": "sr:competitor:2918",
+      "away_id": "sr:competitor:4494",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 32,
+      "cote_2": null
+    },
+    {
+      "match_id": 28018254,
+      "debut": "2021-11-05T20:00:00+00:00",
+      "home": "Lens",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1652",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751268,
+      "debut": "2021-11-05T20:00:00+00:00",
+      "home": "Southampton",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:40",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 50,
+      "cote_2": 500
+    },
+    {
+      "match_id": 27965404,
+      "debut": "2021-11-05T20:00:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:4488",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 36,
+      "cote_2": 1
+    },
+    {
+      "match_id": 28077226,
+      "debut": "2021-11-05T21:15:00+00:00",
+      "home": "Boavista",
+      "away": "Famalicao",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:49531",
+      "score_home": 2,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

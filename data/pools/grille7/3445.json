@@ -1,0 +1,136 @@
+{
+  "grille_id": 3445,
+  "grille_type": "grille7",
+  "pool_id": 7003445,
+  "titre": "Grille 7 n°3445",
+  "statut": "CLOSED",
+  "fin": "2024-08-30T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:51:16.501598+00:00",
+  "mises_nettes": 10032.75,
+  "montant_distribue": 10032.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1672.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 99,
+      "winningsPerGrid": 50.67
+    }
+  ],
+  "repartition": [
+    326,
+    1738,
+    3875,
+    4176,
+    2432,
+    728,
+    99,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 50956339,
+      "debut": "2024-08-30T18:00:00+00:00",
+      "home": "Clermont",
+      "away": "Paris FC",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:6070",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956333,
+      "debut": "2024-08-30T18:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Red Star",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:52874",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956325,
+      "debut": "2024-08-30T18:00:00+00:00",
+      "home": "Grenoble",
+      "away": "Pau",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1685",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51967037,
+      "debut": "2024-08-30T18:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1652",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956329,
+      "debut": "2024-08-30T18:00:00+00:00",
+      "home": "Caen",
+      "away": "Annecy FC",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:234888",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956327,
+      "debut": "2024-08-30T18:00:00+00:00",
+      "home": "Martigues",
+      "away": "Bastia",
+      "home_id": "sr:competitor:1664",
+      "away_id": "sr:competitor:1655",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955379,
+      "debut": "2024-08-30T18:45:00+00:00",
+      "home": "Lyon",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1659",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

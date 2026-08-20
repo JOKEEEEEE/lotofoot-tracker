@@ -1,0 +1,127 @@
+{
+  "grille_id": 233,
+  "grille_type": "grille7",
+  "pool_id": 7000233,
+  "titre": "Grille 7 n°233",
+  "statut": "CLOSED",
+  "fin": "2016-05-26T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:36:51.905236+00:00",
+  "mises_nettes": 3743.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 416.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 93,
+      "winningsPerGrid": 26.88
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9436485,
+      "debut": "2016-05-26T16:00:00+00:00",
+      "home": "Wolfsburg",
+      "away": "Lyon",
+      "home_id": "sr:competitor:5556",
+      "away_id": "sr:competitor:26245",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9374473,
+      "debut": "2016-05-26T17:30:00+00:00",
+      "home": "AEK Athènes",
+      "away": "Panathinaïkos",
+      "home_id": "sr:competitor:3250",
+      "away_id": "sr:competitor:3248",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7495028,
+      "debut": "2016-05-26T18:00:00+00:00",
+      "home": "Aalborg",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:1290",
+      "away_id": "sr:competitor:1289",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616930,
+      "debut": "2016-05-26T18:00:00+00:00",
+      "home": "Athletic Bilbao B",
+      "away": "Alaves",
+      "home_id": "sr:competitor:24324",
+      "away_id": "sr:competitor:2885",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616936,
+      "debut": "2016-05-26T18:00:00+00:00",
+      "home": "Huesca",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:2815",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211611,
+      "debut": "2016-05-26T19:00:00+00:00",
+      "home": "Internacional ",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1959",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616938,
+      "debut": "2016-05-26T19:00:00+00:00",
+      "home": "Real Oviedo",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:2845",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

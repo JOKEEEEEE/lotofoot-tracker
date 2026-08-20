@@ -1,0 +1,136 @@
+{
+  "grille_id": 3139,
+  "grille_type": "grille7",
+  "pool_id": 7003139,
+  "titre": "Grille 7 n°3139",
+  "statut": "CLOSED",
+  "fin": "2023-12-04T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:12:24.250493+00:00",
+  "mises_nettes": 8857.5,
+  "montant_distribue": 8857.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 28,
+      "winningsPerGrid": 158.17
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 330,
+      "winningsPerGrid": 13.42
+    }
+  ],
+  "repartition": [
+    50,
+    502,
+    1935,
+    4015,
+    3496,
+    1454,
+    330,
+    28
+  ],
+  "matches": [
+    {
+      "match_id": 41754965,
+      "debut": "2023-12-04T18:00:00+00:00",
+      "home": "Midtjylland",
+      "away": "Viborg FF",
+      "home_id": "sr:competitor:1289",
+      "away_id": "sr:competitor:1288",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42147173,
+      "debut": "2023-12-04T18:00:00+00:00",
+      "home": "Feirense",
+      "away": "CD Mafra",
+      "home_id": "sr:competitor:4501",
+      "away_id": "sr:competitor:38744",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42401635,
+      "debut": "2023-12-04T19:00:00+00:00",
+      "home": "AEK Athènes",
+      "away": "Aris Thessalonique",
+      "home_id": "sr:competitor:3250",
+      "away_id": "sr:competitor:3252",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984201,
+      "debut": "2023-12-04T19:30:00+00:00",
+      "home": "Villarreal CF B",
+      "away": "Eibar",
+      "home_id": "sr:competitor:24338",
+      "away_id": "sr:competitor:2839",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134383,
+      "debut": "2023-12-04T19:45:00+00:00",
+      "home": "Torino",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2686",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893193,
+      "debut": "2023-12-04T20:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:4488",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146383,
+      "debut": "2023-12-04T20:15:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3010",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

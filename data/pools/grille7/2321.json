@@ -1,0 +1,136 @@
+{
+  "grille_id": 2321,
+  "grille_type": "grille7",
+  "pool_id": 7002321,
+  "titre": "Grille 7 n°2321",
+  "statut": "CLOSED",
+  "fin": "2022-01-11T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:27:42.321662+00:00",
+  "mises_nettes": 8472,
+  "montant_distribue": 8472,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 423.6
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 108,
+      "winningsPerGrid": 39.22
+    }
+  ],
+  "repartition": [
+    265,
+    1473,
+    3295,
+    3522,
+    1982,
+    641,
+    108,
+    10
+  ],
+  "matches": [
+    {
+      "match_id": 28799066,
+      "debut": "2022-01-11T19:00:00+00:00",
+      "home": "Soudan",
+      "away": "Guinée Bissau",
+      "home_id": "sr:competitor:4734",
+      "away_id": "sr:competitor:23478",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31317997,
+      "debut": "2022-01-11T19:45:00+00:00",
+      "home": "Southampton",
+      "away": "Brentford",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:50",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160230,
+      "debut": "2022-01-11T19:45:00+00:00",
+      "home": "Cagliari",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2685",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31372377,
+      "debut": "2022-01-11T19:45:00+00:00",
+      "home": "Warrenpoint",
+      "away": "Dungannon",
+      "home_id": "sr:competitor:43204",
+      "away_id": "sr:competitor:5271",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31383675,
+      "debut": "2022-01-11T20:00:00+00:00",
+      "home": "Reading",
+      "away": "Fulham",
+      "home_id": "sr:competitor:28",
+      "away_id": "sr:competitor:43",
+      "score_home": 0,
+      "score_away": 7,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28799102,
+      "debut": "2022-01-12T13:00:00+00:00",
+      "home": "Tunisie",
+      "away": "Mali",
+      "home_id": "sr:competitor:4729",
+      "away_id": "sr:competitor:4831",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28799104,
+      "debut": "2022-01-12T16:45:00+00:00",
+      "home": "Mauritanie",
+      "away": "Gambie",
+      "home_id": "sr:competitor:4779",
+      "away_id": "sr:competitor:4762",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1621,
+  "grille_type": "grille7",
+  "pool_id": 7001621,
+  "titre": "Grille 7 n°1621",
+  "statut": "CLOSED",
+  "fin": "2020-05-29T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:29:09.193720+00:00",
+  "mises_nettes": 8582.25,
+  "montant_distribue": 8582.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100001010010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1430.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 64,
+      "winningsPerGrid": 67.05
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21971201,
+      "debut": "2020-05-29T18:30:00+00:00",
+      "home": "Fribourg",
+      "away": "Bayer Leverkusen",
+      "home_id": "sr:competitor:2538",
+      "away_id": "sr:competitor:2681",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21984525,
+      "debut": "2020-05-30T10:00:00+00:00",
+      "home": "Busan IPark",
+      "away": "Suwon Bluewings",
+      "home_id": "sr:competitor:7642",
+      "away_id": "sr:competitor:7652",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21984523,
+      "debut": "2020-05-30T10:00:00+00:00",
+      "home": "Gwangju FC",
+      "away": "Ulsan",
+      "home_id": "sr:competitor:48912",
+      "away_id": "sr:competitor:7653",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971185,
+      "debut": "2020-05-30T11:00:00+00:00",
+      "home": "Nuremberg",
+      "away": "Bochum",
+      "home_id": "sr:competitor:2523",
+      "away_id": "sr:competitor:2542",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971199,
+      "debut": "2020-05-30T11:00:00+00:00",
+      "home": "Holstein Kiel",
+      "away": "Arminia Bielefeld",
+      "home_id": "sr:competitor:2573",
+      "away_id": "sr:competitor:2540",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971211,
+      "debut": "2020-05-30T11:00:00+00:00",
+      "home": "Sandhausen",
+      "away": "Hanovre 96",
+      "home_id": "sr:competitor:6157",
+      "away_id": "sr:competitor:2541",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971217,
+      "debut": "2020-05-30T11:00:00+00:00",
+      "home": "Karlsruhe",
+      "away": "St. Pauli",
+      "home_id": "sr:competitor:2553",
+      "away_id": "sr:competitor:2526",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

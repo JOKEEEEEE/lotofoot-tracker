@@ -1,0 +1,136 @@
+{
+  "grille_id": 3393,
+  "grille_type": "grille7",
+  "pool_id": 7003393,
+  "titre": "Grille 7 n°3393",
+  "statut": "CLOSED",
+  "fin": "2024-07-11T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:54:42.514973+00:00",
+  "mises_nettes": 4251,
+  "montant_distribue": 4251,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1062.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 19,
+      "winningsPerGrid": 111.87
+    }
+  ],
+  "repartition": [
+    306,
+    1096,
+    1887,
+    1530,
+    669,
+    159,
+    19,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 50853733,
+      "debut": "2024-07-11T17:00:00+00:00",
+      "home": "Elfsborg",
+      "away": "Pafos FC",
+      "home_id": "sr:competitor:1762",
+      "away_id": "sr:competitor:171626",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50853737,
+      "debut": "2024-07-11T17:00:00+00:00",
+      "home": "Paksi",
+      "away": "CS Corvinul Hunedoara",
+      "home_id": "sr:competitor:6059",
+      "away_id": "sr:competitor:35293",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50853743,
+      "debut": "2024-07-11T17:00:00+00:00",
+      "home": "Sheriff Tiraspol",
+      "away": "Zira FK",
+      "home_id": "sr:competitor:5173",
+      "away_id": "sr:competitor:173406",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50853759,
+      "debut": "2024-07-11T17:00:00+00:00",
+      "home": "Ruzomberok",
+      "away": "Tobol",
+      "home_id": "sr:competitor:2397",
+      "away_id": "sr:competitor:5362",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50853731,
+      "debut": "2024-07-11T18:00:00+00:00",
+      "home": "Botev Plovdiv",
+      "away": "Maribor",
+      "home_id": "sr:competitor:5241",
+      "away_id": "sr:competitor:2420",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50853771,
+      "debut": "2024-07-11T18:30:00+00:00",
+      "home": "Wisla Cracovie",
+      "away": "KF Llapi",
+      "home_id": "sr:competitor:3111",
+      "away_id": "sr:competitor:277847",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46487391,
+      "debut": "2024-07-11T19:15:00+00:00",
+      "home": "Fram Reykjavik",
+      "away": "KR Reykjavik",
+      "home_id": "sr:competitor:1893",
+      "away_id": "sr:competitor:1902",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

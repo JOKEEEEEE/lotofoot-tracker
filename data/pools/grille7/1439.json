@@ -1,0 +1,127 @@
+{
+  "grille_id": 1439,
+  "grille_type": "grille7",
+  "pool_id": 7001439,
+  "titre": "Grille 7 n°1439",
+  "statut": "CLOSED",
+  "fin": "2019-11-06T20:00:00+00:00",
+  "collecte_le": "2026-08-20T10:49:10.711812+00:00",
+  "mises_nettes": 25704.75,
+  "montant_distribue": 25704.75,
+  "montant_garanti": 20000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 64,
+      "winningsPerGrid": 200.82
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 943,
+      "winningsPerGrid": 13.63
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 19323606,
+      "debut": "2019-11-06T20:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:2888",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323664,
+      "debut": "2019-11-06T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:3061",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323716,
+      "debut": "2019-11-06T20:00:00+00:00",
+      "home": "Etoile Rouge de Belgrade",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:5149",
+      "away_id": "sr:competitor:33",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323742,
+      "debut": "2019-11-06T20:00:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "Shakhtar Donetsk",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:3313",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323744,
+      "debut": "2019-11-06T20:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:17",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323770,
+      "debut": "2019-11-06T20:00:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2836",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789398,
+      "debut": "2019-11-06T23:00:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Goias",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1960",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1887,
+  "grille_type": "grille7",
+  "pool_id": 7001887,
+  "titre": "Grille 7 n°1887",
+  "statut": "CLOSED",
+  "fin": "2021-01-11T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:05:26.114493+00:00",
+  "mises_nettes": 15819.75,
+  "montant_distribue": 15819.75,
+  "montant_garanti": 11000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 20,
+      "winningsPerGrid": 395.49
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 259,
+      "winningsPerGrid": 30.54
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23032901,
+      "debut": "2021-01-11T19:30:00+00:00",
+      "home": "Eintracht Brunswick",
+      "away": "Düsseldorf",
+      "home_id": "sr:competitor:2557",
+      "away_id": "sr:competitor:2588",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 30,
+      "cote_N": 1.01,
+      "cote_2": 17
+    },
+    {
+      "match_id": 22651543,
+      "debut": "2021-01-11T19:45:00+00:00",
+      "home": "Caen",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1681",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 22,
+      "cote_N": 1.02,
+      "cote_2": 13.5
+    },
+    {
+      "match_id": 22627809,
+      "debut": "2021-01-11T19:45:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "Hibernian FC",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:2354",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 11.5,
+      "cote_N": 1.01,
+      "cote_2": 15
+    },
+    {
+      "match_id": 23031523,
+      "debut": "2021-01-11T19:45:00+00:00",
+      "home": "Standard Liège",
+      "away": "Waasland-Beveren",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:4859",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 200,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23390899,
+      "debut": "2021-01-11T19:45:00+00:00",
+      "home": "Spezia",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:2711",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 27,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360667,
+      "debut": "2021-01-11T20:00:00+00:00",
+      "home": "Huesca",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:2816",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 130,
+      "cote_N": 12.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 24685746,
+      "debut": "2021-01-11T20:00:00+00:00",
+      "home": "Stockport County",
+      "away": "West Ham",
+      "home_id": "sr:competitor:10",
+      "away_id": "sr:competitor:37",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 48,
+      "cote_2": 1
+    }
+  ]
+}

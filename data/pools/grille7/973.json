@@ -1,0 +1,127 @@
+{
+  "grille_id": 973,
+  "grille_type": "grille7",
+  "pool_id": 7000973,
+  "titre": "Grille 7 n°973",
+  "statut": "CLOSED",
+  "fin": "2018-07-31T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:30:57.537379+00:00",
+  "mises_nettes": 7424.25,
+  "montant_distribue": 7424.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 928.03
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 36,
+      "winningsPerGrid": 103.11
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14971155,
+      "debut": "2018-07-31T16:00:00+00:00",
+      "home": "Krylia Sovetov",
+      "away": "CSKA Moscou",
+      "home_id": "sr:competitor:2322",
+      "away_id": "sr:competitor:2325",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15032425,
+      "debut": "2018-07-31T17:00:00+00:00",
+      "home": "Hapoel Beer Sheva",
+      "away": "Dinamo Zagreb",
+      "home_id": "sr:competitor:5202",
+      "away_id": "sr:competitor:2032",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15042297,
+      "debut": "2018-07-31T17:00:00+00:00",
+      "home": "Sheriff Tiraspol",
+      "away": "Shkendija Tetovo",
+      "home_id": "sr:competitor:5173",
+      "away_id": "sr:competitor:5413",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15042309,
+      "debut": "2018-07-31T18:30:00+00:00",
+      "home": "Spartak Trnava",
+      "away": "Legia Varsovie",
+      "home_id": "sr:competitor:2406",
+      "away_id": "sr:competitor:3106",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14564902,
+      "debut": "2018-08-01T00:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:2829",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14564904,
+      "debut": "2018-08-01T00:30:00+00:00",
+      "home": "Tottenham",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14564906,
+      "debut": "2018-08-01T02:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

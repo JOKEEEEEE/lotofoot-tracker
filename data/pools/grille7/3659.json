@@ -1,0 +1,136 @@
+{
+  "grille_id": 3659,
+  "grille_type": "grille7",
+  "pool_id": 7003659,
+  "titre": "Grille 7 n°3659",
+  "statut": "CLOSED",
+  "fin": "2025-03-17T19:30:00+00:00",
+  "collecte_le": "2026-08-20T07:29:34.033586+00:00",
+  "mises_nettes": 3994.5,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 24,
+      "winningsPerGrid": 104.17
+    }
+  ],
+  "repartition": [
+    217,
+    1043,
+    1743,
+    1449,
+    678,
+    171,
+    24,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 51103581,
+      "debut": "2025-03-17T19:30:00+00:00",
+      "home": "Castellon",
+      "away": "Deportivo La Corogne",
+      "home_id": "sr:competitor:5067",
+      "away_id": "sr:competitor:2832",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742969,
+      "debut": "2025-03-17T22:00:00+00:00",
+      "home": "Union De Santa Fe",
+      "away": "Banfield",
+      "home_id": "sr:competitor:3204",
+      "away_id": "sr:competitor:3219",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742973,
+      "debut": "2025-03-17T22:00:00+00:00",
+      "home": "Tigre",
+      "away": "Central Cordoba",
+      "home_id": "sr:competitor:7628",
+      "away_id": "sr:competitor:65676",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57135701,
+      "debut": "2025-03-17T23:30:00+00:00",
+      "home": "Nacional Asuncion",
+      "away": "Sportivo Trinidense",
+      "home_id": "sr:competitor:33001",
+      "away_id": "sr:competitor:39722",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57381173,
+      "debut": "2025-03-18T00:00:00+00:00",
+      "home": "Técnico Universitario",
+      "away": "Barcelona SC",
+      "home_id": "sr:competitor:21941",
+      "away_id": "sr:competitor:5250",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742985,
+      "debut": "2025-03-18T00:15:00+00:00",
+      "home": "San Martín",
+      "away": "Club Atletico Platense",
+      "home_id": "sr:competitor:7772",
+      "away_id": "sr:competitor:36837",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742987,
+      "debut": "2025-03-18T00:15:00+00:00",
+      "home": "Atletico Tucuman",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:36833",
+      "away_id": "sr:competitor:3208",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

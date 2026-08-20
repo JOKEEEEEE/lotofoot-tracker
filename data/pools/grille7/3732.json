@@ -1,0 +1,136 @@
+{
+  "grille_id": 3732,
+  "grille_type": "grille7",
+  "pool_id": 7003732,
+  "titre": "Grille 7 n°3732",
+  "statut": "CLOSED",
+  "fin": "2025-05-27T22:00:00+00:00",
+  "collecte_le": "2026-08-20T07:24:27.304767+00:00",
+  "mises_nettes": 3752.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 181.82
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 106,
+      "winningsPerGrid": 18.87
+    }
+  ],
+  "repartition": [
+    102,
+    463,
+    1133,
+    1506,
+    1187,
+    495,
+    106,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 59010865,
+      "debut": "2025-05-27T22:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "CA Talleres",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:3210",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59010867,
+      "debut": "2025-05-27T22:30:00+00:00",
+      "home": "Libertad Asuncion",
+      "away": "Alianza Lima",
+      "home_id": "sr:competitor:5996",
+      "away_id": "sr:competitor:2311",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59009345,
+      "debut": "2025-05-27T22:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "FBC Melgar",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:2308",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59010731,
+      "debut": "2025-05-28T00:30:00+00:00",
+      "home": "River Plate",
+      "away": "Universitario De Deportes",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:2305",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59010473,
+      "debut": "2025-05-28T00:30:00+00:00",
+      "home": "Botafogo",
+      "away": "Universidad De Chile",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:3161",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59010733,
+      "debut": "2025-05-28T00:30:00+00:00",
+      "home": "Independiente Del Valle",
+      "away": "Barcelona SC",
+      "home_id": "sr:competitor:39723",
+      "away_id": "sr:competitor:5250",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59009039,
+      "debut": "2025-05-28T00:30:00+00:00",
+      "home": "Huracan",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:7629",
+      "away_id": "sr:competitor:1957",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

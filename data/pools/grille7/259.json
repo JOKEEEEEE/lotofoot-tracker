@@ -1,0 +1,127 @@
+{
+  "grille_id": 259,
+  "grille_type": "grille7",
+  "pool_id": 7000259,
+  "titre": "Grille 7 n°259",
+  "statut": "CLOSED",
+  "fin": "2016-07-03T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:34:15.172178+00:00",
+  "mises_nettes": 4650,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 833.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 50,
+      "winningsPerGrid": 50
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8607690,
+      "debut": "2016-07-03T16:00:00+00:00",
+      "home": "Molde",
+      "away": "Viking",
+      "home_id": "sr:competitor:661",
+      "away_id": "sr:competitor:1164",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8607694,
+      "debut": "2016-07-03T16:00:00+00:00",
+      "home": "Stabaek",
+      "away": "Sogndal",
+      "home_id": "sr:competitor:1162",
+      "away_id": "sr:competitor:665",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8607702,
+      "debut": "2016-07-03T16:00:00+00:00",
+      "home": "Sarpsborg 08",
+      "away": "Brann",
+      "home_id": "sr:competitor:822",
+      "away_id": "sr:competitor:1159",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697618,
+      "debut": "2016-07-03T16:00:00+00:00",
+      "home": "New York City FC",
+      "away": "New York Red Bulls",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:2506",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693580,
+      "debut": "2016-07-03T19:00:00+00:00",
+      "home": "France",
+      "away": "Islande",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4708",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211813,
+      "debut": "2016-07-03T22:00:00+00:00",
+      "home": "Figueirense",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1985",
+      "away_id": "sr:competitor:1977",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697620,
+      "debut": "2016-07-03T23:00:00+00:00",
+      "home": "Kansas City",
+      "away": "Columbus Crew",
+      "home_id": "sr:competitor:2509",
+      "away_id": "sr:competitor:2504",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1159,
+  "grille_type": "grille7",
+  "pool_id": 7001159,
+  "titre": "Grille 7 n°1159",
+  "statut": "CLOSED",
+  "fin": "2019-02-07T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:14:41.201891+00:00",
+  "mises_nettes": 7524.75,
+  "montant_distribue": 7524.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001001010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 627.06
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 113,
+      "winningsPerGrid": 33.3
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15160067,
+      "debut": "2019-02-07T19:30:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2705",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17150037,
+      "debut": "2019-02-07T20:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17220805,
+      "debut": "2019-02-07T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Valence",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2828",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17197241,
+      "debut": "2019-02-07T22:00:00+00:00",
+      "home": "Nacional Asuncion",
+      "away": "Sportivo Luqueno",
+      "home_id": "sr:competitor:33001",
+      "away_id": "sr:competitor:5998",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17147863,
+      "debut": "2019-02-08T15:00:00+00:00",
+      "home": "MC Oran",
+      "away": "Paradou AC",
+      "home_id": "sr:competitor:45001",
+      "away_id": "sr:competitor:238138",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17147865,
+      "debut": "2019-02-08T16:00:00+00:00",
+      "home": "CS Constantine",
+      "away": "Mlila",
+      "home_id": "sr:competitor:55393",
+      "away_id": "sr:competitor:133448",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14742023,
+      "debut": "2019-02-08T17:00:00+00:00",
+      "home": "Miedz Legnica",
+      "away": "Jagiellonia Bialystok",
+      "home_id": "sr:competitor:35330",
+      "away_id": "sr:competitor:7691",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

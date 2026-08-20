@@ -1,0 +1,127 @@
+{
+  "grille_id": 42,
+  "grille_type": "grille7",
+  "pool_id": 7000042,
+  "titre": "Grille 7 n°42",
+  "statut": "CLOSED",
+  "fin": "2015-10-29T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:54:39.455261+00:00",
+  "mises_nettes": 6063,
+  "montant_distribue": 6063,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010100010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1010.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 48,
+      "winningsPerGrid": 63.16
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7588392,
+      "debut": "2015-10-29T16:00:00+00:00",
+      "home": "Mersin Idman Yurdu",
+      "away": "Istanbul Basaksehir",
+      "home_id": "sr:competitor:3102",
+      "away_id": "sr:competitor:3086",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7588394,
+      "debut": "2015-10-29T16:00:00+00:00",
+      "home": "Osmanlispor",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:3057",
+      "away_id": "sr:competitor:3052",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8281530,
+      "debut": "2015-10-29T17:00:00+00:00",
+      "home": "MC Alger",
+      "away": "RC Arbaa",
+      "home_id": "sr:competitor:42204",
+      "away_id": "sr:competitor:112465",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7588382,
+      "debut": "2015-10-29T18:45:00+00:00",
+      "home": "Galatasaray",
+      "away": "Eskisehirspor",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:6364",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7433908,
+      "debut": "2015-10-29T19:30:00+00:00",
+      "home": "Courtrai",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:4858",
+      "away_id": "sr:competitor:2900",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466084,
+      "debut": "2015-10-29T19:45:00+00:00",
+      "home": "Leeds",
+      "away": "Blackburn",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:46",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689248,
+      "debut": "2015-10-29T19:45:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2705",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

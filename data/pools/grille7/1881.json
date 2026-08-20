@@ -1,0 +1,127 @@
+{
+  "grille_id": 1881,
+  "grille_type": "grille7",
+  "pool_id": 7001881,
+  "titre": "Grille 7 n°1881",
+  "statut": "CLOSED",
+  "fin": "2021-01-07T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:06:04.264591+00:00",
+  "mises_nettes": 11790,
+  "montant_distribue": 11790,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 655
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 149,
+      "winningsPerGrid": 39.56
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23320267,
+      "debut": "2021-01-08T18:00:00+00:00",
+      "home": "Nacional Madeira ",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3013",
+      "away_id": "sr:competitor:3001",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23035699,
+      "debut": "2021-01-07T18:45:00+00:00",
+      "home": "Maccabi Tel-Aviv",
+      "away": "Bnei Yehuda Tel-Aviv",
+      "home_id": "sr:competitor:5198",
+      "away_id": "sr:competitor:5203",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 6.25,
+      "cote_N": 1.07,
+      "cote_2": 25
+    },
+    {
+      "match_id": 25062206,
+      "debut": "2021-01-07T20:00:00+00:00",
+      "home": "Universidad De Concepcion",
+      "away": "Palestino",
+      "home_id": "sr:competitor:5034",
+      "away_id": "sr:competitor:3157",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 28,
+      "cote_N": 1.02,
+      "cote_2": 11
+    },
+    {
+      "match_id": 23320275,
+      "debut": "2021-01-07T21:00:00+00:00",
+      "home": "Braga",
+      "away": "Maritimo",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3007",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 25,
+      "cote_2": 250
+    },
+    {
+      "match_id": 21571467,
+      "debut": "2021-01-07T22:00:00+00:00",
+      "home": "Ceara CE",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 200,
+      "cote_2": 1
+    },
+    {
+      "match_id": 25062212,
+      "debut": "2021-01-07T22:15:00+00:00",
+      "home": "Huachipato",
+      "away": "Deportes Union La Calera",
+      "home_id": "sr:competitor:3164",
+      "away_id": "sr:competitor:48242",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 14.5,
+      "cote_2": 120
+    },
+    {
+      "match_id": 21571469,
+      "debut": "2021-01-08T00:00:00+00:00",
+      "home": "Atletico GO",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:7314",
+      "away_id": "sr:competitor:1974",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 21,
+      "cote_N": 1.01,
+      "cote_2": 25
+    }
+  ]
+}

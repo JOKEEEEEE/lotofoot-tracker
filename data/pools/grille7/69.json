@@ -1,0 +1,127 @@
+{
+  "grille_id": 69,
+  "grille_type": "grille7",
+  "pool_id": 7000069,
+  "titre": "Grille 7 n°69",
+  "statut": "CLOSED",
+  "fin": "2015-11-27T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:53:10.294622+00:00",
+  "mises_nettes": 10471.5,
+  "montant_distribue": 10471.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 436.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 305,
+      "winningsPerGrid": 17.17
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7474478,
+      "debut": "2015-11-27T19:00:00+00:00",
+      "home": "Paris FC",
+      "away": "Dijon",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1686",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474476,
+      "debut": "2015-11-27T19:00:00+00:00",
+      "home": "Nîmes",
+      "away": "Tours",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:1727",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474470,
+      "debut": "2015-11-27T19:00:00+00:00",
+      "home": "Clermont",
+      "away": "Valenciennes",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:5061",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474464,
+      "debut": "2015-11-27T19:00:00+00:00",
+      "home": "Auxerre",
+      "away": "Créteil",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1677",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474474,
+      "debut": "2015-11-27T19:00:00+00:00",
+      "home": "Metz",
+      "away": "Bourg-en-Bresse",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:35056",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474472,
+      "debut": "2015-11-27T19:00:00+00:00",
+      "home": "Évian TG",
+      "away": "Laval",
+      "home_id": "sr:competitor:21800",
+      "away_id": "sr:competitor:1673",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473684,
+      "debut": "2015-11-27T19:30:00+00:00",
+      "home": "Lyon",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1642",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

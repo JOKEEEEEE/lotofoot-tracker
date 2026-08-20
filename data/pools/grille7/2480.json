@@ -1,0 +1,136 @@
+{
+  "grille_id": 2480,
+  "grille_type": "grille7",
+  "pool_id": 7002480,
+  "titre": "Grille 7 n°2480",
+  "statut": "CLOSED",
+  "fin": "2022-05-17T18:45:00+00:00",
+  "collecte_le": "2026-08-20T09:13:29.977948+00:00",
+  "mises_nettes": 8455.5,
+  "montant_distribue": 8455.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100010010001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 422.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 155,
+      "winningsPerGrid": 27.28
+    }
+  ],
+  "repartition": [
+    130,
+    908,
+    2836,
+    3791,
+    2524,
+    920,
+    155,
+    10
+  ],
+  "matches": [
+    {
+      "match_id": 27751782,
+      "debut": "2022-05-17T18:45:00+00:00",
+      "home": "Southampton",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33532983,
+      "debut": "2022-05-17T18:45:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Sheffield United",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:15",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898571,
+      "debut": "2022-05-17T22:15:00+00:00",
+      "home": "Bragantino SP",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:3206",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898727,
+      "debut": "2022-05-18T00:30:00+00:00",
+      "home": "Sporting Cristal",
+      "away": "CA Talleres",
+      "home_id": "sr:competitor:2302",
+      "away_id": "sr:competitor:3210",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898699,
+      "debut": "2022-05-17T22:15:00+00:00",
+      "home": "Penarol De Montevideo",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:3227",
+      "away_id": "sr:competitor:5991",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898725,
+      "debut": "2022-05-18T00:30:00+00:00",
+      "home": "Flamengo",
+      "away": "Universidad Catolica",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:3151",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898657,
+      "debut": "2022-05-18T00:30:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:1957",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

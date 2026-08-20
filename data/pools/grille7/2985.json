@@ -1,0 +1,136 @@
+{
+  "grille_id": 2985,
+  "grille_type": "grille7",
+  "pool_id": 7002985,
+  "titre": "Grille 7 n°2985",
+  "statut": "CLOSED",
+  "fin": "2023-07-30T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:32:30.934902+00:00",
+  "mises_nettes": 6765,
+  "montant_distribue": 6765,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100111100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 51,
+      "winningsPerGrid": 66.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 476,
+      "winningsPerGrid": 7.11
+    }
+  ],
+  "repartition": [
+    0,
+    162,
+    1213,
+    2575,
+    2835,
+    1708,
+    476,
+    51
+  ],
+  "matches": [
+    {
+      "match_id": 39439287,
+      "debut": "2023-07-30T19:00:00+00:00",
+      "home": "America Mineiro MG",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1973",
+      "away_id": "sr:competitor:1963",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439271,
+      "debut": "2023-07-30T19:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Coritiba",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1982",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41736611,
+      "debut": "2023-07-30T19:05:00+00:00",
+      "home": "Hajduk Split",
+      "away": "Rijeka",
+      "home_id": "sr:competitor:2036",
+      "away_id": "sr:competitor:2039",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42129205,
+      "debut": "2023-07-30T20:00:00+00:00",
+      "home": "Santa Fe",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:6115",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546391,
+      "debut": "2023-07-30T20:30:00+00:00",
+      "home": "Huracan",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:7629",
+      "away_id": "sr:competitor:3208",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546389,
+      "debut": "2023-07-30T20:30:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "Club Atletico Platense",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:36837",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439277,
+      "debut": "2023-07-30T21:30:00+00:00",
+      "home": "Goias",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1960",
+      "away_id": "sr:competitor:5926",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

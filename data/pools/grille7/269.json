@@ -1,0 +1,127 @@
+{
+  "grille_id": 269,
+  "grille_type": "grille7",
+  "pool_id": 7000269,
+  "titre": "Grille 7 n°269",
+  "statut": "CLOSED",
+  "fin": "2016-07-17T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:33:38.807871+00:00",
+  "mises_nettes": 6133.5,
+  "montant_distribue": 6133.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 30,
+      "winningsPerGrid": 102.23
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 286,
+      "winningsPerGrid": 10.72
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9211843,
+      "debut": "2016-07-17T19:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:1954",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211845,
+      "debut": "2016-07-17T19:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211851,
+      "debut": "2016-07-17T19:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Vitoria",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:1962",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211853,
+      "debut": "2016-07-17T19:00:00+00:00",
+      "home": "Figueirense",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:1985",
+      "away_id": "sr:competitor:21845",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211859,
+      "debut": "2016-07-17T19:00:00+00:00",
+      "home": "Internacional ",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1963",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697676,
+      "debut": "2016-07-17T19:00:00+00:00",
+      "home": "Portland Timbers",
+      "away": "Seattle Sounders",
+      "home_id": "sr:competitor:22007",
+      "away_id": "sr:competitor:22009",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697678,
+      "debut": "2016-07-17T21:00:00+00:00",
+      "home": "Montréal",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:167510",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3508,
+  "grille_type": "grille7",
+  "pool_id": 7003508,
+  "titre": "Grille 7 n°3508",
+  "statut": "CLOSED",
+  "fin": "2024-10-25T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:46:04.586545+00:00",
+  "mises_nettes": 12111,
+  "montant_distribue": 12111,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 756.94
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 151,
+      "winningsPerGrid": 40.1
+    }
+  ],
+  "repartition": [
+    227,
+    1567,
+    4180,
+    5444,
+    3524,
+    1047,
+    151,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 50956453,
+      "debut": "2024-10-25T18:00:00+00:00",
+      "home": "Metz",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1654",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956459,
+      "debut": "2024-10-25T18:00:00+00:00",
+      "home": "Clermont",
+      "away": "Martigues",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1664",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956457,
+      "debut": "2024-10-25T18:00:00+00:00",
+      "home": "Rodez",
+      "away": "Lorient",
+      "home_id": "sr:competitor:6925",
+      "away_id": "sr:competitor:1656",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956463,
+      "debut": "2024-10-25T18:00:00+00:00",
+      "home": "Pau",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1685",
+      "away_id": "sr:competitor:1676",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956467,
+      "debut": "2024-10-25T18:00:00+00:00",
+      "home": "Dunkerque",
+      "away": "Red Star",
+      "home_id": "sr:competitor:6918",
+      "away_id": "sr:competitor:52874",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956469,
+      "debut": "2024-10-25T18:00:00+00:00",
+      "home": "Annecy FC",
+      "away": "Laval",
+      "home_id": "sr:competitor:234888",
+      "away_id": "sr:competitor:1673",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955497,
+      "debut": "2024-10-25T18:45:00+00:00",
+      "home": "Rennes",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1662",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

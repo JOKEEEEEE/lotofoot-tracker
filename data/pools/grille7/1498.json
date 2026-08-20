@@ -1,0 +1,127 @@
+{
+  "grille_id": 1498,
+  "grille_type": "grille7",
+  "pool_id": 7001498,
+  "titre": "Grille 7 n°1498",
+  "statut": "CLOSED",
+  "fin": "2019-12-22T14:00:00+00:00",
+  "collecte_le": "2026-08-20T10:43:20.419326+00:00",
+  "mises_nettes": 14221.5,
+  "montant_distribue": 14221.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 888.84
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 92,
+      "winningsPerGrid": 77.29
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18427880,
+      "debut": "2019-12-22T14:00:00+00:00",
+      "home": "Watford",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:35",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927112,
+      "debut": "2019-12-22T14:00:00+00:00",
+      "home": "Lecce",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2689",
+      "away_id": "sr:competitor:2685",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18572004,
+      "debut": "2019-12-22T14:30:00+00:00",
+      "home": "Düsseldorf",
+      "away": "Union Berlin",
+      "home_id": "sr:competitor:2588",
+      "away_id": "sr:competitor:2547",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640980,
+      "debut": "2019-12-22T15:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18807898,
+      "debut": "2019-12-22T16:00:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:3050",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427878,
+      "debut": "2019-12-22T16:30:00+00:00",
+      "home": "Tottenham",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:38",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20286455,
+      "debut": "2019-12-22T16:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2699",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

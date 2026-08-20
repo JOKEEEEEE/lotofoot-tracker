@@ -1,0 +1,127 @@
+{
+  "grille_id": 1012,
+  "grille_type": "grille7",
+  "pool_id": 7001012,
+  "titre": "Grille 7 n°1012",
+  "statut": "CLOSED",
+  "fin": "2018-09-08T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:26:52.937928+00:00",
+  "mises_nettes": 12441.75,
+  "montant_distribue": 12441.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 73,
+      "winningsPerGrid": 85.22
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 702,
+      "winningsPerGrid": 8.86
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13635171,
+      "debut": "2018-09-08T18:45:00+00:00",
+      "home": "Angleterre",
+      "away": "Espagne",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:4698",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13635205,
+      "debut": "2018-09-08T18:45:00+00:00",
+      "home": "Estonie",
+      "away": "Grèce",
+      "home_id": "sr:competitor:4759",
+      "away_id": "sr:competitor:4710",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13635221,
+      "debut": "2018-09-08T18:45:00+00:00",
+      "home": "Luxembourg",
+      "away": "Moldavie",
+      "home_id": "sr:competitor:4478",
+      "away_id": "sr:competitor:4782",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805831,
+      "debut": "2018-09-08T19:00:00+00:00",
+      "home": "Sport Recife ",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1959",
+      "away_id": "sr:competitor:1954",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497627,
+      "debut": "2018-09-08T20:55:00+00:00",
+      "home": "New York City FC",
+      "away": "DC United",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:2502",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805829,
+      "debut": "2018-09-08T22:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1955",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805827,
+      "debut": "2018-09-09T00:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:21845",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

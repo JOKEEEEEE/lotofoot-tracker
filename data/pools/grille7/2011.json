@@ -1,0 +1,136 @@
+{
+  "grille_id": 2011,
+  "grille_type": "grille7",
+  "pool_id": 7002011,
+  "titre": "Grille 7 n°2011",
+  "statut": "CLOSED",
+  "fin": "2021-04-19T17:00:00+00:00",
+  "collecte_le": "2026-08-20T09:53:24.142569+00:00",
+  "mises_nettes": 11658,
+  "montant_distribue": 11658,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100001100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 832.71
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 92,
+      "winningsPerGrid": 63.36
+    }
+  ],
+  "repartition": [
+    647,
+    3003,
+    5081,
+    4185,
+    1953,
+    576,
+    92,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 23362961,
+      "debut": "2021-04-19T17:00:00+00:00",
+      "home": "Leganes",
+      "away": "Ponferradina",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:6195",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 17,
+      "cote_N": 1.02,
+      "cote_2": 18
+    },
+    {
+      "match_id": 26599986,
+      "debut": "2021-04-19T17:00:00+00:00",
+      "home": "Randers",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:1301",
+      "away_id": "sr:competitor:1289",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 27,
+      "cote_N": 1.02,
+      "cote_2": 12
+    },
+    {
+      "match_id": 25351762,
+      "debut": "2021-04-19T17:00:00+00:00",
+      "home": "IFK Göteborg",
+      "away": "AIK Stockholm",
+      "home_id": "sr:competitor:1761",
+      "away_id": "sr:competitor:1764",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23345865,
+      "debut": "2021-04-19T17:00:00+00:00",
+      "home": "Sporting Covilha",
+      "away": "Arouca",
+      "home_id": "sr:competitor:3037",
+      "away_id": "sr:competitor:25777",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 25,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23345877,
+      "debut": "2021-04-19T19:00:00+00:00",
+      "home": "FC Vizela",
+      "away": "Benfica B",
+      "home_id": "sr:competitor:5136",
+      "away_id": "sr:competitor:74465",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 29,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23362949,
+      "debut": "2021-04-19T19:00:00+00:00",
+      "home": "Almeria",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:2814",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 28,
+      "cote_N": 1.01,
+      "cote_2": 22
+    },
+    {
+      "match_id": 23204409,
+      "debut": "2021-04-19T19:00:00+00:00",
+      "home": "Leeds",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 25,
+      "cote_N": 1.03,
+      "cote_2": 13
+    }
+  ]
+}

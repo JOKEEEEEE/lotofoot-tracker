@@ -1,0 +1,136 @@
+{
+  "grille_id": 4091,
+  "grille_type": "grille7",
+  "pool_id": 7004091,
+  "titre": "Grille 7 n°4091",
+  "statut": "CLOSED",
+  "fin": "2026-05-30T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:11:24.795665+00:00",
+  "mises_nettes": 5523,
+  "montant_distribue": 5523,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 212.42
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 144,
+      "winningsPerGrid": 19.18
+    }
+  ],
+  "repartition": [
+    107,
+    650,
+    1665,
+    2362,
+    1726,
+    697,
+    144,
+    13
+  ],
+  "matches": [
+    {
+      "match_id": 69339514,
+      "debut": "2026-05-30T16:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.25,
+      "cote_N": 3.05,
+      "cote_2": 2.8
+    },
+    {
+      "match_id": 61623942,
+      "debut": "2026-05-30T19:00:00+00:00",
+      "home": "Grenade",
+      "away": "Gijon",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2852",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.2,
+      "cote_N": 3.15,
+      "cote_2": 2.65
+    },
+    {
+      "match_id": 66886818,
+      "debut": "2026-05-30T19:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Coritiba",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1982",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.32,
+      "cote_N": 4.4,
+      "cote_2": 7.5
+    },
+    {
+      "match_id": 66886832,
+      "debut": "2026-05-30T19:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Mirassol",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:21982",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.84,
+      "cote_N": 3,
+      "cote_2": 3.75
+    },
+    {
+      "match_id": 71578520,
+      "debut": "2026-05-30T19:30:00+00:00",
+      "home": "CF Os Belenenses",
+      "away": "Farense",
+      "home_id": "sr:competitor:824802",
+      "away_id": "sr:competitor:2998",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.45,
+      "cote_N": 2.9,
+      "cote_2": 2.5
+    },
+    {
+      "match_id": 66886834,
+      "debut": "2026-05-30T20:30:00+00:00",
+      "home": "Bahia ",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1958",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.84,
+      "cote_N": 3.5,
+      "cote_2": 3.25
+    },
+    {
+      "match_id": 66886830,
+      "debut": "2026-05-30T20:30:00+00:00",
+      "home": "Grêmio",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:1957",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.75,
+      "cote_N": 3,
+      "cote_2": 2.25
+    }
+  ]
+}

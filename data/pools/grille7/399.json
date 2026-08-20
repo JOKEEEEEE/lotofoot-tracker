@@ -1,0 +1,127 @@
+{
+  "grille_id": 399,
+  "grille_type": "grille7",
+  "pool_id": 7000399,
+  "titre": "Grille 7 n°399",
+  "statut": "CLOSED",
+  "fin": "2016-12-02T19:30:00+00:00",
+  "collecte_le": "2026-08-20T12:21:40.167610+00:00",
+  "mises_nettes": 10872.75,
+  "montant_distribue": 10872.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5436.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 78,
+      "winningsPerGrid": 69.7
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9690199,
+      "debut": "2016-12-02T19:30:00+00:00",
+      "home": "Mayence",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9720393,
+      "debut": "2016-12-02T19:30:00+00:00",
+      "home": "Malines",
+      "away": "Eupen",
+      "home_id": "sr:competitor:5044",
+      "away_id": "sr:competitor:2926",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9914139,
+      "debut": "2016-12-02T19:30:00+00:00",
+      "home": "Trapani",
+      "away": "Carpi",
+      "home_id": "sr:competitor:43686",
+      "away_id": "sr:competitor:43685",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539741,
+      "debut": "2016-12-02T19:45:00+00:00",
+      "home": "Caen",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1686",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821181,
+      "debut": "2016-12-02T19:45:00+00:00",
+      "home": "Naples",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2697",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645623,
+      "debut": "2016-12-02T19:45:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:39",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788781,
+      "debut": "2016-12-02T20:30:00+00:00",
+      "home": "Maritimo",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3007",
+      "away_id": "sr:competitor:3006",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

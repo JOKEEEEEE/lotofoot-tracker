@@ -1,0 +1,136 @@
+{
+  "grille_id": 2486,
+  "grille_type": "grille7",
+  "pool_id": 7002486,
+  "titre": "Grille 7 n°2486",
+  "statut": "CLOSED",
+  "fin": "2022-05-22T18:00:00+00:00",
+  "collecte_le": "2026-08-20T09:12:58.079287+00:00",
+  "mises_nettes": 8119.5,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 714.29
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 97,
+      "winningsPerGrid": 51.55
+    }
+  ],
+  "repartition": [
+    343,
+    1694,
+    3139,
+    3143,
+    1826,
+    577,
+    97,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 27965906,
+      "debut": "2022-05-22T18:00:00+00:00",
+      "home": "Alaves",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:4488",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965912,
+      "debut": "2022-05-22T18:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2826",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160580,
+      "debut": "2022-05-22T19:00:00+00:00",
+      "home": "Salernitana",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2695",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160588,
+      "debut": "2022-05-22T19:00:00+00:00",
+      "home": "Venise",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2688",
+      "away_id": "sr:competitor:2719",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965916,
+      "debut": "2022-05-22T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965918,
+      "debut": "2022-05-22T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2825",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965908,
+      "debut": "2022-05-22T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2819",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

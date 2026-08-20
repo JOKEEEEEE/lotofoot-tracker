@@ -1,0 +1,127 @@
+{
+  "grille_id": 1330,
+  "grille_type": "grille7",
+  "pool_id": 7001330,
+  "titre": "Grille 7 n°1330",
+  "statut": "CLOSED",
+  "fin": "2019-07-31T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:58:01.032422+00:00",
+  "mises_nettes": 7587,
+  "montant_distribue": 7587,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 207,
+      "winningsPerGrid": 18.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1062,
+      "winningsPerGrid": 3.57
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18808280,
+      "debut": "2019-07-31T17:00:00+00:00",
+      "home": "AIK Stockholm",
+      "away": "Maribor",
+      "home_id": "sr:competitor:1764",
+      "away_id": "sr:competitor:2420",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18808284,
+      "debut": "2019-07-31T17:00:00+00:00",
+      "home": "Qarabag Agdam",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:5962",
+      "away_id": "sr:competitor:3179",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18808286,
+      "debut": "2019-07-31T17:00:00+00:00",
+      "home": "Rosenborg",
+      "away": "BATE Borisov",
+      "home_id": "sr:competitor:1161",
+      "away_id": "sr:competitor:3350",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18798058,
+      "debut": "2019-07-31T17:45:00+00:00",
+      "home": "FC Copenhague",
+      "away": "The New Saints",
+      "home_id": "sr:competitor:1284",
+      "away_id": "sr:competitor:4921",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18817698,
+      "debut": "2019-07-31T18:45:00+00:00",
+      "home": "Cukaricki",
+      "away": "Molde",
+      "home_id": "sr:competitor:5148",
+      "away_id": "sr:competitor:661",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18224041,
+      "debut": "2019-07-31T22:15:00+00:00",
+      "home": "Internacional ",
+      "away": "Club Nacional De Football",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:3230",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18224035,
+      "debut": "2019-07-31T22:15:00+00:00",
+      "home": "Cerro Porteno",
+      "away": "San Lorenzo",
+      "home_id": "sr:competitor:5991",
+      "away_id": "sr:competitor:3201",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

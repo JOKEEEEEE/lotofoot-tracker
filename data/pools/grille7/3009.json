@@ -1,0 +1,136 @@
+{
+  "grille_id": 3009,
+  "grille_type": "grille7",
+  "pool_id": 7003009,
+  "titre": "Grille 7 n°3009",
+  "statut": "CLOSED",
+  "fin": "2023-08-20T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:28:43.273405+00:00",
+  "mises_nettes": 7708.5,
+  "montant_distribue": 7708.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010010001010100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 16,
+      "winningsPerGrid": 240.89
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 227,
+      "winningsPerGrid": 16.98
+    }
+  ],
+  "repartition": [
+    731,
+    2488,
+    3441,
+    2394,
+    981,
+    227,
+    16,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 42004551,
+      "debut": "2023-08-20T18:45:00+00:00",
+      "home": "Lens",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1658",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42131257,
+      "debut": "2023-08-20T18:45:00+00:00",
+      "home": "Udinese",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2695",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42131249,
+      "debut": "2023-08-20T18:45:00+00:00",
+      "home": "Lecce",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2689",
+      "away_id": "sr:competitor:2699",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415285,
+      "debut": "2023-08-20T18:45:00+00:00",
+      "home": "Besiktas",
+      "away": "Pendikspor",
+      "home_id": "sr:competitor:3050",
+      "away_id": "sr:competitor:7032",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415249,
+      "debut": "2023-08-20T18:45:00+00:00",
+      "home": "Gaziantep Bld Spor",
+      "away": "Sivasspor",
+      "home_id": "sr:competitor:5138",
+      "away_id": "sr:competitor:3076",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146143,
+      "debut": "2023-08-20T19:30:00+00:00",
+      "home": "FC Vizela",
+      "away": "FC Arouca",
+      "home_id": "sr:competitor:5136",
+      "away_id": "sr:competitor:25777",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41892929,
+      "debut": "2023-08-20T19:30:00+00:00",
+      "home": "Betis Séville",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

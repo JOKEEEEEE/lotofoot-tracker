@@ -1,0 +1,127 @@
+{
+  "grille_id": 951,
+  "grille_type": "grille7",
+  "pool_id": 7000951,
+  "titre": "Grille 7 n°951",
+  "statut": "CLOSED",
+  "fin": "2018-07-09T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:32:08.781080+00:00",
+  "mises_nettes": 3883.5,
+  "montant_distribue": 3883.5,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 9,
+      "winningsPerGrid": 215.75
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 92,
+      "winningsPerGrid": 21.11
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13414729,
+      "debut": "2018-07-09T17:00:00+00:00",
+      "home": "Hammarby IF",
+      "away": "Östersunds FK",
+      "home_id": "sr:competitor:1758",
+      "away_id": "sr:competitor:1836",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13474273,
+      "debut": "2018-07-09T17:00:00+00:00",
+      "home": "Strømsgodset",
+      "away": "Kristiansund BK",
+      "home_id": "sr:competitor:1163",
+      "away_id": "sr:competitor:957",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14209773,
+      "debut": "2018-07-09T17:45:00+00:00",
+      "home": "FC Dnepr Mogilev",
+      "away": "Isloch Minsk",
+      "home_id": "sr:competitor:5231",
+      "away_id": "sr:competitor:42965",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370592,
+      "debut": "2018-07-09T19:15:00+00:00",
+      "home": "Fylkir",
+      "away": "Vikingur Reykjavik",
+      "home_id": "sr:competitor:1896",
+      "away_id": "sr:competitor:1908",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13688191,
+      "debut": "2018-07-10T00:15:00+00:00",
+      "home": "Aucas",
+      "away": "Independiente Del Valle",
+      "home_id": "sr:competitor:5249",
+      "away_id": "sr:competitor:39723",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14768995,
+      "debut": "2018-07-10T15:30:00+00:00",
+      "home": "Torpedo Kutaisi",
+      "away": "Sheriff Tiraspol",
+      "home_id": "sr:competitor:5419",
+      "away_id": "sr:competitor:5173",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14769093,
+      "debut": "2018-07-10T15:30:00+00:00",
+      "home": "Flora Tallinn",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:3346",
+      "away_id": "sr:competitor:5202",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

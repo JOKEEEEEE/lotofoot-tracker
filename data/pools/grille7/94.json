@@ -1,0 +1,127 @@
+{
+  "grille_id": 94,
+  "grille_type": "grille7",
+  "pool_id": 7000094,
+  "titre": "Grille 7 n°94",
+  "statut": "CLOSED",
+  "fin": "2015-12-22T15:00:00+00:00",
+  "collecte_le": "2026-08-20T12:50:55.511514+00:00",
+  "mises_nettes": 4617,
+  "montant_distribue": 4617,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "111001100010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 43,
+      "winningsPerGrid": 53.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 411,
+      "winningsPerGrid": 5.62
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7768756,
+      "debut": "2015-12-22T15:00:00+00:00",
+      "home": "APOEL Nicosie",
+      "away": "AEK Larnaca",
+      "home_id": "sr:competitor:3398",
+      "away_id": "sr:competitor:3404",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7768754,
+      "debut": "2015-12-22T16:00:00+00:00",
+      "home": "Aris Limassol",
+      "away": "Pafos FC",
+      "home_id": "sr:competitor:3397",
+      "away_id": "sr:competitor:171626",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7768744,
+      "debut": "2015-12-22T17:00:00+00:00",
+      "home": "Doxa Katokopias",
+      "away": "Omonia Nicosie",
+      "home_id": "sr:competitor:6973",
+      "away_id": "sr:competitor:3395",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8394456,
+      "debut": "2015-12-22T17:00:00+00:00",
+      "home": "USM Alger",
+      "away": "MC Alger",
+      "home_id": "sr:competitor:42206",
+      "away_id": "sr:competitor:42204",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989132,
+      "debut": "2015-12-22T19:30:00+00:00",
+      "home": "Avellino",
+      "away": "Entella",
+      "home_id": "sr:competitor:2730",
+      "away_id": "sr:competitor:43680",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8524218,
+      "debut": "2015-12-22T19:30:00+00:00",
+      "home": "Mouscron",
+      "away": "Charleroi",
+      "home_id": "sr:competitor:44019",
+      "away_id": "sr:competitor:2898",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8591646,
+      "debut": "2015-12-22T19:45:00+00:00",
+      "home": "Aberystwyth",
+      "away": "Carmarthen",
+      "home_id": "sr:competitor:4905",
+      "away_id": "sr:competitor:4911",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

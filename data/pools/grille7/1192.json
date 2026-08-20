@@ -1,0 +1,127 @@
+{
+  "grille_id": 1192,
+  "grille_type": "grille7",
+  "pool_id": 7001192,
+  "titre": "Grille 7 n°1192",
+  "statut": "CLOSED",
+  "fin": "2019-03-12T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:12:39.841506+00:00",
+  "mises_nettes": 18658.5,
+  "montant_distribue": 18658.5,
+  "montant_garanti": 13000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 108,
+      "winningsPerGrid": 86.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1338,
+      "winningsPerGrid": 6.97
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14783665,
+      "debut": "2019-03-12T19:45:00+00:00",
+      "home": "Blackburn",
+      "away": "Wigan",
+      "home_id": "sr:competitor:46",
+      "away_id": "sr:competitor:49",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783667,
+      "debut": "2019-03-12T19:45:00+00:00",
+      "home": "Bristol City",
+      "away": "Ipswich",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:32",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783671,
+      "debut": "2019-03-12T19:45:00+00:00",
+      "home": "Sheffield United",
+      "away": "Brentford",
+      "home_id": "sr:competitor:15",
+      "away_id": "sr:competitor:50",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783673,
+      "debut": "2019-03-12T20:00:00+00:00",
+      "home": "Bolton",
+      "away": "Sheffield Wednesday",
+      "home_id": "sr:competitor:5",
+      "away_id": "sr:competitor:12",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783675,
+      "debut": "2019-03-12T20:00:00+00:00",
+      "home": "Reading",
+      "away": "Leeds",
+      "home_id": "sr:competitor:28",
+      "away_id": "sr:competitor:34",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514877,
+      "debut": "2019-03-12T20:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2530",
+      "score_home": 7,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514881,
+      "debut": "2019-03-12T20:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2836",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

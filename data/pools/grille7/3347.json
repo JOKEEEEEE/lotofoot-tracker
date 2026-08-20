@@ -1,0 +1,136 @@
+{
+  "grille_id": 3347,
+  "grille_type": "grille7",
+  "pool_id": 7003347,
+  "titre": "Grille 7 n°3347",
+  "statut": "CLOSED",
+  "fin": "2024-05-27T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:58:27.261767+00:00",
+  "mises_nettes": 3498,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 222.22
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 97,
+      "winningsPerGrid": 20.62
+    }
+  ],
+  "repartition": [
+    74,
+    475,
+    1065,
+    1387,
+    1066,
+    491,
+    97,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 42417273,
+      "debut": "2024-05-27T18:00:00+00:00",
+      "home": "Al-Nassr",
+      "away": "Al-Ittihad FC",
+      "home_id": "sr:competitor:23400",
+      "away_id": "sr:competitor:34315",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42417269,
+      "debut": "2024-05-27T18:00:00+00:00",
+      "home": "Al-Taawon",
+      "away": "Al-Ettifaq",
+      "home_id": "sr:competitor:56021",
+      "away_id": "sr:competitor:34318",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42417275,
+      "debut": "2024-05-27T18:00:00+00:00",
+      "home": "Al Shabab",
+      "away": "Al Fateh",
+      "home_id": "sr:competitor:34313",
+      "away_id": "sr:competitor:56023",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42417277,
+      "debut": "2024-05-27T18:00:00+00:00",
+      "home": "Al Taee",
+      "away": "Al Akhdoud",
+      "home_id": "sr:competitor:168072",
+      "away_id": "sr:competitor:529779",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42417279,
+      "debut": "2024-05-27T18:00:00+00:00",
+      "home": "Al Khaleej",
+      "away": "Al Riyadh",
+      "home_id": "sr:competitor:167228",
+      "away_id": "sr:competitor:168088",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42417281,
+      "debut": "2024-05-27T18:00:00+00:00",
+      "home": "Damac",
+      "away": "Al-Raed",
+      "home_id": "sr:competitor:220298",
+      "away_id": "sr:competitor:56031",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50042105,
+      "debut": "2024-05-27T18:30:00+00:00",
+      "home": "Fortuna Dusseldorf",
+      "away": "Bochum",
+      "home_id": "sr:competitor:2588",
+      "away_id": "sr:competitor:2542",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

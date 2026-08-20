@@ -1,0 +1,136 @@
+{
+  "grille_id": 3747,
+  "grille_type": "grille7",
+  "pool_id": 7003747,
+  "titre": "Grille 7 n°3747",
+  "statut": "CLOSED",
+  "fin": "2025-06-11T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:23:15.809857+00:00",
+  "mises_nettes": 3536.25,
+  "montant_distribue": 3536.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 23,
+      "winningsPerGrid": 76.88
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 160,
+      "winningsPerGrid": 11.05
+    }
+  ],
+  "repartition": [
+    158,
+    825,
+    1610,
+    1328,
+    611,
+    160,
+    23,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 56155557,
+      "debut": "2025-06-11T19:00:00+00:00",
+      "home": "Portugal U21",
+      "away": "France U21",
+      "home_id": "sr:competitor:6045",
+      "away_id": "sr:competitor:5936",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56155535,
+      "debut": "2025-06-11T19:00:00+00:00",
+      "home": "Italie U21",
+      "away": "Roumanie U21",
+      "home_id": "sr:competitor:4888",
+      "away_id": "sr:competitor:6048",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56155559,
+      "debut": "2025-06-11T19:00:00+00:00",
+      "home": "Pologne U21",
+      "away": "Géorgie U21",
+      "home_id": "sr:competitor:4889",
+      "away_id": "sr:competitor:6373",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60969995,
+      "debut": "2025-06-11T19:00:00+00:00",
+      "home": "Real Oviedo",
+      "away": "Almeria",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:2858",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61010681,
+      "debut": "2025-06-11T23:15:00+00:00",
+      "home": "Independiente Medellin",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:6115",
+      "away_id": "sr:competitor:6105",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61010689,
+      "debut": "2025-06-12T01:20:00+00:00",
+      "home": "Millonarios ",
+      "away": "Once Caldas",
+      "home_id": "sr:competitor:6117",
+      "away_id": "sr:competitor:6118",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61010691,
+      "debut": "2025-06-13T01:20:00+00:00",
+      "home": "Santa Fe",
+      "away": "Atletico Nacional Medellin",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:6106",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

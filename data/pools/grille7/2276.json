@@ -1,0 +1,136 @@
+{
+  "grille_id": 2276,
+  "grille_type": "grille7",
+  "pool_id": 7002276,
+  "titre": "Grille 7 n°2276",
+  "statut": "CLOSED",
+  "fin": "2021-12-02T19:30:00+00:00",
+  "collecte_le": "2026-08-20T09:33:18.558087+00:00",
+  "mises_nettes": 13553.25,
+  "montant_distribue": 13553.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 85,
+      "winningsPerGrid": 79.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 834,
+      "winningsPerGrid": 8.13
+    }
+  ],
+  "repartition": [
+    48,
+    522,
+    2257,
+    4931,
+    5835,
+    3559,
+    834,
+    85
+  ],
+  "matches": [
+    {
+      "match_id": 27751330,
+      "debut": "2021-12-02T19:30:00+00:00",
+      "home": "Tottenham",
+      "away": "Brentford",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:50",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160122,
+      "debut": "2021-12-02T19:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2695",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27730134,
+      "debut": "2021-12-02T19:45:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "Heart of Midlothian",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:2353",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 30157403,
+      "debut": "2021-12-02T19:45:00+00:00",
+      "home": "Standard Liège",
+      "away": "K. Beerschot V.A.",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:169260",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27646990,
+      "debut": "2021-12-02T20:00:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Willem II",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:2961",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751324,
+      "debut": "2021-12-02T20:15:00+00:00",
+      "home": "Manchester United",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:42",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27472132,
+      "debut": "2021-12-02T21:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1977",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

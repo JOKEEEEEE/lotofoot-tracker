@@ -1,0 +1,127 @@
+{
+  "grille_id": 41,
+  "grille_type": "grille7",
+  "pool_id": 7000041,
+  "titre": "Grille 7 n°41",
+  "statut": "CLOSED",
+  "fin": "2015-10-28T19:45:00+00:00",
+  "collecte_le": "2026-08-20T12:54:41.853670+00:00",
+  "mises_nettes": 15234,
+  "montant_distribue": 15234,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 400.89
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 285,
+      "winningsPerGrid": 26.73
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8087022,
+      "debut": "2015-10-28T19:45:00+00:00",
+      "home": "Manchester City",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:7",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689252,
+      "debut": "2015-10-28T19:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7951104,
+      "debut": "2015-10-28T20:00:00+00:00",
+      "home": "Lille",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1652",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7951106,
+      "debut": "2015-10-28T20:00:00+00:00",
+      "home": "Caen",
+      "away": "Nice",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7951116,
+      "debut": "2015-10-28T20:00:00+00:00",
+      "home": "Lorient",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1642",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7951118,
+      "debut": "2015-10-28T20:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1646",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7951120,
+      "debut": "2015-10-28T20:00:00+00:00",
+      "home": "Bourg-en-Bresse",
+      "away": "Nantes",
+      "home_id": "sr:competitor:35056",
+      "away_id": "sr:competitor:1647",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

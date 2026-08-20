@@ -1,0 +1,127 @@
+{
+  "grille_id": 1867,
+  "grille_type": "grille7",
+  "pool_id": 7001867,
+  "titre": "Grille 7 n°1867",
+  "statut": "CLOSED",
+  "fin": "2020-12-22T19:00:00+00:00",
+  "collecte_le": "2026-08-20T13:19:31.485194+00:00",
+  "mises_nettes": 21630.75,
+  "montant_distribue": 21630.75,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "001111010001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 58,
+      "winningsPerGrid": 186.47
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 742,
+      "winningsPerGrid": 14.58
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22651511,
+      "debut": "2020-12-22T19:00:00+00:00",
+      "home": "Grenoble",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1652",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22651503,
+      "debut": "2020-12-22T19:00:00+00:00",
+      "home": "Amiens",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1660",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 28,
+      "cote_N": 1.01,
+      "cote_2": 27
+    },
+    {
+      "match_id": 22651505,
+      "debut": "2020-12-22T19:00:00+00:00",
+      "home": "Caen",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1657",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22651507,
+      "debut": "2020-12-22T19:00:00+00:00",
+      "home": "Châteauroux",
+      "away": "Clermont",
+      "home_id": "sr:competitor:1666",
+      "away_id": "sr:competitor:1680",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 22,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22651515,
+      "debut": "2020-12-22T19:00:00+00:00",
+      "home": "Nancy",
+      "away": "Chambly",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:61612",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 17,
+      "cote_N": 1.01,
+      "cote_2": 24
+    },
+    {
+      "match_id": 22651517,
+      "debut": "2020-12-22T19:00:00+00:00",
+      "home": "Niort",
+      "away": "Valenciennes",
+      "home_id": "sr:competitor:1665",
+      "away_id": "sr:competitor:5061",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": 2.65,
+      "cote_N": 3.2,
+      "cote_2": 2.75
+    },
+    {
+      "match_id": 22651521,
+      "debut": "2020-12-22T19:00:00+00:00",
+      "home": "Pau",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1685",
+      "away_id": "sr:competitor:1681",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3678,
+  "grille_type": "grille7",
+  "pool_id": 7003678,
+  "titre": "Grille 7 n°3678",
+  "statut": "CLOSED",
+  "fin": "2025-04-08T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:28:17.973740+00:00",
+  "mises_nettes": 13903.5,
+  "montant_distribue": 13903.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 2317.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 65,
+      "winningsPerGrid": 106.95
+    }
+  ],
+  "repartition": [
+    814,
+    3670,
+    6241,
+    5063,
+    2172,
+    510,
+    65,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 51096477,
+      "debut": "2025-04-08T18:45:00+00:00",
+      "home": "Bristol City",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:8",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51096475,
+      "debut": "2025-04-08T18:45:00+00:00",
+      "home": "Blackburn",
+      "away": "Sheffield Wednesday",
+      "home_id": "sr:competitor:46",
+      "away_id": "sr:competitor:12",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51096485,
+      "debut": "2025-04-08T18:45:00+00:00",
+      "home": "Sheffield United",
+      "away": "Millwall",
+      "home_id": "sr:competitor:15",
+      "away_id": "sr:competitor:25",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51096481,
+      "debut": "2025-04-08T18:45:00+00:00",
+      "home": "Norwich",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:41",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58265369,
+      "debut": "2025-04-08T19:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:2829",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58265373,
+      "debut": "2025-04-08T19:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51096479,
+      "debut": "2025-04-08T19:00:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Leeds",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:34",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

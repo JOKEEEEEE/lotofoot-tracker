@@ -1,0 +1,136 @@
+{
+  "grille_id": 3011,
+  "grille_type": "grille7",
+  "pool_id": 7003011,
+  "titre": "Grille 7 n°3011",
+  "statut": "CLOSED",
+  "fin": "2023-08-22T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:28:38.249666+00:00",
+  "mises_nettes": 9254.25,
+  "montant_distribue": 9254.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 771.19
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 150,
+      "winningsPerGrid": 30.85
+    }
+  ],
+  "repartition": [
+    195,
+    1411,
+    3273,
+    3860,
+    2552,
+    892,
+    150,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 43029543,
+      "debut": "2023-08-22T19:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2952",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43102711,
+      "debut": "2023-08-22T19:00:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "AEK Athènes",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:3250",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43029537,
+      "debut": "2023-08-22T19:00:00+00:00",
+      "home": "Rakow Czestochowa",
+      "away": "FC Copenhague",
+      "home_id": "sr:competitor:35268",
+      "away_id": "sr:competitor:1284",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42849097,
+      "debut": "2023-08-22T22:00:00+00:00",
+      "home": "Bolivar",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:7059",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41678893,
+      "debut": "2023-08-23T01:00:00+00:00",
+      "home": "Guadalajara ",
+      "away": "Club Tijuana",
+      "home_id": "sr:competitor:1938",
+      "away_id": "sr:competitor:36525",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41678897,
+      "debut": "2023-08-23T01:00:00+00:00",
+      "home": "Mazatlán F.C.",
+      "away": "Puebla",
+      "home_id": "sr:competitor:1946",
+      "away_id": "sr:competitor:1941",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41678895,
+      "debut": "2023-08-23T03:05:00+00:00",
+      "home": "FC Juarez",
+      "away": "U.N.A.M.",
+      "home_id": "sr:competitor:215048",
+      "away_id": "sr:competitor:1933",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

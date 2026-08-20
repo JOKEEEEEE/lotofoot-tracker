@@ -1,0 +1,136 @@
+{
+  "grille_id": 3123,
+  "grille_type": "grille7",
+  "pool_id": 7003123,
+  "titre": "Grille 7 n°3123",
+  "statut": "CLOSED",
+  "fin": "2023-11-23T20:00:00+00:00",
+  "collecte_le": "2026-08-20T08:13:40.104722+00:00",
+  "mises_nettes": 3786,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 147.06
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 169,
+      "winningsPerGrid": 14.79
+    }
+  ],
+  "repartition": [
+    36,
+    306,
+    978,
+    1577,
+    1336,
+    629,
+    169,
+    17
+  ],
+  "matches": [
+    {
+      "match_id": 44694534,
+      "debut": "2023-11-23T20:00:00+00:00",
+      "home": "Chelsea (F)",
+      "away": "Paris FC (F)",
+      "home_id": "sr:competitor:66768",
+      "away_id": "sr:competitor:308650",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44694232,
+      "debut": "2023-11-23T20:00:00+00:00",
+      "home": "AS Roma (F)",
+      "away": "Ajax Amsterdam (F)",
+      "home_id": "sr:competitor:509432",
+      "away_id": "sr:competitor:178260",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38310927,
+      "debut": "2023-11-23T21:00:00+00:00",
+      "home": "Palestino",
+      "away": "Everton",
+      "home_id": "sr:competitor:3157",
+      "away_id": "sr:competitor:5032",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45223116,
+      "debut": "2023-11-23T22:00:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1958",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44892802,
+      "debut": "2023-11-24T00:30:00+00:00",
+      "home": "Flamengo",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1999",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45364056,
+      "debut": "2023-11-24T01:00:00+00:00",
+      "home": "Atletico San Luis",
+      "away": "Leon",
+      "home_id": "sr:competitor:1950",
+      "away_id": "sr:competitor:36534",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45364066,
+      "debut": "2023-11-24T03:10:00+00:00",
+      "home": "Santos Laguna",
+      "away": "Mazatlán F.C.",
+      "home_id": "sr:competitor:1948",
+      "away_id": "sr:competitor:1946",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

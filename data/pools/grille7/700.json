@@ -1,0 +1,127 @@
+{
+  "grille_id": 700,
+  "grille_type": "grille7",
+  "pool_id": 7000700,
+  "titre": "Grille 7 n°700",
+  "statut": "CLOSED",
+  "fin": "2017-10-23T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:52:39.214189+00:00",
+  "mises_nettes": 10809,
+  "montant_distribue": 10809,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100100010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 900.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 59,
+      "winningsPerGrid": 91.6
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12055228,
+      "debut": "2017-10-23T18:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2814",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971712,
+      "debut": "2017-10-23T18:00:00+00:00",
+      "home": "Moreirense",
+      "away": "Braga",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11915072,
+      "debut": "2017-10-23T18:30:00+00:00",
+      "home": "Sandhausen",
+      "away": "St. Pauli",
+      "home_id": "sr:competitor:6157",
+      "away_id": "sr:competitor:2526",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188320,
+      "debut": "2017-10-23T18:30:00+00:00",
+      "home": "Brescia",
+      "away": "Bari",
+      "home_id": "sr:competitor:2691",
+      "away_id": "sr:competitor:2712",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11836698,
+      "debut": "2017-10-23T18:45:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "GFC Ajaccio",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:7924",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055234,
+      "debut": "2017-10-23T19:00:00+00:00",
+      "home": "Deportivo La Corogne",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2832",
+      "away_id": "sr:competitor:24264",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971706,
+      "debut": "2017-10-23T20:00:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3026",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

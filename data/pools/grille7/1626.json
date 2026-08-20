@@ -1,0 +1,127 @@
+{
+  "grille_id": 1626,
+  "grille_type": "grille7",
+  "pool_id": 7001626,
+  "titre": "Grille 7 n°1626",
+  "statut": "CLOSED",
+  "fin": "2020-06-03T17:30:00+00:00",
+  "collecte_le": "2026-08-20T10:28:38.811611+00:00",
+  "mises_nettes": 12267.75,
+  "montant_distribue": 12267.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 766.74
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 255,
+      "winningsPerGrid": 24.05
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21985811,
+      "debut": "2020-06-03T17:30:00+00:00",
+      "home": "Hapoel Haifa",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:5201",
+      "away_id": "sr:competitor:5202",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21985833,
+      "debut": "2020-06-03T17:45:00+00:00",
+      "home": "Maccabi Tel-Aviv",
+      "away": "Maccabi Haifa",
+      "home_id": "sr:competitor:5198",
+      "away_id": "sr:competitor:5197",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085119,
+      "debut": "2020-06-03T18:00:00+00:00",
+      "home": "Portimonense",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:3026",
+      "away_id": "sr:competitor:3010",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22026513,
+      "debut": "2020-06-03T18:00:00+00:00",
+      "home": "Sparta Prague",
+      "away": "Teplice",
+      "home_id": "sr:competitor:2218",
+      "away_id": "sr:competitor:2208",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971221,
+      "debut": "2020-06-03T18:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2674",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22020177,
+      "debut": "2020-06-03T18:30:00+00:00",
+      "home": "Red Bull Salzbourg",
+      "away": "Rapid Vienne",
+      "home_id": "sr:competitor:2046",
+      "away_id": "sr:competitor:2055",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085123,
+      "debut": "2020-06-03T20:15:00+00:00",
+      "home": "Famalicao",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:3002",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1906,
+  "grille_type": "grille7",
+  "pool_id": 7001906,
+  "titre": "Grille 7 n°1906",
+  "statut": "CLOSED",
+  "fin": "2021-01-26T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:02:02.170800+00:00",
+  "mises_nettes": 17823,
+  "montant_distribue": 17823,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "001001001010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 348,
+      "winningsPerGrid": 25.61
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 2606,
+      "winningsPerGrid": 3.42
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 25385266,
+      "debut": "2021-01-26T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2692",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 36,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25455926,
+      "debut": "2021-01-26T19:45:00+00:00",
+      "home": "Braga",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3010",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 14.5,
+      "cote_2": 200
+    },
+    {
+      "match_id": 22870801,
+      "debut": "2021-01-26T20:00:00+00:00",
+      "home": "Groningue",
+      "away": "ADO La Haye",
+      "home_id": "sr:competitor:2951",
+      "away_id": "sr:competitor:2966",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23031383,
+      "debut": "2021-01-26T20:00:00+00:00",
+      "home": "Mouscron",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:44019",
+      "away_id": "sr:competitor:2900",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 7.75,
+      "cote_2": 70
+    },
+    {
+      "match_id": 23204169,
+      "debut": "2021-01-26T20:15:00+00:00",
+      "home": "West Bromwich",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23204175,
+      "debut": "2021-01-26T20:15:00+00:00",
+      "home": "Southampton",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23320307,
+      "debut": "2021-01-26T21:15:00+00:00",
+      "home": "Boavista",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3001",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3623,
+  "grille_type": "grille7",
+  "pool_id": 7003623,
+  "titre": "Grille 7 n°3623",
+  "statut": "CLOSED",
+  "fin": "2025-02-11T20:00:00+00:00",
+  "collecte_le": "2026-08-20T08:24:00.021867+00:00",
+  "mises_nettes": 10302,
+  "montant_distribue": 15000,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 222,
+      "winningsPerGrid": 33.78
+    }
+  ],
+  "repartition": [
+    271,
+    1354,
+    3333,
+    4216,
+    3108,
+    1217,
+    222,
+    15
+  ],
+  "matches": [
+    {
+      "match_id": 57684913,
+      "debut": "2025-02-11T20:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2829",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57684927,
+      "debut": "2025-02-11T20:00:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:2673",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57684907,
+      "debut": "2025-02-11T20:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2952",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51096271,
+      "debut": "2025-02-11T19:45:00+00:00",
+      "home": "Watford",
+      "away": "Leeds",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:34",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51096263,
+      "debut": "2025-02-11T20:00:00+00:00",
+      "home": "Norwich",
+      "away": "Preston North End",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:21",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51096267,
+      "debut": "2025-02-11T19:45:00+00:00",
+      "home": "Portsmouth",
+      "away": "Cardiff",
+      "home_id": "sr:competitor:2",
+      "away_id": "sr:competitor:61",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51096259,
+      "debut": "2025-02-11T19:45:00+00:00",
+      "home": "Coventry City",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:11",
+      "away_id": "sr:competitor:1",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

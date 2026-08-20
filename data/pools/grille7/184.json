@@ -1,0 +1,127 @@
+{
+  "grille_id": 184,
+  "grille_type": "grille7",
+  "pool_id": 7000184,
+  "titre": "Grille 7 n°184",
+  "statut": "CLOSED",
+  "fin": "2016-03-26T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:42:03.523641+00:00",
+  "mises_nettes": 5075.25,
+  "montant_distribue": 5075.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 26,
+      "winningsPerGrid": 97.6
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 252,
+      "winningsPerGrid": 10.07
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8697346,
+      "debut": "2016-03-26T19:00:00+00:00",
+      "home": "New York City FC",
+      "away": "New England Revolution",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:2511",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989432,
+      "debut": "2016-03-26T19:30:00+00:00",
+      "home": "Salernitana",
+      "away": "Bari",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2712",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693052,
+      "debut": "2016-03-26T19:30:00+00:00",
+      "home": "Bray",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3171",
+      "away_id": "sr:competitor:3190",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8570716,
+      "debut": "2016-03-26T19:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Angleterre",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4713",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693056,
+      "debut": "2016-03-26T20:00:00+00:00",
+      "home": "Finn Harps",
+      "away": "Longford Town",
+      "home_id": "sr:competitor:3181",
+      "away_id": "sr:competitor:3175",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697350,
+      "debut": "2016-03-26T21:30:00+00:00",
+      "home": "DC United",
+      "away": "FC Dallas",
+      "home_id": "sr:competitor:2502",
+      "away_id": "sr:competitor:2512",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697348,
+      "debut": "2016-03-27T02:00:00+00:00",
+      "home": "Vancouver",
+      "away": "Houston Dynamo",
+      "home_id": "sr:competitor:22010",
+      "away_id": "sr:competitor:2508",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

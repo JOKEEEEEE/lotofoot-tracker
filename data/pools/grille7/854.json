@@ -1,0 +1,127 @@
+{
+  "grille_id": 854,
+  "grille_type": "grille7",
+  "pool_id": 7000854,
+  "titre": "Grille 7 n°854",
+  "statut": "CLOSED",
+  "fin": "2018-03-31T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:41:14.530151+00:00",
+  "mises_nettes": 9111.75,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 27,
+      "winningsPerGrid": 185.19
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 308,
+      "winningsPerGrid": 16.23
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12055668,
+      "debut": "2018-03-31T18:45:00+00:00",
+      "home": "FC Séville",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2817",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090104,
+      "debut": "2018-03-31T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2692",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13699813,
+      "debut": "2018-03-31T19:05:00+00:00",
+      "home": "Paris SG",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1653",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11972060,
+      "debut": "2018-03-31T19:30:00+00:00",
+      "home": "Braga",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055652,
+      "debut": "2018-04-01T10:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Alaves",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2885",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830354,
+      "debut": "2018-04-01T12:30:00+00:00",
+      "home": "Arsenal",
+      "away": "Stoke City",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:29",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832904,
+      "debut": "2018-04-01T13:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1645",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

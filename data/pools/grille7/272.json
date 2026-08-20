@@ -1,0 +1,127 @@
+{
+  "grille_id": 272,
+  "grille_type": "grille7",
+  "pool_id": 7000272,
+  "titre": "Grille 7 n°272",
+  "statut": "CLOSED",
+  "fin": "2016-07-21T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:33:31.994561+00:00",
+  "mises_nettes": 4385.25,
+  "montant_distribue": 4385.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 548.16
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 106,
+      "winningsPerGrid": 20.69
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9730343,
+      "debut": "2016-07-21T18:00:00+00:00",
+      "home": "Shkendija Tetovo",
+      "away": "Neftchi Bakou",
+      "home_id": "sr:competitor:5413",
+      "away_id": "sr:competitor:5215",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9730365,
+      "debut": "2016-07-21T18:15:00+00:00",
+      "home": "Spartak Trnava",
+      "away": "FC Shirak Gyumri",
+      "home_id": "sr:competitor:2406",
+      "away_id": "sr:competitor:33817",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9730323,
+      "debut": "2016-07-21T18:30:00+00:00",
+      "home": "Cukaricki",
+      "away": "MOL Vidi FC",
+      "home_id": "sr:competitor:5148",
+      "away_id": "sr:competitor:1926",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9730353,
+      "debut": "2016-07-21T18:30:00+00:00",
+      "home": "Domzale",
+      "away": "Shakhtar Soligorsk",
+      "home_id": "sr:competitor:2418",
+      "away_id": "sr:competitor:3357",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9730317,
+      "debut": "2016-07-21T18:45:00+00:00",
+      "home": "Buducnost Podgorica",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:5143",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9730363,
+      "debut": "2016-07-21T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Dinamo Minsk",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3361",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9730371,
+      "debut": "2016-07-21T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "Häcken",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:1760",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 737,
+  "grille_type": "grille7",
+  "pool_id": 7000737,
+  "titre": "Grille 7 n°737",
+  "statut": "CLOSED",
+  "fin": "2017-11-30T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:49:42.528229+00:00",
+  "mises_nettes": 8705.25,
+  "montant_distribue": 8705.25,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 25,
+      "winningsPerGrid": 174.11
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 410,
+      "winningsPerGrid": 10.62
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12642710,
+      "debut": "2017-11-30T18:00:00+00:00",
+      "home": "Alaves",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2859",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12642708,
+      "debut": "2017-11-30T18:30:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2822",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12642692,
+      "debut": "2017-11-30T18:30:00+00:00",
+      "home": "Villarreal",
+      "away": "Ponferradina",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:6195",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12873538,
+      "debut": "2017-11-30T19:15:00+00:00",
+      "home": "FC Lugano",
+      "away": "Grasshopper Zurich",
+      "home_id": "sr:competitor:2443",
+      "away_id": "sr:competitor:2449",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12215512,
+      "debut": "2017-11-30T20:00:00+00:00",
+      "home": "Genoa",
+      "away": "Crotone",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2718",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12642694,
+      "debut": "2017-11-30T20:30:00+00:00",
+      "home": "Valence",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:2815",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12642704,
+      "debut": "2017-11-30T20:30:00+00:00",
+      "home": "Betis Séville",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:4488",
+      "score_home": 3,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

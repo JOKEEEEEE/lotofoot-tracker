@@ -1,0 +1,127 @@
+{
+  "grille_id": 57,
+  "grille_type": "grille7",
+  "pool_id": 7000057,
+  "titre": "Grille 7 n°57",
+  "statut": "CLOSED",
+  "fin": "2015-11-14T17:00:00+00:00",
+  "collecte_le": "2026-08-20T12:53:44.814521+00:00",
+  "mises_nettes": 4901.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 27,
+      "winningsPerGrid": 92.59
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 291,
+      "winningsPerGrid": 8.59
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7616320,
+      "debut": "2015-11-14T17:00:00+00:00",
+      "home": "Albacete",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:2848",
+      "away_id": "sr:competitor:2822",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616324,
+      "debut": "2015-11-14T17:00:00+00:00",
+      "home": "Alaves",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:24264",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7673756,
+      "debut": "2015-11-14T17:00:00+00:00",
+      "home": "Gabon",
+      "away": "Mozambique",
+      "home_id": "sr:competitor:4761",
+      "away_id": "sr:competitor:4783",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8240456,
+      "debut": "2015-11-14T17:00:00+00:00",
+      "home": "Ukraine",
+      "away": "Slovénie",
+      "home_id": "sr:competitor:4701",
+      "away_id": "sr:competitor:4484",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616326,
+      "debut": "2015-11-14T19:15:00+00:00",
+      "home": "Lugo",
+      "away": "Elche",
+      "home_id": "sr:competitor:24332",
+      "away_id": "sr:competitor:2846",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7988990,
+      "debut": "2015-11-14T19:30:00+00:00",
+      "home": "Modène",
+      "away": "Pro Vercelli ",
+      "home_id": "sr:competitor:2706",
+      "away_id": "sr:competitor:2769",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8240458,
+      "debut": "2015-11-14T19:45:00+00:00",
+      "home": "Suède",
+      "away": "Danemark",
+      "home_id": "sr:competitor:4688",
+      "away_id": "sr:competitor:4476",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

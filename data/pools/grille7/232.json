@@ -1,0 +1,127 @@
+{
+  "grille_id": 232,
+  "grille_type": "grille7",
+  "pool_id": 7000232,
+  "titre": "Grille 7 n°232",
+  "statut": "CLOSED",
+  "fin": "2016-05-25T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:36:54.078688+00:00",
+  "mises_nettes": 4909.5,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 147.06
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 167,
+      "winningsPerGrid": 14.97
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7482730,
+      "debut": "2016-05-25T18:30:00+00:00",
+      "home": "FC Lugano",
+      "away": "Saint-Gall",
+      "home_id": "sr:competitor:2443",
+      "away_id": "sr:competitor:2442",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7482732,
+      "debut": "2016-05-25T18:30:00+00:00",
+      "home": "Lucerne",
+      "away": "Sion",
+      "home_id": "sr:competitor:2453",
+      "away_id": "sr:competitor:2452",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7482734,
+      "debut": "2016-05-25T18:30:00+00:00",
+      "home": "Thoune",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:2454",
+      "away_id": "sr:competitor:2445",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7482736,
+      "debut": "2016-05-25T18:30:00+00:00",
+      "home": "FC Zurich",
+      "away": "Vaduz",
+      "home_id": "sr:competitor:2450",
+      "away_id": "sr:competitor:2463",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616934,
+      "debut": "2016-05-25T18:30:00+00:00",
+      "home": "Gimnastic Tarragone",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2840",
+      "away_id": "sr:competitor:2820",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616940,
+      "debut": "2016-05-25T18:30:00+00:00",
+      "home": "Llagostera",
+      "away": "Almeria",
+      "home_id": "sr:competitor:54127",
+      "away_id": "sr:competitor:2858",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616942,
+      "debut": "2016-05-25T18:30:00+00:00",
+      "home": "Mirandes",
+      "away": "Cordoue",
+      "home_id": "sr:competitor:35092",
+      "away_id": "sr:competitor:2850",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

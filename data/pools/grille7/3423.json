@@ -1,0 +1,136 @@
+{
+  "grille_id": 3423,
+  "grille_type": "grille7",
+  "pool_id": 7003423,
+  "titre": "Grille 7 n°3423",
+  "statut": "CLOSED",
+  "fin": "2024-08-10T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:52:35.616077+00:00",
+  "mises_nettes": 5313,
+  "montant_distribue": 5313,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 35,
+      "winningsPerGrid": 75.9
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 345,
+      "winningsPerGrid": 7.7
+    }
+  ],
+  "repartition": [
+    30,
+    168,
+    854,
+    2053,
+    2300,
+    1299,
+    345,
+    35
+  ],
+  "matches": [
+    {
+      "match_id": 51471805,
+      "debut": "2024-08-10T18:45:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Adana Demirspor",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:3101",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51471815,
+      "debut": "2024-08-10T18:45:00+00:00",
+      "home": "Antalyaspor",
+      "away": "Göztepe AS",
+      "home_id": "sr:competitor:3056",
+      "away_id": "sr:competitor:3054",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50714851,
+      "debut": "2024-08-10T18:45:00+00:00",
+      "home": "Anderlecht",
+      "away": "O-H Louvain",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2918",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214885,
+      "debut": "2024-08-10T19:00:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Criciuma ",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1984",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50603089,
+      "debut": "2024-08-10T19:00:00+00:00",
+      "home": "Istra 1961",
+      "away": "HNK Gorica",
+      "home_id": "sr:competitor:25529",
+      "away_id": "sr:competitor:43917",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655801,
+      "debut": "2024-08-10T19:30:00+00:00",
+      "home": "Rosario Central",
+      "away": "Newell's Old Boys",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:3212",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51383373,
+      "debut": "2024-08-10T19:30:00+00:00",
+      "home": "FC Porto",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3010",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

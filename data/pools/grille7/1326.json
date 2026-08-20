@@ -1,0 +1,127 @@
+{
+  "grille_id": 1326,
+  "grille_type": "grille7",
+  "pool_id": 7001326,
+  "titre": "Grille 7 n°1326",
+  "statut": "CLOSED",
+  "fin": "2019-07-27T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:58:30.539985+00:00",
+  "mises_nettes": 7642.5,
+  "montant_distribue": 7642.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 318.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 136,
+      "winningsPerGrid": 28.1
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18600384,
+      "debut": "2019-07-27T18:00:00+00:00",
+      "home": "Saint-Trond",
+      "away": "Mouscron",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:44019",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18600386,
+      "debut": "2019-07-27T18:00:00+00:00",
+      "home": "Zulte Waregem",
+      "away": "Malines",
+      "home_id": "sr:competitor:2933",
+      "away_id": "sr:competitor:5044",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18583100,
+      "debut": "2019-07-27T18:00:00+00:00",
+      "home": "CFR Cluj",
+      "away": "Dinamo Bucarest",
+      "home_id": "sr:competitor:5287",
+      "away_id": "sr:competitor:3292",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18600388,
+      "debut": "2019-07-27T18:30:00+00:00",
+      "home": "Waasland-Beveren",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:4859",
+      "away_id": "sr:competitor:2888",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723242,
+      "debut": "2019-07-27T18:30:00+00:00",
+      "home": "San Lorenzo",
+      "away": "Godoy Cruz",
+      "home_id": "sr:competitor:3201",
+      "away_id": "sr:competitor:6074",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18433390,
+      "debut": "2019-07-27T19:00:00+00:00",
+      "home": "Lokomotiva Zagreb",
+      "away": "Rijeka",
+      "home_id": "sr:competitor:36246",
+      "away_id": "sr:competitor:2039",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789022,
+      "debut": "2019-07-27T20:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1974",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

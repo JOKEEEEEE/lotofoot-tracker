@@ -1,0 +1,127 @@
+{
+  "grille_id": 1869,
+  "grille_type": "grille7",
+  "pool_id": 7001869,
+  "titre": "Grille 7 n°1869",
+  "statut": "CLOSED",
+  "fin": "2020-12-24T13:00:00+00:00",
+  "collecte_le": "2026-08-20T10:07:11.047822+00:00",
+  "mises_nettes": 7082.25,
+  "montant_distribue": 7082.25,
+  "montant_garanti": 2500,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 25,
+      "winningsPerGrid": 141.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 271,
+      "winningsPerGrid": 13.07
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23300777,
+      "debut": "2020-12-24T13:00:00+00:00",
+      "home": "Sivasspor",
+      "away": "Genclerbirligi",
+      "home_id": "sr:competitor:3076",
+      "away_id": "sr:competitor:7802",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23300785,
+      "debut": "2020-12-24T13:00:00+00:00",
+      "home": "Kayserispor",
+      "away": "Konyaspor",
+      "home_id": "sr:competitor:3072",
+      "away_id": "sr:competitor:3085",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 34,
+      "cote_N": 1.02,
+      "cote_2": 13
+    },
+    {
+      "match_id": 22628423,
+      "debut": "2020-12-24T14:00:00+00:00",
+      "home": "Doxa Katokopias",
+      "away": "Olympiakos Nicosia",
+      "home_id": "sr:competitor:6973",
+      "away_id": "sr:competitor:3401",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 19,
+      "cote_N": 1.09,
+      "cote_2": 5.4
+    },
+    {
+      "match_id": 23300775,
+      "debut": "2020-12-24T16:00:00+00:00",
+      "home": "Rizespor",
+      "away": "Antalyaspor",
+      "home_id": "sr:competitor:3064",
+      "away_id": "sr:competitor:3056",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 17,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23300789,
+      "debut": "2020-12-24T16:00:00+00:00",
+      "home": "MKE Ankaragücü",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:3103",
+      "away_id": "sr:competitor:3050",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 34,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23035657,
+      "debut": "2020-12-24T18:00:00+00:00",
+      "home": "Maccabi Tel-Aviv",
+      "away": "Ironi Kiryat Shmona",
+      "home_id": "sr:competitor:5198",
+      "away_id": "sr:competitor:5399",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 7,
+      "cote_N": 1.04,
+      "cote_2": 24
+    },
+    {
+      "match_id": 23035653,
+      "debut": "2020-12-24T18:45:00+00:00",
+      "home": "Hapoel Kfar Saba",
+      "away": "Beitar Trump Jerusalem",
+      "home_id": "sr:competitor:5200",
+      "away_id": "sr:competitor:5204",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 13.5,
+      "cote_N": 1.06,
+      "cote_2": 7
+    }
+  ]
+}

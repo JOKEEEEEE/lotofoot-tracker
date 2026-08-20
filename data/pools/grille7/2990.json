@@ -1,0 +1,136 @@
+{
+  "grille_id": 2990,
+  "grille_type": "grille7",
+  "pool_id": 7002990,
+  "titre": "Grille 7 n°2990",
+  "statut": "CLOSED",
+  "fin": "2023-08-04T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:32:11.578711+00:00",
+  "mises_nettes": 6163.5,
+  "montant_distribue": 6163.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 25,
+      "winningsPerGrid": 123.27
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 265,
+      "winningsPerGrid": 11.63
+    }
+  ],
+  "repartition": [
+    75,
+    660,
+    1829,
+    2406,
+    1939,
+    1019,
+    265,
+    25
+  ],
+  "matches": [
+    {
+      "match_id": 41736625,
+      "debut": "2023-08-04T18:00:00+00:00",
+      "home": "Lokomotiva Zagreb",
+      "away": "NK Varazdin",
+      "home_id": "sr:competitor:36246",
+      "away_id": "sr:competitor:282653",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41753853,
+      "debut": "2023-08-04T18:15:00+00:00",
+      "home": "Botev Plovdiv",
+      "away": "FC Arda Kardzhali",
+      "home_id": "sr:competitor:5241",
+      "away_id": "sr:competitor:364786",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41755103,
+      "debut": "2023-08-04T18:30:00+00:00",
+      "home": "LKS Lodz",
+      "away": "Korona Kielce",
+      "home_id": "sr:competitor:3123",
+      "away_id": "sr:competitor:5065",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144913,
+      "debut": "2023-08-04T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3180",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144921,
+      "debut": "2023-08-04T18:45:00+00:00",
+      "home": "Sligo Rovers",
+      "away": "St Patricks",
+      "home_id": "sr:competitor:3190",
+      "away_id": "sr:competitor:3169",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893693,
+      "debut": "2023-08-04T18:45:00+00:00",
+      "home": "Standard Liège",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:4860",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41887585,
+      "debut": "2023-08-04T19:00:00+00:00",
+      "home": "Sheffield Wednesday",
+      "away": "Southampton",
+      "home_id": "sr:competitor:12",
+      "away_id": "sr:competitor:45",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

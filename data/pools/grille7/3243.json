@@ -1,0 +1,136 @@
+{
+  "grille_id": 3243,
+  "grille_type": "grille7",
+  "pool_id": 7003243,
+  "titre": "Grille 7 n°3243",
+  "statut": "CLOSED",
+  "fin": "2024-02-29T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:05:28.144900+00:00",
+  "mises_nettes": 8514,
+  "montant_distribue": 8514,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 44,
+      "winningsPerGrid": 96.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 377,
+      "winningsPerGrid": 11.29
+    }
+  ],
+  "repartition": [
+    83,
+    494,
+    2003,
+    3501,
+    3279,
+    1571,
+    377,
+    44
+  ],
+  "matches": [
+    {
+      "match_id": 47648175,
+      "debut": "2024-02-29T19:45:00+00:00",
+      "home": "Le Puy",
+      "away": "Rennes",
+      "home_id": "sr:competitor:181754",
+      "away_id": "sr:competitor:1658",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47280805,
+      "debut": "2024-02-29T19:45:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Ostende",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:4494",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47297441,
+      "debut": "2024-02-29T20:30:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2836",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47648599,
+      "debut": "2024-02-29T20:45:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3006",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655503,
+      "debut": "2024-02-29T22:00:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "Instituto AC Cordoba",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:4937",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655499,
+      "debut": "2024-03-01T00:15:00+00:00",
+      "home": "Independiente Rivadavia De Mendoza",
+      "away": "Club Atletico Barracas Central",
+      "home_id": "sr:competitor:36842",
+      "away_id": "sr:competitor:65668",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655505,
+      "debut": "2024-03-01T00:15:00+00:00",
+      "home": "Huracan",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:7629",
+      "away_id": "sr:competitor:3217",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 311,
+  "grille_type": "grille7",
+  "pool_id": 7000311,
+  "titre": "Grille 7 n°311",
+  "statut": "CLOSED",
+  "fin": "2016-08-30T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:29:03.914443+00:00",
+  "mises_nettes": 4862.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 833.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 57,
+      "winningsPerGrid": 43.86
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9654519,
+      "debut": "2016-08-30T18:45:00+00:00",
+      "home": "Bala Town",
+      "away": "Carmarthen",
+      "home_id": "sr:competitor:36255",
+      "away_id": "sr:competitor:4911",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9654523,
+      "debut": "2016-08-30T18:45:00+00:00",
+      "home": "Llandudno FC",
+      "away": "Airbus UK Broughton",
+      "home_id": "sr:competitor:37086",
+      "away_id": "sr:competitor:4907",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9983773,
+      "debut": "2016-08-30T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3170",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9998559,
+      "debut": "2016-08-31T18:30:00+00:00",
+      "home": "Turquie",
+      "away": "Russie",
+      "home_id": "sr:competitor:4700",
+      "away_id": "sr:competitor:4694",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9654521,
+      "debut": "2016-08-31T18:45:00+00:00",
+      "home": "Cardiff Metropolitan University",
+      "away": "The New Saints",
+      "home_id": "sr:competitor:167106",
+      "away_id": "sr:competitor:4921",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9654525,
+      "debut": "2016-08-31T18:45:00+00:00",
+      "home": "Bangor",
+      "away": "Newtown",
+      "home_id": "sr:competitor:4908",
+      "away_id": "sr:competitor:4918",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9654529,
+      "debut": "2016-08-31T18:45:00+00:00",
+      "home": "Rhyl",
+      "away": "Aberystwyth",
+      "home_id": "sr:competitor:4914",
+      "away_id": "sr:competitor:4905",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1350,
+  "grille_type": "grille7",
+  "pool_id": 7001350,
+  "titre": "Grille 7 n°1350",
+  "statut": "CLOSED",
+  "fin": "2019-08-20T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:56:33.606641+00:00",
+  "mises_nettes": 13447.5,
+  "montant_distribue": 13447.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 840.47
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 120,
+      "winningsPerGrid": 56.03
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18489876,
+      "debut": "2019-08-20T18:45:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Wigan",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:49",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18489872,
+      "debut": "2019-08-20T18:45:00+00:00",
+      "home": "Derby County",
+      "away": "Bristol City",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:58",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18489874,
+      "debut": "2019-08-20T18:45:00+00:00",
+      "home": "Hull City",
+      "away": "Blackburn",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:46",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18489878,
+      "debut": "2019-08-20T18:45:00+00:00",
+      "home": "Sheffield Wednesday",
+      "away": "Luton Town",
+      "home_id": "sr:competitor:12",
+      "away_id": "sr:competitor:72",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19116986,
+      "debut": "2019-08-20T19:00:00+00:00",
+      "home": "LASK Linz",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:2058",
+      "away_id": "sr:competitor:2888",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19117002,
+      "debut": "2019-08-20T19:00:00+00:00",
+      "home": "CFR Cluj",
+      "away": "Slavia Prague",
+      "home_id": "sr:competitor:5287",
+      "away_id": "sr:competitor:2216",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19117010,
+      "debut": "2019-08-20T19:00:00+00:00",
+      "home": "APOEL Nicosie",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:3398",
+      "away_id": "sr:competitor:2953",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

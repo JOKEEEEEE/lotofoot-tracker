@@ -1,0 +1,136 @@
+{
+  "grille_id": 3392,
+  "grille_type": "grille7",
+  "pool_id": 7003392,
+  "titre": "Grille 7 n°3392",
+  "statut": "CLOSED",
+  "fin": "2024-07-10T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:54:45.086568+00:00",
+  "mises_nettes": 4903.5,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100001100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 72,
+      "winningsPerGrid": 34.72
+    }
+  ],
+  "repartition": [
+    171,
+    849,
+    1796,
+    2045,
+    1189,
+    411,
+    72,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 45843699,
+      "debut": "2024-07-10T19:00:00+00:00",
+      "home": "Pays-Bas",
+      "away": "Angleterre",
+      "home_id": "sr:competitor:4705",
+      "away_id": "sr:competitor:4713",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50853049,
+      "debut": "2024-07-10T18:45:00+00:00",
+      "home": "Dinamo Minsk",
+      "away": "Pyunik Yerevan",
+      "home_id": "sr:competitor:3361",
+      "away_id": "sr:competitor:5214",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852917,
+      "debut": "2024-07-10T19:00:00+00:00",
+      "home": "Borac Banja Luka",
+      "away": "Egnatia Rrogozhine",
+      "home_id": "sr:competitor:5235",
+      "away_id": "sr:competitor:372056",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214751,
+      "debut": "2024-07-10T21:30:00+00:00",
+      "home": "Grêmio",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:1954",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214759,
+      "debut": "2024-07-10T22:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:1957",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214765,
+      "debut": "2024-07-10T22:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:1955",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45994275,
+      "debut": "2024-07-11T00:00:00+00:00",
+      "home": "Uruguay",
+      "away": "Colombie",
+      "home_id": "sr:competitor:4725",
+      "away_id": "sr:competitor:4820",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

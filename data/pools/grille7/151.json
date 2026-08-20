@@ -1,0 +1,127 @@
+{
+  "grille_id": 151,
+  "grille_type": "grille7",
+  "pool_id": 7000151,
+  "titre": "Grille 7 n°151",
+  "statut": "CLOSED",
+  "fin": "2016-02-20T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:45:13.842909+00:00",
+  "mises_nettes": 9960.75,
+  "montant_distribue": 9960.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 47,
+      "winningsPerGrid": 105.97
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 472,
+      "winningsPerGrid": 10.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7473914,
+      "debut": "2016-02-20T19:00:00+00:00",
+      "home": "Monaco",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1652",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473912,
+      "debut": "2016-02-20T19:00:00+00:00",
+      "home": "Angers",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1642",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473930,
+      "debut": "2016-02-20T19:00:00+00:00",
+      "home": "Toulouse",
+      "away": "GFC Ajaccio",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:7924",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473918,
+      "debut": "2016-02-20T19:00:00+00:00",
+      "home": "Lorient",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1654",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610648,
+      "debut": "2016-02-20T19:30:00+00:00",
+      "home": "Betis Séville",
+      "away": "Gijon",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2852",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689134,
+      "debut": "2016-02-20T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2711",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610634,
+      "debut": "2016-02-20T21:05:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2839",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

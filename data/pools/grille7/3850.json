@@ -1,0 +1,136 @@
+{
+  "grille_id": 3850,
+  "grille_type": "grille7",
+  "pool_id": 7003850,
+  "titre": "Grille 7 n°3850",
+  "statut": "CLOSED",
+  "fin": "2025-09-25T19:00:00+00:00",
+  "collecte_le": "2026-08-20T06:59:25.402146+00:00",
+  "mises_nettes": 13579.5,
+  "montant_distribue": 13579.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 35,
+      "winningsPerGrid": 193.99
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 469,
+      "winningsPerGrid": 14.48
+    }
+  ],
+  "repartition": [
+    154,
+    1162,
+    3270,
+    5338,
+    5266,
+    2412,
+    469,
+    35
+  ],
+  "matches": [
+    {
+      "match_id": 63377783,
+      "debut": "2025-09-25T19:00:00+00:00",
+      "home": "Utrecht",
+      "away": "Lyon",
+      "home_id": "sr:competitor:2948",
+      "away_id": "sr:competitor:1649",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377773,
+      "debut": "2025-09-25T19:00:00+00:00",
+      "home": "Aston Villa",
+      "away": "Bologne",
+      "home_id": "sr:competitor:40",
+      "away_id": "sr:competitor:2685",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377779,
+      "debut": "2025-09-25T19:00:00+00:00",
+      "home": "Red Bull Salzbourg",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:2046",
+      "away_id": "sr:competitor:3002",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377781,
+      "debut": "2025-09-25T19:00:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2821",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377777,
+      "debut": "2025-09-25T19:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Genk",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2890",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377785,
+      "debut": "2025-09-25T19:00:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Panathinaïkos FC",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:3248",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377775,
+      "debut": "2025-09-25T19:00:00+00:00",
+      "home": "Ferencvaros",
+      "away": "Viktoria Plzen",
+      "home_id": "sr:competitor:1925",
+      "away_id": "sr:competitor:4502",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

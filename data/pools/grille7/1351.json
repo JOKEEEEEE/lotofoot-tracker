@@ -1,0 +1,127 @@
+{
+  "grille_id": 1351,
+  "grille_type": "grille7",
+  "pool_id": 7001351,
+  "titre": "Grille 7 n°1351",
+  "statut": "CLOSED",
+  "fin": "2019-08-21T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:56:24.533962+00:00",
+  "mises_nettes": 13290.75,
+  "montant_distribue": 13290.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 139,
+      "winningsPerGrid": 47.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1081,
+      "winningsPerGrid": 6.15
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18489886,
+      "debut": "2019-08-21T18:45:00+00:00",
+      "home": "Leeds",
+      "away": "Brentford",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:50",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18489884,
+      "debut": "2019-08-21T18:45:00+00:00",
+      "home": "Fulham",
+      "away": "Millwall",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:25",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18489890,
+      "debut": "2019-08-21T18:45:00+00:00",
+      "home": "Queens Park Rangers",
+      "away": "Swansea",
+      "home_id": "sr:competitor:1",
+      "away_id": "sr:competitor:74",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18489880,
+      "debut": "2019-08-21T18:45:00+00:00",
+      "home": "Cardiff",
+      "away": "Huddersfield",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:59",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19117014,
+      "debut": "2019-08-21T19:00:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "Rosenborg",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:1161",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19117020,
+      "debut": "2019-08-21T19:00:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Etoile Rouge de Belgrade",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:5149",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19117028,
+      "debut": "2019-08-21T19:00:00+00:00",
+      "home": "Olympiakos",
+      "away": "FK Krasnodar",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:34425",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

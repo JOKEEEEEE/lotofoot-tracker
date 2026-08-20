@@ -1,0 +1,127 @@
+{
+  "grille_id": 1310,
+  "grille_type": "grille7",
+  "pool_id": 7001310,
+  "titre": "Grille 7 n°1310",
+  "statut": "CLOSED",
+  "fin": "2019-07-11T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:59:17.767653+00:00",
+  "mises_nettes": 7599,
+  "montant_distribue": 7599,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 422.17
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 123,
+      "winningsPerGrid": 30.89
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18471096,
+      "debut": "2019-07-11T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Norrköping",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:1769",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18646312,
+      "debut": "2019-07-11T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "Niedercorn",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:36201",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18078345,
+      "debut": "2019-07-11T19:00:00+00:00",
+      "home": "Madagascar",
+      "away": "Tunisie",
+      "home_id": "sr:competitor:8035",
+      "away_id": "sr:competitor:4729",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18470978,
+      "debut": "2019-07-11T19:00:00+00:00",
+      "home": "Budapest Honved",
+      "away": "Zalgiris Vilnius",
+      "home_id": "sr:competitor:1916",
+      "away_id": "sr:competitor:5345",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18470986,
+      "debut": "2019-07-11T19:00:00+00:00",
+      "home": "NK Siroki Brijeg",
+      "away": "Kairat",
+      "home_id": "sr:competitor:5239",
+      "away_id": "sr:competitor:5172",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18470930,
+      "debut": "2019-07-11T20:00:00+00:00",
+      "home": "Breidablik",
+      "away": "Vaduz",
+      "home_id": "sr:competitor:1901",
+      "away_id": "sr:competitor:2463",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18470994,
+      "debut": "2019-07-11T20:00:00+00:00",
+      "home": "Stjarnan",
+      "away": "Levadia Tallinn",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:3342",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

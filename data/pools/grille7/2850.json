@@ -1,0 +1,136 @@
+{
+  "grille_id": 2850,
+  "grille_type": "grille7",
+  "pool_id": 7002850,
+  "titre": "Grille 7 n°2850",
+  "statut": "CLOSED",
+  "fin": "2023-03-29T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:42:56.278053+00:00",
+  "mises_nettes": 4326,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001010010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 625
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 54,
+      "winningsPerGrid": 46.3
+    }
+  ],
+  "repartition": [
+    179,
+    888,
+    1696,
+    1648,
+    973,
+    326,
+    54,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 39292057,
+      "debut": "2023-03-29T19:00:00+00:00",
+      "home": "Arsenal (F)",
+      "away": "Bayern Munich (F)",
+      "home_id": "sr:competitor:26243",
+      "away_id": "sr:competitor:5543",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40029221,
+      "debut": "2023-03-30T01:00:00+00:00",
+      "home": "Tolima",
+      "away": "Millonarios ",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6117",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38927913,
+      "debut": "2023-03-30T03:05:00+00:00",
+      "home": "Querétaro",
+      "away": "Cruz Azul",
+      "home_id": "sr:competitor:1951",
+      "away_id": "sr:competitor:1947",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39292063,
+      "debut": "2023-03-30T16:45:00+00:00",
+      "home": "Wolfsburg (F)",
+      "away": "Paris SG (F)",
+      "home_id": "sr:competitor:5556",
+      "away_id": "sr:competitor:55505",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39292061,
+      "debut": "2023-03-30T19:00:00+00:00",
+      "home": "Chelsea (F)",
+      "away": "Lyon (F)",
+      "home_id": "sr:competitor:66768",
+      "away_id": "sr:competitor:26245",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545847,
+      "debut": "2023-03-30T23:00:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:3208",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545825,
+      "debut": "2023-03-31T00:30:00+00:00",
+      "home": "Argentinos Juniors",
+      "away": "Godoy Cruz",
+      "home_id": "sr:competitor:3216",
+      "away_id": "sr:competitor:6074",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

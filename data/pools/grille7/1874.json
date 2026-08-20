@@ -1,0 +1,127 @@
+{
+  "grille_id": 1874,
+  "grille_type": "grille7",
+  "pool_id": 7001874,
+  "titre": "Grille 7 n°1874",
+  "statut": "CLOSED",
+  "fin": "2020-12-30T18:15:00+00:00",
+  "collecte_le": "2026-08-20T10:06:46.159548+00:00",
+  "mises_nettes": 17100,
+  "montant_distribue": 17100,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010100100100111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 63,
+      "winningsPerGrid": 135.71
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 607,
+      "winningsPerGrid": 14.09
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23204097,
+      "debut": "2020-12-30T18:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Fulham",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:43",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": 1.56,
+      "cote_N": 4.5,
+      "cote_2": 7
+    },
+    {
+      "match_id": 23360621,
+      "debut": "2020-12-30T18:15:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 13.5,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360625,
+      "debut": "2020-12-30T18:15:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:24265",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 34,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25032440,
+      "debut": "2020-12-30T19:45:00+00:00",
+      "home": "Saint-Trond",
+      "away": "Kfco Beerschot-Wilrijk",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:169260",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 11,
+      "cote_2": 100
+    },
+    {
+      "match_id": 23204093,
+      "debut": "2020-12-30T20:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 34,
+      "cote_N": 1.06,
+      "cote_2": 10
+    },
+    {
+      "match_id": 23216797,
+      "debut": "2020-12-30T20:00:00+00:00",
+      "home": "Swansea",
+      "away": "Reading",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:28",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 16,
+      "cote_N": 1.01,
+      "cote_2": 27
+    },
+    {
+      "match_id": 23360637,
+      "debut": "2020-12-30T20:30:00+00:00",
+      "home": "Elche",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2846",
+      "away_id": "sr:competitor:2829",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 34,
+      "cote_N": 1.05,
+      "cote_2": 10
+    }
+  ]
+}

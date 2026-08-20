@@ -1,0 +1,136 @@
+{
+  "grille_id": 4144,
+  "grille_type": "grille7",
+  "pool_id": 7004144,
+  "titre": "Grille 7 n°4144",
+  "statut": "CLOSED",
+  "fin": "2026-07-22T17:00:00+00:00",
+  "collecte_le": "2026-08-20T05:50:43.830190+00:00",
+  "mises_nettes": 3974.25,
+  "montant_distribue": 3974.25,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 496.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 69,
+      "winningsPerGrid": 28.8
+    }
+  ],
+  "repartition": [
+    75,
+    481,
+    1294,
+    1703,
+    1232,
+    441,
+    69,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 72176814,
+      "debut": "2026-07-22T17:00:00+00:00",
+      "home": "Omónia Nicosie",
+      "away": "Kairat",
+      "home_id": "sr:competitor:3395",
+      "away_id": "sr:competitor:5172",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.54,
+      "cote_N": 3.55,
+      "cote_2": 5.2
+    },
+    {
+      "match_id": 72176810,
+      "debut": "2026-07-22T17:30:00+00:00",
+      "home": "Levski Sofia",
+      "away": "CS Universitatea Craiova",
+      "home_id": "sr:competitor:3273",
+      "away_id": "sr:competitor:116223",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.2,
+      "cote_N": 3.05,
+      "cote_2": 3.05
+    },
+    {
+      "match_id": 72180090,
+      "debut": "2026-07-22T17:45:00+00:00",
+      "home": "Istanbul Basaksehir",
+      "away": "Inter Turku",
+      "home_id": "sr:competitor:3086",
+      "away_id": "sr:competitor:2247",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.24,
+      "cote_N": 5.6,
+      "cote_2": 8.5
+    },
+    {
+      "match_id": 72868372,
+      "debut": "2026-07-22T18:00:00+00:00",
+      "home": "Vardar Skopje",
+      "away": "Riga FC",
+      "home_id": "sr:competitor:5403",
+      "away_id": "sr:competitor:162368",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 3,
+      "cote_N": 3.45,
+      "cote_2": 1.96
+    },
+    {
+      "match_id": 72180342,
+      "debut": "2026-07-22T18:30:00+00:00",
+      "home": "Spartak Trnava",
+      "away": "FC CSKA 1948",
+      "home_id": "sr:competitor:2406",
+      "away_id": "sr:competitor:288687",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.1,
+      "cote_N": 3.15,
+      "cote_2": 2.85
+    },
+    {
+      "match_id": 72180294,
+      "debut": "2026-07-22T19:00:00+00:00",
+      "home": "Železničar",
+      "away": "Braga",
+      "home_id": "sr:competitor:425695",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 9,
+      "cote_N": 5.3,
+      "cote_2": 1.24
+    },
+    {
+      "match_id": 72176850,
+      "debut": "2026-07-22T19:00:00+00:00",
+      "home": "Egnatia Rrogozhine",
+      "away": "Celje",
+      "home_id": "sr:competitor:372056",
+      "away_id": "sr:competitor:2413",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 3.25,
+      "cote_N": 3.3,
+      "cote_2": 1.9
+    }
+  ]
+}

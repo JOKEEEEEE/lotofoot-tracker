@@ -1,0 +1,127 @@
+{
+  "grille_id": 590,
+  "grille_type": "grille7",
+  "pool_id": 7000590,
+  "titre": "Grille 7 n°590",
+  "statut": "CLOSED",
+  "fin": "2017-06-28T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:02:04.560534+00:00",
+  "mises_nettes": 3751.5,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 153.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 150,
+      "winningsPerGrid": 13.33
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11891936,
+      "debut": "2017-06-28T18:00:00+00:00",
+      "home": "Portugal",
+      "away": "Chili",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4754",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854538,
+      "debut": "2017-06-28T18:45:00+00:00",
+      "home": "Linfield",
+      "away": "SP La Fiorita",
+      "home_id": "sr:competitor:5272",
+      "away_id": "sr:competitor:37860",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11855016,
+      "debut": "2017-06-29T12:00:00+00:00",
+      "home": "FC Shirak Gyumri",
+      "away": "Gorica",
+      "home_id": "sr:competitor:33817",
+      "away_id": "sr:competitor:2409",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854904,
+      "debut": "2017-06-29T14:00:00+00:00",
+      "home": "I. Pavlodar",
+      "away": "FC Dunav Ruse",
+      "home_id": "sr:competitor:5365",
+      "away_id": "sr:competitor:3286",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854868,
+      "debut": "2017-06-29T15:00:00+00:00",
+      "home": "Ventspils",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:5354",
+      "away_id": "sr:competitor:1899",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11855030,
+      "debut": "2017-06-29T15:00:00+00:00",
+      "home": "Partizani Tirana",
+      "away": "Botev Plovdiv",
+      "home_id": "sr:competitor:5222",
+      "away_id": "sr:competitor:5241",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11855048,
+      "debut": "2017-06-29T15:00:00+00:00",
+      "home": "Pyunik Yerevan",
+      "away": "Slovan Bratislava",
+      "home_id": "sr:competitor:5214",
+      "away_id": "sr:competitor:2404",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

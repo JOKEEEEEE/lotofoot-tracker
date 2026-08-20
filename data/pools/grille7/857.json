@@ -1,0 +1,127 @@
+{
+  "grille_id": 857,
+  "grille_type": "grille7",
+  "pool_id": 7000857,
+  "titre": "Grille 7 n°857",
+  "statut": "CLOSED",
+  "fin": "2018-04-03T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:41:08.986253+00:00",
+  "mises_nettes": 14478.75,
+  "montant_distribue": 14478.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 49,
+      "winningsPerGrid": 147.74
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 611,
+      "winningsPerGrid": 11.85
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14088655,
+      "debut": "2018-04-03T18:45:00+00:00",
+      "home": "FC Séville",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14088659,
+      "debut": "2018-04-03T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868926,
+      "debut": "2018-04-03T18:45:00+00:00",
+      "home": "Aston Villa",
+      "away": "Reading",
+      "home_id": "sr:competitor:40",
+      "away_id": "sr:competitor:28",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868934,
+      "debut": "2018-04-03T18:45:00+00:00",
+      "home": "Fulham",
+      "away": "Leeds",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:34",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868948,
+      "debut": "2018-04-03T18:45:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Hull City",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:96",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13927779,
+      "debut": "2018-04-03T18:45:00+00:00",
+      "home": "Hibernian FC",
+      "away": "Hamilton",
+      "home_id": "sr:competitor:2354",
+      "away_id": "sr:competitor:2376",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868928,
+      "debut": "2018-04-03T19:00:00+00:00",
+      "home": "Bolton",
+      "away": "Birmingham",
+      "home_id": "sr:competitor:5",
+      "away_id": "sr:competitor:9",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

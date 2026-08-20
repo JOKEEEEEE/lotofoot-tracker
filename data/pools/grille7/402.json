@@ -1,0 +1,127 @@
+{
+  "grille_id": 402,
+  "grille_type": "grille7",
+  "pool_id": 7000402,
+  "titre": "Grille 7 n°402",
+  "statut": "CLOSED",
+  "fin": "2016-12-05T19:15:00+00:00",
+  "collecte_le": "2026-08-20T12:21:19.951532+00:00",
+  "mises_nettes": 8716.5,
+  "montant_distribue": 8716.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 22,
+      "winningsPerGrid": 198.1
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 321,
+      "winningsPerGrid": 13.58
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9691029,
+      "debut": "2016-12-05T19:15:00+00:00",
+      "home": "Union Berlin",
+      "away": "Eintracht Brunswick",
+      "home_id": "sr:competitor:2547",
+      "away_id": "sr:competitor:2557",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9914287,
+      "debut": "2016-12-05T19:30:00+00:00",
+      "home": "Benevento",
+      "away": "Cesena",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:2742",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769431,
+      "debut": "2016-12-05T19:45:00+00:00",
+      "home": "Deportivo La Corogne",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2832",
+      "away_id": "sr:competitor:2824",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821197,
+      "debut": "2016-12-05T20:00:00+00:00",
+      "home": "Udinese",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2695",
+      "away_id": "sr:competitor:2685",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600009,
+      "debut": "2016-12-05T20:00:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Hull City",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:96",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788783,
+      "debut": "2016-12-05T20:00:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:2995",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9934999,
+      "debut": "2016-12-05T22:00:00+00:00",
+      "home": "Arsenal Sarandi",
+      "away": "San Martin De San Juan",
+      "home_id": "sr:competitor:3221",
+      "away_id": "sr:competitor:7772",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

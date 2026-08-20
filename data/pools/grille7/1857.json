@@ -1,0 +1,127 @@
+{
+  "grille_id": 1857,
+  "grille_type": "grille7",
+  "pool_id": 7001857,
+  "titre": "Grille 7 n°1857",
+  "statut": "CLOSED",
+  "fin": "2020-12-14T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:08:06.023806+00:00",
+  "mises_nettes": 10611,
+  "montant_distribue": 10611,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010111100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 55,
+      "winningsPerGrid": 96.46
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 525,
+      "winningsPerGrid": 10.11
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22943469,
+      "debut": "2020-12-14T18:00:00+00:00",
+      "home": "Odense",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:1286",
+      "away_id": "sr:competitor:1289",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 34,
+      "cote_N": 1,
+      "cote_2": 15
+    },
+    {
+      "match_id": 23362579,
+      "debut": "2020-12-14T18:00:00+00:00",
+      "home": "Gérone",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2818",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 26,
+      "cote_N": 1.01,
+      "cote_2": 20
+    },
+    {
+      "match_id": 23035625,
+      "debut": "2020-12-14T18:45:00+00:00",
+      "home": "Maccabi Haifa",
+      "away": "Hapoel Tel-Aviv",
+      "home_id": "sr:competitor:5197",
+      "away_id": "sr:competitor:5396",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 15,
+      "cote_2": 120
+    },
+    {
+      "match_id": 23035631,
+      "debut": "2020-12-14T18:15:00+00:00",
+      "home": "Bnei Sakhnin",
+      "away": "Beitar Trump Jerusalem",
+      "home_id": "sr:competitor:5392",
+      "away_id": "sr:competitor:5204",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": 3.05,
+      "cote_N": 2.8,
+      "cote_2": 2
+    },
+    {
+      "match_id": 22651473,
+      "debut": "2020-12-14T19:45:00+00:00",
+      "home": "Le Havre",
+      "away": "Clermont",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1680",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 1,
+      "cote_2": 38
+    },
+    {
+      "match_id": 23495795,
+      "debut": "2020-12-14T20:00:00+00:00",
+      "home": "Reggina",
+      "away": "Venezia",
+      "home_id": "sr:competitor:223522",
+      "away_id": "sr:competitor:2688",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 19,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23360563,
+      "debut": "2020-12-14T20:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:4488",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

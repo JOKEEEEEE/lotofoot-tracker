@@ -1,0 +1,127 @@
+{
+  "grille_id": 1295,
+  "grille_type": "grille7",
+  "pool_id": 7001295,
+  "titre": "Grille 7 n°1295",
+  "statut": "CLOSED",
+  "fin": "2019-06-26T20:00:00+00:00",
+  "collecte_le": "2026-08-20T11:02:04.273879+00:00",
+  "mises_nettes": 6538.5,
+  "montant_distribue": 6538.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 233.52
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 197,
+      "winningsPerGrid": 16.6
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17953255,
+      "debut": "2019-06-26T20:00:00+00:00",
+      "home": "Égypte",
+      "away": "RD Congo",
+      "home_id": "sr:competitor:4758",
+      "away_id": "sr:competitor:4823",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681487,
+      "debut": "2019-06-26T23:00:00+00:00",
+      "home": "New England Revolution",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:2511",
+      "away_id": "sr:competitor:39833",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681483,
+      "debut": "2019-06-26T23:30:00+00:00",
+      "home": "Montréal",
+      "away": "Portland Timbers",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:22007",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681493,
+      "debut": "2019-06-27T00:00:00+00:00",
+      "home": "DC United",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:2502",
+      "away_id": "sr:competitor:52237",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681495,
+      "debut": "2019-06-27T00:00:00+00:00",
+      "home": "Toronto FC",
+      "away": "Atlanta United FC",
+      "home_id": "sr:competitor:7080",
+      "away_id": "sr:competitor:305920",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681499,
+      "debut": "2019-06-27T01:00:00+00:00",
+      "home": "FC Dallas",
+      "away": "Vancouver",
+      "home_id": "sr:competitor:2512",
+      "away_id": "sr:competitor:22010",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681503,
+      "debut": "2019-06-27T02:30:00+00:00",
+      "home": "San Jose Earthquakes",
+      "away": "Houston Dynamo",
+      "home_id": "sr:competitor:21825",
+      "away_id": "sr:competitor:2508",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

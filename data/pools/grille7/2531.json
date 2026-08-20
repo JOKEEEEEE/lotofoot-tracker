@@ -1,0 +1,136 @@
+{
+  "grille_id": 2531,
+  "grille_type": "grille7",
+  "pool_id": 7002531,
+  "titre": "Grille 7 n°2531",
+  "statut": "CLOSED",
+  "fin": "2022-07-07T18:45:00+00:00",
+  "collecte_le": "2026-08-20T09:09:22.239773+00:00",
+  "mises_nettes": 3893.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 23,
+      "winningsPerGrid": 86.96
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 224,
+      "winningsPerGrid": 8.93
+    }
+  ],
+  "repartition": [
+    30,
+    265,
+    898,
+    1516,
+    1432,
+    803,
+    224,
+    23
+  ],
+  "matches": [
+    {
+      "match_id": 31184771,
+      "debut": "2022-07-07T18:45:00+00:00",
+      "home": "UC Dublin",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3168",
+      "away_id": "sr:competitor:3173",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34246921,
+      "debut": "2022-07-07T21:00:00+00:00",
+      "home": "AD Unión Magdalena",
+      "away": "Once Caldas",
+      "home_id": "sr:competitor:89376",
+      "away_id": "sr:competitor:6118",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842285,
+      "debut": "2022-07-07T22:15:00+00:00",
+      "home": "Lanus",
+      "away": "Independiente Del Valle",
+      "home_id": "sr:competitor:3218",
+      "away_id": "sr:competitor:39723",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34246919,
+      "debut": "2022-07-07T23:05:00+00:00",
+      "home": "Deportivo Pereira",
+      "away": "Alianza Petrolera",
+      "home_id": "sr:competitor:6109",
+      "away_id": "sr:competitor:89156",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842217,
+      "debut": "2022-07-08T00:30:00+00:00",
+      "home": "Estudiantes",
+      "away": "Fortaleza CE",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:2020",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842275,
+      "debut": "2022-07-08T00:30:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Universidad Catolica",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:3151",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842283,
+      "debut": "2022-07-08T00:30:00+00:00",
+      "home": "Atletico GO",
+      "away": "Olimpia Asuncion",
+      "home_id": "sr:competitor:7314",
+      "away_id": "sr:competitor:5997",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

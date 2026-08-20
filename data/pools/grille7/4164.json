@@ -1,0 +1,136 @@
+{
+  "grille_id": 4164,
+  "grille_type": "grille7",
+  "pool_id": 7004164,
+  "titre": "Grille 7 n°4164",
+  "statut": "CLOSED",
+  "fin": "2026-08-10T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:09:33.256996+00:00",
+  "mises_nettes": 3348.75,
+  "montant_distribue": 3348.75,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 239.2
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 53,
+      "winningsPerGrid": 31.59
+    }
+  ],
+  "repartition": [
+    91,
+    631,
+    1353,
+    1370,
+    731,
+    229,
+    53,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 71924958,
+      "debut": "2026-08-10T17:00:00+00:00",
+      "home": "Silkeborg",
+      "away": "Odense",
+      "home_id": "sr:competitor:1285",
+      "away_id": "sr:competitor:1286",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.7,
+      "cote_N": 3.4,
+      "cote_2": 2.1
+    },
+    {
+      "match_id": 72348792,
+      "debut": "2026-08-10T19:00:00+00:00",
+      "home": "Plymouth Argyle",
+      "away": "Exeter",
+      "home_id": "sr:competitor:71",
+      "away_id": "sr:competitor:86",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.38,
+      "cote_N": 4.2,
+      "cote_2": 6.25
+    },
+    {
+      "match_id": 72530832,
+      "debut": "2026-08-10T19:15:00+00:00",
+      "home": "Santa Clara",
+      "away": "Nacional Madeira ",
+      "home_id": "sr:competitor:3011",
+      "away_id": "sr:competitor:3013",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.82,
+      "cote_N": 1.02,
+      "cote_2": 48
+    },
+    {
+      "match_id": 73007850,
+      "debut": "2026-08-11T15:00:00+00:00",
+      "home": "Kairat",
+      "away": "Levski Sofia",
+      "home_id": "sr:competitor:5172",
+      "away_id": "sr:competitor:3273",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 60,
+      "cote_2": 1
+    },
+    {
+      "match_id": 73007628,
+      "debut": "2026-08-11T16:00:00+00:00",
+      "home": "Bodø/Glimt",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:656",
+      "away_id": "sr:competitor:4860",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.75,
+      "cote_2": 4.2
+    },
+    {
+      "match_id": 73008078,
+      "debut": "2026-08-11T16:00:00+00:00",
+      "home": "Sabah",
+      "away": "Aarhus GF",
+      "home_id": "sr:competitor:382568",
+      "away_id": "sr:competitor:1291",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.84,
+      "cote_N": 3.45,
+      "cote_2": 3.45
+    },
+    {
+      "match_id": 73008746,
+      "debut": "2026-08-11T16:00:00+00:00",
+      "home": "Iberia 1999",
+      "away": "Larne",
+      "home_id": "sr:competitor:116312",
+      "away_id": "sr:competitor:5184",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.76,
+      "cote_N": 3.1,
+      "cote_2": 4.1
+    }
+  ]
+}

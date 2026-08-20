@@ -1,0 +1,127 @@
+{
+  "grille_id": 218,
+  "grille_type": "grille7",
+  "pool_id": 7000218,
+  "titre": "Grille 7 n°218",
+  "statut": "CLOSED",
+  "fin": "2016-05-07T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:38:19.389578+00:00",
+  "mises_nettes": 9069.75,
+  "montant_distribue": 9069.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 69,
+      "winningsPerGrid": 65.72
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 900,
+      "winningsPerGrid": 5.04
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7474126,
+      "debut": "2016-05-07T19:00:00+00:00",
+      "home": "Lyon",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1653",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474122,
+      "debut": "2016-05-07T19:00:00+00:00",
+      "home": "Nice",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1678",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474116,
+      "debut": "2016-05-07T19:00:00+00:00",
+      "home": "GFC Ajaccio",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:7924",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474118,
+      "debut": "2016-05-07T19:00:00+00:00",
+      "home": "Lille",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1654",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474120,
+      "debut": "2016-05-07T19:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1658",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474124,
+      "debut": "2016-05-07T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Reims",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1682",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474130,
+      "debut": "2016-05-07T19:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1652",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

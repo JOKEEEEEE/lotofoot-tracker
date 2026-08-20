@@ -1,0 +1,136 @@
+{
+  "grille_id": 2029,
+  "grille_type": "grille7",
+  "pool_id": 7002029,
+  "titre": "Grille 7 n°2029",
+  "statut": "CLOSED",
+  "fin": "2021-05-03T18:30:00+00:00",
+  "collecte_le": "2026-08-20T09:52:23.888962+00:00",
+  "mises_nettes": 14985.75,
+  "montant_distribue": 14985.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 535.21
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 337,
+      "winningsPerGrid": 22.23
+    }
+  ],
+  "repartition": [
+    388,
+    1942,
+    4681,
+    6275,
+    4620,
+    1724,
+    337,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 26903072,
+      "debut": "2021-05-03T18:30:00+00:00",
+      "home": "Düsseldorf",
+      "away": "Karlsruhe",
+      "home_id": "sr:competitor:2588",
+      "away_id": "sr:competitor:2553",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 34,
+      "cote_N": 1,
+      "cote_2": 55
+    },
+    {
+      "match_id": 22651893,
+      "debut": "2021-05-03T18:45:00+00:00",
+      "home": "Grenoble",
+      "away": "Clermont",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1680",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 50,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23391227,
+      "debut": "2021-05-03T18:45:00+00:00",
+      "home": "Torino",
+      "away": "Parme",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2690",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 24,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23345897,
+      "debut": "2021-05-03T19:00:00+00:00",
+      "home": "Academica Coimbra",
+      "away": "Arouca",
+      "home_id": "sr:competitor:3015",
+      "away_id": "sr:competitor:25777",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 48,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23362991,
+      "debut": "2021-05-03T19:00:00+00:00",
+      "home": "Albacete",
+      "away": "Alcorcon",
+      "home_id": "sr:competitor:2848",
+      "away_id": "sr:competitor:24322",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 60,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23360989,
+      "debut": "2021-05-03T19:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2825",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 85,
+      "cote_N": 9,
+      "cote_2": 1.03
+    },
+    {
+      "match_id": 23204457,
+      "debut": "2021-05-03T19:15:00+00:00",
+      "home": "Burnley",
+      "away": "West Ham",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 17,
+      "cote_2": 1.01
+    }
+  ]
+}

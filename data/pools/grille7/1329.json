@@ -1,0 +1,127 @@
+{
+  "grille_id": 1329,
+  "grille_type": "grille7",
+  "pool_id": 7001329,
+  "titre": "Grille 7 n°1329",
+  "statut": "CLOSED",
+  "fin": "2019-07-30T18:00:00+00:00",
+  "collecte_le": "2026-08-20T13:27:48.651889+00:00",
+  "mises_nettes": 8760,
+  "montant_distribue": 8760,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 34,
+      "winningsPerGrid": 128.82
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 359,
+      "winningsPerGrid": 12.2
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18481848,
+      "debut": "2019-07-30T18:00:00+00:00",
+      "home": "FC Bâle",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:2952",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18798000,
+      "debut": "2019-07-30T18:00:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "Saburtalo Tbilisi",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:116312",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18808278,
+      "debut": "2019-07-30T18:00:00+00:00",
+      "home": "La Vallette",
+      "away": "Ferencvaros",
+      "home_id": "sr:competitor:5332",
+      "away_id": "sr:competitor:1925",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18481844,
+      "debut": "2019-07-30T18:30:00+00:00",
+      "home": "Olympiakos",
+      "away": "Viktoria Plzen",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:4502",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18224037,
+      "debut": "2019-07-30T22:15:00+00:00",
+      "home": "Cruzeiro",
+      "away": "River Plate",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:3211",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18224045,
+      "debut": "2019-07-31T00:30:00+00:00",
+      "home": "Olimpia Asuncion",
+      "away": "Liga Dep Universitaria Quito",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:5257",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18224047,
+      "debut": "2019-07-31T00:30:00+00:00",
+      "home": "Palmeiras",
+      "away": "Godoy Cruz",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:6074",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

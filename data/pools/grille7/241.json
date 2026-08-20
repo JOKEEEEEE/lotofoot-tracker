@@ -1,0 +1,127 @@
+{
+  "grille_id": 241,
+  "grille_type": "grille7",
+  "pool_id": 7000241,
+  "titre": "Grille 7 n°241",
+  "statut": "CLOSED",
+  "fin": "2016-06-05T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:36:00.092837+00:00",
+  "mises_nettes": 6527.25,
+  "montant_distribue": 6527.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 466.23
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 88,
+      "winningsPerGrid": 37.09
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8981351,
+      "debut": "2016-06-05T16:00:00+00:00",
+      "home": "Belgique",
+      "away": "Norvège",
+      "home_id": "sr:competitor:4717",
+      "away_id": "sr:competitor:4475",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211661,
+      "debut": "2016-06-05T19:00:00+00:00",
+      "home": "Vitoria",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1962",
+      "away_id": "sr:competitor:1966",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211663,
+      "debut": "2016-06-05T19:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1963",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211679,
+      "debut": "2016-06-05T19:00:00+00:00",
+      "home": "Sport Recife ",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1959",
+      "away_id": "sr:competitor:1977",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8966403,
+      "debut": "2016-06-05T21:00:00+00:00",
+      "home": "Jamaïque",
+      "away": "Vénézuela",
+      "home_id": "sr:competitor:4769",
+      "away_id": "sr:competitor:4722",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211669,
+      "debut": "2016-06-05T21:30:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1981",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8966405,
+      "debut": "2016-06-06T00:00:00+00:00",
+      "home": "Mexique",
+      "away": "Uruguay",
+      "home_id": "sr:competitor:4781",
+      "away_id": "sr:competitor:4725",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

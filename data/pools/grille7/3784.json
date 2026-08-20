@@ -1,0 +1,136 @@
+{
+  "grille_id": 3784,
+  "grille_type": "grille7",
+  "pool_id": 7003784,
+  "titre": "Grille 7 n°3784",
+  "statut": "CLOSED",
+  "fin": "2025-07-18T18:15:00+00:00",
+  "collecte_le": "2026-08-20T07:20:37.504955+00:00",
+  "mises_nettes": 2220,
+  "montant_distribue": 2220,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001111100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 555
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 37,
+      "winningsPerGrid": 30
+    }
+  ],
+  "repartition": [
+    0,
+    171,
+    753,
+    1050,
+    656,
+    200,
+    28,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 61453853,
+      "debut": "2025-07-18T18:15:00+00:00",
+      "home": "Radomlje",
+      "away": "Aluminij",
+      "home_id": "sr:competitor:37737",
+      "away_id": "sr:competitor:2424",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61061749,
+      "debut": "2025-07-18T18:30:00+00:00",
+      "home": "Lech Poznan",
+      "away": "KS Cracovie",
+      "home_id": "sr:competitor:3121",
+      "away_id": "sr:competitor:4901",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61470335,
+      "debut": "2025-07-18T18:30:00+00:00",
+      "home": "CS Universitatea Craiova",
+      "away": "Argeș Pitești",
+      "home_id": "sr:competitor:116223",
+      "away_id": "sr:competitor:116221",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61735488,
+      "debut": "2025-07-18T21:00:00+00:00",
+      "home": "America De Cali",
+      "away": "Bucaramanga",
+      "home_id": "sr:competitor:6102",
+      "away_id": "sr:competitor:6103",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61345745,
+      "debut": "2025-07-18T21:30:00+00:00",
+      "home": "Club General Caballero (JLM)",
+      "away": "2 de Mayo",
+      "home_id": "sr:competitor:818704",
+      "away_id": "sr:competitor:5992",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098451,
+      "debut": "2025-07-18T22:30:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Union De Santa Fe",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:3204",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380359,
+      "debut": "2025-07-18T23:00:00+00:00",
+      "home": "Everton",
+      "away": "Limache",
+      "home_id": "sr:competitor:5032",
+      "away_id": "sr:competitor:434002",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

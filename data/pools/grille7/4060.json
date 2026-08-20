@@ -1,0 +1,136 @@
+{
+  "grille_id": 4060,
+  "grille_type": "grille7",
+  "pool_id": 7004060,
+  "titre": "Grille 7 n°4060",
+  "statut": "CLOSED",
+  "fin": "2026-04-29T19:00:00+00:00",
+  "collecte_le": "2026-08-20T06:10:23.137863+00:00",
+  "mises_nettes": 4977,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 416.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 82,
+      "winningsPerGrid": 30.49
+    }
+  ],
+  "repartition": [
+    140,
+    694,
+    1661,
+    2171,
+    1400,
+    482,
+    82,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 69339432,
+      "debut": "2026-04-29T19:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.85,
+      "cote_N": 3.05,
+      "cote_2": 2.2
+    },
+    {
+      "match_id": 70076014,
+      "debut": "2026-04-29T22:00:00+00:00",
+      "home": "Mirassol",
+      "away": "Always Ready",
+      "home_id": "sr:competitor:21982",
+      "away_id": "sr:competitor:378096",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.21,
+      "cote_N": 5.4,
+      "cote_2": 8
+    },
+    {
+      "match_id": 70075776,
+      "debut": "2026-04-29T22:00:00+00:00",
+      "home": "Club Atletico Platense",
+      "away": "Santa Fe",
+      "home_id": "sr:competitor:36837",
+      "away_id": "sr:competitor:6116",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.62,
+      "cote_N": 3.2,
+      "cote_2": 4.8
+    },
+    {
+      "match_id": 70075744,
+      "debut": "2026-04-30T00:00:00+00:00",
+      "home": "Barcelona SC",
+      "away": "Universidad Catolica",
+      "home_id": "sr:competitor:5250",
+      "away_id": "sr:competitor:3151",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 2.85,
+      "cote_2": 3.35
+    },
+    {
+      "match_id": 70075864,
+      "debut": "2026-04-30T00:30:00+00:00",
+      "home": "Cerro Porteno",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:5991",
+      "away_id": "sr:competitor:1963",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 4.2,
+      "cote_N": 2.9,
+      "cote_2": 1.78
+    },
+    {
+      "match_id": 70075646,
+      "debut": "2026-04-30T00:30:00+00:00",
+      "home": "Estudiantes",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.9,
+      "cote_N": 2.85,
+      "cote_2": 2.25
+    },
+    {
+      "match_id": 70075670,
+      "debut": "2026-04-30T02:00:00+00:00",
+      "home": "Universitario De Deportes",
+      "away": "Club Nacional De Football",
+      "home_id": "sr:competitor:2305",
+      "away_id": "sr:competitor:3230",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.15,
+      "cote_N": 2.85,
+      "cote_2": 3.05
+    }
+  ]
+}

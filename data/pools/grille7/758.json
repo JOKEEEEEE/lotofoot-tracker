@@ -1,0 +1,127 @@
+{
+  "grille_id": 758,
+  "grille_type": "grille7",
+  "pool_id": 7000758,
+  "titre": "Grille 7 n°758",
+  "statut": "CLOSED",
+  "fin": "2017-12-21T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:48:25.253577+00:00",
+  "mises_nettes": 10069.5,
+  "montant_distribue": 10069.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 839.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 125,
+      "winningsPerGrid": 40.28
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11822820,
+      "debut": "2017-12-21T19:30:00+00:00",
+      "home": "La Gantoise",
+      "away": "Charleroi",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:2898",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11822828,
+      "debut": "2017-12-21T19:30:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Lokeren",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:2887",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188736,
+      "debut": "2017-12-21T19:30:00+00:00",
+      "home": "Empoli",
+      "away": "Brescia",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2691",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12060656,
+      "debut": "2017-12-21T20:00:00+00:00",
+      "home": "Tenerife",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:4488",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055392,
+      "debut": "2017-12-21T20:30:00+00:00",
+      "home": "Alaves",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2830",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12550330,
+      "debut": "2017-12-21T21:00:00+00:00",
+      "home": "Belenenses",
+      "away": "Maritimo",
+      "home_id": "sr:competitor:3004",
+      "away_id": "sr:competitor:3007",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12508686,
+      "debut": "2017-12-21T21:15:00+00:00",
+      "home": "FC Porto",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3036",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

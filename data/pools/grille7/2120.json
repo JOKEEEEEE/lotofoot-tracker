@@ -1,0 +1,136 @@
+{
+  "grille_id": 2120,
+  "grille_type": "grille7",
+  "pool_id": 7002120,
+  "titre": "Grille 7 n°2120",
+  "statut": "CLOSED",
+  "fin": "2021-07-30T18:30:00+00:00",
+  "collecte_le": "2026-08-20T09:45:18.169622+00:00",
+  "mises_nettes": 4800,
+  "montant_distribue": 4800,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 34,
+      "winningsPerGrid": 70.59
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 334,
+      "winningsPerGrid": 7.19
+    }
+  ],
+  "repartition": [
+    202,
+    937,
+    1775,
+    1896,
+    1222,
+    334,
+    34,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 27957950,
+      "debut": "2021-07-30T18:30:00+00:00",
+      "home": "Rapid Bucarest",
+      "away": "Farul Constanta",
+      "home_id": "sr:competitor:3302",
+      "away_id": "sr:competitor:3294",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 20,
+      "cote_N": 1.01,
+      "cote_2": 21
+    },
+    {
+      "match_id": 25852950,
+      "debut": "2021-07-30T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Waterford United",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3194",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 65,
+      "cote_N": 7.5,
+      "cote_2": 1.03
+    },
+    {
+      "match_id": 27649180,
+      "debut": "2021-07-30T18:45:00+00:00",
+      "home": "Racing Genk",
+      "away": "Ostende",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:4494",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 100,
+      "cote_N": 9,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 25852952,
+      "debut": "2021-07-30T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "St Patricks",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3169",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 160,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26574180,
+      "debut": "2021-07-30T23:30:00+00:00",
+      "home": "New York City FC",
+      "away": "Columbus Crew",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:2504",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26574182,
+      "debut": "2021-07-31T00:00:00+00:00",
+      "home": "Orlando City SC",
+      "away": "Atlanta United FC",
+      "home_id": "sr:competitor:52237",
+      "away_id": "sr:competitor:305920",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 55,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26574184,
+      "debut": "2021-07-31T02:00:00+00:00",
+      "home": "Los Angeles Galaxy",
+      "away": "Portland Timbers",
+      "home_id": "sr:competitor:2513",
+      "away_id": "sr:competitor:22007",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

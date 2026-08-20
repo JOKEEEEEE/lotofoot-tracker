@@ -1,0 +1,127 @@
+{
+  "grille_id": 734,
+  "grille_type": "grille7",
+  "pool_id": 7000734,
+  "titre": "Grille 7 n°734",
+  "statut": "CLOSED",
+  "fin": "2017-11-27T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:49:54.802693+00:00",
+  "mises_nettes": 10839.75,
+  "montant_distribue": 10839.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 541.99
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 166,
+      "winningsPerGrid": 32.65
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11915238,
+      "debut": "2017-11-27T19:30:00+00:00",
+      "home": "Düsseldorf",
+      "away": "Dynamo Dresden",
+      "home_id": "sr:competitor:2588",
+      "away_id": "sr:competitor:2595",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188552,
+      "debut": "2017-11-27T19:30:00+00:00",
+      "home": "Cesena",
+      "away": "Brescia",
+      "home_id": "sr:competitor:2742",
+      "away_id": "sr:competitor:2691",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868434,
+      "debut": "2017-11-27T19:45:00+00:00",
+      "home": "Queens Park Rangers",
+      "away": "Brentford",
+      "home_id": "sr:competitor:1",
+      "away_id": "sr:competitor:50",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11836814,
+      "debut": "2017-11-27T19:45:00+00:00",
+      "home": "Reims",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1646",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090210,
+      "debut": "2017-11-27T19:45:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Benevento",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2759",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055306,
+      "debut": "2017-11-27T20:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971772,
+      "debut": "2017-11-27T21:00:00+00:00",
+      "home": "Rio Ave",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:3009",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

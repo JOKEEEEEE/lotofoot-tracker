@@ -1,0 +1,136 @@
+{
+  "grille_id": 2131,
+  "grille_type": "grille7",
+  "pool_id": 7002131,
+  "titre": "Grille 7 n°2131",
+  "statut": "CLOSED",
+  "fin": "2021-08-10T18:00:00+00:00",
+  "collecte_le": "2026-08-20T09:44:52.575715+00:00",
+  "mises_nettes": 11616.75,
+  "montant_distribue": 11616.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 68,
+      "winningsPerGrid": 85.42
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 862,
+      "winningsPerGrid": 6.74
+    }
+  ],
+  "repartition": [
+    62,
+    563,
+    1958,
+    3986,
+    4749,
+    3241,
+    862,
+    68
+  ],
+  "matches": [
+    {
+      "match_id": 28374628,
+      "debut": "2021-08-10T18:00:00+00:00",
+      "home": "Monaco",
+      "away": "Sparta Prague",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:2218",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 28370360,
+      "debut": "2021-08-10T18:00:00+00:00",
+      "home": "Ludogorets",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:43840",
+      "away_id": "sr:competitor:3245",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 7,
+      "cote_N": 1.11,
+      "cote_2": 14.5
+    },
+    {
+      "match_id": 28370370,
+      "debut": "2021-08-10T18:00:00+00:00",
+      "home": "Midtjylland",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:1289",
+      "away_id": "sr:competitor:2952",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 21,
+      "cote_N": 1.04,
+      "cote_2": 14
+    },
+    {
+      "match_id": 28370364,
+      "debut": "2021-08-10T18:30:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "CFR Cluj",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:5287",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 28223634,
+      "debut": "2021-08-10T19:00:00+00:00",
+      "home": "Benfica",
+      "away": "Spartak Moscou",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2323",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 38,
+      "cote_2": 250
+    },
+    {
+      "match_id": 28353356,
+      "debut": "2021-08-10T19:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Malmö",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:1892",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 160,
+      "cote_N": 10.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 28353362,
+      "debut": "2021-08-10T19:00:00+00:00",
+      "home": "Legia Varsovie",
+      "away": "Dinamo Zagreb",
+      "home_id": "sr:competitor:3106",
+      "away_id": "sr:competitor:2032",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 6.75,
+      "cote_2": 1.05
+    }
+  ]
+}

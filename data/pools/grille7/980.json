@@ -1,0 +1,127 @@
+{
+  "grille_id": 980,
+  "grille_type": "grille7",
+  "pool_id": 7000980,
+  "titre": "Grille 7 n°980",
+  "statut": "CLOSED",
+  "fin": "2018-08-07T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:30:34.209991+00:00",
+  "mises_nettes": 11840.25,
+  "montant_distribue": 11840.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 986.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 128,
+      "winningsPerGrid": 46.25
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15209503,
+      "debut": "2018-08-07T18:30:00+00:00",
+      "home": "Etoile Rouge de Belgrade",
+      "away": "Spartak Trnava",
+      "home_id": "sr:competitor:5149",
+      "away_id": "sr:competitor:2406",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14782813,
+      "debut": "2018-08-07T18:45:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:8",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14782867,
+      "debut": "2018-08-07T18:45:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Sheffield United",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:15",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14980799,
+      "debut": "2018-08-07T19:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Lyon",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:1649",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15078943,
+      "debut": "2018-08-07T19:00:00+00:00",
+      "home": "Benfica",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3052",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370630,
+      "debut": "2018-08-08T19:15:00+00:00",
+      "home": "Grindavik",
+      "away": "Vikingur Reykjavik",
+      "home_id": "sr:competitor:1897",
+      "away_id": "sr:competitor:1908",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14564920,
+      "debut": "2018-08-08T00:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

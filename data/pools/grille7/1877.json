@@ -1,0 +1,127 @@
+{
+  "grille_id": 1877,
+  "grille_type": "grille7",
+  "pool_id": 7001877,
+  "titre": "Grille 7 n°1877",
+  "statut": "CLOSED",
+  "fin": "2021-01-03T14:15:00+00:00",
+  "collecte_le": "2026-08-20T10:06:26.238765+00:00",
+  "mises_nettes": 21153.75,
+  "montant_distribue": 21153.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1016,
+      "winningsPerGrid": 10.41
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 4341,
+      "winningsPerGrid": 2.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23204113,
+      "debut": "2021-01-03T14:15:00+00:00",
+      "home": "Newcastle",
+      "away": "Leicester",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:31",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 30,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23032065,
+      "debut": "2021-01-03T14:30:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Wolfsbourg",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2524",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360639,
+      "debut": "2021-01-03T15:15:00+00:00",
+      "home": "Alaves",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 36,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23390845,
+      "debut": "2021-01-03T17:00:00+00:00",
+      "home": "Benevento",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23360645,
+      "debut": "2021-01-03T17:30:00+00:00",
+      "home": "Eibar",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:33779",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23390855,
+      "debut": "2021-01-03T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2695",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360649,
+      "debut": "2021-01-03T20:00:00+00:00",
+      "home": "Huesca",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 20,
+      "cote_2": 1
+    }
+  ]
+}

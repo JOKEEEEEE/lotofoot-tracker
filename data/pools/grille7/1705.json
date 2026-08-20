@@ -1,0 +1,127 @@
+{
+  "grille_id": 1705,
+  "grille_type": "grille7",
+  "pool_id": 7001705,
+  "titre": "Grille 7 n°1705",
+  "statut": "CLOSED",
+  "fin": "2020-08-12T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:21:38.312190+00:00",
+  "mises_nettes": 11493.75,
+  "montant_distribue": 11493.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010010111100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 28,
+      "winningsPerGrid": 205.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 385,
+      "winningsPerGrid": 14.93
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22627575,
+      "debut": "2020-08-12T18:45:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "St Johnstone",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2348",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22627571,
+      "debut": "2020-08-12T18:45:00+00:00",
+      "home": "Aberdeen",
+      "away": "Hamilton",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:2376",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22627573,
+      "debut": "2020-08-12T18:45:00+00:00",
+      "home": "Motherwell",
+      "away": "Livingston FC",
+      "home_id": "sr:competitor:2346",
+      "away_id": "sr:competitor:2356",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22627577,
+      "debut": "2020-08-12T18:45:00+00:00",
+      "home": "Ross County",
+      "away": "Kilmarnock",
+      "home_id": "sr:competitor:2365",
+      "away_id": "sr:competitor:2347",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22660065,
+      "debut": "2020-08-12T19:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23008291,
+      "debut": "2020-08-12T19:00:00+00:00",
+      "home": "Pordenone",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:111205",
+      "away_id": "sr:competitor:2801",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22721667,
+      "debut": "2020-08-12T22:00:00+00:00",
+      "home": "Querétaro",
+      "away": "Cruz Azul",
+      "home_id": "sr:competitor:1951",
+      "away_id": "sr:competitor:1947",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

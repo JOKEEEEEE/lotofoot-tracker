@@ -1,0 +1,136 @@
+{
+  "grille_id": 2620,
+  "grille_type": "grille7",
+  "pool_id": 7002620,
+  "titre": "Grille 7 n°2620",
+  "statut": "CLOSED",
+  "fin": "2022-09-19T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:01:59.441581+00:00",
+  "mises_nettes": 10500.75,
+  "montant_distribue": 10500.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 656.3
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 121,
+      "winningsPerGrid": 43.39
+    }
+  ],
+  "repartition": [
+    473,
+    2099,
+    4090,
+    4157,
+    2333,
+    720,
+    121,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 34278531,
+      "debut": "2022-09-19T19:00:00+00:00",
+      "home": "Tenerife",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:2830",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839681,
+      "debut": "2022-09-19T19:30:00+00:00",
+      "home": "Arsenal Sarandi",
+      "away": "Aldosivi",
+      "home_id": "sr:competitor:3221",
+      "away_id": "sr:competitor:36836",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839677,
+      "debut": "2022-09-19T22:00:00+00:00",
+      "home": "Union De Santa Fe",
+      "away": "Independiente",
+      "home_id": "sr:competitor:3204",
+      "away_id": "sr:competitor:3209",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839689,
+      "debut": "2022-09-19T22:00:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Huracan",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:7629",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932693,
+      "debut": "2022-09-19T23:00:00+00:00",
+      "home": "Atletico GO",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:7314",
+      "away_id": "sr:competitor:1966",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839697,
+      "debut": "2022-09-20T00:30:00+00:00",
+      "home": "Argentinos Juniors",
+      "away": "Atletico Tucuman",
+      "home_id": "sr:competitor:3216",
+      "away_id": "sr:competitor:36833",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839699,
+      "debut": "2022-09-20T00:30:00+00:00",
+      "home": "Estudiantes",
+      "away": "Defensa Y Justicia",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:36839",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

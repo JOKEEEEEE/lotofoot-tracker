@@ -1,0 +1,127 @@
+{
+  "grille_id": 1116,
+  "grille_type": "grille7",
+  "pool_id": 7001116,
+  "titre": "Grille 7 n°1116",
+  "statut": "CLOSED",
+  "fin": "2018-12-23T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:16:18.037403+00:00",
+  "mises_nettes": 14513.25,
+  "montant_distribue": 14513.25,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 1209.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 116,
+      "winningsPerGrid": 62.56
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701003,
+      "debut": "2018-12-23T16:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1676",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736589,
+      "debut": "2018-12-23T16:00:00+00:00",
+      "home": "Everton",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14894343,
+      "debut": "2018-12-23T17:00:00+00:00",
+      "home": "Hoffenheim",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2569",
+      "away_id": "sr:competitor:2556",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109305,
+      "debut": "2018-12-23T17:30:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Levante",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2849",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946013,
+      "debut": "2018-12-23T17:30:00+00:00",
+      "home": "Benfica",
+      "away": "Braga",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2999",
+      "score_home": 6,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14728743,
+      "debut": "2018-12-23T19:00:00+00:00",
+      "home": "Zulte Waregem",
+      "away": "Charleroi",
+      "home_id": "sr:competitor:2933",
+      "away_id": "sr:competitor:2898",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946015,
+      "debut": "2018-12-23T20:00:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

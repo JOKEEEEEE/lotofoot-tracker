@@ -1,0 +1,136 @@
+{
+  "grille_id": 2983,
+  "grille_type": "grille7",
+  "pool_id": 7002983,
+  "titre": "Grille 7 n°2983",
+  "statut": "CLOSED",
+  "fin": "2023-07-28T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:32:35.407178+00:00",
+  "mises_nettes": 6530.25,
+  "montant_distribue": 6530.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 251.16
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 117,
+      "winningsPerGrid": 27.91
+    }
+  ],
+  "repartition": [
+    88,
+    866,
+    2273,
+    2798,
+    1895,
+    657,
+    117,
+    13
+  ],
+  "matches": [
+    {
+      "match_id": 42023705,
+      "debut": "2023-07-28T18:30:00+00:00",
+      "home": "Hambourg",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:2676",
+      "away_id": "sr:competitor:2530",
+      "score_home": 5,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41967453,
+      "debut": "2023-07-28T18:30:00+00:00",
+      "home": "LASK",
+      "away": "Rapid Vienne",
+      "home_id": "sr:competitor:2058",
+      "away_id": "sr:competitor:2055",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41978159,
+      "debut": "2023-07-28T18:30:00+00:00",
+      "home": "Rapid Bucarest",
+      "away": "FC Botosani",
+      "home_id": "sr:competitor:3302",
+      "away_id": "sr:competitor:24798",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41755081,
+      "debut": "2023-07-28T18:30:00+00:00",
+      "home": "Ruch Chorzow",
+      "away": "LKS Lodz",
+      "home_id": "sr:competitor:3105",
+      "away_id": "sr:competitor:3123",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41892913,
+      "debut": "2023-07-28T18:45:00+00:00",
+      "home": "Union Saint-Gilloise",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:4860",
+      "away_id": "sr:competitor:2900",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144911,
+      "debut": "2023-07-28T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3190",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144907,
+      "debut": "2023-07-28T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "UC Dublin",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3168",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

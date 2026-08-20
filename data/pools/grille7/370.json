@@ -1,0 +1,127 @@
+{
+  "grille_id": 370,
+  "grille_type": "grille7",
+  "pool_id": 7000370,
+  "titre": "Grille 7 n°370",
+  "statut": "CLOSED",
+  "fin": "2016-11-01T19:45:00+00:00",
+  "collecte_le": "2026-08-20T13:32:57.643852+00:00",
+  "mises_nettes": 24225.75,
+  "montant_distribue": 24225.75,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 337,
+      "winningsPerGrid": 35.94
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 3526,
+      "winningsPerGrid": 3.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10058897,
+      "debut": "2016-11-01T19:45:00+00:00",
+      "home": "FC Bâle",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058895,
+      "debut": "2016-11-01T19:45:00+00:00",
+      "home": "Ludogorets",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:43840",
+      "away_id": "sr:competitor:42",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058899,
+      "debut": "2016-11-01T19:45:00+00:00",
+      "home": "Benfica",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3305",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058903,
+      "debut": "2016-11-01T19:45:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2352",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058905,
+      "debut": "2016-11-01T19:45:00+00:00",
+      "home": "Manchester City",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2817",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058907,
+      "debut": "2016-11-01T19:45:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058909,
+      "debut": "2016-11-01T19:45:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "FK Rostov",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2326",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 1983,
+  "grille_type": "grille7",
+  "pool_id": 7001983,
+  "titre": "Grille 7 n°1983",
+  "statut": "CLOSED",
+  "fin": "2021-03-27T19:45:00+00:00",
+  "collecte_le": "2026-08-20T09:56:21.842469+00:00",
+  "mises_nettes": 19987.5,
+  "montant_distribue": 19987.5,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010010001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 21,
+      "winningsPerGrid": 475.89
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 263,
+      "winningsPerGrid": 38
+    }
+  ],
+  "repartition": [
+    4641,
+    9069,
+    7821,
+    3698,
+    1137,
+    263,
+    21,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 24834000,
+      "debut": "2021-03-27T19:45:00+00:00",
+      "home": "République Tchèque",
+      "away": "Belgique",
+      "home_id": "sr:competitor:4714",
+      "away_id": "sr:competitor:4717",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 25,
+      "cote_N": 1.02,
+      "cote_2": 15
+    },
+    {
+      "match_id": 24832694,
+      "debut": "2021-03-27T19:45:00+00:00",
+      "home": "Serbie",
+      "away": "Portugal",
+      "home_id": "sr:competitor:6355",
+      "away_id": "sr:competitor:4704",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 44,
+      "cote_N": 1.01,
+      "cote_2": 17
+    },
+    {
+      "match_id": 24832692,
+      "debut": "2021-03-27T19:45:00+00:00",
+      "home": "République d'Irlande",
+      "away": "Luxembourg",
+      "home_id": "sr:competitor:4693",
+      "away_id": "sr:competitor:4478",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 75,
+      "cote_N": 10,
+      "cote_2": 1.02
+    },
+    {
+      "match_id": 25414072,
+      "debut": "2021-03-27T20:00:00+00:00",
+      "home": "Allemagne U21",
+      "away": "Pays-Bas U21",
+      "home_id": "sr:competitor:4890",
+      "away_id": "sr:competitor:5024",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 16,
+      "cote_N": 1.02,
+      "cote_2": 23
+    },
+    {
+      "match_id": 25414084,
+      "debut": "2021-03-27T20:00:00+00:00",
+      "home": "Espagne U21",
+      "away": "Italie U21",
+      "home_id": "sr:competitor:4891",
+      "away_id": "sr:competitor:4888",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 9.5,
+      "cote_N": 1.02,
+      "cote_2": 29
+    },
+    {
+      "match_id": 23362869,
+      "debut": "2021-03-27T20:00:00+00:00",
+      "home": "UD Logroñés",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:37057",
+      "away_id": "sr:competitor:2815",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 44,
+      "cote_N": 1,
+      "cote_2": 34
+    },
+    {
+      "match_id": 25870678,
+      "debut": "2021-03-27T20:00:00+00:00",
+      "home": "Pays de Galles",
+      "away": "Mexique",
+      "home_id": "sr:competitor:4702",
+      "away_id": "sr:competitor:4781",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 21,
+      "cote_2": 250
+    }
+  ]
+}

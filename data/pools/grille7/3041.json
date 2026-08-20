@@ -1,0 +1,136 @@
+{
+  "grille_id": 3041,
+  "grille_type": "grille7",
+  "pool_id": 7003041,
+  "titre": "Grille 7 n°3041",
+  "statut": "CLOSED",
+  "fin": "2023-09-17T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:26:57.932339+00:00",
+  "mises_nettes": 8497.5,
+  "montant_distribue": 8497.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 27,
+      "winningsPerGrid": 157.36
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 352,
+      "winningsPerGrid": 12.07
+    }
+  ],
+  "repartition": [
+    24,
+    436,
+    1894,
+    3716,
+    3322,
+    1559,
+    352,
+    27
+  ],
+  "matches": [
+    {
+      "match_id": 42004603,
+      "debut": "2023-09-17T18:45:00+00:00",
+      "home": "Lyon",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1662",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134177,
+      "debut": "2023-09-17T18:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2705",
+      "score_home": 7,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41892985,
+      "debut": "2023-09-17T19:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2824",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41983911,
+      "debut": "2023-09-17T19:00:00+00:00",
+      "home": "Gijon",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:2822",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146201,
+      "debut": "2023-09-17T19:30:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3014",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38186285,
+      "debut": "2023-09-18T00:55:00+00:00",
+      "home": "Austin FC",
+      "away": "Portland Timbers",
+      "home_id": "sr:competitor:772256",
+      "away_id": "sr:competitor:22007",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41678957,
+      "debut": "2023-09-18T01:00:00+00:00",
+      "home": "Atlas",
+      "away": "Tigres",
+      "home_id": "sr:competitor:1949",
+      "away_id": "sr:competitor:1940",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

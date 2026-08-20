@@ -1,0 +1,136 @@
+{
+  "grille_id": 3622,
+  "grille_type": "grille7",
+  "pool_id": 7003622,
+  "titre": "Grille 7 n°3622",
+  "statut": "CLOSED",
+  "fin": "2025-02-10T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:24:01.847062+00:00",
+  "mises_nettes": 8258.25,
+  "montant_distribue": 8258.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010010001010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 18,
+      "winningsPerGrid": 229.4
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 255,
+      "winningsPerGrid": 16.19
+    }
+  ],
+  "repartition": [
+    134,
+    903,
+    2592,
+    3528,
+    2483,
+    1098,
+    255,
+    18
+  ],
+  "matches": [
+    {
+      "match_id": 51103483,
+      "debut": "2025-02-10T19:30:00+00:00",
+      "home": "Real Oviedo",
+      "away": "Eldense",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:47321",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273271,
+      "debut": "2025-02-10T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2693",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57253973,
+      "debut": "2025-02-10T19:45:00+00:00",
+      "home": "Doncaster Rovers",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:84",
+      "away_id": "sr:competitor:7",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57357807,
+      "debut": "2025-02-10T19:45:00+00:00",
+      "home": "St. Mirren",
+      "away": "Heart of Midlothian",
+      "home_id": "sr:competitor:2359",
+      "away_id": "sr:competitor:2353",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57373905,
+      "debut": "2025-02-10T19:45:00+00:00",
+      "home": "Caen",
+      "away": "Dunkerque",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:6918",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852523,
+      "debut": "2025-02-10T20:00:00+00:00",
+      "home": "Majorque",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2826",
+      "away_id": "sr:competitor:2820",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51389073,
+      "debut": "2025-02-10T20:15:00+00:00",
+      "home": "FC Arouca",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:25777",
+      "away_id": "sr:competitor:3036",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

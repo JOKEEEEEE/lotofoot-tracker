@@ -1,0 +1,127 @@
+{
+  "grille_id": 621,
+  "grille_type": "grille7",
+  "pool_id": 7000621,
+  "titre": "Grille 7 n°621",
+  "statut": "CLOSED",
+  "fin": "2017-07-30T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:58:13.438006+00:00",
+  "mises_nettes": 4593.75,
+  "montant_distribue": 4593.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010010111001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 328.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 53,
+      "winningsPerGrid": 43.34
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12095326,
+      "debut": "2017-07-30T18:45:00+00:00",
+      "home": "Angleterre (F)",
+      "away": "France (F)",
+      "home_id": "sr:competitor:7415",
+      "away_id": "sr:competitor:32485",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439527,
+      "debut": "2017-07-30T19:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439531,
+      "debut": "2017-07-30T19:00:00+00:00",
+      "home": "Coritiba",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439535,
+      "debut": "2017-07-30T19:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1959",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439537,
+      "debut": "2017-07-30T19:00:00+00:00",
+      "home": "Ponte Preta",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1969",
+      "away_id": "sr:competitor:1961",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11927862,
+      "debut": "2017-07-30T19:00:00+00:00",
+      "home": "Boyaca Patriotas FC",
+      "away": "Pasto",
+      "home_id": "sr:competitor:61504",
+      "away_id": "sr:competitor:6113",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11760850,
+      "debut": "2017-07-30T20:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

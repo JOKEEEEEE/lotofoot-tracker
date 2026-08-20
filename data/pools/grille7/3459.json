@@ -1,0 +1,136 @@
+{
+  "grille_id": 3459,
+  "grille_type": "grille7",
+  "pool_id": 7003459,
+  "titre": "Grille 7 n°3459",
+  "statut": "CLOSED",
+  "fin": "2024-09-14T13:30:00+00:00",
+  "collecte_le": "2026-08-20T07:50:02.077891+00:00",
+  "mises_nettes": 9662.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 231,
+      "winningsPerGrid": 21.65
+    }
+  ],
+  "repartition": [
+    166,
+    984,
+    2507,
+    3725,
+    3422,
+    1844,
+    231,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 51268933,
+      "debut": "2024-09-14T13:30:00+00:00",
+      "home": "TSG Hoffenheim",
+      "away": "Bayer Leverkusen",
+      "home_id": "sr:competitor:2569",
+      "away_id": "sr:competitor:2681",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850037,
+      "debut": "2024-09-14T14:00:00+00:00",
+      "home": "Liverpool",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:14",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955409,
+      "debut": "2024-09-14T15:00:00+00:00",
+      "home": "Marseille",
+      "away": "Nice",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1661",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271491,
+      "debut": "2024-09-14T16:00:00+00:00",
+      "home": "Empoli",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850029,
+      "debut": "2024-09-14T16:30:00+00:00",
+      "home": "Aston Villa",
+      "away": "Everton",
+      "home_id": "sr:competitor:40",
+      "away_id": "sr:competitor:48",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852173,
+      "debut": "2024-09-14T16:30:00+00:00",
+      "home": "FC Séville",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955395,
+      "debut": "2024-09-14T17:00:00+00:00",
+      "home": "Auxerre",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1653",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

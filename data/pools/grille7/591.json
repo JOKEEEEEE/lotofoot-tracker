@@ -1,0 +1,127 @@
+{
+  "grille_id": 591,
+  "grille_type": "grille7",
+  "pool_id": 7000591,
+  "titre": "Grille 7 n°591",
+  "statut": "CLOSED",
+  "fin": "2017-06-29T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:02:02.850180+00:00",
+  "mises_nettes": 3644.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 51,
+      "winningsPerGrid": 39.22
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11891938,
+      "debut": "2017-06-29T18:00:00+00:00",
+      "home": "Allemagne",
+      "away": "Mexique",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4781",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854848,
+      "debut": "2017-06-29T18:30:00+00:00",
+      "home": "NK Siroki Brijeg",
+      "away": "Ordabasy Shymkent",
+      "home_id": "sr:competitor:5239",
+      "away_id": "sr:competitor:5366",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854946,
+      "debut": "2017-06-29T18:30:00+00:00",
+      "home": "OFK Titograd",
+      "away": "FC Gandzasar Kapan",
+      "home_id": "sr:competitor:6221",
+      "away_id": "sr:competitor:36059",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854996,
+      "debut": "2017-06-29T18:30:00+00:00",
+      "home": "Mladost Lucani",
+      "away": "Keshla FK",
+      "home_id": "sr:competitor:7771",
+      "away_id": "sr:competitor:24036",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11880520,
+      "debut": "2017-06-29T18:45:00+00:00",
+      "home": "Crusaders",
+      "away": "FK Liepaja",
+      "home_id": "sr:competitor:5180",
+      "away_id": "sr:competitor:146336",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854956,
+      "debut": "2017-06-29T19:15:00+00:00",
+      "home": "Stjarnan",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:3177",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11855118,
+      "debut": "2017-06-29T19:15:00+00:00",
+      "home": "KR Reykjavik",
+      "away": "Seinäjoen",
+      "home_id": "sr:competitor:1902",
+      "away_id": "sr:competitor:22395",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

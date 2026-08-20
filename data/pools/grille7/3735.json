@@ -1,0 +1,136 @@
+{
+  "grille_id": 3735,
+  "grille_type": "grille7",
+  "pool_id": 7003735,
+  "titre": "Grille 7 n°3735",
+  "statut": "CLOSED",
+  "fin": "2025-05-30T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:24:20.337336+00:00",
+  "mises_nettes": 3152.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 19,
+      "winningsPerGrid": 105.26
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 183,
+      "winningsPerGrid": 10.93
+    }
+  ],
+  "repartition": [
+    136,
+    656,
+    1290,
+    1248,
+    671,
+    183,
+    19,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 51472489,
+      "debut": "2025-05-30T17:00:00+00:00",
+      "home": "Galatasaray",
+      "away": "Istanbul Basaksehir",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:3086",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51472475,
+      "debut": "2025-05-30T17:00:00+00:00",
+      "home": "Antalyaspor",
+      "away": "Trabzonspor",
+      "home_id": "sr:competitor:3056",
+      "away_id": "sr:competitor:3051",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51472487,
+      "debut": "2025-05-30T17:00:00+00:00",
+      "home": "Kasimpasa",
+      "away": "Göztepe AS",
+      "home_id": "sr:competitor:6063",
+      "away_id": "sr:competitor:3054",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51103821,
+      "debut": "2025-05-30T18:30:00+00:00",
+      "home": "Castellon",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:5067",
+      "away_id": "sr:competitor:2815",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525753,
+      "debut": "2025-05-30T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3170",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525757,
+      "debut": "2025-05-30T18:45:00+00:00",
+      "home": "Waterford",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:3194",
+      "away_id": "sr:competitor:3180",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525761,
+      "debut": "2025-05-30T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Galway United",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3172",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

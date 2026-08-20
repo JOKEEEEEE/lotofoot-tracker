@@ -1,0 +1,136 @@
+{
+  "grille_id": 2735,
+  "grille_type": "grille7",
+  "pool_id": 7002735,
+  "titre": "Grille 7 n°2735",
+  "statut": "CLOSED",
+  "fin": "2022-12-28T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:53:03.255999+00:00",
+  "mises_nettes": 12937.5,
+  "montant_distribue": 12937.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001001001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 574,
+      "winningsPerGrid": 11.27
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 3658,
+      "winningsPerGrid": 1.77
+    }
+  ],
+  "repartition": [
+    18,
+    116,
+    758,
+    2421,
+    4595,
+    5110,
+    3658,
+    574
+  ],
+  "matches": [
+    {
+      "match_id": 34172297,
+      "debut": "2022-12-28T18:00:00+00:00",
+      "home": "Clermont",
+      "away": "Lille",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1643",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34167291,
+      "debut": "2022-12-28T19:45:00+00:00",
+      "home": "Kilmarnock",
+      "away": "Aberdeen",
+      "home_id": "sr:competitor:2347",
+      "away_id": "sr:competitor:2355",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172305,
+      "debut": "2022-12-28T20:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1659",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172307,
+      "debut": "2022-12-28T20:00:00+00:00",
+      "home": "Brest",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1649",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152017,
+      "debut": "2022-12-28T20:00:00+00:00",
+      "home": "Leeds",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:17",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34167289,
+      "debut": "2022-12-28T20:00:00+00:00",
+      "home": "Hibernian FC",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:2354",
+      "away_id": "sr:competitor:2352",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504801,
+      "debut": "2022-12-28T21:15:00+00:00",
+      "home": "FC Porto",
+      "away": "FC Arouca",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:25777",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

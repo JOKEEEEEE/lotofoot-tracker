@@ -1,0 +1,127 @@
+{
+  "grille_id": 898,
+  "grille_type": "grille7",
+  "pool_id": 7000898,
+  "titre": "Grille 7 n°898",
+  "statut": "CLOSED",
+  "fin": "2018-05-14T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:37:02.088532+00:00",
+  "mises_nettes": 9990,
+  "montant_distribue": 9990,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 999
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 80,
+      "winningsPerGrid": 62.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12004906,
+      "debut": "2018-05-14T17:00:00+00:00",
+      "home": "Kayserispor",
+      "away": "Akhisar Belediyespor",
+      "home_id": "sr:competitor:3072",
+      "away_id": "sr:competitor:24748",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14138439,
+      "debut": "2018-05-14T17:00:00+00:00",
+      "home": "Brøndby",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:1289",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13414677,
+      "debut": "2018-05-14T17:00:00+00:00",
+      "home": "AIK Stockholm",
+      "away": "Östersunds FK",
+      "home_id": "sr:competitor:1764",
+      "away_id": "sr:competitor:1836",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13912091,
+      "debut": "2018-05-14T18:45:00+00:00",
+      "home": "Derry City",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3170",
+      "away_id": "sr:competitor:3179",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14280757,
+      "debut": "2018-05-14T18:45:00+00:00",
+      "home": "Bray",
+      "away": "Waterford United",
+      "home_id": "sr:competitor:3171",
+      "away_id": "sr:competitor:3194",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14503042,
+      "debut": "2018-05-14T18:45:00+00:00",
+      "home": "Fulham",
+      "away": "Derby County",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:27",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12061074,
+      "debut": "2018-05-14T19:00:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:2815",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

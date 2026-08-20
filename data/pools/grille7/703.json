@@ -1,0 +1,127 @@
+{
+  "grille_id": 703,
+  "grille_type": "grille7",
+  "pool_id": 7000703,
+  "titre": "Grille 7 n°703",
+  "statut": "CLOSED",
+  "fin": "2017-10-26T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:52:19.400342+00:00",
+  "mises_nettes": 7859.25,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001100010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 800
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 90,
+      "winningsPerGrid": 44.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12642642,
+      "debut": "2017-10-26T18:30:00+00:00",
+      "home": "Deportivo La Corogne",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2832",
+      "away_id": "sr:competitor:6577",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12642648,
+      "debut": "2017-10-26T18:30:00+00:00",
+      "home": "Gérone",
+      "away": "Levante",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2849",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11822698,
+      "debut": "2017-10-26T18:30:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:2901",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11822702,
+      "debut": "2017-10-26T18:30:00+00:00",
+      "home": "Saint-Trond",
+      "away": "Mouscron",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:44019",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12642618,
+      "debut": "2017-10-26T19:30:00+00:00",
+      "home": "Fuenlabrada CF",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:35097",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12642638,
+      "debut": "2017-10-26T19:30:00+00:00",
+      "home": "Tenerife",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:2814",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12550244,
+      "debut": "2017-10-26T20:00:00+00:00",
+      "home": "Portimonense",
+      "away": "Vitoria Setubal",
+      "home_id": "sr:competitor:3026",
+      "away_id": "sr:competitor:3008",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

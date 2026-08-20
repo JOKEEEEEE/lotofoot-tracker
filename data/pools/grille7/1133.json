@@ -1,0 +1,127 @@
+{
+  "grille_id": 1133,
+  "grille_type": "grille7",
+  "pool_id": 7001133,
+  "titre": "Grille 7 n°1133",
+  "statut": "CLOSED",
+  "fin": "2019-01-12T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:15:39.958730+00:00",
+  "mises_nettes": 8390.25,
+  "montant_distribue": 8390.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 699.19
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 132,
+      "winningsPerGrid": 31.78
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701027,
+      "debut": "2019-01-12T19:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701033,
+      "debut": "2019-01-12T19:00:00+00:00",
+      "home": "Nice",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1645",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145525,
+      "debut": "2019-01-12T19:30:00+00:00",
+      "home": "Real Oviedo",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:2822",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109345,
+      "debut": "2019-01-12T19:45:00+00:00",
+      "home": "Villarreal",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145527,
+      "debut": "2019-01-12T19:30:00+00:00",
+      "home": "Majorque",
+      "away": "Deportivo La Corogne",
+      "home_id": "sr:competitor:2826",
+      "away_id": "sr:competitor:2832",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16469805,
+      "debut": "2019-01-12T19:45:00+00:00",
+      "home": "Bologne",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946065,
+      "debut": "2019-01-12T20:30:00+00:00",
+      "home": "Boavista",
+      "away": "Maritimo",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3007",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

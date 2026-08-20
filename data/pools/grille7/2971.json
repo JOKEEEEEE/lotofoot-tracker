@@ -1,0 +1,136 @@
+{
+  "grille_id": 2971,
+  "grille_type": "grille7",
+  "pool_id": 7002971,
+  "titre": "Grille 7 n°2971",
+  "statut": "CLOSED",
+  "fin": "2023-07-15T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:33:15.282536+00:00",
+  "mises_nettes": 5716.5,
+  "montant_distribue": 5716.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 45,
+      "winningsPerGrid": 63.52
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 364,
+      "winningsPerGrid": 7.85
+    }
+  ],
+  "repartition": [
+    46,
+    345,
+    1220,
+    2167,
+    2144,
+    1291,
+    364,
+    45
+  ],
+  "matches": [
+    {
+      "match_id": 41968443,
+      "debut": "2023-07-15T18:30:00+00:00",
+      "home": "CFR Cluj",
+      "away": "Politehnica Iasi",
+      "home_id": "sr:competitor:5287",
+      "away_id": "sr:competitor:5334",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144905,
+      "debut": "2023-07-15T18:45:00+00:00",
+      "home": "Sligo Rovers",
+      "away": "Cork City",
+      "home_id": "sr:competitor:3190",
+      "away_id": "sr:competitor:40896",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546353,
+      "debut": "2023-07-15T19:00:00+00:00",
+      "home": "Racing Club",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:3215",
+      "away_id": "sr:competitor:3217",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41988413,
+      "debut": "2023-07-15T21:00:00+00:00",
+      "home": "Independiente Medellin",
+      "away": "La Equidad",
+      "home_id": "sr:competitor:6115",
+      "away_id": "sr:competitor:6975",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546351,
+      "debut": "2023-07-15T22:00:00+00:00",
+      "home": "River Plate",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:3206",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38186117,
+      "debut": "2023-07-16T00:32:00+00:00",
+      "home": "FC Cincinnati",
+      "away": "Nashville SC",
+      "home_id": "sr:competitor:245305",
+      "away_id": "sr:competitor:668063",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38186123,
+      "debut": "2023-07-15T23:30:00+00:00",
+      "home": "Philadelphia Union",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:39833",
+      "away_id": "sr:competitor:167510",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

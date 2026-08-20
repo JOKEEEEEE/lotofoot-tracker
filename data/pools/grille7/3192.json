@@ -1,0 +1,136 @@
+{
+  "grille_id": 3192,
+  "grille_type": "grille7",
+  "pool_id": 7003192,
+  "titre": "Grille 7 n°3192",
+  "statut": "CLOSED",
+  "fin": "2024-01-21T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:09:11.578544+00:00",
+  "mises_nettes": 7446.75,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 133,
+      "winningsPerGrid": 28.2
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 807,
+      "winningsPerGrid": 4.65
+    }
+  ],
+  "repartition": [
+    29,
+    336,
+    1242,
+    2421,
+    2830,
+    2131,
+    807,
+    133
+  ],
+  "matches": [
+    {
+      "match_id": 42134517,
+      "debut": "2024-01-21T19:45:00+00:00",
+      "home": "Lecce",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2689",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893305,
+      "debut": "2024-01-21T20:00:00+00:00",
+      "home": "Gérone",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2833",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44637066,
+      "debut": "2024-01-21T20:00:00+00:00",
+      "home": "Afrique du Sud",
+      "away": "Namibie",
+      "home_id": "sr:competitor:4736",
+      "away_id": "sr:competitor:4832",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984305,
+      "debut": "2024-01-21T20:00:00+00:00",
+      "home": "Elche",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:2846",
+      "away_id": "sr:competitor:2831",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46827657,
+      "debut": "2024-01-21T20:05:00+00:00",
+      "home": "Rennes",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146489,
+      "debut": "2024-01-21T20:30:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "CF Estrela Amadora",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:744135",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46345355,
+      "debut": "2024-01-22T00:00:00+00:00",
+      "home": "Tigres",
+      "away": "Guadalajara ",
+      "home_id": "sr:competitor:1940",
+      "away_id": "sr:competitor:1938",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

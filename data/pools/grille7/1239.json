@@ -1,0 +1,127 @@
+{
+  "grille_id": 1239,
+  "grille_type": "grille7",
+  "pool_id": 7001239,
+  "titre": "Grille 7 n°1239",
+  "statut": "CLOSED",
+  "fin": "2019-04-29T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:05:30.210508+00:00",
+  "mises_nettes": 10626,
+  "montant_distribue": 10626,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010001001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 531.3
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 118,
+      "winningsPerGrid": 45.03
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14745441,
+      "debut": "2019-04-29T18:45:00+00:00",
+      "home": "Lorient",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1646",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159887,
+      "debut": "2019-04-29T18:45:00+00:00",
+      "home": "Derry City",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3170",
+      "away_id": "sr:competitor:3173",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159889,
+      "debut": "2019-04-29T18:45:00+00:00",
+      "home": "UC Dublin",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3168",
+      "away_id": "sr:competitor:3190",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159891,
+      "debut": "2019-04-29T18:45:00+00:00",
+      "home": "Waterford United",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3194",
+      "away_id": "sr:competitor:3179",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109663,
+      "debut": "2019-04-29T19:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2814",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160301,
+      "debut": "2019-04-29T19:00:00+00:00",
+      "home": "Fiorentina",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2793",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159893,
+      "debut": "2019-04-29T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "St Patricks",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3169",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 253,
+  "grille_type": "grille7",
+  "pool_id": 7000253,
+  "titre": "Grille 7 n°253",
+  "statut": "CLOSED",
+  "fin": "2016-06-25T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:34:54.743960+00:00",
+  "mises_nettes": 31590.75,
+  "montant_distribue": 31590.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 36,
+      "winningsPerGrid": 438.76
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 998,
+      "winningsPerGrid": 15.83
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8693528,
+      "debut": "2016-06-25T16:00:00+00:00",
+      "home": "Pays de Galles",
+      "away": "Irlande du Nord",
+      "home_id": "sr:competitor:4702",
+      "away_id": "sr:competitor:4786",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693530,
+      "debut": "2016-06-25T19:00:00+00:00",
+      "home": "Croatie",
+      "away": "Portugal",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:4704",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693532,
+      "debut": "2016-06-26T13:00:00+00:00",
+      "home": "France",
+      "away": "République d'Irlande",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4693",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693534,
+      "debut": "2016-06-26T16:00:00+00:00",
+      "home": "Allemagne",
+      "away": "Slovaquie",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4697",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693522,
+      "debut": "2016-06-26T19:00:00+00:00",
+      "home": "Hongrie",
+      "away": "Belgique",
+      "home_id": "sr:competitor:4709",
+      "away_id": "sr:competitor:4717",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693524,
+      "debut": "2016-06-27T16:00:00+00:00",
+      "home": "Italie",
+      "away": "Espagne",
+      "home_id": "sr:competitor:4707",
+      "away_id": "sr:competitor:4698",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693526,
+      "debut": "2016-06-27T19:00:00+00:00",
+      "home": "Angleterre",
+      "away": "Islande",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:4708",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

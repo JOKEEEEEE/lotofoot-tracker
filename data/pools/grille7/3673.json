@@ -1,0 +1,136 @@
+{
+  "grille_id": 3673,
+  "grille_type": "grille7",
+  "pool_id": 7003673,
+  "titre": "Grille 7 n°3673",
+  "statut": "CLOSED",
+  "fin": "2025-04-03T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:34:04.243256+00:00",
+  "mises_nettes": 5469.75,
+  "montant_distribue": 5469.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 55,
+      "winningsPerGrid": 49.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 447,
+      "winningsPerGrid": 6.12
+    }
+  ],
+  "repartition": [
+    35,
+    204,
+    852,
+    1985,
+    2344,
+    1371,
+    447,
+    55
+  ],
+  "matches": [
+    {
+      "match_id": 56616593,
+      "debut": "2025-04-03T18:30:00+00:00",
+      "home": "FC Bâle",
+      "away": "Grasshopper Zurich",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:2449",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56616591,
+      "debut": "2025-04-03T18:30:00+00:00",
+      "home": "Lucerne",
+      "away": "Saint-Gall",
+      "home_id": "sr:competitor:2453",
+      "away_id": "sr:competitor:2442",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850565,
+      "debut": "2025-04-03T19:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58469469,
+      "debut": "2025-04-03T19:15:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3036",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59010735,
+      "debut": "2025-04-03T22:00:00+00:00",
+      "home": "Central Cordoba",
+      "away": "LDU Quito",
+      "home_id": "sr:competitor:65676",
+      "away_id": "sr:competitor:5257",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59011129,
+      "debut": "2025-04-03T22:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1966",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59011449,
+      "debut": "2025-04-03T22:00:00+00:00",
+      "home": "Sporting Cristal",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:2302",
+      "away_id": "sr:competitor:1963",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

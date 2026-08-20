@@ -1,0 +1,136 @@
+{
+  "grille_id": 3469,
+  "grille_type": "grille7",
+  "pool_id": 7003469,
+  "titre": "Grille 7 n°3469",
+  "statut": "CLOSED",
+  "fin": "2024-09-21T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:49:31.671018+00:00",
+  "mises_nettes": 5739.75,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 13,
+      "winningsPerGrid": 288.46
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 197,
+      "winningsPerGrid": 19.04
+    }
+  ],
+  "repartition": [
+    124,
+    1481,
+    2711,
+    2208,
+    919,
+    197,
+    13,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 51271517,
+      "debut": "2024-09-21T18:45:00+00:00",
+      "home": "Lecce",
+      "away": "Parme",
+      "home_id": "sr:competitor:2689",
+      "away_id": "sr:competitor:2690",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50714931,
+      "debut": "2024-09-21T18:45:00+00:00",
+      "home": "Anderlecht",
+      "away": "Charleroi",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2898",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955417,
+      "debut": "2024-09-21T19:00:00+00:00",
+      "home": "Reims",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852199,
+      "debut": "2024-09-21T19:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2814",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655941,
+      "debut": "2024-09-21T19:00:00+00:00",
+      "home": "Boca Juniors",
+      "away": "River Plate",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:3211",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50868067,
+      "debut": "2024-09-21T19:00:00+00:00",
+      "home": "NEC Nijmegen",
+      "away": "Heracles Almelo",
+      "home_id": "sr:competitor:2962",
+      "away_id": "sr:competitor:2977",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388809,
+      "debut": "2024-09-21T19:30:00+00:00",
+      "home": "Moreirense",
+      "away": "Famalicao",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:49531",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

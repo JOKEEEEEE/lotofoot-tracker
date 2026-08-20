@@ -1,0 +1,136 @@
+{
+  "grille_id": 2105,
+  "grille_type": "grille7",
+  "pool_id": 7002105,
+  "titre": "Grille 7 n°2105",
+  "statut": "CLOSED",
+  "fin": "2021-07-15T17:30:00+00:00",
+  "collecte_le": "2026-08-20T09:45:51.334518+00:00",
+  "mises_nettes": 3662.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "111100010001010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 153.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 138,
+      "winningsPerGrid": 14.49
+    }
+  ],
+  "repartition": [
+    0,
+    112,
+    760,
+    1715,
+    1449,
+    696,
+    138,
+    13
+  ],
+  "matches": [
+    {
+      "match_id": 27957926,
+      "debut": "2021-07-15T17:30:00+00:00",
+      "home": "Botosani",
+      "away": "FC Steaua Bucarest",
+      "home_id": "sr:competitor:24798",
+      "away_id": "sr:competitor:3301",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 32,
+      "cote_N": 1.01,
+      "cote_2": 17
+    },
+    {
+      "match_id": 27207536,
+      "debut": "2021-07-16T00:00:00+00:00",
+      "home": "O'Higgins",
+      "away": "Cobresal",
+      "home_id": "sr:competitor:3163",
+      "away_id": "sr:competitor:3167",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 1,
+      "cote_2": 32
+    },
+    {
+      "match_id": 27562480,
+      "debut": "2021-07-16T00:30:00+00:00",
+      "home": "Olimpia Asuncion",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 30,
+      "cote_N": 1.01,
+      "cote_2": 24
+    },
+    {
+      "match_id": 26243226,
+      "debut": "2021-07-16T13:45:00+00:00",
+      "home": "Slutsk",
+      "away": "BATE Borisov",
+      "home_id": "sr:competitor:36881",
+      "away_id": "sr:competitor:3350",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 50,
+      "cote_2": 1
+    },
+    {
+      "match_id": 25715970,
+      "debut": "2021-07-16T15:30:00+00:00",
+      "home": "Lahti",
+      "away": "Mariehamn",
+      "home_id": "sr:competitor:2249",
+      "away_id": "sr:competitor:5058",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 44,
+      "cote_N": 1,
+      "cote_2": 65
+    },
+    {
+      "match_id": 27957916,
+      "debut": "2021-07-16T15:30:00+00:00",
+      "home": "Sepsi",
+      "away": "CS FC Clinceni",
+      "home_id": "sr:competitor:276385",
+      "away_id": "sr:competitor:24789",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26243218,
+      "debut": "2021-07-16T15:45:00+00:00",
+      "home": "Dinamo Brest",
+      "away": "Sputnik Rechica",
+      "home_id": "sr:competitor:3353",
+      "away_id": "sr:competitor:343590",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 8,
+      "cote_2": 25
+    }
+  ]
+}

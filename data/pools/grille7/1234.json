@@ -1,0 +1,127 @@
+{
+  "grille_id": 1234,
+  "grille_type": "grille7",
+  "pool_id": 7001234,
+  "titre": "Grille 7 n°1234",
+  "statut": "CLOSED",
+  "fin": "2019-04-24T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:05:54.465439+00:00",
+  "mises_nettes": 14644.5,
+  "montant_distribue": 14644.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 36,
+      "winningsPerGrid": 203.4
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 317,
+      "winningsPerGrid": 23.1
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15109635,
+      "debut": "2019-04-24T18:30:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2821",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109639,
+      "debut": "2019-04-24T18:30:00+00:00",
+      "home": "Leganes",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:2825",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17218383,
+      "debut": "2019-04-24T18:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2699",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17724402,
+      "debut": "2019-04-24T18:45:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:42",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17900988,
+      "debut": "2019-04-24T18:45:00+00:00",
+      "home": "Werder Brême",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2672",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17487549,
+      "debut": "2019-04-24T19:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109637,
+      "debut": "2019-04-24T19:30:00+00:00",
+      "home": "Levante",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2816",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2713,
+  "grille_type": "grille7",
+  "pool_id": 7002713,
+  "titre": "Grille 7 n°2713",
+  "statut": "CLOSED",
+  "fin": "2022-12-06T15:00:00+00:00",
+  "collecte_le": "2026-08-20T08:54:06.873946+00:00",
+  "mises_nettes": 8569.5,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100010010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 294.12
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 111,
+      "winningsPerGrid": 45.05
+    }
+  ],
+  "repartition": [
+    242,
+    1630,
+    3533,
+    3351,
+    1911,
+    631,
+    111,
+    17
+  ],
+  "matches": [
+    {
+      "match_id": 32972229,
+      "debut": "2022-12-06T15:00:00+00:00",
+      "home": "Maroc",
+      "away": "Espagne",
+      "home_id": "sr:competitor:4778",
+      "away_id": "sr:competitor:4698",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34229843,
+      "debut": "2022-12-06T17:00:00+00:00",
+      "home": "Maribor",
+      "away": "Radomlje",
+      "home_id": "sr:competitor:2420",
+      "away_id": "sr:competitor:37737",
+      "score_home": 7,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278805,
+      "debut": "2022-12-06T18:00:00+00:00",
+      "home": "Leganes",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:35092",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278819,
+      "debut": "2022-12-06T18:00:00+00:00",
+      "home": "Real Oviedo",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:6577",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32972231,
+      "debut": "2022-12-06T19:00:00+00:00",
+      "home": "Portugal",
+      "away": "Suisse",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4699",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278811,
+      "debut": "2022-12-06T20:00:00+00:00",
+      "home": "Albacete",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:2848",
+      "away_id": "sr:competitor:2815",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36337897,
+      "debut": "2022-12-06T20:45:00+00:00",
+      "home": "Estoril",
+      "away": "Torreense",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:25787",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3800,
+  "grille_type": "grille7",
+  "pool_id": 7003800,
+  "titre": "Grille 7 n°3800",
+  "statut": "CLOSED",
+  "fin": "2025-08-03T14:00:00+00:00",
+  "collecte_le": "2026-08-20T07:18:36.158301+00:00",
+  "mises_nettes": 2110.5,
+  "montant_distribue": 2110.5,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 1055.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 24,
+      "winningsPerGrid": 43.97
+    }
+  ],
+  "repartition": [
+    97,
+    464,
+    858,
+    789,
+    432,
+    149,
+    24,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 61358675,
+      "debut": "2025-08-03T14:00:00+00:00",
+      "home": "Cercle Bruges",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:2929",
+      "away_id": "sr:competitor:2900",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57381477,
+      "debut": "2025-08-03T18:15:00+00:00",
+      "home": "Universidad Católica (EQU)",
+      "away": "Aucas",
+      "home_id": "sr:competitor:21942",
+      "away_id": "sr:competitor:5249",
+      "score_home": 6,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052741,
+      "debut": "2025-08-03T19:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1954",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62259912,
+      "debut": "2025-08-03T19:00:00+00:00",
+      "home": "Club Olimpia",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:5991",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61735562,
+      "debut": "2025-08-03T21:10:00+00:00",
+      "home": "Alianza",
+      "away": "Bucaramanga",
+      "home_id": "sr:competitor:1098993",
+      "away_id": "sr:competitor:6103",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052755,
+      "debut": "2025-08-03T21:30:00+00:00",
+      "home": "Ceara",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380399,
+      "debut": "2025-08-03T21:30:00+00:00",
+      "home": "Nublense",
+      "away": "Everton",
+      "home_id": "sr:competitor:7029",
+      "away_id": "sr:competitor:5032",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

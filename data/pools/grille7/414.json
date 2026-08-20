@@ -1,0 +1,127 @@
+{
+  "grille_id": 414,
+  "grille_type": "grille7",
+  "pool_id": 7000414,
+  "titre": "Grille 7 n°414",
+  "statut": "CLOSED",
+  "fin": "2016-12-18T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:20:36.255513+00:00",
+  "mises_nettes": 11156.25,
+  "montant_distribue": 11156.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 697.27
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 122,
+      "winningsPerGrid": 45.72
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9539853,
+      "debut": "2016-12-18T16:00:00+00:00",
+      "home": "Marseille",
+      "away": "Lille",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1643",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600067,
+      "debut": "2016-12-18T16:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:42",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769469,
+      "debut": "2016-12-18T17:30:00+00:00",
+      "home": "Deportivo La Corogne",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2832",
+      "away_id": "sr:competitor:2820",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788809,
+      "debut": "2016-12-18T18:00:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Vitoria Setubal",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3008",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539861,
+      "debut": "2016-12-18T19:45:00+00:00",
+      "home": "Monaco",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821249,
+      "debut": "2016-12-18T19:45:00+00:00",
+      "home": "Genoa",
+      "away": "Palerme",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2715",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821257,
+      "debut": "2016-12-18T19:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2693",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

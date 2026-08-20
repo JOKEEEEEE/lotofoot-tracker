@@ -1,0 +1,127 @@
+{
+  "grille_id": 1744,
+  "grille_type": "grille7",
+  "pool_id": 7001744,
+  "titre": "Grille 7 n°1744",
+  "statut": "CLOSED",
+  "fin": "2020-09-19T13:00:00+00:00",
+  "collecte_le": "2026-08-20T10:17:55.134569+00:00",
+  "mises_nettes": 10735.5,
+  "montant_distribue": 10735.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 487.98
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 215,
+      "winningsPerGrid": 24.97
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22651249,
+      "debut": "2020-09-19T13:00:00+00:00",
+      "home": "Clermont",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1681",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23031815,
+      "debut": "2020-09-19T13:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Hertha Berlin",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2528",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23031813,
+      "debut": "2020-09-19T13:30:00+00:00",
+      "home": "Cologne",
+      "away": "Hoffenheim",
+      "home_id": "sr:competitor:2671",
+      "away_id": "sr:competitor:2569",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23031811,
+      "debut": "2020-09-19T13:30:00+00:00",
+      "home": "Union Berlin",
+      "away": "Augsbourg",
+      "home_id": "sr:competitor:2547",
+      "away_id": "sr:competitor:2600",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23203809,
+      "debut": "2020-09-19T14:00:00+00:00",
+      "home": "Leeds",
+      "away": "Fulham",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:43",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23360357,
+      "debut": "2020-09-19T14:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2839",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22650393,
+      "debut": "2020-09-19T15:00:00+00:00",
+      "home": "Lens",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1645",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1690,
+  "grille_type": "grille7",
+  "pool_id": 7001690,
+  "titre": "Grille 7 n°1690",
+  "statut": "CLOSED",
+  "fin": "2020-07-28T17:30:00+00:00",
+  "collecte_le": "2026-08-20T10:24:23.016100+00:00",
+  "mises_nettes": 8868,
+  "montant_distribue": 8868,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 29,
+      "winningsPerGrid": 152.9
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 267,
+      "winningsPerGrid": 16.61
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22172839,
+      "debut": "2020-07-28T17:30:00+00:00",
+      "home": "Parme",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2690",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22864971,
+      "debut": "2020-07-28T18:30:00+00:00",
+      "home": "FC Zurich",
+      "away": "Sion",
+      "home_id": "sr:competitor:2450",
+      "away_id": "sr:competitor:2452",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21871583,
+      "debut": "2020-07-28T18:30:00+00:00",
+      "home": "CFR Cluj",
+      "away": "Botosani",
+      "home_id": "sr:competitor:5287",
+      "away_id": "sr:competitor:24798",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172835,
+      "debut": "2020-07-28T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Naples",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2714",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22778713,
+      "debut": "2020-07-28T21:00:00+00:00",
+      "home": "Wydad Casablanca",
+      "away": "MCO Mouloudia Oujda",
+      "home_id": "sr:competitor:36268",
+      "away_id": "sr:competitor:170588",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22839257,
+      "debut": "2020-07-29T00:00:00+00:00",
+      "home": "Columbus Crew",
+      "away": "Minnesota United FC",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:41618",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22853023,
+      "debut": "2020-07-29T02:30:00+00:00",
+      "home": "Portland Timbers",
+      "away": "FC Cincinnati",
+      "home_id": "sr:competitor:22007",
+      "away_id": "sr:competitor:245305",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

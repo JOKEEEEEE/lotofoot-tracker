@@ -1,0 +1,127 @@
+{
+  "grille_id": 517,
+  "grille_type": "grille7",
+  "pool_id": 7000517,
+  "titre": "Grille 7 n°517",
+  "statut": "CLOSED",
+  "fin": "2017-04-11T18:45:00+00:00",
+  "collecte_le": "2026-08-20T13:32:07.149935+00:00",
+  "mises_nettes": 8389.5,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 714.29
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 92,
+      "winningsPerGrid": 54.35
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11296117,
+      "debut": "2017-04-12T16:45:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Monaco",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:1653",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11296125,
+      "debut": "2017-04-11T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2817",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11386953,
+      "debut": "2017-04-12T00:00:00+00:00",
+      "home": "Jaguares De Chiapas FC",
+      "away": "Leon",
+      "home_id": "sr:competitor:1953",
+      "away_id": "sr:competitor:36534",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11386955,
+      "debut": "2017-04-12T02:00:00+00:00",
+      "home": "Tigres",
+      "away": "Guadalajara ",
+      "home_id": "sr:competitor:1940",
+      "away_id": "sr:competitor:1938",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11386957,
+      "debut": "2017-04-12T02:00:00+00:00",
+      "home": "Veracruz",
+      "away": "Puebla",
+      "home_id": "sr:competitor:1942",
+      "away_id": "sr:competitor:1941",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11296113,
+      "debut": "2017-04-12T18:45:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Leicester",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:31",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11296123,
+      "debut": "2017-04-12T18:45:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:2829",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

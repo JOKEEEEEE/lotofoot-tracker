@@ -1,0 +1,127 @@
+{
+  "grille_id": 1920,
+  "grille_type": "grille7",
+  "pool_id": 7001920,
+  "titre": "Grille 7 n°1920",
+  "statut": "CLOSED",
+  "fin": "2021-02-06T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:00:57.072461+00:00",
+  "mises_nettes": 13408.5,
+  "montant_distribue": 13408.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010111100010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 40,
+      "winningsPerGrid": 167.61
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 461,
+      "winningsPerGrid": 14.54
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22650795,
+      "debut": "2021-02-06T18:00:00+00:00",
+      "home": "Lyon",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1659",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23390969,
+      "debut": "2021-02-06T19:45:00+00:00",
+      "home": "Genoa",
+      "away": "Naples",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2714",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 20,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23031415,
+      "debut": "2021-02-06T19:45:00+00:00",
+      "home": "Standard Liège",
+      "away": "O-H Louvain",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:2918",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 7,
+      "cote_N": 1.11,
+      "cote_2": 7.75
+    },
+    {
+      "match_id": 23204231,
+      "debut": "2021-02-06T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Everton",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:48",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 32,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360755,
+      "debut": "2021-02-06T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2859",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22870841,
+      "debut": "2021-02-06T15:30:00+00:00",
+      "home": "Heerenveen",
+      "away": "Vitesse Arnhem",
+      "home_id": "sr:competitor:2964",
+      "away_id": "sr:competitor:2958",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 20,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22650791,
+      "debut": "2021-02-06T20:00:00+00:00",
+      "home": "Lens",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1658",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 38,
+      "cote_N": 1,
+      "cote_2": 36
+    }
+  ]
+}

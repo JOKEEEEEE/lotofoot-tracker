@@ -1,0 +1,136 @@
+{
+  "grille_id": 3619,
+  "grille_type": "grille7",
+  "pool_id": 7003619,
+  "titre": "Grille 7 n°3619",
+  "statut": "CLOSED",
+  "fin": "2025-02-07T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:24:08.404951+00:00",
+  "mises_nettes": 12864.75,
+  "montant_distribue": 12864.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 247.4
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 429,
+      "winningsPerGrid": 14.99
+    }
+  ],
+  "repartition": [
+    168,
+    1188,
+    3407,
+    5384,
+    4548,
+    2003,
+    429,
+    26
+  ],
+  "matches": [
+    {
+      "match_id": 50956697,
+      "debut": "2025-02-07T19:00:00+00:00",
+      "home": "Paris FC",
+      "away": "Pau",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1685",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956705,
+      "debut": "2025-02-07T18:59:00+00:00",
+      "home": "Grenoble",
+      "away": "Red Star",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:52874",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956699,
+      "debut": "2025-02-07T19:00:00+00:00",
+      "home": "Rodez",
+      "away": "Bastia",
+      "home_id": "sr:competitor:6925",
+      "away_id": "sr:competitor:1655",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956707,
+      "debut": "2025-02-07T19:00:00+00:00",
+      "home": "Laval",
+      "away": "Annecy FC",
+      "home_id": "sr:competitor:1673",
+      "away_id": "sr:competitor:234888",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51967081,
+      "debut": "2025-02-07T19:00:00+00:00",
+      "home": "Martigues",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1664",
+      "away_id": "sr:competitor:1652",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273265,
+      "debut": "2025-02-07T19:45:00+00:00",
+      "home": "Côme",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2704",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955715,
+      "debut": "2025-02-07T20:05:00+00:00",
+      "home": "Paris SG",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1653",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

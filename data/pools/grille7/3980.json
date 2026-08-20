@@ -1,0 +1,136 @@
+{
+  "grille_id": 3980,
+  "grille_type": "grille7",
+  "pool_id": 7003980,
+  "titre": "Grille 7 n°3980",
+  "statut": "CLOSED",
+  "fin": "2026-02-05T19:30:00+00:00",
+  "collecte_le": "2026-08-20T06:29:05.242676+00:00",
+  "mises_nettes": 10534.5,
+  "montant_distribue": 10534.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 10,
+      "winningsPerGrid": 526.73
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 145,
+      "winningsPerGrid": 36.33
+    }
+  ],
+  "repartition": [
+    1132,
+    3964,
+    5102,
+    2841,
+    852,
+    145,
+    10,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 67871936,
+      "debut": "2026-02-05T19:30:00+00:00",
+      "home": "Anderlecht",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2889",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 70,
+      "cote_2": 1
+    },
+    {
+      "match_id": 67782656,
+      "debut": "2026-02-05T20:00:00+00:00",
+      "home": "Strasbourg",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1659",
+      "away_id": "sr:competitor:1653",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.1,
+      "cote_N": 3.3,
+      "cote_2": 2.6
+    },
+    {
+      "match_id": 68010970,
+      "debut": "2026-02-05T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 3.15,
+      "cote_N": 3.25,
+      "cote_2": 1.86
+    },
+    {
+      "match_id": 66565950,
+      "debut": "2026-02-05T20:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2687",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.65,
+      "cote_N": 3,
+      "cote_2": 2.2
+    },
+    {
+      "match_id": 67270580,
+      "debut": "2026-02-05T20:45:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "AVS Futebol SAD",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:1031053",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.07,
+      "cote_N": 7.75,
+      "cote_2": 13.5
+    },
+    {
+      "match_id": 66886514,
+      "debut": "2026-02-05T22:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1961",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.92,
+      "cote_N": 2.95,
+      "cote_2": 3.3
+    },
+    {
+      "match_id": 66886500,
+      "debut": "2026-02-05T23:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:21845",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.5,
+      "cote_N": 3.8,
+      "cote_2": 4.8
+    }
+  ]
+}

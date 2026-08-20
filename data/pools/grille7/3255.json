@@ -1,0 +1,136 @@
+{
+  "grille_id": 3255,
+  "grille_type": "grille7",
+  "pool_id": 7003255,
+  "titre": "Grille 7 n°3255",
+  "statut": "CLOSED",
+  "fin": "2024-03-09T14:00:00+00:00",
+  "collecte_le": "2026-08-20T08:25:47.952331+00:00",
+  "mises_nettes": 12865.5,
+  "montant_distribue": 12865.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 918.96
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 147,
+      "winningsPerGrid": 43.76
+    }
+  ],
+  "repartition": [
+    103,
+    1695,
+    4617,
+    5664,
+    3727,
+    1194,
+    147,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 42005757,
+      "debut": "2024-03-09T14:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1646",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763403,
+      "debut": "2024-03-09T15:00:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Fulham",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:43",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763395,
+      "debut": "2024-03-09T15:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Luton Town",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:72",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893459,
+      "debut": "2024-03-09T15:15:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:2836",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42004961,
+      "debut": "2024-03-09T16:00:00+00:00",
+      "home": "Lorient",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1649",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134651,
+      "debut": "2024-03-09T17:00:00+00:00",
+      "home": "Bologne",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763387,
+      "debut": "2024-03-09T17:30:00+00:00",
+      "home": "Arsenal",
+      "away": "Brentford",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:50",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

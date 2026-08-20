@@ -1,0 +1,127 @@
+{
+  "grille_id": 1119,
+  "grille_type": "grille7",
+  "pool_id": 7001119,
+  "titre": "Grille 7 n°1119",
+  "statut": "CLOSED",
+  "fin": "2018-12-27T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:16:10.693612+00:00",
+  "mises_nettes": 15774.75,
+  "montant_distribue": 15774.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 86,
+      "winningsPerGrid": 91.71
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 692,
+      "winningsPerGrid": 11.4
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14728749,
+      "debut": "2018-12-27T19:30:00+00:00",
+      "home": "Anderlecht",
+      "away": "Waasland-Beveren",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:4859",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736615,
+      "debut": "2018-12-27T19:45:00+00:00",
+      "home": "Southampton",
+      "away": "West Ham",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324526,
+      "debut": "2018-12-27T20:00:00+00:00",
+      "home": "Nuova Cosenza Calcio",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:2716",
+      "away_id": "sr:competitor:2710",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324528,
+      "debut": "2018-12-27T20:00:00+00:00",
+      "home": "Crotone",
+      "away": "Spezia",
+      "home_id": "sr:competitor:2718",
+      "away_id": "sr:competitor:2735",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324530,
+      "debut": "2018-12-27T20:00:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Cittadella",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2717",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324532,
+      "debut": "2018-12-27T20:00:00+00:00",
+      "home": "Padoue",
+      "away": "Benevento",
+      "home_id": "sr:competitor:2741",
+      "away_id": "sr:competitor:2759",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324536,
+      "debut": "2018-12-27T20:00:00+00:00",
+      "home": "Pérouse",
+      "away": "Foggia",
+      "home_id": "sr:competitor:2698",
+      "away_id": "sr:competitor:2803",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

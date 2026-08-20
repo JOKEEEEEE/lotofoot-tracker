@@ -1,0 +1,127 @@
+{
+  "grille_id": 970,
+  "grille_type": "grille7",
+  "pool_id": 7000970,
+  "titre": "Grille 7 n°970",
+  "statut": "CLOSED",
+  "fin": "2018-07-28T21:00:00+00:00",
+  "collecte_le": "2026-08-20T11:31:10.451217+00:00",
+  "mises_nettes": 7707,
+  "montant_distribue": 7707,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1926.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 64,
+      "winningsPerGrid": 60.21
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14564894,
+      "debut": "2018-07-28T21:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14564896,
+      "debut": "2018-07-28T23:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:17",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497485,
+      "debut": "2018-07-28T23:00:00+00:00",
+      "home": "Toronto FC",
+      "away": "Chicago Fire",
+      "home_id": "sr:competitor:7080",
+      "away_id": "sr:competitor:2505",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497487,
+      "debut": "2018-07-28T23:00:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "Columbus Crew",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:2504",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497489,
+      "debut": "2018-07-28T23:00:00+00:00",
+      "home": "Montréal",
+      "away": "Atlanta United FC",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:305920",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497483,
+      "debut": "2018-07-29T00:00:00+00:00",
+      "home": "DC United",
+      "away": "Colorado Rapids",
+      "home_id": "sr:competitor:2502",
+      "away_id": "sr:competitor:2510",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14564898,
+      "debut": "2018-07-29T03:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

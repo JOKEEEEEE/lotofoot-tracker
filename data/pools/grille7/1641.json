@@ -1,0 +1,127 @@
+{
+  "grille_id": 1641,
+  "grille_type": "grille7",
+  "pool_id": 7001641,
+  "titre": "Grille 7 n°1641",
+  "statut": "CLOSED",
+  "fin": "2020-06-17T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:27:24.564652+00:00",
+  "mises_nettes": 20019.75,
+  "montant_distribue": 20019.75,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 834.16
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 207,
+      "winningsPerGrid": 48.36
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21971393,
+      "debut": "2020-06-17T18:30:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2556",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971397,
+      "debut": "2020-06-17T18:30:00+00:00",
+      "home": "RB Leipzig",
+      "away": "Düsseldorf",
+      "home_id": "sr:competitor:36360",
+      "away_id": "sr:competitor:2588",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971399,
+      "debut": "2020-06-17T18:30:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Cologne",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2671",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971413,
+      "debut": "2020-06-17T18:30:00+00:00",
+      "home": "Augsbourg",
+      "away": "Hoffenheim",
+      "home_id": "sr:competitor:2600",
+      "away_id": "sr:competitor:2569",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22288591,
+      "debut": "2020-06-17T19:00:00+00:00",
+      "home": "Naples",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22132159,
+      "debut": "2020-06-17T19:15:00+00:00",
+      "home": "Manchester City",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:42",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22153529,
+      "debut": "2020-06-17T20:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

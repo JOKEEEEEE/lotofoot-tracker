@@ -1,0 +1,136 @@
+{
+  "grille_id": 2696,
+  "grille_type": "grille7",
+  "pool_id": 7002696,
+  "titre": "Grille 7 n°2696",
+  "statut": "CLOSED",
+  "fin": "2022-11-18T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:56:43.202548+00:00",
+  "mises_nettes": 5257.5,
+  "montant_distribue": 5257.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 238.98
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 244,
+      "winningsPerGrid": 10.77
+    }
+  ],
+  "repartition": [
+    22,
+    314,
+    1250,
+    2103,
+    2049,
+    1017,
+    244,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 36261431,
+      "debut": "2022-11-18T19:30:00+00:00",
+      "home": "Lechia Gdansk",
+      "away": "Gornik Zabrze",
+      "home_id": "sr:competitor:7913",
+      "away_id": "sr:competitor:3110",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34220157,
+      "debut": "2022-11-18T19:45:00+00:00",
+      "home": "Ballymena",
+      "away": "Linfield",
+      "home_id": "sr:competitor:5269",
+      "away_id": "sr:competitor:5272",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34220167,
+      "debut": "2022-11-18T19:45:00+00:00",
+      "home": "Larne",
+      "away": "Dungannon",
+      "home_id": "sr:competitor:5184",
+      "away_id": "sr:competitor:5271",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34355483,
+      "debut": "2022-11-18T19:45:00+00:00",
+      "home": "Connah's Quay",
+      "away": "Cearnarfon Town",
+      "home_id": "sr:competitor:4912",
+      "away_id": "sr:competitor:4909",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278753,
+      "debut": "2022-11-18T20:00:00+00:00",
+      "home": "Grenade",
+      "away": "Albacete",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2848",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34355485,
+      "debut": "2022-11-18T20:00:00+00:00",
+      "home": "Aberystwyth",
+      "away": "Pontypridd Town",
+      "home_id": "sr:competitor:4905",
+      "away_id": "sr:competitor:37937",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36337853,
+      "debut": "2022-11-18T20:30:00+00:00",
+      "home": "Belenenses",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3004",
+      "away_id": "sr:competitor:2995",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

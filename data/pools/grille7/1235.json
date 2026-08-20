@@ -1,0 +1,127 @@
+{
+  "grille_id": 1235,
+  "grille_type": "grille7",
+  "pool_id": 7001235,
+  "titre": "Grille 7 n°1235",
+  "statut": "CLOSED",
+  "fin": "2019-04-25T18:15:00+00:00",
+  "collecte_le": "2026-08-20T11:05:51.826491+00:00",
+  "mises_nettes": 9937.5,
+  "montant_distribue": 9937.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 36,
+      "winningsPerGrid": 138.02
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 401,
+      "winningsPerGrid": 12.39
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17587321,
+      "debut": "2019-04-25T18:15:00+00:00",
+      "home": "FC Zurich",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:2450",
+      "away_id": "sr:competitor:2501",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109641,
+      "debut": "2019-04-25T18:30:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2819",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17957929,
+      "debut": "2019-04-25T18:30:00+00:00",
+      "home": "Zaglebie Sosnowiec",
+      "away": "Wisla Cracovie",
+      "home_id": "sr:competitor:7693",
+      "away_id": "sr:competitor:3111",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17957931,
+      "debut": "2019-04-25T18:30:00+00:00",
+      "home": "Slask Wroclaw",
+      "away": "Gornik Zabrze",
+      "home_id": "sr:competitor:3108",
+      "away_id": "sr:competitor:3110",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17214433,
+      "debut": "2019-04-25T18:45:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2693",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14732473,
+      "debut": "2019-04-25T18:45:00+00:00",
+      "home": "Willem II",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:2961",
+      "away_id": "sr:competitor:2952",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109643,
+      "debut": "2019-04-25T19:30:00+00:00",
+      "home": "Getafe",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

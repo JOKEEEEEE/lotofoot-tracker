@@ -1,0 +1,127 @@
+{
+  "grille_id": 1251,
+  "grille_type": "grille7",
+  "pool_id": 7001251,
+  "titre": "Grille 7 n°1251",
+  "statut": "CLOSED",
+  "fin": "2019-05-11T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:04:37.650674+00:00",
+  "mises_nettes": 9651,
+  "montant_distribue": 9651,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2412.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 75,
+      "winningsPerGrid": 64.34
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701361,
+      "debut": "2019-05-11T18:00:00+00:00",
+      "home": "Amiens",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1681",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701363,
+      "debut": "2019-05-11T18:00:00+00:00",
+      "home": "Nîmes",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:1653",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701371,
+      "debut": "2019-05-11T18:00:00+00:00",
+      "home": "Caen",
+      "away": "Reims",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1682",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701375,
+      "debut": "2019-05-11T18:00:00+00:00",
+      "home": "Nice",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1647",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701377,
+      "debut": "2019-05-11T18:00:00+00:00",
+      "home": "Dijon",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1686",
+      "away_id": "sr:competitor:1659",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16682073,
+      "debut": "2019-05-11T18:00:00+00:00",
+      "home": "FC Dallas",
+      "away": "New York Red Bulls",
+      "home_id": "sr:competitor:2512",
+      "away_id": "sr:competitor:2506",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160341,
+      "debut": "2019-05-11T18:30:00+00:00",
+      "home": "Fiorentina",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

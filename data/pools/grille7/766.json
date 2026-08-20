@@ -1,0 +1,127 @@
+{
+  "grille_id": 766,
+  "grille_type": "grille7",
+  "pool_id": 7000766,
+  "titre": "Grille 7 n°766",
+  "statut": "CLOSED",
+  "fin": "2017-12-30T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:47:53.400258+00:00",
+  "mises_nettes": 10062.75,
+  "montant_distribue": 10062.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 295.96
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 259,
+      "winningsPerGrid": 19.43
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12090440,
+      "debut": "2017-12-30T17:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2699",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830178,
+      "debut": "2017-12-30T17:30:00+00:00",
+      "home": "Manchester United",
+      "away": "Southampton",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:45",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868568,
+      "debut": "2017-12-30T17:30:00+00:00",
+      "home": "Bristol City",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:3",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12508602,
+      "debut": "2017-12-30T18:15:00+00:00",
+      "home": "Moreirense",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3009",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090436,
+      "debut": "2017-12-30T19:45:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12508696,
+      "debut": "2017-12-30T20:15:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:3002",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12508780,
+      "debut": "2017-12-30T20:15:00+00:00",
+      "home": "Rio Ave",
+      "away": "Leixoes SC",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:3018",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

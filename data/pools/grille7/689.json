@@ -1,0 +1,127 @@
+{
+  "grille_id": 689,
+  "grille_type": "grille7",
+  "pool_id": 7000689,
+  "titre": "Grille 7 n°689",
+  "statut": "CLOSED",
+  "fin": "2017-10-12T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:55:32.891697+00:00",
+  "mises_nettes": 5495.25,
+  "montant_distribue": 6000,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 44,
+      "winningsPerGrid": 68.18
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12060420,
+      "debut": "2017-10-12T18:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Albacete",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2848",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11967604,
+      "debut": "2017-10-12T18:45:00+00:00",
+      "home": "Newtown",
+      "away": "Bala Town",
+      "home_id": "sr:competitor:4918",
+      "away_id": "sr:competitor:36255",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12060412,
+      "debut": "2017-10-12T19:00:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Almeria",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2858",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439797,
+      "debut": "2017-10-12T20:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1961",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439809,
+      "debut": "2017-10-12T20:00:00+00:00",
+      "home": "Vitoria",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:1962",
+      "away_id": "sr:competitor:1959",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439811,
+      "debut": "2017-10-12T20:00:00+00:00",
+      "home": "Ponte Preta",
+      "away": "Santos",
+      "home_id": "sr:competitor:1969",
+      "away_id": "sr:competitor:1968",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439799,
+      "debut": "2017-10-13T00:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1955",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

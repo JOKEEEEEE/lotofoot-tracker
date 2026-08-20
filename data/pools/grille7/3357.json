@@ -1,0 +1,136 @@
+{
+  "grille_id": 3357,
+  "grille_type": "grille7",
+  "pool_id": 7003357,
+  "titre": "Grille 7 n°3357",
+  "statut": "CLOSED",
+  "fin": "2024-06-06T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:57:51.230641+00:00",
+  "mises_nettes": 6739.5,
+  "montant_distribue": 6739.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1123.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 53,
+      "winningsPerGrid": 63.58
+    }
+  ],
+  "repartition": [
+    210,
+    1180,
+    2880,
+    2893,
+    1384,
+    383,
+    53,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 49441357,
+      "debut": "2024-06-06T18:45:00+00:00",
+      "home": "Pays-Bas",
+      "away": "Canada",
+      "home_id": "sr:competitor:4705",
+      "away_id": "sr:competitor:4752",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48855051,
+      "debut": "2024-06-06T19:00:00+00:00",
+      "home": "Égypte",
+      "away": "Burkina Faso",
+      "home_id": "sr:competitor:4758",
+      "away_id": "sr:competitor:4749",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48855193,
+      "debut": "2024-06-06T19:00:00+00:00",
+      "home": "Sénégal",
+      "away": "RD Congo",
+      "home_id": "sr:competitor:4739",
+      "away_id": "sr:competitor:4823",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48855317,
+      "debut": "2024-06-06T19:00:00+00:00",
+      "home": "Bénin",
+      "away": "Rwanda",
+      "home_id": "sr:competitor:4744",
+      "away_id": "sr:competitor:8037",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48855733,
+      "debut": "2024-06-06T19:00:00+00:00",
+      "home": "Algérie",
+      "away": "Guinée",
+      "home_id": "sr:competitor:4691",
+      "away_id": "sr:competitor:4826",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48855937,
+      "debut": "2024-06-06T19:00:00+00:00",
+      "home": "Mali",
+      "away": "Ghana",
+      "home_id": "sr:competitor:4831",
+      "away_id": "sr:competitor:4764",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46188185,
+      "debut": "2024-06-06T19:30:00+00:00",
+      "home": "Sportivo Ameliano",
+      "away": "Tacuary",
+      "home_id": "sr:competitor:607728",
+      "away_id": "sr:competitor:5999",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

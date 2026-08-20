@@ -1,0 +1,136 @@
+{
+  "grille_id": 3256,
+  "grille_type": "grille7",
+  "pool_id": 7003256,
+  "titre": "Grille 7 n°3256",
+  "statut": "CLOSED",
+  "fin": "2024-03-09T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:04:32.660536+00:00",
+  "mises_nettes": 9917.25,
+  "montant_distribue": 9917.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010001010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 826.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 82,
+      "winningsPerGrid": 60.47
+    }
+  ],
+  "repartition": [
+    692,
+    2620,
+    4160,
+    3519,
+    1671,
+    473,
+    82,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 42005755,
+      "debut": "2024-03-09T18:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Quevilly - Rouen",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:233162",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42005743,
+      "debut": "2024-03-09T18:00:00+00:00",
+      "home": "Troyes",
+      "away": "Bastia",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1655",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42005759,
+      "debut": "2024-03-09T18:00:00+00:00",
+      "home": "Caen",
+      "away": "Paris FC",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:6070",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42005761,
+      "debut": "2024-03-09T18:00:00+00:00",
+      "home": "Valenciennes",
+      "away": "Angers",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1684",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42005747,
+      "debut": "2024-03-09T18:00:00+00:00",
+      "home": "Concarneau",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:6917",
+      "away_id": "sr:competitor:1654",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42005751,
+      "debut": "2024-03-09T18:00:00+00:00",
+      "home": "Amiens",
+      "away": "Rodez",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:6925",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42004967,
+      "debut": "2024-03-09T20:00:00+00:00",
+      "home": "Lens",
+      "away": "Brest",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1715",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

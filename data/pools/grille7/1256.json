@@ -1,0 +1,127 @@
+{
+  "grille_id": 1256,
+  "grille_type": "grille7",
+  "pool_id": 7001256,
+  "titre": "Grille 7 n°1256",
+  "statut": "CLOSED",
+  "fin": "2019-05-16T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:04:19.407971+00:00",
+  "mises_nettes": 7074.75,
+  "montant_distribue": 7074.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 321.58
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 114,
+      "winningsPerGrid": 31.03
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14775693,
+      "debut": "2019-05-16T18:00:00+00:00",
+      "home": "FC Lugano",
+      "away": "Saint-Gall",
+      "home_id": "sr:competitor:2443",
+      "away_id": "sr:competitor:2442",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14775697,
+      "debut": "2019-05-16T18:00:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Grasshopper Zurich",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:2449",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16599565,
+      "debut": "2019-05-16T18:00:00+00:00",
+      "home": "Vålerenga",
+      "away": "Strømsgodset",
+      "home_id": "sr:competitor:1165",
+      "away_id": "sr:competitor:1163",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17710332,
+      "debut": "2019-05-16T18:30:00+00:00",
+      "home": "Anderlecht",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2890",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17710334,
+      "debut": "2019-05-16T18:30:00+00:00",
+      "home": "Standard Liège",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:2888",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17710336,
+      "debut": "2019-05-16T18:30:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:2903",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17196407,
+      "debut": "2019-05-16T19:15:00+00:00",
+      "home": "Grindavik",
+      "away": "KR Reykjavik",
+      "home_id": "sr:competitor:1897",
+      "away_id": "sr:competitor:1902",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

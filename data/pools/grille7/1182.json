@@ -1,0 +1,127 @@
+{
+  "grille_id": 1182,
+  "grille_type": "grille7",
+  "pool_id": 7001182,
+  "titre": "Grille 7 n°1182",
+  "statut": "CLOSED",
+  "fin": "2019-03-02T19:00:00+00:00",
+  "collecte_le": "2026-08-20T13:28:29.848053+00:00",
+  "mises_nettes": 9026.25,
+  "montant_distribue": 9026.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 18,
+      "winningsPerGrid": 250.73
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 182,
+      "winningsPerGrid": 24.8
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701161,
+      "debut": "2019-03-02T19:00:00+00:00",
+      "home": "Angers",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1653",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701179,
+      "debut": "2019-03-02T19:00:00+00:00",
+      "home": "Reims",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1676",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14728867,
+      "debut": "2019-03-02T19:00:00+00:00",
+      "home": "Ostende",
+      "away": "Waasland-Beveren",
+      "home_id": "sr:competitor:4494",
+      "away_id": "sr:competitor:4859",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160139,
+      "debut": "2019-03-02T19:30:00+00:00",
+      "home": "Lazio Rome",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2702",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109477,
+      "debut": "2019-03-02T19:45:00+00:00",
+      "home": "Real Madrid",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946193,
+      "debut": "2019-03-02T20:30:00+00:00",
+      "home": "FC Porto",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681375,
+      "debut": "2019-03-02T19:30:00+00:00",
+      "home": "Orlando City SC",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:52237",
+      "away_id": "sr:competitor:167510",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

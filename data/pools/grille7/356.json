@@ -1,0 +1,127 @@
+{
+  "grille_id": 356,
+  "grille_type": "grille7",
+  "pool_id": 7000356,
+  "titre": "Grille 7 n°356",
+  "statut": "CLOSED",
+  "fin": "2016-10-18T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:25:52.415452+00:00",
+  "mises_nettes": 21540,
+  "montant_distribue": 21540,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 501,
+      "winningsPerGrid": 21.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 2669,
+      "winningsPerGrid": 4.04
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10058873,
+      "debut": "2016-10-18T18:45:00+00:00",
+      "home": "CSKA Moscou",
+      "away": "Monaco",
+      "home_id": "sr:competitor:2325",
+      "away_id": "sr:competitor:1653",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058875,
+      "debut": "2016-10-18T18:45:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:33",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058869,
+      "debut": "2016-10-18T18:45:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:2673",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058839,
+      "debut": "2016-10-18T18:45:00+00:00",
+      "home": "Leicester",
+      "away": "FC Copenhague",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:1284",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058841,
+      "debut": "2016-10-18T18:45:00+00:00",
+      "home": "Club Bruges",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058835,
+      "debut": "2016-10-18T18:45:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:2833",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10058837,
+      "debut": "2016-10-18T18:45:00+00:00",
+      "home": "Lyon",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

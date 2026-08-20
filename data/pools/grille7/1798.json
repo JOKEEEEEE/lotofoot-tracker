@@ -1,0 +1,127 @@
+{
+  "grille_id": 1798,
+  "grille_type": "grille7",
+  "pool_id": 7001798,
+  "titre": "Grille 7 n°1798",
+  "statut": "CLOSED",
+  "fin": "2020-10-31T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:12:09.342055+00:00",
+  "mises_nettes": 13432.5,
+  "montant_distribue": 13432.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 24,
+      "winningsPerGrid": 279.84
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 304,
+      "winningsPerGrid": 22.09
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22651343,
+      "debut": "2020-10-31T18:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1652",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22651347,
+      "debut": "2020-10-31T18:00:00+00:00",
+      "home": "Chambly",
+      "away": "Dunkerque",
+      "home_id": "sr:competitor:61612",
+      "away_id": "sr:competitor:6918",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 22,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22651349,
+      "debut": "2020-10-31T18:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1657",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 19,
+      "cote_N": 1.01,
+      "cote_2": 55
+    },
+    {
+      "match_id": 22651351,
+      "debut": "2020-10-31T18:00:00+00:00",
+      "home": "Le Havre",
+      "away": "Pau",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1685",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 17,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22651353,
+      "debut": "2020-10-31T18:00:00+00:00",
+      "home": "Nancy",
+      "away": "Châteauroux",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:1666",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 22,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22651359,
+      "debut": "2020-10-31T18:00:00+00:00",
+      "home": "Rodez",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:6925",
+      "away_id": "sr:competitor:1646",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 13.5,
+      "cote_N": 1.03,
+      "cote_2": 12.5
+    },
+    {
+      "match_id": 22651361,
+      "debut": "2020-10-31T18:00:00+00:00",
+      "home": "Valenciennes",
+      "away": "Clermont",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1680",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    }
+  ]
+}

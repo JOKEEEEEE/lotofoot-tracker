@@ -1,0 +1,127 @@
+{
+  "grille_id": 546,
+  "grille_type": "grille7",
+  "pool_id": 7000546,
+  "titre": "Grille 7 n°546",
+  "statut": "CLOSED",
+  "fin": "2017-05-13T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:05:44.784553+00:00",
+  "mises_nettes": 5049.75,
+  "montant_distribue": 6000,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 20,
+      "winningsPerGrid": 150
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 194,
+      "winningsPerGrid": 15.46
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11320637,
+      "debut": "2017-05-13T18:00:00+00:00",
+      "home": "Union Saint-Gilloise",
+      "away": "Saint-Trond",
+      "home_id": "sr:competitor:4860",
+      "away_id": "sr:competitor:2895",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11320641,
+      "debut": "2017-05-13T18:00:00+00:00",
+      "home": "Eupen",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2926",
+      "away_id": "sr:competitor:4858",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11320643,
+      "debut": "2017-05-13T18:00:00+00:00",
+      "home": "KSV Roeselare",
+      "away": "Lokeren",
+      "home_id": "sr:competitor:5021",
+      "away_id": "sr:competitor:2887",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821263,
+      "debut": "2017-05-13T18:45:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11437819,
+      "debut": "2017-05-13T19:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1977",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9789183,
+      "debut": "2017-05-13T19:30:00+00:00",
+      "home": "Feirense",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:4501",
+      "away_id": "sr:competitor:3001",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893602,
+      "debut": "2017-05-13T20:00:00+00:00",
+      "home": "Colorado Rapids",
+      "away": "San Jose Earthquakes",
+      "home_id": "sr:competitor:2510",
+      "away_id": "sr:competitor:21825",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

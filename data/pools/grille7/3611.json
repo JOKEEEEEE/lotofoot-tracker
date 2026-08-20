@@ -1,0 +1,136 @@
+{
+  "grille_id": 3611,
+  "grille_type": "grille7",
+  "pool_id": 7003611,
+  "titre": "Grille 7 n°3611",
+  "statut": "CLOSED",
+  "fin": "2025-01-30T20:00:00+00:00",
+  "collecte_le": "2026-08-20T07:38:44.090769+00:00",
+  "mises_nettes": 17048.25,
+  "montant_distribue": 17048.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 1420.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 140,
+      "winningsPerGrid": 60.89
+    }
+  ],
+  "repartition": [
+    997,
+    3921,
+    6747,
+    6334,
+    3433,
+    1153,
+    140,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 53160813,
+      "debut": "2025-01-30T20:00:00+00:00",
+      "home": "Nice",
+      "away": "Bodø/Glimt",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:656",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160817,
+      "debut": "2025-01-30T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Ludogorets",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:43840",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160795,
+      "debut": "2025-01-30T20:00:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:3061",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160797,
+      "debut": "2025-01-30T20:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2674",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160825,
+      "debut": "2025-01-30T20:00:00+00:00",
+      "home": "Braga",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:2699",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160819,
+      "debut": "2025-01-30T20:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:4860",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160805,
+      "debut": "2025-01-30T20:00:00+00:00",
+      "home": "Twente",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:2955",
+      "away_id": "sr:competitor:3050",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

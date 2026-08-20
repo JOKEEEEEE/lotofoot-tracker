@@ -1,0 +1,127 @@
+{
+  "grille_id": 1704,
+  "grille_type": "grille7",
+  "pool_id": 7001704,
+  "titre": "Grille 7 n°1704",
+  "statut": "CLOSED",
+  "fin": "2020-08-11T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:21:46.523539+00:00",
+  "mises_nettes": 10532.25,
+  "montant_distribue": 10532.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 84,
+      "winningsPerGrid": 62.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 633,
+      "winningsPerGrid": 8.32
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22660397,
+      "debut": "2020-08-11T19:00:00+00:00",
+      "home": "Wolverhampton",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:2833",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22660387,
+      "debut": "2020-08-11T19:00:00+00:00",
+      "home": "Shakhtar Donetsk",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:3313",
+      "away_id": "sr:competitor:2501",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22997221,
+      "debut": "2020-08-11T19:00:00+00:00",
+      "home": "Spezia",
+      "away": "Chievo Vérone",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:2694",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22721661,
+      "debut": "2020-08-11T22:00:00+00:00",
+      "home": "Necaxa",
+      "away": "Mazatlán F.C.",
+      "home_id": "sr:competitor:1944",
+      "away_id": "sr:competitor:1946",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22721663,
+      "debut": "2020-08-12T00:00:00+00:00",
+      "home": "Pachuca",
+      "away": "Leon",
+      "home_id": "sr:competitor:1936",
+      "away_id": "sr:competitor:36534",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23024387,
+      "debut": "2020-08-12T00:30:00+00:00",
+      "home": "Portland Timbers",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:22007",
+      "away_id": "sr:competitor:52237",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22721665,
+      "debut": "2020-08-12T02:00:00+00:00",
+      "home": "Tigres",
+      "away": "Puebla",
+      "home_id": "sr:competitor:1940",
+      "away_id": "sr:competitor:1941",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

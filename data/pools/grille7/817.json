@@ -1,0 +1,127 @@
+{
+  "grille_id": 817,
+  "grille_type": "grille7",
+  "pool_id": 7000817,
+  "titre": "Grille 7 n°817",
+  "statut": "CLOSED",
+  "fin": "2018-02-21T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:43:41.027633+00:00",
+  "mises_nettes": 14484.75,
+  "montant_distribue": 15000,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 625
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 161,
+      "winningsPerGrid": 46.58
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13330231,
+      "debut": "2018-02-21T19:45:00+00:00",
+      "home": "FC Séville",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:35",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13330329,
+      "debut": "2018-02-21T19:45:00+00:00",
+      "home": "Shakhtar Donetsk",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:3313",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13333489,
+      "debut": "2018-02-22T18:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Lyon",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:1649",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13332837,
+      "debut": "2018-02-22T16:00:00+00:00",
+      "home": "Lokomotiv Moscou",
+      "away": "Nice",
+      "home_id": "sr:competitor:2320",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13333213,
+      "debut": "2018-02-22T18:00:00+00:00",
+      "home": "Dynamo Kiev",
+      "away": "AEK Athènes",
+      "home_id": "sr:competitor:3305",
+      "away_id": "sr:competitor:3250",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13333379,
+      "debut": "2018-02-22T18:00:00+00:00",
+      "home": "Zénith St-Pétersbourg",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:2321",
+      "away_id": "sr:competitor:2352",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13333383,
+      "debut": "2018-02-22T18:00:00+00:00",
+      "home": "RB Leipzig",
+      "away": "Naples",
+      "home_id": "sr:competitor:36360",
+      "away_id": "sr:competitor:2714",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

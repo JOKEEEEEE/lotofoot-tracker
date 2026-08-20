@@ -1,0 +1,127 @@
+{
+  "grille_id": 523,
+  "grille_type": "grille7",
+  "pool_id": 7000523,
+  "titre": "Grille 7 n°523",
+  "statut": "CLOSED",
+  "fin": "2017-04-18T18:45:00+00:00",
+  "collecte_le": "2026-08-20T13:31:53.390071+00:00",
+  "mises_nettes": 9462.75,
+  "montant_distribue": 9462.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 33,
+      "winningsPerGrid": 143.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 351,
+      "winningsPerGrid": 13.48
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11296121,
+      "debut": "2017-04-18T18:45:00+00:00",
+      "home": "Real Madrid",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11296115,
+      "debut": "2017-04-18T18:45:00+00:00",
+      "home": "Leicester",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11414817,
+      "debut": "2017-04-18T18:45:00+00:00",
+      "home": "Linfield",
+      "away": "Glenavon",
+      "home_id": "sr:competitor:5272",
+      "away_id": "sr:competitor:5183",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11414815,
+      "debut": "2017-04-18T18:45:00+00:00",
+      "home": "Crusaders",
+      "away": "Coleraine",
+      "home_id": "sr:competitor:5180",
+      "away_id": "sr:competitor:5270",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11414813,
+      "debut": "2017-04-18T18:45:00+00:00",
+      "home": "Carrick Rangers",
+      "away": "Glentoran",
+      "home_id": "sr:competitor:36783",
+      "away_id": "sr:competitor:5179",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11414811,
+      "debut": "2017-04-18T18:45:00+00:00",
+      "home": "Ballymena",
+      "away": "Cliftonville",
+      "home_id": "sr:competitor:5269",
+      "away_id": "sr:competitor:5181",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11414809,
+      "debut": "2017-04-18T18:45:00+00:00",
+      "home": "Ballinamallard",
+      "away": "Dungannon",
+      "home_id": "sr:competitor:36785",
+      "away_id": "sr:competitor:5271",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

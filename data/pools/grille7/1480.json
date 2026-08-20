@@ -1,0 +1,127 @@
+{
+  "grille_id": 1480,
+  "grille_type": "grille7",
+  "pool_id": 7001480,
+  "titre": "Grille 7 n°1480",
+  "statut": "CLOSED",
+  "fin": "2019-12-08T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:46:30.285342+00:00",
+  "mises_nettes": 12611.25,
+  "montant_distribue": 12611.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 900.8
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 81,
+      "winningsPerGrid": 77.85
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18927066,
+      "debut": "2019-12-08T19:45:00+00:00",
+      "home": "Bologne",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2692",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440246,
+      "debut": "2019-12-08T20:00:00+00:00",
+      "home": "Marseille",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1645",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640950,
+      "debut": "2019-12-08T20:00:00+00:00",
+      "home": "Osasuna",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18659382,
+      "debut": "2019-12-08T20:00:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Elche",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:2846",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030270,
+      "debut": "2019-12-08T20:00:00+00:00",
+      "home": "Pordenone",
+      "away": "Crotone",
+      "home_id": "sr:competitor:111205",
+      "away_id": "sr:competitor:2718",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660366,
+      "debut": "2019-12-08T20:00:00+00:00",
+      "home": "Belenenses",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3004",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723606,
+      "debut": "2019-12-08T20:35:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "Central Cordoba Sde",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:65676",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

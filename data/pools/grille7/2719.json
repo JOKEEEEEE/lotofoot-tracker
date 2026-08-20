@@ -1,0 +1,136 @@
+{
+  "grille_id": 2719,
+  "grille_type": "grille7",
+  "pool_id": 7002719,
+  "titre": "Grille 7 n°2719",
+  "statut": "CLOSED",
+  "fin": "2022-12-12T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:53:40.446838+00:00",
+  "mises_nettes": 7026,
+  "montant_distribue": 7026,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 206.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 197,
+      "winningsPerGrid": 17.83
+    }
+  ],
+  "repartition": [
+    108,
+    704,
+    2025,
+    2999,
+    2352,
+    966,
+    197,
+    17
+  ],
+  "matches": [
+    {
+      "match_id": 37827865,
+      "debut": "2022-12-12T18:00:00+00:00",
+      "home": "KF Tirana",
+      "away": "KF Kastrioti Kruje",
+      "home_id": "sr:competitor:5195",
+      "away_id": "sr:competitor:37124",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34416633,
+      "debut": "2022-12-12T18:30:00+00:00",
+      "home": "Mioveni",
+      "away": "Universitatea Craiova",
+      "home_id": "sr:competitor:7731",
+      "away_id": "sr:competitor:116223",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37369377,
+      "debut": "2022-12-12T18:30:00+00:00",
+      "home": "Hibernians FC",
+      "away": "Floriana",
+      "home_id": "sr:competitor:5331",
+      "away_id": "sr:competitor:33584",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34744521,
+      "debut": "2022-12-12T19:30:00+00:00",
+      "home": "Brescia",
+      "away": "Parme",
+      "home_id": "sr:competitor:2691",
+      "away_id": "sr:competitor:2690",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265665,
+      "debut": "2022-12-12T20:00:00+00:00",
+      "home": "Sunderland",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:41",
+      "away_id": "sr:competitor:8",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278821,
+      "debut": "2022-12-12T20:00:00+00:00",
+      "home": "Alaves",
+      "away": "Levante",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2849",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36922999,
+      "debut": "2022-12-12T20:30:00+00:00",
+      "home": "Boavista",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3009",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

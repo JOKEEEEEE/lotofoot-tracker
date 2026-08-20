@@ -1,0 +1,127 @@
+{
+  "grille_id": 1171,
+  "grille_type": "grille7",
+  "pool_id": 7001171,
+  "titre": "Grille 7 n°1171",
+  "statut": "CLOSED",
+  "fin": "2019-02-19T20:00:00+00:00",
+  "collecte_le": "2026-08-20T11:14:11.155106+00:00",
+  "mises_nettes": 10455.75,
+  "montant_distribue": 12000,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 1000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 131,
+      "winningsPerGrid": 45.8
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16514891,
+      "debut": "2019-02-19T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514905,
+      "debut": "2019-02-19T20:00:00+00:00",
+      "home": "Liverpool",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:2672",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899355,
+      "debut": "2019-02-20T00:30:00+00:00",
+      "home": "Deportivo Cali",
+      "away": "Union Magdalena Santa Marta",
+      "home_id": "sr:competitor:6112",
+      "away_id": "sr:competitor:89376",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14749745,
+      "debut": "2019-02-20T10:15:00+00:00",
+      "home": "FC Dunav Ruse",
+      "away": "FC Vereya",
+      "home_id": "sr:competitor:3286",
+      "away_id": "sr:competitor:59722",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14749755,
+      "debut": "2019-02-20T12:30:00+00:00",
+      "home": "Lokomotiv Plovdiv",
+      "away": "FK Septemvri Sofia",
+      "home_id": "sr:competitor:3272",
+      "away_id": "sr:competitor:214054",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17178999,
+      "debut": "2019-02-20T14:00:00+00:00",
+      "home": "MCO Mouloudia Oujda",
+      "away": "Renaissance Berkane",
+      "home_id": "sr:competitor:170588",
+      "away_id": "sr:competitor:80395",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17179013,
+      "debut": "2019-02-20T14:00:00+00:00",
+      "home": "CA Youssoufia Berrechid",
+      "away": "Wydad Casablanca",
+      "home_id": "sr:competitor:118830",
+      "away_id": "sr:competitor:36268",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

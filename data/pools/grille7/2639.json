@@ -1,0 +1,136 @@
+{
+  "grille_id": 2639,
+  "grille_type": "grille7",
+  "pool_id": 7002639,
+  "titre": "Grille 7 n°2639",
+  "statut": "CLOSED",
+  "fin": "2022-10-06T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:01:10.697945+00:00",
+  "mises_nettes": 10373.25,
+  "montant_distribue": 10373.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001001001010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 576.29
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 173,
+      "winningsPerGrid": 29.98
+    }
+  ],
+  "repartition": [
+    154,
+    1084,
+    3318,
+    4827,
+    3216,
+    1050,
+    173,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 35648411,
+      "debut": "2022-10-06T19:00:00+00:00",
+      "home": "Rennes",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:3305",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35649197,
+      "debut": "2022-10-06T19:00:00+00:00",
+      "home": "Fribourg",
+      "away": "Nantes",
+      "home_id": "sr:competitor:2538",
+      "away_id": "sr:competitor:1647",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35648685,
+      "debut": "2022-10-06T19:00:00+00:00",
+      "home": "Braga",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:4860",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35648819,
+      "debut": "2022-10-06T19:00:00+00:00",
+      "home": "Midtjylland",
+      "away": "Feyenoord",
+      "home_id": "sr:competitor:1289",
+      "away_id": "sr:competitor:2959",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35649043,
+      "debut": "2022-10-06T19:00:00+00:00",
+      "home": "Olympiakos",
+      "away": "Qarabag Agdam",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:5962",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35646957,
+      "debut": "2022-10-06T19:00:00+00:00",
+      "home": "Heart of Midlothian",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2353",
+      "away_id": "sr:competitor:2693",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35648455,
+      "debut": "2022-10-06T19:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2816",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

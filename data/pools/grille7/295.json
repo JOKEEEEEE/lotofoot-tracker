@@ -1,0 +1,127 @@
+{
+  "grille_id": 295,
+  "grille_type": "grille7",
+  "pool_id": 7000295,
+  "titre": "Grille 7 n°295",
+  "statut": "CLOSED",
+  "fin": "2016-08-14T15:00:00+00:00",
+  "collecte_le": "2026-08-20T12:31:54.416869+00:00",
+  "mises_nettes": 7391.25,
+  "montant_distribue": 7391.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 16,
+      "winningsPerGrid": 230.98
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 198,
+      "winningsPerGrid": 18.66
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9536765,
+      "debut": "2016-08-14T15:00:00+00:00",
+      "home": "Nice",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1658",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9599349,
+      "debut": "2016-08-14T15:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:44",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9787249,
+      "debut": "2016-08-14T15:00:00+00:00",
+      "home": "Boavista",
+      "away": "Arouca",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:25777",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9445051,
+      "debut": "2016-08-14T18:30:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2672",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9536767,
+      "debut": "2016-08-14T18:45:00+00:00",
+      "home": "Marseille",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1681",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9787323,
+      "debut": "2016-08-14T19:15:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Braga",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9716501,
+      "debut": "2016-08-14T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

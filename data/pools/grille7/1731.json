@@ -1,0 +1,127 @@
+{
+  "grille_id": 1731,
+  "grille_type": "grille7",
+  "pool_id": 7001731,
+  "titre": "Grille 7 n°1731",
+  "statut": "CLOSED",
+  "fin": "2020-09-06T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:18:32.393023+00:00",
+  "mises_nettes": 18138,
+  "montant_distribue": 18138,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 35,
+      "winningsPerGrid": 259.11
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 417,
+      "winningsPerGrid": 21.75
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21595983,
+      "debut": "2020-09-06T18:45:00+00:00",
+      "home": "Espagne",
+      "away": "Ukraine",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4701",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21595985,
+      "debut": "2020-09-06T18:45:00+00:00",
+      "home": "Suisse",
+      "away": "Allemagne",
+      "home_id": "sr:competitor:4699",
+      "away_id": "sr:competitor:4711",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21596197,
+      "debut": "2020-09-06T18:45:00+00:00",
+      "home": "Serbie",
+      "away": "Turquie",
+      "home_id": "sr:competitor:6355",
+      "away_id": "sr:competitor:4700",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21596377,
+      "debut": "2020-09-06T18:45:00+00:00",
+      "home": "Kosovo",
+      "away": "Grèce",
+      "home_id": "sr:competitor:154426",
+      "away_id": "sr:competitor:4710",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21596509,
+      "debut": "2020-09-06T18:45:00+00:00",
+      "home": "Malte",
+      "away": "Lettonie",
+      "home_id": "sr:competitor:4483",
+      "away_id": "sr:competitor:4706",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22726985,
+      "debut": "2020-09-06T19:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1961",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22726983,
+      "debut": "2020-09-06T21:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:1967",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

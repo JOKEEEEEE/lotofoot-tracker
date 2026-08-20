@@ -1,0 +1,136 @@
+{
+  "grille_id": 2926,
+  "grille_type": "grille7",
+  "pool_id": 7002926,
+  "titre": "Grille 7 n°2926",
+  "statut": "CLOSED",
+  "fin": "2023-05-30T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:36:02.566679+00:00",
+  "mises_nettes": 6102.75,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 38,
+      "winningsPerGrid": 98.68
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 335,
+      "winningsPerGrid": 11.19
+    }
+  ],
+  "repartition": [
+    40,
+    389,
+    1392,
+    2441,
+    2313,
+    1189,
+    335,
+    38
+  ],
+  "matches": [
+    {
+      "match_id": 34478655,
+      "debut": "2023-05-30T17:00:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Antalyaspor",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:3056",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34478659,
+      "debut": "2023-05-30T17:00:00+00:00",
+      "home": "MKE Ankaragücü",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:3103",
+      "away_id": "sr:competitor:3061",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34478661,
+      "debut": "2023-05-30T17:00:00+00:00",
+      "home": "Giresunspor",
+      "away": "Trabzonspor",
+      "home_id": "sr:competitor:5765",
+      "away_id": "sr:competitor:3051",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34478665,
+      "debut": "2023-05-30T17:00:00+00:00",
+      "home": "Istanbulspor AS",
+      "away": "Adana Demirspor",
+      "home_id": "sr:competitor:3066",
+      "away_id": "sr:competitor:3101",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34478667,
+      "debut": "2023-05-30T17:00:00+00:00",
+      "home": "Alanyaspor",
+      "away": "Kasimpasa",
+      "home_id": "sr:competitor:6362",
+      "away_id": "sr:competitor:6063",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34478669,
+      "debut": "2023-05-30T17:00:00+00:00",
+      "home": "Sivasspor",
+      "away": "Konyaspor",
+      "home_id": "sr:competitor:3076",
+      "away_id": "sr:competitor:3085",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34478671,
+      "debut": "2023-05-30T17:00:00+00:00",
+      "home": "Fatih Karagumruk Istanbul",
+      "away": "Kayserispor",
+      "home_id": "sr:competitor:4954",
+      "away_id": "sr:competitor:3072",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

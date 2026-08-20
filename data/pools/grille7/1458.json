@@ -1,0 +1,127 @@
+{
+  "grille_id": 1458,
+  "grille_type": "grille7",
+  "pool_id": 7001458,
+  "titre": "Grille 7 n°1458",
+  "statut": "CLOSED",
+  "fin": "2019-11-24T14:00:00+00:00",
+  "collecte_le": "2026-08-20T10:47:59.473173+00:00",
+  "mises_nettes": 12753,
+  "montant_distribue": 12753,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 425.1
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 206,
+      "winningsPerGrid": 30.95
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18440180,
+      "debut": "2019-11-24T14:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1653",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927034,
+      "debut": "2019-11-24T14:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Brescia",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2691",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927038,
+      "debut": "2019-11-24T14:00:00+00:00",
+      "home": "Sassuolo",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2699",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18571922,
+      "debut": "2019-11-24T14:30:00+00:00",
+      "home": "Augsbourg",
+      "away": "Hertha Berlin",
+      "home_id": "sr:competitor:2600",
+      "away_id": "sr:competitor:2528",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640900,
+      "debut": "2019-11-24T15:00:00+00:00",
+      "home": "Eibar",
+      "away": "Alaves",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2885",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440184,
+      "debut": "2019-11-24T16:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1642",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427778,
+      "debut": "2019-11-24T16:30:00+00:00",
+      "home": "Sheffield United",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:15",
+      "away_id": "sr:competitor:35",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

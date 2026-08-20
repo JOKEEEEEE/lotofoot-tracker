@@ -1,0 +1,136 @@
+{
+  "grille_id": 2219,
+  "grille_type": "grille7",
+  "pool_id": 7002219,
+  "titre": "Grille 7 n°2219",
+  "statut": "CLOSED",
+  "fin": "2021-10-19T18:45:00+00:00",
+  "collecte_le": "2026-08-20T13:18:25.082459+00:00",
+  "mises_nettes": 23658.75,
+  "montant_distribue": 23658.75,
+  "montant_garanti": 20000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 308,
+      "winningsPerGrid": 38.41
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 2055,
+      "winningsPerGrid": 5.76
+    }
+  ],
+  "repartition": [
+    133,
+    982,
+    3559,
+    8049,
+    9951,
+    6508,
+    2055,
+    308
+  ],
+  "matches": [
+    {
+      "match_id": 27867240,
+      "debut": "2021-10-19T18:45:00+00:00",
+      "home": "Stoke City",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:29",
+      "away_id": "sr:competitor:60",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 500,
+      "cote_N": 46,
+      "cote_2": 1
+    },
+    {
+      "match_id": 28933386,
+      "debut": "2021-10-19T19:05:00+00:00",
+      "home": "Paris SG",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:36360",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 6.5,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933408,
+      "debut": "2021-10-19T19:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:44",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 60,
+      "cote_2": 1
+    },
+    {
+      "match_id": 28933410,
+      "debut": "2021-10-19T19:00:00+00:00",
+      "home": "FC Porto",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 48,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933434,
+      "debut": "2021-10-19T19:00:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:2673",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933512,
+      "debut": "2021-10-19T19:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Sheriff Tiraspol",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:5173",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28933514,
+      "debut": "2021-10-19T19:00:00+00:00",
+      "home": "Shakhtar Donetsk",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:3313",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

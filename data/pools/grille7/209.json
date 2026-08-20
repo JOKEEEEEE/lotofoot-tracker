@@ -1,0 +1,127 @@
+{
+  "grille_id": 209,
+  "grille_type": "grille7",
+  "pool_id": 7000209,
+  "titre": "Grille 7 n°209",
+  "statut": "CLOSED",
+  "fin": "2016-04-25T18:15:00+00:00",
+  "collecte_le": "2026-08-20T12:38:45.748761+00:00",
+  "mises_nettes": 8056.5,
+  "montant_distribue": 8056.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1007.06
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 92,
+      "winningsPerGrid": 43.79
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7517580,
+      "debut": "2016-04-25T18:15:00+00:00",
+      "home": "Kaiserslautern",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2675",
+      "away_id": "sr:competitor:36360",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474846,
+      "debut": "2016-04-25T18:30:00+00:00",
+      "home": "Nancy",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:1657",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989536,
+      "debut": "2016-04-25T18:30:00+00:00",
+      "home": "Novara",
+      "away": "Pérouse",
+      "home_id": "sr:competitor:2767",
+      "away_id": "sr:competitor:2698",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610844,
+      "debut": "2016-04-25T18:30:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:33779",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7465146,
+      "debut": "2016-04-25T19:00:00+00:00",
+      "home": "Tottenham",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:8",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736564,
+      "debut": "2016-04-25T22:00:00+00:00",
+      "home": "Tigre",
+      "away": "Sarmiento",
+      "home_id": "sr:competitor:7628",
+      "away_id": "sr:competitor:42338",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736562,
+      "debut": "2016-04-26T00:15:00+00:00",
+      "home": "Quilmes",
+      "away": "Temperley",
+      "home_id": "sr:competitor:4936",
+      "away_id": "sr:competitor:112499",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3538,
+  "grille_type": "grille7",
+  "pool_id": 7003538,
+  "titre": "Grille 7 n°3538",
+  "statut": "CLOSED",
+  "fin": "2024-11-21T20:00:00+00:00",
+  "collecte_le": "2026-08-20T07:43:40.453184+00:00",
+  "mises_nettes": 3534,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 18,
+      "winningsPerGrid": 138.89
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 165,
+      "winningsPerGrid": 15.15
+    }
+  ],
+  "repartition": [
+    132,
+    749,
+    1523,
+    1451,
+    674,
+    165,
+    18,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 46657203,
+      "debut": "2024-11-21T20:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Belgrano",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:3203",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657185,
+      "debut": "2024-11-21T22:15:00+00:00",
+      "home": "Independiente",
+      "away": "Gimnasia La Plata",
+      "home_id": "sr:competitor:3209",
+      "away_id": "sr:competitor:3205",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657191,
+      "debut": "2024-11-21T22:15:00+00:00",
+      "home": "CA Talleres",
+      "away": "Sarmiento",
+      "home_id": "sr:competitor:3210",
+      "away_id": "sr:competitor:42338",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48215119,
+      "debut": "2024-11-21T23:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657205,
+      "debut": "2024-11-22T00:30:00+00:00",
+      "home": "Independiente Rivadavia",
+      "away": "River Plate",
+      "home_id": "sr:competitor:36842",
+      "away_id": "sr:competitor:3211",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55545615,
+      "debut": "2024-11-22T01:05:00+00:00",
+      "home": "Guadalajara ",
+      "away": "Atlas",
+      "home_id": "sr:competitor:1938",
+      "away_id": "sr:competitor:1949",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55545695,
+      "debut": "2024-11-22T03:00:00+00:00",
+      "home": "Club Tijuana",
+      "away": "Club América",
+      "home_id": "sr:competitor:36525",
+      "away_id": "sr:competitor:1939",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

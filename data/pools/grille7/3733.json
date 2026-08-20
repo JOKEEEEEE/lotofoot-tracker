@@ -1,0 +1,136 @@
+{
+  "grille_id": 3733,
+  "grille_type": "grille7",
+  "pool_id": 7003733,
+  "titre": "Grille 7 n°3733",
+  "statut": "CLOSED",
+  "fin": "2025-05-28T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:24:25.324312+00:00",
+  "mises_nettes": 2855.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 49,
+      "winningsPerGrid": 40.82
+    }
+  ],
+  "repartition": [
+    84,
+    480,
+    1049,
+    1144,
+    737,
+    262,
+    49,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 56677487,
+      "debut": "2025-05-28T17:00:00+00:00",
+      "home": "Fredrikstad FK",
+      "away": "Rosenborg",
+      "home_id": "sr:competitor:687",
+      "away_id": "sr:competitor:1161",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58267485,
+      "debut": "2025-05-28T19:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56677503,
+      "debut": "2025-05-28T19:00:00+00:00",
+      "home": "Bodø/Glimt",
+      "away": "Viking",
+      "home_id": "sr:competitor:656",
+      "away_id": "sr:competitor:1164",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59011231,
+      "debut": "2025-05-28T22:00:00+00:00",
+      "home": "Internacional ",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1955",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59011153,
+      "debut": "2025-05-28T22:00:00+00:00",
+      "home": "Club Nacional De Football",
+      "away": "Atletico Nacional Medellin",
+      "home_id": "sr:competitor:3230",
+      "away_id": "sr:competitor:6106",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59009021,
+      "debut": "2025-05-29T00:30:00+00:00",
+      "home": "Universidad Católica (EQU)",
+      "away": "Vitoria",
+      "home_id": "sr:competitor:21942",
+      "away_id": "sr:competitor:1962",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59009167,
+      "debut": "2025-05-29T00:30:00+00:00",
+      "home": "Palestino",
+      "away": "Mushuc Runa",
+      "home_id": "sr:competitor:3157",
+      "away_id": "sr:competitor:134976",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

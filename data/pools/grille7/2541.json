@@ -1,0 +1,136 @@
+{
+  "grille_id": 2541,
+  "grille_type": "grille7",
+  "pool_id": 7002541,
+  "titre": "Grille 7 n°2541",
+  "statut": "CLOSED",
+  "fin": "2022-07-17T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:09:00.698784+00:00",
+  "mises_nettes": 3373.5,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 46,
+      "winningsPerGrid": 43.48
+    }
+  ],
+  "repartition": [
+    105,
+    536,
+    1259,
+    1445,
+    835,
+    268,
+    46,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 31099951,
+      "debut": "2022-07-17T19:09:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:52237",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099953,
+      "debut": "2022-07-17T21:00:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:167510",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839345,
+      "debut": "2022-07-17T23:30:00+00:00",
+      "home": "Velez Sarsfield",
+      "away": "River Plate",
+      "home_id": "sr:competitor:3208",
+      "away_id": "sr:competitor:3211",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099955,
+      "debut": "2022-07-17T23:30:00+00:00",
+      "home": "Columbus Crew",
+      "away": "FC Cincinnati",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:245305",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099957,
+      "debut": "2022-07-18T00:30:00+00:00",
+      "home": "Nashville SC",
+      "away": "Los Angeles FC",
+      "home_id": "sr:competitor:668063",
+      "away_id": "sr:competitor:402227",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099959,
+      "debut": "2022-07-18T01:30:00+00:00",
+      "home": "Real Salt Lake",
+      "away": "Kansas City",
+      "home_id": "sr:competitor:5133",
+      "away_id": "sr:competitor:2509",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099961,
+      "debut": "2022-07-18T01:30:00+00:00",
+      "home": "San Jose Earthquakes",
+      "away": "Houston Dynamo",
+      "home_id": "sr:competitor:21825",
+      "away_id": "sr:competitor:2508",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

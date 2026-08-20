@@ -1,0 +1,136 @@
+{
+  "grille_id": 3355,
+  "grille_type": "grille7",
+  "pool_id": 7003355,
+  "titre": "Grille 7 n°3355",
+  "statut": "CLOSED",
+  "fin": "2024-06-04T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:57:56.005378+00:00",
+  "mises_nettes": 3594.75,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 333.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 83,
+      "winningsPerGrid": 24.1
+    }
+  ],
+  "repartition": [
+    166,
+    654,
+    1190,
+    1348,
+    950,
+    396,
+    83,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 46655631,
+      "debut": "2024-06-04T18:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Huracan",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:7629",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47847913,
+      "debut": "2024-06-04T18:45:00+00:00",
+      "home": "Autriche",
+      "away": "Serbie",
+      "home_id": "sr:competitor:4718",
+      "away_id": "sr:competitor:6355",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47847915,
+      "debut": "2024-06-04T19:00:00+00:00",
+      "home": "Italie",
+      "away": "Turquie",
+      "home_id": "sr:competitor:4707",
+      "away_id": "sr:competitor:4700",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46188191,
+      "debut": "2024-06-04T22:00:00+00:00",
+      "home": "Guarani Asuncion",
+      "away": "2 de Mayo",
+      "home_id": "sr:competitor:5994",
+      "away_id": "sr:competitor:5992",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655627,
+      "debut": "2024-06-04T23:00:00+00:00",
+      "home": "Banfield",
+      "away": "Newell's Old Boys",
+      "home_id": "sr:competitor:3219",
+      "away_id": "sr:competitor:3212",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655633,
+      "debut": "2024-06-04T23:00:00+00:00",
+      "home": "Independiente Rivadavia",
+      "away": "Union De Santa Fe",
+      "home_id": "sr:competitor:36842",
+      "away_id": "sr:competitor:3204",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50226309,
+      "debut": "2024-06-05T00:00:00+00:00",
+      "home": "Huachipato",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:3164",
+      "away_id": "sr:competitor:5926",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

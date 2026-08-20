@@ -1,0 +1,136 @@
+{
+  "grille_id": 2984,
+  "grille_type": "grille7",
+  "pool_id": 7002984,
+  "titre": "Grille 7 n°2984",
+  "statut": "CLOSED",
+  "fin": "2023-07-29T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:32:33.050318+00:00",
+  "mises_nettes": 7067.25,
+  "montant_distribue": 7067.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 33,
+      "winningsPerGrid": 107.08
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 332,
+      "winningsPerGrid": 10.64
+    }
+  ],
+  "repartition": [
+    81,
+    690,
+    1855,
+    2754,
+    2421,
+    1257,
+    332,
+    33
+  ],
+  "matches": [
+    {
+      "match_id": 42023707,
+      "debut": "2023-07-29T18:30:00+00:00",
+      "home": "Fortuna Düsseldorf",
+      "away": "Hertha Berlin",
+      "home_id": "sr:competitor:2588",
+      "away_id": "sr:competitor:2528",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41874035,
+      "debut": "2023-07-29T18:30:00+00:00",
+      "home": "Servette FC",
+      "away": "FC Zurich",
+      "home_id": "sr:competitor:2448",
+      "away_id": "sr:competitor:2450",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893131,
+      "debut": "2023-07-29T18:45:00+00:00",
+      "home": "Racing White Daring Molenbeek",
+      "away": "Genk",
+      "home_id": "sr:competitor:220436",
+      "away_id": "sr:competitor:2890",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41736617,
+      "debut": "2023-07-29T19:00:00+00:00",
+      "home": "Istra 1961",
+      "away": "Dinamo Zagreb",
+      "home_id": "sr:competitor:25529",
+      "away_id": "sr:competitor:2032",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439283,
+      "debut": "2023-07-29T19:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:1954",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439269,
+      "debut": "2023-07-29T19:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Santos",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:1968",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546385,
+      "debut": "2023-07-29T20:00:00+00:00",
+      "home": "Independiente",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:3209",
+      "away_id": "sr:competitor:3202",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

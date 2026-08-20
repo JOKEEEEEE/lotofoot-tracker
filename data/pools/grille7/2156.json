@@ -1,0 +1,136 @@
+{
+  "grille_id": 2156,
+  "grille_type": "grille7",
+  "pool_id": 7002156,
+  "titre": "Grille 7 n°2156",
+  "statut": "CLOSED",
+  "fin": "2021-08-29T18:45:00+00:00",
+  "collecte_le": "2026-08-20T09:43:47.134571+00:00",
+  "mises_nettes": 9219.75,
+  "montant_distribue": 9219.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001100001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 89,
+      "winningsPerGrid": 51.8
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 791,
+      "winningsPerGrid": 5.83
+    }
+  ],
+  "repartition": [
+    29,
+    273,
+    1172,
+    2926,
+    4232,
+    2781,
+    791,
+    89
+  ],
+  "matches": [
+    {
+      "match_id": 27884780,
+      "debut": "2021-08-29T18:45:00+00:00",
+      "home": "Reims",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 28159822,
+      "debut": "2021-08-29T18:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2719",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 28159814,
+      "debut": "2021-08-29T18:45:00+00:00",
+      "home": "Salernitana",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2702",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 28152998,
+      "debut": "2021-08-29T18:45:00+00:00",
+      "home": "Altay Izmir",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:3070",
+      "away_id": "sr:competitor:3052",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 28077092,
+      "debut": "2021-08-29T19:30:00+00:00",
+      "home": "Santa Clara",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:3011",
+      "away_id": "sr:competitor:3010",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 55,
+      "cote_2": 250
+    },
+    {
+      "match_id": 28077098,
+      "debut": "2021-08-29T19:30:00+00:00",
+      "home": "Portimonense",
+      "away": "Paços de Ferreira",
+      "home_id": "sr:competitor:3026",
+      "away_id": "sr:competitor:3003",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 48,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27965200,
+      "debut": "2021-08-29T20:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2819",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 140,
+      "cote_N": 11.5,
+      "cote_2": 1.03
+    }
+  ]
+}

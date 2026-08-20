@@ -1,0 +1,136 @@
+{
+  "grille_id": 2932,
+  "grille_type": "grille7",
+  "pool_id": 7002932,
+  "titre": "Grille 7 n°2932",
+  "statut": "CLOSED",
+  "fin": "2023-06-05T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:35:43.266275+00:00",
+  "mises_nettes": 6720,
+  "montant_distribue": 6720,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 167,
+      "winningsPerGrid": 20.12
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 897,
+      "winningsPerGrid": 3.75
+    }
+  ],
+  "repartition": [
+    28,
+    201,
+    961,
+    2181,
+    2603,
+    1922,
+    897,
+    167
+  ],
+  "matches": [
+    {
+      "match_id": 38144853,
+      "debut": "2023-06-05T17:00:00+00:00",
+      "home": "Sligo Rovers",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:3190",
+      "away_id": "sr:competitor:3177",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37844153,
+      "debut": "2023-06-05T17:00:00+00:00",
+      "home": "Varbergs Bois",
+      "away": "Häcken",
+      "home_id": "sr:competitor:7101",
+      "away_id": "sr:competitor:1760",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37844143,
+      "debut": "2023-06-05T17:10:00+00:00",
+      "home": "Malmö",
+      "away": "Degerfors IF",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:1807",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144855,
+      "debut": "2023-06-05T17:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3170",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144851,
+      "debut": "2023-06-05T18:45:00+00:00",
+      "home": "Shelbourne Dublin",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:3174",
+      "away_id": "sr:competitor:3180",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41476777,
+      "debut": "2023-06-05T18:45:00+00:00",
+      "home": "Hambourg",
+      "away": "VfB Stuttgart",
+      "home_id": "sr:competitor:2676",
+      "away_id": "sr:competitor:2677",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438971,
+      "debut": "2023-06-05T23:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

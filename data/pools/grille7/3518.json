@@ -1,0 +1,136 @@
+{
+  "grille_id": 3518,
+  "grille_type": "grille7",
+  "pool_id": 7003518,
+  "titre": "Grille 7 n°3518",
+  "statut": "CLOSED",
+  "fin": "2024-11-02T17:45:00+00:00",
+  "collecte_le": "2026-08-20T07:45:30.234768+00:00",
+  "mises_nettes": 5611.5,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 197.37
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 189,
+      "winningsPerGrid": 19.84
+    }
+  ],
+  "repartition": [
+    59,
+    552,
+    1661,
+    2327,
+    1886,
+    789,
+    189,
+    19
+  ],
+  "matches": [
+    {
+      "match_id": 50868155,
+      "debut": "2024-11-02T17:45:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:2952",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955517,
+      "debut": "2024-11-02T18:00:00+00:00",
+      "home": "Brest",
+      "away": "Nice",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1661",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956509,
+      "debut": "2024-11-02T19:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Grenoble",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1671",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271635,
+      "debut": "2024-11-02T19:45:00+00:00",
+      "home": "Monza",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2729",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955515,
+      "debut": "2024-11-02T20:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1659",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50868157,
+      "debut": "2024-11-02T20:00:00+00:00",
+      "home": "Fortuna Sittard",
+      "away": "Heerenveen",
+      "home_id": "sr:competitor:2957",
+      "away_id": "sr:competitor:2964",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50868149,
+      "debut": "2024-11-02T20:00:00+00:00",
+      "home": "Feyenoord",
+      "away": "AZ Alkmaar",
+      "home_id": "sr:competitor:2959",
+      "away_id": "sr:competitor:2950",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

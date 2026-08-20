@@ -1,0 +1,127 @@
+{
+  "grille_id": 1681,
+  "grille_type": "grille7",
+  "pool_id": 7001681,
+  "titre": "Grille 7 n°1681",
+  "statut": "CLOSED",
+  "fin": "2020-07-19T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:24:56.067981+00:00",
+  "mises_nettes": 11140.5,
+  "montant_distribue": 11140.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2785.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 65,
+      "winningsPerGrid": 85.7
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22169571,
+      "debut": "2020-07-19T19:00:00+00:00",
+      "home": "Leganes",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:2829",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22169565,
+      "debut": "2020-07-19T19:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2824",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22169583,
+      "debut": "2020-07-19T19:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Valence",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22169567,
+      "debut": "2020-07-19T19:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2821",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22169569,
+      "debut": "2020-07-19T19:00:00+00:00",
+      "home": "Grenade",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2825",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22169573,
+      "debut": "2020-07-19T19:00:00+00:00",
+      "home": "Levante",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172695,
+      "debut": "2020-07-19T19:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2697",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

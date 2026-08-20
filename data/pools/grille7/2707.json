@@ -1,0 +1,136 @@
+{
+  "grille_id": 2707,
+  "grille_type": "grille7",
+  "pool_id": 7002707,
+  "titre": "Grille 7 n°2707",
+  "statut": "CLOSED",
+  "fin": "2022-11-29T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:54:40.114769+00:00",
+  "mises_nettes": 18121.5,
+  "montant_distribue": 18121.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 906.08
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 157,
+      "winningsPerGrid": 57.71
+    }
+  ],
+  "repartition": [
+    290,
+    2143,
+    6310,
+    8186,
+    5586,
+    1480,
+    157,
+    10
+  ],
+  "matches": [
+    {
+      "match_id": 32986739,
+      "debut": "2022-11-29T19:00:00+00:00",
+      "home": "Pays de Galles",
+      "away": "Angleterre",
+      "home_id": "sr:competitor:4702",
+      "away_id": "sr:competitor:4713",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32986741,
+      "debut": "2022-11-29T19:00:00+00:00",
+      "home": "Iran",
+      "away": "États-Unis",
+      "home_id": "sr:competitor:4766",
+      "away_id": "sr:competitor:4724",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32986763,
+      "debut": "2022-11-30T15:00:00+00:00",
+      "home": "Tunisie",
+      "away": "France",
+      "home_id": "sr:competitor:4729",
+      "away_id": "sr:competitor:4481",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32986765,
+      "debut": "2022-11-30T15:00:00+00:00",
+      "home": "Australie",
+      "away": "Danemark",
+      "home_id": "sr:competitor:4741",
+      "away_id": "sr:competitor:4476",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32986751,
+      "debut": "2022-11-30T19:00:00+00:00",
+      "home": "Pologne",
+      "away": "Argentine",
+      "home_id": "sr:competitor:4703",
+      "away_id": "sr:competitor:4819",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32986753,
+      "debut": "2022-11-30T19:00:00+00:00",
+      "home": "Arabie Saoudite",
+      "away": "Mexique",
+      "home_id": "sr:competitor:4834",
+      "away_id": "sr:competitor:4781",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32986787,
+      "debut": "2022-12-01T15:00:00+00:00",
+      "home": "Croatie",
+      "away": "Belgique",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:4717",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

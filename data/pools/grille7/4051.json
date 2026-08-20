@@ -1,0 +1,136 @@
+{
+  "grille_id": 4051,
+  "grille_type": "grille7",
+  "pool_id": 7004051,
+  "titre": "Grille 7 n°4051",
+  "statut": "CLOSED",
+  "fin": "2026-04-20T18:30:00+00:00",
+  "collecte_le": "2026-08-20T06:12:29.256841+00:00",
+  "mises_nettes": 5898,
+  "montant_distribue": 5898,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1474.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 35,
+      "winningsPerGrid": 84.26
+    }
+  ],
+  "repartition": [
+    291,
+    1655,
+    2577,
+    2107,
+    955,
+    242,
+    35,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 61623804,
+      "debut": "2026-04-20T18:30:00+00:00",
+      "home": "Deportivo La Corogne",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:2832",
+      "away_id": "sr:competitor:35092",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.45,
+      "cote_N": 4,
+      "cote_2": 5.3
+    },
+    {
+      "match_id": 61527974,
+      "debut": "2026-04-20T18:45:00+00:00",
+      "home": "Dunkerque",
+      "away": "Laval",
+      "home_id": "sr:competitor:6918",
+      "away_id": "sr:competitor:1673",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.98,
+      "cote_N": 3.1,
+      "cote_2": 3.25
+    },
+    {
+      "match_id": 61061591,
+      "debut": "2026-04-20T18:45:00+00:00",
+      "home": "Lecce",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2689",
+      "away_id": "sr:competitor:2693",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.25,
+      "cote_N": 3,
+      "cote_2": 2
+    },
+    {
+      "match_id": 61301167,
+      "debut": "2026-04-20T19:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "West Ham",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:37",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.5,
+      "cote_N": 3.4,
+      "cote_2": 2.6
+    },
+    {
+      "match_id": 61731468,
+      "debut": "2026-04-20T19:15:00+00:00",
+      "home": "Moreirense",
+      "away": "Estoril",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:4500",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.55,
+      "cote_N": 3.25,
+      "cote_2": 2.25
+    },
+    {
+      "match_id": 67091954,
+      "debut": "2026-04-20T20:15:00+00:00",
+      "home": "Banfield",
+      "away": "Independiente Rivadavia",
+      "home_id": "sr:competitor:3219",
+      "away_id": "sr:competitor:36842",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.35,
+      "cote_N": 2.8,
+      "cote_2": 2.8
+    },
+    {
+      "match_id": 67091938,
+      "debut": "2026-04-20T20:15:00+00:00",
+      "home": "Central Cordoba",
+      "away": "Club Atletico Platense",
+      "home_id": "sr:competitor:65676",
+      "away_id": "sr:competitor:36837",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 3.35,
+      "cote_N": 2.6,
+      "cote_2": 2.15
+    }
+  ]
+}

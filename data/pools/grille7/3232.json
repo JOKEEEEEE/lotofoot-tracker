@@ -1,0 +1,136 @@
+{
+  "grille_id": 3232,
+  "grille_type": "grille7",
+  "pool_id": 7003232,
+  "titre": "Grille 7 n°3232",
+  "statut": "CLOSED",
+  "fin": "2024-02-21T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:06:00.944554+00:00",
+  "mises_nettes": 9307.5,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 41,
+      "winningsPerGrid": 121.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 535,
+      "winningsPerGrid": 9.35
+    }
+  ],
+  "repartition": [
+    35,
+    452,
+    1902,
+    3515,
+    3783,
+    2147,
+    535,
+    41
+  ],
+  "matches": [
+    {
+      "match_id": 41763353,
+      "debut": "2024-02-21T19:30:00+00:00",
+      "home": "Liverpool",
+      "away": "Luton Town",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:72",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46295647,
+      "debut": "2024-02-21T20:00:00+00:00",
+      "home": "Naples",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46295643,
+      "debut": "2024-02-21T20:00:00+00:00",
+      "home": "FC Porto",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46364411,
+      "debut": "2024-02-22T01:00:00+00:00",
+      "home": "Inter Miami CF",
+      "away": "Real Salt Lake",
+      "home_id": "sr:competitor:659691",
+      "away_id": "sr:competitor:5133",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46345473,
+      "debut": "2024-02-22T01:00:00+00:00",
+      "home": "Toluca",
+      "away": "Santos Laguna",
+      "home_id": "sr:competitor:1931",
+      "away_id": "sr:competitor:1948",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46477649,
+      "debut": "2024-02-22T00:45:00+00:00",
+      "home": "Santa Fe",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:6105",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46345475,
+      "debut": "2024-02-22T03:00:00+00:00",
+      "home": "Leon",
+      "away": "Cruz Azul",
+      "home_id": "sr:competitor:36534",
+      "away_id": "sr:competitor:1947",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

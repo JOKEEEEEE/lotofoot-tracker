@@ -1,0 +1,127 @@
+{
+  "grille_id": 410,
+  "grille_type": "grille7",
+  "pool_id": 7000410,
+  "titre": "Grille 7 n°410",
+  "statut": "CLOSED",
+  "fin": "2016-12-13T19:45:00+00:00",
+  "collecte_le": "2026-08-20T12:20:58.265689+00:00",
+  "mises_nettes": 11238.75,
+  "montant_distribue": 11238.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 624.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 162,
+      "winningsPerGrid": 34.69
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9600053,
+      "debut": "2016-12-13T19:45:00+00:00",
+      "home": "Everton",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:42",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600041,
+      "debut": "2016-12-13T19:45:00+00:00",
+      "home": "Bournemouth",
+      "away": "Leicester",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:31",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645667,
+      "debut": "2016-12-13T19:45:00+00:00",
+      "home": "Leeds",
+      "away": "Reading",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:28",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645669,
+      "debut": "2016-12-13T19:45:00+00:00",
+      "home": "Norwich",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:40",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645663,
+      "debut": "2016-12-13T19:45:00+00:00",
+      "home": "Cardiff",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:3",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645675,
+      "debut": "2016-12-13T19:45:00+00:00",
+      "home": "Sheffield Wednesday",
+      "away": "Barnsley",
+      "home_id": "sr:competitor:12",
+      "away_id": "sr:competitor:23",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10477524,
+      "debut": "2016-12-13T20:00:00+00:00",
+      "home": "Sochaux",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1657",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

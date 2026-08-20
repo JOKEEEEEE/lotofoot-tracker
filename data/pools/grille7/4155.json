@@ -1,0 +1,136 @@
+{
+  "grille_id": 4155,
+  "grille_type": "grille7",
+  "pool_id": 7004155,
+  "titre": "Grille 7 n°4155",
+  "statut": "CLOSED",
+  "fin": "2026-08-02T14:00:00+00:00",
+  "collecte_le": "2026-08-20T07:09:54.394863+00:00",
+  "mises_nettes": 3248.25,
+  "montant_distribue": 3248.25,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 812.07
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 45,
+      "winningsPerGrid": 36.09
+    }
+  ],
+  "repartition": [
+    73,
+    362,
+    1041,
+    1501,
+    994,
+    313,
+    45,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 71924946,
+      "debut": "2026-08-02T14:00:00+00:00",
+      "home": "Brøndby",
+      "away": "Viborg",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:1288",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.82,
+      "cote_N": 3.5,
+      "cote_2": 3.3
+    },
+    {
+      "match_id": 72043048,
+      "debut": "2026-08-02T15:30:00+00:00",
+      "home": "Śląsk Wrocław",
+      "away": "Rakow Czestochowa",
+      "home_id": "sr:competitor:3108",
+      "away_id": "sr:competitor:35268",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.8,
+      "cote_N": 3.3,
+      "cote_2": 2.05
+    },
+    {
+      "match_id": 71924948,
+      "debut": "2026-08-02T16:00:00+00:00",
+      "home": "Silkeborg",
+      "away": "Copenhague",
+      "home_id": "sr:competitor:1285",
+      "away_id": "sr:competitor:1284",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 5.5,
+      "cote_N": 4.5,
+      "cote_2": 1.39
+    },
+    {
+      "match_id": 71913006,
+      "debut": "2026-08-02T16:30:00+00:00",
+      "home": "NK Varazdin",
+      "away": "Hajduk Split",
+      "home_id": "sr:competitor:282653",
+      "away_id": "sr:competitor:2036",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.75,
+      "cote_N": 3.1,
+      "cote_2": 2.2
+    },
+    {
+      "match_id": 72345446,
+      "debut": "2026-08-02T17:00:00+00:00",
+      "home": "Rapid Vienne",
+      "away": "SCR Altach",
+      "home_id": "sr:competitor:2055",
+      "away_id": "sr:competitor:4856",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.56,
+      "cote_N": 3.55,
+      "cote_2": 4.7
+    },
+    {
+      "match_id": 72529144,
+      "debut": "2026-08-02T20:00:00+00:00",
+      "home": "Newell's Old Boys",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:3212",
+      "away_id": "sr:competitor:3202",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 4.4,
+      "cote_N": 3.15,
+      "cote_2": 1.76
+    },
+    {
+      "match_id": 72529146,
+      "debut": "2026-08-02T22:15:00+00:00",
+      "home": "River Plate",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:3217",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.84,
+      "cote_N": 2.8,
+      "cote_2": 4
+    }
+  ]
+}

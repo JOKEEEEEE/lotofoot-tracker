@@ -1,0 +1,136 @@
+{
+  "grille_id": 2057,
+  "grille_type": "grille7",
+  "pool_id": 7002057,
+  "titre": "Grille 7 n°2057",
+  "statut": "CLOSED",
+  "fin": "2021-05-25T19:15:00+00:00",
+  "collecte_le": "2026-08-20T09:50:29.254416+00:00",
+  "mises_nettes": 5727,
+  "montant_distribue": 5727,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 168.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 209,
+      "winningsPerGrid": 13.7
+    }
+  ],
+  "repartition": [
+    58,
+    354,
+    1048,
+    2317,
+    2520,
+    1113,
+    209,
+    17
+  ],
+  "matches": [
+    {
+      "match_id": 25849840,
+      "debut": "2021-05-25T19:15:00+00:00",
+      "home": "Leiknir Reykjavik",
+      "away": "FH Hafnarfjordur",
+      "home_id": "sr:competitor:36057",
+      "away_id": "sr:competitor:1894",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.05,
+      "cote_N": 6.75,
+      "cote_2": 60
+    },
+    {
+      "match_id": 26895186,
+      "debut": "2021-05-25T22:15:00+00:00",
+      "home": "River Plate",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:1961",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 26895172,
+      "debut": "2021-05-26T00:30:00+00:00",
+      "home": "Cerro Porteno",
+      "away": "America De Cali",
+      "home_id": "sr:competitor:5991",
+      "away_id": "sr:competitor:6102",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 38,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26905792,
+      "debut": "2021-05-25T22:15:00+00:00",
+      "home": "Santa Fe",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:6105",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 17,
+      "cote_N": 1.02,
+      "cote_2": 14
+    },
+    {
+      "match_id": 26895174,
+      "debut": "2021-05-26T00:30:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Deportivo La Guaira",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:36437",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26895102,
+      "debut": "2021-05-26T00:30:00+00:00",
+      "home": "Racing Club",
+      "away": "Club Atletico Rentistas",
+      "home_id": "sr:competitor:3215",
+      "away_id": "sr:competitor:35189",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26895100,
+      "debut": "2021-05-26T00:30:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Sporting Cristal",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:2302",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

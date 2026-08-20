@@ -1,0 +1,127 @@
+{
+  "grille_id": 48,
+  "grille_type": "grille7",
+  "pool_id": 7000048,
+  "titre": "Grille 7 n°48",
+  "statut": "CLOSED",
+  "fin": "2015-11-04T19:45:00+00:00",
+  "collecte_le": "2026-08-20T12:54:12.602245+00:00",
+  "mises_nettes": 16085.25,
+  "montant_distribue": 20000,
+  "montant_garanti": 20000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 165,
+      "winningsPerGrid": 60.61
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1821,
+      "winningsPerGrid": 5.49
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7888510,
+      "debut": "2015-11-04T19:45:00+00:00",
+      "home": "Lyon",
+      "away": "Zénith St-Pétersbourg",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:2321",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888436,
+      "debut": "2015-11-04T19:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Bayer Leverkusen",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2681",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888484,
+      "debut": "2015-11-04T19:45:00+00:00",
+      "home": "Maccabi Tel-Aviv",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:5198",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888488,
+      "debut": "2015-11-04T19:45:00+00:00",
+      "home": "Chelsea",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:3305",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888512,
+      "debut": "2015-11-04T19:45:00+00:00",
+      "home": "La Gantoise",
+      "away": "Valence",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888456,
+      "debut": "2015-11-04T19:45:00+00:00",
+      "home": "Olympiakos",
+      "away": "Dinamo Zagreb",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:2032",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888454,
+      "debut": "2015-11-04T19:45:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:42",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

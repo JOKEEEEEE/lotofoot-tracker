@@ -1,0 +1,127 @@
+{
+  "grille_id": 1875,
+  "grille_type": "grille7",
+  "pool_id": 7001875,
+  "titre": "Grille 7 n°1875",
+  "statut": "CLOSED",
+  "fin": "2021-01-01T17:30:00+00:00",
+  "collecte_le": "2026-08-20T10:06:37.507919+00:00",
+  "mises_nettes": 13054.5,
+  "montant_distribue": 13054.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 725.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 154,
+      "winningsPerGrid": 42.38
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23204109,
+      "debut": "2021-01-01T17:30:00+00:00",
+      "home": "Everton",
+      "away": "West Ham",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:37",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 225,
+      "cote_N": 15,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23216819,
+      "debut": "2021-01-01T17:30:00+00:00",
+      "home": "Sheffield Wednesday",
+      "away": "Derby County",
+      "home_id": "sr:competitor:12",
+      "away_id": "sr:competitor:27",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 18,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23204111,
+      "debut": "2021-01-01T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:40",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 15,
+      "cote_2": 225
+    },
+    {
+      "match_id": 23300813,
+      "debut": "2021-01-02T10:30:00+00:00",
+      "home": "Erzurumspor BB",
+      "away": "Gaziantep Bld Spor",
+      "home_id": "sr:competitor:55603",
+      "away_id": "sr:competitor:5138",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 200,
+      "cote_N": 16,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23300817,
+      "debut": "2021-01-02T10:30:00+00:00",
+      "home": "Sivasspor",
+      "away": "Denizlispor",
+      "home_id": "sr:competitor:3076",
+      "away_id": "sr:competitor:3058",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 20,
+      "cote_N": 1.02,
+      "cote_2": 18
+    },
+    {
+      "match_id": 22627803,
+      "debut": "2021-01-02T12:30:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2352",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 25,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23204117,
+      "debut": "2021-01-02T12:30:00+00:00",
+      "home": "Tottenham",
+      "away": "Leeds",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:34",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

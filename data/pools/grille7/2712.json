@@ -1,0 +1,136 @@
+{
+  "grille_id": 2712,
+  "grille_type": "grille7",
+  "pool_id": 7002712,
+  "titre": "Grille 7 n°2712",
+  "statut": "CLOSED",
+  "fin": "2022-12-05T15:00:00+00:00",
+  "collecte_le": "2026-08-20T08:54:09.107805+00:00",
+  "mises_nettes": 10914,
+  "montant_distribue": 10914,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 45,
+      "winningsPerGrid": 121.27
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 471,
+      "winningsPerGrid": 11.59
+    }
+  ],
+  "repartition": [
+    64,
+    680,
+    2371,
+    4538,
+    4365,
+    2018,
+    471,
+    45
+  ],
+  "matches": [
+    {
+      "match_id": 32972205,
+      "debut": "2022-12-05T15:00:00+00:00",
+      "home": "Japon",
+      "away": "Croatie",
+      "home_id": "sr:competitor:4770",
+      "away_id": "sr:competitor:4715",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34416619,
+      "debut": "2022-12-05T17:00:00+00:00",
+      "home": "FCSB ",
+      "away": "Mioveni",
+      "home_id": "sr:competitor:3301",
+      "away_id": "sr:competitor:7731",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32972207,
+      "debut": "2022-12-05T19:00:00+00:00",
+      "home": "Brésil",
+      "away": "Corée du Sud",
+      "home_id": "sr:competitor:4748",
+      "away_id": "sr:competitor:4735",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278785,
+      "debut": "2022-12-05T20:00:00+00:00",
+      "home": "Ponferradina",
+      "away": "Burgos CF",
+      "home_id": "sr:competitor:6195",
+      "away_id": "sr:competitor:2854",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36865601,
+      "debut": "2022-12-05T20:45:00+00:00",
+      "home": "CD Mafra",
+      "away": "FC Vizela",
+      "home_id": "sr:competitor:38744",
+      "away_id": "sr:competitor:5136",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32972229,
+      "debut": "2022-12-06T15:00:00+00:00",
+      "home": "Maroc",
+      "away": "Espagne",
+      "home_id": "sr:competitor:4778",
+      "away_id": "sr:competitor:4698",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32972231,
+      "debut": "2022-12-06T19:00:00+00:00",
+      "home": "Portugal",
+      "away": "Suisse",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4699",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1301,
+  "grille_type": "grille7",
+  "pool_id": 7001301,
+  "titre": "Grille 7 n°1301",
+  "statut": "CLOSED",
+  "fin": "2019-07-02T16:00:00+00:00",
+  "collecte_le": "2026-08-20T10:59:58.219202+00:00",
+  "mises_nettes": 10257,
+  "montant_distribue": 10257,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 427.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 140,
+      "winningsPerGrid": 36.63
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17953401,
+      "debut": "2019-07-02T16:00:00+00:00",
+      "home": "Bénin",
+      "away": "Cameroun",
+      "home_id": "sr:competitor:4744",
+      "away_id": "sr:competitor:4751",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17953403,
+      "debut": "2019-07-02T16:00:00+00:00",
+      "home": "Guinée Bissau",
+      "away": "Ghana",
+      "home_id": "sr:competitor:23478",
+      "away_id": "sr:competitor:4764",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17160863,
+      "debut": "2019-07-02T17:30:00+00:00",
+      "home": "Saburtalo Tbilisi",
+      "away": "Metallurg Rustavi",
+      "home_id": "sr:competitor:116312",
+      "away_id": "sr:competitor:7703",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18079639,
+      "debut": "2019-07-02T19:00:00+00:00",
+      "home": "Angleterre (F)",
+      "away": "États-Unis (F)",
+      "home_id": "sr:competitor:7415",
+      "away_id": "sr:competitor:7424",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17953391,
+      "debut": "2019-07-02T19:00:00+00:00",
+      "home": "Angola",
+      "away": "Mali",
+      "home_id": "sr:competitor:4692",
+      "away_id": "sr:competitor:4831",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17953389,
+      "debut": "2019-07-02T19:00:00+00:00",
+      "home": "Mauritanie",
+      "away": "Tunisie",
+      "home_id": "sr:competitor:4779",
+      "away_id": "sr:competitor:4729",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18079563,
+      "debut": "2019-07-03T00:30:00+00:00",
+      "home": "Brésil",
+      "away": "Argentine",
+      "home_id": "sr:competitor:4748",
+      "away_id": "sr:competitor:4819",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

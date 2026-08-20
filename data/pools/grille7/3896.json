@@ -1,0 +1,136 @@
+{
+  "grille_id": 3896,
+  "grille_type": "grille7",
+  "pool_id": 7003896,
+  "titre": "Grille 7 n°3896",
+  "statut": "CLOSED",
+  "fin": "2025-11-10T19:30:00+00:00",
+  "collecte_le": "2026-08-20T06:48:38.026277+00:00",
+  "mises_nettes": 6357.75,
+  "montant_distribue": 6357.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 794.72
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 54,
+      "winningsPerGrid": 58.87
+    }
+  ],
+  "repartition": [
+    286,
+    1280,
+    2551,
+    2538,
+    1370,
+    394,
+    54,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 61623196,
+      "debut": "2025-11-10T19:30:00+00:00",
+      "home": "Burgos CF",
+      "away": "Castellon",
+      "home_id": "sr:competitor:2854",
+      "away_id": "sr:competitor:5067",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098845,
+      "debut": "2025-11-10T20:00:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:3208",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63689147,
+      "debut": "2025-11-10T20:00:00+00:00",
+      "home": "Sportivo Ameliano",
+      "away": "2 de Mayo",
+      "home_id": "sr:competitor:607728",
+      "away_id": "sr:competitor:5992",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098853,
+      "debut": "2025-11-10T22:00:00+00:00",
+      "home": "Deportivo Riestra",
+      "away": "Independiente",
+      "home_id": "sr:competitor:191648",
+      "away_id": "sr:competitor:3209",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63689145,
+      "debut": "2025-11-10T22:30:00+00:00",
+      "home": "CA Tembetary",
+      "away": "Nacional Asuncion",
+      "home_id": "sr:competitor:584551",
+      "away_id": "sr:competitor:33001",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098833,
+      "debut": "2025-11-11T00:15:00+00:00",
+      "home": "Argentinos Juniors",
+      "away": "Belgrano",
+      "home_id": "sr:competitor:3216",
+      "away_id": "sr:competitor:3203",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098841,
+      "debut": "2025-11-11T00:15:00+00:00",
+      "home": "Independiente Rivadavia",
+      "away": "Central Cordoba",
+      "home_id": "sr:competitor:36842",
+      "away_id": "sr:competitor:65676",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

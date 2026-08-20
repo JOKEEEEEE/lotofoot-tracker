@@ -1,0 +1,127 @@
+{
+  "grille_id": 1608,
+  "grille_type": "grille7",
+  "pool_id": 7001608,
+  "titre": "Grille 7 n°1608",
+  "statut": "CLOSED",
+  "fin": "2020-05-08T16:00:00+00:00",
+  "collecte_le": "2026-08-20T13:21:04.168847+00:00",
+  "mises_nettes": 20688,
+  "montant_distribue": 20688,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 1293
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 131,
+      "winningsPerGrid": 78.96
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21893925,
+      "debut": "2020-05-08T16:00:00+00:00",
+      "home": "FC Gorodeya",
+      "away": "FC Minsk",
+      "home_id": "sr:competitor:36876",
+      "away_id": "sr:competitor:7304",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21146757,
+      "debut": "2020-05-09T05:00:00+00:00",
+      "home": "Ulsan",
+      "away": "Sangju Sangmu",
+      "home_id": "sr:competitor:7653",
+      "away_id": "sr:competitor:7647",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21932141,
+      "debut": "2020-05-09T07:30:00+00:00",
+      "home": "Incheon United",
+      "away": "Daegu FC",
+      "home_id": "sr:competitor:7648",
+      "away_id": "sr:competitor:7644",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21921503,
+      "debut": "2020-05-09T10:00:00+00:00",
+      "home": "Gwangju FC",
+      "away": "Seongnam FC",
+      "home_id": "sr:competitor:48912",
+      "away_id": "sr:competitor:7651",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21893927,
+      "debut": "2020-05-09T12:00:00+00:00",
+      "home": "Slavia Mozyr",
+      "away": "Torpedo-Belaz",
+      "home_id": "sr:competitor:3358",
+      "away_id": "sr:competitor:3359",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21893929,
+      "debut": "2020-05-09T14:00:00+00:00",
+      "home": "Neman Grodno",
+      "away": "FC Rukh Brest",
+      "home_id": "sr:competitor:3356",
+      "away_id": "sr:competitor:405797",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21933331,
+      "debut": "2020-05-09T16:00:00+00:00",
+      "home": "Klaksvik",
+      "away": "B36 Torshavn",
+      "home_id": "sr:competitor:5194",
+      "away_id": "sr:competitor:5185",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

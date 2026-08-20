@@ -1,0 +1,136 @@
+{
+  "grille_id": 1971,
+  "grille_type": "grille7",
+  "pool_id": 7001971,
+  "titre": "Grille 7 n°1971",
+  "statut": "CLOSED",
+  "fin": "2021-03-16T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:56:54.879191+00:00",
+  "mises_nettes": 23174.25,
+  "montant_distribue": 23174.25,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 73,
+      "winningsPerGrid": 158.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 772,
+      "winningsPerGrid": 15.01
+    }
+  ],
+  "repartition": [
+    180,
+    1847,
+    6069,
+    9831,
+    8466,
+    3661,
+    772,
+    73
+  ],
+  "matches": [
+    {
+      "match_id": 23217141,
+      "debut": "2021-03-16T19:00:00+00:00",
+      "home": "Cardiff",
+      "away": "Stoke City",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:29",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 9.5,
+      "cote_N": 1.05,
+      "cote_2": 13
+    },
+    {
+      "match_id": 23217143,
+      "debut": "2021-03-16T19:00:00+00:00",
+      "home": "Derby County",
+      "away": "Brentford",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:50",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 12,
+      "cote_N": 1.06,
+      "cote_2": 9.5
+    },
+    {
+      "match_id": 23217145,
+      "debut": "2021-03-16T19:00:00+00:00",
+      "home": "Luton Town",
+      "away": "Coventry City",
+      "home_id": "sr:competitor:72",
+      "away_id": "sr:competitor:11",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23217147,
+      "debut": "2021-03-16T19:00:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Preston North End",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:21",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23217139,
+      "debut": "2021-03-16T19:45:00+00:00",
+      "home": "Bournemouth",
+      "away": "Swansea",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:74",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 24892624,
+      "debut": "2021-03-16T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2686",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 24892448,
+      "debut": "2021-03-16T20:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Borussia M'Gladbach",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2527",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

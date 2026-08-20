@@ -1,0 +1,127 @@
+{
+  "grille_id": 1675,
+  "grille_type": "grille7",
+  "pool_id": 7001675,
+  "titre": "Grille 7 n°1675",
+  "statut": "CLOSED",
+  "fin": "2020-07-15T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:25:22.988300+00:00",
+  "mises_nettes": 16004.25,
+  "montant_distribue": 16004.25,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "010010100100001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 47,
+      "winningsPerGrid": 170.26
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 507,
+      "winningsPerGrid": 15.78
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22255447,
+      "debut": "2020-07-15T17:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:60",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22255435,
+      "debut": "2020-07-15T17:00:00+00:00",
+      "home": "Burnley",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:3",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22255449,
+      "debut": "2020-07-15T17:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172629,
+      "debut": "2020-07-15T17:30:00+00:00",
+      "home": "Milan AC",
+      "away": "Parme",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2690",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22255433,
+      "debut": "2020-07-15T19:15:00+00:00",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:44",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172653,
+      "debut": "2020-07-15T19:45:00+00:00",
+      "home": "Udinese",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2695",
+      "away_id": "sr:competitor:2699",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172651,
+      "debut": "2020-07-15T19:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2687",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

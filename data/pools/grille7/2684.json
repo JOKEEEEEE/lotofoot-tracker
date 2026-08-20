@@ -1,0 +1,136 @@
+{
+  "grille_id": 2684,
+  "grille_type": "grille7",
+  "pool_id": 7002684,
+  "titre": "Grille 7 n°2684",
+  "statut": "CLOSED",
+  "fin": "2022-11-07T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:57:43.372475+00:00",
+  "mises_nettes": 10580.25,
+  "montant_distribue": 10580.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1322.53
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 60,
+      "winningsPerGrid": 88.17
+    }
+  ],
+  "repartition": [
+    352,
+    2603,
+    4828,
+    4055,
+    1761,
+    444,
+    60,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 34744429,
+      "debut": "2022-11-07T19:30:00+00:00",
+      "home": "Reggina",
+      "away": "Genoa",
+      "home_id": "sr:competitor:223522",
+      "away_id": "sr:competitor:2713",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34171539,
+      "debut": "2022-11-07T19:45:00+00:00",
+      "home": "Metz",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1678",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277447,
+      "debut": "2022-11-07T20:00:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2829",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278727,
+      "debut": "2022-11-07T20:00:00+00:00",
+      "home": "Lugo",
+      "away": "FC Cartagena",
+      "home_id": "sr:competitor:24332",
+      "away_id": "sr:competitor:24329",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504765,
+      "debut": "2022-11-07T20:15:00+00:00",
+      "home": "Chaves",
+      "away": "Santa Clara",
+      "home_id": "sr:competitor:3025",
+      "away_id": "sr:competitor:3011",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37173061,
+      "debut": "2022-11-07T22:30:00+00:00",
+      "home": "Cerro Porteno",
+      "away": "Resistencia FC",
+      "home_id": "sr:competitor:5991",
+      "away_id": "sr:competitor:90968",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932861,
+      "debut": "2022-11-07T23:00:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1958",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

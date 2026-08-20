@@ -1,0 +1,136 @@
+{
+  "grille_id": 3943,
+  "grille_type": "grille7",
+  "pool_id": 7003943,
+  "titre": "Grille 7 n°3943",
+  "statut": "CLOSED",
+  "fin": "2025-12-31T15:25:00+00:00",
+  "collecte_le": "2026-08-20T06:37:42.119189+00:00",
+  "mises_nettes": 3828.75,
+  "montant_distribue": 3828.75,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 412,
+      "winningsPerGrid": 4.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 847,
+      "winningsPerGrid": 2.26
+    }
+  ],
+  "repartition": [
+    19,
+    77,
+    308,
+    780,
+    1343,
+    1319,
+    847,
+    412
+  ],
+  "matches": [
+    {
+      "match_id": 64055505,
+      "debut": "2025-12-31T15:25:00+00:00",
+      "home": "Neom",
+      "away": "Al-Ittihad FC",
+      "home_id": "sr:competitor:529781",
+      "away_id": "sr:competitor:34315",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 4.2,
+      "cote_N": 3.65,
+      "cote_2": 1.56
+    },
+    {
+      "match_id": 57797153,
+      "debut": "2025-12-31T16:00:00+00:00",
+      "home": "Guinée équatoriale",
+      "away": "Algérie",
+      "home_id": "sr:competitor:8032",
+      "away_id": "sr:competitor:4691",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 6.5,
+      "cote_N": 3.6,
+      "cote_2": 1.4
+    },
+    {
+      "match_id": 57797155,
+      "debut": "2025-12-31T16:00:00+00:00",
+      "home": "Soudan",
+      "away": "Burkina Faso",
+      "home_id": "sr:competitor:4734",
+      "away_id": "sr:competitor:4749",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 5.1,
+      "cote_N": 3.2,
+      "cote_2": 1.56
+    },
+    {
+      "match_id": 64055495,
+      "debut": "2025-12-31T17:30:00+00:00",
+      "home": "Al-Kholood",
+      "away": "Al-Hilal",
+      "home_id": "sr:competitor:386360",
+      "away_id": "sr:competitor:21895",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 7.5,
+      "cote_N": 5.2,
+      "cote_2": 1.25
+    },
+    {
+      "match_id": 64055501,
+      "debut": "2025-12-31T17:30:00+00:00",
+      "home": "Al Shabab",
+      "away": "Al-Qadsiah",
+      "home_id": "sr:competitor:34313",
+      "away_id": "sr:competitor:56027",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 30,
+      "cote_2": 1.54
+    },
+    {
+      "match_id": 57797165,
+      "debut": "2025-12-31T19:00:00+00:00",
+      "home": "Gabon",
+      "away": "Côte d'Ivoire",
+      "home_id": "sr:competitor:4761",
+      "away_id": "sr:competitor:4768",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 4.7,
+      "cote_N": 3.5,
+      "cote_2": 1.52
+    },
+    {
+      "match_id": 57797167,
+      "debut": "2025-12-31T19:00:00+00:00",
+      "home": "Mozambique",
+      "away": "Cameroun",
+      "home_id": "sr:competitor:4783",
+      "away_id": "sr:competitor:4751",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 6.25,
+      "cote_N": 3.8,
+      "cote_2": 1.38
+    }
+  ]
+}

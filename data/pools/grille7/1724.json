@@ -1,0 +1,127 @@
+{
+  "grille_id": 1724,
+  "grille_type": "grille7",
+  "pool_id": 7001724,
+  "titre": "Grille 7 n°1724",
+  "statut": "CLOSED",
+  "fin": "2020-08-30T13:00:00+00:00",
+  "collecte_le": "2026-08-20T10:19:14.330698+00:00",
+  "mises_nettes": 16586.25,
+  "montant_distribue": 16586.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 167,
+      "winningsPerGrid": 49.66
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1283,
+      "winningsPerGrid": 6.46
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22650351,
+      "debut": "2020-08-30T13:00:00+00:00",
+      "home": "Angers",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1645",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22650349,
+      "debut": "2020-08-30T13:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1656",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22650355,
+      "debut": "2020-08-30T13:00:00+00:00",
+      "home": "Metz",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1653",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22650359,
+      "debut": "2020-08-30T13:00:00+00:00",
+      "home": "Nantes",
+      "away": "Nîmes",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1663",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23278241,
+      "debut": "2020-08-30T15:30:00+00:00",
+      "home": "FC Bâle",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:2445",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23030801,
+      "debut": "2020-08-30T18:45:00+00:00",
+      "home": "La Gantoise",
+      "away": "Malines",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:5044",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22650353,
+      "debut": "2020-08-30T19:00:00+00:00",
+      "home": "Brest",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1641",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

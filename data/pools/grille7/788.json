@@ -1,0 +1,127 @@
+{
+  "grille_id": 788,
+  "grille_type": "grille7",
+  "pool_id": 7000788,
+  "titre": "Grille 7 n°788",
+  "statut": "CLOSED",
+  "fin": "2018-01-22T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:46:50.524205+00:00",
+  "mises_nettes": 9912,
+  "montant_distribue": 9912,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 708
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 160,
+      "winningsPerGrid": 30.98
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12004626,
+      "debut": "2018-01-22T17:00:00+00:00",
+      "home": "Kayserispor",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:3072",
+      "away_id": "sr:competitor:3061",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11988802,
+      "debut": "2018-01-22T17:00:00+00:00",
+      "home": "Ermis",
+      "away": "Olympiakos Nicosia",
+      "home_id": "sr:competitor:25527",
+      "away_id": "sr:competitor:3401",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11926328,
+      "debut": "2018-01-22T19:00:00+00:00",
+      "home": "Beitar Trump Jerusalem",
+      "away": "Bnei Sakhnin",
+      "home_id": "sr:competitor:5204",
+      "away_id": "sr:competitor:5392",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12081090,
+      "debut": "2018-01-22T19:45:00+00:00",
+      "home": "Paris FC",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1660",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12089778,
+      "debut": "2018-01-22T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2713",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830564,
+      "debut": "2018-01-22T20:00:00+00:00",
+      "home": "Swansea",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055464,
+      "debut": "2018-01-22T20:00:00+00:00",
+      "home": "Eibar",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2830",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

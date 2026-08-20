@@ -1,0 +1,127 @@
+{
+  "grille_id": 1585,
+  "grille_type": "grille7",
+  "pool_id": 7001585,
+  "titre": "Grille 7 n°1585",
+  "statut": "CLOSED",
+  "fin": "2020-03-03T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:35:36.035826+00:00",
+  "mises_nettes": 17681.25,
+  "montant_distribue": 17681.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 1105.08
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 154,
+      "winningsPerGrid": 57.41
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21239589,
+      "debut": "2020-03-03T19:45:00+00:00",
+      "home": "Chelsea",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:44",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21281591,
+      "debut": "2020-03-03T19:45:00+00:00",
+      "home": "Schalke 04",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:2672",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18502990,
+      "debut": "2020-03-03T19:45:00+00:00",
+      "home": "Hibernian FC",
+      "away": "Heart of Midlothian",
+      "home_id": "sr:competitor:2354",
+      "away_id": "sr:competitor:2353",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660548,
+      "debut": "2020-03-03T20:00:00+00:00",
+      "home": "Famalicao",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:3001",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030494,
+      "debut": "2020-03-03T20:00:00+00:00",
+      "home": "Pérouse",
+      "away": "Benevento",
+      "home_id": "sr:competitor:2698",
+      "away_id": "sr:competitor:2759",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21239633,
+      "debut": "2020-03-03T20:00:00+00:00",
+      "home": "Reading",
+      "away": "Sheffield United",
+      "home_id": "sr:competitor:28",
+      "away_id": "sr:competitor:15",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21239689,
+      "debut": "2020-03-03T20:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:39",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

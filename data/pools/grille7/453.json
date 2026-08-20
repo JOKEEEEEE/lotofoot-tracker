@@ -1,0 +1,127 @@
+{
+  "grille_id": 453,
+  "grille_type": "grille7",
+  "pool_id": 7000453,
+  "titre": "Grille 7 n°453",
+  "statut": "CLOSED",
+  "fin": "2017-02-01T19:45:00+00:00",
+  "collecte_le": "2026-08-20T13:32:40.236508+00:00",
+  "mises_nettes": 12585,
+  "montant_distribue": 12585,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 484.04
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 238,
+      "winningsPerGrid": 26.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9600195,
+      "debut": "2017-02-01T19:45:00+00:00",
+      "home": "West Ham",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645851,
+      "debut": "2017-02-01T19:45:00+00:00",
+      "home": "Blackburn",
+      "away": "Leeds",
+      "home_id": "sr:competitor:46",
+      "away_id": "sr:competitor:34",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645869,
+      "debut": "2017-02-01T19:45:00+00:00",
+      "home": "Newcastle",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:1",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10878124,
+      "debut": "2017-02-01T19:45:00+00:00",
+      "home": "Pescara Calcio",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2728",
+      "away_id": "sr:competitor:2693",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10934034,
+      "debut": "2017-02-01T20:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Cesena",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2742",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600197,
+      "debut": "2017-02-01T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Hull City",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:96",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600201,
+      "debut": "2017-02-01T20:00:00+00:00",
+      "home": "Stoke City",
+      "away": "Everton",
+      "home_id": "sr:competitor:29",
+      "away_id": "sr:competitor:48",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

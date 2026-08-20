@@ -1,0 +1,136 @@
+{
+  "grille_id": 4134,
+  "grille_type": "grille7",
+  "pool_id": 7004134,
+  "titre": "Grille 7 n°4134",
+  "statut": "CLOSED",
+  "fin": "2026-07-12T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:10:02.521934+00:00",
+  "mises_nettes": 4367.25,
+  "montant_distribue": 4367.25,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 27,
+      "winningsPerGrid": 80.88
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 170,
+      "winningsPerGrid": 12.84
+    }
+  ],
+  "repartition": [
+    167,
+    1189,
+    2043,
+    1522,
+    705,
+    170,
+    27,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 68687720,
+      "debut": "2026-07-12T17:00:00+00:00",
+      "home": "LDU Quito",
+      "away": "Libertad",
+      "home_id": "sr:competitor:5257",
+      "away_id": "sr:competitor:838486",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.15,
+      "cote_N": 6.75,
+      "cote_2": 14.5
+    },
+    {
+      "match_id": 67015252,
+      "debut": "2026-07-12T17:15:00+00:00",
+      "home": "Sarpsborg",
+      "away": "Viking",
+      "home_id": "sr:competitor:822",
+      "away_id": "sr:competitor:1164",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 4.4,
+      "cote_N": 4.1,
+      "cote_2": 1.5
+    },
+    {
+      "match_id": 68194724,
+      "debut": "2026-07-12T18:00:00+00:00",
+      "home": "KA Akureyri",
+      "away": "IA Akranes",
+      "home_id": "sr:competitor:1904",
+      "away_id": "sr:competitor:1898",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.35,
+      "cote_N": 3.55,
+      "cote_2": 2.3
+    },
+    {
+      "match_id": 68194728,
+      "debut": "2026-07-12T18:00:00+00:00",
+      "home": "KR Reykjavik",
+      "away": "IBV Vestmannaeyjar",
+      "home_id": "sr:competitor:1902",
+      "away_id": "sr:competitor:1895",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.5,
+      "cote_N": 4.4,
+      "cote_2": 4.1
+    },
+    {
+      "match_id": 68687710,
+      "debut": "2026-07-12T19:15:00+00:00",
+      "home": "Deportivo Cuenca",
+      "away": "Aucas",
+      "home_id": "sr:competitor:5251",
+      "away_id": "sr:competitor:5249",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.65,
+      "cote_N": 2.95,
+      "cote_2": 2.3
+    },
+    {
+      "match_id": 70986692,
+      "debut": "2026-07-12T20:05:00+00:00",
+      "home": "FH Hafnarfjordur",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1894",
+      "away_id": "sr:competitor:1899",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.25,
+      "cote_N": 3.8,
+      "cote_2": 2.3
+    },
+    {
+      "match_id": 68687706,
+      "debut": "2026-07-13T00:10:00+00:00",
+      "home": "Emelec",
+      "away": "Barcelona SC",
+      "home_id": "sr:competitor:5255",
+      "away_id": "sr:competitor:5250",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 3.15,
+      "cote_N": 2.75,
+      "cote_2": 2.15
+    }
+  ]
+}

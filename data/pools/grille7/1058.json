@@ -1,0 +1,127 @@
+{
+  "grille_id": 1058,
+  "grille_type": "grille7",
+  "pool_id": 7001058,
+  "titre": "Grille 7 n°1058",
+  "statut": "CLOSED",
+  "fin": "2018-10-25T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:21:39.825394+00:00",
+  "mises_nettes": 18920.25,
+  "montant_distribue": 18920.25,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 41,
+      "winningsPerGrid": 230.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 599,
+      "winningsPerGrid": 15.79
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15519074,
+      "debut": "2018-10-25T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:2699",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519180,
+      "debut": "2018-10-25T19:00:00+00:00",
+      "home": "Rennes",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:3305",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15518928,
+      "debut": "2018-10-25T19:00:00+00:00",
+      "home": "Chelsea",
+      "away": "BATE Borisov",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:3350",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519038,
+      "debut": "2018-10-25T19:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Spartak Moscou",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2323",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519100,
+      "debut": "2018-10-25T19:00:00+00:00",
+      "home": "Besiktas",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:3050",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519128,
+      "debut": "2018-10-25T19:00:00+00:00",
+      "home": "Standard Liège",
+      "away": "FK Krasnodar",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:34425",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519072,
+      "debut": "2018-10-25T19:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Apollon Limassol",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:3402",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

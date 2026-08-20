@@ -1,0 +1,136 @@
+{
+  "grille_id": 2507,
+  "grille_type": "grille7",
+  "pool_id": 7002507,
+  "titre": "Grille 7 n°2507",
+  "statut": "CLOSED",
+  "fin": "2022-06-13T18:00:00+00:00",
+  "collecte_le": "2026-08-20T09:10:14.875663+00:00",
+  "mises_nettes": 11503.5,
+  "montant_distribue": 11503.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5751.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 24,
+      "winningsPerGrid": 239.66
+    }
+  ],
+  "repartition": [
+    1161,
+    3945,
+    5420,
+    3440,
+    1134,
+    213,
+    24,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 34013455,
+      "debut": "2022-06-13T18:00:00+00:00",
+      "home": "Australie",
+      "away": "Pérou",
+      "home_id": "sr:competitor:4741",
+      "away_id": "sr:competitor:4790",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31079549,
+      "debut": "2022-06-13T18:45:00+00:00",
+      "home": "France",
+      "away": "Croatie",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4715",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31079547,
+      "debut": "2022-06-13T18:45:00+00:00",
+      "home": "Danemark",
+      "away": "Autriche",
+      "home_id": "sr:competitor:4476",
+      "away_id": "sr:competitor:4718",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31079925,
+      "debut": "2022-06-13T18:45:00+00:00",
+      "home": "Islande",
+      "away": "Israël",
+      "home_id": "sr:competitor:4708",
+      "away_id": "sr:competitor:4480",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 26252280,
+      "debut": "2022-06-13T18:45:00+00:00",
+      "home": "Angleterre U21",
+      "away": "Slovénie U21",
+      "home_id": "sr:competitor:6025",
+      "away_id": "sr:competitor:6371",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33974771,
+      "debut": "2022-06-13T21:00:00+00:00",
+      "home": "Nacional Asuncion",
+      "away": "Tacuary Asuncion",
+      "home_id": "sr:competitor:33001",
+      "away_id": "sr:competitor:5999",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932367,
+      "debut": "2022-06-13T22:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Avai ",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:7315",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

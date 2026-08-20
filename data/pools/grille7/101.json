@@ -1,0 +1,127 @@
+{
+  "grille_id": 101,
+  "grille_type": "grille7",
+  "pool_id": 7000101,
+  "titre": "Grille 7 n°101",
+  "statut": "CLOSED",
+  "fin": "2016-01-01T15:00:00+00:00",
+  "collecte_le": "2026-08-20T12:48:52.316077+00:00",
+  "mises_nettes": 5854.5,
+  "montant_distribue": 5854.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010010100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 11,
+      "winningsPerGrid": 266.11
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 103,
+      "winningsPerGrid": 28.42
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7466340,
+      "debut": "2016-01-01T15:00:00+00:00",
+      "home": "Brighton",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:3",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7705640,
+      "debut": "2016-01-01T15:00:00+00:00",
+      "home": "Cliftonville",
+      "away": "Warrenpoint",
+      "home_id": "sr:competitor:5181",
+      "away_id": "sr:competitor:43204",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7705646,
+      "debut": "2016-01-01T15:00:00+00:00",
+      "home": "Linfield",
+      "away": "Crusaders",
+      "home_id": "sr:competitor:5272",
+      "away_id": "sr:competitor:5180",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8628566,
+      "debut": "2016-01-01T15:00:00+00:00",
+      "home": "OC Safi",
+      "away": "MAS Fès",
+      "home_id": "sr:competitor:55037",
+      "away_id": "sr:competitor:55035",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8628568,
+      "debut": "2016-01-01T17:00:00+00:00",
+      "home": "Agadir",
+      "away": "Raja Casablanca",
+      "home_id": "sr:competitor:55039",
+      "away_id": "sr:competitor:41757",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466356,
+      "debut": "2016-01-01T17:15:00+00:00",
+      "home": "Queens Park Rangers",
+      "away": "Hull City",
+      "home_id": "sr:competitor:1",
+      "away_id": "sr:competitor:96",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8628570,
+      "debut": "2016-01-01T19:15:00+00:00",
+      "home": "FUS Rabat",
+      "away": "KAC Marrakech",
+      "home_id": "sr:competitor:55027",
+      "away_id": "sr:competitor:47696",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

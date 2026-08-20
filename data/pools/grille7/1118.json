@@ -1,0 +1,127 @@
+{
+  "grille_id": 1118,
+  "grille_type": "grille7",
+  "pool_id": 7001118,
+  "titre": "Grille 7 n°1118",
+  "statut": "CLOSED",
+  "fin": "2018-12-26T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:16:13.173726+00:00",
+  "mises_nettes": 15201,
+  "montant_distribue": 15201,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 46,
+      "winningsPerGrid": 165.23
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 589,
+      "winningsPerGrid": 12.9
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15159981,
+      "debut": "2018-12-26T17:00:00+00:00",
+      "home": "Torino",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2705",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159979,
+      "debut": "2018-12-26T17:00:00+00:00",
+      "home": "Spal 2013",
+      "away": "Udinese",
+      "home_id": "sr:competitor:113755",
+      "away_id": "sr:competitor:2695",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159965,
+      "debut": "2018-12-26T17:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2793",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736601,
+      "debut": "2018-12-26T17:15:00+00:00",
+      "home": "Brighton",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14728751,
+      "debut": "2018-12-26T19:30:00+00:00",
+      "home": "Racing Genk",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2903",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159971,
+      "debut": "2018-12-26T19:30:00+00:00",
+      "home": "Inter Milan",
+      "away": "Naples",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2714",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736619,
+      "debut": "2018-12-26T19:30:00+00:00",
+      "home": "Watford",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

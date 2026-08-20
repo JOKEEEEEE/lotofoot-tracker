@@ -1,0 +1,136 @@
+{
+  "grille_id": 3556,
+  "grille_type": "grille7",
+  "pool_id": 7003556,
+  "titre": "Grille 7 n°3556",
+  "statut": "CLOSED",
+  "fin": "2024-12-07T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:42:28.881453+00:00",
+  "mises_nettes": 12501,
+  "montant_distribue": 12501,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 126,
+      "winningsPerGrid": 49.61
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1083,
+      "winningsPerGrid": 5.77
+    }
+  ],
+  "repartition": [
+    92,
+    617,
+    2194,
+    4104,
+    4872,
+    3580,
+    1083,
+    126
+  ],
+  "matches": [
+    {
+      "match_id": 50955591,
+      "debut": "2024-12-07T16:00:00+00:00",
+      "home": "Monaco",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1681",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271715,
+      "debut": "2024-12-07T17:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2685",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51269239,
+      "debut": "2024-12-07T17:30:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2673",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955575,
+      "debut": "2024-12-07T18:00:00+00:00",
+      "home": "Nice",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1662",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956561,
+      "debut": "2024-12-07T19:15:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Paris FC",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:6070",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852387,
+      "debut": "2024-12-07T20:00:00+00:00",
+      "home": "Gérone",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955581,
+      "debut": "2024-12-07T20:00:00+00:00",
+      "home": "Angers",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1649",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

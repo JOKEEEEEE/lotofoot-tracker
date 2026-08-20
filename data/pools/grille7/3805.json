@@ -1,0 +1,136 @@
+{
+  "grille_id": 3805,
+  "grille_type": "grille7",
+  "pool_id": 7003805,
+  "titre": "Grille 7 n°3805",
+  "statut": "CLOSED",
+  "fin": "2025-08-08T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:18:00.990899+00:00",
+  "mises_nettes": 4032,
+  "montant_distribue": 4032,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010010001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 144
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 87,
+      "winningsPerGrid": 23.17
+    }
+  ],
+  "repartition": [
+    77,
+    557,
+    1528,
+    1703,
+    1049,
+    361,
+    87,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 61319673,
+      "debut": "2025-08-08T18:00:00+00:00",
+      "home": "Fortuna Sittard",
+      "away": "GO Ahead Eagles",
+      "home_id": "sr:competitor:2957",
+      "away_id": "sr:competitor:2979",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61199123,
+      "debut": "2025-08-08T18:15:00+00:00",
+      "home": "Montana",
+      "away": "Botev Vratsa",
+      "home_id": "sr:competitor:32642",
+      "away_id": "sr:competitor:36938",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61720412,
+      "debut": "2025-08-08T18:30:00+00:00",
+      "home": "Gaziantep Bld Spor",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:5138",
+      "away_id": "sr:competitor:3061",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525845,
+      "debut": "2025-08-08T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Waterford",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3194",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61489421,
+      "debut": "2025-08-08T19:00:00+00:00",
+      "home": "Birmingham",
+      "away": "Ipswich",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:32",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61730874,
+      "debut": "2025-08-08T19:15:00+00:00",
+      "home": "Casa Pia AC",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:36365",
+      "away_id": "sr:competitor:3001",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62259926,
+      "debut": "2025-08-08T21:30:00+00:00",
+      "home": "Cerro Porteno",
+      "away": "Nacional Asuncion",
+      "home_id": "sr:competitor:5991",
+      "away_id": "sr:competitor:33001",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

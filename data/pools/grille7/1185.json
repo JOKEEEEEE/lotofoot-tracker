@@ -1,0 +1,127 @@
+{
+  "grille_id": 1185,
+  "grille_type": "grille7",
+  "pool_id": 7001185,
+  "titre": "Grille 7 n°1185",
+  "statut": "CLOSED",
+  "fin": "2019-03-05T20:00:00+00:00",
+  "collecte_le": "2026-08-20T13:28:24.852848+00:00",
+  "mises_nettes": 14750.25,
+  "montant_distribue": 14750.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 1053.59
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 78,
+      "winningsPerGrid": 94.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16514889,
+      "debut": "2019-03-05T20:00:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:33",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514903,
+      "debut": "2019-03-05T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2953",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386145,
+      "debut": "2019-03-05T22:15:00+00:00",
+      "home": "Godoy Cruz",
+      "away": "Olimpia Asuncion",
+      "home_id": "sr:competitor:6074",
+      "away_id": "sr:competitor:5997",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17506057,
+      "debut": "2019-03-05T22:25:00+00:00",
+      "home": "Japon (F)",
+      "away": "Angleterre (F)",
+      "home_id": "sr:competitor:7418",
+      "away_id": "sr:competitor:7415",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386271,
+      "debut": "2019-03-05T22:15:00+00:00",
+      "home": "San Jose Oruro",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:21989",
+      "away_id": "sr:competitor:5981",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386363,
+      "debut": "2019-03-06T00:30:00+00:00",
+      "home": "Tolima",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:1967",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386365,
+      "debut": "2019-03-06T00:30:00+00:00",
+      "home": "Jorge Wilstermann",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:7878",
+      "away_id": "sr:competitor:3202",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

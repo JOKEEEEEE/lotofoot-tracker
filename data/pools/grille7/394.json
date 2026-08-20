@@ -1,0 +1,127 @@
+{
+  "grille_id": 394,
+  "grille_type": "grille7",
+  "pool_id": 7000394,
+  "titre": "Grille 7 n°394",
+  "statut": "CLOSED",
+  "fin": "2016-11-27T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:23:20.316248+00:00",
+  "mises_nettes": 11360.25,
+  "montant_distribue": 11360.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1136.03
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 93,
+      "winningsPerGrid": 61.08
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9539811,
+      "debut": "2016-11-27T16:00:00+00:00",
+      "home": "Nice",
+      "away": "Bastia",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1655",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9599993,
+      "debut": "2016-11-27T16:30:00+00:00",
+      "home": "Manchester United",
+      "away": "West Ham",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9599995,
+      "debut": "2016-11-27T16:30:00+00:00",
+      "home": "Southampton",
+      "away": "Everton",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:48",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9690183,
+      "debut": "2016-11-27T16:30:00+00:00",
+      "home": "Hertha Berlin",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2528",
+      "away_id": "sr:competitor:2556",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769415,
+      "debut": "2016-11-27T17:30:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:33779",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769409,
+      "debut": "2016-11-27T19:45:00+00:00",
+      "home": "Real Sociedad",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539813,
+      "debut": "2016-11-27T19:45:00+00:00",
+      "home": "Lyon",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

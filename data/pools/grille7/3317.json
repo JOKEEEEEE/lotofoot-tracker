@@ -1,0 +1,136 @@
+{
+  "grille_id": 3317,
+  "grille_type": "grille7",
+  "pool_id": 7003317,
+  "titre": "Grille 7 n°3317",
+  "statut": "CLOSED",
+  "fin": "2024-04-29T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:00:51.535683+00:00",
+  "mises_nettes": 9244.5,
+  "montant_distribue": 9244.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 63,
+      "winningsPerGrid": 73.37
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 544,
+      "winningsPerGrid": 8.5
+    }
+  ],
+  "repartition": [
+    54,
+    461,
+    1866,
+    3471,
+    3727,
+    2140,
+    544,
+    63
+  ],
+  "matches": [
+    {
+      "match_id": 41984635,
+      "debut": "2024-04-29T18:30:00+00:00",
+      "home": "Racing Ferrol",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:2843",
+      "away_id": "sr:competitor:35092",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49036801,
+      "debut": "2024-04-29T18:45:00+00:00",
+      "home": "Dunkerque",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:6918",
+      "away_id": "sr:competitor:1646",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134783,
+      "debut": "2024-04-29T18:45:00+00:00",
+      "home": "Genoa",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2719",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49192877,
+      "debut": "2024-04-29T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3180",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49241411,
+      "debut": "2024-04-29T19:00:00+00:00",
+      "home": "Preston North End",
+      "away": "Leicester",
+      "home_id": "sr:competitor:21",
+      "away_id": "sr:competitor:31",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49552113,
+      "debut": "2024-04-29T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Valence",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2828",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146733,
+      "debut": "2024-04-29T19:15:00+00:00",
+      "home": "CF Estrela Amadora",
+      "away": "Farense",
+      "home_id": "sr:competitor:744135",
+      "away_id": "sr:competitor:2998",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

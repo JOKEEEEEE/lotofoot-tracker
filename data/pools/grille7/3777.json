@@ -1,0 +1,136 @@
+{
+  "grille_id": 3777,
+  "grille_type": "grille7",
+  "pool_id": 7003777,
+  "titre": "Grille 7 n°3777",
+  "statut": "CLOSED",
+  "fin": "2025-07-11T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:20:53.725805+00:00",
+  "mises_nettes": 4251.75,
+  "montant_distribue": 4251.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 141.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 194,
+      "winningsPerGrid": 10.96
+    }
+  ],
+  "repartition": [
+    40,
+    270,
+    946,
+    1683,
+    1676,
+    845,
+    194,
+    15
+  ],
+  "matches": [
+    {
+      "match_id": 61098423,
+      "debut": "2025-07-11T18:30:00+00:00",
+      "home": "Aldosivi",
+      "away": "Central Cordoba",
+      "home_id": "sr:competitor:36836",
+      "away_id": "sr:competitor:65676",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525817,
+      "debut": "2025-07-11T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Galway United",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3172",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525819,
+      "debut": "2025-07-11T18:45:00+00:00",
+      "home": "Waterford",
+      "away": "Cork City",
+      "home_id": "sr:competitor:3194",
+      "away_id": "sr:competitor:40896",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488747,
+      "debut": "2025-07-11T19:00:00+00:00",
+      "home": "Italie (F)",
+      "away": "Espagne (F)",
+      "home_id": "sr:competitor:22025",
+      "away_id": "sr:competitor:37371",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488749,
+      "debut": "2025-07-11T19:00:00+00:00",
+      "home": "Portugal (F)",
+      "away": "Belgique (F)",
+      "home_id": "sr:competitor:22027",
+      "away_id": "sr:competitor:38081",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61345725,
+      "debut": "2025-07-11T19:00:00+00:00",
+      "home": "Sportivo Luqueno",
+      "away": "Club General Caballero (JLM)",
+      "home_id": "sr:competitor:5998",
+      "away_id": "sr:competitor:818704",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098429,
+      "debut": "2025-07-11T23:00:00+00:00",
+      "home": "CA Talleres",
+      "away": "San Lorenzo",
+      "home_id": "sr:competitor:3210",
+      "away_id": "sr:competitor:3201",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

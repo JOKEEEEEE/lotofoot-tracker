@@ -1,0 +1,136 @@
+{
+  "grille_id": 3547,
+  "grille_type": "grille7",
+  "pool_id": 7003547,
+  "titre": "Grille 7 n°3547",
+  "statut": "CLOSED",
+  "fin": "2024-11-28T20:00:00+00:00",
+  "collecte_le": "2026-08-20T07:43:07.988405+00:00",
+  "mises_nettes": 8334,
+  "montant_distribue": 8334,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100001001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 416.7
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 154,
+      "winningsPerGrid": 27.06
+    }
+  ],
+  "repartition": [
+    80,
+    822,
+    2710,
+    3805,
+    2616,
+    915,
+    154,
+    10
+  ],
+  "matches": [
+    {
+      "match_id": 53160713,
+      "debut": "2024-11-28T20:00:00+00:00",
+      "home": "Nice",
+      "away": "Glasgow Rangers",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:2351",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160711,
+      "debut": "2024-11-28T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Bodø/Glimt",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:656",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160715,
+      "debut": "2024-11-28T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2953",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160703,
+      "debut": "2024-11-28T20:00:00+00:00",
+      "home": "Midtjylland",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:1289",
+      "away_id": "sr:competitor:2674",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160705,
+      "debut": "2024-11-28T20:00:00+00:00",
+      "home": "Twente",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2955",
+      "away_id": "sr:competitor:4860",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160717,
+      "debut": "2024-11-28T20:00:00+00:00",
+      "home": "Braga",
+      "away": "TSG Hoffenheim",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:2569",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160721,
+      "debut": "2024-11-28T20:00:00+00:00",
+      "home": "Tottenham",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

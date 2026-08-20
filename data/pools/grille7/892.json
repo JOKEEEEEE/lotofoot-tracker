@@ -1,0 +1,127 @@
+{
+  "grille_id": 892,
+  "grille_type": "grille7",
+  "pool_id": 7000892,
+  "titre": "Grille 7 n°892",
+  "statut": "CLOSED",
+  "fin": "2018-05-08T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:38:50.449054+00:00",
+  "mises_nettes": 11870.25,
+  "montant_distribue": 11870.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 68,
+      "winningsPerGrid": 87.28
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 703,
+      "winningsPerGrid": 8.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14083463,
+      "debut": "2018-05-08T18:30:00+00:00",
+      "home": "O-H Louvain",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2918",
+      "away_id": "sr:competitor:4858",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14083465,
+      "debut": "2018-05-08T18:30:00+00:00",
+      "home": "Mouscron",
+      "away": "Lierse",
+      "home_id": "sr:competitor:44019",
+      "away_id": "sr:competitor:2892",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14083467,
+      "debut": "2018-05-08T18:30:00+00:00",
+      "home": "Zulte Waregem",
+      "away": "Waasland-Beveren",
+      "home_id": "sr:competitor:2933",
+      "away_id": "sr:competitor:4859",
+      "score_home": 8,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14262343,
+      "debut": "2018-05-08T18:45:00+00:00",
+      "home": "Swansea",
+      "away": "Southampton",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:45",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14317449,
+      "debut": "2018-05-08T18:45:00+00:00",
+      "home": "Aberdeen",
+      "away": "Glasgow Rangers",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:2351",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14317455,
+      "debut": "2018-05-08T18:45:00+00:00",
+      "home": "Hamilton",
+      "away": "St Johnstone",
+      "home_id": "sr:competitor:2376",
+      "away_id": "sr:competitor:2348",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14385292,
+      "debut": "2018-05-08T19:05:00+00:00",
+      "home": "Les Herbiers",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:39407",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

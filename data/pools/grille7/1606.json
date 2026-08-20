@@ -1,0 +1,127 @@
+{
+  "grille_id": 1606,
+  "grille_type": "grille7",
+  "pool_id": 7001606,
+  "titre": "Grille 7 n°1606",
+  "statut": "CLOSED",
+  "fin": "2020-04-24T17:00:00+00:00",
+  "collecte_le": "2026-08-20T13:21:09.453584+00:00",
+  "mises_nettes": 24954,
+  "montant_distribue": 24954,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 28,
+      "winningsPerGrid": 445.61
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 388,
+      "winningsPerGrid": 32.16
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21861787,
+      "debut": "2020-04-24T17:00:00+00:00",
+      "home": "Neman Grodno",
+      "away": "Energetik-BGU Minsk",
+      "home_id": "sr:competitor:3356",
+      "away_id": "sr:competitor:3348",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21861785,
+      "debut": "2020-04-25T12:00:00+00:00",
+      "home": "Slavia Mozyr",
+      "away": "FC Minsk",
+      "home_id": "sr:competitor:3358",
+      "away_id": "sr:competitor:7304",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21861783,
+      "debut": "2020-04-25T14:00:00+00:00",
+      "home": "FC Gorodeya",
+      "away": "BATE Borisov",
+      "home_id": "sr:competitor:36876",
+      "away_id": "sr:competitor:3350",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21861781,
+      "debut": "2020-04-25T16:00:00+00:00",
+      "home": "Dinamo Brest",
+      "away": "Shakhtar Soligorsk",
+      "home_id": "sr:competitor:3353",
+      "away_id": "sr:competitor:3357",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21861779,
+      "debut": "2020-04-26T11:00:00+00:00",
+      "home": "Slutsk",
+      "away": "Belshina",
+      "home_id": "sr:competitor:36881",
+      "away_id": "sr:competitor:3352",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21861777,
+      "debut": "2020-04-26T13:00:00+00:00",
+      "home": "Torpedo-Belaz",
+      "away": "FC Rukh Brest",
+      "home_id": "sr:competitor:3359",
+      "away_id": "sr:competitor:405797",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21861775,
+      "debut": "2020-04-26T15:00:00+00:00",
+      "home": "Isloch Minsk",
+      "away": "FC Vitebsk",
+      "home_id": "sr:competitor:42965",
+      "away_id": "sr:competitor:3351",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

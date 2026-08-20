@@ -1,0 +1,127 @@
+{
+  "grille_id": 1627,
+  "grille_type": "grille7",
+  "pool_id": 7001627,
+  "titre": "Grille 7 n°1627",
+  "statut": "CLOSED",
+  "fin": "2020-06-04T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:28:29.847840+00:00",
+  "mises_nettes": 6950.25,
+  "montant_distribue": 6950.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1158.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 99,
+      "winningsPerGrid": 35.1
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22085129,
+      "debut": "2020-06-04T17:00:00+00:00",
+      "home": "Maritimo",
+      "away": "Vitoria Setubal",
+      "home_id": "sr:competitor:3007",
+      "away_id": "sr:competitor:3008",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085133,
+      "debut": "2020-06-04T18:15:00+00:00",
+      "home": "Benfica",
+      "away": "Tondela",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:38396",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085143,
+      "debut": "2020-06-04T20:15:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3001",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21984531,
+      "debut": "2020-06-05T10:30:00+00:00",
+      "home": "Incheon United",
+      "away": "Gangwon FC",
+      "home_id": "sr:competitor:7648",
+      "away_id": "sr:competitor:34220",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22064229,
+      "debut": "2020-06-05T16:00:00+00:00",
+      "home": "FC Smolevichi",
+      "away": "FC Gorodeya",
+      "home_id": "sr:competitor:42964",
+      "away_id": "sr:competitor:36876",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21981103,
+      "debut": "2020-06-05T15:45:00+00:00",
+      "home": "Lokomotiv Plovdiv",
+      "away": "Etar 1924 Veliko Tarnovo",
+      "home_id": "sr:competitor:3272",
+      "away_id": "sr:competitor:36941",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21921987,
+      "debut": "2020-06-05T16:00:00+00:00",
+      "home": "Korona Kielce",
+      "away": "Piast Gliwice",
+      "home_id": "sr:competitor:5065",
+      "away_id": "sr:competitor:7918",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

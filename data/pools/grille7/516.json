@@ -1,0 +1,127 @@
+{
+  "grille_id": 516,
+  "grille_type": "grille7",
+  "pool_id": 7000516,
+  "titre": "Grille 7 n°516",
+  "statut": "CLOSED",
+  "fin": "2017-04-10T18:15:00+00:00",
+  "collecte_le": "2026-08-20T13:32:08.889773+00:00",
+  "mises_nettes": 8581.5,
+  "montant_distribue": 8581.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 225.83
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 261,
+      "winningsPerGrid": 16.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9691267,
+      "debut": "2017-04-10T18:15:00+00:00",
+      "home": "Eintracht Brunswick",
+      "away": "Dynamo Dresden",
+      "home_id": "sr:competitor:2557",
+      "away_id": "sr:competitor:2595",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9913821,
+      "debut": "2017-04-10T18:30:00+00:00",
+      "home": "Novara",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2767",
+      "away_id": "sr:competitor:2701",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566261,
+      "debut": "2017-04-10T18:45:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Lens",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1648",
+      "score_home": 3,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769769,
+      "debut": "2017-04-10T18:45:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Gijon",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2852",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600365,
+      "debut": "2017-04-10T19:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:42",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9789087,
+      "debut": "2017-04-10T19:00:00+00:00",
+      "home": "Maritimo",
+      "away": "Chaves",
+      "home_id": "sr:competitor:3007",
+      "away_id": "sr:competitor:3025",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11226447,
+      "debut": "2017-04-10T22:00:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "Olimpo",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:3222",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

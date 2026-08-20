@@ -1,0 +1,136 @@
+{
+  "grille_id": 3403,
+  "grille_type": "grille7",
+  "pool_id": 7003403,
+  "titre": "Grille 7 n°3403",
+  "statut": "CLOSED",
+  "fin": "2024-07-21T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:53:46.957348+00:00",
+  "mises_nettes": 4157.25,
+  "montant_distribue": 4157.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1039.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 46,
+      "winningsPerGrid": 45.19
+    }
+  ],
+  "repartition": [
+    108,
+    674,
+    1637,
+    1732,
+    1027,
+    317,
+    46,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 48214793,
+      "debut": "2024-07-21T19:00:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1974",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214795,
+      "debut": "2024-07-21T19:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1957",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655675,
+      "debut": "2024-07-21T20:15:00+00:00",
+      "home": "Central Cordoba",
+      "away": "Club Atletico Platense",
+      "home_id": "sr:competitor:65676",
+      "away_id": "sr:competitor:36837",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655691,
+      "debut": "2024-07-21T20:15:00+00:00",
+      "home": "Estudiantes",
+      "away": "Union De Santa Fe",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:3204",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214803,
+      "debut": "2024-07-21T21:30:00+00:00",
+      "home": "Bragantino SP",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:1967",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214805,
+      "debut": "2024-07-21T21:30:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Atletico GO",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:7314",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214809,
+      "debut": "2024-07-21T21:30:00+00:00",
+      "home": "Juventude RS",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1980",
+      "away_id": "sr:competitor:1981",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

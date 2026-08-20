@@ -1,0 +1,136 @@
+{
+  "grille_id": 3529,
+  "grille_type": "grille7",
+  "pool_id": 7003529,
+  "titre": "Grille 7 n°3529",
+  "statut": "CLOSED",
+  "fin": "2024-11-10T19:45:00+00:00",
+  "collecte_le": "2026-08-20T07:44:14.856400+00:00",
+  "mises_nettes": 8081.25,
+  "montant_distribue": 8081.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 21,
+      "winningsPerGrid": 192.41
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 337,
+      "winningsPerGrid": 11.99
+    }
+  ],
+  "repartition": [
+    67,
+    465,
+    1632,
+    3263,
+    3365,
+    1625,
+    337,
+    21
+  ],
+  "matches": [
+    {
+      "match_id": 50955523,
+      "debut": "2024-11-10T19:45:00+00:00",
+      "home": "Lyon",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1678",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271653,
+      "debut": "2024-11-10T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Naples",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2714",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852333,
+      "debut": "2024-11-10T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657161,
+      "debut": "2024-11-10T20:15:00+00:00",
+      "home": "River Plate",
+      "away": "Club Atletico Barracas Central",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:65668",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388887,
+      "debut": "2024-11-10T20:45:00+00:00",
+      "home": "Benfica",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3002",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657173,
+      "debut": "2024-11-10T22:15:00+00:00",
+      "home": "Godoy Cruz",
+      "away": "CA Talleres",
+      "home_id": "sr:competitor:6074",
+      "away_id": "sr:competitor:3210",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657159,
+      "debut": "2024-11-10T22:30:00+00:00",
+      "home": "Racing Club",
+      "away": "Independiente Rivadavia",
+      "home_id": "sr:competitor:3215",
+      "away_id": "sr:competitor:36842",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 559,
+  "grille_type": "grille7",
+  "pool_id": 7000559,
+  "titre": "Grille 7 n°559",
+  "statut": "CLOSED",
+  "fin": "2017-05-26T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:04:25.832351+00:00",
+  "mises_nettes": 5252.25,
+  "montant_distribue": 6000,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 73,
+      "winningsPerGrid": 41.1
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11723939,
+      "debut": "2017-05-26T18:30:00+00:00",
+      "home": "Carpi",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:43685",
+      "away_id": "sr:competitor:2801",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799026,
+      "debut": "2017-05-26T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3170",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799202,
+      "debut": "2017-05-26T18:45:00+00:00",
+      "home": "Bray",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3171",
+      "away_id": "sr:competitor:3190",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799238,
+      "debut": "2017-05-26T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3179",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799246,
+      "debut": "2017-05-26T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:3177",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799340,
+      "debut": "2017-05-26T18:45:00+00:00",
+      "home": "Galway United",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3172",
+      "away_id": "sr:competitor:3173",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799064,
+      "debut": "2017-05-26T19:00:00+00:00",
+      "home": "Finn Harps",
+      "away": "Limerick",
+      "home_id": "sr:competitor:3181",
+      "away_id": "sr:competitor:7127",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

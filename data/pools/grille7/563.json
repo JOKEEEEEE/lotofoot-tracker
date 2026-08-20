@@ -1,0 +1,127 @@
+{
+  "grille_id": 563,
+  "grille_type": "grille7",
+  "pool_id": 7000563,
+  "titre": "Grille 7 n°563",
+  "statut": "CLOSED",
+  "fin": "2017-05-30T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:04:16.872110+00:00",
+  "mises_nettes": 3084,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 6,
+      "winningsPerGrid": 333.33
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 83,
+      "winningsPerGrid": 24.1
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11710013,
+      "debut": "2017-05-30T16:00:00+00:00",
+      "home": "Munich 1860",
+      "away": "SSV Jahn Regensburg",
+      "home_id": "sr:competitor:2536",
+      "away_id": "sr:competitor:2567",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11365181,
+      "debut": "2017-05-30T16:00:00+00:00",
+      "home": "Parnu JK Vaprus",
+      "away": "Paide Linnameeskond",
+      "home_id": "sr:competitor:318005",
+      "away_id": "sr:competitor:32476",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10841064,
+      "debut": "2017-05-30T17:00:00+00:00",
+      "home": "Trans Narva",
+      "away": "Levadia Tallinn",
+      "home_id": "sr:competitor:3343",
+      "away_id": "sr:competitor:3342",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10841182,
+      "debut": "2017-05-30T17:15:00+00:00",
+      "home": "Viljandi JK Tulevik",
+      "away": "Tammeka Tartu",
+      "home_id": "sr:competitor:74497",
+      "away_id": "sr:competitor:138566",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11726741,
+      "debut": "2017-05-30T18:30:00+00:00",
+      "home": "Pérouse",
+      "away": "Benevento",
+      "home_id": "sr:competitor:2698",
+      "away_id": "sr:competitor:2759",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799124,
+      "debut": "2017-05-30T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Bray",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3171",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11252619,
+      "debut": "2017-05-31T12:00:00+00:00",
+      "home": "Ordabasy Shymkent",
+      "away": "I. Pavlodar",
+      "home_id": "sr:competitor:5366",
+      "away_id": "sr:competitor:5365",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

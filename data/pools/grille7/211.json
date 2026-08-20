@@ -1,0 +1,127 @@
+{
+  "grille_id": 211,
+  "grille_type": "grille7",
+  "pool_id": 7000211,
+  "titre": "Grille 7 n°211",
+  "statut": "CLOSED",
+  "fin": "2016-04-27T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:38:41.366949+00:00",
+  "mises_nettes": 4655.25,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 4000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 15,
+      "winningsPerGrid": 266.67
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9295753,
+      "debut": "2016-04-27T18:45:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697436,
+      "debut": "2016-04-27T23:00:00+00:00",
+      "home": "New York City FC",
+      "away": "Montréal",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:22006",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697438,
+      "debut": "2016-04-27T23:30:00+00:00",
+      "home": "New England Revolution",
+      "away": "Portland Timbers",
+      "home_id": "sr:competitor:2511",
+      "away_id": "sr:competitor:22007",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697434,
+      "debut": "2016-04-28T02:30:00+00:00",
+      "home": "Vancouver",
+      "away": "Kansas City",
+      "home_id": "sr:competitor:22010",
+      "away_id": "sr:competitor:2509",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8630054,
+      "debut": "2016-04-28T17:00:00+00:00",
+      "home": "Helsingborg IF",
+      "away": "AIK Stockholm",
+      "home_id": "sr:competitor:1890",
+      "away_id": "sr:competitor:1764",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9296457,
+      "debut": "2016-04-28T19:05:00+00:00",
+      "home": "Shakhtar Donetsk",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:3313",
+      "away_id": "sr:competitor:2833",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9296459,
+      "debut": "2016-04-28T19:05:00+00:00",
+      "home": "Villarreal",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

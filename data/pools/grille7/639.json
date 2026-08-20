@@ -1,0 +1,127 @@
+{
+  "grille_id": 639,
+  "grille_type": "grille7",
+  "pool_id": 7000639,
+  "titre": "Grille 7 n°639",
+  "statut": "CLOSED",
+  "fin": "2017-08-18T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:57:30.739476+00:00",
+  "mises_nettes": 15429.75,
+  "montant_distribue": 15429.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 83,
+      "winningsPerGrid": 92.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1037,
+      "winningsPerGrid": 7.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11836540,
+      "debut": "2017-08-18T18:00:00+00:00",
+      "home": "Auxerre",
+      "away": "Orléans",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:6921",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11836544,
+      "debut": "2017-08-18T18:00:00+00:00",
+      "home": "Clermont",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1656",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11836546,
+      "debut": "2017-08-18T18:00:00+00:00",
+      "home": "GFC Ajaccio",
+      "away": "Quevilly Rouen",
+      "home_id": "sr:competitor:7924",
+      "away_id": "sr:competitor:233162",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11836548,
+      "debut": "2017-08-18T18:00:00+00:00",
+      "home": "Le Havre",
+      "away": "Valenciennes",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:5061",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11836552,
+      "debut": "2017-08-18T18:00:00+00:00",
+      "home": "Nancy",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:1657",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11836556,
+      "debut": "2017-08-18T18:00:00+00:00",
+      "home": "Reims",
+      "away": "Bourg-en-Bresse",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:35056",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12081038,
+      "debut": "2017-08-18T18:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Paris FC",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:6070",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

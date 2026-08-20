@@ -1,0 +1,127 @@
+{
+  "grille_id": 292,
+  "grille_type": "grille7",
+  "pool_id": 7000292,
+  "titre": "Grille 7 n°292",
+  "statut": "CLOSED",
+  "fin": "2016-08-10T17:45:00+00:00",
+  "collecte_le": "2026-08-20T12:32:14.860259+00:00",
+  "mises_nettes": 4416,
+  "montant_distribue": 4416,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 27,
+      "winningsPerGrid": 81.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 269,
+      "winningsPerGrid": 8.21
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9611853,
+      "debut": "2016-08-10T17:45:00+00:00",
+      "home": "FC Lugano",
+      "away": "Sion",
+      "home_id": "sr:competitor:2443",
+      "away_id": "sr:competitor:2452",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9611855,
+      "debut": "2016-08-10T17:45:00+00:00",
+      "home": "Vaduz",
+      "away": "Lucerne",
+      "home_id": "sr:competitor:2463",
+      "away_id": "sr:competitor:2453",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9611857,
+      "debut": "2016-08-10T18:30:00+00:00",
+      "home": "FC Bâle",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:2445",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302063,
+      "debut": "2016-08-10T19:00:00+00:00",
+      "home": "Corée du Sud",
+      "away": "Mexique",
+      "home_id": "sr:competitor:66616",
+      "away_id": "sr:competitor:69230",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302049,
+      "debut": "2016-08-10T22:00:00+00:00",
+      "home": "Japon",
+      "away": "Suède",
+      "home_id": "sr:competitor:24254",
+      "away_id": "sr:competitor:252161",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302051,
+      "debut": "2016-08-10T22:00:00+00:00",
+      "home": "Colombie",
+      "away": "Nigéria",
+      "home_id": "sr:competitor:252147",
+      "away_id": "sr:competitor:24257",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302035,
+      "debut": "2016-08-11T01:00:00+00:00",
+      "home": "Danemark",
+      "away": "Brésil",
+      "home_id": "sr:competitor:252149",
+      "away_id": "sr:competitor:24249",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

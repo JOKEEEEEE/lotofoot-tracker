@@ -1,0 +1,136 @@
+{
+  "grille_id": 3249,
+  "grille_type": "grille7",
+  "pool_id": 7003249,
+  "titre": "Grille 7 n°3249",
+  "statut": "CLOSED",
+  "fin": "2024-03-04T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:05:07.908845+00:00",
+  "mises_nettes": 10947,
+  "montant_distribue": 10947,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 218,
+      "winningsPerGrid": 25.11
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1376,
+      "winningsPerGrid": 3.98
+    }
+  ],
+  "repartition": [
+    67,
+    320,
+    1593,
+    3517,
+    4318,
+    3187,
+    1376,
+    218
+  ],
+  "matches": [
+    {
+      "match_id": 42005727,
+      "debut": "2024-03-04T19:45:00+00:00",
+      "home": "Angers",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1660",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134639,
+      "debut": "2024-03-04T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2713",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763381,
+      "debut": "2024-03-04T20:00:00+00:00",
+      "home": "Sheffield United",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:15",
+      "away_id": "sr:competitor:42",
+      "score_home": 0,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893443,
+      "debut": "2024-03-04T20:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Alaves",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2885",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146595,
+      "debut": "2024-03-04T20:15:00+00:00",
+      "home": "Famalicao",
+      "away": "Boavista",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:2995",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42147385,
+      "debut": "2024-03-04T20:15:00+00:00",
+      "home": "Vilaverdense",
+      "away": "Pacos de Ferreira",
+      "home_id": "sr:competitor:81835",
+      "away_id": "sr:competitor:3003",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47100279,
+      "debut": "2024-03-04T22:00:00+00:00",
+      "home": "Deportes Copiapó",
+      "away": "Universidad De Chile",
+      "home_id": "sr:competitor:89506",
+      "away_id": "sr:competitor:3161",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

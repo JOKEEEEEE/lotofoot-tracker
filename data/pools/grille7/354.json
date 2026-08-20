@@ -1,0 +1,127 @@
+{
+  "grille_id": 354,
+  "grille_type": "grille7",
+  "pool_id": 7000354,
+  "titre": "Grille 7 n°354",
+  "statut": "CLOSED",
+  "fin": "2016-10-16T15:00:00+00:00",
+  "collecte_le": "2026-08-20T12:25:57.042150+00:00",
+  "mises_nettes": 13006.5,
+  "montant_distribue": 13006.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 36,
+      "winningsPerGrid": 180.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 505,
+      "winningsPerGrid": 12.88
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9539629,
+      "debut": "2016-10-16T15:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1686",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9599895,
+      "debut": "2016-10-16T15:00:00+00:00",
+      "home": "Southampton",
+      "away": "Burnley",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:6",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9690093,
+      "debut": "2016-10-16T15:30:00+00:00",
+      "home": "Wolfsbourg",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2524",
+      "away_id": "sr:competitor:36360",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769313,
+      "debut": "2016-10-16T16:30:00+00:00",
+      "home": "Gijon",
+      "away": "Valence",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9820877,
+      "debut": "2016-10-16T18:45:00+00:00",
+      "home": "Chievo Vérone",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2694",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769297,
+      "debut": "2016-10-16T18:45:00+00:00",
+      "home": "Villarreal",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2821",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539637,
+      "debut": "2016-10-16T18:45:00+00:00",
+      "home": "Marseille",
+      "away": "Metz",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1651",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

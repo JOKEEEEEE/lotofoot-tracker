@@ -1,0 +1,127 @@
+{
+  "grille_id": 855,
+  "grille_type": "grille7",
+  "pool_id": 7000855,
+  "titre": "Grille 7 n°855",
+  "statut": "CLOSED",
+  "fin": "2018-04-01T15:00:00+00:00",
+  "collecte_le": "2026-08-20T11:41:12.810856+00:00",
+  "mises_nettes": 13785,
+  "montant_distribue": 15000,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 16,
+      "winningsPerGrid": 468.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 174,
+      "winningsPerGrid": 43.1
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11832812,
+      "debut": "2018-04-01T15:00:00+00:00",
+      "home": "Caen",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1642",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832884,
+      "debut": "2018-04-01T15:00:00+00:00",
+      "home": "Lille",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1676",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833012,
+      "debut": "2018-04-01T15:00:00+00:00",
+      "home": "Strasbourg",
+      "away": "Metz",
+      "home_id": "sr:competitor:1659",
+      "away_id": "sr:competitor:1651",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833070,
+      "debut": "2018-04-01T15:00:00+00:00",
+      "home": "Nantes",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833298,
+      "debut": "2018-04-01T15:00:00+00:00",
+      "home": "Troyes",
+      "away": "Nice",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1661",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830340,
+      "debut": "2018-04-01T15:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833124,
+      "debut": "2018-04-01T19:00:00+00:00",
+      "home": "Lyon",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1681",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

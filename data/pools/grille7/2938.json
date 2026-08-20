@@ -1,0 +1,136 @@
+{
+  "grille_id": 2938,
+  "grille_type": "grille7",
+  "pool_id": 7002938,
+  "titre": "Grille 7 n°2938",
+  "statut": "CLOSED",
+  "fin": "2023-06-11T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:35:16.100058+00:00",
+  "mises_nettes": 6702,
+  "montant_distribue": 6702,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 837.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 103,
+      "winningsPerGrid": 32.53
+    }
+  ],
+  "repartition": [
+    214,
+    1088,
+    2499,
+    2745,
+    1700,
+    583,
+    103,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 41575489,
+      "debut": "2023-06-11T18:30:00+00:00",
+      "home": "Bari",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2712",
+      "away_id": "sr:competitor:2719",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41617705,
+      "debut": "2023-06-11T18:45:00+00:00",
+      "home": "Spezia",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:2701",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41679195,
+      "debut": "2023-06-11T19:00:00+00:00",
+      "home": "Alaves",
+      "away": "Levante",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2849",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439063,
+      "debut": "2023-06-11T19:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1963",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439141,
+      "debut": "2023-06-11T19:00:00+00:00",
+      "home": "Internacional ",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1974",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41354713,
+      "debut": "2023-06-11T19:00:00+00:00",
+      "home": "Wydad Casablanca",
+      "away": "Al-Ahly Cairo",
+      "home_id": "sr:competitor:36268",
+      "away_id": "sr:competitor:6910",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41436365,
+      "debut": "2023-06-11T19:15:00+00:00",
+      "home": "Maritimo",
+      "away": "CF Estrela",
+      "home_id": "sr:competitor:3007",
+      "away_id": "sr:competitor:744135",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

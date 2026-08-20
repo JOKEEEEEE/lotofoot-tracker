@@ -1,0 +1,136 @@
+{
+  "grille_id": 3567,
+  "grille_type": "grille7",
+  "pool_id": 7003567,
+  "titre": "Grille 7 n°3567",
+  "statut": "CLOSED",
+  "fin": "2024-12-15T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:42:02.695915+00:00",
+  "mises_nettes": 8664.75,
+  "montant_distribue": 8664.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 4332.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 75,
+      "winningsPerGrid": 57.77
+    }
+  ],
+  "repartition": [
+    185,
+    1159,
+    2995,
+    3850,
+    2559,
+    729,
+    75,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 50850273,
+      "debut": "2024-12-15T19:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Brentford",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:50",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850283,
+      "debut": "2024-12-15T19:00:00+00:00",
+      "home": "Southampton",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:33",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50868251,
+      "debut": "2024-12-15T19:00:00+00:00",
+      "home": "NAC Breda",
+      "away": "AZ Alkmaar",
+      "home_id": "sr:competitor:2947",
+      "away_id": "sr:competitor:2950",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955609,
+      "debut": "2024-12-15T19:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1649",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271739,
+      "debut": "2024-12-15T19:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2713",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852403,
+      "debut": "2024-12-15T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2845",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388951,
+      "debut": "2024-12-15T20:30:00+00:00",
+      "home": "Estoril",
+      "away": "Casa Pia AC",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:36365",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

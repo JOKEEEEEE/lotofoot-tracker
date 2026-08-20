@@ -1,0 +1,127 @@
+{
+  "grille_id": 537,
+  "grille_type": "grille7",
+  "pool_id": 7000537,
+  "titre": "Grille 7 n°537",
+  "statut": "CLOSED",
+  "fin": "2017-05-02T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:06:24.233250+00:00",
+  "mises_nettes": 6970.5,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 49,
+      "winningsPerGrid": 81.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 375,
+      "winningsPerGrid": 10.67
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11542939,
+      "debut": "2017-05-02T18:45:00+00:00",
+      "home": "Real Madrid",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2836",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9935313,
+      "debut": "2017-05-02T19:30:00+00:00",
+      "home": "Belgrano",
+      "away": "Defensa Y Justicia",
+      "home_id": "sr:competitor:3203",
+      "away_id": "sr:competitor:36839",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9935325,
+      "debut": "2017-05-03T00:00:00+00:00",
+      "home": "Lanus",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:3218",
+      "away_id": "sr:competitor:3208",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11543501,
+      "debut": "2017-05-03T16:45:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Lyon",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:1649",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11542943,
+      "debut": "2017-05-03T18:45:00+00:00",
+      "home": "Monaco",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893570,
+      "debut": "2017-05-03T23:30:00+00:00",
+      "home": "Toronto FC",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:7080",
+      "away_id": "sr:competitor:52237",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893574,
+      "debut": "2017-05-04T00:30:00+00:00",
+      "home": "Kansas City",
+      "away": "New York Red Bulls",
+      "home_id": "sr:competitor:2509",
+      "away_id": "sr:competitor:2506",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 802,
+  "grille_type": "grille7",
+  "pool_id": 7000802,
+  "titre": "Grille 7 n°802",
+  "statut": "CLOSED",
+  "fin": "2018-02-06T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:44:35.404600+00:00",
+  "mises_nettes": 15578.25,
+  "montant_distribue": 15578.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 708.1
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 185,
+      "winningsPerGrid": 42.1
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13644927,
+      "debut": "2018-02-06T17:30:00+00:00",
+      "home": "Bourg-en-Bresse",
+      "away": "Marseille",
+      "home_id": "sr:competitor:35056",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 9,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644937,
+      "debut": "2018-02-06T17:30:00+00:00",
+      "home": "Auxerre",
+      "away": "Les Herbiers",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:39407",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13653435,
+      "debut": "2018-02-06T19:45:00+00:00",
+      "home": "Birmingham",
+      "away": "Huddersfield",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:59",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13496875,
+      "debut": "2018-02-06T19:45:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Werder Brême",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2534",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11842164,
+      "debut": "2018-02-06T19:45:00+00:00",
+      "home": "Zwolle",
+      "away": "Heerenveen",
+      "home_id": "sr:competitor:2971",
+      "away_id": "sr:competitor:2964",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971928,
+      "debut": "2018-02-06T20:00:00+00:00",
+      "home": "CD Aves",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3032",
+      "away_id": "sr:competitor:2995",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644929,
+      "debut": "2018-02-06T20:05:00+00:00",
+      "home": "Sochaux",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1657",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

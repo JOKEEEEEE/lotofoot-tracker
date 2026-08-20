@@ -1,0 +1,136 @@
+{
+  "grille_id": 2918,
+  "grille_type": "grille7",
+  "pool_id": 7002918,
+  "titre": "Grille 7 n°2918",
+  "statut": "CLOSED",
+  "fin": "2023-05-23T17:30:00+00:00",
+  "collecte_le": "2026-08-20T08:36:32.365983+00:00",
+  "mises_nettes": 4653,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100010100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 416.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 88,
+      "winningsPerGrid": 28.41
+    }
+  ],
+  "repartition": [
+    63,
+    599,
+    1594,
+    2019,
+    1371,
+    464,
+    88,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 34277901,
+      "debut": "2023-05-23T17:30:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:24264",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277917,
+      "debut": "2023-05-23T17:30:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Almeria",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2858",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277911,
+      "debut": "2023-05-23T20:00:00+00:00",
+      "home": "Real Valladolid",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2831",
+      "away_id": "sr:competitor:2817",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346323,
+      "debut": "2023-05-23T22:00:00+00:00",
+      "home": "Monagas SC",
+      "away": "Colo Colo",
+      "home_id": "sr:competitor:6233",
+      "away_id": "sr:competitor:3155",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346347,
+      "debut": "2023-05-23T22:00:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1967",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346175,
+      "debut": "2023-05-24T00:00:00+00:00",
+      "home": "Aucas",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:5249",
+      "away_id": "sr:competitor:3215",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346213,
+      "debut": "2023-05-24T00:00:00+00:00",
+      "home": "Independiente Medellin",
+      "away": "Club Nacional De Football",
+      "home_id": "sr:competitor:6115",
+      "away_id": "sr:competitor:3230",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

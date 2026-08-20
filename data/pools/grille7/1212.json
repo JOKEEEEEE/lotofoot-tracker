@@ -1,0 +1,127 @@
+{
+  "grille_id": 1212,
+  "grille_type": "grille7",
+  "pool_id": 7001212,
+  "titre": "Grille 7 n°1212",
+  "statut": "CLOSED",
+  "fin": "2019-04-02T18:45:00+00:00",
+  "collecte_le": "2026-08-20T13:28:02.418567+00:00",
+  "mises_nettes": 19252.5,
+  "montant_distribue": 19252.5,
+  "montant_garanti": 13000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 2406.56
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 90,
+      "winningsPerGrid": 106.96
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14736883,
+      "debut": "2019-04-02T18:45:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:35",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736885,
+      "debut": "2019-04-02T18:45:00+00:00",
+      "home": "Watford",
+      "away": "Fulham",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:43",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17324961,
+      "debut": "2019-04-02T18:45:00+00:00",
+      "home": "Augsbourg",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2600",
+      "away_id": "sr:competitor:36360",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160213,
+      "debut": "2019-04-02T19:00:00+00:00",
+      "home": "Cagliari",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17587323,
+      "debut": "2019-04-02T19:10:00+00:00",
+      "home": "Lyon",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1658",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17049837,
+      "debut": "2019-04-02T19:15:00+00:00",
+      "home": "Braga",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109561,
+      "debut": "2019-04-02T19:30:00+00:00",
+      "home": "Villarreal",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2817",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

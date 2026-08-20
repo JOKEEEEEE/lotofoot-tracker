@@ -1,0 +1,136 @@
+{
+  "grille_id": 3117,
+  "grille_type": "grille7",
+  "pool_id": 7003117,
+  "titre": "Grille 7 n°3117",
+  "statut": "CLOSED",
+  "fin": "2023-11-17T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:13:59.582668+00:00",
+  "mises_nettes": 7616.25,
+  "montant_distribue": 7616.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001010001100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 476.02
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 214,
+      "winningsPerGrid": 17.8
+    }
+  ],
+  "repartition": [
+    50,
+    619,
+    2026,
+    3372,
+    2801,
+    1065,
+    214,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 36602263,
+      "debut": "2023-11-17T19:45:00+00:00",
+      "home": "Italie",
+      "away": "Macédoine du Nord",
+      "home_id": "sr:competitor:4707",
+      "away_id": "sr:competitor:4777",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36602867,
+      "debut": "2023-11-17T19:45:00+00:00",
+      "home": "Pologne",
+      "away": "République Tchèque",
+      "home_id": "sr:competitor:4703",
+      "away_id": "sr:competitor:4714",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36604325,
+      "debut": "2023-11-17T19:45:00+00:00",
+      "home": "Danemark",
+      "away": "Slovénie",
+      "home_id": "sr:competitor:4476",
+      "away_id": "sr:competitor:4484",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41843901,
+      "debut": "2023-11-17T20:00:00+00:00",
+      "home": "Aberystwyth",
+      "away": "Bala Town",
+      "home_id": "sr:competitor:4905",
+      "away_id": "sr:competitor:36255",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984167,
+      "debut": "2023-11-17T20:00:00+00:00",
+      "home": "Real Valladolid",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2831",
+      "away_id": "sr:competitor:2845",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45246924,
+      "debut": "2023-11-18T15:30:00+00:00",
+      "home": "Jamaïque",
+      "away": "Canada",
+      "home_id": "sr:competitor:4769",
+      "away_id": "sr:competitor:4752",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45246932,
+      "debut": "2023-11-18T02:00:00+00:00",
+      "home": "Honduras",
+      "away": "Mexique",
+      "home_id": "sr:competitor:4827",
+      "away_id": "sr:competitor:4781",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

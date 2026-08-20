@@ -1,0 +1,136 @@
+{
+  "grille_id": 2966,
+  "grille_type": "grille7",
+  "pool_id": 7002966,
+  "titre": "Grille 7 n°2966",
+  "statut": "CLOSED",
+  "fin": "2023-07-10T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:33:33.245000+00:00",
+  "mises_nettes": 4602,
+  "montant_distribue": 4602,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 20,
+      "winningsPerGrid": 115.05
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 173,
+      "winningsPerGrid": 13.3
+    }
+  ],
+  "repartition": [
+    242,
+    1195,
+    2098,
+    1676,
+    732,
+    173,
+    20,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 37844189,
+      "debut": "2023-07-10T17:00:00+00:00",
+      "home": "IFK Göteborg",
+      "away": "Varbergs Bois",
+      "home_id": "sr:competitor:1761",
+      "away_id": "sr:competitor:7101",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37844193,
+      "debut": "2023-07-10T17:00:00+00:00",
+      "home": "Norrköping",
+      "away": "Halmstad",
+      "home_id": "sr:competitor:1769",
+      "away_id": "sr:competitor:1767",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546307,
+      "debut": "2023-07-10T17:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Argentinos Juniors",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:3216",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546305,
+      "debut": "2023-07-10T19:30:00+00:00",
+      "home": "Colon De Santa Fe",
+      "away": "Belgrano",
+      "home_id": "sr:competitor:3207",
+      "away_id": "sr:competitor:3203",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546319,
+      "debut": "2023-07-11T00:30:00+00:00",
+      "home": "CA Talleres",
+      "away": "Union De Santa Fe",
+      "home_id": "sr:competitor:3210",
+      "away_id": "sr:competitor:3204",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546321,
+      "debut": "2023-07-10T22:30:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Huracan",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:7629",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41678851,
+      "debut": "2023-07-11T02:30:00+00:00",
+      "home": "Leon",
+      "away": "Pachuca",
+      "home_id": "sr:competitor:36534",
+      "away_id": "sr:competitor:1936",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

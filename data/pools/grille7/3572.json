@@ -1,0 +1,136 @@
+{
+  "grille_id": 3572,
+  "grille_type": "grille7",
+  "pool_id": 7003572,
+  "titre": "Grille 7 n°3572",
+  "statut": "CLOSED",
+  "fin": "2024-12-20T19:30:00+00:00",
+  "collecte_le": "2026-08-20T07:41:44.212529+00:00",
+  "mises_nettes": 10230.75,
+  "montant_distribue": 10230.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 323,
+      "winningsPerGrid": 15.84
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1858,
+      "winningsPerGrid": 2.75
+    }
+  ],
+  "repartition": [
+    45,
+    251,
+    898,
+    2449,
+    3993,
+    3824,
+    1858,
+    323
+  ],
+  "matches": [
+    {
+      "match_id": 51269267,
+      "debut": "2024-12-20T19:30:00+00:00",
+      "home": "Bayern Munich",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:36360",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271751,
+      "debut": "2024-12-20T19:45:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56103405,
+      "debut": "2024-12-20T20:00:00+00:00",
+      "home": "Rouen",
+      "away": "Lille",
+      "home_id": "sr:competitor:4493",
+      "away_id": "sr:competitor:1643",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56103407,
+      "debut": "2024-12-20T19:45:00+00:00",
+      "home": "Troyes",
+      "away": "Metz",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1651",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56103419,
+      "debut": "2024-12-20T19:45:00+00:00",
+      "home": "GOAL FC",
+      "away": "Annecy FC",
+      "home_id": "sr:competitor:921159",
+      "away_id": "sr:competitor:234888",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51095791,
+      "debut": "2024-12-20T20:00:00+00:00",
+      "home": "Luton Town",
+      "away": "Derby County",
+      "home_id": "sr:competitor:72",
+      "away_id": "sr:competitor:27",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852427,
+      "debut": "2024-12-20T20:00:00+00:00",
+      "home": "Gérone",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2831",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 572,
+  "grille_type": "grille7",
+  "pool_id": 7000572,
+  "titre": "Grille 7 n°572",
+  "statut": "CLOSED",
+  "fin": "2017-06-09T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:03:30.077861+00:00",
+  "mises_nettes": 8638.5,
+  "montant_distribue": 8638.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 863.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 106,
+      "winningsPerGrid": 40.75
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7678178,
+      "debut": "2017-06-09T18:45:00+00:00",
+      "home": "Suède",
+      "away": "France",
+      "home_id": "sr:competitor:4688",
+      "away_id": "sr:competitor:4481",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678234,
+      "debut": "2017-06-09T18:45:00+00:00",
+      "home": "Lettonie",
+      "away": "Portugal",
+      "home_id": "sr:competitor:4706",
+      "away_id": "sr:competitor:4704",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678604,
+      "debut": "2017-06-09T18:45:00+00:00",
+      "home": "Bosnie-Herzégovine",
+      "away": "Grèce",
+      "home_id": "sr:competitor:4479",
+      "away_id": "sr:competitor:4710",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678606,
+      "debut": "2017-06-09T18:45:00+00:00",
+      "home": "Estonie",
+      "away": "Belgique",
+      "home_id": "sr:competitor:4759",
+      "away_id": "sr:competitor:4717",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678174,
+      "debut": "2017-06-09T18:45:00+00:00",
+      "home": "Biélorussie",
+      "away": "Bulgarie",
+      "home_id": "sr:competitor:4743",
+      "away_id": "sr:competitor:4716",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678232,
+      "debut": "2017-06-09T18:45:00+00:00",
+      "home": "Îles Féroé",
+      "away": "Suisse",
+      "home_id": "sr:competitor:4760",
+      "away_id": "sr:competitor:4699",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678230,
+      "debut": "2017-06-09T18:45:00+00:00",
+      "home": "Andorre",
+      "away": "Hongrie",
+      "home_id": "sr:competitor:4818",
+      "away_id": "sr:competitor:4709",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1565,
+  "grille_type": "grille7",
+  "pool_id": 7001565,
+  "titre": "Grille 7 n°1565",
+  "statut": "CLOSED",
+  "fin": "2020-02-18T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:37:21.919258+00:00",
+  "mises_nettes": 10030.5,
+  "montant_distribue": 11000,
+  "montant_garanti": 11000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 131,
+      "winningsPerGrid": 41.98
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21271221,
+      "debut": "2020-02-18T19:45:00+00:00",
+      "home": "Motherwell",
+      "away": "St. Mirren",
+      "home_id": "sr:competitor:2346",
+      "away_id": "sr:competitor:2359",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20691131,
+      "debut": "2020-02-18T20:00:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:1644",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20691703,
+      "debut": "2020-02-18T20:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20948915,
+      "debut": "2020-02-19T00:40:00+00:00",
+      "home": "Deportivo Pereira",
+      "away": "Jaguares De Cordoba",
+      "home_id": "sr:competitor:6109",
+      "away_id": "sr:competitor:89370",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20633637,
+      "debut": "2020-02-19T01:00:00+00:00",
+      "home": "Portmore United",
+      "away": "Cruz Azul",
+      "home_id": "sr:competitor:124528",
+      "away_id": "sr:competitor:1947",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20633333,
+      "debut": "2020-02-19T03:00:00+00:00",
+      "home": "CD Motagua",
+      "away": "Atlanta United FC",
+      "home_id": "sr:competitor:22047",
+      "away_id": "sr:competitor:305920",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20633809,
+      "debut": "2020-02-19T03:00:00+00:00",
+      "home": "Leon",
+      "away": "Los Angeles FC",
+      "home_id": "sr:competitor:36534",
+      "away_id": "sr:competitor:402227",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2655,
+  "grille_type": "grille7",
+  "pool_id": 7002655,
+  "titre": "Grille 7 n°2655",
+  "statut": "CLOSED",
+  "fin": "2022-10-17T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:59:32.622281+00:00",
+  "mises_nettes": 9151.5,
+  "montant_distribue": 9151.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 326.84
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 202,
+      "winningsPerGrid": 22.65
+    }
+  ],
+  "repartition": [
+    197,
+    1056,
+    2928,
+    3917,
+    2814,
+    1074,
+    202,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 34416537,
+      "debut": "2022-10-17T18:00:00+00:00",
+      "home": "CFR Cluj",
+      "away": "Sepsi OSK",
+      "home_id": "sr:competitor:5287",
+      "away_id": "sr:competitor:276385",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839859,
+      "debut": "2022-10-17T18:00:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "Argentinos Juniors",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:3216",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35016621,
+      "debut": "2022-10-17T18:45:00+00:00",
+      "home": "Bastia",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1655",
+      "away_id": "sr:competitor:1645",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277375,
+      "debut": "2022-10-17T19:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2820",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278633,
+      "debut": "2022-10-17T19:00:00+00:00",
+      "home": "Gijon",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:2839",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839857,
+      "debut": "2022-10-17T19:30:00+00:00",
+      "home": "Velez Sarsfield",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:3208",
+      "away_id": "sr:competitor:3206",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34247255,
+      "debut": "2022-10-17T20:30:00+00:00",
+      "home": "Envigado FC",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:6114",
+      "away_id": "sr:competitor:6105",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

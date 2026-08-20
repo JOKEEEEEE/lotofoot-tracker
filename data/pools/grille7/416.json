@@ -1,0 +1,127 @@
+{
+  "grille_id": 416,
+  "grille_type": "grille7",
+  "pool_id": 7000416,
+  "titre": "Grille 7 n°416",
+  "statut": "CLOSED",
+  "fin": "2016-12-20T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:20:31.108025+00:00",
+  "mises_nettes": 10383,
+  "montant_distribue": 10383,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5191.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 41,
+      "winningsPerGrid": 126.62
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9690253,
+      "debut": "2016-12-20T19:00:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Augsbourg",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2600",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9690255,
+      "debut": "2016-12-20T19:00:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Wolfsbourg",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2524",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9690261,
+      "debut": "2016-12-20T19:00:00+00:00",
+      "home": "Hambourg",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:2676",
+      "away_id": "sr:competitor:2530",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9690267,
+      "debut": "2016-12-20T19:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:2556",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9720487,
+      "debut": "2016-12-20T19:30:00+00:00",
+      "home": "Mouscron",
+      "away": "Westerlo",
+      "home_id": "sr:competitor:44019",
+      "away_id": "sr:competitor:2893",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9720501,
+      "debut": "2016-12-20T19:30:00+00:00",
+      "home": "Malines",
+      "away": "Charleroi",
+      "home_id": "sr:competitor:5044",
+      "away_id": "sr:competitor:2898",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821281,
+      "debut": "2016-12-20T19:45:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2705",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

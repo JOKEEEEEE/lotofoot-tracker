@@ -1,0 +1,136 @@
+{
+  "grille_id": 4149,
+  "grille_type": "grille7",
+  "pool_id": 7004149,
+  "titre": "Grille 7 n°4149",
+  "statut": "CLOSED",
+  "fin": "2026-07-27T18:00:00+00:00",
+  "collecte_le": "2026-08-20T05:49:34.825044+00:00",
+  "mises_nettes": 2198.25,
+  "montant_distribue": 2198.25,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 20,
+      "winningsPerGrid": 54.96
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 152,
+      "winningsPerGrid": 7.23
+    }
+  ],
+  "repartition": [
+    54,
+    372,
+    873,
+    932,
+    528,
+    152,
+    20,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 68194754,
+      "debut": "2026-07-27T18:00:00+00:00",
+      "home": "Breidablik Kopavogur",
+      "away": "IBV Vestmannaeyjar",
+      "home_id": "sr:competitor:1901",
+      "away_id": "sr:competitor:1895",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.58,
+      "cote_N": 3.8,
+      "cote_2": 4.2
+    },
+    {
+      "match_id": 72367062,
+      "debut": "2026-07-27T18:15:00+00:00",
+      "home": "CSKA Sofia",
+      "away": "Botev Plovdiv",
+      "home_id": "sr:competitor:3275",
+      "away_id": "sr:competitor:5241",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.58,
+      "cote_N": 3.65,
+      "cote_2": 4.6
+    },
+    {
+      "match_id": 72387878,
+      "debut": "2026-07-27T18:30:00+00:00",
+      "home": "FC Botosani",
+      "away": "Rapid Bucarest",
+      "home_id": "sr:competitor:24798",
+      "away_id": "sr:competitor:3302",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.8,
+      "cote_N": 3,
+      "cote_2": 2.2
+    },
+    {
+      "match_id": 68194756,
+      "debut": "2026-07-27T19:15:00+00:00",
+      "home": "KA Akureyri",
+      "away": "Þór Akureyri",
+      "home_id": "sr:competitor:1904",
+      "away_id": "sr:competitor:1903",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.46,
+      "cote_N": 4.7,
+      "cote_2": 4.5
+    },
+    {
+      "match_id": 73085250,
+      "debut": "2026-07-27T23:00:00+00:00",
+      "home": "Unión La Calera",
+      "away": "Everton",
+      "home_id": "sr:competitor:48242",
+      "away_id": "sr:competitor:5032",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 36,
+      "cote_N": 1.02,
+      "cote_2": 36
+    },
+    {
+      "match_id": 72868102,
+      "debut": "2026-07-28T15:00:00+00:00",
+      "home": "KuPS",
+      "away": "Sabah",
+      "home_id": "sr:competitor:2244",
+      "away_id": "sr:competitor:382568",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.85,
+      "cote_N": 3.2,
+      "cote_2": 2.1
+    },
+    {
+      "match_id": 72176706,
+      "debut": "2026-07-28T16:00:00+00:00",
+      "home": "Lincoln Red Imps",
+      "away": "Mjallby",
+      "home_id": "sr:competitor:126304",
+      "away_id": "sr:competitor:1783",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 4.2,
+      "cote_N": 3.65,
+      "cote_2": 1.64
+    }
+  ]
+}

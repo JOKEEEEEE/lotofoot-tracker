@@ -1,0 +1,127 @@
+{
+  "grille_id": 204,
+  "grille_type": "grille7",
+  "pool_id": 7000204,
+  "titre": "Grille 7 n°204",
+  "statut": "CLOSED",
+  "fin": "2016-04-19T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:39:16.127404+00:00",
+  "mises_nettes": 9963,
+  "montant_distribue": 9963,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 43,
+      "winningsPerGrid": 115.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 612,
+      "winningsPerGrid": 8.14
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7610822,
+      "debut": "2016-04-19T18:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2821",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9108647,
+      "debut": "2016-04-19T18:45:00+00:00",
+      "home": "Newcastle",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:17",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466858,
+      "debut": "2016-04-19T18:45:00+00:00",
+      "home": "Burnley",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:36",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689428,
+      "debut": "2016-04-19T18:45:00+00:00",
+      "home": "Naples",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2685",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7475508,
+      "debut": "2016-04-19T18:45:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "Vitesse Arnhem",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:2958",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9028511,
+      "debut": "2016-04-19T19:00:00+00:00",
+      "home": "Lorient",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610820,
+      "debut": "2016-04-19T19:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:6577",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

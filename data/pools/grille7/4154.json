@@ -1,0 +1,136 @@
+{
+  "grille_id": 4154,
+  "grille_type": "grille7",
+  "pool_id": 7004154,
+  "titre": "Grille 7 n°4154",
+  "statut": "CLOSED",
+  "fin": "2026-08-01T14:00:00+00:00",
+  "collecte_le": "2026-08-20T07:09:56.153931+00:00",
+  "mises_nettes": 3329.25,
+  "montant_distribue": 3329.25,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 1664.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 8,
+      "winningsPerGrid": 208.08
+    }
+  ],
+  "repartition": [
+    80,
+    646,
+    1480,
+    1461,
+    632,
+    131,
+    8,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 72041882,
+      "debut": "2026-08-01T14:00:00+00:00",
+      "home": "Tranmere Rovers",
+      "away": "Rochdale AFC",
+      "home_id": "sr:competitor:51",
+      "away_id": "sr:competitor:103",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.7,
+      "cote_N": 3.3,
+      "cote_2": 2.25
+    },
+    {
+      "match_id": 72345438,
+      "debut": "2026-08-01T15:00:00+00:00",
+      "home": "WSG Swarovski Tirol",
+      "away": "Sturm Graz",
+      "home_id": "sr:competitor:5405",
+      "away_id": "sr:competitor:2051",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.95,
+      "cote_N": 3.4,
+      "cote_2": 1.7
+    },
+    {
+      "match_id": 72176866,
+      "debut": "2026-08-01T16:00:00+00:00",
+      "home": "FC Bâle",
+      "away": "FC Lausanne",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:2446",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.8,
+      "cote_N": 3.55,
+      "cote_2": 3.3
+    },
+    {
+      "match_id": 72176864,
+      "debut": "2026-08-01T16:00:00+00:00",
+      "home": "FC Zurich",
+      "away": "Servette FC",
+      "home_id": "sr:competitor:2450",
+      "away_id": "sr:competitor:2448",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.6,
+      "cote_N": 3.75,
+      "cote_2": 1.76
+    },
+    {
+      "match_id": 72201566,
+      "debut": "2026-08-01T16:30:00+00:00",
+      "home": "Aberdeen",
+      "away": "Heart of Midlothian",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:2353",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.7,
+      "cote_N": 3.35,
+      "cote_2": 2.1
+    },
+    {
+      "match_id": 72345440,
+      "debut": "2026-08-01T17:30:00+00:00",
+      "home": "Red Bull Salzbourg",
+      "away": "TSV Hartberg",
+      "home_id": "sr:competitor:2046",
+      "away_id": "sr:competitor:2075",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.28,
+      "cote_N": 5.1,
+      "cote_2": 7.5
+    },
+    {
+      "match_id": 72176868,
+      "debut": "2026-08-01T18:30:00+00:00",
+      "home": "Thoune",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:2454",
+      "away_id": "sr:competitor:2445",
+      "score_home": 0,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": 3.15,
+      "cote_N": 3.9,
+      "cote_2": 1.78
+    }
+  ]
+}

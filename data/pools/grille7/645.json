@@ -1,0 +1,127 @@
+{
+  "grille_id": 645,
+  "grille_type": "grille7",
+  "pool_id": 7000645,
+  "titre": "Grille 7 n°645",
+  "statut": "CLOSED",
+  "fin": "2017-08-24T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:57:16.617365+00:00",
+  "mises_nettes": 13611.75,
+  "montant_distribue": 13611.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 41,
+      "winningsPerGrid": 166
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 540,
+      "winningsPerGrid": 12.6
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12152812,
+      "debut": "2017-08-24T18:45:00+00:00",
+      "home": "Marseille",
+      "away": "Domzale",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:2418",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152780,
+      "debut": "2017-08-24T18:45:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Panathinaïkos",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:3248",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152772,
+      "debut": "2017-08-24T18:45:00+00:00",
+      "home": "Shkendija Tetovo",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:5413",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152818,
+      "debut": "2017-08-24T18:45:00+00:00",
+      "home": "Rosenborg",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:1161",
+      "away_id": "sr:competitor:2953",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152794,
+      "debut": "2017-08-24T19:00:00+00:00",
+      "home": "Hajduk Split",
+      "away": "Everton",
+      "home_id": "sr:competitor:2036",
+      "away_id": "sr:competitor:48",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12157438,
+      "debut": "2017-08-24T19:00:00+00:00",
+      "home": "Etoile Rouge de Belgrade",
+      "away": "FK Krasnodar",
+      "home_id": "sr:competitor:5149",
+      "away_id": "sr:competitor:34425",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152778,
+      "debut": "2017-08-24T19:05:00+00:00",
+      "home": "Austria Vienne",
+      "away": "Osijek",
+      "home_id": "sr:competitor:2203",
+      "away_id": "sr:competitor:2040",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

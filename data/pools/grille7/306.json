@@ -1,0 +1,127 @@
+{
+  "grille_id": 306,
+  "grille_type": "grille7",
+  "pool_id": 7000306,
+  "titre": "Grille 7 n°306",
+  "statut": "CLOSED",
+  "fin": "2016-08-25T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:29:15.418678+00:00",
+  "mises_nettes": 7455.75,
+  "montant_distribue": 7455.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 22,
+      "winningsPerGrid": 169.45
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 230,
+      "winningsPerGrid": 16.21
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9909823,
+      "debut": "2016-08-25T18:00:00+00:00",
+      "home": "BATE Borisov",
+      "away": "FC Astana",
+      "home_id": "sr:competitor:3350",
+      "away_id": "sr:competitor:36155",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909875,
+      "debut": "2016-08-25T18:00:00+00:00",
+      "home": "Anderlecht",
+      "away": "Slavia Prague",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2216",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9915805,
+      "debut": "2016-08-25T18:15:00+00:00",
+      "home": "Maribor",
+      "away": "Gabala",
+      "home_id": "sr:competitor:2420",
+      "away_id": "sr:competitor:36952",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909891,
+      "debut": "2016-08-25T18:30:00+00:00",
+      "home": "Etoile Rouge de Belgrade",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:5149",
+      "away_id": "sr:competitor:2793",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909905,
+      "debut": "2016-08-25T18:30:00+00:00",
+      "home": "Hajduk Split",
+      "away": "Maccabi Tel-Aviv",
+      "home_id": "sr:competitor:2036",
+      "away_id": "sr:competitor:5198",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909851,
+      "debut": "2016-08-25T18:45:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Beitar Trump Jerusalem",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:5204",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909879,
+      "debut": "2016-08-25T18:45:00+00:00",
+      "home": "West Ham",
+      "away": "Astra Giurgiu",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:3288",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

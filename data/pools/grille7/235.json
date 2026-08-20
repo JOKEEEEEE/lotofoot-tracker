@@ -1,0 +1,127 @@
+{
+  "grille_id": 235,
+  "grille_type": "grille7",
+  "pool_id": 7000235,
+  "titre": "Grille 7 n°235",
+  "statut": "CLOSED",
+  "fin": "2016-05-29T15:45:00+00:00",
+  "collecte_le": "2026-08-20T12:36:34.292063+00:00",
+  "mises_nettes": 7543.5,
+  "montant_distribue": 7543.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1257.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 83,
+      "winningsPerGrid": 45.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8840342,
+      "debut": "2016-05-29T15:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Slovaquie",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4697",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9203295,
+      "debut": "2016-05-29T16:00:00+00:00",
+      "home": "Espagne",
+      "away": "Bosnie-Herzégovine",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4479",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9401601,
+      "debut": "2016-05-29T17:30:00+00:00",
+      "home": "Roumanie",
+      "away": "Ukraine",
+      "home_id": "sr:competitor:4477",
+      "away_id": "sr:competitor:4701",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8981343,
+      "debut": "2016-05-29T18:45:00+00:00",
+      "home": "Italie",
+      "away": "Écosse",
+      "home_id": "sr:competitor:4707",
+      "away_id": "sr:competitor:4695",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8981355,
+      "debut": "2016-05-29T19:45:00+00:00",
+      "home": "Portugal",
+      "away": "Norvège",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4475",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697548,
+      "debut": "2016-05-29T20:30:00+00:00",
+      "home": "New York City FC",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:52237",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211627,
+      "debut": "2016-05-29T21:30:00+00:00",
+      "home": "Santos",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

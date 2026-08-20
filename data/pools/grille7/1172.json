@@ -1,0 +1,127 @@
+{
+  "grille_id": 1172,
+  "grille_type": "grille7",
+  "pool_id": 7001172,
+  "titre": "Grille 7 n°1172",
+  "statut": "CLOSED",
+  "fin": "2019-02-20T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:14:08.621110+00:00",
+  "mises_nettes": 15570,
+  "montant_distribue": 15570,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 36,
+      "winningsPerGrid": 216.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 415,
+      "winningsPerGrid": 18.76
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17213737,
+      "debut": "2019-02-20T18:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1654",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17105107,
+      "debut": "2019-02-20T19:45:00+00:00",
+      "home": "Derby County",
+      "away": "Millwall",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:25",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17346627,
+      "debut": "2019-02-20T19:45:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Kilmarnock",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2347",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514875,
+      "debut": "2019-02-20T20:00:00+00:00",
+      "home": "Schalke 04",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:17",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514879,
+      "debut": "2019-02-20T20:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2687",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16553741,
+      "debut": "2019-02-20T20:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1642",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899267,
+      "debut": "2019-02-21T01:00:00+00:00",
+      "home": "Tolima",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6105",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

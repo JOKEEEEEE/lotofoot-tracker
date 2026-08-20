@@ -1,0 +1,127 @@
+{
+  "grille_id": 1712,
+  "grille_type": "grille7",
+  "pool_id": 7001712,
+  "titre": "Grille 7 n°1712",
+  "statut": "CLOSED",
+  "fin": "2020-08-19T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:21:09.848295+00:00",
+  "mises_nettes": 11194.5,
+  "montant_distribue": 11194.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001001111100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 768,
+      "winningsPerGrid": 7.29
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 2571,
+      "winningsPerGrid": 2.18
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22906345,
+      "debut": "2020-08-19T17:00:00+00:00",
+      "home": "Zénith St-Pétersbourg",
+      "away": "CSKA Moscou",
+      "home_id": "sr:competitor:2321",
+      "away_id": "sr:competitor:2325",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23070827,
+      "debut": "2020-08-19T18:00:00+00:00",
+      "home": "Connah's Quay",
+      "away": "FK Sarajevo",
+      "home_id": "sr:competitor:4912",
+      "away_id": "sr:competitor:5237",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23072935,
+      "debut": "2020-08-19T17:00:00+00:00",
+      "home": "Celje",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:2413",
+      "away_id": "sr:competitor:3179",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23070821,
+      "debut": "2020-08-19T17:00:00+00:00",
+      "home": "Ferencvaros",
+      "away": "Djurgardens",
+      "home_id": "sr:competitor:1925",
+      "away_id": "sr:competitor:1759",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23072921,
+      "debut": "2020-08-21T16:00:00+00:00",
+      "home": "Klaksvik",
+      "away": "Slovan Bratislava",
+      "home_id": "sr:competitor:5194",
+      "away_id": "sr:competitor:2404",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23070831,
+      "debut": "2020-08-19T18:00:00+00:00",
+      "home": "Buducnost Podgorica",
+      "away": "Ludogorets",
+      "home_id": "sr:competitor:5143",
+      "away_id": "sr:competitor:43840",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22660073,
+      "debut": "2020-08-19T19:00:00+00:00",
+      "home": "Lyon",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:2672",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3033,
+  "grille_type": "grille7",
+  "pool_id": 7003033,
+  "titre": "Grille 7 n°3033",
+  "statut": "CLOSED",
+  "fin": "2023-09-11T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:27:23.734718+00:00",
+  "mises_nettes": 9690,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 184,
+      "winningsPerGrid": 27.17
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1344,
+      "winningsPerGrid": 3.72
+    }
+  ],
+  "repartition": [
+    11,
+    109,
+    607,
+    2403,
+    4581,
+    3681,
+    1344,
+    184
+  ],
+  "matches": [
+    {
+      "match_id": 36604803,
+      "debut": "2023-09-11T18:45:00+00:00",
+      "home": "Portugal",
+      "away": "Luxembourg",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4478",
+      "score_home": 9,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36602425,
+      "debut": "2023-09-11T18:45:00+00:00",
+      "home": "Lettonie",
+      "away": "Pays de Galles",
+      "home_id": "sr:competitor:4706",
+      "away_id": "sr:competitor:4702",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36604801,
+      "debut": "2023-09-11T18:45:00+00:00",
+      "home": "Islande",
+      "away": "Bosnie-Herzégovine",
+      "home_id": "sr:competitor:4708",
+      "away_id": "sr:competitor:4479",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36604805,
+      "debut": "2023-09-11T18:45:00+00:00",
+      "home": "Slovaquie",
+      "away": "Liechtenstein",
+      "home_id": "sr:competitor:4697",
+      "away_id": "sr:competitor:4830",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40322903,
+      "debut": "2023-09-11T19:00:00+00:00",
+      "home": "Espagne U21",
+      "away": "Écosse U21",
+      "home_id": "sr:competitor:4891",
+      "away_id": "sr:competitor:6051",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41983899,
+      "debut": "2023-09-11T19:00:00+00:00",
+      "home": "Club Deportivo Eldense",
+      "away": "Alcorcon",
+      "home_id": "sr:competitor:47321",
+      "away_id": "sr:competitor:24322",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43236759,
+      "debut": "2023-09-11T21:00:00+00:00",
+      "home": "Envigado FC",
+      "away": "Águilas Doradas",
+      "home_id": "sr:competitor:6114",
+      "away_id": "sr:competitor:48244",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

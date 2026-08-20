@@ -1,0 +1,136 @@
+{
+  "grille_id": 4132,
+  "grille_type": "grille7",
+  "pool_id": 7004132,
+  "titre": "Grille 7 n°4132",
+  "statut": "CLOSED",
+  "fin": "2026-07-10T18:45:00+00:00",
+  "collecte_le": "2026-08-20T05:53:31.658861+00:00",
+  "mises_nettes": 5334,
+  "montant_distribue": 5334,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010001010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 8,
+      "winningsPerGrid": 333.38
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 116,
+      "winningsPerGrid": 22.99
+    }
+  ],
+  "repartition": [
+    433,
+    1922,
+    2464,
+    1584,
+    585,
+    116,
+    8,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 66854120,
+      "debut": "2026-07-10T18:45:00+00:00",
+      "home": "Dundalk",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:3179",
+      "away_id": "sr:competitor:3180",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.75,
+      "cote_2": 4.2
+    },
+    {
+      "match_id": 53452527,
+      "debut": "2026-07-10T19:00:00+00:00",
+      "home": "Espagne",
+      "away": "Belgique",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4717",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.6,
+      "cote_2": 4.8
+    },
+    {
+      "match_id": 66854124,
+      "debut": "2026-07-10T19:00:00+00:00",
+      "home": "Waterford",
+      "away": "St Patrick's",
+      "home_id": "sr:competitor:3194",
+      "away_id": "sr:competitor:3169",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 4.4,
+      "cote_N": 3.95,
+      "cote_2": 1.52
+    },
+    {
+      "match_id": 67126622,
+      "debut": "2026-07-11T13:00:00+00:00",
+      "home": "Mjallby",
+      "away": "AIK Stockholm",
+      "home_id": "sr:competitor:1783",
+      "away_id": "sr:competitor:1764",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 3.4,
+      "cote_2": 2.75
+    },
+    {
+      "match_id": 67015256,
+      "debut": "2026-07-11T14:00:00+00:00",
+      "home": "Aalesund",
+      "away": "Molde",
+      "home_id": "sr:competitor:677",
+      "away_id": "sr:competitor:661",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.9,
+      "cote_N": 3.65,
+      "cote_2": 1.92
+    },
+    {
+      "match_id": 53452529,
+      "debut": "2026-07-11T21:00:00+00:00",
+      "home": "Norvège",
+      "away": "Angleterre",
+      "home_id": "sr:competitor:4475",
+      "away_id": "sr:competitor:4713",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.75,
+      "cote_N": 3.55,
+      "cote_2": 1.76
+    },
+    {
+      "match_id": 53452531,
+      "debut": "2026-07-12T01:00:00+00:00",
+      "home": "Argentine",
+      "away": "Suisse",
+      "home_id": "sr:competitor:4819",
+      "away_id": "sr:competitor:4699",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.68,
+      "cote_N": 3.15,
+      "cote_2": 4.9
+    }
+  ]
+}

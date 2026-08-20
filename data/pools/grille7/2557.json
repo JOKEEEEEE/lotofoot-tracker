@@ -1,0 +1,136 @@
+{
+  "grille_id": 2557,
+  "grille_type": "grille7",
+  "pool_id": 7002557,
+  "titre": "Grille 7 n°2557",
+  "statut": "CLOSED",
+  "fin": "2022-08-02T18:00:00+00:00",
+  "collecte_le": "2026-08-20T09:08:22.225344+00:00",
+  "mises_nettes": 8341.5,
+  "montant_distribue": 8341.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2085.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 50,
+      "winningsPerGrid": 83.42
+    }
+  ],
+  "repartition": [
+    224,
+    2241,
+    4055,
+    2958,
+    1264,
+    328,
+    50,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 34820463,
+      "debut": "2022-08-02T18:00:00+00:00",
+      "home": "Monaco",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:2952",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34820429,
+      "debut": "2022-08-02T18:45:00+00:00",
+      "home": "Union Saint-Gilloise",
+      "away": "Glasgow Rangers",
+      "home_id": "sr:competitor:4860",
+      "away_id": "sr:competitor:2351",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34292967,
+      "debut": "2022-08-02T18:45:00+00:00",
+      "home": "Cambridge United",
+      "away": "Millwall",
+      "home_id": "sr:competitor:63",
+      "away_id": "sr:competitor:25",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34994709,
+      "debut": "2022-08-02T19:00:00+00:00",
+      "home": "Benfica",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:1289",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34570633,
+      "debut": "2022-08-02T22:15:00+00:00",
+      "home": "Club Nacional De Football",
+      "away": "Atletico GO",
+      "home_id": "sr:competitor:3230",
+      "away_id": "sr:competitor:7314",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31100003,
+      "debut": "2022-08-02T23:30:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "Colorado Rapids",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:2510",
+      "score_home": 4,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34570825,
+      "debut": "2022-08-03T00:30:00+00:00",
+      "home": "Corinthians",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:5981",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

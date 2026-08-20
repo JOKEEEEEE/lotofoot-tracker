@@ -1,0 +1,136 @@
+{
+  "grille_id": 2957,
+  "grille_type": "grille7",
+  "pool_id": 7002957,
+  "titre": "Grille 7 n°2957",
+  "statut": "CLOSED",
+  "fin": "2023-07-01T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:34:06.217744+00:00",
+  "mises_nettes": 5950.5,
+  "montant_distribue": 5950.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2975.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 36,
+      "winningsPerGrid": 82.65
+    }
+  ],
+  "repartition": [
+    268,
+    1243,
+    2400,
+    2388,
+    1270,
+    328,
+    36,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 41989923,
+      "debut": "2023-07-01T19:00:00+00:00",
+      "home": "Espagne U21",
+      "away": "Suisse U21",
+      "home_id": "sr:competitor:4891",
+      "away_id": "sr:competitor:4876",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439193,
+      "debut": "2023-07-01T19:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1961",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546189,
+      "debut": "2023-07-01T20:30:00+00:00",
+      "home": "San Lorenzo",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:3201",
+      "away_id": "sr:competitor:3217",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439189,
+      "debut": "2023-07-01T21:30:00+00:00",
+      "home": "Flamengo",
+      "away": "Fortaleza CE",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:2020",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439205,
+      "debut": "2023-07-01T21:30:00+00:00",
+      "home": "Bahia ",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:5926",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546187,
+      "debut": "2023-07-01T22:00:00+00:00",
+      "home": "Estudiantes",
+      "away": "Central Cordoba Sde",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:65676",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38186035,
+      "debut": "2023-07-01T23:30:00+00:00",
+      "home": "Inter Miami CF",
+      "away": "Austin FC",
+      "home_id": "sr:competitor:659691",
+      "away_id": "sr:competitor:772256",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

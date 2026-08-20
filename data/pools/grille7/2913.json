@@ -1,0 +1,136 @@
+{
+  "grille_id": 2913,
+  "grille_type": "grille7",
+  "pool_id": 7002913,
+  "titre": "Grille 7 n°2913",
+  "statut": "CLOSED",
+  "fin": "2023-05-19T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:36:50.982974+00:00",
+  "mises_nettes": 7239,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 43,
+      "winningsPerGrid": 87.21
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 426,
+      "winningsPerGrid": 8.8
+    }
+  ],
+  "repartition": [
+    120,
+    702,
+    1986,
+    2792,
+    2363,
+    1220,
+    426,
+    43
+  ],
+  "matches": [
+    {
+      "match_id": 34169529,
+      "debut": "2023-05-19T18:30:00+00:00",
+      "home": "Fribourg",
+      "away": "Wolfsbourg",
+      "home_id": "sr:competitor:2538",
+      "away_id": "sr:competitor:2524",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34744953,
+      "debut": "2023-05-19T18:30:00+00:00",
+      "home": "Parme",
+      "away": "Venise",
+      "home_id": "sr:competitor:2690",
+      "away_id": "sr:competitor:2688",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546051,
+      "debut": "2023-05-19T18:30:00+00:00",
+      "home": "Godoy Cruz",
+      "away": "Gimnasia La Plata",
+      "home_id": "sr:competitor:6074",
+      "away_id": "sr:competitor:3205",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34287227,
+      "debut": "2023-05-19T18:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Monza",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2729",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172705,
+      "debut": "2023-05-19T19:00:00+00:00",
+      "home": "Lyon",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1653",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277885,
+      "debut": "2023-05-19T19:00:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:2831",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34505153,
+      "debut": "2023-05-19T19:15:00+00:00",
+      "home": "Maritimo",
+      "away": "FC Vizela",
+      "home_id": "sr:competitor:3007",
+      "away_id": "sr:competitor:5136",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

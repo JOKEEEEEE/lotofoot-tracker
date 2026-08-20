@@ -1,0 +1,127 @@
+{
+  "grille_id": 1625,
+  "grille_type": "grille7",
+  "pool_id": 7001625,
+  "titre": "Grille 7 n°1625",
+  "statut": "CLOSED",
+  "fin": "2020-06-02T16:45:00+00:00",
+  "collecte_le": "2026-08-20T13:20:54.126929+00:00",
+  "mises_nettes": 9481.5,
+  "montant_distribue": 9481.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 196,
+      "winningsPerGrid": 24.19
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1115,
+      "winningsPerGrid": 4.25
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21985937,
+      "debut": "2020-06-02T16:45:00+00:00",
+      "home": "MS Ashdod",
+      "away": "Hapoel Raanana",
+      "home_id": "sr:competitor:5391",
+      "away_id": "sr:competitor:5398",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21985931,
+      "debut": "2020-06-02T17:00:00+00:00",
+      "home": "Maccabi Netanya",
+      "away": "Ironi Kiryat Shmona",
+      "home_id": "sr:competitor:5395",
+      "away_id": "sr:competitor:5399",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22001801,
+      "debut": "2020-06-02T17:00:00+00:00",
+      "home": "Brøndby",
+      "away": "Sønderjyske",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:1295",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21985813,
+      "debut": "2020-06-02T17:45:00+00:00",
+      "home": "Hapoel Tel-Aviv",
+      "away": "Beitar Trump Jerusalem",
+      "home_id": "sr:competitor:5396",
+      "away_id": "sr:competitor:5204",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22005503,
+      "debut": "2020-06-02T18:00:00+00:00",
+      "home": "Fuglafjordur",
+      "away": "Streymur",
+      "home_id": "sr:competitor:5188",
+      "away_id": "sr:competitor:5260",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22026225,
+      "debut": "2020-06-02T18:00:00+00:00",
+      "home": "Pribram",
+      "away": "Slavia Prague",
+      "home_id": "sr:competitor:2213",
+      "away_id": "sr:competitor:2216",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22020181,
+      "debut": "2020-06-02T18:30:00+00:00",
+      "home": "Austria Vienne",
+      "away": "Admira Wacker",
+      "home_id": "sr:competitor:2203",
+      "away_id": "sr:competitor:2050",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

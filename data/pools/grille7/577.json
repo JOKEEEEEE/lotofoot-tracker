@@ -1,0 +1,127 @@
+{
+  "grille_id": 577,
+  "grille_type": "grille7",
+  "pool_id": 7000577,
+  "titre": "Grille 7 n°577",
+  "statut": "CLOSED",
+  "fin": "2017-06-15T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:03:06.266038+00:00",
+  "mises_nettes": 3396,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 3,
+      "winningsPerGrid": 666.67
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11549853,
+      "debut": "2017-06-15T18:00:00+00:00",
+      "home": "IBV Vestmannaeyjar",
+      "away": "KR Reykjavik",
+      "home_id": "sr:competitor:1895",
+      "away_id": "sr:competitor:1902",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439267,
+      "debut": "2017-06-15T19:00:00+00:00",
+      "home": "Coritiba",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1955",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11808206,
+      "debut": "2017-06-15T19:00:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:2822",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549861,
+      "debut": "2017-06-15T19:15:00+00:00",
+      "home": "Fjölnir",
+      "away": "Vikingur Olafsvik",
+      "home_id": "sr:competitor:5374",
+      "away_id": "sr:competitor:36055",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549863,
+      "debut": "2017-06-15T20:00:00+00:00",
+      "home": "Stjarnan",
+      "away": "Vikingur Reykjavik",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:1908",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439271,
+      "debut": "2017-06-16T00:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:5926",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9935507,
+      "debut": "2017-06-16T00:30:00+00:00",
+      "home": "Colon De Santa Fe",
+      "away": "San Lorenzo",
+      "home_id": "sr:competitor:3207",
+      "away_id": "sr:competitor:3201",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 596,
+  "grille_type": "grille7",
+  "pool_id": 7000596,
+  "titre": "Grille 7 n°596",
+  "statut": "CLOSED",
+  "fin": "2017-07-04T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:01:50.228719+00:00",
+  "mises_nettes": 3089.25,
+  "montant_distribue": 3089.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100001100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 772.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 16,
+      "winningsPerGrid": 96.54
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11854556,
+      "debut": "2017-07-04T18:30:00+00:00",
+      "home": "FC Santa Coloma",
+      "away": "FC Alashkert",
+      "home_id": "sr:competitor:7711",
+      "away_id": "sr:competitor:67966",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854560,
+      "debut": "2017-07-04T18:30:00+00:00",
+      "home": "SP La Fiorita",
+      "away": "Linfield",
+      "home_id": "sr:competitor:37860",
+      "away_id": "sr:competitor:5272",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893730,
+      "debut": "2017-07-04T23:30:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "San Jose Earthquakes",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:21825",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893732,
+      "debut": "2017-07-04T23:00:00+00:00",
+      "home": "Minnesota United FC",
+      "away": "Columbus Crew",
+      "home_id": "sr:competitor:41618",
+      "away_id": "sr:competitor:2504",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893734,
+      "debut": "2017-07-05T00:30:00+00:00",
+      "home": "FC Dallas",
+      "away": "DC United",
+      "home_id": "sr:competitor:2512",
+      "away_id": "sr:competitor:2502",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893738,
+      "debut": "2017-07-05T01:00:00+00:00",
+      "home": "Colorado Rapids",
+      "away": "Seattle Sounders",
+      "home_id": "sr:competitor:2510",
+      "away_id": "sr:competitor:22009",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893740,
+      "debut": "2017-07-05T02:30:00+00:00",
+      "home": "Los Angeles Galaxy",
+      "away": "Real Salt Lake",
+      "home_id": "sr:competitor:2513",
+      "away_id": "sr:competitor:5133",
+      "score_home": 2,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

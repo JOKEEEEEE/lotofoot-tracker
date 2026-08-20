@@ -1,0 +1,136 @@
+{
+  "grille_id": 4101,
+  "grille_type": "grille7",
+  "pool_id": 7004101,
+  "titre": "Grille 7 n°4101",
+  "statut": "CLOSED",
+  "fin": "2026-06-09T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:30:26.122406+00:00",
+  "mises_nettes": 3905.25,
+  "montant_distribue": 3905.25,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 254,
+      "winningsPerGrid": 7.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1383,
+      "winningsPerGrid": 1.41
+    }
+  ],
+  "repartition": [
+    12,
+    73,
+    143,
+    433,
+    1113,
+    1796,
+    1383,
+    254
+  ],
+  "matches": [
+    {
+      "match_id": 71853260,
+      "debut": "2026-06-09T19:00:00+00:00",
+      "home": "Almeria",
+      "away": "Castellon",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:5067",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.15,
+      "cote_N": 3.35,
+      "cote_2": 2.6
+    },
+    {
+      "match_id": 65805516,
+      "debut": "2026-06-09T19:00:00+00:00",
+      "home": "France (F)",
+      "away": "Irlande (F)",
+      "home_id": "sr:competitor:32485",
+      "away_id": "sr:competitor:22028",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 42,
+      "cote_2": null
+    },
+    {
+      "match_id": 65805518,
+      "debut": "2026-06-09T19:00:00+00:00",
+      "home": "Pays-Bas (F)",
+      "away": "Pologne (F)",
+      "home_id": "sr:competitor:32484",
+      "away_id": "sr:competitor:22026",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.14,
+      "cote_N": 6.5,
+      "cote_2": 9
+    },
+    {
+      "match_id": 65621332,
+      "debut": "2026-06-09T19:00:00+00:00",
+      "home": "Islande (F)",
+      "away": "Espagne (F)",
+      "home_id": "sr:competitor:22024",
+      "away_id": "sr:competitor:37371",
+      "score_home": 1,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": 20,
+      "cote_N": 9,
+      "cote_2": 1.02
+    },
+    {
+      "match_id": 65621330,
+      "debut": "2026-06-09T19:00:00+00:00",
+      "home": "Angleterre (F)",
+      "away": "Ukraine (F)",
+      "home_id": "sr:competitor:7415",
+      "away_id": "sr:competitor:32483",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 11.5,
+      "cote_2": 27
+    },
+    {
+      "match_id": 71853284,
+      "debut": "2026-06-10T19:00:00+00:00",
+      "home": "Malaga",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:6577",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.86,
+      "cote_N": 3.15,
+      "cote_2": 3.55
+    },
+    {
+      "match_id": 66456904,
+      "debut": "2026-06-11T19:00:00+00:00",
+      "home": "Mexique",
+      "away": "Afrique du Sud",
+      "home_id": "sr:competitor:4781",
+      "away_id": "sr:competitor:4736",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.4,
+      "cote_N": 3.85,
+      "cote_2": 6.75
+    }
+  ]
+}

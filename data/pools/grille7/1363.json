@@ -1,0 +1,127 @@
+{
+  "grille_id": 1363,
+  "grille_type": "grille7",
+  "pool_id": 7001363,
+  "titre": "Grille 7 n°1363",
+  "statut": "CLOSED",
+  "fin": "2019-09-02T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:55:30.056435+00:00",
+  "mises_nettes": 13233.75,
+  "montant_distribue": 13233.75,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 601.53
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 205,
+      "winningsPerGrid": 32.28
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18442136,
+      "debut": "2019-09-02T17:00:00+00:00",
+      "home": "Paris FC",
+      "away": "Chambly",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:61612",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18507234,
+      "debut": "2019-09-02T17:00:00+00:00",
+      "home": "Ironi Kiryat Shmona",
+      "away": "Hapoel Kfar Saba",
+      "home_id": "sr:competitor:5399",
+      "away_id": "sr:competitor:5200",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19148222,
+      "debut": "2019-09-02T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "Waterford United",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:3194",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18583176,
+      "debut": "2019-09-02T18:00:00+00:00",
+      "home": "Sepsi",
+      "away": "Dinamo Bucarest",
+      "home_id": "sr:competitor:276385",
+      "away_id": "sr:competitor:3292",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18572922,
+      "debut": "2019-09-02T18:30:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Bochum",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2542",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442144,
+      "debut": "2019-09-02T18:45:00+00:00",
+      "home": "Grenoble",
+      "away": "Lens",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1648",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18553050,
+      "debut": "2019-09-02T18:45:00+00:00",
+      "home": "Glentoran",
+      "away": "Institute",
+      "home_id": "sr:competitor:5179",
+      "away_id": "sr:competitor:5273",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

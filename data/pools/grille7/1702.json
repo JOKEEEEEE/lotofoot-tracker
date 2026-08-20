@@ -1,0 +1,127 @@
+{
+  "grille_id": 1702,
+  "grille_type": "grille7",
+  "pool_id": 7001702,
+  "titre": "Grille 7 n°1702",
+  "statut": "CLOSED",
+  "fin": "2020-08-09T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:21:58.465416+00:00",
+  "mises_nettes": 8419.5,
+  "montant_distribue": 8419.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010001111001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 701.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 48,
+      "winningsPerGrid": 87.7
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22957871,
+      "debut": "2020-08-09T18:45:00+00:00",
+      "home": "Courtrai",
+      "away": "Waasland-Beveren",
+      "home_id": "sr:competitor:4858",
+      "away_id": "sr:competitor:4859",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23008287,
+      "debut": "2020-08-09T19:00:00+00:00",
+      "home": "Frosinone",
+      "away": "Pordenone",
+      "home_id": "sr:competitor:2801",
+      "away_id": "sr:competitor:111205",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22712505,
+      "debut": "2020-08-09T19:00:00+00:00",
+      "home": "Goias",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1960",
+      "away_id": "sr:competitor:1981",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22712197,
+      "debut": "2020-08-09T19:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22712251,
+      "debut": "2020-08-09T19:00:00+00:00",
+      "home": "Santos",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1999",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22712257,
+      "debut": "2020-08-09T22:00:00+00:00",
+      "home": "Grêmio",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:1961",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22721659,
+      "debut": "2020-08-10T00:00:00+00:00",
+      "home": "Atletico San Luis",
+      "away": "Atlas",
+      "home_id": "sr:competitor:1950",
+      "away_id": "sr:competitor:1949",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

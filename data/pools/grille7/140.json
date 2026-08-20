@@ -1,0 +1,127 @@
+{
+  "grille_id": 140,
+  "grille_type": "grille7",
+  "pool_id": 7000140,
+  "titre": "Grille 7 n°140",
+  "statut": "CLOSED",
+  "fin": "2016-02-09T19:30:00+00:00",
+  "collecte_le": "2026-08-20T12:45:51.706204+00:00",
+  "mises_nettes": 10856.25,
+  "montant_distribue": 10856.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001111010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5428.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 118,
+      "winningsPerGrid": 46
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8598404,
+      "debut": "2016-02-09T19:30:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2673",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8817870,
+      "debut": "2016-02-09T19:45:00+00:00",
+      "home": "Milton Keynes ",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:4",
+      "away_id": "sr:competitor:36",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8823294,
+      "debut": "2016-02-09T19:45:00+00:00",
+      "home": "West Ham",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8699390,
+      "debut": "2016-02-09T19:45:00+00:00",
+      "home": "Dundee FC",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:2357",
+      "away_id": "sr:competitor:2352",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8775710,
+      "debut": "2016-02-09T20:00:00+00:00",
+      "home": "Saint-Malo",
+      "away": "GFC Ajaccio",
+      "home_id": "sr:competitor:1708",
+      "away_id": "sr:competitor:7924",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8775720,
+      "debut": "2016-02-09T20:00:00+00:00",
+      "home": "Sochaux",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1657",
+      "away_id": "sr:competitor:1653",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8778540,
+      "debut": "2016-02-09T20:00:00+00:00",
+      "home": "Granville",
+      "away": "Bourg-en-Bresse",
+      "home_id": "sr:competitor:45938",
+      "away_id": "sr:competitor:35056",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

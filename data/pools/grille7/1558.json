@@ -1,0 +1,127 @@
+{
+  "grille_id": 1558,
+  "grille_type": "grille7",
+  "pool_id": 7001558,
+  "titre": "Grille 7 n°1558",
+  "statut": "CLOSED",
+  "fin": "2020-02-13T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:38:16.563869+00:00",
+  "mises_nettes": 6959.25,
+  "montant_distribue": 6959.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 231.98
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 201,
+      "winningsPerGrid": 17.31
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21269935,
+      "debut": "2020-02-13T19:30:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:2890",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21149121,
+      "debut": "2020-02-13T19:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21172471,
+      "debut": "2020-02-13T20:00:00+00:00",
+      "home": "Epinal",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:35064",
+      "away_id": "sr:competitor:1678",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21261249,
+      "debut": "2020-02-13T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:35092",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18448494,
+      "debut": "2020-02-14T15:00:00+00:00",
+      "home": "Tsarsko Selo Sofia",
+      "away": "FC Vitosha Bistritsa",
+      "home_id": "sr:competitor:275869",
+      "away_id": "sr:competitor:113703",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18583414,
+      "debut": "2020-02-14T15:30:00+00:00",
+      "home": "FC Chindia Targoviste",
+      "away": "FC Voluntari",
+      "home_id": "sr:competitor:56127",
+      "away_id": "sr:competitor:44255",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18808000,
+      "debut": "2020-02-14T17:00:00+00:00",
+      "home": "Istanbul Basaksehir",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:3086",
+      "away_id": "sr:competitor:3050",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

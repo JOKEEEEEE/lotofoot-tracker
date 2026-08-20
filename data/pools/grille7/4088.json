@@ -1,0 +1,136 @@
+{
+  "grille_id": 4088,
+  "grille_type": "grille7",
+  "pool_id": 7004088,
+  "titre": "Grille 7 n°4088",
+  "statut": "CLOSED",
+  "fin": "2026-05-27T19:00:00+00:00",
+  "collecte_le": "2026-08-20T06:03:48.001693+00:00",
+  "mises_nettes": 3868.5,
+  "montant_distribue": 3868.5,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 193.43
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 139,
+      "winningsPerGrid": 13.92
+    }
+  ],
+  "repartition": [
+    33,
+    242,
+    893,
+    1588,
+    1499,
+    754,
+    139,
+    10
+  ],
+  "matches": [
+    {
+      "match_id": 69340066,
+      "debut": "2026-05-27T19:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:2818",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.96,
+      "cote_N": 2.95,
+      "cote_2": 3.45
+    },
+    {
+      "match_id": 70076110,
+      "debut": "2026-05-27T22:00:00+00:00",
+      "home": "Independiente Del Valle",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:39723",
+      "away_id": "sr:competitor:3217",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.88,
+      "cote_N": 3.1,
+      "cote_2": 3.5
+    },
+    {
+      "match_id": 70076112,
+      "debut": "2026-05-27T22:00:00+00:00",
+      "home": "Libertad Asuncion",
+      "away": "FC UCV",
+      "home_id": "sr:competitor:5996",
+      "away_id": "sr:competitor:324069",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.52,
+      "cote_N": 3.95,
+      "cote_2": 4.4
+    },
+    {
+      "match_id": 70075150,
+      "debut": "2026-05-27T22:00:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Academia Puerto Cabello",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:266595",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.28,
+      "cote_N": 4.5,
+      "cote_2": 7.5
+    },
+    {
+      "match_id": 70075228,
+      "debut": "2026-05-27T22:00:00+00:00",
+      "home": "Caracas FC",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:6230",
+      "away_id": "sr:competitor:1958",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 3.25,
+      "cote_N": 3.15,
+      "cote_2": 1.96
+    },
+    {
+      "match_id": 70075152,
+      "debut": "2026-05-27T22:00:00+00:00",
+      "home": "Club Sportivo Cienciano",
+      "away": "Juventud De Las Piedras",
+      "home_id": "sr:competitor:2301",
+      "away_id": "sr:competitor:3224",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.46,
+      "cote_N": 3.95,
+      "cote_2": 5.3
+    },
+    {
+      "match_id": 70075226,
+      "debut": "2026-05-27T22:00:00+00:00",
+      "home": "Racing Club",
+      "away": "Independiente Petrolero",
+      "home_id": "sr:competitor:3215",
+      "away_id": "sr:competitor:498412",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.13,
+      "cote_N": 6.5,
+      "cote_2": 10
+    }
+  ]
+}

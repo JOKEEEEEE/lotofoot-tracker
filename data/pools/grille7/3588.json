@@ -1,0 +1,136 @@
+{
+  "grille_id": 3588,
+  "grille_type": "grille7",
+  "pool_id": 7003588,
+  "titre": "Grille 7 n°3588",
+  "statut": "CLOSED",
+  "fin": "2025-01-08T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:24:36.161209+00:00",
+  "mises_nettes": 9447.75,
+  "montant_distribue": 9447.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 46,
+      "winningsPerGrid": 102.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 535,
+      "winningsPerGrid": 8.83
+    }
+  ],
+  "repartition": [
+    27,
+    244,
+    1437,
+    3567,
+    4362,
+    2379,
+    535,
+    46
+  ],
+  "matches": [
+    {
+      "match_id": 53028643,
+      "debut": "2025-01-08T19:00:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55127167,
+      "debut": "2025-01-08T19:45:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "Dundee United",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:2349",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55127249,
+      "debut": "2025-01-08T19:45:00+00:00",
+      "home": "Kilmarnock",
+      "away": "Motherwell",
+      "home_id": "sr:competitor:2347",
+      "away_id": "sr:competitor:2346",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55154483,
+      "debut": "2025-01-08T19:45:00+00:00",
+      "home": "Benfica",
+      "away": "Braga",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2999",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56205273,
+      "debut": "2025-01-08T19:45:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:4860",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51781891,
+      "debut": "2025-01-08T20:00:00+00:00",
+      "home": "Olympique Lyonnais (F)",
+      "away": "Dijon FCO (F)",
+      "home_id": "sr:competitor:26245",
+      "away_id": "sr:competitor:477222",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56582707,
+      "debut": "2025-01-08T20:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

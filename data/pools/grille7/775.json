@@ -1,0 +1,127 @@
+{
+  "grille_id": 775,
+  "grille_type": "grille7",
+  "pool_id": 7000775,
+  "titre": "Grille 7 n°775",
+  "statut": "CLOSED",
+  "fin": "2018-01-08T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:47:32.740952+00:00",
+  "mises_nettes": 9452.25,
+  "montant_distribue": 9452.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 4726.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 48,
+      "winningsPerGrid": 98.46
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12032266,
+      "debut": "2018-01-08T17:30:00+00:00",
+      "home": "Apollon Smirnis",
+      "away": "Atromitos Athènes",
+      "home_id": "sr:competitor:6988",
+      "away_id": "sr:competitor:5062",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11926298,
+      "debut": "2018-01-08T18:30:00+00:00",
+      "home": "Hapoel Haifa",
+      "away": "Beitar Trump Jerusalem",
+      "home_id": "sr:competitor:5201",
+      "away_id": "sr:competitor:5204",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971852,
+      "debut": "2018-01-08T19:00:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:3026",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13272810,
+      "debut": "2018-01-08T19:45:00+00:00",
+      "home": "Brighton",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:7",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13276965,
+      "debut": "2018-01-08T20:00:00+00:00",
+      "home": "Lens",
+      "away": "Boulogne-Sur-Mer",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1711",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055414,
+      "debut": "2018-01-08T20:00:00+00:00",
+      "home": "Malaga",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2814",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971850,
+      "debut": "2018-01-08T21:00:00+00:00",
+      "home": "Estoril",
+      "away": "Feirense",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:4501",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

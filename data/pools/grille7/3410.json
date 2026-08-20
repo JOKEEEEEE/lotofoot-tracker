@@ -1,0 +1,136 @@
+{
+  "grille_id": 3410,
+  "grille_type": "grille7",
+  "pool_id": 7003410,
+  "titre": "Grille 7 n°3410",
+  "statut": "CLOSED",
+  "fin": "2024-07-28T17:15:00+00:00",
+  "collecte_le": "2026-08-20T07:53:18.013981+00:00",
+  "mises_nettes": 4461.75,
+  "montant_distribue": 4461.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 202.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 165,
+      "winningsPerGrid": 13.52
+    }
+  ],
+  "repartition": [
+    44,
+    319,
+    1110,
+    1968,
+    1639,
+    693,
+    165,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 50714827,
+      "debut": "2024-07-28T17:15:00+00:00",
+      "home": "Westerlo",
+      "away": "Cercle Bruges",
+      "home_id": "sr:competitor:2893",
+      "away_id": "sr:competitor:2929",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46374441,
+      "debut": "2024-07-28T17:15:00+00:00",
+      "home": "Viking",
+      "away": "Molde",
+      "home_id": "sr:competitor:1164",
+      "away_id": "sr:competitor:661",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655745,
+      "debut": "2024-07-28T18:00:00+00:00",
+      "home": "Estudiantes",
+      "away": "Gimnasia La Plata",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:3205",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50936169,
+      "debut": "2024-07-28T18:00:00+00:00",
+      "home": "Viktoria Plzen",
+      "away": "Hradec Kralove",
+      "home_id": "sr:competitor:4502",
+      "away_id": "sr:competitor:2217",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214837,
+      "debut": "2024-07-28T19:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Atletico GO",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:7314",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48820817,
+      "debut": "2024-07-28T19:00:00+00:00",
+      "home": "États-Unis (F)",
+      "away": "Allemagne (F)",
+      "home_id": "sr:competitor:7424",
+      "away_id": "sr:competitor:23992",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48820805,
+      "debut": "2024-07-28T19:00:00+00:00",
+      "home": "France (F)",
+      "away": "Canada (F)",
+      "home_id": "sr:competitor:32485",
+      "away_id": "sr:competitor:7412",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

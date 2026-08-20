@@ -1,0 +1,136 @@
+{
+  "grille_id": 2714,
+  "grille_type": "grille7",
+  "pool_id": 7002714,
+  "titre": "Grille 7 n°2714",
+  "statut": "CLOSED",
+  "fin": "2022-12-07T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:54:04.872619+00:00",
+  "mises_nettes": 7822.5,
+  "montant_distribue": 7822.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 977.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 73,
+      "winningsPerGrid": 53.58
+    }
+  ],
+  "repartition": [
+    253,
+    1436,
+    3274,
+    3201,
+    1685,
+    504,
+    73,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 34278801,
+      "debut": "2022-12-07T18:00:00+00:00",
+      "home": "FC Cartagena",
+      "away": "Villarreal CF B",
+      "home_id": "sr:competitor:24329",
+      "away_id": "sr:competitor:24338",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278815,
+      "debut": "2022-12-07T18:00:00+00:00",
+      "home": "Huesca",
+      "away": "FC Andorra",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:610334",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34744513,
+      "debut": "2022-12-07T19:30:00+00:00",
+      "home": "Ternana",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2708",
+      "away_id": "sr:competitor:2719",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278813,
+      "debut": "2022-12-07T20:00:00+00:00",
+      "home": "Tenerife",
+      "away": "Alaves",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:2885",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36462049,
+      "debut": "2022-12-07T20:00:00+00:00",
+      "home": "Arsenal (F)",
+      "away": "FC Juventus (F)",
+      "home_id": "sr:competitor:26243",
+      "away_id": "sr:competitor:377716",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36462057,
+      "debut": "2022-12-07T20:00:00+00:00",
+      "home": "Bayern Munich (F)",
+      "away": "Barcelone (F)",
+      "home_id": "sr:competitor:5543",
+      "away_id": "sr:competitor:77889",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36923059,
+      "debut": "2022-12-07T20:30:00+00:00",
+      "home": "Rio Ave",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:3001",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

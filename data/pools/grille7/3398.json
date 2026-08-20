@@ -1,0 +1,136 @@
+{
+  "grille_id": 3398,
+  "grille_type": "grille7",
+  "pool_id": 7003398,
+  "titre": "Grille 7 n°3398",
+  "statut": "CLOSED",
+  "fin": "2024-07-16T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:54:24.833367+00:00",
+  "mises_nettes": 4171.5,
+  "montant_distribue": 4171.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100010100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 260.72
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 95,
+      "winningsPerGrid": 21.96
+    }
+  ],
+  "repartition": [
+    116,
+    648,
+    1402,
+    1671,
+    1165,
+    457,
+    95,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 50853243,
+      "debut": "2024-07-16T19:00:00+00:00",
+      "home": "FK Decic Tuzi",
+      "away": "The New Saints",
+      "home_id": "sr:competitor:6226",
+      "away_id": "sr:competitor:4921",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50853355,
+      "debut": "2024-07-16T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Vikingur Reykjavik",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:1908",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51468611,
+      "debut": "2024-07-16T21:00:00+00:00",
+      "home": "Envigado FC",
+      "away": "La Equidad",
+      "home_id": "sr:competitor:6114",
+      "away_id": "sr:competitor:6975",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214789,
+      "debut": "2024-07-16T22:00:00+00:00",
+      "home": "Juventude RS",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1980",
+      "away_id": "sr:competitor:1977",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214781,
+      "debut": "2024-07-17T00:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Criciuma ",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1984",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50728751,
+      "debut": "2024-07-17T01:00:00+00:00",
+      "home": "Querétaro",
+      "away": "Guadalajara ",
+      "home_id": "sr:competitor:1951",
+      "away_id": "sr:competitor:1938",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50728753,
+      "debut": "2024-07-17T01:00:00+00:00",
+      "home": "Atlas",
+      "away": "Santos Laguna",
+      "home_id": "sr:competitor:1949",
+      "away_id": "sr:competitor:1948",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1364,
+  "grille_type": "grille7",
+  "pool_id": 7001364,
+  "titre": "Grille 7 n°1364",
+  "statut": "CLOSED",
+  "fin": "2019-09-03T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:55:27.756074+00:00",
+  "mises_nettes": 5110.5,
+  "montant_distribue": 6000,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 307,
+      "winningsPerGrid": 9.77
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1769,
+      "winningsPerGrid": 1.7
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 19173320,
+      "debut": "2019-09-03T16:00:00+00:00",
+      "home": "Russie (F)",
+      "away": "Estonie (F)",
+      "home_id": "sr:competitor:32486",
+      "away_id": "sr:competitor:38085",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19173690,
+      "debut": "2019-09-03T17:00:00+00:00",
+      "home": "Biélorussie (F)",
+      "away": "Iles Féroé (F)",
+      "home_id": "sr:competitor:41487",
+      "away_id": "sr:competitor:38087",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19173326,
+      "debut": "2019-09-03T18:00:00+00:00",
+      "home": "Pays-Bas (F)",
+      "away": "Turquie (F)",
+      "home_id": "sr:competitor:32484",
+      "away_id": "sr:competitor:38104",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19173730,
+      "debut": "2019-09-03T18:05:00+00:00",
+      "home": "Pays de Galles (F)",
+      "away": "Irlande du Nord (F)",
+      "home_id": "sr:competitor:34015",
+      "away_id": "sr:competitor:38099",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19173728,
+      "debut": "2019-09-03T18:30:00+00:00",
+      "home": "Irlande (F)",
+      "away": "Montenegro (F)",
+      "home_id": "sr:competitor:22028",
+      "away_id": "sr:competitor:70488",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19173954,
+      "debut": "2019-09-03T18:30:00+00:00",
+      "home": "Belgique (F)",
+      "away": "Croatie (F)",
+      "home_id": "sr:competitor:38081",
+      "away_id": "sr:competitor:38084",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18888876,
+      "debut": "2019-09-04T00:00:00+00:00",
+      "home": "États-Unis (F)",
+      "away": "Portugal (F)",
+      "home_id": "sr:competitor:7424",
+      "away_id": "sr:competitor:22027",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

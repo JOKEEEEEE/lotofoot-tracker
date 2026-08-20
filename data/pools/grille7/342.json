@@ -1,0 +1,127 @@
+{
+  "grille_id": 342,
+  "grille_type": "grille7",
+  "pool_id": 7000342,
+  "titre": "Grille 7 n°342",
+  "statut": "CLOSED",
+  "fin": "2016-10-02T15:00:00+00:00",
+  "collecte_le": "2026-08-20T12:26:51.096804+00:00",
+  "mises_nettes": 11208.75,
+  "montant_distribue": 11208.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 183,
+      "winningsPerGrid": 30.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1200,
+      "winningsPerGrid": 4.67
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9539609,
+      "debut": "2016-10-02T15:00:00+00:00",
+      "home": "Nice",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1656",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9599861,
+      "debut": "2016-10-02T15:30:00+00:00",
+      "home": "Burnley",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:42",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9690073,
+      "debut": "2016-10-02T15:30:00+00:00",
+      "home": "Schalke 04",
+      "away": "Borussia M'Gladbach",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:2527",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9820869,
+      "debut": "2016-10-02T16:00:00+00:00",
+      "home": "Torino",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2693",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769277,
+      "debut": "2016-10-02T16:30:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2819",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539611,
+      "debut": "2016-10-02T18:45:00+00:00",
+      "home": "Lyon",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1678",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9820861,
+      "debut": "2016-10-02T18:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2697",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

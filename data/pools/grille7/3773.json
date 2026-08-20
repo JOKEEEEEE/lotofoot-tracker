@@ -1,0 +1,136 @@
+{
+  "grille_id": 3773,
+  "grille_type": "grille7",
+  "pool_id": 7003773,
+  "titre": "Grille 7 n°3773",
+  "statut": "CLOSED",
+  "fin": "2025-07-07T15:00:00+00:00",
+  "collecte_le": "2026-08-20T07:21:02.589951+00:00",
+  "mises_nettes": 2634,
+  "montant_distribue": 2634,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 329.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 74,
+      "winningsPerGrid": 17.8
+    }
+  ],
+  "repartition": [
+    14,
+    168,
+    731,
+    1182,
+    953,
+    386,
+    74,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 57159359,
+      "debut": "2025-07-07T15:00:00+00:00",
+      "home": "KTP",
+      "away": "IF Gnistan",
+      "home_id": "sr:competitor:2255",
+      "away_id": "sr:competitor:2271",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488745,
+      "debut": "2025-07-07T16:00:00+00:00",
+      "home": "Espagne (F)",
+      "away": "Belgique (F)",
+      "home_id": "sr:competitor:37371",
+      "away_id": "sr:competitor:38081",
+      "score_home": 6,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61278941,
+      "debut": "2025-07-07T16:00:00+00:00",
+      "home": "Panevėžys",
+      "away": "Sūduva",
+      "home_id": "sr:competitor:197434",
+      "away_id": "sr:competitor:5343",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56523637,
+      "debut": "2025-07-07T17:00:00+00:00",
+      "home": "Norrköping",
+      "away": "Brommapojkarna",
+      "home_id": "sr:competitor:1769",
+      "away_id": "sr:competitor:1787",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488741,
+      "debut": "2025-07-07T19:00:00+00:00",
+      "home": "Portugal (F)",
+      "away": "Italie (F)",
+      "home_id": "sr:competitor:22027",
+      "away_id": "sr:competitor:22025",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56351897,
+      "debut": "2025-07-07T21:30:00+00:00",
+      "home": "Sportivo Ameliano",
+      "away": "CA Tembetary",
+      "home_id": "sr:competitor:607728",
+      "away_id": "sr:competitor:584551",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57381421,
+      "debut": "2025-07-08T00:00:00+00:00",
+      "home": "Técnico Universitario",
+      "away": "Orense SC",
+      "home_id": "sr:competitor:21941",
+      "away_id": "sr:competitor:403235",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

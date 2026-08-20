@@ -1,0 +1,127 @@
+{
+  "grille_id": 1378,
+  "grille_type": "grille7",
+  "pool_id": 7001378,
+  "titre": "Grille 7 n°1378",
+  "statut": "CLOSED",
+  "fin": "2019-09-19T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:54:16.113569+00:00",
+  "mises_nettes": 21048.75,
+  "montant_distribue": 21048.75,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 116,
+      "winningsPerGrid": 90.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1219,
+      "winningsPerGrid": 8.63
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 19331278,
+      "debut": "2019-09-19T19:00:00+00:00",
+      "home": "La Gantoise",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:1678",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19331166,
+      "debut": "2019-09-19T19:00:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Braga",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19331228,
+      "debut": "2019-09-19T19:00:00+00:00",
+      "home": "FC Porto",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:2445",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19331230,
+      "debut": "2019-09-19T19:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Feyenoord",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2959",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19331136,
+      "debut": "2019-09-19T19:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Istanbul Basaksehir",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:3086",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19331200,
+      "debut": "2019-09-19T19:00:00+00:00",
+      "home": "Partizan Belgrade",
+      "away": "AZ Alkmaar",
+      "home_id": "sr:competitor:5152",
+      "away_id": "sr:competitor:2950",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19331198,
+      "debut": "2019-09-19T19:00:00+00:00",
+      "home": "Manchester United",
+      "away": "FC Astana",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:36155",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1747,
+  "grille_type": "grille7",
+  "pool_id": 7001747,
+  "titre": "Grille 7 n°1747",
+  "statut": "CLOSED",
+  "fin": "2020-09-20T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:17:48.129824+00:00",
+  "mises_nettes": 10217.25,
+  "montant_distribue": 10217.25,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100010010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2554.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 63,
+      "winningsPerGrid": 81.09
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23390469,
+      "debut": "2020-09-20T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2711",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23030835,
+      "debut": "2020-09-20T18:45:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Eupen",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:2926",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22650397,
+      "debut": "2020-09-20T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Lille",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1643",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22727391,
+      "debut": "2020-09-20T19:00:00+00:00",
+      "home": "Grêmio",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:1963",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22727399,
+      "debut": "2020-09-20T19:00:00+00:00",
+      "home": "Coritiba",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1974",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23360353,
+      "debut": "2020-09-20T19:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23320065,
+      "debut": "2020-09-20T20:00:00+00:00",
+      "home": "Tondela",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:38396",
+      "away_id": "sr:competitor:3036",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

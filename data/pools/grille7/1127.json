@@ -1,0 +1,127 @@
+{
+  "grille_id": 1127,
+  "grille_type": "grille7",
+  "pool_id": 7001127,
+  "titre": "Grille 7 n°1127",
+  "statut": "CLOSED",
+  "fin": "2019-01-06T16:15:00+00:00",
+  "collecte_le": "2026-08-20T11:15:52.731568+00:00",
+  "mises_nettes": 15784.5,
+  "montant_distribue": 15784.5,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 3946.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 97,
+      "winningsPerGrid": 81.36
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16484253,
+      "debut": "2019-01-06T16:15:00+00:00",
+      "home": "Toulouse",
+      "away": "Nice",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1661",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16484265,
+      "debut": "2019-01-06T16:15:00+00:00",
+      "home": "Bordeaux",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1662",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16505207,
+      "debut": "2019-01-06T16:30:00+00:00",
+      "home": "Newport County",
+      "away": "Leicester",
+      "home_id": "sr:competitor:79",
+      "away_id": "sr:competitor:31",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109315,
+      "debut": "2019-01-06T17:30:00+00:00",
+      "home": "Real Madrid",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2824",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946047,
+      "debut": "2019-01-06T17:30:00+00:00",
+      "home": "Benfica",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3036",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109321,
+      "debut": "2019-01-06T19:45:00+00:00",
+      "home": "Getafe",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946043,
+      "debut": "2019-01-06T20:00:00+00:00",
+      "home": "Braga",
+      "away": "Boavista",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:2995",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

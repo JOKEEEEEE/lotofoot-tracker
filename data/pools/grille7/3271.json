@@ -1,0 +1,136 @@
+{
+  "grille_id": 3271,
+  "grille_type": "grille7",
+  "pool_id": 7003271,
+  "titre": "Grille 7 n°3271",
+  "statut": "CLOSED",
+  "fin": "2024-03-23T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:03:44.553297+00:00",
+  "mises_nettes": 8113.5,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010010010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 21,
+      "winningsPerGrid": 238.1
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 131,
+      "winningsPerGrid": 38.17
+    }
+  ],
+  "repartition": [
+    1405,
+    3301,
+    3328,
+    1957,
+    675,
+    131,
+    21,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 46186285,
+      "debut": "2024-03-23T19:00:00+00:00",
+      "home": "Angleterre",
+      "away": "Brésil",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:4748",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46144927,
+      "debut": "2024-03-23T20:00:00+00:00",
+      "home": "France",
+      "away": "Allemagne",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4711",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47105489,
+      "debut": "2024-03-23T19:00:00+00:00",
+      "home": "Danemark",
+      "away": "Suisse",
+      "home_id": "sr:competitor:4476",
+      "away_id": "sr:competitor:4699",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48546121,
+      "debut": "2024-03-23T20:00:00+00:00",
+      "home": "Tunisie",
+      "away": "Croatie",
+      "home_id": "sr:competitor:4729",
+      "away_id": "sr:competitor:4715",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46669719,
+      "debut": "2024-03-23T19:00:00+00:00",
+      "home": "Millonarios ",
+      "away": "Deportivo Cali",
+      "home_id": "sr:competitor:6117",
+      "away_id": "sr:competitor:6112",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984511,
+      "debut": "2024-03-23T20:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2822",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46669733,
+      "debut": "2024-03-23T21:10:00+00:00",
+      "home": "Tolima",
+      "away": "Deportivo Pereira",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6109",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

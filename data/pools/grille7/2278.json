@@ -1,0 +1,136 @@
+{
+  "grille_id": 2278,
+  "grille_type": "grille7",
+  "pool_id": 7002278,
+  "titre": "Grille 7 n°2278",
+  "statut": "CLOSED",
+  "fin": "2021-12-04T14:00:00+00:00",
+  "collecte_le": "2026-08-20T09:33:06.982255+00:00",
+  "mises_nettes": 13824.75,
+  "montant_distribue": 13824.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100001001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 265.86
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 333,
+      "winningsPerGrid": 20.76
+    }
+  ],
+  "repartition": [
+    97,
+    1096,
+    3771,
+    6126,
+    5168,
+    1816,
+    333,
+    26
+  ],
+  "matches": [
+    {
+      "match_id": 27886066,
+      "debut": "2021-12-04T14:00:00+00:00",
+      "home": "Auxerre",
+      "away": "Caen",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1667",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751350,
+      "debut": "2021-12-04T15:00:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965464,
+      "debut": "2021-12-04T15:15:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2816",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27885014,
+      "debut": "2021-12-04T16:00:00+00:00",
+      "home": "Marseille",
+      "away": "Brest",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1715",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27885010,
+      "debut": "2021-12-04T18:00:00+00:00",
+      "home": "Lille",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1652",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160142,
+      "debut": "2021-12-04T17:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27883322,
+      "debut": "2021-12-04T17:30:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2672",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

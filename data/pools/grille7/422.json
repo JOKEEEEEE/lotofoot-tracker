@@ -1,0 +1,127 @@
+{
+  "grille_id": 422,
+  "grille_type": "grille7",
+  "pool_id": 7000422,
+  "titre": "Grille 7 n°422",
+  "statut": "CLOSED",
+  "fin": "2016-12-27T19:30:00+00:00",
+  "collecte_le": "2026-08-20T12:19:52.165837+00:00",
+  "mises_nettes": 7531.5,
+  "montant_distribue": 7531.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 941.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 73,
+      "winningsPerGrid": 51.59
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9720539,
+      "debut": "2016-12-27T19:30:00+00:00",
+      "home": "Saint-Trond",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:2901",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9612761,
+      "debut": "2016-12-27T19:45:00+00:00",
+      "home": "Heart of Midlothian",
+      "away": "Kilmarnock",
+      "home_id": "sr:competitor:2353",
+      "away_id": "sr:competitor:2347",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9914333,
+      "debut": "2016-12-28T19:30:00+00:00",
+      "home": "Spezia",
+      "away": "Vicenza",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:2722",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600095,
+      "debut": "2016-12-28T19:45:00+00:00",
+      "home": "Southampton",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9612763,
+      "debut": "2016-12-28T19:45:00+00:00",
+      "home": "Inverness",
+      "away": "Motherwell",
+      "home_id": "sr:competitor:2362",
+      "away_id": "sr:competitor:2346",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9612765,
+      "debut": "2016-12-28T19:45:00+00:00",
+      "home": "Partick Thistle",
+      "away": "Dundee FC",
+      "home_id": "sr:competitor:2358",
+      "away_id": "sr:competitor:2357",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9612767,
+      "debut": "2016-12-28T19:45:00+00:00",
+      "home": "St Johnstone",
+      "away": "Glasgow Rangers",
+      "home_id": "sr:competitor:2348",
+      "away_id": "sr:competitor:2351",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

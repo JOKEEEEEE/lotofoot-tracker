@@ -1,0 +1,136 @@
+{
+  "grille_id": 3776,
+  "grille_type": "grille7",
+  "pool_id": 7003776,
+  "titre": "Grille 7 n°3776",
+  "statut": "CLOSED",
+  "fin": "2025-07-10T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:20:56.171324+00:00",
+  "mises_nettes": 4001.25,
+  "montant_distribue": 4001.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 76.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 229,
+      "winningsPerGrid": 8.74
+    }
+  ],
+  "repartition": [
+    9,
+    148,
+    601,
+    1583,
+    1828,
+    911,
+    229,
+    26
+  ],
+  "matches": [
+    {
+      "match_id": 61281667,
+      "debut": "2025-07-10T17:00:00+00:00",
+      "home": "Sheriff Tiraspol",
+      "away": "FC Prishtina",
+      "home_id": "sr:competitor:5173",
+      "away_id": "sr:competitor:277829",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61281693,
+      "debut": "2025-07-10T17:00:00+00:00",
+      "home": "Paksi",
+      "away": "CFR Cluj",
+      "home_id": "sr:competitor:6059",
+      "away_id": "sr:competitor:5287",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61281683,
+      "debut": "2025-07-10T17:30:00+00:00",
+      "home": "Levski Sofia",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:3273",
+      "away_id": "sr:competitor:5202",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61281671,
+      "debut": "2025-07-10T18:15:00+00:00",
+      "home": "Spartak Trnava",
+      "away": "Häcken",
+      "home_id": "sr:competitor:2406",
+      "away_id": "sr:competitor:1760",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488733,
+      "debut": "2025-07-10T19:00:00+00:00",
+      "home": "Norvège (F)",
+      "away": "Islande (F)",
+      "home_id": "sr:competitor:7422",
+      "away_id": "sr:competitor:22024",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488731,
+      "debut": "2025-07-10T19:00:00+00:00",
+      "home": "Finlande (F)",
+      "away": "Suisse (F)",
+      "home_id": "sr:competitor:21802",
+      "away_id": "sr:competitor:38103",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61281679,
+      "debut": "2025-07-10T19:00:00+00:00",
+      "home": "Legia Varsovie",
+      "away": "Aktobe",
+      "home_id": "sr:competitor:3106",
+      "away_id": "sr:competitor:5355",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

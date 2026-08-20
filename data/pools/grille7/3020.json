@@ -1,0 +1,136 @@
+{
+  "grille_id": 3020,
+  "grille_type": "grille7",
+  "pool_id": 7003020,
+  "titre": "Grille 7 n°3020",
+  "statut": "CLOSED",
+  "fin": "2023-08-29T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:27:58.829577+00:00",
+  "mises_nettes": 10799.25,
+  "montant_distribue": 10799.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 29,
+      "winningsPerGrid": 186.19
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 299,
+      "winningsPerGrid": 18.06
+    }
+  ],
+  "repartition": [
+    220,
+    1171,
+    3195,
+    4510,
+    3487,
+    1488,
+    299,
+    29
+  ],
+  "matches": [
+    {
+      "match_id": 42870301,
+      "debut": "2023-08-29T18:45:00+00:00",
+      "home": "Fulham",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42870279,
+      "debut": "2023-08-29T18:45:00+00:00",
+      "home": "Bolton",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:5",
+      "away_id": "sr:competitor:36",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42870307,
+      "debut": "2023-08-29T18:45:00+00:00",
+      "home": "Birmingham",
+      "away": "Cardiff",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:61",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43048271,
+      "debut": "2023-08-29T18:45:00+00:00",
+      "home": "Bristol City",
+      "away": "Norwich",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:263",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43029591,
+      "debut": "2023-08-29T19:00:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Maccabi Haifa",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:5197",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43029653,
+      "debut": "2023-08-29T19:00:00+00:00",
+      "home": "Galatasaray",
+      "away": "Molde",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:661",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43029715,
+      "debut": "2023-08-29T19:00:00+00:00",
+      "home": "Panathinaïkos",
+      "away": "Braga",
+      "home_id": "sr:competitor:3248",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

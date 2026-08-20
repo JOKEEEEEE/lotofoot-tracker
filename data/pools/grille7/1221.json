@@ -1,0 +1,127 @@
+{
+  "grille_id": 1221,
+  "grille_type": "grille7",
+  "pool_id": 7001221,
+  "titre": "Grille 7 n°1221",
+  "statut": "CLOSED",
+  "fin": "2019-04-11T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:06:55.761610+00:00",
+  "mises_nettes": 13227,
+  "montant_distribue": 13227,
+  "montant_garanti": 13000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 175,
+      "winningsPerGrid": 37.79
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1357,
+      "winningsPerGrid": 4.87
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17681154,
+      "debut": "2019-04-11T19:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Naples",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:2714",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17681156,
+      "debut": "2019-04-11T19:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Valence",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17681160,
+      "debut": "2019-04-11T19:00:00+00:00",
+      "home": "Benfica",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2674",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17681164,
+      "debut": "2019-04-11T19:00:00+00:00",
+      "home": "Slavia Prague",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:2216",
+      "away_id": "sr:competitor:38",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17385475,
+      "debut": "2019-04-11T22:00:00+00:00",
+      "home": "River Plate",
+      "away": "Alianza Lima",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:2311",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386349,
+      "debut": "2019-04-12T00:00:00+00:00",
+      "home": "Flamengo",
+      "away": "San Jose Oruro",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:21989",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17385545,
+      "debut": "2019-04-12T02:00:00+00:00",
+      "home": "Club Sport Emelec",
+      "away": "Deportivo Lara",
+      "home_id": "sr:competitor:5255",
+      "away_id": "sr:competitor:7746",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

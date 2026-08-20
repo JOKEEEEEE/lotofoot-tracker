@@ -1,0 +1,127 @@
+{
+  "grille_id": 665,
+  "grille_type": "grille7",
+  "pool_id": 7000665,
+  "titre": "Grille 7 n°665",
+  "statut": "CLOSED",
+  "fin": "2017-09-16T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:56:29.319614+00:00",
+  "mises_nettes": 9174.75,
+  "montant_distribue": 9174.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 31,
+      "winningsPerGrid": 147.98
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 347,
+      "winningsPerGrid": 13.22
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11832894,
+      "debut": "2017-09-16T18:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Lille",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1643",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833042,
+      "debut": "2017-09-16T18:00:00+00:00",
+      "home": "Nantes",
+      "away": "Caen",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1667",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833296,
+      "debut": "2017-09-16T18:00:00+00:00",
+      "home": "Troyes",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1642",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833364,
+      "debut": "2017-09-16T18:00:00+00:00",
+      "home": "Dijon",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1686",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11822618,
+      "debut": "2017-09-16T18:00:00+00:00",
+      "home": "Lokeren",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:2887",
+      "away_id": "sr:competitor:2889",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11822622,
+      "debut": "2017-09-16T18:30:00+00:00",
+      "home": "Saint-Trond",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055144,
+      "debut": "2017-09-16T18:45:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2830",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

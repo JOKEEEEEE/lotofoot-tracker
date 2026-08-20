@@ -1,0 +1,136 @@
+{
+  "grille_id": 2141,
+  "grille_type": "grille7",
+  "pool_id": 7002141,
+  "titre": "Grille 7 n°2141",
+  "statut": "CLOSED",
+  "fin": "2021-08-18T17:00:00+00:00",
+  "collecte_le": "2026-08-20T09:44:29.778164+00:00",
+  "mises_nettes": 7687.5,
+  "montant_distribue": 7687.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 45,
+      "winningsPerGrid": 85.42
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 353,
+      "winningsPerGrid": 10.89
+    }
+  ],
+  "repartition": [
+    142,
+    820,
+    2101,
+    2907,
+    2589,
+    1293,
+    353,
+    45
+  ],
+  "matches": [
+    {
+      "match_id": 28370754,
+      "debut": "2021-08-18T17:00:00+00:00",
+      "home": "Quevilly Rouen",
+      "away": "Bastia",
+      "home_id": "sr:competitor:233162",
+      "away_id": "sr:competitor:1655",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 22,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27867002,
+      "debut": "2021-08-18T18:45:00+00:00",
+      "home": "Birmingham",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:60",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 85,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27867004,
+      "debut": "2021-08-18T18:45:00+00:00",
+      "home": "Hull City",
+      "away": "Derby County",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:27",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 70,
+      "cote_N": 7.75,
+      "cote_2": 1.06
+    },
+    {
+      "match_id": 28604858,
+      "debut": "2021-08-18T19:00:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Ferencvaros",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:1925",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 23,
+      "cote_2": 250
+    },
+    {
+      "match_id": 28604866,
+      "debut": "2021-08-18T19:00:00+00:00",
+      "home": "Benfica",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2952",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 19,
+      "cote_2": 250
+    },
+    {
+      "match_id": 28604868,
+      "debut": "2021-08-18T19:00:00+00:00",
+      "home": "Malmö",
+      "away": "Ludogorets",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:43840",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27867012,
+      "debut": "2021-08-18T19:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Sheffield United",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:15",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

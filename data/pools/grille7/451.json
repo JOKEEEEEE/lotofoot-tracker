@@ -1,0 +1,127 @@
+{
+  "grille_id": 451,
+  "grille_type": "grille7",
+  "pool_id": 7000451,
+  "titre": "Grille 7 n°451",
+  "statut": "CLOSED",
+  "fin": "2017-01-30T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:17:34.704682+00:00",
+  "mises_nettes": 6544.5,
+  "montant_distribue": 6544.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "111100100001100100111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 32,
+      "winningsPerGrid": 102.26
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 469,
+      "winningsPerGrid": 6.98
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9788925,
+      "debut": "2017-01-30T19:00:00+00:00",
+      "home": "Moreirense",
+      "away": "Feirense",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:4501",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9691077,
+      "debut": "2017-01-30T19:15:00+00:00",
+      "home": "Hanovre 96",
+      "away": "Kaiserslautern",
+      "home_id": "sr:competitor:2541",
+      "away_id": "sr:competitor:2675",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9914345,
+      "debut": "2017-01-30T19:30:00+00:00",
+      "home": "Spezia",
+      "away": "Latina",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:44069",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566023,
+      "debut": "2017-01-30T19:45:00+00:00",
+      "home": "Red Star",
+      "away": "Reims",
+      "home_id": "sr:competitor:52874",
+      "away_id": "sr:competitor:1682",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769545,
+      "debut": "2017-01-30T19:45:00+00:00",
+      "home": "Las Palmas",
+      "away": "Valence",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:2828",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788919,
+      "debut": "2017-01-30T20:00:00+00:00",
+      "home": "Vitoria Setubal",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3008",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788921,
+      "debut": "2017-01-30T21:00:00+00:00",
+      "home": "Rio Ave",
+      "away": "Braga",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1290,
+  "grille_type": "grille7",
+  "pool_id": 7001290,
+  "titre": "Grille 7 n°1290",
+  "statut": "CLOSED",
+  "fin": "2019-06-21T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:02:29.171218+00:00",
+  "mises_nettes": 6157.5,
+  "montant_distribue": 6157.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 160,
+      "winningsPerGrid": 19.24
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 964,
+      "winningsPerGrid": 3.19
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16387608,
+      "debut": "2019-06-21T19:00:00+00:00",
+      "home": "France U21",
+      "away": "Croatie U21",
+      "home_id": "sr:competitor:5936",
+      "away_id": "sr:competitor:6370",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17953165,
+      "debut": "2019-06-21T20:00:00+00:00",
+      "home": "Égypte",
+      "away": "Zimbabwe",
+      "home_id": "sr:competitor:4758",
+      "away_id": "sr:competitor:4719",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17147493,
+      "debut": "2019-06-21T23:00:00+00:00",
+      "home": "Equateur",
+      "away": "Chili",
+      "home_id": "sr:competitor:4757",
+      "away_id": "sr:competitor:4754",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18381793,
+      "debut": "2019-06-22T05:00:00+00:00",
+      "home": "Consadole Sapporo",
+      "away": "Sagan Tosu",
+      "home_id": "sr:competitor:3142",
+      "away_id": "sr:competitor:21904",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18381795,
+      "debut": "2019-06-22T09:00:00+00:00",
+      "home": "Yokohama Marinos",
+      "away": "Matsumoto Yamaga FC",
+      "home_id": "sr:competitor:3137",
+      "away_id": "sr:competitor:26011",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18381797,
+      "debut": "2019-06-22T09:00:00+00:00",
+      "home": "Vissel Kobe",
+      "away": "Oita Trinita",
+      "home_id": "sr:competitor:3146",
+      "away_id": "sr:competitor:5129",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18381801,
+      "debut": "2019-06-22T10:00:00+00:00",
+      "home": "Gamba Osaka",
+      "away": "Shonan Bellmare",
+      "home_id": "sr:competitor:3138",
+      "away_id": "sr:competitor:21905",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

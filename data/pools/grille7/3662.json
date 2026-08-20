@@ -1,0 +1,136 @@
+{
+  "grille_id": 3662,
+  "grille_type": "grille7",
+  "pool_id": 7003662,
+  "titre": "Grille 7 n°3662",
+  "statut": "CLOSED",
+  "fin": "2025-03-22T19:45:00+00:00",
+  "collecte_le": "2026-08-20T07:29:27.641591+00:00",
+  "mises_nettes": 4501.5,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 36,
+      "winningsPerGrid": 69.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 320,
+      "winningsPerGrid": 7.81
+    }
+  ],
+  "repartition": [
+    14,
+    169,
+    768,
+    1632,
+    1899,
+    1164,
+    320,
+    36
+  ],
+  "matches": [
+    {
+      "match_id": 56418659,
+      "debut": "2025-03-22T19:45:00+00:00",
+      "home": "Pays de Galles",
+      "away": "Kazakhstan",
+      "home_id": "sr:competitor:4702",
+      "away_id": "sr:competitor:4772",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56418619,
+      "debut": "2025-03-22T19:45:00+00:00",
+      "home": "Israël",
+      "away": "Estonie",
+      "home_id": "sr:competitor:4480",
+      "away_id": "sr:competitor:4759",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690371,
+      "debut": "2025-03-22T20:30:00+00:00",
+      "home": "Minnesota United FC",
+      "away": "Los Angeles Galaxy",
+      "home_id": "sr:competitor:41618",
+      "away_id": "sr:competitor:2513",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690375,
+      "debut": "2025-03-22T23:30:00+00:00",
+      "home": "Columbus Crew",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:167510",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690377,
+      "debut": "2025-03-22T23:30:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "Toronto FC",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:7080",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690381,
+      "debut": "2025-03-22T23:30:00+00:00",
+      "home": "Philadelphia Union",
+      "away": "Saint Louis City SC",
+      "home_id": "sr:competitor:39833",
+      "away_id": "sr:competitor:874725",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690379,
+      "debut": "2025-03-22T23:30:00+00:00",
+      "home": "Orlando City SC",
+      "away": "DC United",
+      "home_id": "sr:competitor:52237",
+      "away_id": "sr:competitor:2502",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

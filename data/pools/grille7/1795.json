@@ -1,0 +1,127 @@
+{
+  "grille_id": 1795,
+  "grille_type": "grille7",
+  "pool_id": 7001795,
+  "titre": "Grille 7 n°1795",
+  "statut": "CLOSED",
+  "fin": "2020-10-29T20:00:00+00:00",
+  "collecte_le": "2026-08-20T10:13:45.509512+00:00",
+  "mises_nettes": 9740.25,
+  "montant_distribue": 9740.25,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 35,
+      "winningsPerGrid": 139.15
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 369,
+      "winningsPerGrid": 13.2
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23831921,
+      "debut": "2020-10-29T20:00:00+00:00",
+      "home": "Nice",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:5202",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 27,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23831993,
+      "debut": "2020-10-29T20:00:00+00:00",
+      "home": "Grenade",
+      "away": "PAOK Salonique",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:3251",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 27,
+      "cote_N": 1.01,
+      "cote_2": 36
+    },
+    {
+      "match_id": 23831961,
+      "debut": "2020-10-29T20:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Lech Poznan",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:3121",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 22,
+      "cote_2": 225
+    },
+    {
+      "match_id": 23831991,
+      "debut": "2020-10-29T20:00:00+00:00",
+      "home": "Omonia Nicosie",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:3395",
+      "away_id": "sr:competitor:2952",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 25,
+      "cote_N": 1.02,
+      "cote_2": 16
+    },
+    {
+      "match_id": 23831821,
+      "debut": "2020-10-29T20:00:00+00:00",
+      "home": "CFR Cluj",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:5287",
+      "away_id": "sr:competitor:2445",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 30,
+      "cote_N": 1.01,
+      "cote_2": 18
+    },
+    {
+      "match_id": 23831889,
+      "debut": "2020-10-29T20:00:00+00:00",
+      "home": "Molde",
+      "away": "Rapid Vienne",
+      "home_id": "sr:competitor:661",
+      "away_id": "sr:competitor:2055",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 22,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23832283,
+      "debut": "2020-10-29T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Naples",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2714",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 17,
+      "cote_2": 1.01
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 132,
+  "grille_type": "grille7",
+  "pool_id": 7000132,
+  "titre": "Grille 7 n°132",
+  "statut": "CLOSED",
+  "fin": "2016-02-01T17:00:00+00:00",
+  "collecte_le": "2026-08-20T12:46:42.609672+00:00",
+  "mises_nettes": 7449.75,
+  "montant_distribue": 7449.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 310.41
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 128,
+      "winningsPerGrid": 29.1
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7768822,
+      "debut": "2016-02-01T17:00:00+00:00",
+      "home": "Aris Limassol",
+      "away": "AEL Limassol",
+      "home_id": "sr:competitor:3397",
+      "away_id": "sr:competitor:3407",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7607550,
+      "debut": "2016-02-01T18:55:00+00:00",
+      "home": "Beitar Trump Jerusalem",
+      "away": "Maccabi Tel-Aviv",
+      "home_id": "sr:competitor:5204",
+      "away_id": "sr:competitor:5198",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474634,
+      "debut": "2016-02-01T19:30:00+00:00",
+      "home": "Paris FC",
+      "away": "Clermont",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1680",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989234,
+      "debut": "2016-02-01T19:30:00+00:00",
+      "home": "Spezia",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:2710",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610588,
+      "debut": "2016-02-01T19:30:00+00:00",
+      "home": "Deportivo La Corogne",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2832",
+      "away_id": "sr:competitor:2818",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558328,
+      "debut": "2016-02-01T20:00:00+00:00",
+      "home": "Maritimo",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:3007",
+      "away_id": "sr:competitor:3004",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473852,
+      "debut": "2016-02-02T18:00:00+00:00",
+      "home": "Monaco",
+      "away": "Bastia",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1655",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

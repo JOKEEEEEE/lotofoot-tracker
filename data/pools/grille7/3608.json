@@ -1,0 +1,136 @@
+{
+  "grille_id": 3608,
+  "grille_type": "grille7",
+  "pool_id": 7003608,
+  "titre": "Grille 7 n°3608",
+  "statut": "CLOSED",
+  "fin": "2025-01-27T19:30:00+00:00",
+  "collecte_le": "2026-08-20T07:38:58.464712+00:00",
+  "mises_nettes": 6191.25,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 937.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 81,
+      "winningsPerGrid": 46.3
+    }
+  ],
+  "repartition": [
+    181,
+    1130,
+    2452,
+    2533,
+    1428,
+    446,
+    81,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 51103423,
+      "debut": "2025-01-27T19:30:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:35092",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57407311,
+      "debut": "2025-01-27T19:45:00+00:00",
+      "home": "Annecy FC",
+      "away": "Dunkerque",
+      "home_id": "sr:competitor:234888",
+      "away_id": "sr:competitor:6918",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273227,
+      "debut": "2025-01-27T19:45:00+00:00",
+      "home": "Genoa",
+      "away": "Monza",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2729",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852489,
+      "debut": "2025-01-27T20:00:00+00:00",
+      "home": "Alaves",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2821",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55569685,
+      "debut": "2025-01-27T20:00:00+00:00",
+      "home": "Burnley",
+      "away": "Leeds",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:34",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51389045,
+      "debut": "2025-01-27T20:15:00+00:00",
+      "home": "AVS Futebol SAD",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:1031053",
+      "away_id": "sr:competitor:3010",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742729,
+      "debut": "2025-01-27T23:00:00+00:00",
+      "home": "Banfield",
+      "away": "Newell's Old Boys",
+      "home_id": "sr:competitor:3219",
+      "away_id": "sr:competitor:3212",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

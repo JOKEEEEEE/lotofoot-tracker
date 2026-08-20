@@ -1,0 +1,136 @@
+{
+  "grille_id": 2976,
+  "grille_type": "grille7",
+  "pool_id": 7002976,
+  "titre": "Grille 7 n°2976",
+  "statut": "CLOSED",
+  "fin": "2023-07-21T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:32:50.610308+00:00",
+  "mises_nettes": 6135.75,
+  "montant_distribue": 6135.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 204.53
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 243,
+      "winningsPerGrid": 12.63
+    }
+  ],
+  "repartition": [
+    42,
+    339,
+    1344,
+    2516,
+    2446,
+    1236,
+    243,
+    15
+  ],
+  "matches": [
+    {
+      "match_id": 41754769,
+      "debut": "2023-07-21T17:00:00+00:00",
+      "home": "Midtjylland",
+      "away": "Hvidovre IF",
+      "home_id": "sr:competitor:1289",
+      "away_id": "sr:competitor:1305",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37844233,
+      "debut": "2023-07-21T17:00:00+00:00",
+      "home": "Brommapojkarna",
+      "away": "Hammarby IF",
+      "home_id": "sr:competitor:1787",
+      "away_id": "sr:competitor:1758",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41736589,
+      "debut": "2023-07-21T18:00:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "Hajduk Split",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:2036",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41755059,
+      "debut": "2023-07-21T18:30:00+00:00",
+      "home": "Legia Varsovie",
+      "away": "LKS Lodz",
+      "home_id": "sr:competitor:3106",
+      "away_id": "sr:competitor:3123",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41978135,
+      "debut": "2023-07-21T18:30:00+00:00",
+      "home": "UTA Arad",
+      "away": "CFR Cluj",
+      "home_id": "sr:competitor:221210",
+      "away_id": "sr:competitor:5287",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42129177,
+      "debut": "2023-07-21T21:00:00+00:00",
+      "home": "Tolima",
+      "away": "Once Caldas",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6118",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38306863,
+      "debut": "2023-07-21T22:00:00+00:00",
+      "home": "Deportes Union La Calera",
+      "away": "Deportes Magallanes",
+      "home_id": "sr:competitor:48242",
+      "away_id": "sr:competitor:89508",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

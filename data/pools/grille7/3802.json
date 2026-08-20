@@ -1,0 +1,136 @@
+{
+  "grille_id": 3802,
+  "grille_type": "grille7",
+  "pool_id": 7003802,
+  "titre": "Grille 7 n°3802",
+  "statut": "CLOSED",
+  "fin": "2025-08-05T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:18:19.853375+00:00",
+  "mises_nettes": 5069.25,
+  "montant_distribue": 5069.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2534.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 21,
+      "winningsPerGrid": 120.7
+    }
+  ],
+  "repartition": [
+    218,
+    1124,
+    2284,
+    2015,
+    895,
+    201,
+    21,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 62201240,
+      "debut": "2025-08-05T17:00:00+00:00",
+      "home": "Malmö",
+      "away": "Copenhague",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:1284",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62201264,
+      "debut": "2025-08-05T18:00:00+00:00",
+      "home": "Dynamo Kiev",
+      "away": "Pafos FC",
+      "home_id": "sr:competitor:3305",
+      "away_id": "sr:competitor:171626",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62201272,
+      "debut": "2025-08-05T18:00:00+00:00",
+      "home": "KF Shkëndija",
+      "away": "Qarabag Agdam",
+      "home_id": "sr:competitor:5413",
+      "away_id": "sr:competitor:5962",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62201288,
+      "debut": "2025-08-05T18:45:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Viktoria Plzen",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:4502",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61911124,
+      "debut": "2025-08-05T18:45:00+00:00",
+      "home": "Accrington Stanley",
+      "away": "Oldham Athletic",
+      "home_id": "sr:competitor:187",
+      "away_id": "sr:competitor:65",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56958293,
+      "debut": "2025-08-05T19:15:00+00:00",
+      "home": "IA Akranes",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1898",
+      "away_id": "sr:competitor:1899",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62259918,
+      "debut": "2025-08-05T21:30:00+00:00",
+      "home": "CA Tembetary",
+      "away": "Club General Caballero (JLM)",
+      "home_id": "sr:competitor:584551",
+      "away_id": "sr:competitor:818704",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

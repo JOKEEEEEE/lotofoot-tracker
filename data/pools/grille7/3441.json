@@ -1,0 +1,136 @@
+{
+  "grille_id": 3441,
+  "grille_type": "grille7",
+  "pool_id": 7003441,
+  "titre": "Grille 7 n°3441",
+  "statut": "CLOSED",
+  "fin": "2024-08-26T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:51:24.082780+00:00",
+  "mises_nettes": 4456.5,
+  "montant_distribue": 4456.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100001111111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 179,
+      "winningsPerGrid": 12.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 893,
+      "winningsPerGrid": 2.5
+    }
+  ],
+  "repartition": [
+    0,
+    0,
+    189,
+    969,
+    1896,
+    1816,
+    893,
+    179
+  ],
+  "matches": [
+    {
+      "match_id": 51471841,
+      "debut": "2024-08-26T18:00:00+00:00",
+      "home": "Trabzonspor",
+      "away": "Kayserispor",
+      "home_id": "sr:competitor:3051",
+      "away_id": "sr:competitor:3072",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46487465,
+      "debut": "2024-08-26T18:00:00+00:00",
+      "home": "KR Reykjavik",
+      "away": "Vikingur Reykjavik",
+      "home_id": "sr:competitor:1902",
+      "away_id": "sr:competitor:1908",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51269651,
+      "debut": "2024-08-26T18:45:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52116673,
+      "debut": "2024-08-26T18:45:00+00:00",
+      "home": "Red Star",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:52874",
+      "away_id": "sr:competitor:1660",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655843,
+      "debut": "2024-08-26T19:00:00+00:00",
+      "home": "Central Cordoba",
+      "away": "Banfield",
+      "home_id": "sr:competitor:65676",
+      "away_id": "sr:competitor:3219",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655847,
+      "debut": "2024-08-26T19:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:3208",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852133,
+      "debut": "2024-08-26T19:30:00+00:00",
+      "home": "Villarreal",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2821",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

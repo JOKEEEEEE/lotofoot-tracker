@@ -1,0 +1,136 @@
+{
+  "grille_id": 2734,
+  "grille_type": "grille7",
+  "pool_id": 7002734,
+  "titre": "Grille 7 n°2734",
+  "statut": "CLOSED",
+  "fin": "2022-12-27T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:53:05.568162+00:00",
+  "mises_nettes": 8941.5,
+  "montant_distribue": 8941.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 187,
+      "winningsPerGrid": 23.91
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1372,
+      "winningsPerGrid": 3.26
+    }
+  ],
+  "repartition": [
+    24,
+    243,
+    1042,
+    2521,
+    3448,
+    3085,
+    1372,
+    187
+  ],
+  "matches": [
+    {
+      "match_id": 34478309,
+      "debut": "2022-12-27T17:00:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Hatayspor",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:3091",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265709,
+      "debut": "2022-12-27T17:15:00+00:00",
+      "home": "Reading",
+      "away": "Swansea",
+      "home_id": "sr:competitor:28",
+      "away_id": "sr:competitor:74",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152011,
+      "debut": "2022-12-27T17:30:00+00:00",
+      "home": "Chelsea",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:60",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271281,
+      "debut": "2022-12-27T19:00:00+00:00",
+      "home": "Saint-Trond",
+      "away": "Zulte Waregem",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:2933",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271283,
+      "debut": "2022-12-27T19:00:00+00:00",
+      "home": "Westerlo",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:2893",
+      "away_id": "sr:competitor:2889",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152021,
+      "debut": "2022-12-27T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:14",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265697,
+      "debut": "2022-12-27T20:00:00+00:00",
+      "home": "Burnley",
+      "away": "Birmingham",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:9",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

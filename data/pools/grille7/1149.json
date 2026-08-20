@@ -1,0 +1,127 @@
+{
+  "grille_id": 1149,
+  "grille_type": "grille7",
+  "pool_id": 7001149,
+  "titre": "Grille 7 n°1149",
+  "statut": "CLOSED",
+  "fin": "2019-01-28T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:15:04.639190+00:00",
+  "mises_nettes": 14307,
+  "montant_distribue": 14307,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1788.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 99,
+      "winningsPerGrid": 72.26
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14745173,
+      "debut": "2019-01-28T18:00:00+00:00",
+      "home": "AS Béziers",
+      "away": "Paris FC",
+      "home_id": "sr:competitor:62200",
+      "away_id": "sr:competitor:6070",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745177,
+      "debut": "2019-01-28T18:00:00+00:00",
+      "home": "Clermont",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1662",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946091,
+      "debut": "2019-01-28T19:00:00+00:00",
+      "home": "Moreirense",
+      "away": "Nacional Madeira ",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3013",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946099,
+      "debut": "2019-01-28T19:00:00+00:00",
+      "home": "Tondela",
+      "away": "CD Aves",
+      "home_id": "sr:competitor:38396",
+      "away_id": "sr:competitor:3032",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160031,
+      "debut": "2019-01-28T19:30:00+00:00",
+      "home": "Empoli",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2713",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745187,
+      "debut": "2019-01-28T19:45:00+00:00",
+      "home": "Troyes",
+      "away": "Lens",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1648",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109369,
+      "debut": "2019-01-28T20:00:00+00:00",
+      "home": "Alaves",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2818",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

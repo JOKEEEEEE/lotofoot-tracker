@@ -1,0 +1,136 @@
+{
+  "grille_id": 2657,
+  "grille_type": "grille7",
+  "pool_id": 7002657,
+  "titre": "Grille 7 n°2657",
+  "statut": "CLOSED",
+  "fin": "2022-10-19T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:59:28.632100+00:00",
+  "mises_nettes": 15114,
+  "montant_distribue": 15114,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 49,
+      "winningsPerGrid": 154.22
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 526,
+      "winningsPerGrid": 14.37
+    }
+  ],
+  "repartition": [
+    104,
+    920,
+    3560,
+    6827,
+    5749,
+    2417,
+    526,
+    49
+  ],
+  "matches": [
+    {
+      "match_id": 34151921,
+      "debut": "2022-10-19T18:30:00+00:00",
+      "home": "Liverpool",
+      "away": "West Ham",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34151909,
+      "debut": "2022-10-19T18:30:00+00:00",
+      "home": "Brentford",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:50",
+      "away_id": "sr:competitor:38",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34151919,
+      "debut": "2022-10-19T18:30:00+00:00",
+      "home": "Newcastle",
+      "away": "Everton",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:48",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34151905,
+      "debut": "2022-10-19T18:30:00+00:00",
+      "home": "Bournemouth",
+      "away": "Southampton",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:45",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271191,
+      "debut": "2022-10-19T18:45:00+00:00",
+      "home": "Malines",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:5044",
+      "away_id": "sr:competitor:2901",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277383,
+      "debut": "2022-10-19T19:00:00+00:00",
+      "home": "Elche",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2846",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34151923,
+      "debut": "2022-10-19T19:15:00+00:00",
+      "home": "Manchester United",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 953,
+  "grille_type": "grille7",
+  "pool_id": 7000953,
+  "titre": "Grille 7 n°953",
+  "statut": "CLOSED",
+  "fin": "2018-07-11T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:32:04.310753+00:00",
+  "mises_nettes": 5232,
+  "montant_distribue": 5232,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 11,
+      "winningsPerGrid": 237.82
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 110,
+      "winningsPerGrid": 23.78
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13588631,
+      "debut": "2018-07-11T18:00:00+00:00",
+      "home": "Croatie",
+      "away": "Angleterre",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:4713",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14769001,
+      "debut": "2018-07-11T18:00:00+00:00",
+      "home": "Olimpija Ljubljana",
+      "away": "Qarabag Agdam",
+      "home_id": "sr:competitor:2416",
+      "away_id": "sr:competitor:5962",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14775817,
+      "debut": "2018-07-11T18:45:00+00:00",
+      "home": "Glenavon",
+      "away": "Molde",
+      "home_id": "sr:competitor:5183",
+      "away_id": "sr:competitor:661",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14769019,
+      "debut": "2018-07-11T20:00:00+00:00",
+      "home": "Valur Reykjavik",
+      "away": "Rosenborg",
+      "home_id": "sr:competitor:1899",
+      "away_id": "sr:competitor:1161",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497425,
+      "debut": "2018-07-11T23:00:00+00:00",
+      "home": "New York City FC",
+      "away": "Montréal",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:22006",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497427,
+      "debut": "2018-07-12T00:30:00+00:00",
+      "home": "Chicago Fire",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:2505",
+      "away_id": "sr:competitor:39833",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14775811,
+      "debut": "2018-07-12T14:00:00+00:00",
+      "home": "Pyunik Yerevan",
+      "away": "Vardar Skopje",
+      "home_id": "sr:competitor:5214",
+      "away_id": "sr:competitor:5403",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3231,
+  "grille_type": "grille7",
+  "pool_id": 7003231,
+  "titre": "Grille 7 n°3231",
+  "statut": "CLOSED",
+  "fin": "2024-02-20T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:06:03.337288+00:00",
+  "mises_nettes": 12144.75,
+  "montant_distribue": 12144.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 233.55
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 517,
+      "winningsPerGrid": 11.75
+    }
+  ],
+  "repartition": [
+    45,
+    558,
+    2574,
+    5150,
+    4970,
+    2353,
+    517,
+    26
+  ],
+  "matches": [
+    {
+      "match_id": 46953981,
+      "debut": "2024-02-20T19:30:00+00:00",
+      "home": "Manchester City",
+      "away": "Brentford",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:50",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46853191,
+      "debut": "2024-02-20T19:45:00+00:00",
+      "home": "Southampton",
+      "away": "Hull City",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:96",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46853195,
+      "debut": "2024-02-20T19:45:00+00:00",
+      "home": "Ipswich",
+      "away": "Rotherham",
+      "home_id": "sr:competitor:32",
+      "away_id": "sr:competitor:13",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46973371,
+      "debut": "2024-02-20T19:45:00+00:00",
+      "home": "Plymouth Argyle",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:71",
+      "away_id": "sr:competitor:8",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47026121,
+      "debut": "2024-02-20T19:45:00+00:00",
+      "home": "Cardiff",
+      "away": "Blackburn",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:46",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46295659,
+      "debut": "2024-02-20T20:00:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:2673",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46295655,
+      "debut": "2024-02-20T20:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1794,
+  "grille_type": "grille7",
+  "pool_id": 7001794,
+  "titre": "Grille 7 n°1794",
+  "statut": "CLOSED",
+  "fin": "2020-10-29T17:55:00+00:00",
+  "collecte_le": "2026-08-20T13:19:54.563665+00:00",
+  "mises_nettes": 14764.5,
+  "montant_distribue": 14764.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 388.54
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 490,
+      "winningsPerGrid": 15.07
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23832347,
+      "debut": "2020-10-29T17:55:00+00:00",
+      "home": "Lille",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:2352",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 13.5,
+      "cote_N": 1.02,
+      "cote_2": 32
+    },
+    {
+      "match_id": 23832345,
+      "debut": "2020-10-29T17:55:00+00:00",
+      "home": "Milan AC",
+      "away": "Sparta Prague",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2218",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23832315,
+      "debut": "2020-10-29T17:55:00+00:00",
+      "home": "AEK Athènes",
+      "away": "Leicester",
+      "home_id": "sr:competitor:3250",
+      "away_id": "sr:competitor:31",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 26,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23832703,
+      "debut": "2020-10-29T17:55:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.02,
+      "cote_N": 10.5,
+      "cote_2": 110
+    },
+    {
+      "match_id": 23832767,
+      "debut": "2020-10-29T17:55:00+00:00",
+      "home": "CSKA Moscou",
+      "away": "Dinamo Zagreb",
+      "home_id": "sr:competitor:2325",
+      "away_id": "sr:competitor:2032",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 14.5,
+      "cote_N": 1.02,
+      "cote_2": 30
+    },
+    {
+      "match_id": 23832973,
+      "debut": "2020-10-29T17:55:00+00:00",
+      "home": "La Gantoise",
+      "away": "Hoffenheim",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:2569",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23832435,
+      "debut": "2020-10-29T17:55:00+00:00",
+      "home": "Qarabag Agdam",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:5962",
+      "away_id": "sr:competitor:2819",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 18,
+      "cote_2": 1.01
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2822,
+  "grille_type": "grille7",
+  "pool_id": 7002822,
+  "titre": "Grille 7 n°2822",
+  "statut": "CLOSED",
+  "fin": "2023-03-06T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:45:08.277811+00:00",
+  "mises_nettes": 12933,
+  "montant_distribue": 12933,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 18,
+      "winningsPerGrid": 359.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 305,
+      "winningsPerGrid": 21.2
+    }
+  ],
+  "repartition": [
+    118,
+    1354,
+    4184,
+    5679,
+    4029,
+    1557,
+    305,
+    18
+  ],
+  "matches": [
+    {
+      "match_id": 38812243,
+      "debut": "2023-03-06T19:30:00+00:00",
+      "home": "Genoa",
+      "away": "Nuova Cosenza Calcio",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2716",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34171769,
+      "debut": "2023-03-06T19:45:00+00:00",
+      "home": "Caen",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1657",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34287011,
+      "debut": "2023-03-06T19:45:00+00:00",
+      "home": "Torino",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2685",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277671,
+      "debut": "2023-03-06T20:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2821",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34279055,
+      "debut": "2023-03-06T20:00:00+00:00",
+      "home": "Villarreal CF B",
+      "away": "Alaves",
+      "home_id": "sr:competitor:24338",
+      "away_id": "sr:competitor:2885",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38926185,
+      "debut": "2023-03-06T20:00:00+00:00",
+      "home": "Brentford",
+      "away": "Fulham",
+      "home_id": "sr:competitor:50",
+      "away_id": "sr:competitor:43",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504969,
+      "debut": "2023-03-06T20:15:00+00:00",
+      "home": "Casa Pia AC",
+      "away": "Pacos de Ferreira",
+      "home_id": "sr:competitor:36365",
+      "away_id": "sr:competitor:3003",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

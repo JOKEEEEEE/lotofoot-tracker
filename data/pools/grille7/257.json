@@ -1,0 +1,127 @@
+{
+  "grille_id": 257,
+  "grille_type": "grille7",
+  "pool_id": 7000257,
+  "titre": "Grille 7 n°257",
+  "statut": "CLOSED",
+  "fin": "2016-06-30T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:34:25.977532+00:00",
+  "mises_nettes": 11736.75,
+  "montant_distribue": 11736.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 652.04
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 138,
+      "winningsPerGrid": 42.52
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8693572,
+      "debut": "2016-06-30T19:00:00+00:00",
+      "home": "Pologne",
+      "away": "Portugal",
+      "home_id": "sr:competitor:4703",
+      "away_id": "sr:competitor:4704",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693576,
+      "debut": "2016-07-01T19:00:00+00:00",
+      "home": "Pays de Galles",
+      "away": "Belgique",
+      "home_id": "sr:competitor:4702",
+      "away_id": "sr:competitor:4717",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697608,
+      "debut": "2016-07-02T00:00:00+00:00",
+      "home": "Chicago Fire",
+      "away": "San Jose Earthquakes",
+      "home_id": "sr:competitor:2505",
+      "away_id": "sr:competitor:21825",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693578,
+      "debut": "2016-07-02T19:00:00+00:00",
+      "home": "Allemagne",
+      "away": "Italie",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4707",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697616,
+      "debut": "2016-07-03T01:00:00+00:00",
+      "home": "Houston Dynamo",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:2508",
+      "away_id": "sr:competitor:39833",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697618,
+      "debut": "2016-07-03T16:00:00+00:00",
+      "home": "New York City FC",
+      "away": "New York Red Bulls",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:2506",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693580,
+      "debut": "2016-07-03T19:00:00+00:00",
+      "home": "France",
+      "away": "Islande",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4708",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

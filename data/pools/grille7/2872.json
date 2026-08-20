@@ -1,0 +1,136 @@
+{
+  "grille_id": 2872,
+  "grille_type": "grille7",
+  "pool_id": 7002872,
+  "titre": "Grille 7 n°2872",
+  "statut": "CLOSED",
+  "fin": "2023-04-17T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:41:28.276321+00:00",
+  "mises_nettes": 10939.5,
+  "montant_distribue": 10939.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001001001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5469.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 37,
+      "winningsPerGrid": 147.83
+    }
+  ],
+  "repartition": [
+    773,
+    3108,
+    4880,
+    3811,
+    1625,
+    351,
+    37,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 34171851,
+      "debut": "2023-04-17T18:45:00+00:00",
+      "home": "Grenoble",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34287097,
+      "debut": "2023-04-17T18:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152291,
+      "debut": "2023-04-17T19:00:00+00:00",
+      "home": "Leeds",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277763,
+      "debut": "2023-04-17T19:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2826",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34279181,
+      "debut": "2023-04-17T19:00:00+00:00",
+      "home": "Levante",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:35092",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34505055,
+      "debut": "2023-04-17T19:15:00+00:00",
+      "home": "FC Vizela",
+      "away": "Boavista",
+      "home_id": "sr:competitor:5136",
+      "away_id": "sr:competitor:2995",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545913,
+      "debut": "2023-04-17T19:30:00+00:00",
+      "home": "Club Atletico Platense",
+      "away": "Colon De Santa Fe",
+      "home_id": "sr:competitor:36837",
+      "away_id": "sr:competitor:3207",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

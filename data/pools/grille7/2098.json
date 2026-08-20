@@ -1,0 +1,136 @@
+{
+  "grille_id": 2098,
+  "grille_type": "grille7",
+  "pool_id": 7002098,
+  "titre": "Grille 7 n°2098",
+  "statut": "CLOSED",
+  "fin": "2021-07-08T16:00:00+00:00",
+  "collecte_le": "2026-08-20T09:46:06.537811+00:00",
+  "mises_nettes": 4335.75,
+  "montant_distribue": 4335.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2167.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 28,
+      "winningsPerGrid": 77.42
+    }
+  ],
+  "repartition": [
+    279,
+    1193,
+    1909,
+    1514,
+    663,
+    194,
+    28,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 27785766,
+      "debut": "2021-07-08T16:00:00+00:00",
+      "home": "Maghreb  Tetouan",
+      "away": "FUS Rabat",
+      "home_id": "sr:competitor:55049",
+      "away_id": "sr:competitor:55027",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 10,
+      "cote_N": 1.12,
+      "cote_2": 6
+    },
+    {
+      "match_id": 27785768,
+      "debut": "2021-07-08T18:15:00+00:00",
+      "home": "Difaa El Jadida",
+      "away": "FAR Rabat",
+      "home_id": "sr:competitor:55043",
+      "away_id": "sr:competitor:24394",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.09,
+      "cote_N": 5.1,
+      "cote_2": 42
+    },
+    {
+      "match_id": 27993580,
+      "debut": "2021-07-08T19:30:00+00:00",
+      "home": "Mlila",
+      "away": "Paradou AC",
+      "home_id": "sr:competitor:133448",
+      "away_id": "sr:competitor:238138",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.02,
+      "cote_N": 9.5,
+      "cote_2": 110
+    },
+    {
+      "match_id": 27785770,
+      "debut": "2021-07-08T20:30:00+00:00",
+      "home": "Ittihad Tanger",
+      "away": "Renaissance Berkane",
+      "home_id": "sr:competitor:87180",
+      "away_id": "sr:competitor:80395",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 160,
+      "cote_2": 1
+    },
+    {
+      "match_id": 26574094,
+      "debut": "2021-07-09T00:00:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:39833",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 7,
+      "cote_N": 1.05,
+      "cote_2": 30
+    },
+    {
+      "match_id": 27471596,
+      "debut": "2021-07-09T00:00:00+00:00",
+      "home": "Chapecoense",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:21845",
+      "away_id": "sr:competitor:1957",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 60,
+      "cote_2": 1
+    },
+    {
+      "match_id": 26574096,
+      "debut": "2021-07-09T00:30:00+00:00",
+      "home": "Nashville SC",
+      "away": "Atlanta United FC",
+      "home_id": "sr:competitor:668063",
+      "away_id": "sr:competitor:305920",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 23,
+      "cote_N": 1,
+      "cote_2": 75
+    }
+  ]
+}

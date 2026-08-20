@@ -1,0 +1,136 @@
+{
+  "grille_id": 2924,
+  "grille_type": "grille7",
+  "pool_id": 7002924,
+  "titre": "Grille 7 n°2924",
+  "statut": "CLOSED",
+  "fin": "2023-05-28T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:36:19.726390+00:00",
+  "mises_nettes": 4020.75,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 833.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 65,
+      "winningsPerGrid": 38.46
+    }
+  ],
+  "repartition": [
+    127,
+    675,
+    1423,
+    1645,
+    1063,
+    360,
+    65,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 34287241,
+      "debut": "2023-05-28T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38185877,
+      "debut": "2023-05-28T19:00:00+00:00",
+      "home": "Kansas City",
+      "away": "Portland Timbers",
+      "home_id": "sr:competitor:2509",
+      "away_id": "sr:competitor:22007",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438955,
+      "debut": "2023-05-28T19:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1961",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438961,
+      "debut": "2023-05-28T19:00:00+00:00",
+      "home": "Internacional ",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1955",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546083,
+      "debut": "2023-05-28T19:30:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:3215",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546089,
+      "debut": "2023-05-28T19:30:00+00:00",
+      "home": "CA Talleres",
+      "away": "Argentinos Juniors",
+      "home_id": "sr:competitor:3210",
+      "away_id": "sr:competitor:3216",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438959,
+      "debut": "2023-05-28T21:30:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1963",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

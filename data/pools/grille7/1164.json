@@ -1,0 +1,127 @@
+{
+  "grille_id": 1164,
+  "grille_type": "grille7",
+  "pool_id": 7001164,
+  "titre": "Grille 7 n°1164",
+  "statut": "CLOSED",
+  "fin": "2019-02-12T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:14:28.906223+00:00",
+  "mises_nettes": 17497.5,
+  "montant_distribue": 17497.5,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 58,
+      "winningsPerGrid": 150.84
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 554,
+      "winningsPerGrid": 15.79
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14783543,
+      "debut": "2019-02-12T19:45:00+00:00",
+      "home": "Birmingham",
+      "away": "Bolton",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:5",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783545,
+      "debut": "2019-02-12T19:45:00+00:00",
+      "home": "Hull City",
+      "away": "Rotherham",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:13",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783555,
+      "debut": "2019-02-12T19:45:00+00:00",
+      "home": "Bristol City",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:1",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783559,
+      "debut": "2019-02-12T19:45:00+00:00",
+      "home": "Millwall",
+      "away": "Sheffield Wednesday",
+      "home_id": "sr:competitor:25",
+      "away_id": "sr:competitor:12",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783551,
+      "debut": "2019-02-12T20:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:14",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514883,
+      "debut": "2019-02-12T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514897,
+      "debut": "2019-02-12T20:00:00+00:00",
+      "home": "AS Rome",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:3002",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

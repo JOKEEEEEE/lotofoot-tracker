@@ -1,0 +1,127 @@
+{
+  "grille_id": 624,
+  "grille_type": "grille7",
+  "pool_id": 7000624,
+  "titre": "Grille 7 n°624",
+  "statut": "CLOSED",
+  "fin": "2017-08-03T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:58:05.990927+00:00",
+  "mises_nettes": 7187.25,
+  "montant_distribue": 7187.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 3593.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 31,
+      "winningsPerGrid": 115.92
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12009942,
+      "debut": "2017-08-03T18:45:00+00:00",
+      "home": "Ostende",
+      "away": "Marseille",
+      "home_id": "sr:competitor:4494",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12107474,
+      "debut": "2017-08-03T18:45:00+00:00",
+      "home": "Pays-Bas (F)",
+      "away": "Angleterre (F)",
+      "home_id": "sr:competitor:32484",
+      "away_id": "sr:competitor:7415",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12052442,
+      "debut": "2017-08-03T18:45:00+00:00",
+      "home": "Ruzomberok",
+      "away": "Everton",
+      "home_id": "sr:competitor:2397",
+      "away_id": "sr:competitor:48",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12051668,
+      "debut": "2017-08-03T18:45:00+00:00",
+      "home": "Osijek",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:2040",
+      "away_id": "sr:competitor:2952",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12052414,
+      "debut": "2017-08-03T19:05:00+00:00",
+      "home": "Domzale",
+      "away": "Fribourg",
+      "home_id": "sr:competitor:2418",
+      "away_id": "sr:competitor:2538",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12052786,
+      "debut": "2017-08-03T19:00:00+00:00",
+      "home": "Panionios",
+      "away": "Maccabi Tel-Aviv",
+      "home_id": "sr:competitor:3247",
+      "away_id": "sr:competitor:5198",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12052398,
+      "debut": "2017-08-03T20:00:00+00:00",
+      "home": "Braga",
+      "away": "AIK Stockholm",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:1764",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

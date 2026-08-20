@@ -1,0 +1,127 @@
+{
+  "grille_id": 1082,
+  "grille_type": "grille7",
+  "pool_id": 7001082,
+  "titre": "Grille 7 n°1082",
+  "statut": "CLOSED",
+  "fin": "2018-11-19T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:20:07.340004+00:00",
+  "mises_nettes": 14712,
+  "montant_distribue": 15000,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100010001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 99,
+      "winningsPerGrid": 75.76
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13635403,
+      "debut": "2018-11-19T19:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Pays-Bas",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4705",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13635417,
+      "debut": "2018-11-19T19:45:00+00:00",
+      "home": "Bulgarie",
+      "away": "Slovénie",
+      "home_id": "sr:competitor:4716",
+      "away_id": "sr:competitor:4484",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13635425,
+      "debut": "2018-11-19T19:45:00+00:00",
+      "home": "Chypre",
+      "away": "Norvège",
+      "home_id": "sr:competitor:4482",
+      "away_id": "sr:competitor:4475",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13635445,
+      "debut": "2018-11-19T19:45:00+00:00",
+      "home": "Danemark",
+      "away": "République d'Irlande",
+      "home_id": "sr:competitor:4476",
+      "away_id": "sr:competitor:4693",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13635451,
+      "debut": "2018-11-19T19:45:00+00:00",
+      "home": "République Tchèque",
+      "away": "Slovaquie",
+      "home_id": "sr:competitor:4714",
+      "away_id": "sr:competitor:4697",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145363,
+      "debut": "2018-11-19T20:00:00+00:00",
+      "home": "Almeria",
+      "away": "Deportivo La Corogne",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:2832",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13806045,
+      "debut": "2018-11-19T22:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Ceara CE",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:2001",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

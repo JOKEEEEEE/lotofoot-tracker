@@ -1,0 +1,136 @@
+{
+  "grille_id": 3726,
+  "grille_type": "grille7",
+  "pool_id": 7003726,
+  "titre": "Grille 7 n°3726",
+  "statut": "CLOSED",
+  "fin": "2025-05-21T16:10:00+00:00",
+  "collecte_le": "2026-08-20T07:24:41.386288+00:00",
+  "mises_nettes": 2079.75,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 13,
+      "winningsPerGrid": 153.85
+    }
+  ],
+  "repartition": [
+    66,
+    487,
+    926,
+    817,
+    374,
+    89,
+    13,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 52034867,
+      "debut": "2025-05-21T16:10:00+00:00",
+      "home": "Al-Nassr",
+      "away": "Al Khaleej",
+      "home_id": "sr:competitor:23400",
+      "away_id": "sr:competitor:167228",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52034877,
+      "debut": "2025-05-21T16:25:00+00:00",
+      "home": "Al-Kholood",
+      "away": "Al Feiha",
+      "home_id": "sr:competitor:386360",
+      "away_id": "sr:competitor:168094",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52034875,
+      "debut": "2025-05-21T18:00:00+00:00",
+      "home": "Al Wehda",
+      "away": "Al-Hilal",
+      "home_id": "sr:competitor:32994",
+      "away_id": "sr:competitor:21895",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60557771,
+      "debut": "2025-05-21T22:30:00+00:00",
+      "home": "Sportivo Ameliano",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:607728",
+      "away_id": "sr:competitor:5991",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58267293,
+      "debut": "2025-05-21T19:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60557773,
+      "debut": "2025-05-21T12:30:00+00:00",
+      "home": "Club General Caballero (JLM)",
+      "away": "2 de Mayo",
+      "home_id": "sr:competitor:818704",
+      "away_id": "sr:competitor:5992",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60557775,
+      "debut": "2025-05-21T22:30:00+00:00",
+      "home": "Club Olimpia",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:5996",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

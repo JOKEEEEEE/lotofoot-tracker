@@ -1,0 +1,136 @@
+{
+  "grille_id": 3308,
+  "grille_type": "grille7",
+  "pool_id": 7003308,
+  "titre": "Grille 7 n°3308",
+  "statut": "CLOSED",
+  "fin": "2024-04-22T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:01:32.434666+00:00",
+  "mises_nettes": 7734.75,
+  "montant_distribue": 7734.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 48,
+      "winningsPerGrid": 80.57
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 533,
+      "winningsPerGrid": 7.26
+    }
+  ],
+  "repartition": [
+    43,
+    440,
+    1554,
+    2859,
+    3016,
+    1820,
+    533,
+    48
+  ],
+  "matches": [
+    {
+      "match_id": 41984605,
+      "debut": "2024-04-22T18:30:00+00:00",
+      "home": "FC Cartagena",
+      "away": "Real Oviedo",
+      "home_id": "sr:competitor:24329",
+      "away_id": "sr:competitor:2851",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134761,
+      "debut": "2024-04-22T18:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893543,
+      "debut": "2024-04-22T19:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2826",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48910921,
+      "debut": "2024-04-22T19:00:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Leeds",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:34",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146699,
+      "debut": "2024-04-22T19:15:00+00:00",
+      "home": "Farense",
+      "away": "Benfica",
+      "home_id": "sr:competitor:2998",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46547979,
+      "debut": "2024-04-22T18:45:00+00:00",
+      "home": "Shelbourne Dublin",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:3174",
+      "away_id": "sr:competitor:3177",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46547977,
+      "debut": "2024-04-22T18:45:00+00:00",
+      "home": "Derry City",
+      "away": "St Patricks",
+      "home_id": "sr:competitor:3170",
+      "away_id": "sr:competitor:3169",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

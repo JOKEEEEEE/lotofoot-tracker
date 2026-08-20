@@ -1,0 +1,136 @@
+{
+  "grille_id": 4089,
+  "grille_type": "grille7",
+  "pool_id": 7004089,
+  "titre": "Grille 7 n°4089",
+  "statut": "CLOSED",
+  "fin": "2026-05-28T19:00:00+00:00",
+  "collecte_le": "2026-08-20T06:03:34.159585+00:00",
+  "mises_nettes": 3532.5,
+  "montant_distribue": 3532.5,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 117.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 201,
+      "winningsPerGrid": 8.79
+    }
+  ],
+  "repartition": [
+    21,
+    226,
+    649,
+    1235,
+    1465,
+    898,
+    201,
+    15
+  ],
+  "matches": [
+    {
+      "match_id": 71562582,
+      "debut": "2026-05-28T19:00:00+00:00",
+      "home": "Casa Pia AC",
+      "away": "Torreense",
+      "home_id": "sr:competitor:36365",
+      "away_id": "sr:competitor:25787",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.35,
+      "cote_N": 2.55,
+      "cote_2": 3.05
+    },
+    {
+      "match_id": 70075878,
+      "debut": "2026-05-28T22:00:00+00:00",
+      "home": "Cerro Porteno",
+      "away": "Sporting Cristal",
+      "home_id": "sr:competitor:5991",
+      "away_id": "sr:competitor:2302",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.68,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 70075876,
+      "debut": "2026-05-28T22:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:6105",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.25,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 70075754,
+      "debut": "2026-05-29T00:30:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Universidad Catolica",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:3151",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.47,
+      "cote_N": 3.85,
+      "cote_2": 5.2
+    },
+    {
+      "match_id": 70075756,
+      "debut": "2026-05-29T00:30:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Barcelona SC",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:5250",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.25,
+      "cote_N": 5.1,
+      "cote_2": 9
+    },
+    {
+      "match_id": 70075106,
+      "debut": "2026-05-29T00:30:00+00:00",
+      "home": "America De Cali",
+      "away": "CSD Macará",
+      "home_id": "sr:competitor:6102",
+      "away_id": "sr:competitor:6001",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.58,
+      "cote_N": 3.25,
+      "cote_2": 5.2
+    },
+    {
+      "match_id": 70075108,
+      "debut": "2026-05-29T00:30:00+00:00",
+      "home": "Tigre",
+      "away": "Alianza Atlético",
+      "home_id": "sr:competitor:7628",
+      "away_id": "sr:competitor:2307",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.22,
+      "cote_N": 4.9,
+      "cote_2": 9
+    }
+  ]
+}

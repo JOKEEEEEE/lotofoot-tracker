@@ -1,0 +1,136 @@
+{
+  "grille_id": 3739,
+  "grille_type": "grille7",
+  "pool_id": 7003739,
+  "titre": "Grille 7 n°3739",
+  "statut": "CLOSED",
+  "fin": "2025-06-03T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:23:58.067381+00:00",
+  "mises_nettes": 3359.25,
+  "montant_distribue": 3359.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 139.97
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 240,
+      "winningsPerGrid": 7
+    }
+  ],
+  "repartition": [
+    18,
+    140,
+    560,
+    1128,
+    1429,
+    952,
+    240,
+    12
+  ],
+  "matches": [
+    {
+      "match_id": 55671899,
+      "debut": "2025-06-03T17:00:00+00:00",
+      "home": "Espagne (F)",
+      "away": "Angleterre (F)",
+      "home_id": "sr:competitor:37371",
+      "away_id": "sr:competitor:7415",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55671897,
+      "debut": "2025-06-03T17:00:00+00:00",
+      "home": "Portugal (F)",
+      "away": "Belgique (F)",
+      "home_id": "sr:competitor:22027",
+      "away_id": "sr:competitor:38081",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55671869,
+      "debut": "2025-06-03T17:30:00+00:00",
+      "home": "Suède (F)",
+      "away": "Danemark (F)",
+      "home_id": "sr:competitor:7423",
+      "away_id": "sr:competitor:7414",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55671921,
+      "debut": "2025-06-03T18:00:00+00:00",
+      "home": "Islande (F)",
+      "away": "France (F)",
+      "home_id": "sr:competitor:22024",
+      "away_id": "sr:competitor:32485",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55671923,
+      "debut": "2025-06-03T18:00:00+00:00",
+      "home": "Suisse (F)",
+      "away": "Norvège (F)",
+      "home_id": "sr:competitor:38103",
+      "away_id": "sr:competitor:7422",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55671945,
+      "debut": "2025-06-03T18:30:00+00:00",
+      "home": "Autriche (F)",
+      "away": "Allemagne (F)",
+      "home_id": "sr:competitor:34014",
+      "away_id": "sr:competitor:23992",
+      "score_home": 0,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380309,
+      "debut": "2025-06-03T19:00:00+00:00",
+      "home": "Union Espanola",
+      "away": "Limache",
+      "home_id": "sr:competitor:3153",
+      "away_id": "sr:competitor:434002",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 4137,
+  "grille_type": "grille7",
+  "pool_id": 7004137,
+  "titre": "Grille 7 n°4137",
+  "statut": "CLOSED",
+  "fin": "2026-07-15T17:00:00+00:00",
+  "collecte_le": "2026-08-20T05:52:22.253526+00:00",
+  "mises_nettes": 2719.5,
+  "montant_distribue": 3000,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 125
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 90,
+      "winningsPerGrid": 16.67
+    }
+  ],
+  "repartition": [
+    36,
+    303,
+    856,
+    1145,
+    819,
+    365,
+    90,
+    12
+  ],
+  "matches": [
+    {
+      "match_id": 72338852,
+      "debut": "2026-07-15T17:00:00+00:00",
+      "home": "Libertad",
+      "away": "Técnico Universitario",
+      "home_id": "sr:competitor:838486",
+      "away_id": "sr:competitor:21941",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.85,
+      "cote_N": 2.95,
+      "cote_2": 2.2
+    },
+    {
+      "match_id": 72156800,
+      "debut": "2026-07-15T17:30:00+00:00",
+      "home": "CS Universitatea Craiova",
+      "away": "ML Vitebsk",
+      "home_id": "sr:competitor:116223",
+      "away_id": "sr:competitor:791232",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.29,
+      "cote_N": 4.5,
+      "cote_2": 6.5
+    },
+    {
+      "match_id": 72156790,
+      "debut": "2026-07-15T18:15:00+00:00",
+      "home": "Atert Bissen",
+      "away": "Klaksvik",
+      "home_id": "sr:competitor:38989",
+      "away_id": "sr:competitor:5194",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2,
+      "cote_N": 3.35,
+      "cote_2": 2.95
+    },
+    {
+      "match_id": 53452535,
+      "debut": "2026-07-15T19:00:00+00:00",
+      "home": "Angleterre",
+      "away": "Argentine",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:4819",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.6,
+      "cote_N": 2.7,
+      "cote_2": 2.75
+    },
+    {
+      "match_id": 72156798,
+      "debut": "2026-07-15T19:00:00+00:00",
+      "home": "Egnatia Rrogozhine",
+      "away": "CS Petrocub",
+      "home_id": "sr:competitor:372056",
+      "away_id": "sr:competitor:167232",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.45,
+      "cote_2": 5
+    },
+    {
+      "match_id": 68687726,
+      "debut": "2026-07-15T22:00:00+00:00",
+      "home": "Universidad Católica (EQU)",
+      "away": "LDU Quito",
+      "home_id": "sr:competitor:21942",
+      "away_id": "sr:competitor:5257",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.65,
+      "cote_N": 3.05,
+      "cote_2": 2.25
+    },
+    {
+      "match_id": 68687736,
+      "debut": "2026-07-15T22:00:00+00:00",
+      "home": "Club Leones Del Norte",
+      "away": "Deportivo Cuenca",
+      "home_id": "sr:competitor:671275",
+      "away_id": "sr:competitor:5251",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.2,
+      "cote_N": 2.65,
+      "cote_2": 3.25
+    }
+  ]
+}

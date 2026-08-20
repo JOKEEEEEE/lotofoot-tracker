@@ -1,0 +1,136 @@
+{
+  "grille_id": 3947,
+  "grille_type": "grille7",
+  "pool_id": 7003947,
+  "titre": "Grille 7 n°3947",
+  "statut": "CLOSED",
+  "fin": "2026-01-03T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:31:10.816794+00:00",
+  "mises_nettes": 4290,
+  "montant_distribue": 4290,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 143
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 194,
+      "winningsPerGrid": 11.06
+    }
+  ],
+  "repartition": [
+    10,
+    134,
+    695,
+    1774,
+    2013,
+    885,
+    194,
+    15
+  ],
+  "matches": [
+    {
+      "match_id": 61499231,
+      "debut": "2026-01-03T19:00:00+00:00",
+      "home": "Mali",
+      "away": "Tunisie",
+      "home_id": "sr:competitor:4831",
+      "away_id": "sr:competitor:4729",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.3,
+      "cote_N": 2.5,
+      "cote_2": 3
+    },
+    {
+      "match_id": 61499213,
+      "debut": "2026-01-04T16:00:00+00:00",
+      "home": "Maroc",
+      "away": "Tanzanie",
+      "home_id": "sr:competitor:4778",
+      "away_id": "sr:competitor:4835",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.14,
+      "cote_N": 6,
+      "cote_2": 14.5
+    },
+    {
+      "match_id": 61499219,
+      "debut": "2026-01-04T19:00:00+00:00",
+      "home": "Afrique du Sud",
+      "away": "Cameroun",
+      "home_id": "sr:competitor:4736",
+      "away_id": "sr:competitor:4751",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3.1,
+      "cote_N": 2.5,
+      "cote_2": 2.25
+    },
+    {
+      "match_id": 61499211,
+      "debut": "2026-01-05T16:00:00+00:00",
+      "home": "Égypte",
+      "away": "Bénin",
+      "home_id": "sr:competitor:4758",
+      "away_id": "sr:competitor:4744",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.33,
+      "cote_N": 3.9,
+      "cote_2": 8
+    },
+    {
+      "match_id": 61499217,
+      "debut": "2026-01-05T19:00:00+00:00",
+      "home": "Nigeria",
+      "away": "Mozambique",
+      "home_id": "sr:competitor:4785",
+      "away_id": "sr:competitor:4783",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.26,
+      "cote_N": 4.5,
+      "cote_2": 8.5
+    },
+    {
+      "match_id": 61499207,
+      "debut": "2026-01-06T16:00:00+00:00",
+      "home": "Algérie",
+      "away": "RD Congo",
+      "home_id": "sr:competitor:4691",
+      "away_id": "sr:competitor:4823",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.2,
+      "cote_N": 2.5,
+      "cote_2": 3.25
+    },
+    {
+      "match_id": 61499205,
+      "debut": "2026-01-06T19:00:00+00:00",
+      "home": "Côte d'Ivoire",
+      "away": "Burkina Faso",
+      "home_id": "sr:competitor:4768",
+      "away_id": "sr:competitor:4749",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.82,
+      "cote_N": 2.75,
+      "cote_2": 4
+    }
+  ]
+}

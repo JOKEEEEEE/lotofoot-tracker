@@ -1,0 +1,136 @@
+{
+  "grille_id": 3992,
+  "grille_type": "grille7",
+  "pool_id": 7003992,
+  "titre": "Grille 7 n°3992",
+  "statut": "CLOSED",
+  "fin": "2026-02-17T17:45:00+00:00",
+  "collecte_le": "2026-08-20T06:26:16.697008+00:00",
+  "mises_nettes": 9033,
+  "montant_distribue": 9033,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 31,
+      "winningsPerGrid": 145.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 344,
+      "winningsPerGrid": 13.13
+    }
+  ],
+  "repartition": [
+    97,
+    798,
+    2215,
+    3576,
+    3376,
+    1607,
+    344,
+    31
+  ],
+  "matches": [
+    {
+      "match_id": 68416472,
+      "debut": "2026-02-17T17:45:00+00:00",
+      "home": "Galatasaray",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:2687",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.95,
+      "cote_N": 3.15,
+      "cote_2": 2.1
+    },
+    {
+      "match_id": 68189338,
+      "debut": "2026-02-17T19:45:00+00:00",
+      "home": "Charlton",
+      "away": "Portsmouth",
+      "home_id": "sr:competitor:47",
+      "away_id": "sr:competitor:2",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.45,
+      "cote_N": 2.65,
+      "cote_2": 2.6
+    },
+    {
+      "match_id": 68329680,
+      "debut": "2026-02-17T19:45:00+00:00",
+      "home": "Bristol City",
+      "away": "Wrexham",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:64",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 3.3,
+      "cote_2": 3.05
+    },
+    {
+      "match_id": 68416484,
+      "debut": "2026-02-17T20:00:00+00:00",
+      "home": "Monaco",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1644",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 5.4,
+      "cote_N": 4.4,
+      "cote_2": 1.42
+    },
+    {
+      "match_id": 68416492,
+      "debut": "2026-02-17T20:00:00+00:00",
+      "home": "Benfica",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.9,
+      "cote_N": 3.4,
+      "cote_2": 2
+    },
+    {
+      "match_id": 68416464,
+      "debut": "2026-02-17T20:15:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2686",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.94,
+      "cote_N": 3.1,
+      "cote_2": 3.45
+    },
+    {
+      "match_id": 66938776,
+      "debut": "2026-02-17T22:00:00+00:00",
+      "home": "Carabobo FC",
+      "away": "Huachipato",
+      "home_id": "sr:competitor:6229",
+      "away_id": "sr:competitor:3164",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.78,
+      "cote_N": 2.85,
+      "cote_2": 3.95
+    }
+  ]
+}

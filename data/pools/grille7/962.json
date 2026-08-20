@@ -1,0 +1,127 @@
+{
+  "grille_id": 962,
+  "grille_type": "grille7",
+  "pool_id": 7000962,
+  "titre": "Grille 7 n°962",
+  "statut": "CLOSED",
+  "fin": "2018-07-20T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:31:35.795123+00:00",
+  "mises_nettes": 7368.75,
+  "montant_distribue": 7368.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 47,
+      "winningsPerGrid": 78.39
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 424,
+      "winningsPerGrid": 8.69
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13644419,
+      "debut": "2018-07-20T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Bray",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3171",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644423,
+      "debut": "2018-07-20T19:00:00+00:00",
+      "home": "St Patricks",
+      "away": "Limerick",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:7127",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14743087,
+      "debut": "2018-07-21T00:00:00+00:00",
+      "home": "Universidad De Concepcion",
+      "away": "Palestino",
+      "home_id": "sr:competitor:5034",
+      "away_id": "sr:competitor:3157",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14802391,
+      "debut": "2018-07-21T00:00:00+00:00",
+      "home": "Veracruz",
+      "away": "U.N.A.M.",
+      "home_id": "sr:competitor:1942",
+      "away_id": "sr:competitor:1933",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14564866,
+      "debut": "2018-07-21T01:05:00+00:00",
+      "home": "Manchester City",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2673",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14802393,
+      "debut": "2018-07-21T02:00:00+00:00",
+      "home": "Atlas",
+      "away": "Querétaro",
+      "home_id": "sr:competitor:1949",
+      "away_id": "sr:competitor:1951",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14564868,
+      "debut": "2018-07-21T14:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:1644",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

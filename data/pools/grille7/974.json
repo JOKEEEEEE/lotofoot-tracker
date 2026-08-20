@@ -1,0 +1,127 @@
+{
+  "grille_id": 974,
+  "grille_type": "grille7",
+  "pool_id": 7000974,
+  "titre": "Grille 7 n°974",
+  "statut": "CLOSED",
+  "fin": "2018-08-01T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:30:54.876014+00:00",
+  "mises_nettes": 8858.25,
+  "montant_distribue": 8858.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1476.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 43,
+      "winningsPerGrid": 103
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15032515,
+      "debut": "2018-08-01T17:30:00+00:00",
+      "home": "Suduva",
+      "away": "Etoile Rouge de Belgrade",
+      "home_id": "sr:competitor:5343",
+      "away_id": "sr:competitor:5149",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14770011,
+      "debut": "2018-08-01T18:00:00+00:00",
+      "home": "FC Bâle",
+      "away": "PAOK Salonique",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:3251",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15032521,
+      "debut": "2018-08-01T18:00:00+00:00",
+      "home": "MOL Vidi FC",
+      "away": "Ludogorets",
+      "home_id": "sr:competitor:1926",
+      "away_id": "sr:competitor:43840",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14770017,
+      "debut": "2018-08-01T18:30:00+00:00",
+      "home": "Sturm Graz",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:2051",
+      "away_id": "sr:competitor:2953",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15042315,
+      "debut": "2018-08-01T18:45:00+00:00",
+      "home": "Rosenborg",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:1161",
+      "away_id": "sr:competitor:2352",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14564912,
+      "debut": "2018-08-01T19:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14980795,
+      "debut": "2018-08-01T20:00:00+00:00",
+      "home": "Benfica",
+      "away": "Lyon",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:1649",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

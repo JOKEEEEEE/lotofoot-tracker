@@ -1,0 +1,136 @@
+{
+  "grille_id": 2340,
+  "grille_type": "grille7",
+  "pool_id": 7002340,
+  "titre": "Grille 7 n°2340",
+  "statut": "CLOSED",
+  "fin": "2022-01-26T18:00:00+00:00",
+  "collecte_le": "2026-08-20T13:25:09.648453+00:00",
+  "mises_nettes": 11986.5,
+  "montant_distribue": 11986.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5993.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 31,
+      "winningsPerGrid": 193.33
+    }
+  ],
+  "repartition": [
+    1079,
+    4110,
+    5553,
+    3628,
+    1302,
+    278,
+    31,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 31423769,
+      "debut": "2022-01-26T18:00:00+00:00",
+      "home": "Angers",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31644843,
+      "debut": "2022-01-26T18:00:00+00:00",
+      "home": "Quevilly Rouen",
+      "away": "Amiens",
+      "home_id": "sr:competitor:233162",
+      "away_id": "sr:competitor:1676",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31406219,
+      "debut": "2022-01-26T19:00:00+00:00",
+      "home": "Mali",
+      "away": "Guinée équatoriale",
+      "home_id": "sr:competitor:4831",
+      "away_id": "sr:competitor:8032",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27730218,
+      "debut": "2022-01-26T19:45:00+00:00",
+      "home": "Heart of Midlothian",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:2353",
+      "away_id": "sr:competitor:2352",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27649578,
+      "debut": "2022-01-26T20:00:00+00:00",
+      "home": "Anderlecht",
+      "away": "Cercle Bruges",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2929",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27649586,
+      "debut": "2022-01-26T20:00:00+00:00",
+      "home": "RFC Seraing United",
+      "away": "K. Beerschot V.A.",
+      "home_id": "sr:competitor:34985",
+      "away_id": "sr:competitor:169260",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31434247,
+      "debut": "2022-01-26T20:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Preston North End",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:21",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

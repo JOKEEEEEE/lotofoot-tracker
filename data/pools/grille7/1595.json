@@ -1,0 +1,127 @@
+{
+  "grille_id": 1595,
+  "grille_type": "grille7",
+  "pool_id": 7001595,
+  "titre": "Grille 7 n°1595",
+  "statut": "CLOSED",
+  "fin": "2020-03-11T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:34:40.522774+00:00",
+  "mises_nettes": 14975.25,
+  "montant_distribue": 14975.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100100111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 169,
+      "winningsPerGrid": 44.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1563,
+      "winningsPerGrid": 4.79
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21591461,
+      "debut": "2020-03-11T19:30:00+00:00",
+      "home": "Manchester City",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:42",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21527591,
+      "debut": "2020-03-11T19:45:00+00:00",
+      "home": "St. Mirren",
+      "away": "Heart of Midlothian",
+      "home_id": "sr:competitor:2359",
+      "away_id": "sr:competitor:2353",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20692473,
+      "debut": "2020-03-11T20:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:2673",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20692481,
+      "debut": "2020-03-11T20:00:00+00:00",
+      "home": "Liverpool",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20959115,
+      "debut": "2020-03-11T21:15:00+00:00",
+      "home": "Angleterre (F)",
+      "away": "Espagne (F)",
+      "home_id": "sr:competitor:7415",
+      "away_id": "sr:competitor:37371",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20735883,
+      "debut": "2020-03-11T22:15:00+00:00",
+      "home": "River Plate",
+      "away": "Escuela Municipal Deportivo Binacional",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:407335",
+      "score_home": 8,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20735869,
+      "debut": "2020-03-11T22:15:00+00:00",
+      "home": "Colo Colo",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:3155",
+      "away_id": "sr:competitor:1967",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

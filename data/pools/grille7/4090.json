@@ -1,0 +1,136 @@
+{
+  "grille_id": 4090,
+  "grille_type": "grille7",
+  "pool_id": 7004090,
+  "titre": "Grille 7 n°4090",
+  "statut": "CLOSED",
+  "fin": "2026-05-29T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:11:26.502500+00:00",
+  "mises_nettes": 4204.5,
+  "montant_distribue": 4204.5,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1051.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 38,
+      "winningsPerGrid": 55.32
+    }
+  ],
+  "repartition": [
+    133,
+    809,
+    1663,
+    1710,
+    974,
+    277,
+    38,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 71631414,
+      "debut": "2026-05-29T18:00:00+00:00",
+      "home": "Monza",
+      "away": "Catanzaro",
+      "home_id": "sr:competitor:2729",
+      "away_id": "sr:competitor:2796",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.78,
+      "cote_N": 3.2,
+      "cote_2": 3.8
+    },
+    {
+      "match_id": 71564470,
+      "debut": "2026-05-29T18:45:00+00:00",
+      "home": "Nice",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1678",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.94,
+      "cote_N": 3.2,
+      "cote_2": 4.2
+    },
+    {
+      "match_id": 66854066,
+      "debut": "2026-05-29T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Waterford",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3194",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.9,
+      "cote_N": 3.25,
+      "cote_2": 3.3
+    },
+    {
+      "match_id": 66854068,
+      "debut": "2026-05-29T18:45:00+00:00",
+      "home": "Dundalk",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3179",
+      "away_id": "sr:competitor:3170",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 3.15,
+      "cote_2": 2.95
+    },
+    {
+      "match_id": 66854070,
+      "debut": "2026-05-29T18:45:00+00:00",
+      "home": "Shelbourne",
+      "away": "Galway United",
+      "home_id": "sr:competitor:3174",
+      "away_id": "sr:competitor:3172",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.55,
+      "cote_2": 4.3
+    },
+    {
+      "match_id": 66854072,
+      "debut": "2026-05-29T18:45:00+00:00",
+      "home": "Sligo Rovers",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3190",
+      "away_id": "sr:competitor:3173",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 5.5,
+      "cote_N": 3.8,
+      "cote_2": 1.47
+    },
+    {
+      "match_id": 66854074,
+      "debut": "2026-05-29T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "St Patrick's",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3169",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.2,
+      "cote_N": 3.05,
+      "cote_2": 2.75
+    }
+  ]
+}

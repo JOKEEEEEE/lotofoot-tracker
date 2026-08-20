@@ -1,0 +1,136 @@
+{
+  "grille_id": 3760,
+  "grille_type": "grille7",
+  "pool_id": 7003760,
+  "titre": "Grille 7 n°3760",
+  "statut": "CLOSED",
+  "fin": "2025-06-24T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:32:45.375105+00:00",
+  "mises_nettes": 2568.75,
+  "montant_distribue": 2568.75,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 256.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 60,
+      "winningsPerGrid": 21.41
+    }
+  ],
+  "repartition": [
+    26,
+    296,
+    778,
+    1123,
+    831,
+    306,
+    60,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 56189351,
+      "debut": "2025-06-24T19:00:00+00:00",
+      "home": "Benfica",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189375,
+      "debut": "2025-06-25T01:00:00+00:00",
+      "home": "Espérance de Tunis",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:59628",
+      "away_id": "sr:competitor:38",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60597529,
+      "debut": "2025-06-25T01:00:00+00:00",
+      "home": "Los Angeles FC",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:402227",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57605253,
+      "debut": "2025-06-25T11:00:00+00:00",
+      "home": "Qingdao Hainiu",
+      "away": "Zhejiang Professional",
+      "home_id": "sr:competitor:34695",
+      "away_id": "sr:competitor:34697",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57605257,
+      "debut": "2025-06-25T11:35:00+00:00",
+      "home": "Changchun Yatai",
+      "away": "Qingdao West Coast",
+      "home_id": "sr:competitor:34694",
+      "away_id": "sr:competitor:754363",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57605259,
+      "debut": "2025-06-25T11:35:00+00:00",
+      "home": "Meizhou Hakka",
+      "away": "Beijing Guoan",
+      "home_id": "sr:competitor:245357",
+      "away_id": "sr:competitor:3376",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57605255,
+      "debut": "2025-06-25T11:35:00+00:00",
+      "home": "Shandong Taishan",
+      "away": "Wuhan Three Towns",
+      "home_id": "sr:competitor:3371",
+      "away_id": "sr:competitor:475928",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

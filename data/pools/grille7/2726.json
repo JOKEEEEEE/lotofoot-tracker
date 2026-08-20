@@ -1,0 +1,136 @@
+{
+  "grille_id": 2726,
+  "grille_type": "grille7",
+  "pool_id": 7002726,
+  "titre": "Grille 7 n°2726",
+  "statut": "CLOSED",
+  "fin": "2022-12-19T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:53:23.414671+00:00",
+  "mises_nettes": 6120,
+  "montant_distribue": 6120,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 93,
+      "winningsPerGrid": 32.9
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 743,
+      "winningsPerGrid": 4.12
+    }
+  ],
+  "repartition": [
+    32,
+    178,
+    756,
+    1804,
+    2546,
+    2008,
+    743,
+    93
+  ],
+  "matches": [
+    {
+      "match_id": 34065349,
+      "debut": "2022-12-19T17:00:00+00:00",
+      "home": "Ironi Kiryat Shmona",
+      "away": "Sektzia Nes Tziona FC",
+      "home_id": "sr:competitor:5399",
+      "away_id": "sr:competitor:34525",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34416651,
+      "debut": "2022-12-19T18:00:00+00:00",
+      "home": "FCSB ",
+      "away": "Botosani",
+      "home_id": "sr:competitor:3301",
+      "away_id": "sr:competitor:24798",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34065353,
+      "debut": "2022-12-19T18:15:00+00:00",
+      "home": "Maccabi Bney Reine",
+      "away": "Maccabi Tel-Aviv",
+      "home_id": "sr:competitor:401743",
+      "away_id": "sr:competitor:5198",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34065343,
+      "debut": "2022-12-19T18:30:00+00:00",
+      "home": "Maccabi Haifa",
+      "away": "Bnei Sakhnin",
+      "home_id": "sr:competitor:5197",
+      "away_id": "sr:competitor:5392",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34744547,
+      "debut": "2022-12-19T19:30:00+00:00",
+      "home": "Pérouse",
+      "away": "Venise",
+      "home_id": "sr:competitor:2698",
+      "away_id": "sr:competitor:2688",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265693,
+      "debut": "2022-12-19T20:00:00+00:00",
+      "home": "Wigan",
+      "away": "Sheffield United",
+      "home_id": "sr:competitor:49",
+      "away_id": "sr:competitor:15",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278847,
+      "debut": "2022-12-19T20:00:00+00:00",
+      "home": "Leganes",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:2815",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

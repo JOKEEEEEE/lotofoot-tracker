@@ -1,0 +1,136 @@
+{
+  "grille_id": 3728,
+  "grille_type": "grille7",
+  "pool_id": 7003728,
+  "titre": "Grille 7 n°3728",
+  "statut": "CLOSED",
+  "fin": "2025-05-23T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:24:36.990062+00:00",
+  "mises_nettes": 2497.5,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 4,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 64,
+      "winningsPerGrid": 31.25
+    }
+  ],
+  "repartition": [
+    179,
+    801,
+    1130,
+    850,
+    302,
+    64,
+    4,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 50852823,
+      "debut": "2025-05-23T19:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Valence",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59022099,
+      "debut": "2025-05-23T17:30:00+00:00",
+      "home": "SK Austria Klagenfurt",
+      "away": "TSV Hartberg",
+      "home_id": "sr:competitor:43254",
+      "away_id": "sr:competitor:2075",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59022103,
+      "debut": "2025-05-23T17:30:00+00:00",
+      "home": "WSG Swarovski Tirol",
+      "away": "Grazer AK",
+      "home_id": "sr:competitor:5405",
+      "away_id": "sr:competitor:2052",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59022105,
+      "debut": "2025-05-23T17:30:00+00:00",
+      "home": "LASK",
+      "away": "SCR Altach",
+      "home_id": "sr:competitor:2058",
+      "away_id": "sr:competitor:4856",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60433923,
+      "debut": "2025-05-23T18:30:00+00:00",
+      "home": "1. FC Saarbrücken",
+      "away": "Eintracht Brunswick",
+      "home_id": "sr:competitor:2554",
+      "away_id": "sr:competitor:2557",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525747,
+      "debut": "2025-05-23T18:45:00+00:00",
+      "home": "Galway United",
+      "away": "Cork City",
+      "home_id": "sr:competitor:3172",
+      "away_id": "sr:competitor:40896",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56958185,
+      "debut": "2025-05-23T19:30:00+00:00",
+      "home": "KR Reykjavik",
+      "away": "Fram Reykjavik",
+      "home_id": "sr:competitor:1902",
+      "away_id": "sr:competitor:1893",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

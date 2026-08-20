@@ -1,0 +1,136 @@
+{
+  "grille_id": 3070,
+  "grille_type": "grille7",
+  "pool_id": 7003070,
+  "titre": "Grille 7 n°3070",
+  "statut": "CLOSED",
+  "fin": "2023-10-08T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:26:44.461270+00:00",
+  "mises_nettes": 11569.5,
+  "montant_distribue": 11569.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5784.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 69,
+      "winningsPerGrid": 83.84
+    }
+  ],
+  "repartition": [
+    187,
+    2659,
+    5629,
+    4547,
+    1882,
+    452,
+    69,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 42004653,
+      "debut": "2023-10-08T18:45:00+00:00",
+      "home": "Rennes",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134263,
+      "debut": "2023-10-08T18:45:00+00:00",
+      "home": "Naples",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2693",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893071,
+      "debut": "2023-10-08T19:00:00+00:00",
+      "home": "Grenade",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2817",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439453,
+      "debut": "2023-10-08T19:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:1958",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439465,
+      "debut": "2023-10-08T19:00:00+00:00",
+      "home": "Internacional ",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:5926",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984015,
+      "debut": "2023-10-08T19:00:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Alcorcon",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:24322",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146309,
+      "debut": "2023-10-08T19:30:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "FC Arouca",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:25777",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

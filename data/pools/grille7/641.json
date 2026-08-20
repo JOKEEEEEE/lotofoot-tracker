@@ -1,0 +1,127 @@
+{
+  "grille_id": 641,
+  "grille_type": "grille7",
+  "pool_id": 7000641,
+  "titre": "Grille 7 n°641",
+  "statut": "CLOSED",
+  "fin": "2017-08-20T15:00:00+00:00",
+  "collecte_le": "2026-08-20T11:57:25.939192+00:00",
+  "mises_nettes": 12498,
+  "montant_distribue": 12498,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 28,
+      "winningsPerGrid": 223.18
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 364,
+      "winningsPerGrid": 17.17
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11833218,
+      "debut": "2017-08-20T15:00:00+00:00",
+      "home": "Marseille",
+      "away": "Angers",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1684",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830518,
+      "debut": "2017-08-20T15:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11913598,
+      "debut": "2017-08-20T16:00:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Cologne",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2671",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12089142,
+      "debut": "2017-08-20T16:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2702",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12054406,
+      "debut": "2017-08-20T16:15:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2859",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12089156,
+      "debut": "2017-08-20T18:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2693",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833160,
+      "debut": "2017-08-20T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1681",
+      "score_home": 6,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

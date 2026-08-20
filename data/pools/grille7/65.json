@@ -1,0 +1,127 @@
+{
+  "grille_id": 65,
+  "grille_type": "grille7",
+  "pool_id": 7000065,
+  "titre": "Grille 7 n°65",
+  "statut": "CLOSED",
+  "fin": "2015-11-23T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:53:19.931167+00:00",
+  "mises_nettes": 6921,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 625
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 150,
+      "winningsPerGrid": 25
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7509062,
+      "debut": "2015-11-23T18:30:00+00:00",
+      "home": "Pandurii",
+      "away": "Petrolul Ploiesti",
+      "home_id": "sr:competitor:5336",
+      "away_id": "sr:competitor:25856",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7607400,
+      "debut": "2015-11-23T18:55:00+00:00",
+      "home": "Hapoel Tel-Aviv",
+      "away": "Maccabi Haifa",
+      "home_id": "sr:competitor:5396",
+      "away_id": "sr:competitor:5197",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7517294,
+      "debut": "2015-11-23T19:15:00+00:00",
+      "home": "Nuremberg",
+      "away": "Eintracht Brunswick",
+      "home_id": "sr:competitor:2523",
+      "away_id": "sr:competitor:2557",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474450,
+      "debut": "2015-11-23T19:30:00+00:00",
+      "home": "Le Havre",
+      "away": "Brest",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1715",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989002,
+      "debut": "2015-11-23T19:30:00+00:00",
+      "home": "Cagliari",
+      "away": "Ascoli",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2707",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610370,
+      "debut": "2015-11-23T19:30:00+00:00",
+      "home": "Getafe",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2818",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7464688,
+      "debut": "2015-11-23T20:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:41",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

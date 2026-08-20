@@ -1,0 +1,136 @@
+{
+  "grille_id": 3769,
+  "grille_type": "grille7",
+  "pool_id": 7003769,
+  "titre": "Grille 7 n°3769",
+  "statut": "CLOSED",
+  "fin": "2025-07-03T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:21:24.570587+00:00",
+  "mises_nettes": 3126.75,
+  "montant_distribue": 3126.75,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 23,
+      "winningsPerGrid": 67.97
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 230,
+      "winningsPerGrid": 6.8
+    }
+  ],
+  "repartition": [
+    17,
+    136,
+    545,
+    1118,
+    1260,
+    840,
+    230,
+    23
+  ],
+  "matches": [
+    {
+      "match_id": 56488739,
+      "debut": "2025-07-03T16:00:00+00:00",
+      "home": "Belgique (F)",
+      "away": "Italie (F)",
+      "home_id": "sr:competitor:38081",
+      "away_id": "sr:competitor:22025",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488735,
+      "debut": "2025-07-03T19:00:00+00:00",
+      "home": "Espagne (F)",
+      "away": "Portugal (F)",
+      "home_id": "sr:competitor:37371",
+      "away_id": "sr:competitor:22027",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56958253,
+      "debut": "2025-07-03T19:15:00+00:00",
+      "home": "Afturelding",
+      "away": "Breidablik Kopavogur",
+      "home_id": "sr:competitor:1914",
+      "away_id": "sr:competitor:1901",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690841,
+      "debut": "2025-07-03T23:30:00+00:00",
+      "home": "New York City FC",
+      "away": "Toronto FC",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:7080",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57159349,
+      "debut": "2025-07-04T15:00:00+00:00",
+      "home": "AC Oulu",
+      "away": "KuPS",
+      "home_id": "sr:competitor:5114",
+      "away_id": "sr:competitor:2244",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488753,
+      "debut": "2025-07-04T16:00:00+00:00",
+      "home": "Danemark (F)",
+      "away": "Suède (F)",
+      "home_id": "sr:competitor:7414",
+      "away_id": "sr:competitor:7423",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58023835,
+      "debut": "2025-07-04T16:00:00+00:00",
+      "home": "Rigas Futbola Skola",
+      "away": "FK Liepaja",
+      "home_id": "sr:competitor:68718",
+      "away_id": "sr:competitor:146336",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

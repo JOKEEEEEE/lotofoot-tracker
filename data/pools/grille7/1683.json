@@ -1,0 +1,127 @@
+{
+  "grille_id": 1683,
+  "grille_type": "grille7",
+  "pool_id": 7001683,
+  "titre": "Grille 7 n°1683",
+  "statut": "CLOSED",
+  "fin": "2020-07-21T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:24:51.635742+00:00",
+  "mises_nettes": 13460.25,
+  "montant_distribue": 13460.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 75,
+      "winningsPerGrid": 89.74
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 800,
+      "winningsPerGrid": 8.41
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22255893,
+      "debut": "2020-07-21T17:00:00+00:00",
+      "home": "Watford",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22256457,
+      "debut": "2020-07-21T17:00:00+00:00",
+      "home": "Riga FC",
+      "away": "Ventspils",
+      "home_id": "sr:competitor:162368",
+      "away_id": "sr:competitor:5354",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172711,
+      "debut": "2020-07-21T17:30:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2685",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085523,
+      "debut": "2020-07-21T18:00:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Vitoria Setubal",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3008",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22255455,
+      "debut": "2020-07-21T19:15:00+00:00",
+      "home": "Aston Villa",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:40",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172713,
+      "debut": "2020-07-21T19:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085525,
+      "debut": "2020-07-21T20:15:00+00:00",
+      "home": "CD Aves",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3032",
+      "away_id": "sr:competitor:3006",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

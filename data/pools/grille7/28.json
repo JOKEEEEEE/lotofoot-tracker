@@ -1,0 +1,127 @@
+{
+  "grille_id": 28,
+  "grille_type": "grille7",
+  "pool_id": 7000028,
+  "titre": "Grille 7 n°28",
+  "statut": "CLOSED",
+  "fin": "2015-10-14T22:30:00+00:00",
+  "collecte_le": "2026-08-20T12:56:15.820978+00:00",
+  "mises_nettes": 6461.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 51,
+      "winningsPerGrid": 98.04
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 6971302,
+      "debut": "2015-10-14T22:30:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1966",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 6971308,
+      "debut": "2015-10-14T22:30:00+00:00",
+      "home": "Sport Recife ",
+      "away": "Avai ",
+      "home_id": "sr:competitor:1959",
+      "away_id": "sr:competitor:7315",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 6971294,
+      "debut": "2015-10-15T00:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Ponte Preta",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1969",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 6971304,
+      "debut": "2015-10-15T00:00:00+00:00",
+      "home": "Figueirense",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1985",
+      "away_id": "sr:competitor:5981",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 6971310,
+      "debut": "2015-10-15T00:00:00+00:00",
+      "home": "Joinville",
+      "away": "Coritiba",
+      "home_id": "sr:competitor:1987",
+      "away_id": "sr:competitor:1982",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 6971296,
+      "debut": "2015-10-15T01:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:1981",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 6971306,
+      "debut": "2015-10-15T01:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:1954",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

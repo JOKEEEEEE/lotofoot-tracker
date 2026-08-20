@@ -1,0 +1,136 @@
+{
+  "grille_id": 2041,
+  "grille_type": "grille7",
+  "pool_id": 7002041,
+  "titre": "Grille 7 n°2041",
+  "statut": "CLOSED",
+  "fin": "2021-05-13T17:00:00+00:00",
+  "collecte_le": "2026-08-20T09:51:50.988033+00:00",
+  "mises_nettes": 16278,
+  "montant_distribue": 16278,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 313.04
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 416,
+      "winningsPerGrid": 19.56
+    }
+  ],
+  "repartition": [
+    57,
+    913,
+    3922,
+    7548,
+    6420,
+    2402,
+    416,
+    26
+  ],
+  "matches": [
+    {
+      "match_id": 27165870,
+      "debut": "2021-05-13T17:00:00+00:00",
+      "home": "Aston Villa",
+      "away": "Everton",
+      "home_id": "sr:competitor:40",
+      "away_id": "sr:competitor:48",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 29,
+      "cote_N": 1.02,
+      "cote_2": 22
+    },
+    {
+      "match_id": 23361025,
+      "debut": "2021-05-13T17:00:00+00:00",
+      "home": "Real Valladolid",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2831",
+      "away_id": "sr:competitor:2819",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23361035,
+      "debut": "2021-05-13T18:00:00+00:00",
+      "home": "Eibar",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2816",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 21,
+      "cote_N": 1.02,
+      "cote_2": 22
+    },
+    {
+      "match_id": 23391275,
+      "debut": "2021-05-13T18:45:00+00:00",
+      "home": "Crotone",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2718",
+      "away_id": "sr:competitor:2701",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.02,
+      "cote_N": 15,
+      "cote_2": 225
+    },
+    {
+      "match_id": 27213800,
+      "debut": "2021-05-13T19:15:00+00:00",
+      "home": "Manchester United",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:44",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 225,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27059418,
+      "debut": "2021-05-13T19:15:00+00:00",
+      "home": "Vallières",
+      "away": "Monaco",
+      "home_id": "sr:competitor:38762",
+      "away_id": "sr:competitor:1653",
+      "score_home": 1,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23361033,
+      "debut": "2021-05-13T20:00:00+00:00",
+      "home": "Grenade",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2829",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    }
+  ]
+}

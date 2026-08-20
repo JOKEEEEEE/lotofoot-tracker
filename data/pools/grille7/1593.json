@@ -1,0 +1,127 @@
+{
+  "grille_id": 1593,
+  "grille_type": "grille7",
+  "pool_id": 7001593,
+  "titre": "Grille 7 n°1593",
+  "statut": "CLOSED",
+  "fin": "2020-03-09T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:34:44.709259+00:00",
+  "mises_nettes": 14269.5,
+  "montant_distribue": 14269.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 105,
+      "winningsPerGrid": 67.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 975,
+      "winningsPerGrid": 7.32
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18573282,
+      "debut": "2020-03-09T19:30:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Arminia Bielefeld",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2540",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442594,
+      "debut": "2020-03-09T19:45:00+00:00",
+      "home": "Lens",
+      "away": "Orléans",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:6921",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18661222,
+      "debut": "2020-03-09T19:45:00+00:00",
+      "home": "Leixoes SC",
+      "away": "Farense",
+      "home_id": "sr:competitor:3018",
+      "away_id": "sr:competitor:2998",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18428092,
+      "debut": "2020-03-09T20:00:00+00:00",
+      "home": "Leicester",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:40",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030516,
+      "debut": "2020-03-09T20:00:00+00:00",
+      "home": "Chievo Vérone",
+      "away": "Nuova Cosenza Calcio",
+      "home_id": "sr:competitor:2694",
+      "away_id": "sr:competitor:2716",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20925281,
+      "debut": "2020-03-09T21:30:00+00:00",
+      "home": "Deportes Union La Calera",
+      "away": "Coquimbo Unido",
+      "home_id": "sr:competitor:48242",
+      "away_id": "sr:competitor:3165",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723784,
+      "debut": "2020-03-09T22:00:00+00:00",
+      "home": "Union De Santa Fe",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:3204",
+      "away_id": "sr:competitor:3208",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

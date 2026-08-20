@@ -1,0 +1,136 @@
+{
+  "grille_id": 3921,
+  "grille_type": "grille7",
+  "pool_id": 7003921,
+  "titre": "Grille 7 n°3921",
+  "statut": "CLOSED",
+  "fin": "2025-12-08T19:30:00+00:00",
+  "collecte_le": "2026-08-20T06:42:49.604875+00:00",
+  "mises_nettes": 9291.75,
+  "montant_distribue": 9291.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 70,
+      "winningsPerGrid": 66.37
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 607,
+      "winningsPerGrid": 7.65
+    }
+  ],
+  "repartition": [
+    83,
+    538,
+    1816,
+    3340,
+    3682,
+    2253,
+    607,
+    70
+  ],
+  "matches": [
+    {
+      "match_id": 61623292,
+      "debut": "2025-12-08T19:30:00+00:00",
+      "home": "Malaga",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2815",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.94,
+      "cote_N": 2.85,
+      "cote_2": 3.05
+    },
+    {
+      "match_id": 61061073,
+      "debut": "2025-12-08T19:45:00+00:00",
+      "home": "Torino",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2692",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 4.4,
+      "cote_N": 3.25,
+      "cote_2": 1.54
+    },
+    {
+      "match_id": 61527628,
+      "debut": "2025-12-08T19:45:00+00:00",
+      "home": "Reims",
+      "away": "Laval",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1673",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.54,
+      "cote_N": 3.25,
+      "cote_2": 4.3
+    },
+    {
+      "match_id": 64618978,
+      "debut": "2025-12-08T20:00:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 4.3,
+      "cote_N": 3.5,
+      "cote_2": 1.5
+    },
+    {
+      "match_id": 61624232,
+      "debut": "2025-12-08T20:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Levante",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2849",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.52,
+      "cote_N": 3.4,
+      "cote_2": 4.3
+    },
+    {
+      "match_id": 66348490,
+      "debut": "2025-12-08T20:06:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:3206",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.25,
+      "cote_N": 2.4,
+      "cote_2": 2.1
+    },
+    {
+      "match_id": 61731100,
+      "debut": "2025-12-08T20:30:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3010",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.7,
+      "cote_N": 2.55,
+      "cote_2": 2.25
+    }
+  ]
+}

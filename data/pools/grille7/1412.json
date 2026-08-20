@@ -1,0 +1,127 @@
+{
+  "grille_id": 1412,
+  "grille_type": "grille7",
+  "pool_id": 7001412,
+  "titre": "Grille 7 n°1412",
+  "statut": "CLOSED",
+  "fin": "2019-10-17T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:51:05.203601+00:00",
+  "mises_nettes": 6273.75,
+  "montant_distribue": 6273.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 285.17
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 229,
+      "winningsPerGrid": 13.7
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 19851222,
+      "debut": "2019-10-17T17:00:00+00:00",
+      "home": "Barcelone",
+      "away": "FC Minsk",
+      "home_id": "sr:competitor:77889",
+      "away_id": "sr:competitor:162988",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19900710,
+      "debut": "2019-10-17T19:45:00+00:00",
+      "home": "Alverca FC",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3012",
+      "away_id": "sr:competitor:3001",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18693820,
+      "debut": "2019-10-17T21:30:00+00:00",
+      "home": "Everton",
+      "away": "Curico Unido",
+      "home_id": "sr:competitor:5032",
+      "away_id": "sr:competitor:33595",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789304,
+      "debut": "2019-10-17T22:15:00+00:00",
+      "home": "Santos",
+      "away": "Ceara CE",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:2001",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789310,
+      "debut": "2019-10-17T22:15:00+00:00",
+      "home": "Avai ",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:7315",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789308,
+      "debut": "2019-10-18T00:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:1967",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18693822,
+      "debut": "2019-10-18T00:00:00+00:00",
+      "home": "Universidad De Chile",
+      "away": "Deportes Iquique",
+      "home_id": "sr:competitor:3161",
+      "away_id": "sr:competitor:33596",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

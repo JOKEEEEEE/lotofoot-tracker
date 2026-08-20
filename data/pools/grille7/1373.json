@@ -1,0 +1,127 @@
+{
+  "grille_id": 1373,
+  "grille_type": "grille7",
+  "pool_id": 7001373,
+  "titre": "Grille 7 n°1373",
+  "statut": "CLOSED",
+  "fin": "2019-09-14T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:54:34.358202+00:00",
+  "mises_nettes": 9975,
+  "montant_distribue": 9975,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 142,
+      "winningsPerGrid": 35.12
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 956,
+      "winningsPerGrid": 5.22
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18439990,
+      "debut": "2019-09-14T18:00:00+00:00",
+      "home": "Dijon",
+      "away": "Nîmes",
+      "home_id": "sr:competitor:1686",
+      "away_id": "sr:competitor:1663",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18439994,
+      "debut": "2019-09-14T18:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Nice",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1661",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18439996,
+      "debut": "2019-09-14T18:00:00+00:00",
+      "home": "Brest",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1658",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440004,
+      "debut": "2019-09-14T18:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Metz",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1651",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18926832,
+      "debut": "2019-09-14T18:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2695",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440756,
+      "debut": "2019-09-14T18:45:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "Vitesse Arnhem",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:2958",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640700,
+      "debut": "2019-09-14T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Valence",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2828",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

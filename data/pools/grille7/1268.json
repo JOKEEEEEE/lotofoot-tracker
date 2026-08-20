@@ -1,0 +1,127 @@
+{
+  "grille_id": 1268,
+  "grille_type": "grille7",
+  "pool_id": 7001268,
+  "titre": "Grille 7 n°1268",
+  "statut": "CLOSED",
+  "fin": "2019-05-28T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:03:18.280835+00:00",
+  "mises_nettes": 5366.25,
+  "montant_distribue": 5366.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 34,
+      "winningsPerGrid": 78.92
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 305,
+      "winningsPerGrid": 8.8
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16542479,
+      "debut": "2019-05-28T17:00:00+00:00",
+      "home": "Malmö",
+      "away": "GIF Sundsvall",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:1763",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18254459,
+      "debut": "2019-05-28T17:00:00+00:00",
+      "home": "Rapid Vienne",
+      "away": "SV Mattersburg",
+      "home_id": "sr:competitor:2055",
+      "away_id": "sr:competitor:2061",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18290387,
+      "debut": "2019-05-28T17:00:00+00:00",
+      "home": "Levski Sofia",
+      "away": "Etar 1924 Veliko Tarnovo",
+      "home_id": "sr:competitor:3273",
+      "away_id": "sr:competitor:36941",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17160817,
+      "debut": "2019-05-28T17:00:00+00:00",
+      "home": "Saburtalo Tbilisi",
+      "away": "Georgia Tbilisi",
+      "home_id": "sr:competitor:116312",
+      "away_id": "sr:competitor:5196",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18251305,
+      "debut": "2019-05-28T18:45:00+00:00",
+      "home": "Le Mans",
+      "away": "GFC Ajaccio",
+      "home_id": "sr:competitor:1672",
+      "away_id": "sr:competitor:7924",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18277123,
+      "debut": "2019-05-28T18:45:00+00:00",
+      "home": "Vitesse Arnhem",
+      "away": "Utrecht",
+      "home_id": "sr:competitor:2958",
+      "away_id": "sr:competitor:2948",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18285209,
+      "debut": "2019-05-28T18:45:00+00:00",
+      "home": "De Graafschap",
+      "away": "Sparta Rotterdam",
+      "home_id": "sr:competitor:2949",
+      "away_id": "sr:competitor:2960",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

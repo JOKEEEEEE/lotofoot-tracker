@@ -1,0 +1,127 @@
+{
+  "grille_id": 1865,
+  "grille_type": "grille7",
+  "pool_id": 7001865,
+  "titre": "Grille 7 n°1865",
+  "statut": "CLOSED",
+  "fin": "2020-12-20T19:15:00+00:00",
+  "collecte_le": "2026-08-20T10:07:40.381975+00:00",
+  "mises_nettes": 14590.5,
+  "montant_distribue": 14590.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100001100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 71,
+      "winningsPerGrid": 102.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 759,
+      "winningsPerGrid": 9.61
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23204059,
+      "debut": "2020-12-20T19:15:00+00:00",
+      "home": "West Bromwich",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:40",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23362599,
+      "debut": "2020-12-20T19:30:00+00:00",
+      "home": "Malaga",
+      "away": "UD Logrones",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:37057",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 30,
+      "cote_N": 1.01,
+      "cote_2": 17
+    },
+    {
+      "match_id": 23390813,
+      "debut": "2020-12-20T19:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Naples",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2714",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23031305,
+      "debut": "2020-12-20T19:45:00+00:00",
+      "home": "Waasland-Beveren",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:4859",
+      "away_id": "sr:competitor:2889",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23320221,
+      "debut": "2020-12-20T20:00:00+00:00",
+      "home": "FC Porto",
+      "away": "Nacional Madeira ",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3013",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360587,
+      "debut": "2020-12-20T20:00:00+00:00",
+      "home": "Eibar",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2829",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22650627,
+      "debut": "2020-12-20T20:00:00+00:00",
+      "home": "Lille",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 30,
+      "cote_N": 1.01,
+      "cote_2": 16
+    }
+  ]
+}

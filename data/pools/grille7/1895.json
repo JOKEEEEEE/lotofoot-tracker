@@ -1,0 +1,127 @@
+{
+  "grille_id": 1895,
+  "grille_type": "grille7",
+  "pool_id": 7001895,
+  "titre": "Grille 7 n°1895",
+  "statut": "CLOSED",
+  "fin": "2021-01-17T19:45:00+00:00",
+  "collecte_le": "2026-08-20T13:19:18.658331+00:00",
+  "mises_nettes": 11148.75,
+  "montant_distribue": 11148.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5574.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 70,
+      "winningsPerGrid": 79.63
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23390911,
+      "debut": "2021-01-17T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2687",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23031357,
+      "debut": "2021-01-17T19:45:00+00:00",
+      "home": "Saint-Trond",
+      "away": "O-H Louvain",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:2918",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 200,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22650715,
+      "debut": "2021-01-17T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Metz",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1651",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 130,
+      "cote_N": 10.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23320283,
+      "debut": "2021-01-17T20:00:00+00:00",
+      "home": "Gil Vicente",
+      "away": "Maritimo",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:3007",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 21,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23495905,
+      "debut": "2021-01-17T20:00:00+00:00",
+      "home": "Empoli",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2710",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 21571499,
+      "debut": "2021-01-17T21:15:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Atletico GO",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:7314",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 21571507,
+      "debut": "2021-01-17T23:30:00+00:00",
+      "home": "Ceara CE",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1999",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 27,
+      "cote_N": 1.01,
+      "cote_2": 19
+    }
+  ]
+}

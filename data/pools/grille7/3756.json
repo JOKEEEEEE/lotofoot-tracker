@@ -1,0 +1,136 @@
+{
+  "grille_id": 3756,
+  "grille_type": "grille7",
+  "pool_id": 7003756,
+  "titre": "Grille 7 n°3756",
+  "statut": "CLOSED",
+  "fin": "2025-06-20T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:22:42.250852+00:00",
+  "mises_nettes": 2661.75,
+  "montant_distribue": 3000,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100111100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 750
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 43,
+      "winningsPerGrid": 34.88
+    }
+  ],
+  "repartition": [
+    0,
+    116,
+    852,
+    1096,
+    667,
+    218,
+    28,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 56189367,
+      "debut": "2025-06-20T18:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:38",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61157877,
+      "debut": "2025-06-22T18:30:00+00:00",
+      "home": "Salernitana",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2711",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525775,
+      "debut": "2025-06-20T18:45:00+00:00",
+      "home": "Galway United",
+      "away": "St Patrick's",
+      "home_id": "sr:competitor:3172",
+      "away_id": "sr:competitor:3169",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525777,
+      "debut": "2025-06-20T18:45:00+00:00",
+      "home": "Shelbourne",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3174",
+      "away_id": "sr:competitor:3170",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525779,
+      "debut": "2025-06-20T18:45:00+00:00",
+      "home": "Waterford",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3194",
+      "away_id": "sr:competitor:3173",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60597481,
+      "debut": "2025-06-20T22:00:00+00:00",
+      "home": "Los Angeles FC",
+      "away": "Espérance de Tunis",
+      "home_id": "sr:competitor:402227",
+      "away_id": "sr:competitor:59628",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189343,
+      "debut": "2025-06-21T01:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:3202",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

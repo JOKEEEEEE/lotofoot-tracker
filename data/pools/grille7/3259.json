@@ -1,0 +1,136 @@
+{
+  "grille_id": 3259,
+  "grille_type": "grille7",
+  "pool_id": 7003259,
+  "titre": "Grille 7 n°3259",
+  "statut": "CLOSED",
+  "fin": "2024-03-11T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:04:26.017713+00:00",
+  "mises_nettes": 13404.75,
+  "montant_distribue": 13404.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 837.8
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 129,
+      "winningsPerGrid": 51.96
+    }
+  ],
+  "repartition": [
+    485,
+    2633,
+    5492,
+    5437,
+    2855,
+    834,
+    129,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 42005749,
+      "debut": "2024-03-11T19:45:00+00:00",
+      "home": "Grenoble",
+      "away": "Laval",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1673",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134661,
+      "debut": "2024-03-11T19:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2695",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763393,
+      "debut": "2024-03-11T20:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:39",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893445,
+      "debut": "2024-03-11T20:00:00+00:00",
+      "home": "Almeria",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:2833",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146613,
+      "debut": "2024-03-11T20:15:00+00:00",
+      "home": "Gil Vicente",
+      "away": "Chaves",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:3025",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42147413,
+      "debut": "2024-03-11T20:15:00+00:00",
+      "home": "AVS Futebol SAD",
+      "away": "Feirense",
+      "home_id": "sr:competitor:1031053",
+      "away_id": "sr:competitor:4501",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46656573,
+      "debut": "2024-03-11T22:30:00+00:00",
+      "home": "Tigre",
+      "away": "Lanus",
+      "home_id": "sr:competitor:7628",
+      "away_id": "sr:competitor:3218",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

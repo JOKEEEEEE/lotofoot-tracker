@@ -1,0 +1,127 @@
+{
+  "grille_id": 1556,
+  "grille_type": "grille7",
+  "pool_id": 7001556,
+  "titre": "Grille 7 n°1556",
+  "statut": "CLOSED",
+  "fin": "2020-02-11T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:38:32.695659+00:00",
+  "mises_nettes": 12792.75,
+  "montant_distribue": 12792.75,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 1066.06
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 108,
+      "winningsPerGrid": 59.23
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18490546,
+      "debut": "2020-02-11T19:45:00+00:00",
+      "home": "Brentford",
+      "away": "Leeds",
+      "home_id": "sr:competitor:50",
+      "away_id": "sr:competitor:34",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490542,
+      "debut": "2020-02-11T19:45:00+00:00",
+      "home": "Barnsley",
+      "away": "Birmingham",
+      "home_id": "sr:competitor:23",
+      "away_id": "sr:competitor:9",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490544,
+      "debut": "2020-02-11T19:45:00+00:00",
+      "home": "Blackburn",
+      "away": "Hull City",
+      "home_id": "sr:competitor:46",
+      "away_id": "sr:competitor:96",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490548,
+      "debut": "2020-02-11T19:45:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Charlton",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:47",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490550,
+      "debut": "2020-02-11T19:45:00+00:00",
+      "home": "Swansea",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:1",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490552,
+      "debut": "2020-02-11T19:45:00+00:00",
+      "home": "Wigan",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:49",
+      "away_id": "sr:competitor:36",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21172473,
+      "debut": "2020-02-11T19:55:00+00:00",
+      "home": "Belfort",
+      "away": "Rennes",
+      "home_id": "sr:competitor:86364",
+      "away_id": "sr:competitor:1658",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

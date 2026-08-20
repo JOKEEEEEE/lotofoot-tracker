@@ -1,0 +1,127 @@
+{
+  "grille_id": 353,
+  "grille_type": "grille7",
+  "pool_id": 7000353,
+  "titre": "Grille 7 n°353",
+  "statut": "CLOSED",
+  "fin": "2016-10-15T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:25:59.407454+00:00",
+  "mises_nettes": 7462.5,
+  "montant_distribue": 7462.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 621.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 90,
+      "winningsPerGrid": 41.46
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9539639,
+      "debut": "2016-10-15T18:00:00+00:00",
+      "home": "Bastia",
+      "away": "Angers",
+      "home_id": "sr:competitor:1655",
+      "away_id": "sr:competitor:1684",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539645,
+      "debut": "2016-10-15T18:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Lille",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1643",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539631,
+      "debut": "2016-10-15T18:00:00+00:00",
+      "home": "Lorient",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1647",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539633,
+      "debut": "2016-10-15T18:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Caen",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1667",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9720651,
+      "debut": "2016-10-15T18:30:00+00:00",
+      "home": "Mouscron",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:44019",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9640439,
+      "debut": "2016-10-15T18:45:00+00:00",
+      "home": "AZ Alkmaar",
+      "away": "Vitesse Arnhem",
+      "home_id": "sr:competitor:2950",
+      "away_id": "sr:competitor:2958",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769303,
+      "debut": "2016-10-15T18:45:00+00:00",
+      "home": "Betis Séville",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2829",
+      "score_home": 1,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

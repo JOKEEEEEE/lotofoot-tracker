@@ -1,0 +1,127 @@
+{
+  "grille_id": 86,
+  "grille_type": "grille7",
+  "pool_id": 7000086,
+  "titre": "Grille 7 n°86",
+  "statut": "CLOSED",
+  "fin": "2015-12-14T19:15:00+00:00",
+  "collecte_le": "2026-08-20T12:51:42.611362+00:00",
+  "mises_nettes": 9110.25,
+  "montant_distribue": 9110.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 175.2
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 297,
+      "winningsPerGrid": 15.34
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7517360,
+      "debut": "2015-12-14T19:15:00+00:00",
+      "home": "Arminia Bielefeld",
+      "away": "St. Pauli",
+      "home_id": "sr:competitor:2540",
+      "away_id": "sr:competitor:2526",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474506,
+      "debut": "2015-12-14T19:30:00+00:00",
+      "home": "Nancy",
+      "away": "Valenciennes",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:5061",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989096,
+      "debut": "2015-12-14T19:30:00+00:00",
+      "home": "Novara",
+      "away": "Trapani",
+      "home_id": "sr:competitor:2767",
+      "away_id": "sr:competitor:43686",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466240,
+      "debut": "2015-12-14T19:45:00+00:00",
+      "home": "Blackburn",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:46",
+      "away_id": "sr:competitor:14",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689478,
+      "debut": "2015-12-14T19:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2711",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7464752,
+      "debut": "2015-12-14T20:00:00+00:00",
+      "home": "Leicester",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:38",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558200,
+      "debut": "2015-12-14T20:00:00+00:00",
+      "home": "Academica Coimbra",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:3015",
+      "away_id": "sr:competitor:3004",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

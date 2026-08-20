@@ -1,0 +1,136 @@
+{
+  "grille_id": 3763,
+  "grille_type": "grille7",
+  "pool_id": 7003763,
+  "titre": "Grille 7 n°3763",
+  "statut": "CLOSED",
+  "fin": "2025-06-27T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:21:50.133374+00:00",
+  "mises_nettes": 3540,
+  "montant_distribue": 3540,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 252.86
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 89,
+      "winningsPerGrid": 19.89
+    }
+  ],
+  "repartition": [
+    65,
+    379,
+    1021,
+    1497,
+    1201,
+    461,
+    89,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 56525793,
+      "debut": "2025-06-27T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3190",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525795,
+      "debut": "2025-06-27T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "St Patrick's",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:3169",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525797,
+      "debut": "2025-06-27T18:45:00+00:00",
+      "home": "Derry City",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:3170",
+      "away_id": "sr:competitor:3180",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525799,
+      "debut": "2025-06-27T18:45:00+00:00",
+      "home": "Galway United",
+      "away": "Shelbourne",
+      "home_id": "sr:competitor:3172",
+      "away_id": "sr:competitor:3174",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525801,
+      "debut": "2025-06-27T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Waterford",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3194",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57381399,
+      "debut": "2025-06-28T00:00:00+00:00",
+      "home": "Deportivo Cuenca",
+      "away": "Mushuc Runa",
+      "home_id": "sr:competitor:5251",
+      "away_id": "sr:competitor:134976",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57436861,
+      "debut": "2025-06-28T09:30:00+00:00",
+      "home": "Shimizu S-Pulse",
+      "away": "Kashiwa Reysol",
+      "home_id": "sr:competitor:3133",
+      "away_id": "sr:competitor:3140",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

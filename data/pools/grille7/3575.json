@@ -1,0 +1,136 @@
+{
+  "grille_id": 3575,
+  "grille_type": "grille7",
+  "pool_id": 7003575,
+  "titre": "Grille 7 n°3575",
+  "statut": "CLOSED",
+  "fin": "2024-12-23T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:41:37.763563+00:00",
+  "mises_nettes": 6061.5,
+  "montant_distribue": 6061.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 606.15
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 77,
+      "winningsPerGrid": 39.36
+    }
+  ],
+  "repartition": [
+    30,
+    295,
+    2312,
+    3071,
+    1750,
+    542,
+    77,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 51472101,
+      "debut": "2024-12-23T17:00:00+00:00",
+      "home": "Hatayspor",
+      "away": "Adana Demirspor",
+      "home_id": "sr:competitor:3091",
+      "away_id": "sr:competitor:3101",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51472107,
+      "debut": "2024-12-23T17:00:00+00:00",
+      "home": "Istanbul Basaksehir",
+      "away": "Kasimpasa",
+      "home_id": "sr:competitor:3086",
+      "away_id": "sr:competitor:6063",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271747,
+      "debut": "2024-12-23T17:30:00+00:00",
+      "home": "Fiorentina",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2695",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388959,
+      "debut": "2024-12-23T18:45:00+00:00",
+      "home": "Benfica",
+      "away": "Estoril",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:4500",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388961,
+      "debut": "2024-12-23T18:45:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Nacional Madeira ",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3013",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271753,
+      "debut": "2024-12-23T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Côme",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2704",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388965,
+      "debut": "2024-12-23T20:45:00+00:00",
+      "home": "CF Estrela Amadora",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:744135",
+      "away_id": "sr:competitor:3036",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

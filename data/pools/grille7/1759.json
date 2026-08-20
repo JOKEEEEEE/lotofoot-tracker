@@ -1,0 +1,127 @@
+{
+  "grille_id": 1759,
+  "grille_type": "grille7",
+  "pool_id": 7001759,
+  "titre": "Grille 7 n°1759",
+  "statut": "CLOSED",
+  "fin": "2020-09-30T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:17:02.051408+00:00",
+  "mises_nettes": 15588,
+  "montant_distribue": 15588,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 49,
+      "winningsPerGrid": 159.06
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 557,
+      "winningsPerGrid": 13.99
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23390471,
+      "debut": "2020-09-30T18:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23718147,
+      "debut": "2020-09-30T18:45:00+00:00",
+      "home": "Brighton",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:35",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23718141,
+      "debut": "2020-09-30T18:45:00+00:00",
+      "home": "Everton",
+      "away": "West Ham",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:37",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23581547,
+      "debut": "2020-09-30T19:00:00+00:00",
+      "home": "PAOK Salonique",
+      "away": "FK Krasnodar",
+      "home_id": "sr:competitor:3251",
+      "away_id": "sr:competitor:34425",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 160,
+      "cote_N": 12.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23595109,
+      "debut": "2020-09-30T19:00:00+00:00",
+      "home": "Midtjylland",
+      "away": "Slavia Prague",
+      "home_id": "sr:competitor:1289",
+      "away_id": "sr:competitor:2216",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360383,
+      "debut": "2020-09-30T19:30:00+00:00",
+      "home": "Eibar",
+      "away": "Elche",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2846",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 20,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23360391,
+      "debut": "2020-09-30T19:30:00+00:00",
+      "home": "Real Madrid",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2831",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 23,
+      "cote_2": 250
+    }
+  ]
+}

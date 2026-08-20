@@ -1,0 +1,127 @@
+{
+  "grille_id": 1381,
+  "grille_type": "grille7",
+  "pool_id": 7001381,
+  "titre": "Grille 7 n°1381",
+  "statut": "CLOSED",
+  "fin": "2019-09-22T15:00:00+00:00",
+  "collecte_le": "2026-08-20T10:54:02.275528+00:00",
+  "mises_nettes": 20424,
+  "montant_distribue": 20424,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 51,
+      "winningsPerGrid": 200.24
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 618,
+      "winningsPerGrid": 16.52
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18440024,
+      "debut": "2019-09-22T15:00:00+00:00",
+      "home": "Angers",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1678",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427628,
+      "debut": "2019-09-22T15:30:00+00:00",
+      "home": "Chelsea",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427624,
+      "debut": "2019-09-22T15:30:00+00:00",
+      "home": "Arsenal",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:40",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18571790,
+      "debut": "2019-09-22T16:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:2673",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18926844,
+      "debut": "2019-09-22T16:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2693",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640732,
+      "debut": "2019-09-22T19:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440014,
+      "debut": "2019-09-22T19:00:00+00:00",
+      "home": "Lyon",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

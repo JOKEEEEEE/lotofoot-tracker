@@ -1,0 +1,127 @@
+{
+  "grille_id": 428,
+  "grille_type": "grille7",
+  "pool_id": 7000428,
+  "titre": "Grille 7 n°428",
+  "statut": "CLOSED",
+  "fin": "2017-01-04T17:30:00+00:00",
+  "collecte_le": "2026-08-20T12:19:18.941202+00:00",
+  "mises_nettes": 8470.5,
+  "montant_distribue": 8470.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 21,
+      "winningsPerGrid": 201.68
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 317,
+      "winningsPerGrid": 13.36
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10044695,
+      "debut": "2017-01-04T17:30:00+00:00",
+      "home": "Olympiakos",
+      "away": "Asteras Tripolis",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:6342",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10798558,
+      "debut": "2017-01-04T18:00:00+00:00",
+      "home": "Alcorcon",
+      "away": "Cordoue",
+      "home_id": "sr:competitor:24322",
+      "away_id": "sr:competitor:2850",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10798564,
+      "debut": "2017-01-04T18:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2819",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600137,
+      "debut": "2017-01-04T20:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:38",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10798562,
+      "debut": "2017-01-04T20:15:00+00:00",
+      "home": "Real Madrid",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2833",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10563446,
+      "debut": "2017-01-04T20:15:00+00:00",
+      "home": "Vitoria Setubal",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3008",
+      "away_id": "sr:competitor:3001",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10563448,
+      "debut": "2017-01-04T20:15:00+00:00",
+      "home": "Arouca",
+      "away": "SC Varzim",
+      "home_id": "sr:competitor:25777",
+      "away_id": "sr:competitor:3005",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

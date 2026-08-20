@@ -1,0 +1,136 @@
+{
+  "grille_id": 3096,
+  "grille_type": "grille7",
+  "pool_id": 7003096,
+  "titre": "Grille 7 n°3096",
+  "statut": "CLOSED",
+  "fin": "2023-10-31T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:15:00.524177+00:00",
+  "mises_nettes": 9026.25,
+  "montant_distribue": 9026.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 644.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 90,
+      "winningsPerGrid": 50.15
+    }
+  ],
+  "repartition": [
+    196,
+    1405,
+    3915,
+    3836,
+    2000,
+    586,
+    90,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 44182294,
+      "debut": "2023-10-31T19:45:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Heidenheim",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:5885",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44182320,
+      "debut": "2023-10-31T19:45:00+00:00",
+      "home": "Kaiserslautern",
+      "away": "FC Cologne",
+      "home_id": "sr:competitor:2675",
+      "away_id": "sr:competitor:2671",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44182272,
+      "debut": "2023-10-31T19:45:00+00:00",
+      "home": "Arminia Bielefeld",
+      "away": "Hambourg",
+      "home_id": "sr:competitor:2540",
+      "away_id": "sr:competitor:2676",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44182278,
+      "debut": "2023-10-31T19:45:00+00:00",
+      "home": "SpVgg Unterhaching",
+      "away": "Fortuna Dusseldorf",
+      "home_id": "sr:competitor:2555",
+      "away_id": "sr:competitor:2588",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42021457,
+      "debut": "2023-10-31T19:45:00+00:00",
+      "home": "Hibernian FC",
+      "away": "Ross County",
+      "home_id": "sr:competitor:2354",
+      "away_id": "sr:competitor:2365",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44070994,
+      "debut": "2023-10-31T19:45:00+00:00",
+      "home": "Mansfield",
+      "away": "Port Vale",
+      "home_id": "sr:competitor:70",
+      "away_id": "sr:competitor:55",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44071014,
+      "debut": "2023-10-31T19:45:00+00:00",
+      "home": "Exeter",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:86",
+      "away_id": "sr:competitor:36",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

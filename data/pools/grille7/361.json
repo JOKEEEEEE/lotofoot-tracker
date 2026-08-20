@@ -1,0 +1,127 @@
+{
+  "grille_id": 361,
+  "grille_type": "grille7",
+  "pool_id": 7000361,
+  "titre": "Grille 7 n°361",
+  "statut": "CLOSED",
+  "fin": "2016-10-23T15:00:00+00:00",
+  "collecte_le": "2026-08-20T12:25:28.905195+00:00",
+  "mises_nettes": 12677.25,
+  "montant_distribue": 12677.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 41,
+      "winningsPerGrid": 154.6
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 635,
+      "winningsPerGrid": 9.98
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9539665,
+      "debut": "2016-10-23T15:00:00+00:00",
+      "home": "Metz",
+      "away": "Nice",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1661",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9599907,
+      "debut": "2016-10-23T15:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:35",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9690109,
+      "debut": "2016-10-23T15:30:00+00:00",
+      "home": "Schalke 04",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:2556",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9820923,
+      "debut": "2016-10-23T16:00:00+00:00",
+      "home": "Bologne",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2793",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769327,
+      "debut": "2016-10-23T16:30:00+00:00",
+      "home": "Malaga",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2845",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539653,
+      "debut": "2016-10-23T18:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769323,
+      "debut": "2016-10-23T18:45:00+00:00",
+      "home": "Real Madrid",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2825",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

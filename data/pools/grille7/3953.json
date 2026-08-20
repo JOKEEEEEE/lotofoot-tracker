@@ -1,0 +1,136 @@
+{
+  "grille_id": 3953,
+  "grille_type": "grille7",
+  "pool_id": 7003953,
+  "titre": "Grille 7 n°3953",
+  "statut": "CLOSED",
+  "fin": "2026-01-09T19:00:00+00:00",
+  "collecte_le": "2026-08-20T06:35:22.265182+00:00",
+  "mises_nettes": 6998.25,
+  "montant_distribue": 6998.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001100010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1749.57
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 46,
+      "winningsPerGrid": 76.07
+    }
+  ],
+  "repartition": [
+    363,
+    1636,
+    2947,
+    2722,
+    1273,
+    342,
+    46,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 61499221,
+      "debut": "2026-01-09T19:00:00+00:00",
+      "home": "Cameroun",
+      "away": "Maroc",
+      "home_id": "sr:competitor:4751",
+      "away_id": "sr:competitor:4778",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 5.9,
+      "cote_N": 3.7,
+      "cote_2": 1.42
+    },
+    {
+      "match_id": 61513882,
+      "debut": "2026-01-09T19:30:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:2673",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 3.05,
+      "cote_N": 3.3,
+      "cote_2": 1.9
+    },
+    {
+      "match_id": 66577270,
+      "debut": "2026-01-09T19:30:00+00:00",
+      "home": "Milton Keynes ",
+      "away": "Oxford United",
+      "home_id": "sr:competitor:4",
+      "away_id": "sr:competitor:95",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.7,
+      "cote_N": 3.05,
+      "cote_2": 2.15
+    },
+    {
+      "match_id": 66577156,
+      "debut": "2026-01-09T19:30:00+00:00",
+      "home": "Port Vale",
+      "away": "Fleetwood Town",
+      "home_id": "sr:competitor:55",
+      "away_id": "sr:competitor:23959",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.68,
+      "cote_N": 3.3,
+      "cote_2": 3.9
+    },
+    {
+      "match_id": 66577234,
+      "debut": "2026-01-09T19:30:00+00:00",
+      "home": "Preston North End",
+      "away": "Wigan",
+      "home_id": "sr:competitor:21",
+      "away_id": "sr:competitor:49",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.84,
+      "cote_N": 3.3,
+      "cote_2": 4.1
+    },
+    {
+      "match_id": 66577238,
+      "debut": "2026-01-09T19:30:00+00:00",
+      "home": "Wrexham",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:64",
+      "away_id": "sr:competitor:14",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 4.2,
+      "cote_N": 3.45,
+      "cote_2": 1.6
+    },
+    {
+      "match_id": 61624300,
+      "debut": "2026-01-09T20:00:00+00:00",
+      "home": "Getafe",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2824",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3.1,
+      "cote_N": 2.6,
+      "cote_2": 2.15
+    }
+  ]
+}

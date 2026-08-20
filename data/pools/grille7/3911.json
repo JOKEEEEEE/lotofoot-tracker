@@ -1,0 +1,136 @@
+{
+  "grille_id": 3911,
+  "grille_type": "grille7",
+  "pool_id": 7003911,
+  "titre": "Grille 7 n°3911",
+  "statut": "CLOSED",
+  "fin": "2025-11-28T19:30:00+00:00",
+  "collecte_le": "2026-08-20T06:45:09.474506+00:00",
+  "mises_nettes": 9429.75,
+  "montant_distribue": 9429.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 589.36
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 164,
+      "winningsPerGrid": 28.75
+    }
+  ],
+  "repartition": [
+    113,
+    928,
+    2730,
+    4135,
+    3350,
+    1145,
+    164,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 61513816,
+      "debut": "2025-11-28T19:30:00+00:00",
+      "home": "Borussia Mönchengladbach",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:36360",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.5,
+      "cote_N": 3.25,
+      "cote_2": 2.05
+    },
+    {
+      "match_id": 61526224,
+      "debut": "2025-11-28T19:45:00+00:00",
+      "home": "Metz",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1658",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.3,
+      "cote_N": 3.3,
+      "cote_2": 1.72
+    },
+    {
+      "match_id": 61061065,
+      "debut": "2025-11-28T19:45:00+00:00",
+      "home": "Côme",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2704",
+      "away_id": "sr:competitor:2793",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.2,
+      "cote_2": 3.95
+    },
+    {
+      "match_id": 61358891,
+      "debut": "2025-11-28T19:45:00+00:00",
+      "home": "Malines",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:5044",
+      "away_id": "sr:competitor:2901",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.15,
+      "cote_N": 2.9,
+      "cote_2": 2.55
+    },
+    {
+      "match_id": 61624216,
+      "debut": "2025-11-28T20:00:00+00:00",
+      "home": "Getafe",
+      "away": "Elche",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2846",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2,
+      "cote_N": 2.6,
+      "cote_2": 3.2
+    },
+    {
+      "match_id": 61490725,
+      "debut": "2025-11-28T20:00:00+00:00",
+      "home": "Oxford United",
+      "away": "Ipswich",
+      "home_id": "sr:competitor:95",
+      "away_id": "sr:competitor:32",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 5,
+      "cote_N": 3.45,
+      "cote_2": 1.45
+    },
+    {
+      "match_id": 61731076,
+      "debut": "2025-11-28T20:15:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "AVS Futebol SAD",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:1031053",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.66,
+      "cote_N": 2.95,
+      "cote_2": 4
+    }
+  ]
+}

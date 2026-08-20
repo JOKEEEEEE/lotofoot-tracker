@@ -1,0 +1,136 @@
+{
+  "grille_id": 2792,
+  "grille_type": "grille7",
+  "pool_id": 7002792,
+  "titre": "Grille 7 n°2792",
+  "statut": "CLOSED",
+  "fin": "2023-02-12T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:48:22.418669+00:00",
+  "mises_nettes": 9324,
+  "montant_distribue": 9324,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 111,
+      "winningsPerGrid": 42
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 844,
+      "winningsPerGrid": 5.52
+    }
+  ],
+  "repartition": [
+    29,
+    403,
+    1576,
+    3225,
+    3712,
+    2532,
+    844,
+    111
+  ],
+  "matches": [
+    {
+      "match_id": 34172447,
+      "debut": "2023-02-12T19:45:00+00:00",
+      "home": "Lyon",
+      "away": "Lens",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1648",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286947,
+      "debut": "2023-02-12T19:45:00+00:00",
+      "home": "Naples",
+      "away": "Cremonese",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2761",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277611,
+      "debut": "2023-02-12T20:00:00+00:00",
+      "home": "Villarreal",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278977,
+      "debut": "2023-02-12T20:00:00+00:00",
+      "home": "UD Ibiza",
+      "away": "Ponferradina",
+      "home_id": "sr:competitor:24368",
+      "away_id": "sr:competitor:6195",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545601,
+      "debut": "2023-02-12T20:00:00+00:00",
+      "home": "Rosario Central",
+      "away": "Arsenal Sarandi",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:3221",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545613,
+      "debut": "2023-02-12T20:00:00+00:00",
+      "home": "Banfield",
+      "away": "Gimnasia La Plata",
+      "home_id": "sr:competitor:3219",
+      "away_id": "sr:competitor:3205",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504909,
+      "debut": "2023-02-12T20:30:00+00:00",
+      "home": "Maritimo",
+      "away": "Braga",
+      "home_id": "sr:competitor:3007",
+      "away_id": "sr:competitor:2999",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

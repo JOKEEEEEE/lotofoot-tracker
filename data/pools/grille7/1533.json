@@ -1,0 +1,127 @@
+{
+  "grille_id": 1533,
+  "grille_type": "grille7",
+  "pool_id": 7001533,
+  "titre": "Grille 7 n°1533",
+  "statut": "CLOSED",
+  "fin": "2020-01-25T19:00:00+00:00",
+  "collecte_le": "2026-08-20T13:22:18.505093+00:00",
+  "mises_nettes": 8518.5,
+  "montant_distribue": 8518.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 327.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 213,
+      "winningsPerGrid": 20
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18440320,
+      "debut": "2020-01-25T19:00:00+00:00",
+      "home": "Monaco",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1659",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440318,
+      "debut": "2020-01-25T19:00:00+00:00",
+      "home": "Brest",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1676",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440324,
+      "debut": "2020-01-25T19:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1686",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440326,
+      "debut": "2020-01-25T19:00:00+00:00",
+      "home": "Reims",
+      "away": "Metz",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1651",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440336,
+      "debut": "2020-01-25T19:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Nîmes",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1663",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927184,
+      "debut": "2020-01-25T19:45:00+00:00",
+      "home": "Torino",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2686",
+      "score_home": 0,
+      "score_away": 7,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18641052,
+      "debut": "2020-01-25T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:33779",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

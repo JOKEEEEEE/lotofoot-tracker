@@ -1,0 +1,127 @@
+{
+  "grille_id": 1459,
+  "grille_type": "grille7",
+  "pool_id": 7001459,
+  "titre": "Grille 7 n°1459",
+  "statut": "CLOSED",
+  "fin": "2019-11-24T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:47:57.315049+00:00",
+  "mises_nettes": 8460,
+  "montant_distribue": 8460,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 40,
+      "winningsPerGrid": 105.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 386,
+      "winningsPerGrid": 10.96
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18927030,
+      "debut": "2019-11-25T14:00:00+00:00",
+      "home": "Lecce",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2689",
+      "away_id": "sr:competitor:2719",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440172,
+      "debut": "2019-11-24T20:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640916,
+      "debut": "2019-11-24T20:00:00+00:00",
+      "home": "Real Valladolid",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2831",
+      "away_id": "sr:competitor:2833",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030232,
+      "debut": "2019-11-24T20:00:00+00:00",
+      "home": "Spezia",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:2801",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18659336,
+      "debut": "2019-11-24T20:00:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Lugo",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:24332",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20179995,
+      "debut": "2019-11-24T20:00:00+00:00",
+      "home": "Chaves",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:3025",
+      "away_id": "sr:competitor:3004",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789462,
+      "debut": "2019-11-24T21:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1957",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1451,
+  "grille_type": "grille7",
+  "pool_id": 7001451,
+  "titre": "Grille 7 n°1451",
+  "statut": "CLOSED",
+  "fin": "2019-11-16T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:48:15.321667+00:00",
+  "mises_nettes": 11710.5,
+  "montant_distribue": 11710.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 50,
+      "winningsPerGrid": 117.11
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 654,
+      "winningsPerGrid": 8.95
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16410708,
+      "debut": "2019-11-16T19:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Biélorussie",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4743",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16410702,
+      "debut": "2019-11-16T19:45:00+00:00",
+      "home": "Israël",
+      "away": "Pologne",
+      "home_id": "sr:competitor:4480",
+      "away_id": "sr:competitor:4703",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16410704,
+      "debut": "2019-11-16T19:45:00+00:00",
+      "home": "Autriche",
+      "away": "Macédoine du Nord",
+      "home_id": "sr:competitor:4718",
+      "away_id": "sr:competitor:4777",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16410706,
+      "debut": "2019-11-16T19:45:00+00:00",
+      "home": "Irlande du Nord",
+      "away": "Pays-Bas",
+      "home_id": "sr:competitor:4786",
+      "away_id": "sr:competitor:4705",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16416585,
+      "debut": "2019-11-16T19:45:00+00:00",
+      "home": "Croatie",
+      "away": "Slovaquie",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:4697",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789448,
+      "debut": "2019-11-16T20:00:00+00:00",
+      "home": "Santos",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18659330,
+      "debut": "2019-11-16T20:00:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Albacete",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:2848",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

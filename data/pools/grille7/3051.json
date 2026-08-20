@@ -1,0 +1,136 @@
+{
+  "grille_id": 3051,
+  "grille_type": "grille7",
+  "pool_id": 7003051,
+  "titre": "Grille 7 n°3051",
+  "statut": "CLOSED",
+  "fin": "2023-09-24T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:18:18.358538+00:00",
+  "mises_nettes": 9822.75,
+  "montant_distribue": 9822.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010010100010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 818.56
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 122,
+      "winningsPerGrid": 40.26
+    }
+  ],
+  "repartition": [
+    262,
+    1929,
+    4087,
+    3977,
+    2049,
+    665,
+    122,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 42004611,
+      "debut": "2023-09-24T18:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1641",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134201,
+      "debut": "2023-09-24T18:45:00+00:00",
+      "home": "Torino",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2702",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41892999,
+      "debut": "2023-09-24T19:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2829",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43339211,
+      "debut": "2023-09-24T19:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146213,
+      "debut": "2023-09-24T19:30:00+00:00",
+      "home": "Braga",
+      "away": "Boavista",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:2995",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38186339,
+      "debut": "2023-09-24T23:30:00+00:00",
+      "home": "Orlando City SC",
+      "away": "Inter Miami CF",
+      "home_id": "sr:competitor:52237",
+      "away_id": "sr:competitor:659691",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38186341,
+      "debut": "2023-09-25T04:30:00+00:00",
+      "home": "Austin FC",
+      "away": "Los Angeles Galaxy",
+      "home_id": "sr:competitor:772256",
+      "away_id": "sr:competitor:2513",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

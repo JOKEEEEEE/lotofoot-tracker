@@ -1,0 +1,127 @@
+{
+  "grille_id": 521,
+  "grille_type": "grille7",
+  "pool_id": 7000521,
+  "titre": "Grille 7 n°521",
+  "statut": "CLOSED",
+  "fin": "2017-04-16T15:00:00+00:00",
+  "collecte_le": "2026-08-20T13:31:57.839789+00:00",
+  "mises_nettes": 11563.5,
+  "montant_distribue": 11563.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100100111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 16,
+      "winningsPerGrid": 361.36
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 447,
+      "winningsPerGrid": 12.93
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9540195,
+      "debut": "2017-04-16T15:00:00+00:00",
+      "home": "Bastia",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1655",
+      "away_id": "sr:competitor:1649",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600387,
+      "debut": "2017-04-16T15:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:38",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9690499,
+      "debut": "2017-04-16T15:30:00+00:00",
+      "home": "Darmstadt",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:2576",
+      "away_id": "sr:competitor:2530",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769777,
+      "debut": "2017-04-16T16:30:00+00:00",
+      "home": "Betis Séville",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2839",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9914549,
+      "debut": "2017-04-16T17:00:00+00:00",
+      "home": "Spartak Moscou",
+      "away": "Zénith St-Pétersbourg",
+      "home_id": "sr:competitor:2323",
+      "away_id": "sr:competitor:2321",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769795,
+      "debut": "2017-04-16T18:45:00+00:00",
+      "home": "Grenade",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2821",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9540193,
+      "debut": "2017-04-16T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1678",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

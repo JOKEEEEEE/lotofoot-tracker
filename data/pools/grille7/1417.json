@@ -1,0 +1,127 @@
+{
+  "grille_id": 1417,
+  "grille_type": "grille7",
+  "pool_id": 7001417,
+  "titre": "Grille 7 n°1417",
+  "statut": "CLOSED",
+  "fin": "2019-10-20T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:50:45.045307+00:00",
+  "mises_nettes": 10757.25,
+  "montant_distribue": 10757.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1075.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 71,
+      "winningsPerGrid": 75.76
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18926932,
+      "debut": "2019-10-20T18:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Lecce",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2689",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640816,
+      "debut": "2019-10-20T19:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Levante",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2849",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030120,
+      "debut": "2019-10-20T19:00:00+00:00",
+      "home": "Empoli",
+      "away": "Cremonese",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2761",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18659242,
+      "debut": "2019-10-20T19:00:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:35092",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19936238,
+      "debut": "2019-10-20T19:00:00+00:00",
+      "home": "Philadelphia Union",
+      "away": "New York Red Bulls",
+      "home_id": "sr:competitor:39833",
+      "away_id": "sr:competitor:2506",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789318,
+      "debut": "2019-10-20T19:00:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Santos",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1968",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440104,
+      "debut": "2019-10-20T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1659",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

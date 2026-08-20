@@ -1,0 +1,127 @@
+{
+  "grille_id": 1265,
+  "grille_type": "grille7",
+  "pool_id": 7001265,
+  "titre": "Grille 7 n°1265",
+  "statut": "CLOSED",
+  "fin": "2019-05-25T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:03:33.009997+00:00",
+  "mises_nettes": 8504.25,
+  "montant_distribue": 8504.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001001100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 22,
+      "winningsPerGrid": 193.28
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 276,
+      "winningsPerGrid": 15.41
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18066039,
+      "debut": "2019-05-25T18:00:00+00:00",
+      "home": "RB Leipzig",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:36360",
+      "away_id": "sr:competitor:2672",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14777905,
+      "debut": "2019-05-25T18:00:00+00:00",
+      "home": "Slaven Belupo",
+      "away": "Rijeka",
+      "home_id": "sr:competitor:2042",
+      "away_id": "sr:competitor:2039",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160375,
+      "debut": "2019-05-25T18:30:00+00:00",
+      "home": "Bologne",
+      "away": "Naples",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2714",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17527375,
+      "debut": "2019-05-25T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Valence",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18251959,
+      "debut": "2019-05-25T19:00:00+00:00",
+      "home": "Benevento",
+      "away": "Cittadella",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:2717",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788908,
+      "debut": "2019-05-25T19:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1963",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16682159,
+      "debut": "2019-05-25T19:30:00+00:00",
+      "home": "Chicago Fire",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:2505",
+      "away_id": "sr:competitor:167510",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

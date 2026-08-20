@@ -1,0 +1,127 @@
+{
+  "grille_id": 1230,
+  "grille_type": "grille7",
+  "pool_id": 7001230,
+  "titre": "Grille 7 n°1230",
+  "statut": "CLOSED",
+  "fin": "2019-04-20T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:06:03.301336+00:00",
+  "mises_nettes": 9662.25,
+  "montant_distribue": 9662.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1610.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 113,
+      "winningsPerGrid": 42.75
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701301,
+      "debut": "2019-04-20T18:00:00+00:00",
+      "home": "Nice",
+      "away": "Caen",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1667",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701303,
+      "debut": "2019-04-20T18:00:00+00:00",
+      "home": "Nîmes",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:1645",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701309,
+      "debut": "2019-04-20T18:00:00+00:00",
+      "home": "Strasbourg",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1659",
+      "away_id": "sr:competitor:1642",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14971785,
+      "debut": "2019-04-20T18:00:00+00:00",
+      "home": "FK Krasnodar",
+      "away": "Zénith St-Pétersbourg",
+      "home_id": "sr:competitor:34425",
+      "away_id": "sr:competitor:2321",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14894579,
+      "debut": "2019-04-20T18:30:00+00:00",
+      "home": "Schalke 04",
+      "away": "Hoffenheim",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:2569",
+      "score_home": 2,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160275,
+      "debut": "2019-04-20T18:30:00+00:00",
+      "home": "Inter Milan",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2702",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109627,
+      "debut": "2019-04-20T18:45:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2824",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

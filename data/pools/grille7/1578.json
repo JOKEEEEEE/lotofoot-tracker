@@ -1,0 +1,127 @@
+{
+  "grille_id": 1578,
+  "grille_type": "grille7",
+  "pool_id": 7001578,
+  "titre": "Grille 7 n°1578",
+  "statut": "CLOSED",
+  "fin": "2020-02-27T20:00:00+00:00",
+  "collecte_le": "2026-08-20T10:36:11.015484+00:00",
+  "mises_nettes": 9552.75,
+  "montant_distribue": 9552.75,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "010111010001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1592.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 63,
+      "winningsPerGrid": 75.82
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 20694449,
+      "debut": "2020-02-27T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:2888",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20694333,
+      "debut": "2020-02-27T20:00:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:2859",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20694443,
+      "debut": "2020-02-27T20:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:3245",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20694433,
+      "debut": "2020-02-27T20:00:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "FC Copenhague",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:1284",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20694441,
+      "debut": "2020-02-27T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "CFR Cluj",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:5287",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20694455,
+      "debut": "2020-02-28T17:00:00+00:00",
+      "home": "Red Bull Salzbourg",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:2046",
+      "away_id": "sr:competitor:2674",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20694457,
+      "debut": "2020-02-27T20:00:00+00:00",
+      "home": "Benfica",
+      "away": "Shakhtar Donetsk",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3313",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

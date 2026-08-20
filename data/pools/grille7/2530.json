@@ -1,0 +1,136 @@
+{
+  "grille_id": 2530,
+  "grille_type": "grille7",
+  "pool_id": 7002530,
+  "titre": "Grille 7 n°2530",
+  "statut": "CLOSED",
+  "fin": "2022-07-06T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:09:25.209142+00:00",
+  "mises_nettes": 3873,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 181.82
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 162,
+      "winningsPerGrid": 12.35
+    }
+  ],
+  "repartition": [
+    26,
+    261,
+    829,
+    1584,
+    1588,
+    703,
+    162,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 30123593,
+      "debut": "2022-07-06T19:00:00+00:00",
+      "home": "Angleterre (F)",
+      "away": "Autriche (F)",
+      "home_id": "sr:competitor:7415",
+      "away_id": "sr:competitor:34014",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842209,
+      "debut": "2022-07-06T22:15:00+00:00",
+      "home": "Colon De Santa Fe",
+      "away": "CA Talleres",
+      "home_id": "sr:competitor:3207",
+      "away_id": "sr:competitor:3210",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842281,
+      "debut": "2022-07-06T22:15:00+00:00",
+      "home": "Ceara CE",
+      "away": "The Strongest",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:32529",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842199,
+      "debut": "2022-07-07T00:30:00+00:00",
+      "home": "River Plate",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:3208",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842193,
+      "debut": "2022-07-07T00:30:00+00:00",
+      "home": "Flamengo",
+      "away": "Tolima",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:6111",
+      "score_home": 7,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842271,
+      "debut": "2022-07-07T00:30:00+00:00",
+      "home": "Santos",
+      "away": "Deportivo Tachira",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:6231",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33842279,
+      "debut": "2022-07-07T00:30:00+00:00",
+      "home": "FBC Melgar",
+      "away": "Deportivo Cali",
+      "home_id": "sr:competitor:2308",
+      "away_id": "sr:competitor:6112",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

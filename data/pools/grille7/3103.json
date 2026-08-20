@@ -1,0 +1,136 @@
+{
+  "grille_id": 3103,
+  "grille_type": "grille7",
+  "pool_id": 7003103,
+  "titre": "Grille 7 n°3103",
+  "statut": "CLOSED",
+  "fin": "2023-11-05T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:14:38.277413+00:00",
+  "mises_nettes": 9261.75,
+  "montant_distribue": 9261.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 18,
+      "winningsPerGrid": 257.27
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 305,
+      "winningsPerGrid": 15.18
+    }
+  ],
+  "repartition": [
+    79,
+    867,
+    2488,
+    3805,
+    3271,
+    1516,
+    305,
+    18
+  ],
+  "matches": [
+    {
+      "match_id": 42004715,
+      "debut": "2023-11-05T19:45:00+00:00",
+      "home": "Nice",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1658",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134321,
+      "debut": "2023-11-05T19:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893137,
+      "debut": "2023-11-05T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2818",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984111,
+      "debut": "2023-11-05T20:00:00+00:00",
+      "home": "Club Deportivo Eldense",
+      "away": "Burgos CF",
+      "home_id": "sr:competitor:47321",
+      "away_id": "sr:competitor:2854",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146349,
+      "debut": "2023-11-05T20:30:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "CF Estrela Amadora",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:744135",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439615,
+      "debut": "2023-11-05T21:30:00+00:00",
+      "home": "Coritiba",
+      "away": "Goias",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1960",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44851594,
+      "debut": "2023-11-05T22:00:00+00:00",
+      "home": "Kansas City",
+      "away": "Saint Louis City SC",
+      "home_id": "sr:competitor:2509",
+      "away_id": "sr:competitor:874725",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

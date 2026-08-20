@@ -1,0 +1,127 @@
+{
+  "grille_id": 1816,
+  "grille_type": "grille7",
+  "pool_id": 7001816,
+  "titre": "Grille 7 n°1816",
+  "statut": "CLOSED",
+  "fin": "2020-11-14T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:11:08.325655+00:00",
+  "mises_nettes": 25758,
+  "montant_distribue": 25758,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 75,
+      "winningsPerGrid": 171.72
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 925,
+      "winningsPerGrid": 13.92
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21595875,
+      "debut": "2020-11-14T19:45:00+00:00",
+      "home": "Portugal",
+      "away": "France",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4481",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 180,
+      "cote_N": 6,
+      "cote_2": 1.02
+    },
+    {
+      "match_id": 21595879,
+      "debut": "2020-11-14T19:45:00+00:00",
+      "home": "Suède",
+      "away": "Croatie",
+      "home_id": "sr:competitor:4688",
+      "away_id": "sr:competitor:4715",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 17,
+      "cote_2": 150
+    },
+    {
+      "match_id": 21596099,
+      "debut": "2020-11-14T19:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Ukraine",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4701",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 21596161,
+      "debut": "2020-11-14T19:45:00+00:00",
+      "home": "Suisse",
+      "away": "Espagne",
+      "home_id": "sr:competitor:4699",
+      "away_id": "sr:competitor:4698",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 32,
+      "cote_N": 1.03,
+      "cote_2": 9
+    },
+    {
+      "match_id": 21571329,
+      "debut": "2020-11-14T20:00:00+00:00",
+      "home": "Goias",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1960",
+      "away_id": "sr:competitor:1967",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 17,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 24296665,
+      "debut": "2020-11-14T20:00:00+00:00",
+      "home": "Mexique",
+      "away": "Corée du Sud",
+      "home_id": "sr:competitor:4781",
+      "away_id": "sr:competitor:4735",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 13,
+      "cote_2": 170
+    },
+    {
+      "match_id": 21571327,
+      "debut": "2020-11-14T22:00:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1981",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 40,
+      "cote_2": 1
+    }
+  ]
+}

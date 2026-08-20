@@ -1,0 +1,127 @@
+{
+  "grille_id": 1580,
+  "grille_type": "grille7",
+  "pool_id": 7001580,
+  "titre": "Grille 7 n°1580",
+  "statut": "CLOSED",
+  "fin": "2020-02-29T14:00:00+00:00",
+  "collecte_le": "2026-08-20T13:21:36.231761+00:00",
+  "mises_nettes": 12763.5,
+  "montant_distribue": 12763.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1276.35
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 159,
+      "winningsPerGrid": 40.14
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18442566,
+      "debut": "2020-02-29T14:00:00+00:00",
+      "home": "Lorient",
+      "away": "Chambly",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:61612",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18572136,
+      "debut": "2020-02-29T14:30:00+00:00",
+      "home": "Augsbourg",
+      "away": "Borussia M'Gladbach",
+      "home_id": "sr:competitor:2600",
+      "away_id": "sr:competitor:2527",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18641156,
+      "debut": "2020-02-29T15:00:00+00:00",
+      "home": "Valence",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:2816",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18428066,
+      "debut": "2020-02-29T15:00:00+00:00",
+      "home": "Bournemouth",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:38",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18428082,
+      "debut": "2020-02-29T15:00:00+00:00",
+      "home": "West Ham",
+      "away": "Southampton",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:45",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18428074,
+      "debut": "2020-02-29T15:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Burnley",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:6",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440446,
+      "debut": "2020-02-29T16:30:00+00:00",
+      "home": "Paris SG",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1686",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1812,
+  "grille_type": "grille7",
+  "pool_id": 7001812,
+  "titre": "Grille 7 n°1812",
+  "statut": "CLOSED",
+  "fin": "2020-11-10T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:11:17.210226+00:00",
+  "mises_nettes": 7269,
+  "montant_distribue": 7269,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 39,
+      "winningsPerGrid": 93.19
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 367,
+      "winningsPerGrid": 9.9
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23714471,
+      "debut": "2020-11-10T19:45:00+00:00",
+      "home": "Crusaders",
+      "away": "Coleraine",
+      "home_id": "sr:competitor:5180",
+      "away_id": "sr:competitor:5270",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 15,
+      "cote_2": 225
+    },
+    {
+      "match_id": 23511877,
+      "debut": "2020-11-10T21:00:00+00:00",
+      "home": "Independiente Medellin",
+      "away": "Bucaramanga",
+      "home_id": "sr:competitor:6115",
+      "away_id": "sr:competitor:6103",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 34,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23511861,
+      "debut": "2020-11-10T23:05:00+00:00",
+      "home": "Deportivo Pereira",
+      "away": "Millonarios ",
+      "home_id": "sr:competitor:6109",
+      "away_id": "sr:competitor:6117",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23511881,
+      "debut": "2020-11-11T01:10:00+00:00",
+      "home": "Santa Fe",
+      "away": "Tolima",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:6111",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.02,
+      "cote_N": 9.5,
+      "cote_2": 110
+    },
+    {
+      "match_id": 24325605,
+      "debut": "2020-11-10T23:45:00+00:00",
+      "home": "Club River Plate Asuncion",
+      "away": "Guairena FC",
+      "home_id": "sr:competitor:90970",
+      "away_id": "sr:competitor:322375",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 8.5,
+      "cote_N": 1.06,
+      "cote_2": 12.5
+    },
+    {
+      "match_id": 24325607,
+      "debut": "2020-11-10T23:45:00+00:00",
+      "home": "General Diaz",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:87472",
+      "away_id": "sr:competitor:5996",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 225,
+      "cote_N": 15,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 24293415,
+      "debut": "2020-11-11T07:30:00+00:00",
+      "home": "Shijiazhuang Ever Bright",
+      "away": "Wuhan Zall FC",
+      "home_id": "sr:competitor:66440",
+      "away_id": "sr:competitor:41534",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 19,
+      "cote_2": 1.01
+    }
+  ]
+}

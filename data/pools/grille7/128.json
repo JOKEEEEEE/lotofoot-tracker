@@ -1,0 +1,127 @@
+{
+  "grille_id": 128,
+  "grille_type": "grille7",
+  "pool_id": 7000128,
+  "titre": "Grille 7 n°128",
+  "statut": "CLOSED",
+  "fin": "2016-01-28T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:46:51.813485+00:00",
+  "mises_nettes": 5971.5,
+  "montant_distribue": 5971.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 298.58
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 144,
+      "winningsPerGrid": 20.73
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8736160,
+      "debut": "2016-01-28T19:00:00+00:00",
+      "home": "Mirandes",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:35092",
+      "away_id": "sr:competitor:2833",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736154,
+      "debut": "2016-01-28T20:00:00+00:00",
+      "home": "Las Palmas",
+      "away": "Valence",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:2828",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474616,
+      "debut": "2016-01-29T19:00:00+00:00",
+      "home": "Tours",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1727",
+      "away_id": "sr:competitor:1660",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474614,
+      "debut": "2016-01-29T19:00:00+00:00",
+      "home": "Laval",
+      "away": "Niort",
+      "home_id": "sr:competitor:1673",
+      "away_id": "sr:competitor:1665",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474604,
+      "debut": "2016-01-29T19:00:00+00:00",
+      "home": "Évian TG",
+      "away": "Metz",
+      "home_id": "sr:competitor:21800",
+      "away_id": "sr:competitor:1651",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7518138,
+      "debut": "2016-01-29T19:30:00+00:00",
+      "home": "Mayence",
+      "away": "Borussia M'Gladbach",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:2527",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8715598,
+      "debut": "2016-01-29T19:55:00+00:00",
+      "home": "Derby County",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

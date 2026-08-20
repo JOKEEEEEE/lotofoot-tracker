@@ -1,0 +1,127 @@
+{
+  "grille_id": 560,
+  "grille_type": "grille7",
+  "pool_id": 7000560,
+  "titre": "Grille 7 n°560",
+  "statut": "CLOSED",
+  "fin": "2017-05-27T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:04:23.195466+00:00",
+  "mises_nettes": 6023.25,
+  "montant_distribue": 6023.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 255,
+      "winningsPerGrid": 11.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1093,
+      "winningsPerGrid": 2.76
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11578351,
+      "debut": "2017-05-27T18:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:2673",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11719055,
+      "debut": "2017-05-27T18:30:00+00:00",
+      "home": "Racing Genk",
+      "away": "Saint-Trond",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2895",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11579555,
+      "debut": "2017-05-27T19:00:00+00:00",
+      "home": "Angers",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439175,
+      "debut": "2017-05-27T19:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:1961",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893660,
+      "debut": "2017-05-27T19:00:00+00:00",
+      "home": "Seattle Sounders",
+      "away": "Portland Timbers",
+      "home_id": "sr:competitor:22009",
+      "away_id": "sr:competitor:22007",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9935441,
+      "debut": "2017-05-27T19:15:00+00:00",
+      "home": "Banfield",
+      "away": "Temperley",
+      "home_id": "sr:competitor:3219",
+      "away_id": "sr:competitor:112499",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9935451,
+      "debut": "2017-05-27T20:15:00+00:00",
+      "home": "Newell's Old Boys",
+      "away": "Olimpo",
+      "home_id": "sr:competitor:3212",
+      "away_id": "sr:competitor:3222",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2664,
+  "grille_type": "grille7",
+  "pool_id": 7002664,
+  "titre": "Grille 7 n°2664",
+  "statut": "CLOSED",
+  "fin": "2022-10-24T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:58:59.731534+00:00",
+  "mises_nettes": 10503.75,
+  "montant_distribue": 10503.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 202
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 372,
+      "winningsPerGrid": 14.12
+    }
+  ],
+  "repartition": [
+    151,
+    1070,
+    2956,
+    4168,
+    3516,
+    1746,
+    372,
+    26
+  ],
+  "matches": [
+    {
+      "match_id": 34171531,
+      "debut": "2022-10-24T18:45:00+00:00",
+      "home": "Le Havre",
+      "away": "Metz",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1651",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286729,
+      "debut": "2022-10-24T18:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2701",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34151941,
+      "debut": "2022-10-24T19:00:00+00:00",
+      "home": "West Ham",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:60",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277399,
+      "debut": "2022-10-24T19:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278661,
+      "debut": "2022-10-24T19:00:00+00:00",
+      "home": "Real Oviedo",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:2830",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504743,
+      "debut": "2022-10-24T19:15:00+00:00",
+      "home": "Rio Ave",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:3026",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839897,
+      "debut": "2022-10-24T19:30:00+00:00",
+      "home": "Rosario Central",
+      "away": "Colon De Santa Fe",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:3207",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 4046,
+  "grille_type": "grille7",
+  "pool_id": 7004046,
+  "titre": "Grille 7 n°4046",
+  "statut": "CLOSED",
+  "fin": "2026-04-15T19:00:00+00:00",
+  "collecte_le": "2026-08-20T06:13:39.559152+00:00",
+  "mises_nettes": 6526.5,
+  "montant_distribue": 6526.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1087.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 62,
+      "winningsPerGrid": 52.63
+    }
+  ],
+  "repartition": [
+    113,
+    787,
+    2181,
+    3138,
+    1936,
+    482,
+    62,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 69339424,
+      "debut": "2026-04-15T19:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:2829",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.47,
+      "cote_N": 4.9,
+      "cote_2": 4.2
+    },
+    {
+      "match_id": 69339428,
+      "debut": "2026-04-15T19:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:3001",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.52,
+      "cote_N": 3.85,
+      "cote_2": 5
+    },
+    {
+      "match_id": 70075738,
+      "debut": "2026-04-15T22:00:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Universidad Catolica",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:3151",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.42,
+      "cote_N": 3.95,
+      "cote_2": 5.7
+    },
+    {
+      "match_id": 70076094,
+      "debut": "2026-04-15T22:00:00+00:00",
+      "home": "Libertad Asuncion",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:5996",
+      "away_id": "sr:competitor:3217",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 4.2,
+      "cote_N": 2.95,
+      "cote_2": 1.78
+    },
+    {
+      "match_id": 70075770,
+      "debut": "2026-04-16T00:30:00+00:00",
+      "home": "Corinthians",
+      "away": "Santa Fe",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:6116",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.42,
+      "cote_N": 3.75,
+      "cote_2": 6.5
+    },
+    {
+      "match_id": 70075702,
+      "debut": "2026-04-16T00:30:00+00:00",
+      "home": "Fluminense",
+      "away": "Independiente Rivadavia",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:36842",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.64,
+      "cote_N": 3.25,
+      "cote_2": 4.5
+    },
+    {
+      "match_id": 70076096,
+      "debut": "2026-04-16T02:00:00+00:00",
+      "home": "Independiente Del Valle",
+      "away": "FC UCV",
+      "home_id": "sr:competitor:39723",
+      "away_id": "sr:competitor:324069",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.25,
+      "cote_N": 5,
+      "cote_2": 7.5
+    }
+  ]
+}

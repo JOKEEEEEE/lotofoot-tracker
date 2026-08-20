@@ -1,0 +1,136 @@
+{
+  "grille_id": 3260,
+  "grille_type": "grille7",
+  "pool_id": 7003260,
+  "titre": "Grille 7 n°3260",
+  "statut": "CLOSED",
+  "fin": "2024-03-12T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:04:23.867832+00:00",
+  "mises_nettes": 9801.75,
+  "montant_distribue": 9801.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 45,
+      "winningsPerGrid": 108.91
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 610,
+      "winningsPerGrid": 8.03
+    }
+  ],
+  "repartition": [
+    90,
+    695,
+    2068,
+    3631,
+    3764,
+    2166,
+    610,
+    45
+  ],
+  "matches": [
+    {
+      "match_id": 47530557,
+      "debut": "2024-03-12T19:45:00+00:00",
+      "home": "Birmingham",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:36",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46295645,
+      "debut": "2024-03-12T20:00:00+00:00",
+      "home": "Arsenal",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46295649,
+      "debut": "2024-03-12T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Naples",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2714",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48217293,
+      "debut": "2024-03-12T22:00:00+00:00",
+      "home": "Columbus Crew",
+      "away": "Houston Dynamo",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:2508",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46656569,
+      "debut": "2024-03-13T00:15:00+00:00",
+      "home": "Central Cordoba Sde",
+      "away": "Belgrano",
+      "home_id": "sr:competitor:65676",
+      "away_id": "sr:competitor:3203",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48217297,
+      "debut": "2024-03-13T00:15:00+00:00",
+      "home": "Pachuca",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:1936",
+      "away_id": "sr:competitor:39833",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48217301,
+      "debut": "2024-03-13T02:30:00+00:00",
+      "home": "Tigres",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:1940",
+      "away_id": "sr:competitor:52237",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

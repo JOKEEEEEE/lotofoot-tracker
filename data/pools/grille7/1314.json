@@ -1,0 +1,127 @@
+{
+  "grille_id": 1314,
+  "grille_type": "grille7",
+  "pool_id": 7001314,
+  "titre": "Grille 7 n°1314",
+  "statut": "CLOSED",
+  "fin": "2019-07-15T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:59:02.242508+00:00",
+  "mises_nettes": 7202.25,
+  "montant_distribue": 7202.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 327.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 118,
+      "winningsPerGrid": 30.52
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18382057,
+      "debut": "2019-07-15T17:00:00+00:00",
+      "home": "Lokomotiv Moscou",
+      "away": "Rubin Kazan",
+      "home_id": "sr:competitor:2320",
+      "away_id": "sr:competitor:2333",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16542421,
+      "debut": "2019-07-15T17:00:00+00:00",
+      "home": "Helsingborg IF",
+      "away": "IK Sirius",
+      "home_id": "sr:competitor:1890",
+      "away_id": "sr:competitor:1793",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16542425,
+      "debut": "2019-07-15T17:00:00+00:00",
+      "home": "GIF Sundsvall",
+      "away": "Hammarby IF",
+      "home_id": "sr:competitor:1763",
+      "away_id": "sr:competitor:1758",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16599677,
+      "debut": "2019-07-15T17:00:00+00:00",
+      "home": "Stabaek",
+      "away": "Sarpsborg 08",
+      "home_id": "sr:competitor:1162",
+      "away_id": "sr:competitor:822",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18390829,
+      "debut": "2019-07-15T17:00:00+00:00",
+      "home": "Hobro",
+      "away": "Aarhus GF",
+      "home_id": "sr:competitor:1392",
+      "away_id": "sr:competitor:1291",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18424038,
+      "debut": "2019-07-15T17:30:00+00:00",
+      "home": "FC Dunav Ruse",
+      "away": "Levski Sofia",
+      "home_id": "sr:competitor:3286",
+      "away_id": "sr:competitor:3273",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18582256,
+      "debut": "2019-07-15T18:00:00+00:00",
+      "home": "FC Viitorul",
+      "away": "Dinamo Bucarest",
+      "home_id": "sr:competitor:37426",
+      "away_id": "sr:competitor:3292",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

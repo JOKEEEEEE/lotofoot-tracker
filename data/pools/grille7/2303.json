@@ -1,0 +1,136 @@
+{
+  "grille_id": 2303,
+  "grille_type": "grille7",
+  "pool_id": 7002303,
+  "titre": "Grille 7 n°2303",
+  "statut": "CLOSED",
+  "fin": "2021-12-23T17:00:00+00:00",
+  "collecte_le": "2026-08-20T09:29:37.843320+00:00",
+  "mises_nettes": 7941.75,
+  "montant_distribue": 7941.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 138,
+      "winningsPerGrid": 28.77
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 932,
+      "winningsPerGrid": 4.26
+    }
+  ],
+  "repartition": [
+    67,
+    311,
+    1113,
+    2315,
+    3113,
+    2600,
+    932,
+    138
+  ],
+  "matches": [
+    {
+      "match_id": 28153286,
+      "debut": "2021-12-23T17:00:00+00:00",
+      "home": "Besiktas",
+      "away": "Göztepe AS",
+      "home_id": "sr:competitor:3050",
+      "away_id": "sr:competitor:3054",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 30665405,
+      "debut": "2021-12-23T17:00:00+00:00",
+      "home": "Rio Ave",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:3004",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27647050,
+      "debut": "2021-12-23T17:45:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "GO Ahead Eagles",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:2979",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 30904987,
+      "debut": "2021-12-23T17:45:00+00:00",
+      "home": "Anderlecht",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:4858",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27647042,
+      "debut": "2021-12-23T20:00:00+00:00",
+      "home": "Sparta Rotterdam",
+      "away": "RKC Waalwijk",
+      "home_id": "sr:competitor:2960",
+      "away_id": "sr:competitor:2956",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 30904989,
+      "debut": "2021-12-23T20:00:00+00:00",
+      "home": "Club Bruges",
+      "away": "O-H Louvain",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:2918",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 30665399,
+      "debut": "2021-12-23T20:45:00+00:00",
+      "home": "FC Porto",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3006",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

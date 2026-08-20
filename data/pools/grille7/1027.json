@@ -1,0 +1,127 @@
+{
+  "grille_id": 1027,
+  "grille_type": "grille7",
+  "pool_id": 7001027,
+  "titre": "Grille 7 n°1027",
+  "statut": "CLOSED",
+  "fin": "2018-09-23T15:00:00+00:00",
+  "collecte_le": "2026-08-20T13:28:52.411601+00:00",
+  "mises_nettes": 17978.25,
+  "montant_distribue": 17978.25,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 40,
+      "winningsPerGrid": 224.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 541,
+      "winningsPerGrid": 16.62
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14700743,
+      "debut": "2018-09-23T15:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1645",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736341,
+      "debut": "2018-09-23T15:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Everton",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:48",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14894117,
+      "debut": "2018-09-23T16:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:36360",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159715,
+      "debut": "2018-09-23T16:00:00+00:00",
+      "home": "Milan AC",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2686",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109061,
+      "debut": "2018-09-23T18:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2825",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159711,
+      "debut": "2018-09-23T18:30:00+00:00",
+      "home": "Frosinone",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2801",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700759,
+      "debut": "2018-09-23T19:00:00+00:00",
+      "home": "Lyon",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1641",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

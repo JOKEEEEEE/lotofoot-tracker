@@ -1,0 +1,136 @@
+{
+  "grille_id": 3727,
+  "grille_type": "grille7",
+  "pool_id": 7003727,
+  "titre": "Grille 7 n°3727",
+  "statut": "CLOSED",
+  "fin": "2025-05-22T16:45:00+00:00",
+  "collecte_le": "2026-08-20T07:24:38.991646+00:00",
+  "mises_nettes": 4019.25,
+  "montant_distribue": 4019.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 9,
+      "winningsPerGrid": 223.29
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 104,
+      "winningsPerGrid": 19.32
+    }
+  ],
+  "repartition": [
+    224,
+    1253,
+    1931,
+    1325,
+    513,
+    104,
+    9,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 60648927,
+      "debut": "2025-05-22T16:45:00+00:00",
+      "home": "AZ Alkmaar",
+      "away": "Heerenveen",
+      "home_id": "sr:competitor:2950",
+      "away_id": "sr:competitor:2964",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56523707,
+      "debut": "2025-05-22T17:00:00+00:00",
+      "home": "Malmö",
+      "away": "AIK Stockholm",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:1764",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56523699,
+      "debut": "2025-05-22T17:00:00+00:00",
+      "home": "Hammarby IF",
+      "away": "Mjallby",
+      "home_id": "sr:competitor:1758",
+      "away_id": "sr:competitor:1783",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60377311,
+      "debut": "2025-05-22T18:00:00+00:00",
+      "home": "Al Ahli SC",
+      "away": "Al-Ettifaq",
+      "home_id": "sr:competitor:34469",
+      "away_id": "sr:competitor:34318",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60433915,
+      "debut": "2025-05-22T18:30:00+00:00",
+      "home": "Heidenheim",
+      "away": "SV Elversberg",
+      "home_id": "sr:competitor:5885",
+      "away_id": "sr:competitor:2598",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60648929,
+      "debut": "2025-05-22T19:00:00+00:00",
+      "home": "Twente",
+      "away": "NEC Nijmegen",
+      "home_id": "sr:competitor:2955",
+      "away_id": "sr:competitor:2962",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60648477,
+      "debut": "2025-05-22T19:00:00+00:00",
+      "home": "Livingston FC",
+      "away": "Ross County",
+      "home_id": "sr:competitor:2356",
+      "away_id": "sr:competitor:2365",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3325,
+  "grille_type": "grille7",
+  "pool_id": 7003325,
+  "titre": "Grille 7 n°3325",
+  "statut": "CLOSED",
+  "fin": "2024-05-07T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:00:21.703685+00:00",
+  "mises_nettes": 7425,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100010010001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 16,
+      "winningsPerGrid": 234.38
+    }
+  ],
+  "repartition": [
+    595,
+    2294,
+    3450,
+    2469,
+    906,
+    167,
+    16,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 48613115,
+      "debut": "2024-05-07T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:2673",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722547,
+      "debut": "2024-05-07T22:00:00+00:00",
+      "home": "Rosario Central",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722549,
+      "debut": "2024-05-07T22:00:00+00:00",
+      "home": "Caracas FC",
+      "away": "Penarol De Montevideo",
+      "home_id": "sr:competitor:6230",
+      "away_id": "sr:competitor:3227",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722517,
+      "debut": "2024-05-08T00:00:00+00:00",
+      "home": "Deportivo Tachira",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:6231",
+      "away_id": "sr:competitor:5996",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722519,
+      "debut": "2024-05-08T00:00:00+00:00",
+      "home": "Club Nacional De Football",
+      "away": "River Plate",
+      "home_id": "sr:competitor:3230",
+      "away_id": "sr:competitor:3211",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722681,
+      "debut": "2024-05-08T00:00:00+00:00",
+      "home": "Palestino",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:3157",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722717,
+      "debut": "2024-05-08T02:00:00+00:00",
+      "home": "Universitario De Deportes",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:2305",
+      "away_id": "sr:competitor:6105",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1007,
+  "grille_type": "grille7",
+  "pool_id": 7001007,
+  "titre": "Grille 7 n°1007",
+  "statut": "CLOSED",
+  "fin": "2018-09-03T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:27:10.739185+00:00",
+  "mises_nettes": 12348,
+  "montant_distribue": 12348,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 46,
+      "winningsPerGrid": 134.22
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 390,
+      "winningsPerGrid": 15.83
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14894781,
+      "debut": "2018-09-03T18:30:00+00:00",
+      "home": "Holstein Kiel",
+      "away": "1. FC Magdeburg",
+      "home_id": "sr:competitor:2573",
+      "away_id": "sr:competitor:2591",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15351896,
+      "debut": "2018-09-03T18:30:00+00:00",
+      "home": "Levadiakos",
+      "away": "Apollon Smirnis",
+      "home_id": "sr:competitor:5063",
+      "away_id": "sr:competitor:6988",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15351900,
+      "debut": "2018-09-03T18:30:00+00:00",
+      "home": "Panetolikos",
+      "away": "OFI Crète",
+      "home_id": "sr:competitor:7004",
+      "away_id": "sr:competitor:3241",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14744859,
+      "debut": "2018-09-03T18:45:00+00:00",
+      "home": "Lorient",
+      "away": "Grenoble",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1671",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14911689,
+      "debut": "2018-09-03T18:45:00+00:00",
+      "home": "Crusaders",
+      "away": "Coleraine",
+      "home_id": "sr:competitor:5180",
+      "away_id": "sr:competitor:5270",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145123,
+      "debut": "2018-09-03T19:00:00+00:00",
+      "home": "Almeria",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:2830",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15201099,
+      "debut": "2018-09-03T22:00:00+00:00",
+      "home": "Newell's Old Boys",
+      "away": "Atletico Tucuman",
+      "home_id": "sr:competitor:3212",
+      "away_id": "sr:competitor:36833",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

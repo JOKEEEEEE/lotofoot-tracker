@@ -1,0 +1,136 @@
+{
+  "grille_id": 3929,
+  "grille_type": "grille7",
+  "pool_id": 7003929,
+  "titre": "Grille 7 n°3929",
+  "statut": "CLOSED",
+  "fin": "2025-12-16T18:00:00+00:00",
+  "collecte_le": "2026-08-20T06:40:58.129537+00:00",
+  "mises_nettes": 8111.25,
+  "montant_distribue": 8111.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 252,
+      "winningsPerGrid": 16.09
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1460,
+      "winningsPerGrid": 2.78
+    }
+  ],
+  "repartition": [
+    23,
+    174,
+    800,
+    2133,
+    3131,
+    2842,
+    1460,
+    252
+  ],
+  "matches": [
+    {
+      "match_id": 66609722,
+      "debut": "2025-12-16T18:00:00+00:00",
+      "home": "Deportivo La Corogne",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2832",
+      "away_id": "sr:competitor:2826",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.35,
+      "cote_N": 2.85,
+      "cote_2": 2.6
+    },
+    {
+      "match_id": 66609720,
+      "debut": "2025-12-16T18:00:00+00:00",
+      "home": "Eibar",
+      "away": "Elche",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2846",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.3,
+      "cote_N": 2.85,
+      "cote_2": 2.6
+    },
+    {
+      "match_id": 61394681,
+      "debut": "2025-12-16T19:30:00+00:00",
+      "home": "Saint-Gall",
+      "away": "Sion",
+      "home_id": "sr:competitor:2442",
+      "away_id": "sr:competitor:2452",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.15,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 65068196,
+      "debut": "2025-12-16T20:00:00+00:00",
+      "home": "Cardiff",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 5.5,
+      "cote_N": 4.2,
+      "cote_2": 1.38
+    },
+    {
+      "match_id": 66609708,
+      "debut": "2025-12-16T20:30:00+00:00",
+      "home": "CD Guadalajara",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:24330",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 32,
+      "cote_N": 14,
+      "cote_2": 1.04
+    },
+    {
+      "match_id": 66609712,
+      "debut": "2025-12-16T20:00:00+00:00",
+      "home": "Eldense",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:47321",
+      "away_id": "sr:competitor:2824",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 6.25,
+      "cote_N": 4,
+      "cote_2": 1.35
+    },
+    {
+      "match_id": 66609728,
+      "debut": "2025-12-16T20:00:00+00:00",
+      "home": "Gijon",
+      "away": "Valence",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:2828",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3.75,
+      "cote_N": 2.9,
+      "cote_2": 1.8
+    }
+  ]
+}

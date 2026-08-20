@@ -1,0 +1,136 @@
+{
+  "grille_id": 3810,
+  "grille_type": "grille7",
+  "pool_id": 7003810,
+  "titre": "Grille 7 n°3810",
+  "statut": "CLOSED",
+  "fin": "2025-08-13T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:08:47.773217+00:00",
+  "mises_nettes": 4380.75,
+  "montant_distribue": 4380.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 8,
+      "winningsPerGrid": 273.8
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 70,
+      "winningsPerGrid": 31.29
+    }
+  ],
+  "repartition": [
+    686,
+    1820,
+    1874,
+    1016,
+    367,
+    70,
+    8,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 61539468,
+      "debut": "2025-08-13T18:45:00+00:00",
+      "home": "Barnsley",
+      "away": "Fleetwood Town",
+      "home_id": "sr:competitor:23",
+      "away_id": "sr:competitor:23959",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61539488,
+      "debut": "2025-08-13T18:45:00+00:00",
+      "home": "Bolton",
+      "away": "Sheffield Wednesday",
+      "home_id": "sr:competitor:5",
+      "away_id": "sr:competitor:12",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61539476,
+      "debut": "2025-08-13T18:45:00+00:00",
+      "home": "Cheltenham Town",
+      "away": "Exeter",
+      "home_id": "sr:competitor:69",
+      "away_id": "sr:competitor:86",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61539502,
+      "debut": "2025-08-13T18:45:00+00:00",
+      "home": "Huddersfield",
+      "away": "Leicester",
+      "home_id": "sr:competitor:59",
+      "away_id": "sr:competitor:31",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60941915,
+      "debut": "2025-08-13T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61539498,
+      "debut": "2025-08-13T19:00:00+00:00",
+      "home": "Birmingham",
+      "away": "Sheffield United",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:15",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60986879,
+      "debut": "2025-08-13T22:00:00+00:00",
+      "home": "Cerro Porteno",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:5991",
+      "away_id": "sr:competitor:3206",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

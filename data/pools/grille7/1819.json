@@ -1,0 +1,127 @@
+{
+  "grille_id": 1819,
+  "grille_type": "grille7",
+  "pool_id": 7001819,
+  "titre": "Grille 7 n°1819",
+  "statut": "CLOSED",
+  "fin": "2020-11-17T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:10:48.967825+00:00",
+  "mises_nettes": 21616.5,
+  "montant_distribue": 21616.5,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001111100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 112,
+      "winningsPerGrid": 96.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1121,
+      "winningsPerGrid": 9.64
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21595973,
+      "debut": "2020-11-17T19:45:00+00:00",
+      "home": "France",
+      "away": "Suède",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4688",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 9.5,
+      "cote_2": 250
+    },
+    {
+      "match_id": 21595887,
+      "debut": "2020-11-17T19:45:00+00:00",
+      "home": "Croatie",
+      "away": "Portugal",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:4704",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 29,
+      "cote_2": 1
+    },
+    {
+      "match_id": 21596187,
+      "debut": "2020-11-17T19:45:00+00:00",
+      "home": "Espagne",
+      "away": "Allemagne",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4711",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 21596189,
+      "debut": "2020-11-17T19:45:00+00:00",
+      "home": "Suisse",
+      "away": "Ukraine",
+      "home_id": "sr:competitor:4699",
+      "away_id": "sr:competitor:4701",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.55,
+      "cote_N": 4,
+      "cote_2": 6
+    },
+    {
+      "match_id": 24296679,
+      "debut": "2020-11-17T20:00:00+00:00",
+      "home": "Japon",
+      "away": "Mexique",
+      "home_id": "sr:competitor:4770",
+      "away_id": "sr:competitor:4781",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 190,
+      "cote_2": 1
+    },
+    {
+      "match_id": 20717989,
+      "debut": "2020-11-17T21:00:00+00:00",
+      "home": "Vénézuela",
+      "away": "Chili",
+      "home_id": "sr:competitor:4722",
+      "away_id": "sr:competitor:4754",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 17,
+      "cote_2": 250
+    },
+    {
+      "match_id": 20717993,
+      "debut": "2020-11-17T21:00:00+00:00",
+      "home": "Equateur",
+      "away": "Colombie",
+      "home_id": "sr:competitor:4757",
+      "away_id": "sr:competitor:4820",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

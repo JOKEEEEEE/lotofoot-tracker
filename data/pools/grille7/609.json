@@ -1,0 +1,127 @@
+{
+  "grille_id": 609,
+  "grille_type": "grille7",
+  "pool_id": 7000609,
+  "titre": "Grille 7 n°609",
+  "statut": "CLOSED",
+  "fin": "2017-07-18T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:59:01.713041+00:00",
+  "mises_nettes": 3444,
+  "montant_distribue": 3444,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 191.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 118,
+      "winningsPerGrid": 14.59
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10555436,
+      "debut": "2017-07-18T16:00:00+00:00",
+      "home": "Autriche (F)",
+      "away": "Suisse (F)",
+      "home_id": "sr:competitor:34014",
+      "away_id": "sr:competitor:38103",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11860456,
+      "debut": "2017-07-18T16:30:00+00:00",
+      "home": "Lokomotiv Moscou",
+      "away": "Arsenal Tula",
+      "home_id": "sr:competitor:2320",
+      "away_id": "sr:competitor:35301",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11865800,
+      "debut": "2017-07-18T16:30:00+00:00",
+      "home": "Dynamo Moscou",
+      "away": "Spartak Moscou",
+      "home_id": "sr:competitor:2315",
+      "away_id": "sr:competitor:2323",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11945796,
+      "debut": "2017-07-18T18:00:00+00:00",
+      "home": "Vikingur Gota",
+      "away": "FH Hafnarfjordur",
+      "home_id": "sr:competitor:5193",
+      "away_id": "sr:competitor:1894",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11945810,
+      "debut": "2017-07-18T18:00:00+00:00",
+      "home": "The New Saints",
+      "away": "Rijeka",
+      "home_id": "sr:competitor:4921",
+      "away_id": "sr:competitor:2039",
+      "score_home": 1,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854846,
+      "debut": "2017-07-18T18:45:00+00:00",
+      "home": "Buducnost Podgorica",
+      "away": "Partizan Belgrade",
+      "home_id": "sr:competitor:5143",
+      "away_id": "sr:competitor:5152",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10555400,
+      "debut": "2017-07-18T18:45:00+00:00",
+      "home": "France (F)",
+      "away": "Islande (F)",
+      "home_id": "sr:competitor:32485",
+      "away_id": "sr:competitor:22024",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

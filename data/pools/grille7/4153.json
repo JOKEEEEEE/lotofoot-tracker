@@ -1,0 +1,136 @@
+{
+  "grille_id": 4153,
+  "grille_type": "grille7",
+  "pool_id": 7004153,
+  "titre": "Grille 7 n°4153",
+  "statut": "CLOSED",
+  "fin": "2026-07-31T18:15:00+00:00",
+  "collecte_le": "2026-08-20T05:48:39.330755+00:00",
+  "mises_nettes": 4289.25,
+  "montant_distribue": 4289.25,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 306.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 66,
+      "winningsPerGrid": 32.49
+    }
+  ],
+  "repartition": [
+    82,
+    636,
+    1631,
+    1860,
+    1072,
+    365,
+    66,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 73225452,
+      "debut": "2026-07-31T18:15:00+00:00",
+      "home": "FC CSKA 1948",
+      "away": "FC Arda Kardzhali",
+      "home_id": "sr:competitor:288687",
+      "away_id": "sr:competitor:364786",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.1,
+      "cote_N": 3,
+      "cote_2": 2.95
+    },
+    {
+      "match_id": 72043036,
+      "debut": "2026-07-31T18:30:00+00:00",
+      "home": "Motor Lublin",
+      "away": "Jagiellonia Białystok",
+      "home_id": "sr:competitor:7915",
+      "away_id": "sr:competitor:7691",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.5,
+      "cote_N": 3.4,
+      "cote_2": 2.2
+    },
+    {
+      "match_id": 72387898,
+      "debut": "2026-07-31T18:30:00+00:00",
+      "home": "SC Otelul Galati",
+      "away": "Dinamo Bucarest",
+      "home_id": "sr:competitor:3291",
+      "away_id": "sr:competitor:3292",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.8,
+      "cote_N": 3.05,
+      "cote_2": 2.15
+    },
+    {
+      "match_id": 66854140,
+      "debut": "2026-07-31T18:45:00+00:00",
+      "home": "Dundalk",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3179",
+      "away_id": "sr:competitor:3190",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.48,
+      "cote_N": 3.9,
+      "cote_2": 5
+    },
+    {
+      "match_id": 66854138,
+      "debut": "2026-07-31T19:00:00+00:00",
+      "home": "Drogheda",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3177",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 3.55,
+      "cote_N": 3.1,
+      "cote_2": 1.88
+    },
+    {
+      "match_id": 72201562,
+      "debut": "2026-07-31T19:00:00+00:00",
+      "home": "Dundee United",
+      "away": "Glasgow Rangers",
+      "home_id": "sr:competitor:2349",
+      "away_id": "sr:competitor:2351",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 4.1,
+      "cote_N": 3.75,
+      "cote_2": 1.6
+    },
+    {
+      "match_id": 67015290,
+      "debut": "2026-07-31T19:00:00+00:00",
+      "home": "Bodø/Glimt",
+      "away": "Lillestrøm",
+      "home_id": "sr:competitor:656",
+      "away_id": "sr:competitor:664",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.21,
+      "cote_N": 6,
+      "cote_2": 9.5
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1583,
+  "grille_type": "grille7",
+  "pool_id": 7001583,
+  "titre": "Grille 7 n°1583",
+  "statut": "CLOSED",
+  "fin": "2020-03-01T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:35:40.728798+00:00",
+  "mises_nettes": 11652.75,
+  "montant_distribue": 11652.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100100111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 231,
+      "winningsPerGrid": 25.22
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1522,
+      "winningsPerGrid": 3.83
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18927296,
+      "debut": "2020-03-01T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2697",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18641150,
+      "debut": "2020-03-01T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2817",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440438,
+      "debut": "2020-03-01T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1678",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660554,
+      "debut": "2020-03-01T20:00:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Tondela",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:38396",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030474,
+      "debut": "2020-03-01T20:00:00+00:00",
+      "home": "Pescara Calcio",
+      "away": "Ascoli",
+      "home_id": "sr:competitor:2728",
+      "away_id": "sr:competitor:2707",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20716149,
+      "debut": "2020-03-01T20:00:00+00:00",
+      "home": "Seattle Sounders",
+      "away": "Chicago Fire",
+      "home_id": "sr:competitor:22009",
+      "away_id": "sr:competitor:2505",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723754,
+      "debut": "2020-03-01T20:35:00+00:00",
+      "home": "Aldosivi",
+      "away": "San Lorenzo",
+      "home_id": "sr:competitor:36836",
+      "away_id": "sr:competitor:3201",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

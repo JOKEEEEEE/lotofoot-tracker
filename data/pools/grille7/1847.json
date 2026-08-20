@@ -1,0 +1,127 @@
+{
+  "grille_id": 1847,
+  "grille_type": "grille7",
+  "pool_id": 7001847,
+  "titre": "Grille 7 n°1847",
+  "statut": "CLOSED",
+  "fin": "2020-12-07T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:08:41.657406+00:00",
+  "mises_nettes": 19345.5,
+  "montant_distribue": 19345.5,
+  "montant_garanti": 11000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001010010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 690.91
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 204,
+      "winningsPerGrid": 47.42
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23031993,
+      "debut": "2020-12-07T19:30:00+00:00",
+      "home": "Hoffenheim",
+      "away": "Augsbourg",
+      "home_id": "sr:competitor:2569",
+      "away_id": "sr:competitor:2600",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22651443,
+      "debut": "2020-12-07T19:45:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1662",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 19,
+      "cote_N": 1.01,
+      "cote_2": 50
+    },
+    {
+      "match_id": 23390745,
+      "debut": "2020-12-07T19:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2713",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 180,
+      "cote_N": 13,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23031263,
+      "debut": "2020-12-07T19:45:00+00:00",
+      "home": "Charleroi",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2898",
+      "away_id": "sr:competitor:4858",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 12.5,
+      "cote_N": 1.03,
+      "cote_2": 13
+    },
+    {
+      "match_id": 23203983,
+      "debut": "2020-12-07T20:00:00+00:00",
+      "home": "Brighton",
+      "away": "Southampton",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:45",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 130,
+      "cote_N": 11,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23360545,
+      "debut": "2020-12-07T20:00:00+00:00",
+      "home": "Eibar",
+      "away": "Valence",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2828",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 18,
+      "cote_N": 1.01,
+      "cote_2": 26
+    },
+    {
+      "match_id": 23320207,
+      "debut": "2020-12-07T20:15:00+00:00",
+      "home": "Farense",
+      "away": "Maritimo",
+      "home_id": "sr:competitor:2998",
+      "away_id": "sr:competitor:3007",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 21,
+      "cote_2": 250
+    }
+  ]
+}

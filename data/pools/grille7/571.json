@@ -1,0 +1,127 @@
+{
+  "grille_id": 571,
+  "grille_type": "grille7",
+  "pool_id": 7000571,
+  "titre": "Grille 7 n°571",
+  "statut": "CLOSED",
+  "fin": "2017-06-08T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:03:32.309014+00:00",
+  "mises_nettes": 3883.5,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 103,
+      "winningsPerGrid": 19.42
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11760518,
+      "debut": "2017-06-08T18:30:00+00:00",
+      "home": "Benevento",
+      "away": "Carpi",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:43685",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11578575,
+      "debut": "2017-06-08T21:00:00+00:00",
+      "home": "Pérou",
+      "away": "Paraguay",
+      "home_id": "sr:competitor:4790",
+      "away_id": "sr:competitor:4789",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439227,
+      "debut": "2017-06-08T22:30:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Vitoria",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1962",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439229,
+      "debut": "2017-06-08T22:30:00+00:00",
+      "home": "Atletico GO",
+      "away": "Ponte Preta",
+      "home_id": "sr:competitor:7314",
+      "away_id": "sr:competitor:1969",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439231,
+      "debut": "2017-06-09T00:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1954",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10160887,
+      "debut": "2017-06-09T02:00:00+00:00",
+      "home": "Costa Rica",
+      "away": "Panama",
+      "home_id": "sr:competitor:4756",
+      "away_id": "sr:competitor:5164",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10596496,
+      "debut": "2017-06-09T04:00:00+00:00",
+      "home": "Iles Salomon",
+      "away": "Papouasie Nouvelle - Guinée",
+      "home_id": "sr:competitor:23471",
+      "away_id": "sr:competitor:23495",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

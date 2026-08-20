@@ -1,0 +1,127 @@
+{
+  "grille_id": 845,
+  "grille_type": "grille7",
+  "pool_id": 7000845,
+  "titre": "Grille 7 n°845",
+  "statut": "CLOSED",
+  "fin": "2018-03-22T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:42:03.446783+00:00",
+  "mises_nettes": 4373.25,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 153.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 316,
+      "winningsPerGrid": 12.66
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13047594,
+      "debut": "2018-03-22T19:00:00+00:00",
+      "home": "Hongrie U21",
+      "away": "Chypre U21",
+      "home_id": "sr:competitor:6030",
+      "away_id": "sr:competitor:6021",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13047558,
+      "debut": "2018-03-22T19:45:00+00:00",
+      "home": "Irlande du Nord U21",
+      "away": "Espagne U21",
+      "home_id": "sr:competitor:6043",
+      "away_id": "sr:competitor:4891",
+      "score_home": 3,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842641,
+      "debut": "2018-03-22T23:00:00+00:00",
+      "home": "Millonarios ",
+      "away": "Alianza Petrolera",
+      "home_id": "sr:competitor:6117",
+      "away_id": "sr:competitor:89156",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842645,
+      "debut": "2018-03-23T01:00:00+00:00",
+      "home": "Bucaramanga",
+      "away": "Atletico Nacional Medellin",
+      "home_id": "sr:competitor:6103",
+      "away_id": "sr:competitor:6106",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13319331,
+      "debut": "2018-03-23T11:35:00+00:00",
+      "home": "Uruguay",
+      "away": "République Tchèque",
+      "home_id": "sr:competitor:4725",
+      "away_id": "sr:competitor:4714",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13771869,
+      "debut": "2018-03-23T17:00:00+00:00",
+      "home": "Bulgarie",
+      "away": "Bosnie-Herzégovine",
+      "home_id": "sr:competitor:4716",
+      "away_id": "sr:competitor:4479",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13430629,
+      "debut": "2018-03-23T17:30:00+00:00",
+      "home": "Turquie",
+      "away": "République d'Irlande",
+      "home_id": "sr:competitor:4700",
+      "away_id": "sr:competitor:4693",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

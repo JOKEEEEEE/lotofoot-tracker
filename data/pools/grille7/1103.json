@@ -1,0 +1,127 @@
+{
+  "grille_id": 1103,
+  "grille_type": "grille7",
+  "pool_id": 7001103,
+  "titre": "Grille 7 n°1103",
+  "statut": "CLOSED",
+  "fin": "2018-12-10T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:16:49.194035+00:00",
+  "mises_nettes": 14724,
+  "montant_distribue": 14724,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010001100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1472.4
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 59,
+      "winningsPerGrid": 124.78
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14895005,
+      "debut": "2018-12-10T19:30:00+00:00",
+      "home": "Bochum",
+      "away": "St. Pauli",
+      "home_id": "sr:competitor:2542",
+      "away_id": "sr:competitor:2526",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736551,
+      "debut": "2018-12-10T20:00:00+00:00",
+      "home": "Everton",
+      "away": "Watford",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:24",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109249,
+      "debut": "2018-12-10T20:00:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:24264",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324480,
+      "debut": "2018-12-10T20:00:00+00:00",
+      "home": "Salernitana",
+      "away": "Brescia",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2691",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14945975,
+      "debut": "2018-12-10T20:15:00+00:00",
+      "home": "Feirense",
+      "away": "Maritimo",
+      "home_id": "sr:competitor:4501",
+      "away_id": "sr:competitor:3007",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15201369,
+      "debut": "2018-12-10T22:00:00+00:00",
+      "home": "Patronato ",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:43741",
+      "away_id": "sr:competitor:3208",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15201371,
+      "debut": "2018-12-11T00:15:00+00:00",
+      "home": "Belgrano",
+      "away": "Tigre",
+      "home_id": "sr:competitor:3203",
+      "away_id": "sr:competitor:7628",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

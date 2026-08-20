@@ -1,0 +1,136 @@
+{
+  "grille_id": 2466,
+  "grille_type": "grille7",
+  "pool_id": 7002466,
+  "titre": "Grille 7 n°2466",
+  "statut": "CLOSED",
+  "fin": "2022-05-06T18:30:00+00:00",
+  "collecte_le": "2026-08-20T13:24:58.128148+00:00",
+  "mises_nettes": 12024,
+  "montant_distribue": 12024,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 501
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 159,
+      "winningsPerGrid": 37.81
+    }
+  ],
+  "repartition": [
+    358,
+    1948,
+    4446,
+    5159,
+    2991,
+    959,
+    159,
+    12
+  ],
+  "matches": [
+    {
+      "match_id": 27883678,
+      "debut": "2022-05-06T18:30:00+00:00",
+      "home": "Bochum",
+      "away": "Arminia Bielefeld",
+      "home_id": "sr:competitor:2542",
+      "away_id": "sr:competitor:2540",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33160085,
+      "debut": "2022-05-06T18:45:00+00:00",
+      "home": "Charleroi",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:2898",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27885392,
+      "debut": "2022-05-06T19:00:00+00:00",
+      "home": "Lille",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1653",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160532,
+      "debut": "2022-05-06T19:00:00+00:00",
+      "home": "Genoa",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2687",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965862,
+      "debut": "2022-05-06T19:00:00+00:00",
+      "home": "Levante",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2824",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27973902,
+      "debut": "2022-05-06T19:00:00+00:00",
+      "home": "Las Palmas",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:35092",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077616,
+      "debut": "2022-05-06T19:15:00+00:00",
+      "home": "Boavista",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3009",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3755,
+  "grille_type": "grille7",
+  "pool_id": 7003755,
+  "titre": "Grille 7 n°3755",
+  "statut": "CLOSED",
+  "fin": "2025-06-19T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:22:44.369763+00:00",
+  "mises_nettes": 3844.5,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 45,
+      "winningsPerGrid": 44.44
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 393,
+      "winningsPerGrid": 5.09
+    }
+  ],
+  "repartition": [
+    49,
+    430,
+    1307,
+    1699,
+    1203,
+    393,
+    45,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 56189289,
+      "debut": "2025-06-19T16:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Al-Ahly Cairo",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:6910",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189291,
+      "debut": "2025-06-19T19:00:00+00:00",
+      "home": "Inter Miami CF",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:659691",
+      "away_id": "sr:competitor:3002",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189319,
+      "debut": "2025-06-19T22:00:00+00:00",
+      "home": "Seattle Sounders",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:22009",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61236539,
+      "debut": "2025-06-20T01:15:00+00:00",
+      "home": "America De Cali",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6102",
+      "away_id": "sr:competitor:6115",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61236523,
+      "debut": "2025-06-19T21:00:00+00:00",
+      "home": "Tolima",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6105",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57381381,
+      "debut": "2025-06-21T00:00:00+00:00",
+      "home": "Libertad",
+      "away": "Técnico Universitario",
+      "home_id": "sr:competitor:838486",
+      "away_id": "sr:competitor:21941",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189317,
+      "debut": "2025-06-20T01:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1958",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 4038,
+  "grille_type": "grille7",
+  "pool_id": 7004038,
+  "titre": "Grille 7 n°4038",
+  "statut": "CLOSED",
+  "fin": "2026-04-07T19:00:00+00:00",
+  "collecte_le": "2026-08-20T06:15:32.008696+00:00",
+  "mises_nettes": 8493,
+  "montant_distribue": 8493,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001001001010001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 606.64
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 164,
+      "winningsPerGrid": 25.89
+    }
+  ],
+  "repartition": [
+    448,
+    1727,
+    3084,
+    3202,
+    1964,
+    728,
+    164,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 69339340,
+      "debut": "2026-04-07T19:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.55,
+      "cote_N": 3.65,
+      "cote_2": 2.15
+    },
+    {
+      "match_id": 69339344,
+      "debut": "2026-04-07T19:00:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:42",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.85,
+      "cote_N": 3.35,
+      "cote_2": 1.76
+    },
+    {
+      "match_id": 61491287,
+      "debut": "2026-04-07T19:00:00+00:00",
+      "home": "Wrexham",
+      "away": "Southampton",
+      "home_id": "sr:competitor:64",
+      "away_id": "sr:competitor:45",
+      "score_home": 1,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 2.3,
+      "cote_N": 3.2,
+      "cote_2": 2.5
+    },
+    {
+      "match_id": 70075698,
+      "debut": "2026-04-07T22:00:00+00:00",
+      "home": "Deportivo La Guaira",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:36437",
+      "away_id": "sr:competitor:1961",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 5.4,
+      "cote_N": 3.5,
+      "cote_2": 1.5
+    },
+    {
+      "match_id": 70075734,
+      "debut": "2026-04-08T00:00:00+00:00",
+      "home": "Barcelona SC",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:5250",
+      "away_id": "sr:competitor:1954",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.1,
+      "cote_N": 2.8,
+      "cote_2": 2.15
+    },
+    {
+      "match_id": 70076006,
+      "debut": "2026-04-08T00:00:00+00:00",
+      "home": "Always Ready",
+      "away": "LDU Quito",
+      "home_id": "sr:competitor:378096",
+      "away_id": "sr:competitor:5257",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.98,
+      "cote_N": 3.25,
+      "cote_2": 3.05
+    },
+    {
+      "match_id": 70075736,
+      "debut": "2026-04-08T00:30:00+00:00",
+      "home": "Universidad Catolica",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:3151",
+      "away_id": "sr:competitor:3202",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3.3,
+      "cote_N": 2.85,
+      "cote_2": 2.05
+    }
+  ]
+}

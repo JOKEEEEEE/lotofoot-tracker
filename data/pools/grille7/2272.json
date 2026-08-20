@@ -1,0 +1,136 @@
+{
+  "grille_id": 2272,
+  "grille_type": "grille7",
+  "pool_id": 7002272,
+  "titre": "Grille 7 n°2272",
+  "statut": "CLOSED",
+  "fin": "2021-11-29T19:45:00+00:00",
+  "collecte_le": "2026-08-20T13:17:20.443587+00:00",
+  "mises_nettes": 7604.25,
+  "montant_distribue": 7604.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 316.84
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 129,
+      "winningsPerGrid": 29.47
+    }
+  ],
+  "repartition": [
+    231,
+    1258,
+    2652,
+    3121,
+    2027,
+    709,
+    129,
+    12
+  ],
+  "matches": [
+    {
+      "match_id": 27867402,
+      "debut": "2021-11-29T19:45:00+00:00",
+      "home": "Derby County",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:1",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27959730,
+      "debut": "2021-11-29T20:00:00+00:00",
+      "home": "Union De Santa Fe",
+      "away": "Atletico Tucuman",
+      "home_id": "sr:competitor:3204",
+      "away_id": "sr:competitor:36833",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965454,
+      "debut": "2021-11-29T20:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Elche",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2846",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27973434,
+      "debut": "2021-11-29T20:00:00+00:00",
+      "home": "Eibar",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:24264",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077246,
+      "debut": "2021-11-29T20:15:00+00:00",
+      "home": "Estoril",
+      "away": "Santa Clara",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:3011",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27472192,
+      "debut": "2021-11-29T22:00:00+00:00",
+      "home": "Atletico GO",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:7314",
+      "away_id": "sr:competitor:1955",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27959724,
+      "debut": "2021-11-29T22:15:00+00:00",
+      "home": "Racing Club",
+      "away": "Lanus",
+      "home_id": "sr:competitor:3215",
+      "away_id": "sr:competitor:3218",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

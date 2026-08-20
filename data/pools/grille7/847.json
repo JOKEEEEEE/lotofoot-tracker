@@ -1,0 +1,127 @@
+{
+  "grille_id": 847,
+  "grille_type": "grille7",
+  "pool_id": 7000847,
+  "titre": "Grille 7 n°847",
+  "statut": "CLOSED",
+  "fin": "2018-03-24T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:41:59.125103+00:00",
+  "mises_nettes": 7762.5,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 21,
+      "winningsPerGrid": 190.48
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 323,
+      "winningsPerGrid": 12.38
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12188322,
+      "debut": "2018-03-24T19:30:00+00:00",
+      "home": "Bari",
+      "away": "Brescia",
+      "home_id": "sr:competitor:2712",
+      "away_id": "sr:competitor:2691",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497067,
+      "debut": "2018-03-24T19:30:00+00:00",
+      "home": "FC Dallas",
+      "away": "Portland Timbers",
+      "home_id": "sr:competitor:2512",
+      "away_id": "sr:competitor:22007",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12060918,
+      "debut": "2018-03-24T19:45:00+00:00",
+      "home": "Gijon",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:2818",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644247,
+      "debut": "2018-03-24T19:45:00+00:00",
+      "home": "Sligo Rovers",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3190",
+      "away_id": "sr:competitor:3179",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842693,
+      "debut": "2018-03-24T21:00:00+00:00",
+      "home": "Boyaca Chico FC",
+      "away": "Santa Fe",
+      "home_id": "sr:competitor:6107",
+      "away_id": "sr:competitor:6116",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497069,
+      "debut": "2018-03-24T22:00:00+00:00",
+      "home": "Columbus Crew",
+      "away": "DC United",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:2502",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497071,
+      "debut": "2018-03-24T23:00:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "Minnesota United FC",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:41618",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

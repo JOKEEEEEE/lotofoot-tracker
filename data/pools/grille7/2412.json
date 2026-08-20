@@ -1,0 +1,136 @@
+{
+  "grille_id": 2412,
+  "grille_type": "grille7",
+  "pool_id": 7002412,
+  "titre": "Grille 7 n°2412",
+  "statut": "CLOSED",
+  "fin": "2022-03-22T17:45:00+00:00",
+  "collecte_le": "2026-08-20T09:18:54.909904+00:00",
+  "mises_nettes": 4272,
+  "montant_distribue": 4272,
+  "montant_garanti": 3500,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 164.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 152,
+      "winningsPerGrid": 14.05
+    }
+  ],
+  "repartition": [
+    39,
+    324,
+    920,
+    1769,
+    1718,
+    761,
+    152,
+    13
+  ],
+  "matches": [
+    {
+      "match_id": 31146109,
+      "debut": "2022-03-22T17:45:00+00:00",
+      "home": "Bayern Munich (F)",
+      "away": "Paris SG (F)",
+      "home_id": "sr:competitor:5543",
+      "away_id": "sr:competitor:55505",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32408591,
+      "debut": "2022-03-22T19:45:00+00:00",
+      "home": "Newtown",
+      "away": "Penybont",
+      "home_id": "sr:competitor:4918",
+      "away_id": "sr:competitor:115185",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32555177,
+      "debut": "2022-03-22T19:45:00+00:00",
+      "home": "Warrenpoint",
+      "away": "Coleraine",
+      "home_id": "sr:competitor:43204",
+      "away_id": "sr:competitor:5270",
+      "score_home": 2,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32555175,
+      "debut": "2022-03-22T19:45:00+00:00",
+      "home": "Dungannon",
+      "away": "Cliftonville",
+      "home_id": "sr:competitor:5271",
+      "away_id": "sr:competitor:5181",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31146131,
+      "debut": "2022-03-22T20:00:00+00:00",
+      "home": "Real Madrid (F)",
+      "away": "Barcelone (F)",
+      "home_id": "sr:competitor:522312",
+      "away_id": "sr:competitor:77889",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31404525,
+      "debut": "2022-03-22T23:00:00+00:00",
+      "home": "Once Caldas",
+      "away": "Tolima",
+      "home_id": "sr:competitor:6118",
+      "away_id": "sr:competitor:6111",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31404529,
+      "debut": "2022-03-23T01:05:00+00:00",
+      "home": "Boyaca Patriotas FC",
+      "away": "America De Cali",
+      "home_id": "sr:competitor:61504",
+      "away_id": "sr:competitor:6102",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

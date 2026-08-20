@@ -1,0 +1,136 @@
+{
+  "grille_id": 2273,
+  "grille_type": "grille7",
+  "pool_id": 7002273,
+  "titre": "Grille 7 n°2273",
+  "statut": "CLOSED",
+  "fin": "2021-11-30T19:30:00+00:00",
+  "collecte_le": "2026-08-20T09:33:31.510744+00:00",
+  "mises_nettes": 11576.25,
+  "montant_distribue": 11576.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 18,
+      "winningsPerGrid": 321.56
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 306,
+      "winningsPerGrid": 18.92
+    }
+  ],
+  "repartition": [
+    130,
+    971,
+    3377,
+    5199,
+    3931,
+    1503,
+    306,
+    18
+  ],
+  "matches": [
+    {
+      "match_id": 27751326,
+      "debut": "2021-11-30T19:30:00+00:00",
+      "home": "Newcastle",
+      "away": "Norwich",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:263",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28303644,
+      "debut": "2021-11-30T19:30:00+00:00",
+      "home": "Spal 2013",
+      "away": "Lecce",
+      "home_id": "sr:competitor:113755",
+      "away_id": "sr:competitor:2689",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160118,
+      "debut": "2021-11-30T19:45:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2719",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160124,
+      "debut": "2021-11-30T19:45:00+00:00",
+      "home": "Salernitana",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 30157399,
+      "debut": "2021-11-30T19:45:00+00:00",
+      "home": "RFC Seraing United",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:34985",
+      "away_id": "sr:competitor:2900",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751316,
+      "debut": "2021-11-30T20:15:00+00:00",
+      "home": "Leeds",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:7",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077236,
+      "debut": "2021-11-30T20:15:00+00:00",
+      "home": "Braga",
+      "away": "FC Vizela",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:5136",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

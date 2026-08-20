@@ -1,0 +1,136 @@
+{
+  "grille_id": 2654,
+  "grille_type": "grille7",
+  "pool_id": 7002654,
+  "titre": "Grille 7 n°2654",
+  "statut": "CLOSED",
+  "fin": "2022-10-16T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:59:35.210410+00:00",
+  "mises_nettes": 12954,
+  "montant_distribue": 12954,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 115,
+      "winningsPerGrid": 56.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1068,
+      "winningsPerGrid": 6.06
+    }
+  ],
+  "repartition": [
+    85,
+    639,
+    2241,
+    4432,
+    5159,
+    3533,
+    1068,
+    115
+  ],
+  "matches": [
+    {
+      "match_id": 34172199,
+      "debut": "2022-10-16T18:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286697,
+      "debut": "2022-10-16T18:45:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277377,
+      "debut": "2022-10-16T19:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Almeria",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2858",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271177,
+      "debut": "2022-10-16T19:00:00+00:00",
+      "home": "Ostende",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:4494",
+      "away_id": "sr:competitor:4860",
+      "score_home": 1,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278625,
+      "debut": "2022-10-16T19:00:00+00:00",
+      "home": "FC Cartagena",
+      "away": "UD Ibiza",
+      "home_id": "sr:competitor:24329",
+      "away_id": "sr:competitor:24368",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278635,
+      "debut": "2022-10-16T19:00:00+00:00",
+      "home": "Tenerife",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:33779",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36588531,
+      "debut": "2022-10-16T19:00:00+00:00",
+      "home": "Austin FC",
+      "away": "Real Salt Lake",
+      "home_id": "sr:competitor:772256",
+      "away_id": "sr:competitor:5133",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2319,
+  "grille_type": "grille7",
+  "pool_id": 7002319,
+  "titre": "Grille 7 n°2319",
+  "statut": "CLOSED",
+  "fin": "2022-01-09T17:30:00+00:00",
+  "collecte_le": "2026-08-20T13:17:12.235523+00:00",
+  "mises_nettes": 6429,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010010100001010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 267.86
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 201,
+      "winningsPerGrid": 18.66
+    }
+  ],
+  "repartition": [
+    58,
+    589,
+    1856,
+    2765,
+    2199,
+    890,
+    201,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 28160242,
+      "debut": "2022-01-09T17:30:00+00:00",
+      "home": "AS Rome",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2687",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965550,
+      "debut": "2022-01-09T17:30:00+00:00",
+      "home": "Osasuna",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:4488",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965542,
+      "debut": "2022-01-09T17:30:00+00:00",
+      "home": "Alaves",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2825",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28799026,
+      "debut": "2022-01-09T19:00:00+00:00",
+      "home": "Ethiopie",
+      "away": "Cap Vert",
+      "home_id": "sr:competitor:8036",
+      "away_id": "sr:competitor:4753",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160238,
+      "debut": "2022-01-09T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2699",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27885078,
+      "debut": "2022-01-09T19:45:00+00:00",
+      "home": "Lyon",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965562,
+      "debut": "2022-01-09T20:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2836",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

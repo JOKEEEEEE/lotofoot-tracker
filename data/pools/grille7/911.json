@@ -1,0 +1,127 @@
+{
+  "grille_id": 911,
+  "grille_type": "grille7",
+  "pool_id": 7000911,
+  "titre": "Grille 7 n°911",
+  "statut": "CLOSED",
+  "fin": "2018-05-27T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:35:51.696409+00:00",
+  "mises_nettes": 8517.75,
+  "montant_distribue": 8517.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 31,
+      "winningsPerGrid": 137.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 293,
+      "winningsPerGrid": 14.54
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14537652,
+      "debut": "2018-05-27T16:00:00+00:00",
+      "home": "Bourg-en-Bresse",
+      "away": "Grenoble",
+      "home_id": "sr:competitor:35056",
+      "away_id": "sr:competitor:1671",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14597864,
+      "debut": "2018-05-27T16:00:00+00:00",
+      "home": "Racing Genk",
+      "away": "Zulte Waregem",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2933",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12061130,
+      "debut": "2018-05-27T18:30:00+00:00",
+      "home": "Huesca",
+      "away": "Gimnastic Tarragone",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:2840",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12075066,
+      "debut": "2018-05-27T18:30:00+00:00",
+      "home": "Gijon",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:33779",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12061126,
+      "debut": "2018-05-27T18:30:00+00:00",
+      "home": "Almeria",
+      "away": "Alcorcon",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:24322",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12061132,
+      "debut": "2018-05-27T18:30:00+00:00",
+      "home": "Cultural Leonesa",
+      "away": "Real Oviedo",
+      "home_id": "sr:competitor:2868",
+      "away_id": "sr:competitor:2851",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14579194,
+      "debut": "2018-05-27T19:00:00+00:00",
+      "home": "Toulouse",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1660",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

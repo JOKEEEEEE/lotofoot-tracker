@@ -1,0 +1,136 @@
+{
+  "grille_id": 2099,
+  "grille_type": "grille7",
+  "pool_id": 7002099,
+  "titre": "Grille 7 n°2099",
+  "statut": "CLOSED",
+  "fin": "2021-07-09T16:45:00+00:00",
+  "collecte_le": "2026-08-20T09:46:04.341171+00:00",
+  "mises_nettes": 5211,
+  "montant_distribue": 5211,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 31,
+      "winningsPerGrid": 84.05
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 236,
+      "winningsPerGrid": 11.04
+    }
+  ],
+  "repartition": [
+    112,
+    947,
+    2379,
+    2237,
+    1006,
+    236,
+    31,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 25852934,
+      "debut": "2021-07-09T16:45:00+00:00",
+      "home": "Finn Harps",
+      "away": "Waterford United",
+      "home_id": "sr:competitor:3181",
+      "away_id": "sr:competitor:3194",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 6.75,
+      "cote_2": 1.05
+    },
+    {
+      "match_id": 25852932,
+      "debut": "2021-07-09T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3170",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.02,
+      "cote_N": 9,
+      "cote_2": 100
+    },
+    {
+      "match_id": 28001146,
+      "debut": "2021-07-09T19:15:00+00:00",
+      "home": "Fylkir",
+      "away": "HK Kopavogs",
+      "home_id": "sr:competitor:1896",
+      "away_id": "sr:competitor:7121",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 75,
+      "cote_N": 8,
+      "cote_2": 1.02
+    },
+    {
+      "match_id": 26574078,
+      "debut": "2021-07-09T23:30:00+00:00",
+      "home": "FC Cincinnati",
+      "away": "Columbus Crew",
+      "home_id": "sr:competitor:245305",
+      "away_id": "sr:competitor:2504",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 7.5,
+      "cote_N": 1.05,
+      "cote_2": 23
+    },
+    {
+      "match_id": 25567484,
+      "debut": "2021-07-10T09:00:00+00:00",
+      "home": "Yokohama Marinos",
+      "away": "Avispa Fukuoka",
+      "home_id": "sr:competitor:3137",
+      "away_id": "sr:competitor:3143",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25567486,
+      "debut": "2021-07-10T10:00:00+00:00",
+      "home": "Oita Trinita",
+      "away": "Urawa Reds",
+      "home_id": "sr:competitor:5129",
+      "away_id": "sr:competitor:3145",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 25,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25567488,
+      "debut": "2021-07-10T10:00:00+00:00",
+      "home": "Vegalta Sendai",
+      "away": "Consadole Sapporo",
+      "home_id": "sr:competitor:3148",
+      "away_id": "sr:competitor:3142",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 55,
+      "cote_N": 1,
+      "cote_2": 36
+    }
+  ]
+}

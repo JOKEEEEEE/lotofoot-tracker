@@ -1,0 +1,127 @@
+{
+  "grille_id": 1207,
+  "grille_type": "grille7",
+  "pool_id": 7001207,
+  "titre": "Grille 7 n°1207",
+  "statut": "CLOSED",
+  "fin": "2019-03-27T17:15:00+00:00",
+  "collecte_le": "2026-08-20T11:09:24.796725+00:00",
+  "mises_nettes": 7863,
+  "montant_distribue": 7863,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 71,
+      "winningsPerGrid": 55.37
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 844,
+      "winningsPerGrid": 4.66
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16231634,
+      "debut": "2019-03-27T17:15:00+00:00",
+      "home": "Wolfsburg",
+      "away": "Lyon",
+      "home_id": "sr:competitor:5556",
+      "away_id": "sr:competitor:26245",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16231632,
+      "debut": "2019-03-27T17:30:00+00:00",
+      "home": "LSK Kvinner",
+      "away": "Barcelone",
+      "home_id": "sr:competitor:733",
+      "away_id": "sr:competitor:77889",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16231636,
+      "debut": "2019-03-27T18:00:00+00:00",
+      "home": "Paris SG (F)",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:55505",
+      "away_id": "sr:competitor:66768",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16231628,
+      "debut": "2019-03-27T18:30:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Slavia Prague",
+      "home_id": "sr:competitor:5543",
+      "away_id": "sr:competitor:38331",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17669148,
+      "debut": "2019-03-27T19:00:00+00:00",
+      "home": "Agadir",
+      "away": "KAC Marrakech",
+      "home_id": "sr:competitor:55039",
+      "away_id": "sr:competitor:47696",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17738488,
+      "debut": "2019-03-27T19:45:00+00:00",
+      "home": "St Johnstone",
+      "away": "St. Mirren",
+      "home_id": "sr:competitor:2348",
+      "away_id": "sr:competitor:2359",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17129161,
+      "debut": "2019-03-27T20:30:00+00:00",
+      "home": "Palestino",
+      "away": "Audax Italiano",
+      "home_id": "sr:competitor:3157",
+      "away_id": "sr:competitor:3162",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

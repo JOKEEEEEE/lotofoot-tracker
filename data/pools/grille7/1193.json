@@ -1,0 +1,127 @@
+{
+  "grille_id": 1193,
+  "grille_type": "grille7",
+  "pool_id": 7001193,
+  "titre": "Grille 7 n°1193",
+  "statut": "CLOSED",
+  "fin": "2019-03-13T19:45:00+00:00",
+  "collecte_le": "2026-08-20T13:28:22.224280+00:00",
+  "mises_nettes": 18105,
+  "montant_distribue": 18105,
+  "montant_garanti": 13000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 905.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 174,
+      "winningsPerGrid": 52.03
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14783663,
+      "debut": "2019-03-13T19:45:00+00:00",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:25",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783669,
+      "debut": "2019-03-13T19:45:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:40",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783677,
+      "debut": "2019-03-13T19:45:00+00:00",
+      "home": "Derby County",
+      "away": "Stoke City",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:29",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783679,
+      "debut": "2019-03-13T19:45:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Preston North End",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:21",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783685,
+      "debut": "2019-03-13T20:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Swansea",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:74",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514893,
+      "debut": "2019-03-13T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Lyon",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:1649",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514907,
+      "debut": "2019-03-13T20:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

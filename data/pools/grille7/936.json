@@ -1,0 +1,127 @@
+{
+  "grille_id": 936,
+  "grille_type": "grille7",
+  "pool_id": 7000936,
+  "titre": "Grille 7 n°936",
+  "statut": "CLOSED",
+  "fin": "2018-06-22T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:32:50.846353+00:00",
+  "mises_nettes": 18134.25,
+  "montant_distribue": 18134.25,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 656,
+      "winningsPerGrid": 13.82
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 3652,
+      "winningsPerGrid": 2.48
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13246018,
+      "debut": "2018-06-22T18:00:00+00:00",
+      "home": "Serbie",
+      "away": "Suisse",
+      "home_id": "sr:competitor:6355",
+      "away_id": "sr:competitor:4699",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13246050,
+      "debut": "2018-06-23T12:00:00+00:00",
+      "home": "Belgique",
+      "away": "Tunisie",
+      "home_id": "sr:competitor:4717",
+      "away_id": "sr:competitor:4729",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13246034,
+      "debut": "2018-06-23T15:00:00+00:00",
+      "home": "Corée du Sud",
+      "away": "Mexique",
+      "home_id": "sr:competitor:4735",
+      "away_id": "sr:competitor:4781",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13246030,
+      "debut": "2018-06-23T18:00:00+00:00",
+      "home": "Allemagne",
+      "away": "Suède",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4688",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13246052,
+      "debut": "2018-06-24T12:00:00+00:00",
+      "home": "Angleterre",
+      "away": "Panama",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:5164",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13245998,
+      "debut": "2018-06-24T15:00:00+00:00",
+      "home": "Japon",
+      "away": "Sénégal",
+      "home_id": "sr:competitor:4770",
+      "away_id": "sr:competitor:4739",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13245994,
+      "debut": "2018-06-24T18:00:00+00:00",
+      "home": "Pologne",
+      "away": "Colombie",
+      "home_id": "sr:competitor:4703",
+      "away_id": "sr:competitor:4820",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 877,
+  "grille_type": "grille7",
+  "pool_id": 7000877,
+  "titre": "Grille 7 n°877",
+  "statut": "CLOSED",
+  "fin": "2018-04-23T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:39:57.814417+00:00",
+  "mises_nettes": 15902.25,
+  "montant_distribue": 15902.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 37,
+      "winningsPerGrid": 214.9
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 553,
+      "winningsPerGrid": 14.38
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11915110,
+      "debut": "2018-04-23T18:30:00+00:00",
+      "home": "Holstein Kiel",
+      "away": "Nuremberg",
+      "home_id": "sr:competitor:2573",
+      "away_id": "sr:competitor:2523",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188564,
+      "debut": "2018-04-23T18:30:00+00:00",
+      "home": "Frosinone",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2801",
+      "away_id": "sr:competitor:2705",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11837168,
+      "debut": "2018-04-23T18:45:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Lens",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1648",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090272,
+      "debut": "2018-04-23T18:45:00+00:00",
+      "home": "Genoa",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2701",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830262,
+      "debut": "2018-04-23T19:00:00+00:00",
+      "home": "Everton",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:39",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11972114,
+      "debut": "2018-04-23T19:00:00+00:00",
+      "home": "FC Porto",
+      "away": "Vitoria Setubal",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3008",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055754,
+      "debut": "2018-04-23T19:00:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Levante",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2849",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

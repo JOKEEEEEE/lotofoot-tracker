@@ -1,0 +1,127 @@
+{
+  "grille_id": 1358,
+  "grille_type": "grille7",
+  "pool_id": 7001358,
+  "titre": "Grille 7 n°1358",
+  "statut": "CLOSED",
+  "fin": "2019-08-28T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:55:48.220742+00:00",
+  "mises_nettes": 14724,
+  "montant_distribue": 14724,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 45,
+      "winningsPerGrid": 163.6
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 527,
+      "winningsPerGrid": 13.97
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18439962,
+      "debut": "2019-08-28T17:00:00+00:00",
+      "home": "Lille",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1678",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19117094,
+      "debut": "2019-08-28T18:45:00+00:00",
+      "home": "Burnley",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:41",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19117090,
+      "debut": "2019-08-28T18:45:00+00:00",
+      "home": "Newcastle",
+      "away": "Leicester",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:31",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19117012,
+      "debut": "2019-08-28T19:00:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "APOEL Nicosie",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:3398",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19117000,
+      "debut": "2019-08-28T19:00:00+00:00",
+      "home": "Club Bruges",
+      "away": "LASK Linz",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:2058",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19117004,
+      "debut": "2019-08-28T19:00:00+00:00",
+      "home": "Slavia Prague",
+      "away": "CFR Cluj",
+      "home_id": "sr:competitor:2216",
+      "away_id": "sr:competitor:5287",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18439960,
+      "debut": "2019-08-28T19:00:00+00:00",
+      "home": "Nice",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1131,
+  "grille_type": "grille7",
+  "pool_id": 7001131,
+  "titre": "Grille 7 n°1131",
+  "statut": "CLOSED",
+  "fin": "2019-01-10T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:15:44.329363+00:00",
+  "mises_nettes": 9755.25,
+  "montant_distribue": 9755.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 16,
+      "winningsPerGrid": 304.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 278,
+      "winningsPerGrid": 17.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16490313,
+      "debut": "2019-01-10T18:30:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16490309,
+      "debut": "2019-01-10T19:30:00+00:00",
+      "home": "Betis Séville",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2824",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946057,
+      "debut": "2019-01-10T20:15:00+00:00",
+      "home": "Portimonense",
+      "away": "Braga",
+      "home_id": "sr:competitor:3026",
+      "away_id": "sr:competitor:2999",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16490311,
+      "debut": "2019-01-10T20:30:00+00:00",
+      "home": "Levante",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2817",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14513810,
+      "debut": "2019-01-11T11:00:00+00:00",
+      "home": "Palestine",
+      "away": "Australie",
+      "home_id": "sr:competitor:4788",
+      "away_id": "sr:competitor:4741",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14513822,
+      "debut": "2019-01-11T13:30:00+00:00",
+      "home": "Philippines",
+      "away": "Chine",
+      "home_id": "sr:competitor:4791",
+      "away_id": "sr:competitor:4755",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14513824,
+      "debut": "2019-01-11T16:00:00+00:00",
+      "home": "Kirghizistan",
+      "away": "Corée du Sud",
+      "home_id": "sr:competitor:7930",
+      "away_id": "sr:competitor:4735",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

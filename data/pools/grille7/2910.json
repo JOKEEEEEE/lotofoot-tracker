@@ -1,0 +1,136 @@
+{
+  "grille_id": 2910,
+  "grille_type": "grille7",
+  "pool_id": 7002910,
+  "titre": "Grille 7 n°2910",
+  "statut": "CLOSED",
+  "fin": "2023-05-16T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:36:58.803975+00:00",
+  "mises_nettes": 5270.25,
+  "montant_distribue": 5270.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 202.7
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 126,
+      "winningsPerGrid": 20.91
+    }
+  ],
+  "repartition": [
+    74,
+    501,
+    1518,
+    2331,
+    1813,
+    651,
+    126,
+    13
+  ],
+  "matches": [
+    {
+      "match_id": 34478623,
+      "debut": "2023-05-16T17:00:00+00:00",
+      "home": "Istanbulspor AS",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:3066",
+      "away_id": "sr:competitor:3061",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34478633,
+      "debut": "2023-05-16T17:00:00+00:00",
+      "home": "Alanyaspor",
+      "away": "Konyaspor",
+      "home_id": "sr:competitor:6362",
+      "away_id": "sr:competitor:3085",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40781319,
+      "debut": "2023-05-16T19:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41148075,
+      "debut": "2023-05-16T19:00:00+00:00",
+      "home": "Luton Town",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:72",
+      "away_id": "sr:competitor:41",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40456161,
+      "debut": "2023-05-16T22:00:00+00:00",
+      "home": "Guairena FC",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:322375",
+      "away_id": "sr:competitor:5996",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40456165,
+      "debut": "2023-05-17T00:30:00+00:00",
+      "home": "Olimpia Asuncion",
+      "away": "Club General Caballero Jlm",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:818704",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34478621,
+      "debut": "2023-05-17T14:00:00+00:00",
+      "home": "Istanbul Basaksehir",
+      "away": "Ümraniyespor",
+      "home_id": "sr:competitor:3086",
+      "away_id": "sr:competitor:55625",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

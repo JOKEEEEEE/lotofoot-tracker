@@ -1,0 +1,136 @@
+{
+  "grille_id": 4079,
+  "grille_type": "grille7",
+  "pool_id": 7004079,
+  "titre": "Grille 7 n°4079",
+  "statut": "CLOSED",
+  "fin": "2026-05-18T17:30:00+00:00",
+  "collecte_le": "2026-08-20T07:11:33.151745+00:00",
+  "mises_nettes": 4280.25,
+  "montant_distribue": 4280.25,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 27,
+      "winningsPerGrid": 79.26
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 244,
+      "winningsPerGrid": 8.77
+    }
+  ],
+  "repartition": [
+    57,
+    843,
+    1887,
+    1754,
+    895,
+    244,
+    27,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 69744652,
+      "debut": "2026-05-18T17:30:00+00:00",
+      "home": "FC Hermannstadt",
+      "away": "FCSB ",
+      "home_id": "sr:competitor:342922",
+      "away_id": "sr:competitor:3301",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.96,
+      "cote_N": 3.4,
+      "cote_2": 3
+    },
+    {
+      "match_id": 69744644,
+      "debut": "2026-05-18T17:30:00+00:00",
+      "home": "Farul Constanta",
+      "away": "Metaloglobus Bucuresti",
+      "home_id": "sr:competitor:3294",
+      "away_id": "sr:competitor:79081",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.26,
+      "cote_N": 5.2,
+      "cote_2": 8
+    },
+    {
+      "match_id": 69744646,
+      "debut": "2026-05-18T17:30:00+00:00",
+      "home": "FC Petrolul Ploiesti",
+      "away": "SC Otelul Galati",
+      "home_id": "sr:competitor:25856",
+      "away_id": "sr:competitor:3291",
+      "score_home": 1,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 1.68,
+      "cote_N": 3.25,
+      "cote_2": 4.3
+    },
+    {
+      "match_id": 69744650,
+      "debut": "2026-05-18T17:30:00+00:00",
+      "home": "Unirea Slobozia",
+      "away": "UTA Arad",
+      "home_id": "sr:competitor:44259",
+      "away_id": "sr:competitor:221210",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.6,
+      "cote_N": 3.15,
+      "cote_2": 2.25
+    },
+    {
+      "match_id": 61623906,
+      "debut": "2026-05-18T18:30:00+00:00",
+      "home": "Leganes",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:24265",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.72,
+      "cote_N": 3.35,
+      "cote_2": 3.9
+    },
+    {
+      "match_id": 61301249,
+      "debut": "2026-05-18T19:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Burnley",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:6",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.11,
+      "cote_N": 8.5,
+      "cote_2": 22
+    },
+    {
+      "match_id": 68687654,
+      "debut": "2026-05-19T00:00:00+00:00",
+      "home": "Guayaquil City FC",
+      "away": "Orense SC",
+      "home_id": "sr:competitor:171976",
+      "away_id": "sr:competitor:403235",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.75,
+      "cote_N": 2.9,
+      "cote_2": 2.3
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3176,
+  "grille_type": "grille7",
+  "pool_id": 7003176,
+  "titre": "Grille 7 n°3176",
+  "statut": "CLOSED",
+  "fin": "2024-01-08T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:09:59.563366+00:00",
+  "mises_nettes": 6356.25,
+  "montant_distribue": 6356.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 3178.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 44,
+      "winningsPerGrid": 72.23
+    }
+  ],
+  "repartition": [
+    90,
+    782,
+    2517,
+    3066,
+    1590,
+    385,
+    44,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 42408047,
+      "debut": "2024-01-08T17:00:00+00:00",
+      "home": "AEK Larnaca",
+      "away": "AEZ Zakakiou",
+      "home_id": "sr:competitor:3404",
+      "away_id": "sr:competitor:73999",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42408051,
+      "debut": "2024-01-08T17:00:00+00:00",
+      "home": "Doxa Katokopias",
+      "away": "Pafos FC",
+      "home_id": "sr:competitor:6973",
+      "away_id": "sr:competitor:171626",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45817719,
+      "debut": "2024-01-08T17:00:00+00:00",
+      "home": "Maccabi Petah Tikva",
+      "away": "Hapoel Haifa",
+      "home_id": "sr:competitor:5333",
+      "away_id": "sr:competitor:5201",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42401691,
+      "debut": "2024-01-08T18:00:00+00:00",
+      "home": "OFI Crète",
+      "away": "Lamia 1964",
+      "home_id": "sr:competitor:3241",
+      "away_id": "sr:competitor:120154",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45817721,
+      "debut": "2024-01-08T18:00:00+00:00",
+      "home": "Beitar Jerusalem",
+      "away": "MS Ashdod",
+      "home_id": "sr:competitor:5204",
+      "away_id": "sr:competitor:5391",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146455,
+      "debut": "2024-01-08T20:15:00+00:00",
+      "home": "Moreirense",
+      "away": "Casa Pia AC",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:36365",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45923035,
+      "debut": "2024-01-08T20:15:00+00:00",
+      "home": "Wigan",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:49",
+      "away_id": "sr:competitor:35",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

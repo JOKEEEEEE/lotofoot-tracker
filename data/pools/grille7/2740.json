@@ -1,0 +1,136 @@
+{
+  "grille_id": 2740,
+  "grille_type": "grille7",
+  "pool_id": 7002740,
+  "titre": "Grille 7 n°2740",
+  "statut": "CLOSED",
+  "fin": "2023-01-02T16:00:00+00:00",
+  "collecte_le": "2026-08-20T08:52:45.739319+00:00",
+  "mises_nettes": 12237,
+  "montant_distribue": 12237,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 470.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 201,
+      "winningsPerGrid": 30.44
+    }
+  ],
+  "repartition": [
+    273,
+    1647,
+    3944,
+    5179,
+    3769,
+    1290,
+    201,
+    13
+  ],
+  "matches": [
+    {
+      "match_id": 34172319,
+      "debut": "2023-01-02T16:00:00+00:00",
+      "home": "Lille",
+      "away": "Reims",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1682",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34526857,
+      "debut": "2023-01-02T17:00:00+00:00",
+      "home": "Apollon Limassol",
+      "away": "Salamina Famagouste",
+      "home_id": "sr:competitor:3402",
+      "away_id": "sr:competitor:3399",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34526855,
+      "debut": "2023-01-02T17:00:00+00:00",
+      "home": "Enosis Neon Paralimni",
+      "away": "Omonia Nicosie",
+      "home_id": "sr:competitor:3405",
+      "away_id": "sr:competitor:3395",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152049,
+      "debut": "2023-01-02T17:30:00+00:00",
+      "home": "Brentford",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:50",
+      "away_id": "sr:competitor:44",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172321,
+      "debut": "2023-01-02T18:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265757,
+      "debut": "2023-01-02T20:00:00+00:00",
+      "home": "Queens Park Rangers",
+      "away": "Sheffield United",
+      "home_id": "sr:competitor:1",
+      "away_id": "sr:competitor:15",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172329,
+      "debut": "2023-01-02T20:00:00+00:00",
+      "home": "Rennes",
+      "away": "Nice",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1661",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

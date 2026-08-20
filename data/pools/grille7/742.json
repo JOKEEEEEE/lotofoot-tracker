@@ -1,0 +1,127 @@
+{
+  "grille_id": 742,
+  "grille_type": "grille7",
+  "pool_id": 7000742,
+  "titre": "Grille 7 n°742",
+  "statut": "CLOSED",
+  "fin": "2017-12-05T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:49:25.080658+00:00",
+  "mises_nettes": 23658.75,
+  "montant_distribue": 23658.75,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 40,
+      "winningsPerGrid": 295.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 819,
+      "winningsPerGrid": 14.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12330462,
+      "debut": "2017-12-05T19:45:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:1644",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12330444,
+      "debut": "2017-12-05T19:45:00+00:00",
+      "home": "Benfica",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2501",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12330446,
+      "debut": "2017-12-05T19:45:00+00:00",
+      "home": "Manchester United",
+      "away": "CSKA Moscou",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:2325",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12330460,
+      "debut": "2017-12-05T19:45:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:2900",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12330500,
+      "debut": "2017-12-05T19:45:00+00:00",
+      "home": "Chelsea",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12330516,
+      "debut": "2017-12-05T19:45:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:3001",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12330522,
+      "debut": "2017-12-05T19:45:00+00:00",
+      "home": "Olympiakos",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

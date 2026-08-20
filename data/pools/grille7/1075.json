@@ -1,0 +1,127 @@
+{
+  "grille_id": 1075,
+  "grille_type": "grille7",
+  "pool_id": 7001075,
+  "titre": "Grille 7 n°1075",
+  "statut": "CLOSED",
+  "fin": "2018-11-11T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:20:29.608575+00:00",
+  "mises_nettes": 20030.25,
+  "montant_distribue": 20030.25,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 746,
+      "winningsPerGrid": 13.43
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 3660,
+      "winningsPerGrid": 2.74
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14700889,
+      "debut": "2018-11-11T16:00:00+00:00",
+      "home": "Marseille",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1686",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700893,
+      "debut": "2018-11-11T16:00:00+00:00",
+      "home": "Rennes",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1647",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736475,
+      "debut": "2018-11-11T16:30:00+00:00",
+      "home": "Manchester City",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:35",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14894241,
+      "debut": "2018-11-11T17:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:2530",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109207,
+      "debut": "2018-11-11T17:30:00+00:00",
+      "home": "FC Séville",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2814",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159855,
+      "debut": "2018-11-11T19:30:00+00:00",
+      "home": "Milan AC",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700899,
+      "debut": "2018-11-11T20:00:00+00:00",
+      "home": "Monaco",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

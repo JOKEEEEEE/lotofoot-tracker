@@ -1,0 +1,136 @@
+{
+  "grille_id": 3390,
+  "grille_type": "grille7",
+  "pool_id": 7003390,
+  "titre": "Grille 7 n°3390",
+  "statut": "CLOSED",
+  "fin": "2024-07-08T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:25:17.794757+00:00",
+  "mises_nettes": 4047,
+  "montant_distribue": 4047,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 12,
+      "winningsPerGrid": 168.63
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 150,
+      "winningsPerGrid": 13.49
+    }
+  ],
+  "repartition": [
+    216,
+    993,
+    1808,
+    1562,
+    655,
+    150,
+    12,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 46300955,
+      "debut": "2024-07-08T17:00:00+00:00",
+      "home": "Norrköping",
+      "away": "Djurgardens",
+      "home_id": "sr:competitor:1769",
+      "away_id": "sr:competitor:1759",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46374387,
+      "debut": "2024-07-08T17:00:00+00:00",
+      "home": "Kristiansund",
+      "away": "Fredrikstad FK",
+      "home_id": "sr:competitor:957",
+      "away_id": "sr:competitor:687",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46300965,
+      "debut": "2024-07-08T17:00:00+00:00",
+      "home": "Vasteras SK",
+      "away": "Häcken",
+      "home_id": "sr:competitor:1775",
+      "away_id": "sr:competitor:1760",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46374393,
+      "debut": "2024-07-08T17:00:00+00:00",
+      "home": "Stromsgodset IF",
+      "away": "Sandefjord",
+      "home_id": "sr:competitor:1163",
+      "away_id": "sr:competitor:676",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46487385,
+      "debut": "2024-07-08T19:15:00+00:00",
+      "home": "FH Hafnarfjordur",
+      "away": "KA Akureyri",
+      "home_id": "sr:competitor:1894",
+      "away_id": "sr:competitor:1904",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47092197,
+      "debut": "2024-07-09T10:30:00+00:00",
+      "home": "Daegu FC",
+      "away": "Incheon United",
+      "home_id": "sr:competitor:7644",
+      "away_id": "sr:competitor:7648",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47092199,
+      "debut": "2024-07-09T10:30:00+00:00",
+      "home": "Gimcheon Sangmu",
+      "away": "Suwon City",
+      "home_id": "sr:competitor:7647",
+      "away_id": "sr:competitor:41261",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

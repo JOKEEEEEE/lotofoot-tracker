@@ -1,0 +1,127 @@
+{
+  "grille_id": 1636,
+  "grille_type": "grille7",
+  "pool_id": 7001636,
+  "titre": "Grille 7 n°1636",
+  "statut": "CLOSED",
+  "fin": "2020-06-13T17:30:00+00:00",
+  "collecte_le": "2026-08-20T10:27:49.502512+00:00",
+  "mises_nettes": 7570.5,
+  "montant_distribue": 7570.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001001010010010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 3785.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 18,
+      "winningsPerGrid": 210.29
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22136621,
+      "debut": "2020-06-13T18:00:00+00:00",
+      "home": "Besiktas",
+      "away": "Antalyaspor",
+      "home_id": "sr:competitor:3050",
+      "away_id": "sr:competitor:3056",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22136569,
+      "debut": "2020-06-13T18:00:00+00:00",
+      "home": "Yeni Malatyaspor",
+      "away": "Kasimpasa",
+      "home_id": "sr:competitor:24759",
+      "away_id": "sr:competitor:6063",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22122525,
+      "debut": "2020-06-13T18:30:00+00:00",
+      "home": "Panathinaïkos",
+      "away": "PAOK Salonique",
+      "home_id": "sr:competitor:3248",
+      "away_id": "sr:competitor:3251",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22155189,
+      "debut": "2020-06-13T17:30:00+00:00",
+      "home": "Las Palmas",
+      "away": "Gérone",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:24264",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22136535,
+      "debut": "2020-06-13T19:00:00+00:00",
+      "home": "Naples",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085343,
+      "debut": "2020-06-13T20:00:00+00:00",
+      "home": "Braga",
+      "away": "Boavista",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:2995",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22138559,
+      "debut": "2020-06-13T20:00:00+00:00",
+      "home": "Majorque",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2826",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

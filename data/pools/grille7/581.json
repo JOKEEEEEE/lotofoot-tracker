@@ -1,0 +1,127 @@
+{
+  "grille_id": 581,
+  "grille_type": "grille7",
+  "pool_id": 7000581,
+  "titre": "Grille 7 n°581",
+  "statut": "CLOSED",
+  "fin": "2017-06-19T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:02:45.783797+00:00",
+  "mises_nettes": 3960,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 400
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 41,
+      "winningsPerGrid": 48.78
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10678618,
+      "debut": "2017-06-19T16:00:00+00:00",
+      "home": "Slovaquie U21",
+      "away": "Angleterre U21",
+      "home_id": "sr:competitor:6052",
+      "away_id": "sr:competitor:6025",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10828990,
+      "debut": "2017-06-19T17:00:00+00:00",
+      "home": "Brann",
+      "away": "Stabaek",
+      "home_id": "sr:competitor:1159",
+      "away_id": "sr:competitor:1162",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10678616,
+      "debut": "2017-06-19T18:45:00+00:00",
+      "home": "Pologne U21",
+      "away": "Suède U21",
+      "home_id": "sr:competitor:4889",
+      "away_id": "sr:competitor:4793",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549871,
+      "debut": "2017-06-19T19:15:00+00:00",
+      "home": "Vikingur Olafsvik",
+      "away": "Stjarnan",
+      "home_id": "sr:competitor:36055",
+      "away_id": "sr:competitor:1912",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549873,
+      "debut": "2017-06-19T19:15:00+00:00",
+      "home": "FH Hafnarfjordur",
+      "away": "Vikingur Reykjavik",
+      "home_id": "sr:competitor:1894",
+      "away_id": "sr:competitor:1908",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549875,
+      "debut": "2017-06-19T19:15:00+00:00",
+      "home": "IA Akranes",
+      "away": "Fjölnir",
+      "home_id": "sr:competitor:1898",
+      "away_id": "sr:competitor:5374",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549869,
+      "debut": "2017-06-19T20:00:00+00:00",
+      "home": "KR Reykjavik",
+      "away": "Breidablik",
+      "home_id": "sr:competitor:1902",
+      "away_id": "sr:competitor:1901",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1041,
+  "grille_type": "grille7",
+  "pool_id": 7001041,
+  "titre": "Grille 7 n°1041",
+  "statut": "CLOSED",
+  "fin": "2018-10-07T15:00:00+00:00",
+  "collecte_le": "2026-08-20T11:22:58.780313+00:00",
+  "mises_nettes": 27963.75,
+  "montant_distribue": 27963.75,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 77,
+      "winningsPerGrid": 181.58
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 913,
+      "winningsPerGrid": 15.31
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14700811,
+      "debut": "2018-10-07T15:00:00+00:00",
+      "home": "Marseille",
+      "away": "Caen",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1667",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700813,
+      "debut": "2018-10-07T15:00:00+00:00",
+      "home": "Monaco",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1658",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736391,
+      "debut": "2018-10-07T15:30:00+00:00",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109123,
+      "debut": "2018-10-07T16:30:00+00:00",
+      "home": "FC Séville",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2821",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14945887,
+      "debut": "2018-10-07T16:30:00+00:00",
+      "home": "Benfica",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109121,
+      "debut": "2018-10-07T18:45:00+00:00",
+      "home": "Valence",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700819,
+      "debut": "2018-10-07T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1649",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

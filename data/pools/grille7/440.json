@@ -1,0 +1,127 @@
+{
+  "grille_id": 440,
+  "grille_type": "grille7",
+  "pool_id": 7000440,
+  "titre": "Grille 7 n°440",
+  "statut": "CLOSED",
+  "fin": "2017-01-18T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:18:31.512511+00:00",
+  "mises_nettes": 6229.5,
+  "montant_distribue": 6229.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 69,
+      "winningsPerGrid": 45.14
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 926,
+      "winningsPerGrid": 3.36
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10788242,
+      "debut": "2017-01-18T19:00:00+00:00",
+      "home": "Nantes",
+      "away": "Caen",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1667",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10470746,
+      "debut": "2017-01-18T19:00:00+00:00",
+      "home": "Cameroun",
+      "away": "Guinée Bissau",
+      "home_id": "sr:competitor:4751",
+      "away_id": "sr:competitor:23478",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10861762,
+      "debut": "2017-01-18T19:45:00+00:00",
+      "home": "Southampton",
+      "away": "Norwich",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:263",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10758540,
+      "debut": "2017-01-18T20:00:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2713",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10470758,
+      "debut": "2017-01-19T16:00:00+00:00",
+      "home": "Algérie",
+      "away": "Tunisie",
+      "home_id": "sr:competitor:4691",
+      "away_id": "sr:competitor:4729",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10470760,
+      "debut": "2017-01-19T19:00:00+00:00",
+      "home": "Sénégal",
+      "away": "Zimbabwe",
+      "home_id": "sr:competitor:4739",
+      "away_id": "sr:competitor:4719",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10897716,
+      "debut": "2017-01-19T20:15:00+00:00",
+      "home": "Real Sociedad",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

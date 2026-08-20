@@ -1,0 +1,127 @@
+{
+  "grille_id": 831,
+  "grille_type": "grille7",
+  "pool_id": 7000831,
+  "titre": "Grille 7 n°831",
+  "statut": "CLOSED",
+  "fin": "2018-03-07T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:42:49.189164+00:00",
+  "mises_nettes": 10827,
+  "montant_distribue": 10827,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 773.36
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 165,
+      "winningsPerGrid": 32.81
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13330139,
+      "debut": "2018-03-07T19:45:00+00:00",
+      "home": "Tottenham",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13330143,
+      "debut": "2018-03-07T19:45:00+00:00",
+      "home": "Manchester City",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2501",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868836,
+      "debut": "2018-03-07T19:45:00+00:00",
+      "home": "Leeds",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:3",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13916137,
+      "debut": "2018-03-07T19:45:00+00:00",
+      "home": "Kilmarnock",
+      "away": "St Johnstone",
+      "home_id": "sr:competitor:2347",
+      "away_id": "sr:competitor:2348",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842631,
+      "debut": "2018-03-09T00:00:00+00:00",
+      "home": "Tolima",
+      "away": "Envigado FC",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6114",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842625,
+      "debut": "2018-03-07T23:00:00+00:00",
+      "home": "Once Caldas",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6118",
+      "away_id": "sr:competitor:6115",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842637,
+      "debut": "2018-03-08T01:00:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Jaguares De Cordoba",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:89370",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

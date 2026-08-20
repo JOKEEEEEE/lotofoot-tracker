@@ -1,0 +1,127 @@
+{
+  "grille_id": 1148,
+  "grille_type": "grille7",
+  "pool_id": 7001148,
+  "titre": "Grille 7 n°1148",
+  "statut": "CLOSED",
+  "fin": "2019-01-27T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:15:06.525552+00:00",
+  "mises_nettes": 18722.25,
+  "montant_distribue": 18722.25,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 75,
+      "winningsPerGrid": 124.82
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 984,
+      "winningsPerGrid": 9.51
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701061,
+      "debut": "2019-01-27T16:00:00+00:00",
+      "home": "Amiens",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1649",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681365,
+      "debut": "2019-01-27T16:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160033,
+      "debut": "2019-01-27T17:00:00+00:00",
+      "home": "Torino",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701079,
+      "debut": "2019-01-27T19:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Angers",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1684",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160035,
+      "debut": "2019-01-27T19:30:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109375,
+      "debut": "2019-01-27T19:45:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2829",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701075,
+      "debut": "2019-01-27T20:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1658",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

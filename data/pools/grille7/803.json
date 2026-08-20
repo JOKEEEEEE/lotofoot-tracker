@@ -1,0 +1,127 @@
+{
+  "grille_id": 803,
+  "grille_type": "grille7",
+  "pool_id": 7000803,
+  "titre": "Grille 7 n°803",
+  "statut": "CLOSED",
+  "fin": "2018-02-07T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:44:32.737782+00:00",
+  "mises_nettes": 14758.5,
+  "montant_distribue": 14758.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 207,
+      "winningsPerGrid": 35.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1435,
+      "winningsPerGrid": 5.14
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13644919,
+      "debut": "2018-02-07T17:30:00+00:00",
+      "home": "Metz",
+      "away": "Caen",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1667",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644933,
+      "debut": "2018-02-07T17:30:00+00:00",
+      "home": "Lens",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1652",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644935,
+      "debut": "2018-02-07T17:30:00+00:00",
+      "home": "Chambly",
+      "away": "Granville",
+      "home_id": "sr:competitor:61612",
+      "away_id": "sr:competitor:45938",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13496879,
+      "debut": "2018-02-07T19:45:00+00:00",
+      "home": "Schalke 04",
+      "away": "Wolfsbourg",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:2524",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644923,
+      "debut": "2018-02-07T20:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13549527,
+      "debut": "2018-02-07T20:15:00+00:00",
+      "home": "FC Porto",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13649333,
+      "debut": "2018-02-07T20:30:00+00:00",
+      "home": "FC Séville",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2845",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1270,
+  "grille_type": "grille7",
+  "pool_id": 7001270,
+  "titre": "Grille 7 n°1270",
+  "statut": "CLOSED",
+  "fin": "2019-05-30T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:03:14.427648+00:00",
+  "mises_nettes": 4423.5,
+  "montant_distribue": 4423.5,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 21,
+      "winningsPerGrid": 105.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 223,
+      "winningsPerGrid": 9.92
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18301549,
+      "debut": "2019-05-30T16:00:00+00:00",
+      "home": "Hobro",
+      "away": "Viborg FF",
+      "home_id": "sr:competitor:1392",
+      "away_id": "sr:competitor:1288",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18304791,
+      "debut": "2019-05-30T16:00:00+00:00",
+      "home": "FC Olimpiets",
+      "away": "Krylia Sovetov",
+      "home_id": "sr:competitor:212844",
+      "away_id": "sr:competitor:2322",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17721364,
+      "debut": "2019-05-30T16:30:00+00:00",
+      "home": "Oleksandria",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:25479",
+      "away_id": "sr:competitor:3305",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17721372,
+      "debut": "2019-05-30T16:30:00+00:00",
+      "home": "FC Lviv",
+      "away": "Shakhtar Donetsk",
+      "home_id": "sr:competitor:23790",
+      "away_id": "sr:competitor:3313",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18237341,
+      "debut": "2019-05-30T18:00:00+00:00",
+      "home": "Turquie",
+      "away": "Grèce",
+      "home_id": "sr:competitor:4700",
+      "away_id": "sr:competitor:4710",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18297891,
+      "debut": "2019-05-30T18:45:00+00:00",
+      "home": "Lens",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1686",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18303849,
+      "debut": "2019-05-30T19:00:00+00:00",
+      "home": "Cittadella",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2717",
+      "away_id": "sr:competitor:2701",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

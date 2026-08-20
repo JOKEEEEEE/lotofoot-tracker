@@ -1,0 +1,127 @@
+{
+  "grille_id": 106,
+  "grille_type": "grille7",
+  "pool_id": 7000106,
+  "titre": "Grille 7 n°106",
+  "statut": "CLOSED",
+  "fin": "2016-01-06T17:00:00+00:00",
+  "collecte_le": "2026-08-20T12:48:35.011881+00:00",
+  "mises_nettes": 12479.25,
+  "montant_distribue": 12479.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 567.24
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 184,
+      "winningsPerGrid": 33.91
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7558260,
+      "debut": "2016-01-06T20:15:00+00:00",
+      "home": "FC Porto",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3036",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689546,
+      "debut": "2016-01-06T17:00:00+00:00",
+      "home": "Empoli",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8606406,
+      "debut": "2016-01-06T17:15:00+00:00",
+      "home": "Betis Séville",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2833",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8606404,
+      "debut": "2016-01-06T19:30:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2814",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689566,
+      "debut": "2016-01-06T19:45:00+00:00",
+      "home": "Naples",
+      "away": "Torino",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2696",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8520080,
+      "debut": "2016-01-06T20:00:00+00:00",
+      "home": "Everton",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:17",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8606400,
+      "debut": "2016-01-06T21:05:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 467,
+  "grille_type": "grille7",
+  "pool_id": 7000467,
+  "titre": "Grille 7 n°467",
+  "statut": "CLOSED",
+  "fin": "2017-02-16T20:05:00+00:00",
+  "collecte_le": "2026-08-20T12:15:15.889468+00:00",
+  "mises_nettes": 13437,
+  "montant_distribue": 13437,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 72,
+      "winningsPerGrid": 93.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 882,
+      "winningsPerGrid": 7.62
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10738904,
+      "debut": "2017-02-16T20:05:00+00:00",
+      "home": "Manchester United",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:1678",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738636,
+      "debut": "2017-02-16T20:05:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "APOEL Nicosie",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:3398",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738692,
+      "debut": "2017-02-16T20:05:00+00:00",
+      "home": "Legia Varsovie",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:3106",
+      "away_id": "sr:competitor:2953",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738812,
+      "debut": "2017-02-16T20:05:00+00:00",
+      "home": "Anderlecht",
+      "away": "Zénith St-Pétersbourg",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2321",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738908,
+      "debut": "2017-02-16T20:05:00+00:00",
+      "home": "Villarreal",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2702",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738994,
+      "debut": "2017-02-16T20:05:00+00:00",
+      "home": "Hapoel Beer Sheva",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:5202",
+      "away_id": "sr:competitor:3050",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738998,
+      "debut": "2017-02-16T20:05:00+00:00",
+      "home": "PAOK Salonique",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:3251",
+      "away_id": "sr:competitor:2530",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

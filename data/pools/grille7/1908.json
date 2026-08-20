@@ -1,0 +1,127 @@
+{
+  "grille_id": 1908,
+  "grille_type": "grille7",
+  "pool_id": 7001908,
+  "titre": "Grille 7 n°1908",
+  "statut": "CLOSED",
+  "fin": "2021-01-28T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:01:57.734766+00:00",
+  "mises_nettes": 15146.25,
+  "montant_distribue": 15146.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 240,
+      "winningsPerGrid": 31.55
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1784,
+      "winningsPerGrid": 4.25
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23032949,
+      "debut": "2021-01-28T19:30:00+00:00",
+      "home": "St. Pauli",
+      "away": "Bochum",
+      "home_id": "sr:competitor:2526",
+      "away_id": "sr:competitor:2542",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 20,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23378171,
+      "debut": "2021-01-28T19:30:00+00:00",
+      "home": "Sion",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:2452",
+      "away_id": "sr:competitor:2501",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 23,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22870813,
+      "debut": "2021-01-28T20:00:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Willem II",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:2961",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23031387,
+      "debut": "2021-01-28T20:00:00+00:00",
+      "home": "Ostende",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:4494",
+      "away_id": "sr:competitor:2901",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 7.25,
+      "cote_2": 65
+    },
+    {
+      "match_id": 23204177,
+      "debut": "2021-01-28T20:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 25422908,
+      "debut": "2021-01-28T20:00:00+00:00",
+      "home": "Naples",
+      "away": "Spezia",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2735",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25464848,
+      "debut": "2021-01-28T20:00:00+00:00",
+      "home": "CD Alcoyano",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:6585",
+      "away_id": "sr:competitor:2825",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 25,
+      "cote_2": 1
+    }
+  ]
+}

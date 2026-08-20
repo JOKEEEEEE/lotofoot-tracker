@@ -1,0 +1,136 @@
+{
+  "grille_id": 2964,
+  "grille_type": "grille7",
+  "pool_id": 7002964,
+  "titre": "Grille 7 n°2964",
+  "statut": "CLOSED",
+  "fin": "2023-07-08T16:00:00+00:00",
+  "collecte_le": "2026-08-20T08:33:38.224574+00:00",
+  "mises_nettes": 4170,
+  "montant_distribue": 4170,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1042.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 42,
+      "winningsPerGrid": 49.64
+    }
+  ],
+  "repartition": [
+    151,
+    774,
+    1628,
+    1728,
+    956,
+    279,
+    42,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 42143593,
+      "debut": "2023-07-08T16:00:00+00:00",
+      "home": "Angleterre U21",
+      "away": "Espagne U21",
+      "home_id": "sr:competitor:6025",
+      "away_id": "sr:competitor:4891",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37966087,
+      "debut": "2023-07-08T16:00:00+00:00",
+      "home": "Viking",
+      "away": "Haugesund",
+      "home_id": "sr:competitor:1164",
+      "away_id": "sr:competitor:673",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439211,
+      "debut": "2023-07-08T19:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:1954",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439227,
+      "debut": "2023-07-08T19:00:00+00:00",
+      "home": "Cuiaba MT",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:49202",
+      "away_id": "sr:competitor:1955",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546301,
+      "debut": "2023-07-08T21:00:00+00:00",
+      "home": "Estudiantes",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:3215",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439219,
+      "debut": "2023-07-08T21:30:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1957",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439223,
+      "debut": "2023-07-08T21:30:00+00:00",
+      "home": "Coritiba",
+      "away": "America Mineiro MG",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1973",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

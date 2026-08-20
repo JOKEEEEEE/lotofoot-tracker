@@ -1,0 +1,127 @@
+{
+  "grille_id": 875,
+  "grille_type": "grille7",
+  "pool_id": 7000875,
+  "titre": "Grille 7 n°875",
+  "statut": "CLOSED",
+  "fin": "2018-04-21T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:40:08.995671+00:00",
+  "mises_nettes": 9442.5,
+  "montant_distribue": 9442.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2360.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 55,
+      "winningsPerGrid": 85.84
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11832914,
+      "debut": "2018-04-21T18:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1653",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832960,
+      "debut": "2018-04-21T18:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Angers",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1684",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832968,
+      "debut": "2018-04-21T18:00:00+00:00",
+      "home": "Metz",
+      "away": "Caen",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1667",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833462,
+      "debut": "2018-04-21T18:00:00+00:00",
+      "home": "Amiens",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1659",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090252,
+      "debut": "2018-04-21T18:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Benevento",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2759",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11972102,
+      "debut": "2018-04-21T19:30:00+00:00",
+      "home": "Estoril",
+      "away": "Benfica",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13788593,
+      "debut": "2018-04-21T19:30:00+00:00",
+      "home": "FC Barcelone",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2833",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

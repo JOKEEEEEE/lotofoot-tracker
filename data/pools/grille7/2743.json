@@ -1,0 +1,136 @@
+{
+  "grille_id": 2743,
+  "grille_type": "grille7",
+  "pool_id": 7002743,
+  "titre": "Grille 7 n°2743",
+  "statut": "CLOSED",
+  "fin": "2023-01-05T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:52:32.041033+00:00",
+  "mises_nettes": 3525,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 75,
+      "winningsPerGrid": 33.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 597,
+      "winningsPerGrid": 4.19
+    }
+  ],
+  "repartition": [
+    12,
+    93,
+    400,
+    927,
+    1397,
+    1199,
+    597,
+    75
+  ],
+  "matches": [
+    {
+      "match_id": 34478319,
+      "debut": "2023-01-05T17:00:00+00:00",
+      "home": "Trabzonspor",
+      "away": "Giresunspor",
+      "home_id": "sr:competitor:3051",
+      "away_id": "sr:competitor:5765",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34478323,
+      "debut": "2023-01-05T17:00:00+00:00",
+      "home": "Adana Demirspor",
+      "away": "Istanbulspor AS",
+      "home_id": "sr:competitor:3101",
+      "away_id": "sr:competitor:3066",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38201431,
+      "debut": "2023-01-05T15:00:00+00:00",
+      "home": "CRS Salmi",
+      "away": "FAR Rabat",
+      "home_id": "sr:competitor:220514",
+      "away_id": "sr:competitor:24394",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34505951,
+      "debut": "2023-01-05T18:00:00+00:00",
+      "home": "Leixoes SC",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:3018",
+      "away_id": "sr:competitor:3014",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152051,
+      "debut": "2023-01-05T20:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38234863,
+      "debut": "2023-01-05T20:00:00+00:00",
+      "home": "Club Deportivo Eldense",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:47321",
+      "away_id": "sr:competitor:2825",
+      "score_home": 1,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504817,
+      "debut": "2023-01-05T20:15:00+00:00",
+      "home": "Santa Clara",
+      "away": "Braga",
+      "home_id": "sr:competitor:3011",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

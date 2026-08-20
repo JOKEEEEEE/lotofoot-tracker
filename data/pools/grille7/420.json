@@ -1,0 +1,127 @@
+{
+  "grille_id": 420,
+  "grille_type": "grille7",
+  "pool_id": 7000420,
+  "titre": "Grille 7 n°420",
+  "statut": "CLOSED",
+  "fin": "2016-12-24T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:20:09.599042+00:00",
+  "mises_nettes": 4801.5,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 192.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 232,
+      "winningsPerGrid": 10.78
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9791731,
+      "debut": "2016-12-24T16:00:00+00:00",
+      "home": "Besiktas",
+      "away": "Gaziantepspor",
+      "home_id": "sr:competitor:3050",
+      "away_id": "sr:competitor:3060",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9791719,
+      "debut": "2016-12-25T10:30:00+00:00",
+      "home": "Rizespor",
+      "away": "Osmanlispor",
+      "home_id": "sr:competitor:3064",
+      "away_id": "sr:competitor:3057",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9791721,
+      "debut": "2016-12-25T13:00:00+00:00",
+      "home": "Kayserispor",
+      "away": "Karabükspor",
+      "home_id": "sr:competitor:3072",
+      "away_id": "sr:competitor:7027",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9791723,
+      "debut": "2016-12-25T13:00:00+00:00",
+      "home": "Akhisar Belediyespor",
+      "away": "Konyaspor",
+      "home_id": "sr:competitor:24748",
+      "away_id": "sr:competitor:3085",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9791729,
+      "debut": "2016-12-25T16:00:00+00:00",
+      "home": "Antalyaspor",
+      "away": "Kasimpasa",
+      "home_id": "sr:competitor:3056",
+      "away_id": "sr:competitor:6063",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9791733,
+      "debut": "2016-12-25T16:00:00+00:00",
+      "home": "Galatasaray",
+      "away": "Alanyaspor",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:6362",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9806493,
+      "debut": "2016-12-25T19:00:00+00:00",
+      "home": "Hapoel Beer Sheva",
+      "away": "Hapoel Tel-Aviv",
+      "home_id": "sr:competitor:5202",
+      "away_id": "sr:competitor:5396",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

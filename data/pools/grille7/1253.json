@@ -1,0 +1,127 @@
+{
+  "grille_id": 1253,
+  "grille_type": "grille7",
+  "pool_id": 7001253,
+  "titre": "Grille 7 n°1253",
+  "statut": "CLOSED",
+  "fin": "2019-05-13T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:04:26.573693+00:00",
+  "mises_nettes": 11669.25,
+  "montant_distribue": 11669.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 146,
+      "winningsPerGrid": 39.96
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 987,
+      "winningsPerGrid": 5.91
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15160337,
+      "debut": "2019-05-13T17:00:00+00:00",
+      "home": "Bologne",
+      "away": "Parme",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2690",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14977583,
+      "debut": "2019-05-13T17:00:00+00:00",
+      "home": "Besiktas",
+      "away": "Alanyaspor",
+      "home_id": "sr:competitor:3050",
+      "away_id": "sr:competitor:6362",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17731170,
+      "debut": "2019-05-13T17:00:00+00:00",
+      "home": "Brøndby",
+      "away": "Nordsjælland",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:1292",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16542309,
+      "debut": "2019-05-13T17:00:00+00:00",
+      "home": "Norrköping",
+      "away": "IFK Göteborg",
+      "home_id": "sr:competitor:1769",
+      "away_id": "sr:competitor:1761",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17893284,
+      "debut": "2019-05-13T18:45:00+00:00",
+      "home": "St. Mirren",
+      "away": "Hamilton",
+      "home_id": "sr:competitor:2359",
+      "away_id": "sr:competitor:2376",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160325,
+      "debut": "2019-05-13T19:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Chievo Vérone",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2694",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145893,
+      "debut": "2019-05-13T19:00:00+00:00",
+      "home": "Malaga",
+      "away": "Real Oviedo",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2851",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

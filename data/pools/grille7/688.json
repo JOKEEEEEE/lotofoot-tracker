@@ -1,0 +1,127 @@
+{
+  "grille_id": 688,
+  "grille_type": "grille7",
+  "pool_id": 7000688,
+  "titre": "Grille 7 n°688",
+  "statut": "CLOSED",
+  "fin": "2017-10-11T22:30:00+00:00",
+  "collecte_le": "2026-08-20T11:55:35.449057+00:00",
+  "mises_nettes": 7784.25,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 444.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 147,
+      "winningsPerGrid": 27.21
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11439795,
+      "debut": "2017-10-11T22:30:00+00:00",
+      "home": "Botafogo",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:21845",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439805,
+      "debut": "2017-10-11T22:30:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Atletico GO",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:7314",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12338664,
+      "debut": "2017-10-12T00:00:00+00:00",
+      "home": "Houston Dynamo",
+      "away": "Kansas City",
+      "home_id": "sr:competitor:2508",
+      "away_id": "sr:competitor:2509",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439801,
+      "debut": "2017-10-12T00:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Coritiba",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1982",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439803,
+      "debut": "2017-10-12T00:45:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439807,
+      "debut": "2017-10-12T00:45:00+00:00",
+      "home": "Grêmio",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:1954",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439813,
+      "debut": "2017-10-12T00:45:00+00:00",
+      "home": "Avai ",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:7315",
+      "away_id": "sr:competitor:1974",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

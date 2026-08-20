@@ -1,0 +1,127 @@
+{
+  "grille_id": 1924,
+  "grille_type": "grille7",
+  "pool_id": 7001924,
+  "titre": "Grille 7 n°1924",
+  "statut": "CLOSED",
+  "fin": "2021-02-09T19:00:00+00:00",
+  "collecte_le": "2026-08-20T13:19:12.115950+00:00",
+  "mises_nettes": 20204.25,
+  "montant_distribue": 20204.25,
+  "montant_garanti": 11000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 95,
+      "winningsPerGrid": 106.34
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 909,
+      "winningsPerGrid": 11.11
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23320369,
+      "debut": "2021-02-09T21:00:00+00:00",
+      "home": "Gil Vicente",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 28,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23320357,
+      "debut": "2021-02-09T19:00:00+00:00",
+      "home": "Boavista",
+      "away": "Nacional Madeira ",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3013",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 200,
+      "cote_N": 14.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 25719010,
+      "debut": "2021-02-09T19:45:00+00:00",
+      "home": "Courtrai",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:4858",
+      "away_id": "sr:competitor:2901",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 140,
+      "cote_N": 11.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 25495036,
+      "debut": "2021-02-09T19:30:00+00:00",
+      "home": "Manchester United",
+      "away": "West Ham",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:37",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 9.5,
+      "cote_N": 1.03,
+      "cote_2": 25
+    },
+    {
+      "match_id": 25579564,
+      "debut": "2021-02-09T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 18,
+      "cote_N": 1.02,
+      "cote_2": 13
+    },
+    {
+      "match_id": 25474596,
+      "debut": "2021-02-09T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1660",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25481756,
+      "debut": "2021-02-09T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2859",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

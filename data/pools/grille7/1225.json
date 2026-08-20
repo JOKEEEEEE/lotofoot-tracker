@@ -1,0 +1,127 @@
+{
+  "grille_id": 1225,
+  "grille_type": "grille7",
+  "pool_id": 7001225,
+  "titre": "Grille 7 n°1225",
+  "statut": "CLOSED",
+  "fin": "2019-04-15T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:06:34.804938+00:00",
+  "mises_nettes": 16268.25,
+  "montant_distribue": 16268.25,
+  "montant_garanti": 13000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001100010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 4067.07
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 86,
+      "winningsPerGrid": 94.58
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15160249,
+      "debut": "2019-04-15T18:30:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2705",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14895233,
+      "debut": "2019-04-15T18:30:00+00:00",
+      "home": "Cologne",
+      "away": "Hambourg",
+      "home_id": "sr:competitor:2671",
+      "away_id": "sr:competitor:2676",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745385,
+      "debut": "2019-04-15T18:45:00+00:00",
+      "home": "Paris FC",
+      "away": "Lorient",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1656",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17708332,
+      "debut": "2019-04-15T18:45:00+00:00",
+      "home": "Dundalk",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3179",
+      "away_id": "sr:competitor:3173",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736901,
+      "debut": "2019-04-15T19:00:00+00:00",
+      "home": "Watford",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:42",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109595,
+      "debut": "2019-04-15T19:00:00+00:00",
+      "home": "Leganes",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:2829",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15433514,
+      "debut": "2019-04-15T19:00:00+00:00",
+      "home": "Livourne",
+      "away": "Brescia",
+      "home_id": "sr:competitor:2726",
+      "away_id": "sr:competitor:2691",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

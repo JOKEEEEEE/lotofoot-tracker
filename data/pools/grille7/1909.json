@@ -1,0 +1,127 @@
+{
+  "grille_id": 1909,
+  "grille_type": "grille7",
+  "pool_id": 7001909,
+  "titre": "Grille 7 n°1909",
+  "statut": "CLOSED",
+  "fin": "2021-01-29T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:01:48.899100+00:00",
+  "mises_nettes": 17921.25,
+  "montant_distribue": 17921.25,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 47,
+      "winningsPerGrid": 190.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 645,
+      "winningsPerGrid": 13.89
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23032169,
+      "debut": "2021-01-29T19:30:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2556",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23390961,
+      "debut": "2021-01-29T19:45:00+00:00",
+      "home": "Torino",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2693",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 7.25,
+      "cote_N": 1.04,
+      "cote_2": 29
+    },
+    {
+      "match_id": 23031401,
+      "debut": "2021-01-29T19:45:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Waasland-Beveren",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:4859",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 14.5,
+      "cote_2": 200
+    },
+    {
+      "match_id": 23360735,
+      "debut": "2021-01-29T20:00:00+00:00",
+      "home": "Real Valladolid",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2831",
+      "away_id": "sr:competitor:24265",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23216915,
+      "debut": "2021-01-29T20:00:00+00:00",
+      "home": "Reading",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:28",
+      "away_id": "sr:competitor:60",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23362697,
+      "debut": "2021-01-29T20:00:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Ponferradina",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:6195",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 29,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22650755,
+      "debut": "2021-01-29T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1645",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 44,
+      "cote_2": 250
+    }
+  ]
+}

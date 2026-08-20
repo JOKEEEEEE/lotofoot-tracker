@@ -1,0 +1,136 @@
+{
+  "grille_id": 3494,
+  "grille_type": "grille7",
+  "pool_id": 7003494,
+  "titre": "Grille 7 n°3494",
+  "statut": "CLOSED",
+  "fin": "2024-10-12T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:46:56.609846+00:00",
+  "mises_nettes": 9269.25,
+  "montant_distribue": 9269.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 59,
+      "winningsPerGrid": 78.55
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 551,
+      "winningsPerGrid": 8.41
+    }
+  ],
+  "repartition": [
+    46,
+    430,
+    1782,
+    3456,
+    3877,
+    2158,
+    551,
+    59
+  ],
+  "matches": [
+    {
+      "match_id": 47659349,
+      "debut": "2024-10-12T16:00:00+00:00",
+      "home": "Croatie",
+      "away": "Écosse",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:4695",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659839,
+      "debut": "2024-10-12T16:00:00+00:00",
+      "home": "Bulgarie",
+      "away": "Luxembourg",
+      "home_id": "sr:competitor:4716",
+      "away_id": "sr:competitor:4478",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659351,
+      "debut": "2024-10-12T18:45:00+00:00",
+      "home": "Pologne",
+      "away": "Portugal",
+      "home_id": "sr:competitor:4703",
+      "away_id": "sr:competitor:4704",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659437,
+      "debut": "2024-10-12T18:45:00+00:00",
+      "home": "Espagne",
+      "away": "Danemark",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4476",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659819,
+      "debut": "2024-10-12T18:45:00+00:00",
+      "home": "Chypre",
+      "away": "Roumanie",
+      "home_id": "sr:competitor:4482",
+      "away_id": "sr:competitor:4477",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659841,
+      "debut": "2024-10-12T18:45:00+00:00",
+      "home": "Biélorussie",
+      "away": "Irlande du Nord",
+      "home_id": "sr:competitor:4743",
+      "away_id": "sr:competitor:4786",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659435,
+      "debut": "2024-10-12T18:45:00+00:00",
+      "home": "Serbie",
+      "away": "Suisse",
+      "home_id": "sr:competitor:6355",
+      "away_id": "sr:competitor:4699",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

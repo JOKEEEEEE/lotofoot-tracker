@@ -1,0 +1,136 @@
+{
+  "grille_id": 2509,
+  "grille_type": "grille7",
+  "pool_id": 7002509,
+  "titre": "Grille 7 n°2509",
+  "statut": "CLOSED",
+  "fin": "2022-06-15T19:30:00+00:00",
+  "collecte_le": "2026-08-20T09:10:10.642380+00:00",
+  "mises_nettes": 7616.25,
+  "montant_distribue": 7616.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 544.02
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 57,
+      "winningsPerGrid": 66.81
+    }
+  ],
+  "repartition": [
+    466,
+    1819,
+    3058,
+    2825,
+    1513,
+    410,
+    57,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 33839205,
+      "debut": "2022-06-15T19:30:00+00:00",
+      "home": "Banfield",
+      "away": "Central Cordoba Sde",
+      "home_id": "sr:competitor:3219",
+      "away_id": "sr:competitor:65676",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839225,
+      "debut": "2022-06-15T19:30:00+00:00",
+      "home": "Atletico Tucuman",
+      "away": "Lanus",
+      "home_id": "sr:competitor:36833",
+      "away_id": "sr:competitor:3218",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932383,
+      "debut": "2022-06-15T22:00:00+00:00",
+      "home": "Bragantino SP",
+      "away": "Coritiba",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:1982",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932391,
+      "debut": "2022-06-15T22:00:00+00:00",
+      "home": "Ceara CE",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839227,
+      "debut": "2022-06-15T22:00:00+00:00",
+      "home": "Colon De Santa Fe",
+      "away": "River Plate",
+      "home_id": "sr:competitor:3207",
+      "away_id": "sr:competitor:3211",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31099855,
+      "debut": "2022-06-15T23:30:00+00:00",
+      "home": "New England Revolution",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:2511",
+      "away_id": "sr:competitor:52237",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932393,
+      "debut": "2022-06-15T23:30:00+00:00",
+      "home": "Goias",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1960",
+      "away_id": "sr:competitor:1966",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

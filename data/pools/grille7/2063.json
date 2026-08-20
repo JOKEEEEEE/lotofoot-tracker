@@ -1,0 +1,136 @@
+{
+  "grille_id": 2063,
+  "grille_type": "grille7",
+  "pool_id": 7002063,
+  "titre": "Grille 7 n°2063",
+  "statut": "CLOSED",
+  "fin": "2021-05-31T16:00:00+00:00",
+  "collecte_le": "2026-08-20T09:50:09.290865+00:00",
+  "mises_nettes": 5876.25,
+  "montant_distribue": 5876.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1469.07
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 18,
+      "winningsPerGrid": 163.23
+    }
+  ],
+  "repartition": [
+    536,
+    1857,
+    2606,
+    1910,
+    747,
+    159,
+    18,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 26673972,
+      "debut": "2021-05-31T16:00:00+00:00",
+      "home": "Pays-Bas U21",
+      "away": "France U21",
+      "home_id": "sr:competitor:5024",
+      "away_id": "sr:competitor:5936",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 27,
+      "cote_N": 1.01,
+      "cote_2": 18
+    },
+    {
+      "match_id": 26673976,
+      "debut": "2021-05-31T16:00:00+00:00",
+      "home": "Espagne U21",
+      "away": "Croatie U21",
+      "home_id": "sr:competitor:4891",
+      "away_id": "sr:competitor:6370",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 29,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26673974,
+      "debut": "2021-05-31T19:00:00+00:00",
+      "home": "Danemark U21",
+      "away": "Allemagne U21",
+      "home_id": "sr:competitor:6023",
+      "away_id": "sr:competitor:4890",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 29,
+      "cote_N": 1.04,
+      "cote_2": 15
+    },
+    {
+      "match_id": 26673978,
+      "debut": "2021-05-31T19:00:00+00:00",
+      "home": "Portugal U21",
+      "away": "Italie U21",
+      "home_id": "sr:competitor:6045",
+      "away_id": "sr:competitor:4888",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 13,
+      "cote_N": 1.02,
+      "cote_2": 16
+    },
+    {
+      "match_id": 27207508,
+      "debut": "2021-05-31T19:30:00+00:00",
+      "home": "Deportes Antofagasta",
+      "away": "Huachipato",
+      "home_id": "sr:competitor:5601",
+      "away_id": "sr:competitor:3164",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 34,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27207498,
+      "debut": "2021-05-31T22:00:00+00:00",
+      "home": "Deportes Union La Calera",
+      "away": "Nublense",
+      "home_id": "sr:competitor:48242",
+      "away_id": "sr:competitor:7029",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 13.5,
+      "cote_2": 180
+    },
+    {
+      "match_id": 27207510,
+      "debut": "2021-06-01T00:30:00+00:00",
+      "home": "Audax Italiano",
+      "away": "Universidad De Chile",
+      "home_id": "sr:competitor:3162",
+      "away_id": "sr:competitor:3161",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 28,
+      "cote_2": 250
+    }
+  ]
+}

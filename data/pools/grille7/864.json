@@ -1,0 +1,127 @@
+{
+  "grille_id": 864,
+  "grille_type": "grille7",
+  "pool_id": 7000864,
+  "titre": "Grille 7 n°864",
+  "statut": "CLOSED",
+  "fin": "2018-04-10T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:40:54.075141+00:00",
+  "mises_nettes": 13708.5,
+  "montant_distribue": 13708.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 6854.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 48,
+      "winningsPerGrid": 142.8
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14088599,
+      "debut": "2018-04-10T18:45:00+00:00",
+      "home": "AS Rome",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2817",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14088665,
+      "debut": "2018-04-10T18:45:00+00:00",
+      "home": "Manchester City",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868974,
+      "debut": "2018-04-10T18:45:00+00:00",
+      "home": "Aston Villa",
+      "away": "Cardiff",
+      "home_id": "sr:competitor:40",
+      "away_id": "sr:competitor:61",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868982,
+      "debut": "2018-04-10T18:45:00+00:00",
+      "home": "Ipswich",
+      "away": "Barnsley",
+      "home_id": "sr:competitor:32",
+      "away_id": "sr:competitor:23",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868984,
+      "debut": "2018-04-10T18:45:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Brentford",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:50",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868990,
+      "debut": "2018-04-10T18:45:00+00:00",
+      "home": "Sheffield United",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:15",
+      "away_id": "sr:competitor:36",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868992,
+      "debut": "2018-04-10T18:45:00+00:00",
+      "home": "Sunderland",
+      "away": "Norwich",
+      "home_id": "sr:competitor:41",
+      "away_id": "sr:competitor:263",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

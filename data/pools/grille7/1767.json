@@ -1,0 +1,127 @@
+{
+  "grille_id": 1767,
+  "grille_type": "grille7",
+  "pool_id": 7001767,
+  "titre": "Grille 7 n°1767",
+  "statut": "CLOSED",
+  "fin": "2020-10-06T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:16:19.086860+00:00",
+  "mises_nettes": 9707.25,
+  "montant_distribue": 9707.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001111100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 445,
+      "winningsPerGrid": 10.91
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 2132,
+      "winningsPerGrid": 2.28
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23347867,
+      "debut": "2020-10-06T18:45:00+00:00",
+      "home": "Barry Town",
+      "away": "Cardiff Metropolitan University",
+      "home_id": "sr:competitor:35186",
+      "away_id": "sr:competitor:167106",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 12.5,
+      "cote_2": 160
+    },
+    {
+      "match_id": 23347869,
+      "debut": "2020-10-06T18:45:00+00:00",
+      "home": "Cefn Druids",
+      "away": "Aberystwyth",
+      "home_id": "sr:competitor:4917",
+      "away_id": "sr:competitor:4905",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23347871,
+      "debut": "2020-10-06T18:45:00+00:00",
+      "home": "Connah's Quay",
+      "away": "Cearnarfon Town",
+      "home_id": "sr:competitor:4912",
+      "away_id": "sr:competitor:4909",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23347873,
+      "debut": "2020-10-06T18:45:00+00:00",
+      "home": "Flint Town United FC",
+      "away": "Bala Town",
+      "home_id": "sr:competitor:37090",
+      "away_id": "sr:competitor:36255",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 5.1,
+      "cote_N": 4.3,
+      "cote_2": 1.37
+    },
+    {
+      "match_id": 23347875,
+      "debut": "2020-10-06T18:45:00+00:00",
+      "home": "Haverfordwest ",
+      "away": "Penybont",
+      "home_id": "sr:competitor:4915",
+      "away_id": "sr:competitor:115185",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 2.45,
+      "cote_N": 3.35,
+      "cote_2": 2.2
+    },
+    {
+      "match_id": 23347877,
+      "debut": "2020-10-06T18:45:00+00:00",
+      "home": "The New Saints",
+      "away": "Newtown",
+      "home_id": "sr:competitor:4921",
+      "away_id": "sr:competitor:4918",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 140,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23511397,
+      "debut": "2020-10-06T19:00:00+00:00",
+      "home": "Santa Fe",
+      "away": "Alianza Petrolera",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:89156",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

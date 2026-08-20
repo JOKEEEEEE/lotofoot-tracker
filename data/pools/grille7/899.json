@@ -1,0 +1,127 @@
+{
+  "grille_id": 899,
+  "grille_type": "grille7",
+  "pool_id": 7000899,
+  "titre": "Grille 7 n°899",
+  "statut": "CLOSED",
+  "fin": "2018-05-15T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:36:52.711986+00:00",
+  "mises_nettes": 10219.5,
+  "montant_distribue": 10219.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 21,
+      "winningsPerGrid": 243.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 245,
+      "winningsPerGrid": 20.86
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14537656,
+      "debut": "2018-05-15T18:45:00+00:00",
+      "home": "Le Havre",
+      "away": "Brest",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1715",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14503044,
+      "debut": "2018-05-15T18:45:00+00:00",
+      "home": "Aston Villa",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:40",
+      "away_id": "sr:competitor:36",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14540652,
+      "debut": "2018-05-15T18:45:00+00:00",
+      "home": "Vitesse Arnhem",
+      "away": "Utrecht",
+      "home_id": "sr:competitor:2958",
+      "away_id": "sr:competitor:2948",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14280759,
+      "debut": "2018-05-15T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3190",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13648481,
+      "debut": "2018-05-15T22:15:00+00:00",
+      "home": "Defensor Sporting",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:3229",
+      "away_id": "sr:competitor:5991",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13648559,
+      "debut": "2018-05-15T22:15:00+00:00",
+      "home": "Delfin SC",
+      "away": "Atletico Nacional Medellin",
+      "home_id": "sr:competitor:241468",
+      "away_id": "sr:competitor:6106",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13648471,
+      "debut": "2018-05-16T00:30:00+00:00",
+      "home": "Monagas SC",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:6233",
+      "away_id": "sr:competitor:5926",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

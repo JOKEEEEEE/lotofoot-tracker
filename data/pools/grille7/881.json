@@ -1,0 +1,127 @@
+{
+  "grille_id": 881,
+  "grille_type": "grille7",
+  "pool_id": 7000881,
+  "titre": "Grille 7 n°881",
+  "statut": "CLOSED",
+  "fin": "2018-04-27T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:39:48.676844+00:00",
+  "mises_nettes": 18230.25,
+  "montant_distribue": 18230.25,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 22,
+      "winningsPerGrid": 414.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 305,
+      "winningsPerGrid": 29.89
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11837188,
+      "debut": "2018-04-27T18:00:00+00:00",
+      "home": "Bourg-en-Bresse",
+      "away": "Brest",
+      "home_id": "sr:competitor:35056",
+      "away_id": "sr:competitor:1715",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11837196,
+      "debut": "2018-04-27T18:00:00+00:00",
+      "home": "Le Havre",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1660",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11837202,
+      "debut": "2018-04-27T18:00:00+00:00",
+      "home": "Quevilly Rouen",
+      "away": "Valenciennes",
+      "home_id": "sr:competitor:233162",
+      "away_id": "sr:competitor:5061",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11837206,
+      "debut": "2018-04-27T18:00:00+00:00",
+      "home": "Sochaux",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1657",
+      "away_id": "sr:competitor:1656",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11913748,
+      "debut": "2018-04-27T18:30:00+00:00",
+      "home": "Hoffenheim",
+      "away": "Hanovre 96",
+      "home_id": "sr:competitor:2569",
+      "away_id": "sr:competitor:2541",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832768,
+      "debut": "2018-04-27T18:45:00+00:00",
+      "home": "Montpellier",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055776,
+      "debut": "2018-04-27T19:00:00+00:00",
+      "home": "Levante",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2833",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

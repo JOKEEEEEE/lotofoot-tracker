@@ -1,0 +1,127 @@
+{
+  "grille_id": 1652,
+  "grille_type": "grille7",
+  "pool_id": 7001652,
+  "titre": "Grille 7 n°1652",
+  "statut": "CLOSED",
+  "fin": "2020-06-26T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:26:47.158319+00:00",
+  "mises_nettes": 13332.75,
+  "montant_distribue": 13332.75,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "010100010001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 36,
+      "winningsPerGrid": 185.18
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 399,
+      "winningsPerGrid": 16.71
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22137849,
+      "debut": "2020-06-26T18:00:00+00:00",
+      "home": "Besiktas",
+      "away": "Konyaspor",
+      "home_id": "sr:competitor:3050",
+      "away_id": "sr:competitor:3085",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085405,
+      "debut": "2020-06-26T18:15:00+00:00",
+      "home": "Belenenses",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3004",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22237805,
+      "debut": "2020-06-26T18:45:00+00:00",
+      "home": "Brentford",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:50",
+      "away_id": "sr:competitor:8",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194419,
+      "debut": "2020-06-26T19:00:00+00:00",
+      "home": "Chievo Vérone",
+      "away": "Spezia",
+      "home_id": "sr:competitor:2694",
+      "away_id": "sr:competitor:2735",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194421,
+      "debut": "2020-06-26T19:00:00+00:00",
+      "home": "Empoli",
+      "away": "Benevento",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2759",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22170511,
+      "debut": "2020-06-26T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Lecce",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2689",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22169343,
+      "debut": "2020-06-26T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2831",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

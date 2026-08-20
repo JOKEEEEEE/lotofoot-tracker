@@ -1,0 +1,136 @@
+{
+  "grille_id": 1993,
+  "grille_type": "grille7",
+  "pool_id": 7001993,
+  "titre": "Grille 7 n°1993",
+  "statut": "CLOSED",
+  "fin": "2021-04-05T18:30:00+00:00",
+  "collecte_le": "2026-08-20T09:55:52.656812+00:00",
+  "mises_nettes": 21916.5,
+  "montant_distribue": 21916.5,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100001100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 421.47
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 458,
+      "winningsPerGrid": 23.93
+    }
+  ],
+  "repartition": [
+    117,
+    2198,
+    6858,
+    9765,
+    7248,
+    2552,
+    458,
+    26
+  ],
+  "matches": [
+    {
+      "match_id": 23033113,
+      "debut": "2021-04-05T18:30:00+00:00",
+      "home": "St. Pauli",
+      "away": "Eintracht Brunswick",
+      "home_id": "sr:competitor:2526",
+      "away_id": "sr:competitor:2557",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22651785,
+      "debut": "2021-04-05T18:45:00+00:00",
+      "home": "Auxerre",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1662",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 44,
+      "cote_N": 1,
+      "cote_2": 50
+    },
+    {
+      "match_id": 23360883,
+      "debut": "2021-04-05T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2831",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 30,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23362913,
+      "debut": "2021-04-05T19:00:00+00:00",
+      "home": "Fuenlabrada CF",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:35097",
+      "away_id": "sr:competitor:2815",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 17,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23496187,
+      "debut": "2021-04-05T19:00:00+00:00",
+      "home": "Salernitana",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2801",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 16,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23204379,
+      "debut": "2021-04-05T19:15:00+00:00",
+      "home": "Wolverhampton",
+      "away": "West Ham",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:37",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 180,
+      "cote_N": 15,
+      "cote_2": 1.02
+    },
+    {
+      "match_id": 23320499,
+      "debut": "2021-04-05T20:00:00+00:00",
+      "home": "Moreirense",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 23,
+      "cote_N": 1.03,
+      "cote_2": 9
+    }
+  ]
+}

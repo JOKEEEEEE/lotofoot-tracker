@@ -1,0 +1,127 @@
+{
+  "grille_id": 1761,
+  "grille_type": "grille7",
+  "pool_id": 7001761,
+  "titre": "Grille 7 n°1761",
+  "statut": "CLOSED",
+  "fin": "2020-10-02T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:16:57.837363+00:00",
+  "mises_nettes": 14223,
+  "montant_distribue": 14223,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001111100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 107,
+      "winningsPerGrid": 66.46
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1607,
+      "winningsPerGrid": 4.43
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23031875,
+      "debut": "2020-10-02T18:30:00+00:00",
+      "home": "Union Berlin",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2547",
+      "away_id": "sr:competitor:2556",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23390607,
+      "debut": "2020-10-02T18:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2711",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 180,
+      "cote_N": 13.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23030857,
+      "debut": "2020-10-02T18:45:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Malines",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:5044",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22627657,
+      "debut": "2020-10-02T18:45:00+00:00",
+      "home": "Kilmarnock",
+      "away": "Motherwell",
+      "home_id": "sr:competitor:2347",
+      "away_id": "sr:competitor:2346",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 3.6,
+      "cote_N": 3.4,
+      "cote_2": 1.7
+    },
+    {
+      "match_id": 23216351,
+      "debut": "2020-10-02T18:45:00+00:00",
+      "home": "Coventry City",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:11",
+      "away_id": "sr:competitor:60",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22650427,
+      "debut": "2020-10-02T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Angers",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1684",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23320093,
+      "debut": "2020-10-02T20:15:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Paços de Ferreira",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3003",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 16,
+      "cote_2": 225
+    }
+  ]
+}

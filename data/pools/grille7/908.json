@@ -1,0 +1,127 @@
+{
+  "grille_id": 908,
+  "grille_type": "grille7",
+  "pool_id": 7000908,
+  "titre": "Grille 7 n°908",
+  "statut": "CLOSED",
+  "fin": "2018-05-24T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:36:05.902214+00:00",
+  "mises_nettes": 6123,
+  "montant_distribue": 7000,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1750
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 44,
+      "winningsPerGrid": 79.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13414705,
+      "debut": "2018-05-24T17:00:00+00:00",
+      "home": "Trelleborgs FF",
+      "away": "Brommapojkarna",
+      "home_id": "sr:competitor:1771",
+      "away_id": "sr:competitor:1787",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13414707,
+      "debut": "2018-05-24T17:00:00+00:00",
+      "home": "IFK Göteborg",
+      "away": "Djurgardens",
+      "home_id": "sr:competitor:1761",
+      "away_id": "sr:competitor:1759",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13414709,
+      "debut": "2018-05-24T17:00:00+00:00",
+      "home": "Dalkurd FF",
+      "away": "Elfsborg",
+      "home_id": "sr:competitor:22260",
+      "away_id": "sr:competitor:1762",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14572478,
+      "debut": "2018-05-24T18:30:00+00:00",
+      "home": "Entella",
+      "away": "Ascoli",
+      "home_id": "sr:competitor:43680",
+      "away_id": "sr:competitor:2707",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13856349,
+      "debut": "2018-05-24T22:15:00+00:00",
+      "home": "Estudiantes",
+      "away": "Club Nacional De Football",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:3230",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13648565,
+      "debut": "2018-05-25T00:30:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Colo Colo",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:3155",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13649155,
+      "debut": "2018-05-25T00:30:00+00:00",
+      "home": "Corinthians",
+      "away": "Millonarios ",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:6117",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2658,
+  "grille_type": "grille7",
+  "pool_id": 7002658,
+  "titre": "Grille 7 n°2658",
+  "statut": "CLOSED",
+  "fin": "2022-10-20T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:59:26.295410+00:00",
+  "mises_nettes": 11331.75,
+  "montant_distribue": 11331.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 944.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 130,
+      "winningsPerGrid": 43.58
+    }
+  ],
+  "repartition": [
+    286,
+    1898,
+    4176,
+    4726,
+    2939,
+    948,
+    130,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 34277397,
+      "debut": "2022-10-20T18:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2814",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34151913,
+      "debut": "2022-10-20T18:30:00+00:00",
+      "home": "Fulham",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:40",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34175011,
+      "debut": "2022-10-20T18:30:00+00:00",
+      "home": "FC Bâle",
+      "away": "FC Zurich",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:2450",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34175013,
+      "debut": "2022-10-20T18:30:00+00:00",
+      "home": "Grasshopper Zurich",
+      "away": "Servette FC",
+      "home_id": "sr:competitor:2449",
+      "away_id": "sr:competitor:2448",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271189,
+      "debut": "2022-10-20T18:45:00+00:00",
+      "home": "Zulte Waregem",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:2933",
+      "away_id": "sr:competitor:2900",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277381,
+      "debut": "2022-10-20T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2819",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34151915,
+      "debut": "2022-10-20T19:15:00+00:00",
+      "home": "Leicester",
+      "away": "Leeds",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:34",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

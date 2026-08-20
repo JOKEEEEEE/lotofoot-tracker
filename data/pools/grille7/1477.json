@@ -1,0 +1,127 @@
+{
+  "grille_id": 1477,
+  "grille_type": "grille7",
+  "pool_id": 7001477,
+  "titre": "Grille 7 n°1477",
+  "statut": "CLOSED",
+  "fin": "2019-12-07T14:30:00+00:00",
+  "collecte_le": "2026-08-20T10:46:44.284197+00:00",
+  "mises_nettes": 13343.25,
+  "montant_distribue": 13343.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 667.16
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 177,
+      "winningsPerGrid": 37.69
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18571950,
+      "debut": "2019-12-07T14:30:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2672",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427826,
+      "debut": "2019-12-07T15:00:00+00:00",
+      "home": "Bournemouth",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18640944,
+      "debut": "2019-12-07T15:00:00+00:00",
+      "home": "Grenade",
+      "away": "Alaves",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2885",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440236,
+      "debut": "2019-12-07T16:30:00+00:00",
+      "home": "Montpellier",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927082,
+      "debut": "2019-12-07T17:00:00+00:00",
+      "home": "Udinese",
+      "away": "Naples",
+      "home_id": "sr:competitor:2695",
+      "away_id": "sr:competitor:2714",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18571948,
+      "debut": "2019-12-07T17:30:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2530",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427832,
+      "debut": "2019-12-07T17:30:00+00:00",
+      "home": "Manchester City",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

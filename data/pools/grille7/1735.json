@@ -1,0 +1,127 @@
+{
+  "grille_id": 1735,
+  "grille_type": "grille7",
+  "pool_id": 7001735,
+  "titre": "Grille 7 n°1735",
+  "statut": "CLOSED",
+  "fin": "2020-09-10T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:18:16.515643+00:00",
+  "mises_nettes": 9921,
+  "montant_distribue": 9921,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 354.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 172,
+      "winningsPerGrid": 28.84
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23273539,
+      "debut": "2020-09-10T19:00:00+00:00",
+      "home": "Lens",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23345363,
+      "debut": "2020-09-10T19:00:00+00:00",
+      "home": "Estoril",
+      "away": "Arouca",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:25777",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22727019,
+      "debut": "2020-09-10T22:15:00+00:00",
+      "home": "Corinthians",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1963",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22727023,
+      "debut": "2020-09-10T22:15:00+00:00",
+      "home": "Internacional ",
+      "away": "Ceara CE",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:2001",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22727027,
+      "debut": "2020-09-10T22:15:00+00:00",
+      "home": "Bahia ",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:5926",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22727011,
+      "debut": "2020-09-11T00:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Atletico GO",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:7314",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23049981,
+      "debut": "2020-09-11T02:00:00+00:00",
+      "home": "Seattle Sounders",
+      "away": "San Jose Earthquakes",
+      "home_id": "sr:competitor:22009",
+      "away_id": "sr:competitor:21825",
+      "score_home": 7,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

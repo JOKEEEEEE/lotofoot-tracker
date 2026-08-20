@@ -1,0 +1,136 @@
+{
+  "grille_id": 3537,
+  "grille_type": "grille7",
+  "pool_id": 7003537,
+  "titre": "Grille 7 n°3537",
+  "statut": "CLOSED",
+  "fin": "2024-11-20T19:30:00+00:00",
+  "collecte_le": "2026-08-20T07:43:43.123718+00:00",
+  "mises_nettes": 3879,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 625
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 55,
+      "winningsPerGrid": 45.45
+    }
+  ],
+  "repartition": [
+    137,
+    645,
+    1291,
+    1619,
+    1071,
+    350,
+    55,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 48215123,
+      "debut": "2024-11-20T19:30:00+00:00",
+      "home": "Bragantino SP",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48215125,
+      "debut": "2024-11-20T19:30:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Atletico GO",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:7314",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657183,
+      "debut": "2024-11-20T20:00:00+00:00",
+      "home": "Newell's Old Boys",
+      "away": "Central Cordoba",
+      "home_id": "sr:competitor:3212",
+      "away_id": "sr:competitor:65676",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48215115,
+      "debut": "2024-11-20T21:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1963",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48215127,
+      "debut": "2024-11-20T22:00:00+00:00",
+      "home": "Cuiaba MT",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:49202",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657195,
+      "debut": "2024-11-20T22:15:00+00:00",
+      "home": "Velez Sarsfield",
+      "away": "Lanus",
+      "home_id": "sr:competitor:3208",
+      "away_id": "sr:competitor:3218",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657209,
+      "debut": "2024-11-20T22:15:00+00:00",
+      "home": "Estudiantes",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:3217",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

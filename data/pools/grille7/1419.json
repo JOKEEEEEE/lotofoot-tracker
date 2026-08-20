@@ -1,0 +1,127 @@
+{
+  "grille_id": 1419,
+  "grille_type": "grille7",
+  "pool_id": 7001419,
+  "titre": "Grille 7 n°1419",
+  "statut": "CLOSED",
+  "fin": "2019-10-22T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:50:40.650130+00:00",
+  "mises_nettes": 24796.5,
+  "montant_distribue": 25000,
+  "montant_garanti": 25000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1149,
+      "winningsPerGrid": 10.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 5854,
+      "winningsPerGrid": 2.14
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 19323546,
+      "debut": "2019-10-22T19:00:00+00:00",
+      "home": "Club Bruges",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323710,
+      "debut": "2019-10-22T19:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Etoile Rouge de Belgrade",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:5149",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323712,
+      "debut": "2019-10-22T19:00:00+00:00",
+      "home": "Olympiakos",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:2672",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490096,
+      "debut": "2019-10-22T19:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Barnsley",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:23",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323740,
+      "debut": "2019-10-22T19:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2686",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323766,
+      "debut": "2019-10-22T19:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Lokomotiv Moscou",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2320",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323576,
+      "debut": "2019-10-22T19:00:00+00:00",
+      "home": "Galatasaray",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

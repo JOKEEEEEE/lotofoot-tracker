@@ -1,0 +1,136 @@
+{
+  "grille_id": 3400,
+  "grille_type": "grille7",
+  "pool_id": 7003400,
+  "titre": "Grille 7 n°3400",
+  "statut": "CLOSED",
+  "fin": "2024-07-18T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:54:06.865245+00:00",
+  "mises_nettes": 3700.5,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 15,
+      "winningsPerGrid": 133.33
+    }
+  ],
+  "repartition": [
+    379,
+    1299,
+    1681,
+    1092,
+    375,
+    92,
+    15,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 50853765,
+      "debut": "2024-07-18T18:00:00+00:00",
+      "home": "CS Corvinul Hunedoara",
+      "away": "Paksi",
+      "home_id": "sr:competitor:35293",
+      "away_id": "sr:competitor:6059",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50853761,
+      "debut": "2024-07-18T18:15:00+00:00",
+      "home": "Maribor",
+      "away": "Botev Plovdiv",
+      "home_id": "sr:competitor:2420",
+      "away_id": "sr:competitor:5241",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655701,
+      "debut": "2024-07-18T21:45:00+00:00",
+      "home": "Argentinos Juniors",
+      "away": "Tigre",
+      "home_id": "sr:competitor:3216",
+      "away_id": "sr:competitor:7628",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655687,
+      "debut": "2024-07-18T22:00:00+00:00",
+      "home": "Independiente Rivadavia",
+      "away": "Gimnasia La Plata",
+      "home_id": "sr:competitor:36842",
+      "away_id": "sr:competitor:3205",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51468621,
+      "debut": "2024-07-18T23:00:00+00:00",
+      "home": "Bucaramanga",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:6103",
+      "away_id": "sr:competitor:6105",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655683,
+      "debut": "2024-07-19T00:00:00+00:00",
+      "home": "Instituto AC Cordoba",
+      "away": "Independiente",
+      "home_id": "sr:competitor:4937",
+      "away_id": "sr:competitor:3209",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51468623,
+      "debut": "2024-07-19T01:10:00+00:00",
+      "home": "Independiente Medellin",
+      "away": "Millonarios ",
+      "home_id": "sr:competitor:6115",
+      "away_id": "sr:competitor:6117",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

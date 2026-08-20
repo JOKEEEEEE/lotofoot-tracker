@@ -1,0 +1,127 @@
+{
+  "grille_id": 1189,
+  "grille_type": "grille7",
+  "pool_id": 7001189,
+  "titre": "Grille 7 n°1189",
+  "statut": "CLOSED",
+  "fin": "2019-03-09T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:12:48.303552+00:00",
+  "mises_nettes": 12627.75,
+  "montant_distribue": 12627.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 47,
+      "winningsPerGrid": 134.34
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 590,
+      "winningsPerGrid": 10.7
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701181,
+      "debut": "2019-03-09T19:00:00+00:00",
+      "home": "Amiens",
+      "away": "Nîmes",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1663",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701185,
+      "debut": "2019-03-09T19:00:00+00:00",
+      "home": "Dijon",
+      "away": "Reims",
+      "home_id": "sr:competitor:1686",
+      "away_id": "sr:competitor:1682",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701189,
+      "debut": "2019-03-09T19:00:00+00:00",
+      "home": "Monaco",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1645",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160155,
+      "debut": "2019-03-09T19:30:00+00:00",
+      "home": "Chievo Vérone",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2694",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109497,
+      "debut": "2019-03-09T19:45:00+00:00",
+      "home": "Getafe",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:24265",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946207,
+      "debut": "2019-03-09T20:30:00+00:00",
+      "home": "Boavista",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681445,
+      "debut": "2019-03-09T20:30:00+00:00",
+      "home": "FC Dallas",
+      "away": "Los Angeles Galaxy",
+      "home_id": "sr:competitor:2512",
+      "away_id": "sr:competitor:2513",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

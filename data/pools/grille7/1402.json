@@ -1,0 +1,127 @@
+{
+  "grille_id": 1402,
+  "grille_type": "grille7",
+  "pool_id": 7001402,
+  "titre": "Grille 7 n°1402",
+  "statut": "CLOSED",
+  "fin": "2019-10-07T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:51:52.259097+00:00",
+  "mises_nettes": 12344.25,
+  "montant_distribue": 12344.25,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 440.87
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 180,
+      "winningsPerGrid": 34.29
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18611596,
+      "debut": "2019-10-07T17:00:00+00:00",
+      "home": "Lamia 1964",
+      "away": "Panetolikos",
+      "home_id": "sr:competitor:120154",
+      "away_id": "sr:competitor:7004",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18507286,
+      "debut": "2019-10-07T17:00:00+00:00",
+      "home": "Ironi Kiryat Shmona",
+      "away": "MS Ashdod",
+      "home_id": "sr:competitor:5399",
+      "away_id": "sr:competitor:5391",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18583234,
+      "debut": "2019-10-07T17:30:00+00:00",
+      "home": "Astra Giurgiu",
+      "away": "FC Hermanstadt",
+      "home_id": "sr:competitor:3288",
+      "away_id": "sr:competitor:342922",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18573010,
+      "debut": "2019-10-07T18:30:00+00:00",
+      "home": "VfL Osnabrück",
+      "away": "Arminia Bielefeld",
+      "home_id": "sr:competitor:2581",
+      "away_id": "sr:competitor:2540",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442230,
+      "debut": "2019-10-07T18:45:00+00:00",
+      "home": "Orléans",
+      "away": "Lens",
+      "home_id": "sr:competitor:6921",
+      "away_id": "sr:competitor:1648",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19410866,
+      "debut": "2019-10-07T19:15:00+00:00",
+      "home": "Penafiel",
+      "away": "Braga",
+      "home_id": "sr:competitor:3017",
+      "away_id": "sr:competitor:2999",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18548460,
+      "debut": "2019-10-07T23:00:00+00:00",
+      "home": "Sportivo San Lorenzo",
+      "away": "Sportivo Luqueno",
+      "home_id": "sr:competitor:90972",
+      "away_id": "sr:competitor:5998",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

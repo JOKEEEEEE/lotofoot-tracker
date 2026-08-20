@@ -1,0 +1,127 @@
+{
+  "grille_id": 192,
+  "grille_type": "grille7",
+  "pool_id": 7000192,
+  "titre": "Grille 7 n°192",
+  "statut": "CLOSED",
+  "fin": "2016-04-05T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:41:39.540436+00:00",
+  "mises_nettes": 12363,
+  "montant_distribue": 12363,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 74,
+      "winningsPerGrid": 83.53
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 728,
+      "winningsPerGrid": 8.49
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9128359,
+      "debut": "2016-04-05T18:45:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2836",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9128357,
+      "debut": "2016-04-05T18:45:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Benfica",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466784,
+      "debut": "2016-04-05T18:45:00+00:00",
+      "home": "Burnley",
+      "away": "Cardiff",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:61",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466786,
+      "debut": "2016-04-05T18:45:00+00:00",
+      "home": "Derby County",
+      "away": "Hull City",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:96",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466790,
+      "debut": "2016-04-05T18:45:00+00:00",
+      "home": "Leeds",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:1",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466792,
+      "debut": "2016-04-05T18:45:00+00:00",
+      "home": "Milton Keynes ",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:4",
+      "away_id": "sr:competitor:3",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466798,
+      "debut": "2016-04-05T18:45:00+00:00",
+      "home": "Sheffield Wednesday",
+      "away": "Blackburn",
+      "home_id": "sr:competitor:12",
+      "away_id": "sr:competitor:46",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

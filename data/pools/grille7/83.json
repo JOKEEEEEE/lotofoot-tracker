@@ -1,0 +1,127 @@
+{
+  "grille_id": 83,
+  "grille_type": "grille7",
+  "pool_id": 7000083,
+  "titre": "Grille 7 n°83",
+  "statut": "CLOSED",
+  "fin": "2015-12-11T19:00:00+00:00",
+  "collecte_le": "2026-08-20T13:35:21.359067+00:00",
+  "mises_nettes": 9981.75,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 416.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 184,
+      "winningsPerGrid": 27.17
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7474510,
+      "debut": "2015-12-11T19:00:00+00:00",
+      "home": "Clermont",
+      "away": "Laval",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1673",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474504,
+      "debut": "2015-12-11T19:00:00+00:00",
+      "home": "Auxerre",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1657",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474502,
+      "debut": "2015-12-11T19:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Créteil",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1677",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474512,
+      "debut": "2015-12-11T19:00:00+00:00",
+      "home": "Évian TG",
+      "away": "Brest",
+      "home_id": "sr:competitor:21800",
+      "away_id": "sr:competitor:1715",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474520,
+      "debut": "2015-12-11T19:00:00+00:00",
+      "home": "Paris FC",
+      "away": "Lens",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1648",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474518,
+      "debut": "2015-12-11T19:00:00+00:00",
+      "home": "Nîmes",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:1662",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473750,
+      "debut": "2015-12-11T19:30:00+00:00",
+      "home": "Rennes",
+      "away": "Caen",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1667",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

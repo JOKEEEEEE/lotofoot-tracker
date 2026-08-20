@@ -1,0 +1,136 @@
+{
+  "grille_id": 2787,
+  "grille_type": "grille7",
+  "pool_id": 7002787,
+  "titre": "Grille 7 n°2787",
+  "statut": "CLOSED",
+  "fin": "2023-02-09T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:48:45.235963+00:00",
+  "mises_nettes": 5843.25,
+  "montant_distribue": 5843.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010010010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2921.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 15,
+      "winningsPerGrid": 194.78
+    }
+  ],
+  "repartition": [
+    608,
+    2007,
+    2672,
+    1736,
+    614,
+    138,
+    15,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 38315487,
+      "debut": "2023-02-09T18:00:00+00:00",
+      "home": "Estoril",
+      "away": "Boavista",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:2995",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38896573,
+      "debut": "2023-02-09T20:00:00+00:00",
+      "home": "Lorient",
+      "away": "Lens",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1648",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38632355,
+      "debut": "2023-02-09T20:30:00+00:00",
+      "home": "Braga",
+      "away": "Benfica",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38638395,
+      "debut": "2023-02-09T23:05:00+00:00",
+      "home": "Junior De Barranquilla",
+      "away": "AD Unión Magdalena",
+      "home_id": "sr:competitor:6105",
+      "away_id": "sr:competitor:89376",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38292427,
+      "debut": "2023-02-10T00:00:00+00:00",
+      "home": "Audax Italiano",
+      "away": "Union Espanola",
+      "home_id": "sr:competitor:3162",
+      "away_id": "sr:competitor:3153",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37763417,
+      "debut": "2023-02-10T01:05:00+00:00",
+      "home": "Querétaro",
+      "away": "Leon",
+      "home_id": "sr:competitor:1951",
+      "away_id": "sr:competitor:36534",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37763419,
+      "debut": "2023-02-10T03:05:00+00:00",
+      "home": "Atlas",
+      "away": "Monterrey",
+      "home_id": "sr:competitor:1949",
+      "away_id": "sr:competitor:1932",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

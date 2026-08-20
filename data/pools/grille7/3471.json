@@ -1,0 +1,136 @@
+{
+  "grille_id": 3471,
+  "grille_type": "grille7",
+  "pool_id": 7003471,
+  "titre": "Grille 7 n°3471",
+  "statut": "CLOSED",
+  "fin": "2024-09-22T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:49:20.582507+00:00",
+  "mises_nettes": 6557.25,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 750
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 111,
+      "winningsPerGrid": 33.78
+    }
+  ],
+  "repartition": [
+    37,
+    649,
+    2110,
+    3013,
+    2110,
+    708,
+    111,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 50955413,
+      "debut": "2024-09-22T18:45:00+00:00",
+      "home": "Lyon",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1641",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271513,
+      "debut": "2024-09-22T18:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852189,
+      "debut": "2024-09-22T19:00:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214973,
+      "debut": "2024-09-22T19:00:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:1999",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214979,
+      "debut": "2024-09-22T19:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:1963",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51103023,
+      "debut": "2024-09-22T19:00:00+00:00",
+      "home": "Almeria",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:2839",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388811,
+      "debut": "2024-09-22T19:30:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "AVS Futebol SAD",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:1031053",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

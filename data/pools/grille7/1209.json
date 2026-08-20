@@ -1,0 +1,127 @@
+{
+  "grille_id": 1209,
+  "grille_type": "grille7",
+  "pool_id": 7001209,
+  "titre": "Grille 7 n°1209",
+  "statut": "CLOSED",
+  "fin": "2019-03-30T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:09:19.963018+00:00",
+  "mises_nettes": 7996.5,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 153.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 272,
+      "winningsPerGrid": 14.71
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15160195,
+      "debut": "2019-03-30T19:30:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17710286,
+      "debut": "2019-03-30T19:30:00+00:00",
+      "home": "Racing Genk",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2900",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145755,
+      "debut": "2019-03-30T19:30:00+00:00",
+      "home": "Albacete",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:2848",
+      "away_id": "sr:competitor:2822",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109529,
+      "debut": "2019-03-30T19:45:00+00:00",
+      "home": "Alaves",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14732373,
+      "debut": "2019-03-30T19:45:00+00:00",
+      "home": "Heerenveen",
+      "away": "Excelsior Rotterdam",
+      "home_id": "sr:competitor:2964",
+      "away_id": "sr:competitor:2967",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14732375,
+      "debut": "2019-03-30T19:45:00+00:00",
+      "home": "AZ Alkmaar",
+      "away": "Groningue",
+      "home_id": "sr:competitor:2950",
+      "away_id": "sr:competitor:2951",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17214331,
+      "debut": "2019-03-30T20:05:00+00:00",
+      "home": "Strasbourg",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1659",
+      "away_id": "sr:competitor:1654",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

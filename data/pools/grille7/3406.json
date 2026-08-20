@@ -1,0 +1,136 @@
+{
+  "grille_id": 3406,
+  "grille_type": "grille7",
+  "pool_id": 7003406,
+  "titre": "Grille 7 n°3406",
+  "statut": "CLOSED",
+  "fin": "2024-07-24T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:53:33.326194+00:00",
+  "mises_nettes": 3717,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 153.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 200,
+      "winningsPerGrid": 10
+    }
+  ],
+  "repartition": [
+    16,
+    147,
+    688,
+    1390,
+    1643,
+    859,
+    200,
+    13
+  ],
+  "matches": [
+    {
+      "match_id": 48820739,
+      "debut": "2024-07-24T17:00:00+00:00",
+      "home": "Irak",
+      "away": "Ukraine",
+      "home_id": "sr:competitor:252155",
+      "away_id": "sr:competitor:1117351",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48820775,
+      "debut": "2024-07-24T17:00:00+00:00",
+      "home": "Japon",
+      "away": "Paraguay",
+      "home_id": "sr:competitor:24254",
+      "away_id": "sr:competitor:49086",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51620691,
+      "debut": "2024-07-24T17:30:00+00:00",
+      "home": "PAOK Salonique",
+      "away": "Borac Banja Luka",
+      "home_id": "sr:competitor:3251",
+      "away_id": "sr:competitor:5235",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51617469,
+      "debut": "2024-07-24T18:00:00+00:00",
+      "home": "Ludogorets",
+      "away": "Dinamo Minsk",
+      "home_id": "sr:competitor:43840",
+      "away_id": "sr:competitor:3361",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51617505,
+      "debut": "2024-07-24T18:15:00+00:00",
+      "home": "Celje",
+      "away": "Slovan Bratislava",
+      "home_id": "sr:competitor:2413",
+      "away_id": "sr:competitor:2404",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48820703,
+      "debut": "2024-07-24T19:00:00+00:00",
+      "home": "France",
+      "away": "Etats-Unis",
+      "home_id": "sr:competitor:789974",
+      "away_id": "sr:competitor:24260",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48820789,
+      "debut": "2024-07-24T19:00:00+00:00",
+      "home": "Mali",
+      "away": "Israel",
+      "home_id": "sr:competitor:1117359",
+      "away_id": "sr:competitor:1117361",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3932,
+  "grille_type": "grille7",
+  "pool_id": 7003932,
+  "titre": "Grille 7 n°3932",
+  "statut": "CLOSED",
+  "fin": "2025-12-19T19:45:00+00:00",
+  "collecte_le": "2026-08-20T07:15:56.732702+00:00",
+  "mises_nettes": 7292.25,
+  "montant_distribue": 7292.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 41,
+      "winningsPerGrid": 88.93
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 403,
+      "winningsPerGrid": 9.05
+    }
+  ],
+  "repartition": [
+    27,
+    166,
+    930,
+    2436,
+    3972,
+    1748,
+    403,
+    41
+  ],
+  "matches": [
+    {
+      "match_id": 66338336,
+      "debut": "2025-12-19T19:45:00+00:00",
+      "home": "Croix IC",
+      "away": "Reims",
+      "home_id": "sr:competitor:132336",
+      "away_id": "sr:competitor:1682",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 7,
+      "cote_N": 4.8,
+      "cote_2": 1.29
+    },
+    {
+      "match_id": 66338174,
+      "debut": "2025-12-19T19:45:00+00:00",
+      "home": "Canet Roussillon",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:393328",
+      "away_id": "sr:competitor:1642",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 5.6,
+      "cote_N": 4.2,
+      "cote_2": 1.36
+    },
+    {
+      "match_id": 66338814,
+      "debut": "2025-12-19T19:45:00+00:00",
+      "home": "Avranches",
+      "away": "Brest",
+      "home_id": "sr:competitor:35066",
+      "away_id": "sr:competitor:1715",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 5.1,
+      "cote_N": 4.2,
+      "cote_2": 1.45
+    },
+    {
+      "match_id": 66338816,
+      "debut": "2025-12-19T19:45:00+00:00",
+      "home": "Guingamp",
+      "away": "Laval",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1673",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.72,
+      "cote_N": 3.05,
+      "cote_2": 4
+    },
+    {
+      "match_id": 66338586,
+      "debut": "2025-12-19T19:45:00+00:00",
+      "home": "Les Herbiers",
+      "away": "Angers",
+      "home_id": "sr:competitor:39407",
+      "away_id": "sr:competitor:1684",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 5,
+      "cote_N": 3.7,
+      "cote_2": 1.6
+    },
+    {
+      "match_id": 66338584,
+      "debut": "2025-12-19T19:45:00+00:00",
+      "home": "FC Perigny",
+      "away": "Le Mans",
+      "home_id": "sr:competitor:1184945",
+      "away_id": "sr:competitor:1672",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 10.5,
+      "cote_N": 7,
+      "cote_2": 1.15
+    },
+    {
+      "match_id": 66419118,
+      "debut": "2025-12-19T20:00:00+00:00",
+      "home": "Lens",
+      "away": "Feignies",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:6919",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.12,
+      "cote_N": 7,
+      "cote_2": 15
+    }
+  ]
+}

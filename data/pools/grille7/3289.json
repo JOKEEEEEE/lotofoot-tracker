@@ -1,0 +1,136 @@
+{
+  "grille_id": 3289,
+  "grille_type": "grille7",
+  "pool_id": 7003289,
+  "titre": "Grille 7 n°3289",
+  "statut": "CLOSED",
+  "fin": "2024-04-07T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:02:28.955257+00:00",
+  "mises_nettes": 7122,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 750
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 159,
+      "winningsPerGrid": 23.58
+    }
+  ],
+  "repartition": [
+    182,
+    1014,
+    2275,
+    2893,
+    2100,
+    868,
+    159,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 42005021,
+      "debut": "2024-04-07T18:45:00+00:00",
+      "home": "Nantes",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134721,
+      "debut": "2024-04-07T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2693",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984557,
+      "debut": "2024-04-07T19:00:00+00:00",
+      "home": "FC Cartagena",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:24329",
+      "away_id": "sr:competitor:2831",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46656737,
+      "debut": "2024-04-07T19:00:00+00:00",
+      "home": "Atletico Tucuman",
+      "away": "Gimnasia La Plata",
+      "home_id": "sr:competitor:36833",
+      "away_id": "sr:competitor:3205",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46656749,
+      "debut": "2024-04-07T19:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Instituto AC Cordoba",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:4937",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146667,
+      "debut": "2024-04-07T19:30:00+00:00",
+      "home": "FC Porto",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3009",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46656713,
+      "debut": "2024-04-07T21:30:00+00:00",
+      "home": "Racing Club",
+      "away": "Lanus",
+      "home_id": "sr:competitor:3215",
+      "away_id": "sr:competitor:3218",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

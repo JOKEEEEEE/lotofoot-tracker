@@ -1,0 +1,127 @@
+{
+  "grille_id": 262,
+  "grille_type": "grille7",
+  "pool_id": 7000262,
+  "titre": "Grille 7 n°262",
+  "statut": "CLOSED",
+  "fin": "2016-07-08T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:34:01.282650+00:00",
+  "mises_nettes": 5776.5,
+  "montant_distribue": 5776.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2888.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 27,
+      "winningsPerGrid": 106.97
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8693204,
+      "debut": "2016-07-08T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Bray",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3171",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693208,
+      "debut": "2016-07-08T19:00:00+00:00",
+      "home": "Finn Harps",
+      "away": "Galway United",
+      "home_id": "sr:competitor:3181",
+      "away_id": "sr:competitor:3172",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697630,
+      "debut": "2016-07-09T00:00:00+00:00",
+      "home": "Orlando City SC",
+      "away": "Houston Dynamo",
+      "home_id": "sr:competitor:52237",
+      "away_id": "sr:competitor:2508",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697632,
+      "debut": "2016-07-09T02:30:00+00:00",
+      "home": "San Jose Earthquakes",
+      "away": "FC Dallas",
+      "home_id": "sr:competitor:21825",
+      "away_id": "sr:competitor:2512",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9160253,
+      "debut": "2016-07-09T14:00:00+00:00",
+      "home": "Djurgardens",
+      "away": "Norrköping",
+      "home_id": "sr:competitor:1759",
+      "away_id": "sr:competitor:1769",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9160257,
+      "debut": "2016-07-09T14:00:00+00:00",
+      "home": "Häcken",
+      "away": "Hammarby IF",
+      "home_id": "sr:competitor:1760",
+      "away_id": "sr:competitor:1758",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9160259,
+      "debut": "2016-07-09T14:00:00+00:00",
+      "home": "Gefle",
+      "away": "Falkenbergs",
+      "home_id": "sr:competitor:1778",
+      "away_id": "sr:competitor:1812",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

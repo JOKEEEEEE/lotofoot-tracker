@@ -1,0 +1,136 @@
+{
+  "grille_id": 3478,
+  "grille_type": "grille7",
+  "pool_id": 7003478,
+  "titre": "Grille 7 n°3478",
+  "statut": "CLOSED",
+  "fin": "2024-09-28T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:48:18.423101+00:00",
+  "mises_nettes": 5742,
+  "montant_distribue": 5742,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2871
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 30,
+      "winningsPerGrid": 95.7
+    }
+  ],
+  "repartition": [
+    101,
+    775,
+    2674,
+    2723,
+    1134,
+    218,
+    30,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 51967047,
+      "debut": "2024-09-28T18:00:00+00:00",
+      "home": "Troyes",
+      "away": "Metz",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1651",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50867347,
+      "debut": "2024-09-28T18:30:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Grasshopper Zurich",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:2449",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271525,
+      "debut": "2024-09-28T18:45:00+00:00",
+      "home": "Bologne",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852229,
+      "debut": "2024-09-28T19:00:00+00:00",
+      "home": "Osasuna",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2817",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50868083,
+      "debut": "2024-09-28T19:00:00+00:00",
+      "home": "Sparta Rotterdam",
+      "away": "Fortuna Sittard",
+      "home_id": "sr:competitor:2960",
+      "away_id": "sr:competitor:2957",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955445,
+      "debut": "2024-09-28T19:00:00+00:00",
+      "home": "Monaco",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1642",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388815,
+      "debut": "2024-09-28T19:30:00+00:00",
+      "home": "Benfica",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3010",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

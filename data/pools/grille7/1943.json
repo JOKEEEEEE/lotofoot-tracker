@@ -1,0 +1,127 @@
+{
+  "grille_id": 1943,
+  "grille_type": "grille7",
+  "pool_id": 7001943,
+  "titre": "Grille 7 n°1943",
+  "statut": "CLOSED",
+  "fin": "2021-02-23T18:00:00+00:00",
+  "collecte_le": "2026-08-20T09:58:44.821170+00:00",
+  "mises_nettes": 12266.25,
+  "montant_distribue": 12266.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 766.64
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 140,
+      "winningsPerGrid": 43.81
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 25734466,
+      "debut": "2021-02-23T18:00:00+00:00",
+      "home": "Leeds",
+      "away": "Southampton",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:45",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23217021,
+      "debut": "2021-02-23T19:00:00+00:00",
+      "home": "Derby County",
+      "away": "Huddersfield",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:59",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 170,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23217023,
+      "debut": "2021-02-23T19:45:00+00:00",
+      "home": "Luton Town",
+      "away": "Millwall",
+      "home_id": "sr:competitor:72",
+      "away_id": "sr:competitor:25",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 30,
+      "cote_N": 1.01,
+      "cote_2": 24
+    },
+    {
+      "match_id": 23217027,
+      "debut": "2021-02-23T19:45:00+00:00",
+      "home": "Rotherham",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:13",
+      "away_id": "sr:competitor:14",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 160,
+      "cote_N": 17,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23217029,
+      "debut": "2021-02-23T19:45:00+00:00",
+      "home": "Wycombe",
+      "away": "Reading",
+      "home_id": "sr:competitor:62",
+      "away_id": "sr:competitor:28",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.1,
+      "cote_N": 5,
+      "cote_2": 42
+    },
+    {
+      "match_id": 24892456,
+      "debut": "2021-02-23T20:00:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 24892458,
+      "debut": "2021-02-23T20:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:38",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 18,
+      "cote_2": 1.01
+    }
+  ]
+}

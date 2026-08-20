@@ -1,0 +1,127 @@
+{
+  "grille_id": 1249,
+  "grille_type": "grille7",
+  "pool_id": 7001249,
+  "titre": "Grille 7 n°1249",
+  "statut": "CLOSED",
+  "fin": "2019-05-09T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:04:49.411726+00:00",
+  "mises_nettes": 8750.25,
+  "montant_distribue": 8750.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2187.57
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 51,
+      "winningsPerGrid": 85.79
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18008087,
+      "debut": "2019-05-09T19:00:00+00:00",
+      "home": "Valence",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:42",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18008091,
+      "debut": "2019-05-09T19:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:2674",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18063497,
+      "debut": "2019-05-09T22:00:00+00:00",
+      "home": "FAR Rabat",
+      "away": "Wydad Casablanca",
+      "home_id": "sr:competitor:24394",
+      "away_id": "sr:competitor:36268",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386175,
+      "debut": "2019-05-09T22:15:00+00:00",
+      "home": "Godoy Cruz",
+      "away": "Universidad De Concepcion",
+      "home_id": "sr:competitor:6074",
+      "away_id": "sr:competitor:5034",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386177,
+      "debut": "2019-05-09T22:15:00+00:00",
+      "home": "Olimpia Asuncion",
+      "away": "Sporting Cristal",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:2302",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386399,
+      "debut": "2019-05-10T00:30:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:1967",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386401,
+      "debut": "2019-05-10T00:30:00+00:00",
+      "home": "Jorge Wilstermann",
+      "away": "Tolima",
+      "home_id": "sr:competitor:7878",
+      "away_id": "sr:competitor:6111",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

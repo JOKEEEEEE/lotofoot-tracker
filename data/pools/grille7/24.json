@@ -1,0 +1,127 @@
+{
+  "grille_id": 24,
+  "grille_type": "grille7",
+  "pool_id": 7000024,
+  "titre": "Grille 7 n°24",
+  "statut": "CLOSED",
+  "fin": "2015-10-10T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:56:30.134661+00:00",
+  "mises_nettes": 10472.25,
+  "montant_distribue": 10472.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 349.08
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 257,
+      "winningsPerGrid": 20.37
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 5124476,
+      "debut": "2015-10-10T16:00:00+00:00",
+      "home": "Islande",
+      "away": "Lettonie",
+      "home_id": "sr:competitor:4708",
+      "away_id": "sr:competitor:4706",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 5124478,
+      "debut": "2015-10-10T16:00:00+00:00",
+      "home": "Kazakhstan",
+      "away": "Pays-Bas",
+      "home_id": "sr:competitor:4772",
+      "away_id": "sr:competitor:4705",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 5124736,
+      "debut": "2015-10-10T16:00:00+00:00",
+      "home": "Azerbaïdjan",
+      "away": "Italie",
+      "home_id": "sr:competitor:4742",
+      "away_id": "sr:competitor:4707",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 5124480,
+      "debut": "2015-10-10T18:45:00+00:00",
+      "home": "République Tchèque",
+      "away": "Turquie",
+      "home_id": "sr:competitor:4714",
+      "away_id": "sr:competitor:4700",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 5124510,
+      "debut": "2015-10-10T18:45:00+00:00",
+      "home": "Bosnie-Herzégovine",
+      "away": "Pays de Galles",
+      "home_id": "sr:competitor:4479",
+      "away_id": "sr:competitor:4702",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 5124512,
+      "debut": "2015-10-10T18:45:00+00:00",
+      "home": "Israël",
+      "away": "Chypre",
+      "home_id": "sr:competitor:4480",
+      "away_id": "sr:competitor:4482",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 5124740,
+      "debut": "2015-10-10T18:45:00+00:00",
+      "home": "Croatie",
+      "away": "Bulgarie",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:4716",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

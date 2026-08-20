@@ -1,0 +1,127 @@
+{
+  "grille_id": 897,
+  "grille_type": "grille7",
+  "pool_id": 7000897,
+  "titre": "Grille 7 n°897",
+  "statut": "CLOSED",
+  "fin": "2018-05-13T14:00:00+00:00",
+  "collecte_le": "2026-08-20T11:38:32.361810+00:00",
+  "mises_nettes": 16443,
+  "montant_distribue": 16443,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 1027.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 139,
+      "winningsPerGrid": 59.15
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11830406,
+      "debut": "2018-05-13T14:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:38",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830524,
+      "debut": "2018-05-13T14:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Leicester",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:31",
+      "score_home": 5,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830288,
+      "debut": "2018-05-13T14:00:00+00:00",
+      "home": "Southampton",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090398,
+      "debut": "2018-05-13T16:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055824,
+      "debut": "2018-05-13T18:45:00+00:00",
+      "home": "Levante",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2817",
+      "score_home": 5,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090390,
+      "debut": "2018-05-13T18:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090402,
+      "debut": "2018-05-13T18:45:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Naples",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2714",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

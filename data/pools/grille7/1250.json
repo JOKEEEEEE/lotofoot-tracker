@@ -1,0 +1,127 @@
+{
+  "grille_id": 1250,
+  "grille_type": "grille7",
+  "pool_id": 7001250,
+  "titre": "Grille 7 n°1250",
+  "statut": "CLOSED",
+  "fin": "2019-05-10T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:04:46.594566+00:00",
+  "mises_nettes": 18725.25,
+  "montant_distribue": 18725.25,
+  "montant_garanti": 13000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 20,
+      "winningsPerGrid": 468.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 271,
+      "winningsPerGrid": 34.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701369,
+      "debut": "2019-05-10T18:45:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1642",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745471,
+      "debut": "2019-05-10T18:45:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Lens",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1648",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745481,
+      "debut": "2019-05-10T18:45:00+00:00",
+      "home": "Lorient",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1657",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745487,
+      "debut": "2019-05-10T18:45:00+00:00",
+      "home": "Valenciennes",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1662",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17893272,
+      "debut": "2019-05-10T18:45:00+00:00",
+      "home": "Aberdeen",
+      "away": "Heart of Midlothian",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:2353",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145891,
+      "debut": "2019-05-10T19:00:00+00:00",
+      "home": "Grenade",
+      "away": "Tenerife",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2822",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946351,
+      "debut": "2019-05-10T19:30:00+00:00",
+      "home": "CD Aves",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:3032",
+      "away_id": "sr:competitor:3014",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

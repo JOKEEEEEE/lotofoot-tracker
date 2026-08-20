@@ -1,0 +1,127 @@
+{
+  "grille_id": 1826,
+  "grille_type": "grille7",
+  "pool_id": 7001826,
+  "titre": "Grille 7 n°1826",
+  "statut": "CLOSED",
+  "fin": "2020-11-22T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:10:08.622395+00:00",
+  "mises_nettes": 11476.5,
+  "montant_distribue": 12500,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "010001100010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 446.43
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 160,
+      "winningsPerGrid": 39.06
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23390713,
+      "debut": "2020-11-22T19:45:00+00:00",
+      "home": "Naples",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 130,
+      "cote_N": 12.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23031221,
+      "debut": "2020-11-22T19:45:00+00:00",
+      "home": "Racing Genk",
+      "away": "Mouscron",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:44019",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22650535,
+      "debut": "2020-11-22T20:00:00+00:00",
+      "home": "Lille",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1656",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360499,
+      "debut": "2020-11-22T20:00:00+00:00",
+      "home": "Alaves",
+      "away": "Valence",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2828",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 19,
+      "cote_N": 1.02,
+      "cote_2": 15
+    },
+    {
+      "match_id": 23362475,
+      "debut": "2020-11-22T20:00:00+00:00",
+      "home": "Ponferradina",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:6195",
+      "away_id": "sr:competitor:2815",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 17,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23495715,
+      "debut": "2020-11-22T20:00:00+00:00",
+      "home": "Reggina",
+      "away": "Pisa",
+      "home_id": "sr:competitor:223522",
+      "away_id": "sr:competitor:2737",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 15,
+      "cote_N": 1.04,
+      "cote_2": 10
+    },
+    {
+      "match_id": 24373100,
+      "debut": "2020-11-22T21:00:00+00:00",
+      "home": "Kansas City",
+      "away": "San Jose Earthquakes",
+      "home_id": "sr:competitor:2509",
+      "away_id": "sr:competitor:21825",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 24,
+      "cote_2": 250
+    }
+  ]
+}

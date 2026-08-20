@@ -1,0 +1,136 @@
+{
+  "grille_id": 3395,
+  "grille_type": "grille7",
+  "pool_id": 7003395,
+  "titre": "Grille 7 n°3395",
+  "statut": "CLOSED",
+  "fin": "2024-07-13T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:54:31.169576+00:00",
+  "mises_nettes": 4059.75,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 16,
+      "winningsPerGrid": 156.25
+    }
+  ],
+  "repartition": [
+    305,
+    1135,
+    1764,
+    1450,
+    602,
+    140,
+    16,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 48214773,
+      "debut": "2024-07-13T19:00:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1999",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214775,
+      "debut": "2024-07-13T19:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Cuiaba MT",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:49202",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46374409,
+      "debut": "2024-07-13T20:00:00+00:00",
+      "home": "Tromso",
+      "away": "Kfum Oslo",
+      "home_id": "sr:competitor:660",
+      "away_id": "sr:competitor:786",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46365059,
+      "debut": "2024-07-13T23:30:00+00:00",
+      "home": "Montréal",
+      "away": "Atlanta United FC",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:305920",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46365061,
+      "debut": "2024-07-13T23:30:00+00:00",
+      "home": "New England Revolution",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:2511",
+      "away_id": "sr:competitor:52237",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46365063,
+      "debut": "2024-07-13T23:30:00+00:00",
+      "home": "Toronto FC",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:7080",
+      "away_id": "sr:competitor:39833",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45994271,
+      "debut": "2024-07-14T00:00:00+00:00",
+      "home": "Canada",
+      "away": "Uruguay",
+      "home_id": "sr:competitor:4752",
+      "away_id": "sr:competitor:4725",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1068,
+  "grille_type": "grille7",
+  "pool_id": 7001068,
+  "titre": "Grille 7 n°1068",
+  "statut": "CLOSED",
+  "fin": "2018-11-04T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:20:58.774777+00:00",
+  "mises_nettes": 18393.75,
+  "montant_distribue": 18393.75,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 540.99
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 297,
+      "winningsPerGrid": 30.97
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14700877,
+      "debut": "2018-11-04T16:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Angers",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1684",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14894231,
+      "debut": "2018-11-04T17:00:00+00:00",
+      "home": "Mayence",
+      "away": "Werder Brême",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:2534",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159825,
+      "debut": "2018-11-04T17:00:00+00:00",
+      "home": "Bologne",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109173,
+      "debut": "2018-11-04T17:30:00+00:00",
+      "home": "Real Sociedad",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2833",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159843,
+      "debut": "2018-11-04T19:30:00+00:00",
+      "home": "Udinese",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2695",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109169,
+      "debut": "2018-11-04T19:45:00+00:00",
+      "home": "Betis Séville",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2821",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700867,
+      "debut": "2018-11-04T20:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1641",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

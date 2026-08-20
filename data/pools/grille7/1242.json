@@ -1,0 +1,127 @@
+{
+  "grille_id": 1242,
+  "grille_type": "grille7",
+  "pool_id": 7001242,
+  "titre": "Grille 7 n°1242",
+  "statut": "CLOSED",
+  "fin": "2019-05-02T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:05:17.505468+00:00",
+  "mises_nettes": 8328.75,
+  "montant_distribue": 8328.75,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100100001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1041.1
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 67,
+      "winningsPerGrid": 62.15
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18008085,
+      "debut": "2019-05-02T19:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Valence",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:2828",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18008089,
+      "debut": "2019-05-02T19:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899639,
+      "debut": "2019-05-02T21:15:00+00:00",
+      "home": "Bucaramanga",
+      "away": "Union Magdalena Santa Marta",
+      "home_id": "sr:competitor:6103",
+      "away_id": "sr:competitor:89376",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788824,
+      "debut": "2019-05-02T22:15:00+00:00",
+      "home": "Santos",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1961",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788828,
+      "debut": "2019-05-02T23:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1955",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18054687,
+      "debut": "2019-05-02T23:00:00+00:00",
+      "home": "Libertad Asuncion",
+      "away": "Nacional Asuncion",
+      "home_id": "sr:competitor:5996",
+      "away_id": "sr:competitor:33001",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899651,
+      "debut": "2019-05-02T23:15:00+00:00",
+      "home": "Junior De Barranquilla",
+      "away": "Alianza Petrolera",
+      "home_id": "sr:competitor:6105",
+      "away_id": "sr:competitor:89156",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

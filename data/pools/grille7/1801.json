@@ -1,0 +1,127 @@
+{
+  "grille_id": 1801,
+  "grille_type": "grille7",
+  "pool_id": 7001801,
+  "titre": "Grille 7 n°1801",
+  "statut": "CLOSED",
+  "fin": "2020-11-02T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:11:55.794869+00:00",
+  "mises_nettes": 16535.25,
+  "montant_distribue": 16535.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 2066.91
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 90,
+      "winningsPerGrid": 91.86
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23031921,
+      "debut": "2020-11-02T19:30:00+00:00",
+      "home": "Hoffenheim",
+      "away": "Union Berlin",
+      "home_id": "sr:competitor:2569",
+      "away_id": "sr:competitor:2547",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 85,
+      "cote_N": 10.5,
+      "cote_2": 1.02
+    },
+    {
+      "match_id": 23390667,
+      "debut": "2020-11-02T19:45:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Benevento",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2759",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23031191,
+      "debut": "2020-11-02T19:45:00+00:00",
+      "home": "Zulte Waregem",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2933",
+      "away_id": "sr:competitor:4858",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 13,
+      "cote_N": 1.05,
+      "cote_2": 9.5
+    },
+    {
+      "match_id": 23203907,
+      "debut": "2020-11-02T20:00:00+00:00",
+      "home": "Leeds",
+      "away": "Leicester",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:31",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23360477,
+      "debut": "2020-11-02T20:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2831",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23362411,
+      "debut": "2020-11-02T20:00:00+00:00",
+      "home": "Malaga",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2814",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23320145,
+      "debut": "2020-11-02T21:00:00+00:00",
+      "home": "Boavista",
+      "away": "Benfica",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3006",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

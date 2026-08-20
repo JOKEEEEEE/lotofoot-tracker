@@ -1,0 +1,127 @@
+{
+  "grille_id": 1897,
+  "grille_type": "grille7",
+  "pool_id": 7001897,
+  "titre": "Grille 7 n°1897",
+  "statut": "CLOSED",
+  "fin": "2021-01-19T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:04:38.911856+00:00",
+  "mises_nettes": 18573.75,
+  "montant_distribue": 18573.75,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 1031.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 174,
+      "winningsPerGrid": 53.37
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23032121,
+      "debut": "2021-01-19T19:30:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2673",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 16,
+      "cote_2": 225
+    },
+    {
+      "match_id": 23032125,
+      "debut": "2021-01-19T19:30:00+00:00",
+      "home": "Hertha Berlin",
+      "away": "Hoffenheim",
+      "home_id": "sr:competitor:2528",
+      "away_id": "sr:competitor:2569",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23032129,
+      "debut": "2021-01-19T19:30:00+00:00",
+      "home": "Mayence",
+      "away": "Wolfsbourg",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:2524",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 25006504,
+      "debut": "2021-01-19T19:45:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3002",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 18,
+      "cote_N": 1.02,
+      "cote_2": 15
+    },
+    {
+      "match_id": 23204129,
+      "debut": "2021-01-19T20:15:00+00:00",
+      "home": "Leicester",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:38",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 24649164,
+      "debut": "2021-01-19T20:15:00+00:00",
+      "home": "AS Rome",
+      "away": "Spezia",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2735",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 13,
+      "cote_N": 1.02,
+      "cote_2": 34
+    },
+    {
+      "match_id": 23360679,
+      "debut": "2021-01-19T20:30:00+00:00",
+      "home": "Alaves",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 22,
+      "cote_2": 1
+    }
+  ]
+}

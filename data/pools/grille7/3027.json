@@ -1,0 +1,136 @@
+{
+  "grille_id": 3027,
+  "grille_type": "grille7",
+  "pool_id": 7003027,
+  "titre": "Grille 7 n°3027",
+  "statut": "CLOSED",
+  "fin": "2023-09-03T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:27:36.021682+00:00",
+  "mises_nettes": 10857.75,
+  "montant_distribue": 10857.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001010001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 242,
+      "winningsPerGrid": 22.43
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1405,
+      "winningsPerGrid": 3.86
+    }
+  ],
+  "repartition": [
+    70,
+    436,
+    1576,
+    3186,
+    4121,
+    3441,
+    1405,
+    242
+  ],
+  "matches": [
+    {
+      "match_id": 42004581,
+      "debut": "2023-09-03T18:45:00+00:00",
+      "home": "Lyon",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42131761,
+      "debut": "2023-09-03T18:45:00+00:00",
+      "home": "Empoli",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42131765,
+      "debut": "2023-09-03T18:45:00+00:00",
+      "home": "Lecce",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:2689",
+      "away_id": "sr:competitor:2710",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415327,
+      "debut": "2023-09-03T18:45:00+00:00",
+      "home": "MKE Ankaragücü",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:3103",
+      "away_id": "sr:competitor:3052",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415311,
+      "debut": "2023-09-03T18:45:00+00:00",
+      "home": "Hatayspor",
+      "away": "Adana Demirspor",
+      "home_id": "sr:competitor:3091",
+      "away_id": "sr:competitor:3101",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41892971,
+      "debut": "2023-09-03T19:00:00+00:00",
+      "home": "Osasuna",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146169,
+      "debut": "2023-09-03T19:30:00+00:00",
+      "home": "Braga",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

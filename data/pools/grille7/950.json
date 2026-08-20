@@ -1,0 +1,127 @@
+{
+  "grille_id": 950,
+  "grille_type": "grille7",
+  "pool_id": 7000950,
+  "titre": "Grille 7 n°950",
+  "statut": "CLOSED",
+  "fin": "2018-07-08T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:32:10.756171+00:00",
+  "mises_nettes": 7077.75,
+  "montant_distribue": 7077.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 50,
+      "winningsPerGrid": 70.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 419,
+      "winningsPerGrid": 8.45
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13474261,
+      "debut": "2018-07-08T16:00:00+00:00",
+      "home": "Haugesund",
+      "away": "Sandefjord",
+      "home_id": "sr:competitor:673",
+      "away_id": "sr:competitor:676",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13474263,
+      "debut": "2018-07-08T16:00:00+00:00",
+      "home": "Bodø/Glimt",
+      "away": "Brann",
+      "home_id": "sr:competitor:656",
+      "away_id": "sr:competitor:1159",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13474265,
+      "debut": "2018-07-08T16:00:00+00:00",
+      "home": "Odd",
+      "away": "Lillestrøm",
+      "home_id": "sr:competitor:659",
+      "away_id": "sr:competitor:664",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13474267,
+      "debut": "2018-07-08T16:00:00+00:00",
+      "home": "Start",
+      "away": "Stabaek",
+      "home_id": "sr:competitor:667",
+      "away_id": "sr:competitor:1162",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13474269,
+      "debut": "2018-07-08T16:00:00+00:00",
+      "home": "Sarpsborg 08",
+      "away": "Ranheim",
+      "home_id": "sr:competitor:822",
+      "away_id": "sr:competitor:708",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13688197,
+      "debut": "2018-07-08T17:00:00+00:00",
+      "home": "CSD Macara",
+      "away": "Club Sport Emelec",
+      "home_id": "sr:competitor:6001",
+      "away_id": "sr:competitor:5255",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13474271,
+      "debut": "2018-07-08T18:00:00+00:00",
+      "home": "Molde",
+      "away": "Vålerenga",
+      "home_id": "sr:competitor:661",
+      "away_id": "sr:competitor:1165",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

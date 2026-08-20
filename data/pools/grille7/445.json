@@ -1,0 +1,127 @@
+{
+  "grille_id": 445,
+  "grille_type": "grille7",
+  "pool_id": 7000445,
+  "titre": "Grille 7 n°445",
+  "statut": "CLOSED",
+  "fin": "2017-01-24T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:18:00.755297+00:00",
+  "mises_nettes": 9162,
+  "montant_distribue": 9162,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 45,
+      "winningsPerGrid": 101.8
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 455,
+      "winningsPerGrid": 10.07
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10470774,
+      "debut": "2017-01-24T19:00:00+00:00",
+      "home": "Maroc",
+      "away": "Côte d'Ivoire",
+      "home_id": "sr:competitor:4778",
+      "away_id": "sr:competitor:4768",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10470776,
+      "debut": "2017-01-24T19:00:00+00:00",
+      "home": "Togo",
+      "away": "RD Congo",
+      "home_id": "sr:competitor:4836",
+      "away_id": "sr:competitor:4823",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9720579,
+      "debut": "2017-01-24T19:30:00+00:00",
+      "home": "Racing Genk",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:4858",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9720587,
+      "debut": "2017-01-24T19:30:00+00:00",
+      "home": "Ostende",
+      "away": "Charleroi",
+      "home_id": "sr:competitor:4494",
+      "away_id": "sr:competitor:2898",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10921968,
+      "debut": "2017-01-24T19:45:00+00:00",
+      "home": "Naples",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2693",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10881926,
+      "debut": "2017-01-24T20:00:00+00:00",
+      "home": "Reading",
+      "away": "Fulham",
+      "home_id": "sr:competitor:28",
+      "away_id": "sr:competitor:43",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10890590,
+      "debut": "2017-01-24T20:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

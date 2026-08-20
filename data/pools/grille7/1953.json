@@ -1,0 +1,136 @@
+{
+  "grille_id": 1953,
+  "grille_type": "grille7",
+  "pool_id": 7001953,
+  "titre": "Grille 7 n°1953",
+  "statut": "CLOSED",
+  "fin": "2021-03-02T19:00:00+00:00",
+  "collecte_le": "2026-08-20T13:19:05.172249+00:00",
+  "mises_nettes": 21643.5,
+  "montant_distribue": 21643.5,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 22,
+      "winningsPerGrid": 491.9
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 320,
+      "winningsPerGrid": 33.82
+    }
+  ],
+  "repartition": [
+    784,
+    3964,
+    7883,
+    8672,
+    5388,
+    1825,
+    320,
+    22
+  ],
+  "matches": [
+    {
+      "match_id": 22651729,
+      "debut": "2021-03-02T19:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Clermont",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1680",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22651725,
+      "debut": "2021-03-02T19:00:00+00:00",
+      "home": "Amiens",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1646",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 34,
+      "cote_N": 1,
+      "cote_2": 40
+    },
+    {
+      "match_id": 22651731,
+      "debut": "2021-03-02T19:00:00+00:00",
+      "home": "Le Havre",
+      "away": "Grenoble",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1671",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22651741,
+      "debut": "2021-03-02T19:00:00+00:00",
+      "home": "Valenciennes",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1681",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 11,
+      "cote_2": 100
+    },
+    {
+      "match_id": 22651735,
+      "debut": "2021-03-02T19:00:00+00:00",
+      "home": "Niort",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1665",
+      "away_id": "sr:competitor:1657",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22651733,
+      "debut": "2021-03-02T19:00:00+00:00",
+      "home": "Nancy",
+      "away": "Caen",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:1667",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 21,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22651723,
+      "debut": "2021-03-02T19:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Rodez",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:6925",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 24,
+      "cote_2": 250
+    }
+  ]
+}

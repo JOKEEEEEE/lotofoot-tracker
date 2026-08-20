@@ -1,0 +1,136 @@
+{
+  "grille_id": 2254,
+  "grille_type": "grille7",
+  "pool_id": 7002254,
+  "titre": "Grille 7 n°2254",
+  "statut": "CLOSED",
+  "fin": "2021-11-14T19:45:00+00:00",
+  "collecte_le": "2026-08-20T09:35:03.920998+00:00",
+  "mises_nettes": 12420.75,
+  "montant_distribue": 12420.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 887.2
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 109,
+      "winningsPerGrid": 56.98
+    }
+  ],
+  "repartition": [
+    319,
+    1984,
+    4562,
+    5532,
+    3230,
+    818,
+    109,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 24833594,
+      "debut": "2021-11-14T19:45:00+00:00",
+      "home": "Espagne",
+      "away": "Suède",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4688",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 55,
+      "cote_2": 500
+    },
+    {
+      "match_id": 24833114,
+      "debut": "2021-11-14T19:45:00+00:00",
+      "home": "Portugal",
+      "away": "Serbie",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:6355",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 40,
+      "cote_2": 1
+    },
+    {
+      "match_id": 24833592,
+      "debut": "2021-11-14T19:45:00+00:00",
+      "home": "Grèce",
+      "away": "Kosovo",
+      "home_id": "sr:competitor:4710",
+      "away_id": "sr:competitor:154426",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 40,
+      "cote_N": 1,
+      "cote_2": 65
+    },
+    {
+      "match_id": 24833112,
+      "debut": "2021-11-14T19:45:00+00:00",
+      "home": "Luxembourg",
+      "away": "République d'Irlande",
+      "home_id": "sr:competitor:4478",
+      "away_id": "sr:competitor:4693",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27472142,
+      "debut": "2021-11-14T21:15:00+00:00",
+      "home": "Fluminense",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:1963",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 55,
+      "cote_2": null
+    },
+    {
+      "match_id": 27472136,
+      "debut": "2021-11-14T22:00:00+00:00",
+      "home": "Ceara CE",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1959",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 60,
+      "cote_2": null
+    },
+    {
+      "match_id": 27472138,
+      "debut": "2021-11-14T22:00:00+00:00",
+      "home": "Chapecoense",
+      "away": "Juventude RS",
+      "home_id": "sr:competitor:21845",
+      "away_id": "sr:competitor:1980",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 500,
+      "cote_2": 1
+    }
+  ]
+}

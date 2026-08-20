@@ -1,0 +1,136 @@
+{
+  "grille_id": 2865,
+  "grille_type": "grille7",
+  "pool_id": 7002865,
+  "titre": "Grille 7 n°2865",
+  "statut": "CLOSED",
+  "fin": "2023-04-12T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:42:01.819682+00:00",
+  "mises_nettes": 8537.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1666.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 144,
+      "winningsPerGrid": 34.72
+    }
+  ],
+  "repartition": [
+    268,
+    1474,
+    2923,
+    3237,
+    2375,
+    959,
+    144,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 40114319,
+      "debut": "2023-04-12T19:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:38",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40114383,
+      "debut": "2023-04-12T19:00:00+00:00",
+      "home": "Milan AC",
+      "away": "Naples",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2714",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545897,
+      "debut": "2023-04-12T20:30:00+00:00",
+      "home": "San Lorenzo",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:3201",
+      "away_id": "sr:competitor:3202",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545887,
+      "debut": "2023-04-12T22:00:00+00:00",
+      "home": "Belgrano",
+      "away": "Huracan",
+      "home_id": "sr:competitor:3203",
+      "away_id": "sr:competitor:7629",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545891,
+      "debut": "2023-04-12T22:30:00+00:00",
+      "home": "Racing Club",
+      "away": "Newell's Old Boys",
+      "home_id": "sr:competitor:3215",
+      "away_id": "sr:competitor:3212",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545893,
+      "debut": "2023-04-13T00:30:00+00:00",
+      "home": "Rosario Central",
+      "away": "Independiente",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:3209",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40239343,
+      "debut": "2023-04-13T02:00:00+00:00",
+      "home": "Atlas",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:1949",
+      "away_id": "sr:competitor:39833",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

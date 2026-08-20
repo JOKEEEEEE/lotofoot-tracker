@@ -1,0 +1,127 @@
+{
+  "grille_id": 809,
+  "grille_type": "grille7",
+  "pool_id": 7000809,
+  "titre": "Grille 7 n°809",
+  "statut": "CLOSED",
+  "fin": "2018-02-13T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:44:11.754462+00:00",
+  "mises_nettes": 17593.5,
+  "montant_distribue": 17593.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 64,
+      "winningsPerGrid": 137.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 686,
+      "winningsPerGrid": 12.82
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13330137,
+      "debut": "2018-02-13T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13330141,
+      "debut": "2018-02-13T19:45:00+00:00",
+      "home": "FC Bâle",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868750,
+      "debut": "2018-02-13T19:45:00+00:00",
+      "home": "Sheffield Wednesday",
+      "away": "Derby County",
+      "home_id": "sr:competitor:12",
+      "away_id": "sr:competitor:27",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644725,
+      "debut": "2018-02-13T19:45:00+00:00",
+      "home": "Cardiff",
+      "away": "Bolton",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:5",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13737717,
+      "debut": "2018-02-13T19:45:00+00:00",
+      "home": "Kilmarnock",
+      "away": "Dundee FC",
+      "home_id": "sr:competitor:2347",
+      "away_id": "sr:competitor:2357",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13372799,
+      "debut": "2018-02-14T02:30:00+00:00",
+      "home": "Lobos",
+      "away": "Tigres",
+      "home_id": "sr:competitor:36530",
+      "away_id": "sr:competitor:1940",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13372801,
+      "debut": "2018-02-14T02:45:00+00:00",
+      "home": "Club América",
+      "away": "Mazatlán F.C.",
+      "home_id": "sr:competitor:1939",
+      "away_id": "sr:competitor:1946",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

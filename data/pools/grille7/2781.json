@@ -1,0 +1,136 @@
+{
+  "grille_id": 2781,
+  "grille_type": "grille7",
+  "pool_id": 7002781,
+  "titre": "Grille 7 n°2781",
+  "statut": "CLOSED",
+  "fin": "2023-02-04T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:49:16.887992+00:00",
+  "mises_nettes": 8664,
+  "montant_distribue": 8664,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 481.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 112,
+      "winningsPerGrid": 38.68
+    }
+  ],
+  "repartition": [
+    342,
+    1600,
+    3354,
+    3519,
+    1987,
+    629,
+    112,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 34172431,
+      "debut": "2023-02-04T18:00:00+00:00",
+      "home": "Troyes",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286927,
+      "debut": "2023-02-04T19:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271389,
+      "debut": "2023-02-04T19:45:00+00:00",
+      "home": "Saint-Trond",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:4858",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172429,
+      "debut": "2023-02-04T20:00:00+00:00",
+      "home": "Rennes",
+      "away": "Lille",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1643",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277585,
+      "debut": "2023-02-04T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2821",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278953,
+      "debut": "2023-02-04T20:00:00+00:00",
+      "home": "Alaves",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2839",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504901,
+      "debut": "2023-02-04T20:30:00+00:00",
+      "home": "Estoril",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:3009",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

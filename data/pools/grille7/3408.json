@@ -1,0 +1,136 @@
+{
+  "grille_id": 3408,
+  "grille_type": "grille7",
+  "pool_id": 7003408,
+  "titre": "Grille 7 n°3408",
+  "statut": "CLOSED",
+  "fin": "2024-07-26T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:53:28.931321+00:00",
+  "mises_nettes": 2913.75,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010001010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 14,
+      "winningsPerGrid": 142.86
+    }
+  ],
+  "repartition": [
+    366,
+    992,
+    1207,
+    838,
+    373,
+    94,
+    14,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 50606061,
+      "debut": "2024-07-26T17:00:00+00:00",
+      "home": "Sønderjyske",
+      "away": "Lyngby",
+      "home_id": "sr:competitor:1295",
+      "away_id": "sr:competitor:1756",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51079531,
+      "debut": "2024-07-26T18:00:00+00:00",
+      "home": "Al-Masry",
+      "away": "Al-Ahly Cairo",
+      "home_id": "sr:competitor:43560",
+      "away_id": "sr:competitor:6910",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51079533,
+      "debut": "2024-07-26T18:00:00+00:00",
+      "home": "El Zamalek",
+      "away": "FC Pyramids",
+      "home_id": "sr:competitor:42368",
+      "away_id": "sr:competitor:175002",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50592571,
+      "debut": "2024-07-26T18:30:00+00:00",
+      "home": "Lechia Gdańsk",
+      "away": "Motor Lublin",
+      "home_id": "sr:competitor:7913",
+      "away_id": "sr:competitor:7915",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46547991,
+      "debut": "2024-07-26T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3179",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46547993,
+      "debut": "2024-07-26T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Waterford",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3194",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50714813,
+      "debut": "2024-07-26T18:45:00+00:00",
+      "home": "Club Bruges",
+      "away": "Malines",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:5044",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

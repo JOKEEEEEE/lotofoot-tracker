@@ -1,0 +1,136 @@
+{
+  "grille_id": 2465,
+  "grille_type": "grille7",
+  "pool_id": 7002465,
+  "titre": "Grille 7 n°2465",
+  "statut": "CLOSED",
+  "fin": "2022-05-05T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:15:56.614928+00:00",
+  "mises_nettes": 15084.75,
+  "montant_distribue": 15084.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1508.48
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 72,
+      "winningsPerGrid": 104.76
+    }
+  ],
+  "repartition": [
+    1490,
+    4924,
+    6689,
+    4648,
+    1839,
+    446,
+    72,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 33195141,
+      "debut": "2022-05-05T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Feyenoord",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:2959",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33195139,
+      "debut": "2022-05-05T19:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Leicester",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:31",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33195957,
+      "debut": "2022-05-05T19:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "West Ham",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33195955,
+      "debut": "2022-05-05T19:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:36360",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898673,
+      "debut": "2022-05-05T22:00:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "River Plate",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:3211",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898569,
+      "debut": "2022-05-06T00:00:00+00:00",
+      "home": "Bragantino SP",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:3208",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898675,
+      "debut": "2022-05-06T02:00:00+00:00",
+      "home": "Alianza Lima",
+      "away": "Colo Colo",
+      "home_id": "sr:competitor:2311",
+      "away_id": "sr:competitor:3155",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

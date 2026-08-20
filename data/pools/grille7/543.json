@@ -1,0 +1,127 @@
+{
+  "grille_id": 543,
+  "grille_type": "grille7",
+  "pool_id": 7000543,
+  "titre": "Grille 7 n°543",
+  "statut": "CLOSED",
+  "fin": "2017-05-09T18:45:00+00:00",
+  "collecte_le": "2026-08-20T13:31:25.365257+00:00",
+  "mises_nettes": 7599.75,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 25,
+      "winningsPerGrid": 200
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 293,
+      "winningsPerGrid": 17.06
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11542945,
+      "debut": "2017-05-09T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Monaco",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:1653",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11015127,
+      "debut": "2017-05-09T20:15:00+00:00",
+      "home": "Atletico Huila",
+      "away": "Pasto",
+      "home_id": "sr:competitor:6104",
+      "away_id": "sr:competitor:6113",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11015125,
+      "debut": "2017-05-10T00:45:00+00:00",
+      "home": "Envigado FC",
+      "away": "Once Caldas",
+      "home_id": "sr:competitor:6114",
+      "away_id": "sr:competitor:6118",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11015123,
+      "debut": "2017-05-10T01:00:00+00:00",
+      "home": "Millonarios ",
+      "away": "Cortulua",
+      "home_id": "sr:competitor:6117",
+      "away_id": "sr:competitor:39866",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11483307,
+      "debut": "2017-05-10T18:45:00+00:00",
+      "home": "Southampton",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:42",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11542941,
+      "debut": "2017-05-10T18:45:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2829",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11015115,
+      "debut": "2017-05-10T20:15:00+00:00",
+      "home": "Jaguares De Cordoba",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:89370",
+      "away_id": "sr:competitor:6115",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

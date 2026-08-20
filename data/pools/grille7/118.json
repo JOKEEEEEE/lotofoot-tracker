@@ -1,0 +1,127 @@
+{
+  "grille_id": 118,
+  "grille_type": "grille7",
+  "pool_id": 7000118,
+  "titre": "Grille 7 n°118",
+  "statut": "CLOSED",
+  "fin": "2016-01-18T19:15:00+00:00",
+  "collecte_le": "2026-08-20T12:47:28.297814+00:00",
+  "mises_nettes": 9612,
+  "montant_distribue": 9612,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 16,
+      "winningsPerGrid": 300.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 241,
+      "winningsPerGrid": 19.94
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8700304,
+      "debut": "2016-01-18T19:15:00+00:00",
+      "home": "Newport County",
+      "away": "Blackburn",
+      "home_id": "sr:competitor:79",
+      "away_id": "sr:competitor:46",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474580,
+      "debut": "2016-01-18T19:30:00+00:00",
+      "home": "Valenciennes",
+      "away": "Metz",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1651",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989182,
+      "debut": "2016-01-18T19:30:00+00:00",
+      "home": "Crotone",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2718",
+      "away_id": "sr:competitor:2719",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989194,
+      "debut": "2016-01-18T19:30:00+00:00",
+      "home": "Entella",
+      "away": "Ascoli",
+      "home_id": "sr:competitor:43680",
+      "away_id": "sr:competitor:2707",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610538,
+      "debut": "2016-01-18T19:30:00+00:00",
+      "home": "Eibar",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:33779",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7464886,
+      "debut": "2016-01-18T20:00:00+00:00",
+      "home": "Swansea",
+      "away": "Watford",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:24",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558300,
+      "debut": "2016-01-18T20:00:00+00:00",
+      "home": "Boavista",
+      "away": "Vitoria Setubal",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3008",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

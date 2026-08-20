@@ -1,0 +1,127 @@
+{
+  "grille_id": 1331,
+  "grille_type": "grille7",
+  "pool_id": 7001331,
+  "titre": "Grille 7 n°1331",
+  "statut": "CLOSED",
+  "fin": "2019-08-01T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:57:58.621333+00:00",
+  "mises_nettes": 8786.25,
+  "montant_distribue": 8786.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 390,
+      "winningsPerGrid": 11.26
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1597,
+      "winningsPerGrid": 2.75
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18808314,
+      "debut": "2019-08-01T18:45:00+00:00",
+      "home": "Osijek",
+      "away": "CSKA Sofia",
+      "home_id": "sr:competitor:2040",
+      "away_id": "sr:competitor:3275",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18808334,
+      "debut": "2019-08-01T18:45:00+00:00",
+      "home": "Linfield",
+      "away": "HB Torshavn",
+      "home_id": "sr:competitor:5272",
+      "away_id": "sr:competitor:5187",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18817506,
+      "debut": "2019-08-01T18:45:00+00:00",
+      "home": "Aberdeen",
+      "away": "Chikhura Sachkhere",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:37296",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18817930,
+      "debut": "2019-08-01T18:45:00+00:00",
+      "home": "Spartak Trnava",
+      "away": "Lokomotiv Plovdiv",
+      "home_id": "sr:competitor:2406",
+      "away_id": "sr:competitor:3272",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18817528,
+      "debut": "2019-08-01T19:00:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Jeunesse Esch",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:5383",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18817556,
+      "debut": "2019-08-01T19:00:00+00:00",
+      "home": "Crusaders",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:5180",
+      "away_id": "sr:competitor:3",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18817478,
+      "debut": "2019-08-01T19:15:00+00:00",
+      "home": "Stjarnan",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:2814",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

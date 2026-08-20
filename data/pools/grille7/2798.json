@@ -1,0 +1,136 @@
+{
+  "grille_id": 2798,
+  "grille_type": "grille7",
+  "pool_id": 7002798,
+  "titre": "Grille 7 n°2798",
+  "statut": "CLOSED",
+  "fin": "2023-02-17T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:46:33.608369+00:00",
+  "mises_nettes": 11176.5,
+  "montant_distribue": 11176.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 620.92
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 135,
+      "winningsPerGrid": 41.39
+    }
+  ],
+  "repartition": [
+    245,
+    1757,
+    4054,
+    4772,
+    3026,
+    904,
+    135,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 34169323,
+      "debut": "2023-02-17T19:30:00+00:00",
+      "home": "Augsbourg",
+      "away": "TSG Hoffenheim",
+      "home_id": "sr:competitor:2600",
+      "away_id": "sr:competitor:2569",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286967,
+      "debut": "2023-02-17T19:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Naples",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2714",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271425,
+      "debut": "2023-02-17T19:45:00+00:00",
+      "home": "Malines",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:5044",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172453,
+      "debut": "2023-02-17T20:00:00+00:00",
+      "home": "Auxerre",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1649",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265915,
+      "debut": "2023-02-17T20:00:00+00:00",
+      "home": "Cardiff",
+      "away": "Reading",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:28",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277637,
+      "debut": "2023-02-17T20:00:00+00:00",
+      "home": "Gérone",
+      "away": "Almeria",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2858",
+      "score_home": 6,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504939,
+      "debut": "2023-02-17T20:15:00+00:00",
+      "home": "Gil Vicente",
+      "away": "FC Vizela",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:5136",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

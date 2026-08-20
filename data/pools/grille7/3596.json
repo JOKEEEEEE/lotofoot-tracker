@@ -1,0 +1,136 @@
+{
+  "grille_id": 3596,
+  "grille_type": "grille7",
+  "pool_id": 7003596,
+  "titre": "Grille 7 n°3596",
+  "statut": "CLOSED",
+  "fin": "2025-01-16T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:39:52.809934+00:00",
+  "mises_nettes": 5959.5,
+  "montant_distribue": 5959.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 496.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 113,
+      "winningsPerGrid": 26.37
+    }
+  ],
+  "repartition": [
+    56,
+    412,
+    1638,
+    2628,
+    2176,
+    917,
+    113,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 52034553,
+      "debut": "2025-01-16T17:00:00+00:00",
+      "home": "Al-Ittihad FC",
+      "away": "Al-Raed",
+      "home_id": "sr:competitor:34315",
+      "away_id": "sr:competitor:56031",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850373,
+      "debut": "2025-01-16T19:30:00+00:00",
+      "home": "Ipswich",
+      "away": "Brighton",
+      "home_id": "sr:competitor:32",
+      "away_id": "sr:competitor:30",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57037073,
+      "debut": "2025-01-16T19:45:00+00:00",
+      "home": "Anderlecht",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2889",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850385,
+      "debut": "2025-01-16T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Southampton",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:45",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57030095,
+      "debut": "2025-01-16T18:30:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2818",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57030097,
+      "debut": "2025-01-16T18:30:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2820",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57030185,
+      "debut": "2025-01-16T20:30:00+00:00",
+      "home": "Real Madrid",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2821",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

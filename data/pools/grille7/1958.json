@@ -1,0 +1,136 @@
+{
+  "grille_id": 1958,
+  "grille_type": "grille7",
+  "pool_id": 7001958,
+  "titre": "Grille 7 n°1958",
+  "statut": "CLOSED",
+  "fin": "2021-03-06T20:00:00+00:00",
+  "collecte_le": "2026-08-20T09:57:38.307652+00:00",
+  "mises_nettes": 16493.25,
+  "montant_distribue": 16493.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 915,
+      "winningsPerGrid": 9.01
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 3315,
+      "winningsPerGrid": 2.49
+    }
+  ],
+  "repartition": [
+    79,
+    431,
+    1783,
+    4125,
+    5797,
+    5546,
+    3315,
+    915
+  ],
+  "matches": [
+    {
+      "match_id": 23391071,
+      "debut": "2021-03-06T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2699",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23031513,
+      "debut": "2021-03-06T19:45:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:4858",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 100,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26034864,
+      "debut": "2021-03-06T20:10:00+00:00",
+      "home": "Brest",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23204303,
+      "debut": "2021-03-06T20:00:00+00:00",
+      "home": "Brighton",
+      "away": "Leicester",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:31",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 24,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23360831,
+      "debut": "2021-03-06T20:00:00+00:00",
+      "home": "Osasuna",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23002245,
+      "debut": "2021-03-06T20:00:00+00:00",
+      "home": "RKC Waalwijk",
+      "away": "Utrecht",
+      "home_id": "sr:competitor:2956",
+      "away_id": "sr:competitor:2948",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 25,
+      "cote_N": 1.02,
+      "cote_2": 13.5
+    },
+    {
+      "match_id": 23320431,
+      "debut": "2021-03-06T20:30:00+00:00",
+      "home": "Boavista",
+      "away": "Famalicao",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:49531",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 4083,
+  "grille_type": "grille7",
+  "pool_id": 7004083,
+  "titre": "Grille 7 n°4083",
+  "statut": "CLOSED",
+  "fin": "2026-05-22T18:00:00+00:00",
+  "collecte_le": "2026-08-20T06:04:57.974057+00:00",
+  "mises_nettes": 4311.75,
+  "montant_distribue": 4311.75,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1077.94
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 59,
+      "winningsPerGrid": 36.54
+    }
+  ],
+  "repartition": [
+    136,
+    730,
+    1676,
+    1797,
+    1023,
+    326,
+    59,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 71401280,
+      "debut": "2026-05-22T18:00:00+00:00",
+      "home": "FC Sudtirol",
+      "away": "Bari",
+      "home_id": "sr:competitor:2760",
+      "away_id": "sr:competitor:2712",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.76,
+      "cote_N": 3.15,
+      "cote_2": 4
+    },
+    {
+      "match_id": 71443812,
+      "debut": "2026-05-22T18:30:00+00:00",
+      "home": "Rot-Weiss Essen",
+      "away": "Furth",
+      "home_id": "sr:competitor:2562",
+      "away_id": "sr:competitor:2551",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.25,
+      "cote_N": 3.3,
+      "cote_2": 2.5
+    },
+    {
+      "match_id": 61061689,
+      "debut": "2026-05-22T18:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.8,
+      "cote_N": 3.35,
+      "cote_2": 2.05
+    },
+    {
+      "match_id": 66854056,
+      "debut": "2026-05-22T18:45:00+00:00",
+      "home": "Derry City",
+      "away": "St Patrick's",
+      "home_id": "sr:competitor:3170",
+      "away_id": "sr:competitor:3169",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.75,
+      "cote_N": 2.9,
+      "cote_2": 2.3
+    },
+    {
+      "match_id": 66854060,
+      "debut": "2026-05-22T18:45:00+00:00",
+      "home": "Galway United",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3172",
+      "away_id": "sr:competitor:3173",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 3.15,
+      "cote_N": 3.2,
+      "cote_2": 1.96
+    },
+    {
+      "match_id": 71019386,
+      "debut": "2026-05-22T19:00:00+00:00",
+      "home": "Lens",
+      "away": "Nice",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1661",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.45,
+      "cote_N": 4,
+      "cote_2": 5.4
+    },
+    {
+      "match_id": 68042500,
+      "debut": "2026-05-22T21:00:00+00:00",
+      "home": "2 de Mayo",
+      "away": "Sportivo San Lorenzo",
+      "home_id": "sr:competitor:5992",
+      "away_id": "sr:competitor:90972",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.7,
+      "cote_N": 3.3,
+      "cote_2": 4.1
+    }
+  ]
+}

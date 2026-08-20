@@ -1,0 +1,136 @@
+{
+  "grille_id": 2313,
+  "grille_type": "grille7",
+  "pool_id": 7002313,
+  "titre": "Grille 7 n°2313",
+  "statut": "CLOSED",
+  "fin": "2022-01-05T18:30:00+00:00",
+  "collecte_le": "2026-08-20T09:29:02.606708+00:00",
+  "mises_nettes": 9330.75,
+  "montant_distribue": 9330.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 48,
+      "winningsPerGrid": 97.2
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1025,
+      "winningsPerGrid": 4.55
+    }
+  ],
+  "repartition": [
+    82,
+    382,
+    1437,
+    3097,
+    3770,
+    2600,
+    1025,
+    48
+  ],
+  "matches": [
+    {
+      "match_id": 31080547,
+      "debut": "2022-01-05T18:30:00+00:00",
+      "home": "Linares Deportivo",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2880",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31080557,
+      "debut": "2022-01-05T19:00:00+00:00",
+      "home": "Real Valladolid",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2831",
+      "away_id": "sr:competitor:2816",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31080533,
+      "debut": "2022-01-05T19:00:00+00:00",
+      "home": "Atletico Baleares",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:24325",
+      "away_id": "sr:competitor:2821",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31080551,
+      "debut": "2022-01-05T19:00:00+00:00",
+      "home": "Mirandes",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:35092",
+      "away_id": "sr:competitor:2818",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28623622,
+      "debut": "2022-01-05T19:30:00+00:00",
+      "home": "Panathinaïkos",
+      "away": "Aris Thessalonique",
+      "home_id": "sr:competitor:3248",
+      "away_id": "sr:competitor:3252",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31190677,
+      "debut": "2022-01-05T19:45:00+00:00",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31080529,
+      "debut": "2022-01-05T20:30:00+00:00",
+      "home": "CD Alcoyano",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:6585",
+      "away_id": "sr:competitor:2829",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

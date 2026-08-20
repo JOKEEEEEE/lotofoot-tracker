@@ -1,0 +1,127 @@
+{
+  "grille_id": 1321,
+  "grille_type": "grille7",
+  "pool_id": 7001321,
+  "titre": "Grille 7 n°1321",
+  "statut": "CLOSED",
+  "fin": "2019-07-22T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:58:47.997842+00:00",
+  "mises_nettes": 4223.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 21,
+      "winningsPerGrid": 119.05
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18448234,
+      "debut": "2019-07-22T18:00:00+00:00",
+      "home": "FC Vitosha Bistritsa",
+      "away": "Botev Vratsa",
+      "home_id": "sr:competitor:113703",
+      "away_id": "sr:competitor:36938",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18583098,
+      "debut": "2019-07-22T18:00:00+00:00",
+      "home": "Sepsi",
+      "away": "FC Steaua Bucarest",
+      "home_id": "sr:competitor:276385",
+      "away_id": "sr:competitor:3301",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18492834,
+      "debut": "2019-07-22T19:00:00+00:00",
+      "home": "NK Siroki Brijeg",
+      "away": "Celik Zenica",
+      "home_id": "sr:competitor:5239",
+      "away_id": "sr:competitor:6146",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17196515,
+      "debut": "2019-07-22T19:15:00+00:00",
+      "home": "HK Kopavogs",
+      "away": "FH Hafnarfjordur",
+      "home_id": "sr:competitor:7121",
+      "away_id": "sr:competitor:1894",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789004,
+      "debut": "2019-07-22T23:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:21845",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16638883,
+      "debut": "2019-07-23T00:15:00+00:00",
+      "home": "CSD Macara",
+      "away": "Tecnico Universitario",
+      "home_id": "sr:competitor:6001",
+      "away_id": "sr:competitor:21941",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18527156,
+      "debut": "2019-07-23T01:00:00+00:00",
+      "home": "La Equidad",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6975",
+      "away_id": "sr:competitor:6115",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

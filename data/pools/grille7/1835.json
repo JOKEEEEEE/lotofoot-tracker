@@ -1,0 +1,127 @@
+{
+  "grille_id": 1835,
+  "grille_type": "grille7",
+  "pool_id": 7001835,
+  "titre": "Grille 7 n°1835",
+  "statut": "CLOSED",
+  "fin": "2020-11-29T14:00:00+00:00",
+  "collecte_le": "2026-08-20T10:09:34.302984+00:00",
+  "mises_nettes": 17775,
+  "montant_distribue": 17775,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 888.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 229,
+      "winningsPerGrid": 38.81
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22650549,
+      "debut": "2020-11-29T14:00:00+00:00",
+      "home": "Lens",
+      "away": "Angers",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1684",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 225,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22650551,
+      "debut": "2020-11-29T14:00:00+00:00",
+      "home": "Lorient",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1642",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 29,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22650557,
+      "debut": "2020-11-29T14:00:00+00:00",
+      "home": "Metz",
+      "away": "Brest",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1715",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22650559,
+      "debut": "2020-11-29T14:00:00+00:00",
+      "home": "Monaco",
+      "away": "Nîmes",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1663",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23203975,
+      "debut": "2020-11-29T14:00:00+00:00",
+      "home": "Southampton",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:35",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 19,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22650561,
+      "debut": "2020-11-29T16:00:00+00:00",
+      "home": "Nice",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1686",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 140,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23203965,
+      "debut": "2020-11-29T16:30:00+00:00",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:33",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 16,
+      "cote_N": 1.01,
+      "cote_2": 29
+    }
+  ]
+}

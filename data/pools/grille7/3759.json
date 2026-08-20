@@ -1,0 +1,136 @@
+{
+  "grille_id": 3759,
+  "grille_type": "grille7",
+  "pool_id": 7003759,
+  "titre": "Grille 7 n°3759",
+  "statut": "CLOSED",
+  "fin": "2025-06-23T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:32:48.038708+00:00",
+  "mises_nettes": 4123.5,
+  "montant_distribue": 4123.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1030.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 32,
+      "winningsPerGrid": 64.43
+    }
+  ],
+  "repartition": [
+    33,
+    595,
+    1736,
+    1866,
+    972,
+    262,
+    32,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 56525783,
+      "debut": "2025-06-23T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3177",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525785,
+      "debut": "2025-06-23T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:3180",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56525789,
+      "debut": "2025-06-23T18:45:00+00:00",
+      "home": "St Patrick's",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3170",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189323,
+      "debut": "2025-06-23T19:00:00+00:00",
+      "home": "Seattle Sounders",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:22009",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189329,
+      "debut": "2025-06-23T19:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:1958",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189293,
+      "debut": "2025-06-24T01:00:00+00:00",
+      "home": "Inter Miami CF",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:659691",
+      "away_id": "sr:competitor:1963",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189295,
+      "debut": "2025-06-24T01:00:00+00:00",
+      "home": "FC Porto",
+      "away": "Al-Ahly Cairo",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:6910",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

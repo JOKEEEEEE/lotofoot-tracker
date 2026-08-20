@@ -1,0 +1,127 @@
+{
+  "grille_id": 538,
+  "grille_type": "grille7",
+  "pool_id": 7000538,
+  "titre": "Grille 7 n°538",
+  "statut": "CLOSED",
+  "fin": "2017-05-04T19:05:00+00:00",
+  "collecte_le": "2026-08-20T12:06:22.374979+00:00",
+  "mises_nettes": 6076.5,
+  "montant_distribue": 6076.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 10,
+      "winningsPerGrid": 303.83
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 122,
+      "winningsPerGrid": 24.9
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11543511,
+      "debut": "2017-05-04T19:05:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:35",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11001292,
+      "debut": "2017-05-05T05:00:00+00:00",
+      "home": "Gamba Osaka",
+      "away": "Shimizu",
+      "home_id": "sr:competitor:3138",
+      "away_id": "sr:competitor:3133",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11001294,
+      "debut": "2017-05-05T06:00:00+00:00",
+      "home": "Kawasaki Frontale",
+      "away": "Albirex Niigata",
+      "home_id": "sr:competitor:5127",
+      "away_id": "sr:competitor:5128",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9690549,
+      "debut": "2017-05-05T18:30:00+00:00",
+      "home": "Cologne",
+      "away": "Werder Brême",
+      "home_id": "sr:competitor:2671",
+      "away_id": "sr:competitor:2534",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600463,
+      "debut": "2017-05-05T19:00:00+00:00",
+      "home": "West Ham",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769883,
+      "debut": "2017-05-05T19:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2824",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9789155,
+      "debut": "2017-05-05T19:30:00+00:00",
+      "home": "Moreirense",
+      "away": "Braga",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:2999",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

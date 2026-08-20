@@ -1,0 +1,136 @@
+{
+  "grille_id": 3736,
+  "grille_type": "grille7",
+  "pool_id": 7003736,
+  "titre": "Grille 7 n°3736",
+  "statut": "CLOSED",
+  "fin": "2025-05-31T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:24:17.605656+00:00",
+  "mises_nettes": 5151,
+  "montant_distribue": 5151,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 286.17
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 94,
+      "winningsPerGrid": 27.4
+    }
+  ],
+  "repartition": [
+    133,
+    761,
+    1876,
+    2131,
+    1366,
+    498,
+    94,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 58265391,
+      "debut": "2025-05-31T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:2697",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380313,
+      "debut": "2025-05-31T19:00:00+00:00",
+      "home": "Universidad De Chile",
+      "away": "O'Higgins",
+      "home_id": "sr:competitor:3161",
+      "away_id": "sr:competitor:3163",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690723,
+      "debut": "2025-05-31T20:30:00+00:00",
+      "home": "Nashville SC",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:668063",
+      "away_id": "sr:competitor:167510",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052611,
+      "debut": "2025-05-31T21:30:00+00:00",
+      "home": "Bahia ",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1981",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57381345,
+      "debut": "2025-05-31T21:30:00+00:00",
+      "home": "Delfin SC",
+      "away": "Independiente Del Valle",
+      "home_id": "sr:competitor:241468",
+      "away_id": "sr:competitor:39723",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690727,
+      "debut": "2025-05-31T23:41:00+00:00",
+      "home": "Inter Miami CF",
+      "away": "Columbus Crew",
+      "home_id": "sr:competitor:659691",
+      "away_id": "sr:competitor:2504",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052599,
+      "debut": "2025-06-01T00:00:00+00:00",
+      "home": "Vasco da Gama",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:1974",
+      "away_id": "sr:competitor:1999",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

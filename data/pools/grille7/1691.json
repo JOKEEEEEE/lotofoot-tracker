@@ -1,0 +1,127 @@
+{
+  "grille_id": 1691,
+  "grille_type": "grille7",
+  "pool_id": 7001691,
+  "titre": "Grille 7 n°1691",
+  "statut": "CLOSED",
+  "fin": "2020-07-29T17:30:00+00:00",
+  "collecte_le": "2026-08-20T10:24:20.321643+00:00",
+  "mises_nettes": 16548.75,
+  "montant_distribue": 16548.75,
+  "montant_garanti": 11000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 48,
+      "winningsPerGrid": 172.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 640,
+      "winningsPerGrid": 12.93
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22172841,
+      "debut": "2020-07-29T17:30:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172833,
+      "debut": "2020-07-29T17:30:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Spal 2013",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:113755",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172843,
+      "debut": "2020-07-29T17:30:00+00:00",
+      "home": "Sassuolo",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2713",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172847,
+      "debut": "2020-07-29T17:30:00+00:00",
+      "home": "Udinese",
+      "away": "Lecce",
+      "home_id": "sr:competitor:2695",
+      "away_id": "sr:competitor:2689",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172831,
+      "debut": "2020-07-29T19:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2685",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172845,
+      "debut": "2020-07-29T19:45:00+00:00",
+      "home": "Torino",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172829,
+      "debut": "2020-07-29T19:45:00+00:00",
+      "home": "Cagliari",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2687",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

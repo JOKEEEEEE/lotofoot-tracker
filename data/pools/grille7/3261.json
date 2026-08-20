@@ -1,0 +1,136 @@
+{
+  "grille_id": 3261,
+  "grille_type": "grille7",
+  "pool_id": 7003261,
+  "titre": "Grille 7 n°3261",
+  "statut": "CLOSED",
+  "fin": "2024-03-13T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:04:21.840818+00:00",
+  "mises_nettes": 11302.5,
+  "montant_distribue": 11302.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 120,
+      "winningsPerGrid": 47.09
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 978,
+      "winningsPerGrid": 5.78
+    }
+  ],
+  "repartition": [
+    54,
+    623,
+    2112,
+    3948,
+    4383,
+    2852,
+    978,
+    120
+  ],
+  "matches": [
+    {
+      "match_id": 47046491,
+      "debut": "2024-03-13T19:30:00+00:00",
+      "home": "Bournemouth",
+      "away": "Luton Town",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:72",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46753853,
+      "debut": "2024-03-13T19:45:00+00:00",
+      "home": "Ross County",
+      "away": "Hibernian FC",
+      "home_id": "sr:competitor:2365",
+      "away_id": "sr:competitor:2354",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46753895,
+      "debut": "2024-03-13T19:45:00+00:00",
+      "home": "Dundee FC",
+      "away": "Aberdeen",
+      "home_id": "sr:competitor:2357",
+      "away_id": "sr:competitor:2355",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46295657,
+      "debut": "2024-03-13T20:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2697",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46295661,
+      "debut": "2024-03-13T20:00:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2952",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47648159,
+      "debut": "2024-03-13T20:10:00+00:00",
+      "home": "Paris SG",
+      "away": "Nice",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1661",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48217357,
+      "debut": "2024-03-14T00:15:00+00:00",
+      "home": "Inter Miami CF",
+      "away": "Nashville SC",
+      "home_id": "sr:competitor:659691",
+      "away_id": "sr:competitor:668063",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

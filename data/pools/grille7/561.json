@@ -1,0 +1,127 @@
+{
+  "grille_id": 561,
+  "grille_type": "grille7",
+  "pool_id": 7000561,
+  "titre": "Grille 7 n°561",
+  "statut": "CLOSED",
+  "fin": "2017-05-28T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:04:21.255500+00:00",
+  "mises_nettes": 7102.5,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 38,
+      "winningsPerGrid": 105.26
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9821339,
+      "debut": "2017-05-28T18:45:00+00:00",
+      "home": "Crotone",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2718",
+      "away_id": "sr:competitor:2699",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821359,
+      "debut": "2017-05-28T18:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2695",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821327,
+      "debut": "2017-05-28T18:45:00+00:00",
+      "home": "Palerme",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2715",
+      "away_id": "sr:competitor:2705",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821351,
+      "debut": "2017-05-28T18:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Pescara Calcio",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2728",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821355,
+      "debut": "2017-05-28T18:45:00+00:00",
+      "home": "Torino",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2793",
+      "score_home": 5,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439181,
+      "debut": "2017-05-28T19:00:00+00:00",
+      "home": "Santos",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1954",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439183,
+      "debut": "2017-05-28T19:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

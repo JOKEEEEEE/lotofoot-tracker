@@ -1,0 +1,127 @@
+{
+  "grille_id": 419,
+  "grille_type": "grille7",
+  "pool_id": 7000419,
+  "titre": "Grille 7 n°419",
+  "statut": "CLOSED",
+  "fin": "2016-12-23T16:30:00+00:00",
+  "collecte_le": "2026-08-20T12:20:18.461018+00:00",
+  "mises_nettes": 7005.75,
+  "montant_distribue": 7005.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1751.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 51,
+      "winningsPerGrid": 68.68
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10158383,
+      "debut": "2016-12-23T16:30:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788855,
+      "debut": "2016-12-23T19:00:00+00:00",
+      "home": "Vitoria Setubal",
+      "away": "Tondela",
+      "home_id": "sr:competitor:3008",
+      "away_id": "sr:competitor:38396",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9612745,
+      "debut": "2016-12-23T19:45:00+00:00",
+      "home": "Dundee FC",
+      "away": "Heart of Midlothian",
+      "home_id": "sr:competitor:2357",
+      "away_id": "sr:competitor:2353",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9612749,
+      "debut": "2016-12-23T19:45:00+00:00",
+      "home": "Kilmarnock",
+      "away": "St Johnstone",
+      "home_id": "sr:competitor:2347",
+      "away_id": "sr:competitor:2348",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9612751,
+      "debut": "2016-12-23T19:45:00+00:00",
+      "home": "Motherwell",
+      "away": "Aberdeen",
+      "home_id": "sr:competitor:2346",
+      "away_id": "sr:competitor:2355",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9612755,
+      "debut": "2016-12-23T19:45:00+00:00",
+      "home": "Ross County",
+      "away": "Partick Thistle",
+      "home_id": "sr:competitor:2365",
+      "away_id": "sr:competitor:2358",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788843,
+      "debut": "2016-12-23T21:00:00+00:00",
+      "home": "Arouca",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:25777",
+      "away_id": "sr:competitor:3009",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

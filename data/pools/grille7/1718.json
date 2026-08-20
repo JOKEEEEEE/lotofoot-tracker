@@ -1,0 +1,127 @@
+{
+  "grille_id": 1718,
+  "grille_type": "grille7",
+  "pool_id": 7001718,
+  "titre": "Grille 7 n°1718",
+  "statut": "CLOSED",
+  "fin": "2020-08-25T17:00:00+00:00",
+  "collecte_le": "2026-08-20T13:20:24.678528+00:00",
+  "mises_nettes": 7807.5,
+  "montant_distribue": 7807.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 487.97
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 97,
+      "winningsPerGrid": 40.24
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23199771,
+      "debut": "2020-08-25T17:00:00+00:00",
+      "home": "MFK Zemplin Michalovce",
+      "away": "Zlate Moravce",
+      "home_id": "sr:competitor:7885",
+      "away_id": "sr:competitor:7084",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23115419,
+      "debut": "2020-08-25T17:15:00+00:00",
+      "home": "Deportivo Cuenca",
+      "away": "Orense SC",
+      "home_id": "sr:competitor:5251",
+      "away_id": "sr:competitor:403235",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22906389,
+      "debut": "2020-08-25T17:30:00+00:00",
+      "home": "Arsenal Tula",
+      "away": "FK Khimki",
+      "home_id": "sr:competitor:35301",
+      "away_id": "sr:competitor:2338",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23070839,
+      "debut": "2020-08-25T18:00:00+00:00",
+      "home": "PAOK Salonique",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:3251",
+      "away_id": "sr:competitor:3050",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23202827,
+      "debut": "2020-08-25T18:00:00+00:00",
+      "home": "KF Tirana",
+      "away": "Etoile Rouge de Belgrade",
+      "home_id": "sr:competitor:5195",
+      "away_id": "sr:competitor:5149",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23115407,
+      "debut": "2020-08-25T19:30:00+00:00",
+      "home": "CSD Macara",
+      "away": "Tecnico Universitario",
+      "home_id": "sr:competitor:6001",
+      "away_id": "sr:competitor:21941",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23165021,
+      "debut": "2020-08-25T20:30:00+00:00",
+      "home": "Guarani Asuncion",
+      "away": "Nacional Asuncion",
+      "home_id": "sr:competitor:5994",
+      "away_id": "sr:competitor:33001",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

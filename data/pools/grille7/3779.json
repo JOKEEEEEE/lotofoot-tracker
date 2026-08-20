@@ -1,0 +1,136 @@
+{
+  "grille_id": 3779,
+  "grille_type": "grille7",
+  "pool_id": 7003779,
+  "titre": "Grille 7 n°3779",
+  "statut": "CLOSED",
+  "fin": "2025-07-13T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:20:49.422020+00:00",
+  "mises_nettes": 5541.75,
+  "montant_distribue": 5541.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 923.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 56,
+      "winningsPerGrid": 49.48
+    }
+  ],
+  "repartition": [
+    134,
+    770,
+    2022,
+    2456,
+    1503,
+    445,
+    56,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 57490685,
+      "debut": "2025-07-13T19:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:1644",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488771,
+      "debut": "2025-07-13T19:00:00+00:00",
+      "home": "Pays-Bas (F)",
+      "away": "France (F)",
+      "home_id": "sr:competitor:32484",
+      "away_id": "sr:competitor:32485",
+      "score_home": 2,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61345733,
+      "debut": "2025-07-13T21:30:00+00:00",
+      "home": "Sportivo Trinidense",
+      "away": "Club Olimpia",
+      "home_id": "sr:competitor:39722",
+      "away_id": "sr:competitor:5997",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098411,
+      "debut": "2025-07-13T21:45:00+00:00",
+      "home": "Argentinos Juniors",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:3216",
+      "away_id": "sr:competitor:3202",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052641,
+      "debut": "2025-07-13T22:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1999",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61063597,
+      "debut": "2025-07-13T23:00:00+00:00",
+      "home": "Pachuca",
+      "away": "Monterrey",
+      "home_id": "sr:competitor:1936",
+      "away_id": "sr:competitor:1932",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098425,
+      "debut": "2025-07-14T00:00:00+00:00",
+      "home": "River Plate",
+      "away": "Club Atletico Platense",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:36837",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

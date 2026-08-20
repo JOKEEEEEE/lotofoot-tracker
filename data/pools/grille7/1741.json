@@ -1,0 +1,127 @@
+{
+  "grille_id": 1741,
+  "grille_type": "grille7",
+  "pool_id": 7001741,
+  "titre": "Grille 7 n°1741",
+  "statut": "CLOSED",
+  "fin": "2020-09-15T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:18:01.887965+00:00",
+  "mises_nettes": 14043,
+  "montant_distribue": 14043,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 2340.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 72,
+      "winningsPerGrid": 97.52
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23348419,
+      "debut": "2020-09-15T17:00:00+00:00",
+      "home": "Dynamo Kiev",
+      "away": "AZ Alkmaar",
+      "home_id": "sr:competitor:3305",
+      "away_id": "sr:competitor:2950",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23431671,
+      "debut": "2020-09-15T17:00:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Barnsley",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:23",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23348417,
+      "debut": "2020-09-15T18:00:00+00:00",
+      "home": "PAOK Salonique",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3251",
+      "away_id": "sr:competitor:3006",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23431679,
+      "debut": "2020-09-15T18:30:00+00:00",
+      "home": "Newcastle",
+      "away": "Blackburn",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:46",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23348421,
+      "debut": "2020-09-15T18:30:00+00:00",
+      "home": "La Gantoise",
+      "away": "Rapid Vienne",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:2055",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23431635,
+      "debut": "2020-09-15T18:45:00+00:00",
+      "home": "Bournemouth",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:7",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23165039,
+      "debut": "2020-09-15T19:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1649",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1259,
+  "grille_type": "grille7",
+  "pool_id": 7001259,
+  "titre": "Grille 7 n°1259",
+  "statut": "CLOSED",
+  "fin": "2019-05-19T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:04:11.608228+00:00",
+  "mises_nettes": 11727,
+  "montant_distribue": 11727,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 69,
+      "winningsPerGrid": 84.98
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 659,
+      "winningsPerGrid": 8.9
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15160355,
+      "debut": "2019-05-19T16:00:00+00:00",
+      "home": "Milan AC",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2801",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14977607,
+      "debut": "2019-05-19T16:00:00+00:00",
+      "home": "Galatasaray",
+      "away": "Istanbul Basaksehir",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:3086",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17710338,
+      "debut": "2019-05-19T16:00:00+00:00",
+      "home": "Club Bruges",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:2889",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946367,
+      "debut": "2019-05-19T16:30:00+00:00",
+      "home": "Tondela",
+      "away": "Chaves",
+      "home_id": "sr:competitor:38396",
+      "away_id": "sr:competitor:3025",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160347,
+      "debut": "2019-05-19T18:30:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160357,
+      "debut": "2019-05-19T18:30:00+00:00",
+      "home": "Naples",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2697",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946373,
+      "debut": "2019-05-19T19:00:00+00:00",
+      "home": "Moreirense",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3009",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

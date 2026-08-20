@@ -1,0 +1,127 @@
+{
+  "grille_id": 636,
+  "grille_type": "grille7",
+  "pool_id": 7000636,
+  "titre": "Grille 7 n°636",
+  "statut": "CLOSED",
+  "fin": "2017-08-15T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:57:37.062523+00:00",
+  "mises_nettes": 9646.5,
+  "montant_distribue": 9646.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 482.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 137,
+      "winningsPerGrid": 35.21
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12152596,
+      "debut": "2017-08-15T18:45:00+00:00",
+      "home": "Hoffenheim",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:2569",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152562,
+      "debut": "2017-08-15T18:45:00+00:00",
+      "home": "APOEL Nicosie",
+      "away": "Slavia Prague",
+      "home_id": "sr:competitor:3398",
+      "away_id": "sr:competitor:2216",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152586,
+      "debut": "2017-08-15T18:45:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "CSKA Moscou",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:2325",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152598,
+      "debut": "2017-08-15T18:45:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "FC Steaua Bucarest",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3301",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868052,
+      "debut": "2017-08-15T19:00:00+00:00",
+      "home": "Reading",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:28",
+      "away_id": "sr:competitor:40",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868042,
+      "debut": "2017-08-15T18:45:00+00:00",
+      "home": "Leeds",
+      "away": "Fulham",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:43",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868048,
+      "debut": "2017-08-16T18:45:00+00:00",
+      "home": "Norwich",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:1",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

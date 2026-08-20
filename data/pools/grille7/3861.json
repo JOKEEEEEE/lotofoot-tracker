@@ -1,0 +1,136 @@
+{
+  "grille_id": 3861,
+  "grille_type": "grille7",
+  "pool_id": 7003861,
+  "titre": "Grille 7 n°3861",
+  "statut": "CLOSED",
+  "fin": "2025-10-06T14:30:00+00:00",
+  "collecte_le": "2026-08-20T07:31:37.926696+00:00",
+  "mises_nettes": 3905.25,
+  "montant_distribue": 3905.25,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 16,
+      "winningsPerGrid": 122.04
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 135,
+      "winningsPerGrid": 14.46
+    }
+  ],
+  "repartition": [
+    85,
+    525,
+    1239,
+    1546,
+    1140,
+    521,
+    135,
+    16
+  ],
+  "matches": [
+    {
+      "match_id": 61470491,
+      "debut": "2025-10-06T14:30:00+00:00",
+      "home": "SC Otelul Galati",
+      "away": "Metaloglobus Bucuresti",
+      "home_id": "sr:competitor:3291",
+      "away_id": "sr:competitor:79081",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61470481,
+      "debut": "2025-10-06T17:30:00+00:00",
+      "home": "FC Botosani",
+      "away": "UTA Arad",
+      "home_id": "sr:competitor:24798",
+      "away_id": "sr:competitor:221210",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61623094,
+      "debut": "2025-10-06T18:30:00+00:00",
+      "home": "Cultural Leonesa",
+      "away": "Albacete",
+      "home_id": "sr:competitor:2868",
+      "away_id": "sr:competitor:2848",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63689085,
+      "debut": "2025-10-06T21:30:00+00:00",
+      "home": "Club General Caballero (JLM)",
+      "away": "Nacional Asuncion",
+      "home_id": "sr:competitor:818704",
+      "away_id": "sr:competitor:33001",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098729,
+      "debut": "2025-10-06T22:00:00+00:00",
+      "home": "Deportivo Riestra",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:191648",
+      "away_id": "sr:competitor:3208",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098723,
+      "debut": "2025-10-07T00:00:00+00:00",
+      "home": "Racing Club",
+      "away": "Independiente Rivadavia",
+      "home_id": "sr:competitor:3215",
+      "away_id": "sr:competitor:36842",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61735746,
+      "debut": "2025-10-07T00:30:00+00:00",
+      "home": "La Equidad",
+      "away": "Once Caldas",
+      "home_id": "sr:competitor:6975",
+      "away_id": "sr:competitor:6118",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

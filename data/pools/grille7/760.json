@@ -1,0 +1,127 @@
+{
+  "grille_id": 760,
+  "grille_type": "grille7",
+  "pool_id": 7000760,
+  "titre": "Grille 7 n°760",
+  "statut": "CLOSED",
+  "fin": "2017-12-23T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:48:20.655965+00:00",
+  "mises_nettes": 10865.25,
+  "montant_distribue": 10865.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 417.89
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 240,
+      "winningsPerGrid": 22.64
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11842094,
+      "debut": "2017-12-23T18:45:00+00:00",
+      "home": "AZ Alkmaar",
+      "away": "Heerenveen",
+      "home_id": "sr:competitor:2950",
+      "away_id": "sr:competitor:2964",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11842096,
+      "debut": "2017-12-23T18:45:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "Vitesse Arnhem",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:2958",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11822822,
+      "debut": "2017-12-23T19:00:00+00:00",
+      "home": "Racing Genk",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:4858",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11822818,
+      "debut": "2017-12-23T19:30:00+00:00",
+      "home": "Standard Liège",
+      "away": "Saint-Trond",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:2895",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830434,
+      "debut": "2017-12-23T19:45:00+00:00",
+      "home": "Leicester",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:35",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090388,
+      "debut": "2017-12-23T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2702",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11842098,
+      "debut": "2017-12-23T19:45:00+00:00",
+      "home": "Excelsior Rotterdam",
+      "away": "Twente",
+      "home_id": "sr:competitor:2967",
+      "away_id": "sr:competitor:2955",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

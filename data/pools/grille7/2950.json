@@ -1,0 +1,136 @@
+{
+  "grille_id": 2950,
+  "grille_type": "grille7",
+  "pool_id": 7002950,
+  "titre": "Grille 7 n°2950",
+  "statut": "CLOSED",
+  "fin": "2023-06-24T16:00:00+00:00",
+  "collecte_le": "2026-08-20T08:34:28.166353+00:00",
+  "mises_nettes": 5269.5,
+  "montant_distribue": 5269.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 329.34
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 128,
+      "winningsPerGrid": 20.58
+    }
+  ],
+  "repartition": [
+    96,
+    633,
+    1705,
+    2210,
+    1594,
+    652,
+    128,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 36967293,
+      "debut": "2023-06-24T16:00:00+00:00",
+      "home": "Portugal U21",
+      "away": "Pays-Bas U21",
+      "home_id": "sr:competitor:6045",
+      "away_id": "sr:competitor:5024",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36967295,
+      "debut": "2023-06-24T16:00:00+00:00",
+      "home": "Géorgie U21",
+      "away": "Belgique U21",
+      "home_id": "sr:competitor:6373",
+      "away_id": "sr:competitor:4877",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36967403,
+      "debut": "2023-06-24T16:00:00+00:00",
+      "home": "Roumanie U21",
+      "away": "Ukraine U21",
+      "home_id": "sr:competitor:6048",
+      "away_id": "sr:competitor:4887",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36967431,
+      "debut": "2023-06-24T18:45:00+00:00",
+      "home": "Espagne U21",
+      "away": "Croatie U21",
+      "home_id": "sr:competitor:4891",
+      "away_id": "sr:competitor:6370",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439183,
+      "debut": "2023-06-24T19:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:1957",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546163,
+      "debut": "2023-06-24T20:00:00+00:00",
+      "home": "Union De Santa Fe",
+      "away": "Independiente",
+      "home_id": "sr:competitor:3204",
+      "away_id": "sr:competitor:3209",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439185,
+      "debut": "2023-06-24T21:30:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1977",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3966,
+  "grille_type": "grille7",
+  "pool_id": 7003966,
+  "titre": "Grille 7 n°3966",
+  "statut": "CLOSED",
+  "fin": "2026-01-22T20:00:00+00:00",
+  "collecte_le": "2026-08-20T06:32:20.584330+00:00",
+  "mises_nettes": 10440,
+  "montant_distribue": 10440,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 117,
+      "winningsPerGrid": 44.62
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 796,
+      "winningsPerGrid": 6.56
+    }
+  ],
+  "repartition": [
+    212,
+    939,
+    2552,
+    3730,
+    3441,
+    2133,
+    796,
+    117
+  ],
+  "matches": [
+    {
+      "match_id": 63377985,
+      "debut": "2026-01-22T20:00:00+00:00",
+      "home": "AS Rome",
+      "away": "VfB Stuttgart",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2677",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 3.05,
+      "cote_2": 2.85
+    },
+    {
+      "match_id": 63377987,
+      "debut": "2026-01-22T20:00:00+00:00",
+      "home": "Braga",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:14",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.65,
+      "cote_N": 2.85,
+      "cote_2": 2.3
+    },
+    {
+      "match_id": 63377989,
+      "debut": "2026-01-22T20:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Lille",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:1643",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 2.95,
+      "cote_2": 2.95
+    },
+    {
+      "match_id": 63377991,
+      "debut": "2026-01-22T20:00:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "FCSB ",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:3301",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.4,
+      "cote_2": 4.2
+    },
+    {
+      "match_id": 63377995,
+      "debut": "2026-01-22T20:00:00+00:00",
+      "home": "Nice",
+      "away": "GO Ahead Eagles",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:2979",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.9,
+      "cote_N": 3.3,
+      "cote_2": 3.05
+    },
+    {
+      "match_id": 63377999,
+      "debut": "2026-01-22T20:00:00+00:00",
+      "home": "Red Bull Salzbourg",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:2046",
+      "away_id": "sr:competitor:2501",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.1,
+      "cote_N": 3.35,
+      "cote_2": 2.6
+    },
+    {
+      "match_id": 63378001,
+      "debut": "2026-01-22T20:00:00+00:00",
+      "home": "Utrecht",
+      "away": "Genk",
+      "home_id": "sr:competitor:2948",
+      "away_id": "sr:competitor:2890",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3.25,
+      "cote_N": 3.15,
+      "cote_2": 1.86
+    }
+  ]
+}

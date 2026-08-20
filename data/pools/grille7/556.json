@@ -1,0 +1,127 @@
+{
+  "grille_id": 556,
+  "grille_type": "grille7",
+  "pool_id": 7000556,
+  "titre": "Grille 7 n°556",
+  "statut": "CLOSED",
+  "fin": "2017-05-23T17:00:00+00:00",
+  "collecte_le": "2026-08-20T13:31:13.630554+00:00",
+  "mises_nettes": 4593.75,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 357.14
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 98,
+      "winningsPerGrid": 25.51
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10841050,
+      "debut": "2017-05-23T17:00:00+00:00",
+      "home": "Nomme Kalju",
+      "away": "Trans Narva",
+      "home_id": "sr:competitor:8091",
+      "away_id": "sr:competitor:3343",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11191011,
+      "debut": "2017-05-23T17:00:00+00:00",
+      "home": "FK Riteriai",
+      "away": "Kauno Zalgiris ",
+      "home_id": "sr:competitor:547277",
+      "away_id": "sr:competitor:80741",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11250721,
+      "debut": "2017-05-23T17:30:00+00:00",
+      "home": "ACS Poli Timisoara",
+      "away": "Pandurii",
+      "home_id": "sr:competitor:79541",
+      "away_id": "sr:competitor:5336",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11702369,
+      "debut": "2017-05-23T18:30:00+00:00",
+      "home": "Benevento",
+      "away": "Spezia",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:2735",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799100,
+      "debut": "2017-05-23T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Limerick",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:7127",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799380,
+      "debut": "2017-05-23T18:45:00+00:00",
+      "home": "Dundalk",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3179",
+      "away_id": "sr:competitor:3170",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799028,
+      "debut": "2017-05-23T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Bray",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3171",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

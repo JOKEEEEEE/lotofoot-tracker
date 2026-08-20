@@ -1,0 +1,136 @@
+{
+  "grille_id": 3949,
+  "grille_type": "grille7",
+  "pool_id": 7003949,
+  "titre": "Grille 7 n°3949",
+  "statut": "CLOSED",
+  "fin": "2026-01-05T18:00:00+00:00",
+  "collecte_le": "2026-08-20T06:36:18.457999+00:00",
+  "mises_nettes": 6831,
+  "montant_distribue": 6831,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 227.7
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 241,
+      "winningsPerGrid": 14.17
+    }
+  ],
+  "repartition": [
+    43,
+    465,
+    1389,
+    2763,
+    2911,
+    1281,
+    241,
+    15
+  ],
+  "matches": [
+    {
+      "match_id": 61731992,
+      "debut": "2026-01-05T18:00:00+00:00",
+      "home": "Benfica B",
+      "away": "FC Porto B",
+      "home_id": "sr:competitor:74465",
+      "away_id": "sr:competitor:74469",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.8,
+      "cote_N": 3.15,
+      "cote_2": 3.45
+    },
+    {
+      "match_id": 65347742,
+      "debut": "2026-01-05T18:30:00+00:00",
+      "home": "Maccabi Haifa",
+      "away": "Hapoel Haifa",
+      "home_id": "sr:competitor:5197",
+      "away_id": "sr:competitor:5201",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.37,
+      "cote_N": 4.3,
+      "cote_2": 5.5
+    },
+    {
+      "match_id": 61499217,
+      "debut": "2026-01-05T19:00:00+00:00",
+      "home": "Nigeria",
+      "away": "Mozambique",
+      "home_id": "sr:competitor:4785",
+      "away_id": "sr:competitor:4783",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.26,
+      "cote_N": 4.5,
+      "cote_2": 8.5
+    },
+    {
+      "match_id": 65678874,
+      "debut": "2026-01-05T19:00:00+00:00",
+      "home": "MC Alger",
+      "away": "CS Constantine",
+      "home_id": "sr:competitor:42204",
+      "away_id": "sr:competitor:55393",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.48,
+      "cote_N": 3.25,
+      "cote_2": 6
+    },
+    {
+      "match_id": 65349198,
+      "debut": "2026-01-05T19:45:00+00:00",
+      "home": "Montpellier",
+      "away": "Dunkerque",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:6918",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.25,
+      "cote_N": 2.8,
+      "cote_2": 2.75
+    },
+    {
+      "match_id": 61490915,
+      "debut": "2026-01-05T20:00:00+00:00",
+      "home": "Leicester",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:8",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.55,
+      "cote_N": 2.9,
+      "cote_2": 2.35
+    },
+    {
+      "match_id": 61731996,
+      "debut": "2026-01-05T20:15:00+00:00",
+      "home": "FC Vizela",
+      "away": "Torreense",
+      "home_id": "sr:competitor:5136",
+      "away_id": "sr:competitor:25787",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.88,
+      "cote_N": 3,
+      "cote_2": 3.35
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 944,
+  "grille_type": "grille7",
+  "pool_id": 7000944,
+  "titre": "Grille 7 n°944",
+  "statut": "CLOSED",
+  "fin": "2018-07-01T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:32:24.371662+00:00",
+  "mises_nettes": 8474.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 94,
+      "winningsPerGrid": 53.19
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13307981,
+      "debut": "2018-07-01T18:00:00+00:00",
+      "home": "Croatie",
+      "away": "Danemark",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:4476",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13474255,
+      "debut": "2018-07-01T18:00:00+00:00",
+      "home": "Stabaek",
+      "away": "Haugesund",
+      "home_id": "sr:competitor:1162",
+      "away_id": "sr:competitor:673",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497387,
+      "debut": "2018-07-01T21:05:00+00:00",
+      "home": "Toronto FC",
+      "away": "New York Red Bulls",
+      "home_id": "sr:competitor:7080",
+      "away_id": "sr:competitor:2506",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497389,
+      "debut": "2018-07-01T23:00:00+00:00",
+      "home": "Vancouver",
+      "away": "Colorado Rapids",
+      "home_id": "sr:competitor:22010",
+      "away_id": "sr:competitor:2510",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13307967,
+      "debut": "2018-07-02T14:00:00+00:00",
+      "home": "Brésil",
+      "away": "Mexique",
+      "home_id": "sr:competitor:4748",
+      "away_id": "sr:competitor:4781",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13474257,
+      "debut": "2018-07-02T16:00:00+00:00",
+      "home": "Lillestrøm",
+      "away": "Strømsgodset",
+      "home_id": "sr:competitor:664",
+      "away_id": "sr:competitor:1163",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13307973,
+      "debut": "2018-07-02T18:00:00+00:00",
+      "home": "Belgique",
+      "away": "Japon",
+      "home_id": "sr:competitor:4717",
+      "away_id": "sr:competitor:4770",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3164,
+  "grille_type": "grille7",
+  "pool_id": 7003164,
+  "titre": "Grille 7 n°3164",
+  "statut": "CLOSED",
+  "fin": "2023-12-26T15:00:00+00:00",
+  "collecte_le": "2026-08-20T08:10:44.459686+00:00",
+  "mises_nettes": 10134,
+  "montant_distribue": 10134,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 506.7
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 148,
+      "winningsPerGrid": 34.24
+    }
+  ],
+  "repartition": [
+    180,
+    1426,
+    3703,
+    4448,
+    2742,
+    855,
+    148,
+    10
+  ],
+  "matches": [
+    {
+      "match_id": 41763201,
+      "debut": "2023-12-26T15:00:00+00:00",
+      "home": "Bournemouth",
+      "away": "Fulham",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:43",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763219,
+      "debut": "2023-12-26T15:00:00+00:00",
+      "home": "Sheffield United",
+      "away": "Luton Town",
+      "home_id": "sr:competitor:15",
+      "away_id": "sr:competitor:72",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41888165,
+      "debut": "2023-12-26T15:00:00+00:00",
+      "home": "Hull City",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:41",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763209,
+      "debut": "2023-12-26T17:30:00+00:00",
+      "home": "Burnley",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893987,
+      "debut": "2023-12-26T19:45:00+00:00",
+      "home": "Club Bruges",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:4860",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41888167,
+      "debut": "2023-12-26T19:45:00+00:00",
+      "home": "Ipswich",
+      "away": "Leicester",
+      "home_id": "sr:competitor:32",
+      "away_id": "sr:competitor:31",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763215,
+      "debut": "2023-12-26T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:40",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

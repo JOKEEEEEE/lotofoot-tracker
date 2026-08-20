@@ -1,0 +1,136 @@
+{
+  "grille_id": 3685,
+  "grille_type": "grille7",
+  "pool_id": 7003685,
+  "titre": "Grille 7 n°3685",
+  "statut": "CLOSED",
+  "fin": "2025-04-13T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:28:01.585648+00:00",
+  "mises_nettes": 7456.5,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001010001100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 750
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 71,
+      "winningsPerGrid": 52.82
+    }
+  ],
+  "repartition": [
+    224,
+    1235,
+    2874,
+    3219,
+    1792,
+    522,
+    71,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 50955853,
+      "debut": "2025-04-13T18:45:00+00:00",
+      "home": "Auxerre",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273439,
+      "debut": "2025-04-13T18:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2702",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852681,
+      "debut": "2025-04-13T19:00:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2818",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51389283,
+      "debut": "2025-04-13T19:30:00+00:00",
+      "home": "Moreirense",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3036",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690483,
+      "debut": "2025-04-13T20:30:00+00:00",
+      "home": "Chicago Fire",
+      "away": "Inter Miami CF",
+      "home_id": "sr:competitor:2505",
+      "away_id": "sr:competitor:659691",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052447,
+      "debut": "2025-04-13T20:30:00+00:00",
+      "home": "Grêmio",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:5981",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052441,
+      "debut": "2025-04-13T20:30:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1954",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

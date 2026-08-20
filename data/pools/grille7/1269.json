@@ -1,0 +1,127 @@
+{
+  "grille_id": 1269,
+  "grille_type": "grille7",
+  "pool_id": 7001269,
+  "titre": "Grille 7 n°1269",
+  "statut": "CLOSED",
+  "fin": "2019-05-29T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:03:16.347825+00:00",
+  "mises_nettes": 5841,
+  "montant_distribue": 5841,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 417.21
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 71,
+      "winningsPerGrid": 41.13
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18194243,
+      "debut": "2019-05-29T19:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:42",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18283781,
+      "debut": "2019-05-29T19:00:00+00:00",
+      "home": "FC Lusitanos",
+      "away": "CE Carroi",
+      "home_id": "sr:competitor:37947",
+      "away_id": "sr:competitor:230988",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16682177,
+      "debut": "2019-05-29T23:00:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "Minnesota United FC",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:41618",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16682179,
+      "debut": "2019-05-29T23:30:00+00:00",
+      "home": "Montréal",
+      "away": "Real Salt Lake",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:5133",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16682181,
+      "debut": "2019-05-30T00:25:00+00:00",
+      "home": "Philadelphia Union",
+      "away": "Colorado Rapids",
+      "home_id": "sr:competitor:39833",
+      "away_id": "sr:competitor:2510",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16682183,
+      "debut": "2019-05-30T00:00:00+00:00",
+      "home": "DC United",
+      "away": "Chicago Fire",
+      "home_id": "sr:competitor:2502",
+      "away_id": "sr:competitor:2505",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16682185,
+      "debut": "2019-05-30T00:30:00+00:00",
+      "home": "Kansas City",
+      "away": "Los Angeles Galaxy",
+      "home_id": "sr:competitor:2509",
+      "away_id": "sr:competitor:2513",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1169,
+  "grille_type": "grille7",
+  "pool_id": 7001169,
+  "titre": "Grille 7 n°1169",
+  "statut": "CLOSED",
+  "fin": "2019-02-17T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:14:16.096384+00:00",
+  "mises_nettes": 18485.25,
+  "montant_distribue": 18485.25,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 22,
+      "winningsPerGrid": 420.12
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 311,
+      "winningsPerGrid": 29.72
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701137,
+      "debut": "2019-02-17T16:00:00+00:00",
+      "home": "Reims",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1658",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160099,
+      "debut": "2019-02-17T17:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2711",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109447,
+      "debut": "2019-02-17T17:30:00+00:00",
+      "home": "Villarreal",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2833",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160103,
+      "debut": "2019-02-17T19:30:00+00:00",
+      "home": "Naples",
+      "away": "Torino",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2696",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109435,
+      "debut": "2019-02-17T19:45:00+00:00",
+      "home": "Betis Séville",
+      "away": "Alaves",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2885",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701139,
+      "debut": "2019-02-17T20:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946157,
+      "debut": "2019-02-17T20:00:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Braga",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:2999",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

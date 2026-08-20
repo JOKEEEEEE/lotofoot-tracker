@@ -1,0 +1,136 @@
+{
+  "grille_id": 3551,
+  "grille_type": "grille7",
+  "pool_id": 7003551,
+  "titre": "Grille 7 n°3551",
+  "statut": "CLOSED",
+  "fin": "2024-12-02T19:30:00+00:00",
+  "collecte_le": "2026-08-20T07:42:39.955371+00:00",
+  "mises_nettes": 7917,
+  "montant_distribue": 7917,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 59,
+      "winningsPerGrid": 67.09
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 485,
+      "winningsPerGrid": 8.16
+    }
+  ],
+  "repartition": [
+    25,
+    375,
+    1558,
+    3045,
+    3199,
+    1810,
+    485,
+    59
+  ],
+  "matches": [
+    {
+      "match_id": 51103279,
+      "debut": "2024-12-02T19:30:00+00:00",
+      "home": "Eibar",
+      "away": "FC Cartagena",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:24329",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271699,
+      "debut": "2024-12-02T19:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2686",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852379,
+      "debut": "2024-12-02T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2820",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657257,
+      "debut": "2024-12-02T20:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Tigre",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:7628",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388913,
+      "debut": "2024-12-02T20:45:00+00:00",
+      "home": "FC Porto",
+      "away": "Casa Pia AC",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:36365",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657247,
+      "debut": "2024-12-02T22:15:00+00:00",
+      "home": "Club Atletico Platense",
+      "away": "Union De Santa Fe",
+      "home_id": "sr:competitor:36837",
+      "away_id": "sr:competitor:3204",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657245,
+      "debut": "2024-12-02T22:45:00+00:00",
+      "home": "CA Talleres",
+      "away": "Huracan",
+      "home_id": "sr:competitor:3210",
+      "away_id": "sr:competitor:7629",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

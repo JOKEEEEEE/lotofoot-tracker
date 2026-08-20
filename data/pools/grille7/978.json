@@ -1,0 +1,127 @@
+{
+  "grille_id": 978,
+  "grille_type": "grille7",
+  "pool_id": 7000978,
+  "titre": "Grille 7 n°978",
+  "statut": "CLOSED",
+  "fin": "2018-08-05T14:00:00+00:00",
+  "collecte_le": "2026-08-20T11:30:38.856375+00:00",
+  "mises_nettes": 9143.25,
+  "montant_distribue": 9143.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 653.09
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 119,
+      "winningsPerGrid": 38.42
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14592270,
+      "debut": "2018-08-05T14:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14728457,
+      "debut": "2018-08-05T16:00:00+00:00",
+      "home": "Racing Genk",
+      "away": "Saint-Trond",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2895",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14728459,
+      "debut": "2018-08-05T18:00:00+00:00",
+      "home": "Mouscron",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:44019",
+      "away_id": "sr:competitor:2888",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805679,
+      "debut": "2018-08-05T19:00:00+00:00",
+      "home": "Parana Clube PR",
+      "away": "Ceara CE",
+      "home_id": "sr:competitor:1965",
+      "away_id": "sr:competitor:2001",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805681,
+      "debut": "2018-08-05T19:00:00+00:00",
+      "home": "America Mineiro MG",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1973",
+      "away_id": "sr:competitor:1963",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805683,
+      "debut": "2018-08-05T19:00:00+00:00",
+      "home": "Vitoria",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1962",
+      "away_id": "sr:competitor:1954",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805689,
+      "debut": "2018-08-05T19:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1974",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

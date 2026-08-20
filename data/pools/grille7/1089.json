@@ -1,0 +1,127 @@
+{
+  "grille_id": 1089,
+  "grille_type": "grille7",
+  "pool_id": 7001089,
+  "titre": "Grille 7 n°1089",
+  "statut": "CLOSED",
+  "fin": "2018-11-26T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:19:44.753433+00:00",
+  "mises_nettes": 12774,
+  "montant_distribue": 12774,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 16,
+      "winningsPerGrid": 399.19
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 263,
+      "winningsPerGrid": 24.29
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14894963,
+      "debut": "2018-11-26T19:30:00+00:00",
+      "home": "Hambourg",
+      "away": "Union Berlin",
+      "home_id": "sr:competitor:2676",
+      "away_id": "sr:competitor:2547",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159867,
+      "debut": "2018-11-26T19:30:00+00:00",
+      "home": "Cagliari",
+      "away": "Torino",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2696",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745037,
+      "debut": "2018-11-26T19:45:00+00:00",
+      "home": "Metz",
+      "away": "GFC Ajaccio",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:7924",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736485,
+      "debut": "2018-11-26T20:30:00+00:00",
+      "home": "Burnley",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:39",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109225,
+      "debut": "2018-11-26T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2821",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324434,
+      "debut": "2018-11-26T20:00:00+00:00",
+      "home": "Crotone",
+      "away": "Nuova Cosenza Calcio",
+      "home_id": "sr:competitor:2718",
+      "away_id": "sr:competitor:2716",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15201327,
+      "debut": "2018-11-26T22:00:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "Tigre",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:7628",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

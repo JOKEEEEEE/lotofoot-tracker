@@ -1,0 +1,127 @@
+{
+  "grille_id": 1142,
+  "grille_type": "grille7",
+  "pool_id": 7001142,
+  "titre": "Grille 7 n°1142",
+  "statut": "CLOSED",
+  "fin": "2019-01-21T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:15:19.201796+00:00",
+  "mises_nettes": 16442.25,
+  "montant_distribue": 16442.25,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 157,
+      "winningsPerGrid": 52.36
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1463,
+      "winningsPerGrid": 5.62
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15160009,
+      "debut": "2019-01-21T19:30:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Chievo Vérone",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2694",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745167,
+      "debut": "2019-01-21T19:45:00+00:00",
+      "home": "Paris FC",
+      "away": "Brest",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1715",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745157,
+      "debut": "2019-01-21T20:00:00+00:00",
+      "home": "Le Havre",
+      "away": "Red Star",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:52874",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783451,
+      "debut": "2019-01-21T20:00:00+00:00",
+      "home": "Bolton",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:5",
+      "away_id": "sr:competitor:8",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109355,
+      "debut": "2019-01-21T20:00:00+00:00",
+      "home": "Eibar",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2814",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145547,
+      "debut": "2019-01-21T20:00:00+00:00",
+      "home": "Grenade",
+      "away": "Elche",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2846",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15433290,
+      "debut": "2019-01-21T20:00:00+00:00",
+      "home": "Spezia",
+      "away": "Venezia",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:2688",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

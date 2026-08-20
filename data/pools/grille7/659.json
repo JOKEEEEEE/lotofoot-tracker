@@ -1,0 +1,127 @@
+{
+  "grille_id": 659,
+  "grille_type": "grille7",
+  "pool_id": 7000659,
+  "titre": "Grille 7 n°659",
+  "statut": "CLOSED",
+  "fin": "2017-09-10T15:00:00+00:00",
+  "collecte_le": "2026-08-20T11:56:43.441686+00:00",
+  "mises_nettes": 13270.5,
+  "montant_distribue": 13270.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 64,
+      "winningsPerGrid": 103.68
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 999,
+      "winningsPerGrid": 6.64
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11833122,
+      "debut": "2017-09-10T15:00:00+00:00",
+      "home": "Lyon",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1654",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830560,
+      "debut": "2017-09-10T15:00:00+00:00",
+      "home": "Swansea",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:39",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11914092,
+      "debut": "2017-09-10T16:00:00+00:00",
+      "home": "Schalke 04",
+      "away": "VfB Stuttgart",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:2677",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055112,
+      "debut": "2017-09-10T16:30:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Alaves",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2885",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833210,
+      "debut": "2017-09-10T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1658",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055110,
+      "debut": "2017-09-10T18:45:00+00:00",
+      "home": "Villarreal",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2816",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12089210,
+      "debut": "2017-09-10T18:45:00+00:00",
+      "home": "Bologne",
+      "away": "Naples",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2714",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

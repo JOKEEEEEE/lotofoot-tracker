@@ -1,0 +1,127 @@
+{
+  "grille_id": 643,
+  "grille_type": "grille7",
+  "pool_id": 7000643,
+  "titre": "Grille 7 n°643",
+  "statut": "CLOSED",
+  "fin": "2017-08-22T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:57:21.481636+00:00",
+  "mises_nettes": 10185.75,
+  "montant_distribue": 10185.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100001010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5092.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 32,
+      "winningsPerGrid": 159.15
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12198082,
+      "debut": "2017-08-22T18:00:00+00:00",
+      "home": "Nancy",
+      "away": "Orléans",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:6921",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12198086,
+      "debut": "2017-08-22T18:00:00+00:00",
+      "home": "Tours",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1727",
+      "away_id": "sr:competitor:1662",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12198088,
+      "debut": "2017-08-22T18:00:00+00:00",
+      "home": "GFC Ajaccio",
+      "away": "Red Star",
+      "home_id": "sr:competitor:7924",
+      "away_id": "sr:competitor:52874",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152568,
+      "debut": "2017-08-22T18:45:00+00:00",
+      "home": "Rijeka",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:2039",
+      "away_id": "sr:competitor:3245",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152574,
+      "debut": "2017-08-22T18:45:00+00:00",
+      "home": "Maribor",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:2420",
+      "away_id": "sr:competitor:5202",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152578,
+      "debut": "2017-08-22T18:45:00+00:00",
+      "home": "FC Séville",
+      "away": "Istanbul Basaksehir",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:3086",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12152590,
+      "debut": "2017-08-22T18:45:00+00:00",
+      "home": "Nice",
+      "away": "Naples",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:2714",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

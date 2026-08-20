@@ -1,0 +1,127 @@
+{
+  "grille_id": 34,
+  "grille_type": "grille7",
+  "pool_id": 7000034,
+  "titre": "Grille 7 n°34",
+  "statut": "CLOSED",
+  "fin": "2015-10-21T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:55:29.677686+00:00",
+  "mises_nettes": 20795.25,
+  "montant_distribue": 20795.25,
+  "montant_garanti": 20000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 1155.29
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 177,
+      "winningsPerGrid": 58.74
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7888312,
+      "debut": "2015-10-21T18:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888348,
+      "debut": "2015-10-21T18:45:00+00:00",
+      "home": "CSKA Moscou",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:2325",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888376,
+      "debut": "2015-10-21T18:45:00+00:00",
+      "home": "Galatasaray",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:3006",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888310,
+      "debut": "2015-10-21T18:45:00+00:00",
+      "home": "Malmö",
+      "away": "Shakhtar Donetsk",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:3313",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888374,
+      "debut": "2015-10-21T18:45:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "FC Astana",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:36155",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888396,
+      "debut": "2015-10-21T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Borussia M'Gladbach",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2527",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7888398,
+      "debut": "2015-10-21T18:45:00+00:00",
+      "home": "Manchester City",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2833",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

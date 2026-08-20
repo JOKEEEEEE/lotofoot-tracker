@@ -1,0 +1,136 @@
+{
+  "grille_id": 2717,
+  "grille_type": "grille7",
+  "pool_id": 7002717,
+  "titre": "Grille 7 n°2717",
+  "statut": "CLOSED",
+  "fin": "2022-12-10T15:00:00+00:00",
+  "collecte_le": "2026-08-20T08:53:44.928942+00:00",
+  "mises_nettes": 8124,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 39,
+      "winningsPerGrid": 128.21
+    }
+  ],
+  "repartition": [
+    630,
+    2313,
+    3513,
+    2813,
+    1199,
+    323,
+    39,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 32972223,
+      "debut": "2022-12-10T15:00:00+00:00",
+      "home": "Maroc",
+      "away": "Portugal",
+      "home_id": "sr:competitor:4778",
+      "away_id": "sr:competitor:4704",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265667,
+      "debut": "2022-12-10T15:00:00+00:00",
+      "home": "Swansea",
+      "away": "Norwich",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:263",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265663,
+      "debut": "2022-12-10T15:00:00+00:00",
+      "home": "Stoke City",
+      "away": "Cardiff",
+      "home_id": "sr:competitor:29",
+      "away_id": "sr:competitor:61",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265649,
+      "debut": "2022-12-10T15:00:00+00:00",
+      "home": "Blackpool",
+      "away": "Birmingham",
+      "home_id": "sr:competitor:67",
+      "away_id": "sr:competitor:9",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265651,
+      "debut": "2022-12-10T15:00:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Luton Town",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:72",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265653,
+      "debut": "2022-12-10T15:00:00+00:00",
+      "home": "Millwall",
+      "away": "Wigan",
+      "home_id": "sr:competitor:25",
+      "away_id": "sr:competitor:49",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32972221,
+      "debut": "2022-12-10T19:00:00+00:00",
+      "home": "Angleterre",
+      "away": "France",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:4481",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

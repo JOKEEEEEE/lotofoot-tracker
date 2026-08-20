@@ -1,0 +1,136 @@
+{
+  "grille_id": 3740,
+  "grille_type": "grille7",
+  "pool_id": 7003740,
+  "titre": "Grille 7 n°3740",
+  "statut": "CLOSED",
+  "fin": "2025-06-04T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:23:55.396560+00:00",
+  "mises_nettes": 4019.25,
+  "montant_distribue": 4019.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 401.93
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 62,
+      "winningsPerGrid": 32.41
+    }
+  ],
+  "repartition": [
+    178,
+    747,
+    1467,
+    1634,
+    960,
+    306,
+    62,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 55809541,
+      "debut": "2025-06-04T19:10:00+00:00",
+      "home": "Allemagne",
+      "away": "Portugal",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4704",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59975353,
+      "debut": "2025-06-04T23:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Ceara",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:2001",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60832229,
+      "debut": "2025-06-04T23:10:00+00:00",
+      "home": "Tolima",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6115",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60832231,
+      "debut": "2025-06-05T01:15:00+00:00",
+      "home": "America De Cali",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:6102",
+      "away_id": "sr:competitor:6105",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55622511,
+      "debut": "2025-06-05T09:30:00+00:00",
+      "home": "Western Bulldogs",
+      "away": "Hawthorn Hawks",
+      "home_id": "sr:competitor:4455",
+      "away_id": "sr:competitor:4445",
+      "score_home": 29,
+      "score_away": 52,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51133505,
+      "debut": "2025-06-05T11:10:00+00:00",
+      "home": "Australie",
+      "away": "Japon",
+      "home_id": "sr:competitor:4741",
+      "away_id": "sr:competitor:4770",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51133509,
+      "debut": "2025-06-05T13:45:00+00:00",
+      "home": "Indonésie",
+      "away": "Chine",
+      "home_id": "sr:competitor:4829",
+      "away_id": "sr:competitor:4755",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 4139,
+  "grille_type": "grille7",
+  "pool_id": 7004139,
+  "titre": "Grille 7 n°4139",
+  "statut": "CLOSED",
+  "fin": "2026-07-17T17:00:00+00:00",
+  "collecte_le": "2026-08-20T05:51:53.968178+00:00",
+  "mises_nettes": 3310.5,
+  "montant_distribue": 3310.5,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 80,
+      "winningsPerGrid": 20.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 662,
+      "winningsPerGrid": 2.5
+    }
+  ],
+  "repartition": [
+    8,
+    47,
+    275,
+    866,
+    1282,
+    1194,
+    662,
+    80
+  ],
+  "matches": [
+    {
+      "match_id": 67126634,
+      "debut": "2026-07-17T17:00:00+00:00",
+      "home": "IFK Göteborg",
+      "away": "Brommapojkarna",
+      "home_id": "sr:competitor:1761",
+      "away_id": "sr:competitor:1787",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 50,
+      "cote_2": null
+    },
+    {
+      "match_id": 67126638,
+      "debut": "2026-07-17T17:00:00+00:00",
+      "home": "Mjallby",
+      "away": "Vasteras SK",
+      "home_id": "sr:competitor:1783",
+      "away_id": "sr:competitor:1775",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.62,
+      "cote_N": 3.7,
+      "cote_2": 4
+    },
+    {
+      "match_id": 67015258,
+      "debut": "2026-07-17T17:15:00+00:00",
+      "home": "Bodø/Glimt",
+      "away": "Fredrikstad FK",
+      "home_id": "sr:competitor:656",
+      "away_id": "sr:competitor:687",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 50,
+      "cote_2": null
+    },
+    {
+      "match_id": 72082928,
+      "debut": "2026-07-17T18:00:00+00:00",
+      "home": "Étoile Rouge Belgrade",
+      "away": "FK Macva Sabac",
+      "home_id": "sr:competitor:5149",
+      "away_id": "sr:competitor:56019",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.08,
+      "cote_N": 10.5,
+      "cote_2": 29
+    },
+    {
+      "match_id": 72082936,
+      "debut": "2026-07-17T18:00:00+00:00",
+      "home": "Železničar",
+      "away": "Radnički Niš",
+      "home_id": "sr:competitor:425695",
+      "away_id": "sr:competitor:25737",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.68,
+      "cote_N": 3.4,
+      "cote_2": 4
+    },
+    {
+      "match_id": 71998060,
+      "debut": "2026-07-17T18:15:00+00:00",
+      "home": "Levski Sofia",
+      "away": "FC Dunav Ruse",
+      "home_id": "sr:competitor:3273",
+      "away_id": "sr:competitor:3286",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.12,
+      "cote_N": 8,
+      "cote_2": 20
+    },
+    {
+      "match_id": 72387856,
+      "debut": "2026-07-17T18:30:00+00:00",
+      "home": "FCSB ",
+      "away": "Argeș Pitești",
+      "home_id": "sr:competitor:3301",
+      "away_id": "sr:competitor:116221",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.54,
+      "cote_N": 3.75,
+      "cote_2": 4.6
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2497,
+  "grille_type": "grille7",
+  "pool_id": 7002497,
+  "titre": "Grille 7 n°2497",
+  "statut": "CLOSED",
+  "fin": "2022-06-03T18:45:00+00:00",
+  "collecte_le": "2026-08-20T13:15:41.251819+00:00",
+  "mises_nettes": 12108.75,
+  "montant_distribue": 12108.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001010001001001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1513.6
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 43,
+      "winningsPerGrid": 140.8
+    }
+  ],
+  "repartition": [
+    1101,
+    3848,
+    5789,
+    3824,
+    1270,
+    266,
+    43,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 31079537,
+      "debut": "2022-06-03T18:45:00+00:00",
+      "home": "France",
+      "away": "Danemark",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4476",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31079609,
+      "debut": "2022-06-03T18:45:00+00:00",
+      "home": "Belgique",
+      "away": "Pays-Bas",
+      "home_id": "sr:competitor:4717",
+      "away_id": "sr:competitor:4705",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31079535,
+      "debut": "2022-06-03T18:45:00+00:00",
+      "home": "Croatie",
+      "away": "Autriche",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:4718",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31081603,
+      "debut": "2022-06-03T18:45:00+00:00",
+      "home": "Biélorussie",
+      "away": "Slovaquie",
+      "home_id": "sr:competitor:4743",
+      "away_id": "sr:competitor:4697",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32955095,
+      "debut": "2022-06-03T18:45:00+00:00",
+      "home": "Liechtenstein",
+      "away": "Moldavie",
+      "home_id": "sr:competitor:4830",
+      "away_id": "sr:competitor:4782",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33839117,
+      "debut": "2022-06-03T23:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Central Cordoba Sde",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:65676",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33848957,
+      "debut": "2022-06-04T07:30:00+00:00",
+      "home": "Shanghai Port",
+      "away": "Wuhan FC",
+      "home_id": "sr:competitor:41537",
+      "away_id": "sr:competitor:41534",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

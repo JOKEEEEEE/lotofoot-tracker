@@ -1,0 +1,127 @@
+{
+  "grille_id": 1725,
+  "grille_type": "grille7",
+  "pool_id": 7001725,
+  "titre": "Grille 7 n°1725",
+  "statut": "CLOSED",
+  "fin": "2020-08-31T15:30:00+00:00",
+  "collecte_le": "2026-08-20T10:19:11.774624+00:00",
+  "mises_nettes": 7471.5,
+  "montant_distribue": 7471.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 311.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 163,
+      "winningsPerGrid": 22.92
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22237457,
+      "debut": "2020-08-31T15:30:00+00:00",
+      "home": "Lahti",
+      "away": "Inter Turku",
+      "home_id": "sr:competitor:2249",
+      "away_id": "sr:competitor:2247",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22628005,
+      "debut": "2020-08-31T16:00:00+00:00",
+      "home": "Radnik Bijeljina",
+      "away": "FK Sarajevo",
+      "home_id": "sr:competitor:6149",
+      "away_id": "sr:competitor:5237",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22915841,
+      "debut": "2020-08-31T17:00:00+00:00",
+      "home": "AS Trencin",
+      "away": "Slovan Bratislava",
+      "home_id": "sr:competitor:2398",
+      "away_id": "sr:competitor:2404",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23117149,
+      "debut": "2020-08-31T18:00:00+00:00",
+      "home": "FC Chindia Targoviste",
+      "away": "Dinamo Bucarest",
+      "home_id": "sr:competitor:56127",
+      "away_id": "sr:competitor:3292",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23165057,
+      "debut": "2020-08-31T20:30:00+00:00",
+      "home": "Sportivo Luqueno",
+      "away": "Sportivo San Lorenzo",
+      "home_id": "sr:competitor:5998",
+      "away_id": "sr:competitor:90972",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23165065,
+      "debut": "2020-08-31T23:00:00+00:00",
+      "home": "Sol De America",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:36439",
+      "away_id": "sr:competitor:5996",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22721731,
+      "debut": "2020-09-01T02:05:00+00:00",
+      "home": "Leon",
+      "away": "Atlas",
+      "home_id": "sr:competitor:36534",
+      "away_id": "sr:competitor:1949",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

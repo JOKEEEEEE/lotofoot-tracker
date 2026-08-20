@@ -1,0 +1,136 @@
+{
+  "grille_id": 2392,
+  "grille_type": "grille7",
+  "pool_id": 7002392,
+  "titre": "Grille 7 n°2392",
+  "statut": "CLOSED",
+  "fin": "2022-03-07T18:30:00+00:00",
+  "collecte_le": "2026-08-20T09:21:44.176800+00:00",
+  "mises_nettes": 12909.75,
+  "montant_distribue": 12909.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 213,
+      "winningsPerGrid": 30.3
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1655,
+      "winningsPerGrid": 3.9
+    }
+  ],
+  "repartition": [
+    62,
+    451,
+    1864,
+    4011,
+    5081,
+    3876,
+    1655,
+    213
+  ],
+  "matches": [
+    {
+      "match_id": 27772368,
+      "debut": "2022-03-07T18:30:00+00:00",
+      "home": "Maccabi Tel-Aviv",
+      "away": "Beitar Trump Jerusalem",
+      "home_id": "sr:competitor:5198",
+      "away_id": "sr:competitor:5204",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27886280,
+      "debut": "2022-03-07T19:45:00+00:00",
+      "home": "Toulouse",
+      "away": "Dunkerque",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:6918",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31964333,
+      "debut": "2022-03-07T19:30:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Huddersfield",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:59",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965686,
+      "debut": "2022-03-07T20:00:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Levante",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2849",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751606,
+      "debut": "2022-03-07T20:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Everton",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:48",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27973706,
+      "debut": "2022-03-07T20:00:00+00:00",
+      "home": "Real Sociedad B",
+      "away": "Gijon",
+      "home_id": "sr:competitor:24360",
+      "away_id": "sr:competitor:2852",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077474,
+      "debut": "2022-03-07T20:15:00+00:00",
+      "home": "Tondela",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:38396",
+      "away_id": "sr:competitor:3004",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

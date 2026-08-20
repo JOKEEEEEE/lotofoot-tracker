@@ -1,0 +1,127 @@
+{
+  "grille_id": 1101,
+  "grille_type": "grille7",
+  "pool_id": 7001101,
+  "titre": "Grille 7 n°1101",
+  "statut": "CLOSED",
+  "fin": "2018-12-08T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:16:53.290465+00:00",
+  "mises_nettes": 8031.75,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001001010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 23,
+      "winningsPerGrid": 217.39
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 300,
+      "winningsPerGrid": 16.67
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14700963,
+      "debut": "2018-12-08T19:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1676",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700973,
+      "debut": "2018-12-08T19:00:00+00:00",
+      "home": "Rennes",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1686",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159913,
+      "debut": "2018-12-08T19:30:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2711",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736553,
+      "debut": "2018-12-08T19:45:00+00:00",
+      "home": "Leicester",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:33",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109261,
+      "debut": "2018-12-08T19:45:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15201373,
+      "debut": "2018-12-08T20:10:00+00:00",
+      "home": "San Lorenzo",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:3201",
+      "away_id": "sr:competitor:3206",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14945963,
+      "debut": "2018-12-08T20:30:00+00:00",
+      "home": "Vitoria Setubal",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3008",
+      "away_id": "sr:competitor:3006",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

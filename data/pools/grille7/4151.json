@@ -1,0 +1,136 @@
+{
+  "grille_id": 4151,
+  "grille_type": "grille7",
+  "pool_id": 7004151,
+  "titre": "Grille 7 n°4151",
+  "statut": "CLOSED",
+  "fin": "2026-07-29T17:00:00+00:00",
+  "collecte_le": "2026-08-20T05:49:07.125635+00:00",
+  "mises_nettes": 3813,
+  "montant_distribue": 3813,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 635.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 59,
+      "winningsPerGrid": 32.31
+    }
+  ],
+  "repartition": [
+    56,
+    254,
+    1141,
+    1931,
+    1259,
+    381,
+    59,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 72176798,
+      "debut": "2026-07-29T17:00:00+00:00",
+      "home": "Lech Poznan",
+      "away": "Aarhus GF",
+      "home_id": "sr:competitor:3121",
+      "away_id": "sr:competitor:1291",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.74,
+      "cote_N": 3.55,
+      "cote_2": 3.75
+    },
+    {
+      "match_id": 72176808,
+      "debut": "2026-07-29T17:30:00+00:00",
+      "home": "CS Universitatea Craiova",
+      "away": "Levski Sofia",
+      "home_id": "sr:competitor:116223",
+      "away_id": "sr:competitor:3273",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.98,
+      "cote_N": 3.05,
+      "cote_2": 3.45
+    },
+    {
+      "match_id": 72176838,
+      "debut": "2026-07-29T17:30:00+00:00",
+      "home": "Hapoel Beer Sheva",
+      "away": "Vikingur Reykjavik",
+      "home_id": "sr:competitor:5202",
+      "away_id": "sr:competitor:1908",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.74,
+      "cote_N": 3.6,
+      "cote_2": 3.7
+    },
+    {
+      "match_id": 72176722,
+      "debut": "2026-07-29T18:00:00+00:00",
+      "home": "Étoile Rouge Belgrade",
+      "away": "Larne",
+      "home_id": "sr:competitor:5149",
+      "away_id": "sr:competitor:5184",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.08,
+      "cote_N": 11.5,
+      "cote_2": 29
+    },
+    {
+      "match_id": 72177116,
+      "debut": "2026-07-29T18:00:00+00:00",
+      "home": "Górnik Zabrze",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:3110",
+      "away_id": "sr:competitor:3052",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 4.7,
+      "cote_N": 4.3,
+      "cote_2": 1.56
+    },
+    {
+      "match_id": 72176844,
+      "debut": "2026-07-29T18:15:00+00:00",
+      "home": "Slovan Bratislava",
+      "away": "Iberia 1999",
+      "home_id": "sr:competitor:2404",
+      "away_id": "sr:competitor:116312",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.4,
+      "cote_N": 4,
+      "cote_2": 6.5
+    },
+    {
+      "match_id": 72180310,
+      "debut": "2026-07-29T18:30:00+00:00",
+      "home": "Rapid Vienne",
+      "away": "FC Santa Coloma",
+      "home_id": "sr:competitor:2055",
+      "away_id": "sr:competitor:7711",
+      "score_home": 6,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.11,
+      "cote_N": 8.5,
+      "cote_2": 19
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 423,
+  "grille_type": "grille7",
+  "pool_id": 7000423,
+  "titre": "Grille 7 n°423",
+  "statut": "CLOSED",
+  "fin": "2016-12-29T17:15:00+00:00",
+  "collecte_le": "2026-08-20T12:19:49.907906+00:00",
+  "mises_nettes": 8333.25,
+  "montant_distribue": 8333.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010001010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2083.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 35,
+      "winningsPerGrid": 119.05
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10563434,
+      "debut": "2016-12-29T17:15:00+00:00",
+      "home": "Moreirense",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3004",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10563432,
+      "debut": "2016-12-29T19:15:00+00:00",
+      "home": "FC Porto",
+      "away": "Feirense",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:4501",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9913733,
+      "debut": "2016-12-29T19:30:00+00:00",
+      "home": "Bari",
+      "away": "Spal 2013",
+      "home_id": "sr:competitor:2712",
+      "away_id": "sr:competitor:113755",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10563420,
+      "debut": "2016-12-29T19:30:00+00:00",
+      "home": "Braga",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3036",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645727,
+      "debut": "2016-12-29T19:45:00+00:00",
+      "home": "Aston Villa",
+      "away": "Leeds",
+      "home_id": "sr:competitor:40",
+      "away_id": "sr:competitor:34",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645747,
+      "debut": "2016-12-29T19:45:00+00:00",
+      "home": "Rotherham",
+      "away": "Burton Albion",
+      "home_id": "sr:competitor:13",
+      "away_id": "sr:competitor:134",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10563424,
+      "debut": "2016-12-29T21:15:00+00:00",
+      "home": "Benfica",
+      "away": "Paços de Ferreira",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3003",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

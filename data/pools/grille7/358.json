@@ -1,0 +1,127 @@
+{
+  "grille_id": 358,
+  "grille_type": "grille7",
+  "pool_id": 7000358,
+  "titre": "Grille 7 n°358",
+  "statut": "CLOSED",
+  "fin": "2016-10-20T19:05:00+00:00",
+  "collecte_le": "2026-08-20T12:25:35.544811+00:00",
+  "mises_nettes": 13739.25,
+  "montant_distribue": 13739.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 18,
+      "winningsPerGrid": 381.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 214,
+      "winningsPerGrid": 32.1
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10064207,
+      "debut": "2016-10-20T19:05:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Gabala",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:36952",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10064279,
+      "debut": "2016-10-20T19:05:00+00:00",
+      "home": "Racing Genk",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2825",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10064205,
+      "debut": "2016-10-20T19:05:00+00:00",
+      "home": "Mayence",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:2900",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10064149,
+      "debut": "2016-10-20T19:05:00+00:00",
+      "home": "Manchester United",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:3052",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10064183,
+      "debut": "2016-10-20T19:05:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "APOEL Nicosie",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:3398",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10064275,
+      "debut": "2016-10-20T19:05:00+00:00",
+      "home": "Rapid Vienne",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2055",
+      "away_id": "sr:competitor:2793",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10064231,
+      "debut": "2016-10-20T19:05:00+00:00",
+      "home": "AZ Alkmaar",
+      "away": "Maccabi Tel-Aviv",
+      "home_id": "sr:competitor:2950",
+      "away_id": "sr:competitor:5198",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

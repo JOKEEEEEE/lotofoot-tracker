@@ -1,0 +1,127 @@
+{
+  "grille_id": 153,
+  "grille_type": "grille7",
+  "pool_id": 7000153,
+  "titre": "Grille 7 n°153",
+  "statut": "CLOSED",
+  "fin": "2016-02-22T18:55:00+00:00",
+  "collecte_le": "2026-08-20T12:45:10.258526+00:00",
+  "mises_nettes": 11259.75,
+  "montant_distribue": 11259.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 39,
+      "winningsPerGrid": 144.36
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 496,
+      "winningsPerGrid": 11.35
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7607596,
+      "debut": "2016-02-22T18:55:00+00:00",
+      "home": "Hapoel Beer Sheva",
+      "away": "Bnei Yehuda Tel-Aviv",
+      "home_id": "sr:competitor:5202",
+      "away_id": "sr:competitor:5203",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7517422,
+      "debut": "2016-02-22T19:15:00+00:00",
+      "home": "Düsseldorf",
+      "away": "Nuremberg",
+      "home_id": "sr:competitor:2588",
+      "away_id": "sr:competitor:2523",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474694,
+      "debut": "2016-02-22T19:30:00+00:00",
+      "home": "Nîmes",
+      "away": "Metz",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:1651",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989298,
+      "debut": "2016-02-22T19:30:00+00:00",
+      "home": "Pérouse",
+      "away": "Trapani",
+      "home_id": "sr:competitor:2698",
+      "away_id": "sr:competitor:43686",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8823434,
+      "debut": "2016-02-22T19:45:00+00:00",
+      "home": "Shrewsbury Town",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:82",
+      "away_id": "sr:competitor:35",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689126,
+      "debut": "2016-02-22T20:00:00+00:00",
+      "home": "Naples",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558388,
+      "debut": "2016-02-22T20:00:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:2995",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

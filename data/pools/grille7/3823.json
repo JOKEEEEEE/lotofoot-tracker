@@ -1,0 +1,136 @@
+{
+  "grille_id": 3823,
+  "grille_type": "grille7",
+  "pool_id": 7003823,
+  "titre": "Grille 7 n°3823",
+  "statut": "CLOSED",
+  "fin": "2025-08-26T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:05:46.418505+00:00",
+  "mises_nettes": 5644.5,
+  "montant_distribue": 5644.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1411.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 33,
+      "winningsPerGrid": 85.52
+    }
+  ],
+  "repartition": [
+    209,
+    1290,
+    2479,
+    2192,
+    1049,
+    272,
+    33,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 62888687,
+      "debut": "2025-08-26T18:30:00+00:00",
+      "home": "Wolverhampton",
+      "away": "West Ham",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:37",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62888487,
+      "debut": "2025-08-26T18:45:00+00:00",
+      "home": "Burnley",
+      "away": "Derby County",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:27",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62888669,
+      "debut": "2025-08-26T18:45:00+00:00",
+      "home": "Norwich",
+      "away": "Southampton",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:45",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62888681,
+      "debut": "2025-08-26T18:45:00+00:00",
+      "home": "Bournemouth",
+      "away": "Brentford",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:50",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61232419,
+      "debut": "2025-08-26T18:45:00+00:00",
+      "home": "Eintracht Brunswick",
+      "away": "VfB Stuttgart",
+      "home_id": "sr:competitor:2557",
+      "away_id": "sr:competitor:2677",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62599494,
+      "debut": "2025-08-26T19:00:00+00:00",
+      "home": "Pafos FC",
+      "away": "Étoile Rouge Belgrade",
+      "home_id": "sr:competitor:171626",
+      "away_id": "sr:competitor:5149",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62599498,
+      "debut": "2025-08-26T19:00:00+00:00",
+      "home": "Sturm Graz",
+      "away": "Bodø/Glimt",
+      "home_id": "sr:competitor:2051",
+      "away_id": "sr:competitor:656",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

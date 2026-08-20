@@ -1,0 +1,136 @@
+{
+  "grille_id": 2935,
+  "grille_type": "grille7",
+  "pool_id": 7002935,
+  "titre": "Grille 7 n°2935",
+  "statut": "CLOSED",
+  "fin": "2023-06-08T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:35:29.607363+00:00",
+  "mises_nettes": 5914.5,
+  "montant_distribue": 5914.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100001100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 591.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 105,
+      "winningsPerGrid": 28.16
+    }
+  ],
+  "repartition": [
+    88,
+    706,
+    1945,
+    2592,
+    1817,
+    628,
+    105,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 41586455,
+      "debut": "2023-06-08T18:00:00+00:00",
+      "home": "Sparta Rotterdam",
+      "away": "Twente",
+      "home_id": "sr:competitor:2960",
+      "away_id": "sr:competitor:2955",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41575487,
+      "debut": "2023-06-08T18:30:00+00:00",
+      "home": "Cagliari",
+      "away": "Bari",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2712",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41473405,
+      "debut": "2023-06-08T19:00:00+00:00",
+      "home": "Alaves",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2839",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346219,
+      "debut": "2023-06-08T22:00:00+00:00",
+      "home": "FC Metropolitanos",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:162480",
+      "away_id": "sr:competitor:6115",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346185,
+      "debut": "2023-06-09T00:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:3215",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346385,
+      "debut": "2023-06-09T00:00:00+00:00",
+      "home": "Olimpia Asuncion",
+      "away": "Atletico Nacional Medellin",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:6106",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40580319,
+      "debut": "2023-06-09T09:30:00+00:00",
+      "home": "Henan Songshan Longmen",
+      "away": "Zhejiang",
+      "home_id": "sr:competitor:34692",
+      "away_id": "sr:competitor:34697",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

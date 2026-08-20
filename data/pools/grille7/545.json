@@ -1,0 +1,127 @@
+{
+  "grille_id": 545,
+  "grille_type": "grille7",
+  "pool_id": 7000545,
+  "titre": "Grille 7 n°545",
+  "statut": "CLOSED",
+  "fin": "2017-05-12T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:05:53.223978+00:00",
+  "mises_nettes": 9938.25,
+  "montant_distribue": 9938.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 201,
+      "winningsPerGrid": 24.72
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1153,
+      "winningsPerGrid": 4.31
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9566331,
+      "debut": "2017-05-12T18:30:00+00:00",
+      "home": "Orléans",
+      "away": "Clermont",
+      "home_id": "sr:competitor:6921",
+      "away_id": "sr:competitor:1680",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566337,
+      "debut": "2017-05-12T18:30:00+00:00",
+      "home": "Troyes",
+      "away": "Reims",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1682",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11320625,
+      "debut": "2017-05-12T18:30:00+00:00",
+      "home": "Standard Liège",
+      "away": "Malines",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:5044",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600469,
+      "debut": "2017-05-12T18:45:00+00:00",
+      "home": "Everton",
+      "away": "Watford",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:24",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11491099,
+      "debut": "2017-05-12T18:45:00+00:00",
+      "home": "Aberdeen",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:2352",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600481,
+      "debut": "2017-05-12T19:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:38",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9789175,
+      "debut": "2017-05-12T19:30:00+00:00",
+      "home": "Belenenses",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:3004",
+      "away_id": "sr:competitor:3014",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

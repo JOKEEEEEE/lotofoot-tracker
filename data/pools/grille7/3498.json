@@ -1,0 +1,136 @@
+{
+  "grille_id": 3498,
+  "grille_type": "grille7",
+  "pool_id": 7003498,
+  "titre": "Grille 7 n°3498",
+  "statut": "CLOSED",
+  "fin": "2024-10-16T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:46:40.610129+00:00",
+  "mises_nettes": 3860.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 61,
+      "winningsPerGrid": 32.79
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 455,
+      "winningsPerGrid": 4.4
+    }
+  ],
+  "repartition": [
+    6,
+    77,
+    356,
+    1099,
+    1731,
+    1362,
+    455,
+    61
+  ],
+  "matches": [
+    {
+      "match_id": 54088851,
+      "debut": "2024-10-16T19:00:00+00:00",
+      "home": "Arsenal (F)",
+      "away": "Valerenga (F)",
+      "home_id": "sr:competitor:26243",
+      "away_id": "sr:competitor:62202",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 54088881,
+      "debut": "2024-10-16T19:00:00+00:00",
+      "home": "Barcelone (F)",
+      "away": "Hammarby IF (F)",
+      "home_id": "sr:competitor:77889",
+      "away_id": "sr:competitor:1884",
+      "score_home": 9,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53681617,
+      "debut": "2024-10-16T22:00:00+00:00",
+      "home": "Unión La Calera",
+      "away": "Colo Colo",
+      "home_id": "sr:competitor:48242",
+      "away_id": "sr:competitor:3155",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53885691,
+      "debut": "2024-10-16T22:00:00+00:00",
+      "home": "Nacional Asuncion",
+      "away": "2 de Mayo",
+      "home_id": "sr:competitor:33001",
+      "away_id": "sr:competitor:5992",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48215043,
+      "debut": "2024-10-17T00:45:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1974",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48215045,
+      "debut": "2024-10-17T00:45:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1977",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 54372085,
+      "debut": "2024-10-17T01:05:00+00:00",
+      "home": "Millonarios ",
+      "away": "Fortaleza FC",
+      "home_id": "sr:competitor:6117",
+      "away_id": "sr:competitor:89368",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

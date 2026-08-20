@@ -1,0 +1,136 @@
+{
+  "grille_id": 2758,
+  "grille_type": "grille7",
+  "pool_id": 7002758,
+  "titre": "Grille 7 n°2758",
+  "statut": "CLOSED",
+  "fin": "2023-01-16T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:50:53.161956+00:00",
+  "mises_nettes": 8060.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 625
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 153,
+      "winningsPerGrid": 32.68
+    }
+  ],
+  "repartition": [
+    337,
+    1521,
+    2798,
+    3149,
+    2018,
+    763,
+    153,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 34504843,
+      "debut": "2023-01-16T19:00:00+00:00",
+      "home": "Estoril",
+      "away": "Casa Pia AC",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:36365",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34171635,
+      "debut": "2023-01-16T19:45:00+00:00",
+      "home": "Niort",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1665",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286857,
+      "debut": "2023-01-16T19:45:00+00:00",
+      "home": "Empoli",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2711",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277521,
+      "debut": "2023-01-16T20:00:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Elche",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:2846",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278897,
+      "debut": "2023-01-16T20:00:00+00:00",
+      "home": "Albacete",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2848",
+      "away_id": "sr:competitor:2845",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504851,
+      "debut": "2023-01-16T21:15:00+00:00",
+      "home": "Gil Vicente",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:3009",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37763361,
+      "debut": "2023-01-17T03:05:00+00:00",
+      "home": "Leon",
+      "away": "Necaxa",
+      "home_id": "sr:competitor:36534",
+      "away_id": "sr:competitor:1944",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

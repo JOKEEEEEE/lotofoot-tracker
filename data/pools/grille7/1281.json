@@ -1,0 +1,127 @@
+{
+  "grille_id": 1281,
+  "grille_type": "grille7",
+  "pool_id": 7001281,
+  "titre": "Grille 7 n°1281",
+  "statut": "CLOSED",
+  "fin": "2019-06-12T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:02:49.509166+00:00",
+  "mises_nettes": 6542.25,
+  "montant_distribue": 6542.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 46,
+      "winningsPerGrid": 71.11
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 510,
+      "winningsPerGrid": 6.41
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16447067,
+      "debut": "2019-06-12T16:00:00+00:00",
+      "home": "Allemagne (F)",
+      "away": "Espagne (F)",
+      "home_id": "sr:competitor:23992",
+      "away_id": "sr:competitor:37371",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16447057,
+      "debut": "2019-06-12T19:00:00+00:00",
+      "home": "France (F)",
+      "away": "Norvège (F)",
+      "home_id": "sr:competitor:32485",
+      "away_id": "sr:competitor:7422",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18395103,
+      "debut": "2019-06-12T19:00:00+00:00",
+      "home": "Deportivo La Corogne",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2832",
+      "away_id": "sr:competitor:2830",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788968,
+      "debut": "2019-06-12T22:15:00+00:00",
+      "home": "Botafogo",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:5926",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788960,
+      "debut": "2019-06-13T00:00:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1954",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788956,
+      "debut": "2019-06-13T00:30:00+00:00",
+      "home": "Internacional ",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1955",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788964,
+      "debut": "2019-06-13T00:30:00+00:00",
+      "home": "Santos",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1957",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

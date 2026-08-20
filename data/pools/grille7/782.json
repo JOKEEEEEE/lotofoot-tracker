@@ -1,0 +1,127 @@
+{
+  "grille_id": 782,
+  "grille_type": "grille7",
+  "pool_id": 7000782,
+  "titre": "Grille 7 n°782",
+  "statut": "CLOSED",
+  "fin": "2018-01-15T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:47:10.439584+00:00",
+  "mises_nettes": 8848.5,
+  "montant_distribue": 8848.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001111100100111001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 101,
+      "winningsPerGrid": 43.8
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1132,
+      "winningsPerGrid": 3.91
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11971880,
+      "debut": "2018-01-15T19:00:00+00:00",
+      "home": "Moreirense",
+      "away": "Vitoria Setubal",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3008",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11926318,
+      "debut": "2018-01-15T19:00:00+00:00",
+      "home": "Maccabi Haifa",
+      "away": "Maccabi Tel-Aviv",
+      "home_id": "sr:competitor:5197",
+      "away_id": "sr:competitor:5198",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11836894,
+      "debut": "2018-01-15T19:45:00+00:00",
+      "home": "Lens",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1657",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830166,
+      "debut": "2018-01-15T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Stoke City",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:29",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055440,
+      "debut": "2018-01-15T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2845",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971876,
+      "debut": "2018-01-15T21:00:00+00:00",
+      "home": "Estoril",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833080,
+      "debut": "2018-01-16T18:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Caen",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1667",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

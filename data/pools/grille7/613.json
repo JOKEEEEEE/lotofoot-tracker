@@ -1,0 +1,127 @@
+{
+  "grille_id": 613,
+  "grille_type": "grille7",
+  "pool_id": 7000613,
+  "titre": "Grille 7 n°613",
+  "statut": "CLOSED",
+  "fin": "2017-07-22T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:58:32.155847+00:00",
+  "mises_nettes": 3081.75,
+  "montant_distribue": 3081.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 513.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 47,
+      "winningsPerGrid": 32.78
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10555438,
+      "debut": "2017-07-22T18:45:00+00:00",
+      "home": "France (F)",
+      "away": "Autriche (F)",
+      "home_id": "sr:competitor:32485",
+      "away_id": "sr:competitor:34014",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439515,
+      "debut": "2017-07-22T19:00:00+00:00",
+      "home": "Vitoria",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:1962",
+      "away_id": "sr:competitor:21845",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854358,
+      "debut": "2017-07-22T22:00:00+00:00",
+      "home": "Lobos",
+      "away": "Santos Laguna",
+      "home_id": "sr:competitor:36530",
+      "away_id": "sr:competitor:1948",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439503,
+      "debut": "2017-07-22T22:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Coritiba",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1982",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893794,
+      "debut": "2017-07-22T23:00:00+00:00",
+      "home": "DC United",
+      "away": "Houston Dynamo",
+      "home_id": "sr:competitor:2502",
+      "away_id": "sr:competitor:2508",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893798,
+      "debut": "2017-07-22T23:30:00+00:00",
+      "home": "Columbus Crew",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:39833",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893804,
+      "debut": "2017-07-22T23:30:00+00:00",
+      "home": "Montréal",
+      "away": "FC Dallas",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:2512",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

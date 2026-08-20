@@ -1,0 +1,136 @@
+{
+  "grille_id": 3225,
+  "grille_type": "grille7",
+  "pool_id": 7003225,
+  "titre": "Grille 7 n°3225",
+  "statut": "CLOSED",
+  "fin": "2024-02-16T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:06:28.945298+00:00",
+  "mises_nettes": 9615.75,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 192.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 278,
+      "winningsPerGrid": 17.99
+    }
+  ],
+  "repartition": [
+    86,
+    1123,
+    2974,
+    4039,
+    3047,
+    1248,
+    278,
+    26
+  ],
+  "matches": [
+    {
+      "match_id": 42023327,
+      "debut": "2024-02-16T19:30:00+00:00",
+      "home": "FC Cologne",
+      "away": "Werder Brême",
+      "home_id": "sr:competitor:2671",
+      "away_id": "sr:competitor:2534",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41894081,
+      "debut": "2024-02-16T19:45:00+00:00",
+      "home": "Westerlo",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:2893",
+      "away_id": "sr:competitor:2901",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42004909,
+      "debut": "2024-02-16T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Nice",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893397,
+      "debut": "2024-02-16T20:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134597,
+      "debut": "2024-02-16T20:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2710",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41888395,
+      "debut": "2024-02-16T20:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Southampton",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:45",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146567,
+      "debut": "2024-02-16T20:15:00+00:00",
+      "home": "Famalicao",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:3036",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

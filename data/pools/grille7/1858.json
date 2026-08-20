@@ -1,0 +1,127 @@
+{
+  "grille_id": 1858,
+  "grille_type": "grille7",
+  "pool_id": 7001858,
+  "titre": "Grille 7 n°1858",
+  "statut": "CLOSED",
+  "fin": "2020-12-15T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:08:03.495780+00:00",
+  "mises_nettes": 18531,
+  "montant_distribue": 18531,
+  "montant_garanti": 11500,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 50,
+      "winningsPerGrid": 185.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 545,
+      "winningsPerGrid": 17
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 24610806,
+      "debut": "2020-12-15T19:00:00+00:00",
+      "home": "Nancy",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:1652",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 23,
+      "cote_2": 1
+    },
+    {
+      "match_id": 22651481,
+      "debut": "2020-12-15T19:00:00+00:00",
+      "home": "Pau",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1685",
+      "away_id": "sr:competitor:1657",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 29,
+      "cote_N": 1.01,
+      "cote_2": 23
+    },
+    {
+      "match_id": 24611204,
+      "debut": "2020-12-15T19:00:00+00:00",
+      "home": "Niort",
+      "away": "Grenoble",
+      "home_id": "sr:competitor:1665",
+      "away_id": "sr:competitor:1671",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 48,
+      "cote_N": 1.01,
+      "cote_2": 19
+    },
+    {
+      "match_id": 23032039,
+      "debut": "2020-12-15T19:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2673",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 23,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23032043,
+      "debut": "2020-12-15T19:30:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Union Berlin",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2547",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 15,
+      "cote_N": 1.01,
+      "cote_2": 19
+    },
+    {
+      "match_id": 23390783,
+      "debut": "2020-12-15T19:45:00+00:00",
+      "home": "Benevento",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:2699",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 34,
+      "cote_N": 1.01,
+      "cote_2": 11.5
+    },
+    {
+      "match_id": 23360691,
+      "debut": "2020-12-15T21:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2825",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

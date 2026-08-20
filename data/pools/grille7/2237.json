@@ -1,0 +1,136 @@
+{
+  "grille_id": 2237,
+  "grille_type": "grille7",
+  "pool_id": 7002237,
+  "titre": "Grille 7 n°2237",
+  "statut": "CLOSED",
+  "fin": "2021-11-01T19:45:00+00:00",
+  "collecte_le": "2026-08-20T09:37:00.885996+00:00",
+  "mises_nettes": 12138,
+  "montant_distribue": 12138,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 758.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 118,
+      "winningsPerGrid": 51.43
+    }
+  ],
+  "repartition": [
+    453,
+    2402,
+    4943,
+    4894,
+    2619,
+    747,
+    118,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 27886020,
+      "debut": "2021-11-01T19:45:00+00:00",
+      "home": "Valenciennes",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1646",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 46,
+      "cote_2": 1
+    },
+    {
+      "match_id": 28160032,
+      "debut": "2021-11-01T19:45:00+00:00",
+      "home": "Bologne",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2719",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751250,
+      "debut": "2021-11-01T20:00:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Everton",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:48",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 50,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965390,
+      "debut": "2021-11-01T20:00:00+00:00",
+      "home": "Levante",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:33779",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 29863030,
+      "debut": "2021-11-01T19:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3173",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 50,
+      "cote_N": 1,
+      "cote_2": 60
+    },
+    {
+      "match_id": 29863034,
+      "debut": "2021-11-01T20:00:00+00:00",
+      "home": "Finn Harps",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:3181",
+      "away_id": "sr:competitor:3180",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 50,
+      "cote_N": 1,
+      "cote_2": 65
+    },
+    {
+      "match_id": 28077202,
+      "debut": "2021-11-01T21:15:00+00:00",
+      "home": "Moreirense",
+      "away": "Paços de Ferreira",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3003",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 55,
+      "cote_N": 1,
+      "cote_2": 60
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 790,
+  "grille_type": "grille7",
+  "pool_id": 7000790,
+  "titre": "Grille 7 n°790",
+  "statut": "CLOSED",
+  "fin": "2018-01-24T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:46:45.432041+00:00",
+  "mises_nettes": 14331,
+  "montant_distribue": 14331,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 20,
+      "winningsPerGrid": 358.28
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 269,
+      "winningsPerGrid": 26.64
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13518139,
+      "debut": "2018-01-24T17:30:00+00:00",
+      "home": "Paris SG",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1654",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13518135,
+      "debut": "2018-01-24T17:30:00+00:00",
+      "home": "Montpellier",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1656",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13518145,
+      "debut": "2018-01-24T17:30:00+00:00",
+      "home": "Tours",
+      "away": "Metz",
+      "home_id": "sr:competitor:1727",
+      "away_id": "sr:competitor:1651",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13518213,
+      "debut": "2018-01-24T17:30:00+00:00",
+      "home": "Troyes",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1678",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13404581,
+      "debut": "2018-01-24T20:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:38",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13245482,
+      "debut": "2018-01-24T19:45:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2702",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13518131,
+      "debut": "2018-01-24T20:05:00+00:00",
+      "home": "Monaco",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1649",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

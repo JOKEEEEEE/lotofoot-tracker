@@ -1,0 +1,136 @@
+{
+  "grille_id": 2720,
+  "grille_type": "grille7",
+  "pool_id": 7002720,
+  "titre": "Grille 7 n°2720",
+  "statut": "CLOSED",
+  "fin": "2022-12-13T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:53:38.503805+00:00",
+  "mises_nettes": 7974.75,
+  "montant_distribue": 7974.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 138,
+      "winningsPerGrid": 28.89
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 918,
+      "winningsPerGrid": 4.34
+    }
+  ],
+  "repartition": [
+    42,
+    190,
+    1045,
+    2571,
+    3325,
+    2404,
+    918,
+    138
+  ],
+  "matches": [
+    {
+      "match_id": 32972225,
+      "debut": "2022-12-13T19:00:00+00:00",
+      "home": "Argentine",
+      "away": "Croatie",
+      "home_id": "sr:competitor:4819",
+      "away_id": "sr:competitor:4715",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36865569,
+      "debut": "2022-12-13T20:45:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Maritimo",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3007",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36922991,
+      "debut": "2022-12-13T20:45:00+00:00",
+      "home": "Rio Ave",
+      "away": "Farense",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:2998",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37396447,
+      "debut": "2022-12-14T07:00:00+00:00",
+      "home": "Dalian Professional FC",
+      "away": "Wuhan Three Towns FC",
+      "home_id": "sr:competitor:49936",
+      "away_id": "sr:competitor:475928",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37396463,
+      "debut": "2022-12-14T11:30:00+00:00",
+      "home": "Guangzhou City",
+      "away": "Shanghai Shenhua",
+      "home_id": "sr:competitor:3375",
+      "away_id": "sr:competitor:3373",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37396471,
+      "debut": "2022-12-14T09:00:00+00:00",
+      "home": "Wuhan Yangtze River",
+      "away": "Tianjin Jinmen Tiger",
+      "home_id": "sr:competitor:41534",
+      "away_id": "sr:competitor:3367",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32972211,
+      "debut": "2022-12-14T19:00:00+00:00",
+      "home": "France",
+      "away": "Maroc",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4778",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

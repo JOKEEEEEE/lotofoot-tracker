@@ -1,0 +1,136 @@
+{
+  "grille_id": 3028,
+  "grille_type": "grille7",
+  "pool_id": 7003028,
+  "titre": "Grille 7 n°3028",
+  "statut": "CLOSED",
+  "fin": "2023-09-04T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:27:34.271938+00:00",
+  "mises_nettes": 5721.75,
+  "montant_distribue": 5721.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100111010100111010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 50,
+      "winningsPerGrid": 57.22
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 464,
+      "winningsPerGrid": 6.17
+    }
+  ],
+  "repartition": [
+    0,
+    0,
+    595,
+    1993,
+    2729,
+    1792,
+    462,
+    50
+  ],
+  "matches": [
+    {
+      "match_id": 41860961,
+      "debut": "2023-09-04T17:00:00+00:00",
+      "home": "MS Ashdod",
+      "away": "Beitar Jerusalem",
+      "home_id": "sr:competitor:5391",
+      "away_id": "sr:competitor:5204",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42548375,
+      "debut": "2023-09-04T17:00:00+00:00",
+      "home": "FK Zeleznicar Pancevo",
+      "away": "Cukaricki",
+      "home_id": "sr:competitor:425695",
+      "away_id": "sr:competitor:5148",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42092323,
+      "debut": "2023-09-04T18:00:00+00:00",
+      "home": "Zrinjski Mostar",
+      "away": "NK Siroki Brijeg",
+      "home_id": "sr:competitor:5178",
+      "away_id": "sr:competitor:5239",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41978303,
+      "debut": "2023-09-04T18:30:00+00:00",
+      "home": "Sepsi OSK",
+      "away": "UTA Arad",
+      "home_id": "sr:competitor:276385",
+      "away_id": "sr:competitor:221210",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42788285,
+      "debut": "2023-09-04T23:00:00+00:00",
+      "home": "Union De Santa Fe",
+      "away": "San Lorenzo",
+      "home_id": "sr:competitor:3204",
+      "away_id": "sr:competitor:3201",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43282133,
+      "debut": "2023-09-04T23:00:00+00:00",
+      "home": "Olimpia Asuncion",
+      "away": "Sportivo Ameliano",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:607728",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42129323,
+      "debut": "2023-09-04T23:10:00+00:00",
+      "home": "AD Unión Magdalena",
+      "away": "La Equidad",
+      "home_id": "sr:competitor:89376",
+      "away_id": "sr:competitor:6975",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

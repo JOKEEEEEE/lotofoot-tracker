@@ -1,0 +1,127 @@
+{
+  "grille_id": 322,
+  "grille_type": "grille7",
+  "pool_id": 7000322,
+  "titre": "Grille 7 n°322",
+  "statut": "CLOSED",
+  "fin": "2016-09-12T18:15:00+00:00",
+  "collecte_le": "2026-08-20T12:27:50.037488+00:00",
+  "mises_nettes": 7819.5,
+  "montant_distribue": 7819.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 558.54
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 90,
+      "winningsPerGrid": 43.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9690831,
+      "debut": "2016-09-12T18:15:00+00:00",
+      "home": "Nuremberg",
+      "away": "Munich 1860",
+      "home_id": "sr:competitor:2523",
+      "away_id": "sr:competitor:2536",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9565849,
+      "debut": "2016-09-12T18:30:00+00:00",
+      "home": "Strasbourg",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1659",
+      "away_id": "sr:competitor:1652",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9914153,
+      "debut": "2016-09-12T18:30:00+00:00",
+      "home": "Entella",
+      "away": "Pisa",
+      "home_id": "sr:competitor:43680",
+      "away_id": "sr:competitor:2737",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9820689,
+      "debut": "2016-09-12T18:45:00+00:00",
+      "home": "Empoli",
+      "away": "Crotone",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2718",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9599815,
+      "debut": "2016-09-12T19:00:00+00:00",
+      "home": "Sunderland",
+      "away": "Everton",
+      "home_id": "sr:competitor:41",
+      "away_id": "sr:competitor:48",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788635,
+      "debut": "2016-09-12T19:00:00+00:00",
+      "home": "Feirense",
+      "away": "Tondela",
+      "home_id": "sr:competitor:4501",
+      "away_id": "sr:competitor:38396",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10100649,
+      "debut": "2016-09-12T22:00:00+00:00",
+      "home": "Arsenal Sarandi",
+      "away": "Atletico Tucuman",
+      "home_id": "sr:competitor:3221",
+      "away_id": "sr:competitor:36833",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

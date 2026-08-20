@@ -1,0 +1,136 @@
+{
+  "grille_id": 3147,
+  "grille_type": "grille7",
+  "pool_id": 7003147,
+  "titre": "Grille 7 n°3147",
+  "statut": "CLOSED",
+  "fin": "2023-12-11T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:11:59.464533+00:00",
+  "mises_nettes": 6985.5,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 625
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 72,
+      "winningsPerGrid": 52.08
+    }
+  ],
+  "repartition": [
+    280,
+    1595,
+    2963,
+    2579,
+    1389,
+    430,
+    72,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 42415661,
+      "debut": "2023-12-11T17:00:00+00:00",
+      "home": "Konyaspor",
+      "away": "Sivasspor",
+      "home_id": "sr:competitor:3085",
+      "away_id": "sr:competitor:3076",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415659,
+      "debut": "2023-12-11T17:00:00+00:00",
+      "home": "MKE Ankaragücü",
+      "away": "Rizespor",
+      "home_id": "sr:competitor:3103",
+      "away_id": "sr:competitor:3064",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134391,
+      "debut": "2023-12-11T17:30:00+00:00",
+      "home": "Empoli",
+      "away": "Lecce",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2689",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134389,
+      "debut": "2023-12-11T19:45:00+00:00",
+      "home": "Cagliari",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2793",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893203,
+      "debut": "2023-12-11T20:00:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2821",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984219,
+      "debut": "2023-12-11T20:00:00+00:00",
+      "home": "Tenerife",
+      "away": "Alcorcon",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:24322",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146393,
+      "debut": "2023-12-11T20:15:00+00:00",
+      "home": "Gil Vicente",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:3014",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 289,
+  "grille_type": "grille7",
+  "pool_id": 7000289,
+  "titre": "Grille 7 n°289",
+  "statut": "CLOSED",
+  "fin": "2016-08-07T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:32:21.060616+00:00",
+  "mises_nettes": 4053.75,
+  "montant_distribue": 4053.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 27,
+      "winningsPerGrid": 75.07
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 319,
+      "winningsPerGrid": 6.35
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9720383,
+      "debut": "2016-08-07T18:00:00+00:00",
+      "home": "La Gantoise",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:2890",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211933,
+      "debut": "2016-08-07T19:00:00+00:00",
+      "home": "Coritiba",
+      "away": "Ponte Preta",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1969",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211931,
+      "debut": "2016-08-07T19:15:00+00:00",
+      "home": "Internacional ",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1961",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211939,
+      "debut": "2016-08-07T19:15:00+00:00",
+      "home": "Santa Cruz PE",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1976",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9830267,
+      "debut": "2016-08-07T19:45:00+00:00",
+      "home": "Benfica",
+      "away": "Braga",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2999",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302071,
+      "debut": "2016-08-07T21:00:00+00:00",
+      "home": "Argentine",
+      "away": "Algerie",
+      "home_id": "sr:competitor:24246",
+      "away_id": "sr:competitor:252145",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9302031,
+      "debut": "2016-08-07T22:00:00+00:00",
+      "home": "Danemark",
+      "away": "Afrique du Sud",
+      "home_id": "sr:competitor:252149",
+      "away_id": "sr:competitor:252159",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

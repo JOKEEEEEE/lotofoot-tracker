@@ -1,0 +1,127 @@
+{
+  "grille_id": 1175,
+  "grille_type": "grille7",
+  "pool_id": 7001175,
+  "titre": "Grille 7 n°1175",
+  "statut": "CLOSED",
+  "fin": "2019-02-23T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:14:02.207001+00:00",
+  "mises_nettes": 9408,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 22,
+      "winningsPerGrid": 227.27
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 250,
+      "winningsPerGrid": 20
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701141,
+      "debut": "2019-02-23T19:00:00+00:00",
+      "home": "Amiens",
+      "away": "Nice",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701145,
+      "debut": "2019-02-23T19:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Angers",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1684",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15150649,
+      "debut": "2019-02-23T19:00:00+00:00",
+      "home": "Alcorcon",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:24322",
+      "away_id": "sr:competitor:6577",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160119,
+      "debut": "2019-02-23T19:30:00+00:00",
+      "home": "Frosinone",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2801",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109451,
+      "debut": "2019-02-23T19:45:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2839",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14732303,
+      "debut": "2019-02-23T19:45:00+00:00",
+      "home": "Breda",
+      "away": "Groningue",
+      "home_id": "sr:competitor:2947",
+      "away_id": "sr:competitor:2951",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946177,
+      "debut": "2019-02-23T20:30:00+00:00",
+      "home": "Vitoria Setubal",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3008",
+      "away_id": "sr:competitor:3009",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

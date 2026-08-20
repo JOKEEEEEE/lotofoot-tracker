@@ -1,0 +1,136 @@
+{
+  "grille_id": 2715,
+  "grille_type": "grille7",
+  "pool_id": 7002715,
+  "titre": "Grille 7 n°2715",
+  "statut": "CLOSED",
+  "fin": "2022-12-08T17:30:00+00:00",
+  "collecte_le": "2026-08-20T08:53:56.404882+00:00",
+  "mises_nettes": 6750.75,
+  "montant_distribue": 6750.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010001100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 337.54
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 116,
+      "winningsPerGrid": 29.1
+    }
+  ],
+  "repartition": [
+    165,
+    1013,
+    2532,
+    2898,
+    1690,
+    577,
+    116,
+    10
+  ],
+  "matches": [
+    {
+      "match_id": 34278803,
+      "debut": "2022-12-08T17:30:00+00:00",
+      "home": "UD Ibiza",
+      "away": "Racing Santander",
+      "home_id": "sr:competitor:24368",
+      "away_id": "sr:competitor:2835",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278807,
+      "debut": "2022-12-08T17:30:00+00:00",
+      "home": "Levante",
+      "away": "Ponferradina",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:6195",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36462033,
+      "debut": "2022-12-08T17:45:00+00:00",
+      "home": "Wolfsburg (F)",
+      "away": "AS Roma (F)",
+      "home_id": "sr:competitor:5556",
+      "away_id": "sr:competitor:509432",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36336987,
+      "debut": "2022-12-08T19:00:00+00:00",
+      "home": "Chaves",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3025",
+      "away_id": "sr:competitor:3002",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34744503,
+      "debut": "2022-12-08T19:30:00+00:00",
+      "home": "Palerme",
+      "away": "Côme",
+      "home_id": "sr:competitor:2715",
+      "away_id": "sr:competitor:2704",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278817,
+      "debut": "2022-12-08T20:00:00+00:00",
+      "home": "Malaga",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:33779",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36462041,
+      "debut": "2022-12-08T20:00:00+00:00",
+      "home": "FSK St.Pölten-Spratzern (F)",
+      "away": "Slavia Prague (F)",
+      "home_id": "sr:competitor:118936",
+      "away_id": "sr:competitor:38331",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

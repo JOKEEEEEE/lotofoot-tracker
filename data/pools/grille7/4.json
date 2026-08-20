@@ -1,0 +1,127 @@
+{
+  "grille_id": 4,
+  "grille_type": "grille7",
+  "pool_id": 7000004,
+  "titre": "Grille 7 n°4",
+  "statut": "CLOSED",
+  "fin": "2015-09-13T15:00:00+00:00",
+  "collecte_le": "2026-08-20T12:57:38.920273+00:00",
+  "mises_nettes": 7467.75,
+  "montant_distribue": 7467.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 339.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 277,
+      "winningsPerGrid": 13.48
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7473476,
+      "debut": "2015-09-13T15:00:00+00:00",
+      "home": "Nantes",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1658",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7517854,
+      "debut": "2015-09-13T15:30:00+00:00",
+      "home": "Schalke 04",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:2556",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7688964,
+      "debut": "2015-09-13T16:00:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2695",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610190,
+      "debut": "2015-09-13T16:15:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:6577",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610196,
+      "debut": "2015-09-13T18:30:00+00:00",
+      "home": "Malaga",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2839",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7688956,
+      "debut": "2015-09-13T18:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473484,
+      "debut": "2015-09-13T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Bastia",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1655",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

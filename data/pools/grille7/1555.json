@@ -1,0 +1,127 @@
+{
+  "grille_id": 1555,
+  "grille_type": "grille7",
+  "pool_id": 7001555,
+  "titre": "Grille 7 n°1555",
+  "statut": "CLOSED",
+  "fin": "2020-02-10T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:38:35.268593+00:00",
+  "mises_nettes": 9686.25,
+  "montant_distribue": 9686.25,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 538.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 105,
+      "winningsPerGrid": 46.13
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18573214,
+      "debut": "2020-02-10T19:30:00+00:00",
+      "home": "Holstein Kiel",
+      "away": "St. Pauli",
+      "home_id": "sr:competitor:2573",
+      "away_id": "sr:competitor:2526",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442510,
+      "debut": "2020-02-10T19:45:00+00:00",
+      "home": "Lens",
+      "away": "Grenoble",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1671",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030432,
+      "debut": "2020-02-10T20:00:00+00:00",
+      "home": "Salernitana",
+      "away": "Trapani",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:43686",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20925207,
+      "debut": "2020-02-10T21:00:00+00:00",
+      "home": "O'Higgins",
+      "away": "Santiago Wanderers",
+      "home_id": "sr:competitor:3163",
+      "away_id": "sr:competitor:3150",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20843317,
+      "debut": "2020-02-10T21:30:00+00:00",
+      "home": "General Diaz",
+      "away": "Sportivo Luqueno",
+      "home_id": "sr:competitor:87472",
+      "away_id": "sr:competitor:5998",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723684,
+      "debut": "2020-02-10T22:00:00+00:00",
+      "home": "Arsenal Sarandi",
+      "away": "CA Talleres",
+      "home_id": "sr:competitor:3221",
+      "away_id": "sr:competitor:3210",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723692,
+      "debut": "2020-02-11T00:10:00+00:00",
+      "home": "Godoy Cruz",
+      "away": "Huracan",
+      "home_id": "sr:competitor:6074",
+      "away_id": "sr:competitor:7629",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

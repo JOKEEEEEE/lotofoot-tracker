@@ -1,0 +1,136 @@
+{
+  "grille_id": 3427,
+  "grille_type": "grille7",
+  "pool_id": 7003427,
+  "titre": "Grille 7 n°3427",
+  "statut": "CLOSED",
+  "fin": "2024-08-14T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:25:13.329434+00:00",
+  "mises_nettes": 4609.5,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 277.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 165,
+      "winningsPerGrid": 15.15
+    }
+  ],
+  "repartition": [
+    48,
+    315,
+    1020,
+    1861,
+    1855,
+    873,
+    165,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 51120409,
+      "debut": "2024-08-14T18:45:00+00:00",
+      "home": "Hull City",
+      "away": "Sheffield Wednesday",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:12",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51120441,
+      "debut": "2024-08-14T18:45:00+00:00",
+      "home": "Plymouth Argyle",
+      "away": "Cheltenham Town",
+      "home_id": "sr:competitor:71",
+      "away_id": "sr:competitor:69",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50099745,
+      "debut": "2024-08-14T19:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2686",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51120383,
+      "debut": "2024-08-14T19:00:00+00:00",
+      "home": "Leeds",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:36",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50410521,
+      "debut": "2024-08-14T22:00:00+00:00",
+      "home": "Penarol de Montevideo",
+      "away": "The Strongest",
+      "home_id": "sr:competitor:3227",
+      "away_id": "sr:competitor:32529",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50413615,
+      "debut": "2024-08-14T22:00:00+00:00",
+      "home": "Rosario Central",
+      "away": "Fortaleza CE",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:2020",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52076823,
+      "debut": "2024-08-14T22:30:00+00:00",
+      "home": "Internacional ",
+      "away": "Juventude RS",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1980",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

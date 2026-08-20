@@ -1,0 +1,136 @@
+{
+  "grille_id": 4032,
+  "grille_type": "grille7",
+  "pool_id": 7004032,
+  "titre": "Grille 7 n°4032",
+  "statut": "CLOSED",
+  "fin": "2026-04-01T17:00:00+00:00",
+  "collecte_le": "2026-08-20T06:16:55.723006+00:00",
+  "mises_nettes": 5256,
+  "montant_distribue": 5256,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 438
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 75,
+      "winningsPerGrid": 35.04
+    }
+  ],
+  "repartition": [
+    223,
+    1116,
+    2141,
+    1958,
+    1101,
+    388,
+    75,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 61623744,
+      "debut": "2026-04-01T17:00:00+00:00",
+      "home": "FC Andorra",
+      "away": "Malaga",
+      "home_id": "sr:competitor:610334",
+      "away_id": "sr:competitor:2830",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.86,
+      "cote_N": 3.3,
+      "cote_2": 3.4
+    },
+    {
+      "match_id": 61623736,
+      "debut": "2026-04-01T18:00:00+00:00",
+      "home": "Burgos CF",
+      "away": "AD Ceuta",
+      "home_id": "sr:competitor:2854",
+      "away_id": "sr:competitor:2869",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.8,
+      "cote_N": 3,
+      "cote_2": 3.95
+    },
+    {
+      "match_id": 61623738,
+      "debut": "2026-04-01T18:00:00+00:00",
+      "home": "Huesca",
+      "away": "Cultural Leonesa",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:2868",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 3,
+      "cote_2": 3.15
+    },
+    {
+      "match_id": 68533638,
+      "debut": "2026-04-01T19:00:00+00:00",
+      "home": "Chelsea (F)",
+      "away": "Arsenal (F)",
+      "home_id": "sr:competitor:66768",
+      "away_id": "sr:competitor:26243",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.98,
+      "cote_N": 4.1,
+      "cote_2": 2.5
+    },
+    {
+      "match_id": 61623742,
+      "debut": "2026-04-01T19:30:00+00:00",
+      "home": "Racing Santander",
+      "away": "Gijon",
+      "home_id": "sr:competitor:2835",
+      "away_id": "sr:competitor:2852",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.76,
+      "cote_N": 3.5,
+      "cote_2": 3.55
+    },
+    {
+      "match_id": 67698040,
+      "debut": "2026-04-01T21:10:00+00:00",
+      "home": "Alianza",
+      "away": "Pasto",
+      "home_id": "sr:competitor:1098993",
+      "away_id": "sr:competitor:6113",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2,
+      "cote_N": 2.9,
+      "cote_2": 3.3
+    },
+    {
+      "match_id": 68042398,
+      "debut": "2026-04-01T21:30:00+00:00",
+      "home": "Rubio NU",
+      "away": "Guarani Asuncion",
+      "home_id": "sr:competitor:36438",
+      "away_id": "sr:competitor:5994",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3.55,
+      "cote_N": 3.15,
+      "cote_2": 1.86
+    }
+  ]
+}

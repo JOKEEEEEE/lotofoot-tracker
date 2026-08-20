@@ -1,0 +1,136 @@
+{
+  "grille_id": 2895,
+  "grille_type": "grille7",
+  "pool_id": 7002895,
+  "titre": "Grille 7 n°2895",
+  "statut": "CLOSED",
+  "fin": "2023-05-05T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:39:33.712352+00:00",
+  "mises_nettes": 9310.5,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 18,
+      "winningsPerGrid": 277.78
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 142,
+      "winningsPerGrid": 35.21
+    }
+  ],
+  "repartition": [
+    1237,
+    3684,
+    4114,
+    2398,
+    821,
+    142,
+    18,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 34169491,
+      "debut": "2023-05-05T18:30:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "FC Cologne",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2671",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34169495,
+      "debut": "2023-05-05T18:30:00+00:00",
+      "home": "Mayence",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:2530",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34744903,
+      "debut": "2023-05-05T18:30:00+00:00",
+      "home": "Pérouse",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2698",
+      "away_id": "sr:competitor:2719",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546017,
+      "debut": "2023-05-05T18:30:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Instituto AC Cordoba",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:4937",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545993,
+      "debut": "2023-05-05T18:30:00+00:00",
+      "home": "Godoy Cruz",
+      "away": "Union De Santa Fe",
+      "home_id": "sr:competitor:6074",
+      "away_id": "sr:competitor:3204",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34279239,
+      "debut": "2023-05-05T19:00:00+00:00",
+      "home": "Alaves",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:33779",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34505115,
+      "debut": "2023-05-05T19:15:00+00:00",
+      "home": "Casa Pia AC",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:36365",
+      "away_id": "sr:competitor:3026",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

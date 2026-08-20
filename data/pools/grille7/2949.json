@@ -1,0 +1,136 @@
+{
+  "grille_id": 2949,
+  "grille_type": "grille7",
+  "pool_id": 7002949,
+  "titre": "Grille 7 n°2949",
+  "statut": "CLOSED",
+  "fin": "2023-06-23T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:34:30.591161+00:00",
+  "mises_nettes": 4859.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 50,
+      "winningsPerGrid": 50
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 386,
+      "winningsPerGrid": 6.48
+    }
+  ],
+  "repartition": [
+    90,
+    690,
+    1716,
+    2187,
+    1360,
+    386,
+    50,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 38144867,
+      "debut": "2023-06-23T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3177",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144869,
+      "debut": "2023-06-23T18:45:00+00:00",
+      "home": "Derry City",
+      "away": "Cork City",
+      "home_id": "sr:competitor:3170",
+      "away_id": "sr:competitor:40896",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144871,
+      "debut": "2023-06-23T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3179",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144873,
+      "debut": "2023-06-23T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Shelbourne Dublin",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3174",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144875,
+      "debut": "2023-06-23T18:45:00+00:00",
+      "home": "UC Dublin",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3168",
+      "away_id": "sr:competitor:3190",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546161,
+      "debut": "2023-06-23T22:00:00+00:00",
+      "home": "Huracan",
+      "away": "Newell's Old Boys",
+      "home_id": "sr:competitor:7629",
+      "away_id": "sr:competitor:3212",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546175,
+      "debut": "2023-06-24T00:30:00+00:00",
+      "home": "Argentinos Juniors",
+      "away": "Defensa Y Justicia",
+      "home_id": "sr:competitor:3216",
+      "away_id": "sr:competitor:36839",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

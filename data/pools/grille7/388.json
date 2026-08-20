@@ -1,0 +1,127 @@
+{
+  "grille_id": 388,
+  "grille_type": "grille7",
+  "pool_id": 7000388,
+  "titre": "Grille 7 n°388",
+  "statut": "CLOSED",
+  "fin": "2016-11-21T19:15:00+00:00",
+  "collecte_le": "2026-08-20T12:23:47.687344+00:00",
+  "mises_nettes": 7354.5,
+  "montant_distribue": 7354.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1838.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 49,
+      "winningsPerGrid": 75.05
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9691001,
+      "debut": "2016-11-21T19:15:00+00:00",
+      "home": "Munich 1860",
+      "away": "Kaiserslautern",
+      "home_id": "sr:competitor:2536",
+      "away_id": "sr:competitor:2675",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9565795,
+      "debut": "2016-11-21T19:30:00+00:00",
+      "home": "Brest",
+      "away": "Niort",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1665",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9914147,
+      "debut": "2016-11-21T19:30:00+00:00",
+      "home": "Trapani",
+      "away": "Spal 2013",
+      "home_id": "sr:competitor:43686",
+      "away_id": "sr:competitor:113755",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9612685,
+      "debut": "2016-11-21T19:45:00+00:00",
+      "home": "Hamilton",
+      "away": "Heart of Midlothian",
+      "home_id": "sr:competitor:2376",
+      "away_id": "sr:competitor:2353",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769385,
+      "debut": "2016-11-21T19:45:00+00:00",
+      "home": "Leganes",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:2820",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9599979,
+      "debut": "2016-11-21T20:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Burnley",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:6",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9934959,
+      "debut": "2016-11-21T22:00:00+00:00",
+      "home": "Olimpo",
+      "away": "Gimnasia La Plata",
+      "home_id": "sr:competitor:3222",
+      "away_id": "sr:competitor:3205",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

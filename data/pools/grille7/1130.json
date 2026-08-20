@@ -1,0 +1,127 @@
+{
+  "grille_id": 1130,
+  "grille_type": "grille7",
+  "pool_id": 7001130,
+  "titre": "Grille 7 n°1130",
+  "statut": "CLOSED",
+  "fin": "2019-01-09T17:45:00+00:00",
+  "collecte_le": "2026-08-20T11:15:46.334662+00:00",
+  "mises_nettes": 12693.75,
+  "montant_distribue": 12693.75,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 111,
+      "winningsPerGrid": 57.18
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 1024,
+      "winningsPerGrid": 6.2
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16542205,
+      "debut": "2019-01-09T17:45:00+00:00",
+      "home": "Monaco",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1658",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16490339,
+      "debut": "2019-01-09T18:30:00+00:00",
+      "home": "Gérone",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16490307,
+      "debut": "2019-01-09T19:30:00+00:00",
+      "home": "Getafe",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2831",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16490341,
+      "debut": "2019-01-09T19:30:00+00:00",
+      "home": "Villarreal",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2814",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16538523,
+      "debut": "2019-01-09T19:45:00+00:00",
+      "home": "Manchester City",
+      "away": "Burton Albion",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:134",
+      "score_home": 9,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16542207,
+      "debut": "2019-01-09T20:05:00+00:00",
+      "home": "Bordeaux",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1662",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16542209,
+      "debut": "2019-01-09T20:05:00+00:00",
+      "home": "Paris SG",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1654",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

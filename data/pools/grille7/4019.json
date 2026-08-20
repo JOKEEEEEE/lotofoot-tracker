@@ -1,0 +1,136 @@
+{
+  "grille_id": 4019,
+  "grille_type": "grille7",
+  "pool_id": 7004019,
+  "titre": "Grille 7 n°4019",
+  "statut": "CLOSED",
+  "fin": "2026-03-16T19:30:00+00:00",
+  "collecte_le": "2026-08-20T06:19:59.914485+00:00",
+  "mises_nettes": 7410.75,
+  "montant_distribue": 7410.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010010001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 29,
+      "winningsPerGrid": 127.77
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 221,
+      "winningsPerGrid": 16.77
+    }
+  ],
+  "repartition": [
+    603,
+    2276,
+    3337,
+    2422,
+    993,
+    221,
+    29,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 61623670,
+      "debut": "2026-03-16T19:30:00+00:00",
+      "home": "Albacete",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2848",
+      "away_id": "sr:competitor:6577",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.7,
+      "cote_N": 2.9,
+      "cote_2": 2.3
+    },
+    {
+      "match_id": 69027976,
+      "debut": "2026-03-16T19:45:00+00:00",
+      "home": "Annecy FC",
+      "away": "Troyes",
+      "home_id": "sr:competitor:234888",
+      "away_id": "sr:competitor:1652",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 80,
+      "cote_2": 1
+    },
+    {
+      "match_id": 61061507,
+      "debut": "2026-03-16T19:45:00+00:00",
+      "home": "Cremonese",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2761",
+      "away_id": "sr:competitor:2693",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 3.85,
+      "cote_N": 3.15,
+      "cote_2": 1.78
+    },
+    {
+      "match_id": 61624494,
+      "debut": "2026-03-16T20:00:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Levante",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2849",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.72,
+      "cote_N": 3.25,
+      "cote_2": 4
+    },
+    {
+      "match_id": 68096896,
+      "debut": "2026-03-16T20:00:00+00:00",
+      "home": "Brentford",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:50",
+      "away_id": "sr:competitor:3",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.5,
+      "cote_N": 1.01,
+      "cote_2": 65
+    },
+    {
+      "match_id": 68994144,
+      "debut": "2026-03-16T20:00:00+00:00",
+      "home": "Portsmouth",
+      "away": "Derby County",
+      "home_id": "sr:competitor:2",
+      "away_id": "sr:competitor:27",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2,
+      "cote_N": 3,
+      "cote_2": 3.25
+    },
+    {
+      "match_id": 67091812,
+      "debut": "2026-03-16T21:30:00+00:00",
+      "home": "San Lorenzo",
+      "away": "Defensa Y Justicia",
+      "home_id": "sr:competitor:3201",
+      "away_id": "sr:competitor:36839",
+      "score_home": 2,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 2.1,
+      "cote_N": 2.65,
+      "cote_2": 3.5
+    }
+  ]
+}

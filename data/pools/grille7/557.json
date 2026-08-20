@@ -1,0 +1,127 @@
+{
+  "grille_id": 557,
+  "grille_type": "grille7",
+  "pool_id": 7000557,
+  "titre": "Grille 7 n°557",
+  "statut": "CLOSED",
+  "fin": "2017-05-24T15:30:00+00:00",
+  "collecte_le": "2026-08-20T12:04:36.482832+00:00",
+  "mises_nettes": 4345.5,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100010100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 60,
+      "winningsPerGrid": 41.67
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10978072,
+      "debut": "2017-05-24T15:30:00+00:00",
+      "home": "KuPS",
+      "away": "Seinäjoen",
+      "home_id": "sr:competitor:2244",
+      "away_id": "sr:competitor:22395",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10978182,
+      "debut": "2017-05-24T15:30:00+00:00",
+      "home": "Vaasa",
+      "away": "FC Ilves",
+      "home_id": "sr:competitor:2246",
+      "away_id": "sr:competitor:22386",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10978186,
+      "debut": "2017-05-24T15:30:00+00:00",
+      "home": "Rovaniemi",
+      "away": "JJK Jyvaskyla",
+      "home_id": "sr:competitor:2250",
+      "away_id": "sr:competitor:7298",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11108395,
+      "debut": "2017-05-24T17:00:00+00:00",
+      "home": "FC Stumbras",
+      "away": "Atlantas Klaipeda",
+      "home_id": "sr:competitor:147564",
+      "away_id": "sr:competitor:5337",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11648251,
+      "debut": "2017-05-24T17:30:00+00:00",
+      "home": "Panathinaïkos",
+      "away": "AEK Athènes",
+      "home_id": "sr:competitor:3248",
+      "away_id": "sr:competitor:3250",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11666381,
+      "debut": "2017-05-24T18:45:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:35",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11712295,
+      "debut": "2017-05-26T02:00:00+00:00",
+      "home": "Tigres",
+      "away": "Guadalajara ",
+      "home_id": "sr:competitor:1940",
+      "away_id": "sr:competitor:1938",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

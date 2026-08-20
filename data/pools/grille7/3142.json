@@ -1,0 +1,136 @@
+{
+  "grille_id": 3142,
+  "grille_type": "grille7",
+  "pool_id": 7003142,
+  "titre": "Grille 7 n°3142",
+  "statut": "CLOSED",
+  "fin": "2023-12-07T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:12:10.740009+00:00",
+  "mises_nettes": 32072.25,
+  "montant_distribue": 32072.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 90,
+      "winningsPerGrid": 178.18
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1064,
+      "winningsPerGrid": 15.07
+    }
+  ],
+  "repartition": [
+    197,
+    1705,
+    6516,
+    13344,
+    14087,
+    5760,
+    1064,
+    90
+  ],
+  "matches": [
+    {
+      "match_id": 45435128,
+      "debut": "2023-12-07T19:00:00+00:00",
+      "home": "Waasland-Beveren",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:4859",
+      "away_id": "sr:competitor:4860",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45288042,
+      "debut": "2023-12-07T19:30:00+00:00",
+      "home": "Brest",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1659",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763125,
+      "debut": "2023-12-07T19:30:00+00:00",
+      "home": "Everton",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:39",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45435130,
+      "debut": "2023-12-07T19:30:00+00:00",
+      "home": "Anderlecht",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2901",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41980347,
+      "debut": "2023-12-07T20:00:00+00:00",
+      "home": "Feyenoord",
+      "away": "FC Volendam",
+      "home_id": "sr:competitor:2959",
+      "away_id": "sr:competitor:2968",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44860610,
+      "debut": "2023-12-07T20:15:00+00:00",
+      "home": "Tottenham",
+      "away": "West Ham",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43255177,
+      "debut": "2023-12-08T08:45:00+00:00",
+      "home": "Central Coast Mariners",
+      "away": "Western United",
+      "home_id": "sr:competitor:5966",
+      "away_id": "sr:competitor:199320",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

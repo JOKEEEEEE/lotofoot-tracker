@@ -1,0 +1,127 @@
+{
+  "grille_id": 1338,
+  "grille_type": "grille7",
+  "pool_id": 7001338,
+  "titre": "Grille 7 n°1338",
+  "statut": "CLOSED",
+  "fin": "2019-08-08T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:57:29.545752+00:00",
+  "mises_nettes": 8716.5,
+  "montant_distribue": 8716.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 71,
+      "winningsPerGrid": 61.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 633,
+      "winningsPerGrid": 6.89
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18952282,
+      "debut": "2019-08-08T18:30:00+00:00",
+      "home": "Vaduz",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:2463",
+      "away_id": "sr:competitor:2674",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18952266,
+      "debut": "2019-08-08T18:30:00+00:00",
+      "home": "FC Steaua Bucarest",
+      "away": "Mlada Boleslav",
+      "home_id": "sr:competitor:3301",
+      "away_id": "sr:competitor:2224",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18952240,
+      "debut": "2019-08-08T18:30:00+00:00",
+      "home": "Austria Vienne",
+      "away": "Apollon Limassol",
+      "home_id": "sr:competitor:2203",
+      "away_id": "sr:competitor:3402",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18952394,
+      "debut": "2019-08-08T19:00:00+00:00",
+      "home": "Lucerne",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2453",
+      "away_id": "sr:competitor:2814",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18952228,
+      "debut": "2019-08-08T19:00:00+00:00",
+      "home": "Torino",
+      "away": "Shakhtar Soligorsk",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:3357",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18952212,
+      "debut": "2019-08-08T19:00:00+00:00",
+      "home": "Legia Varsovie",
+      "away": "Atromitos Athènes",
+      "home_id": "sr:competitor:3106",
+      "away_id": "sr:competitor:5062",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18952370,
+      "debut": "2019-08-08T19:00:00+00:00",
+      "home": "Partizan Belgrade",
+      "away": "Yeni Malatyaspor",
+      "home_id": "sr:competitor:5152",
+      "away_id": "sr:competitor:24759",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

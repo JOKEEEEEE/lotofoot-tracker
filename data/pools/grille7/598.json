@@ -1,0 +1,127 @@
+{
+  "grille_id": 598,
+  "grille_type": "grille7",
+  "pool_id": 7000598,
+  "titre": "Grille 7 n°598",
+  "statut": "CLOSED",
+  "fin": "2017-07-06T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:59:49.598231+00:00",
+  "mises_nettes": 3189,
+  "montant_distribue": 3189,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 265.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 115,
+      "winningsPerGrid": 13.87
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11855042,
+      "debut": "2017-07-06T18:30:00+00:00",
+      "home": "Gorica",
+      "away": "FC Shirak Gyumri",
+      "home_id": "sr:competitor:2409",
+      "away_id": "sr:competitor:33817",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854898,
+      "debut": "2017-07-06T18:30:00+00:00",
+      "home": "Sutjeska",
+      "away": "Levski Sofia",
+      "home_id": "sr:competitor:6224",
+      "away_id": "sr:competitor:3273",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854866,
+      "debut": "2017-07-06T18:30:00+00:00",
+      "home": "SS Folgore/Falciano",
+      "away": "La Vallette",
+      "home_id": "sr:competitor:37863",
+      "away_id": "sr:competitor:5332",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854928,
+      "debut": "2017-07-06T18:30:00+00:00",
+      "home": "Zeta Golubovci",
+      "away": "Zeljeznicar",
+      "home_id": "sr:competitor:6225",
+      "away_id": "sr:competitor:5240",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11855064,
+      "debut": "2017-07-06T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "Levadia Tallinn",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:3342",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854986,
+      "debut": "2017-07-06T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Stjarnan",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:1912",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854870,
+      "debut": "2017-07-06T20:00:00+00:00",
+      "home": "Valur Reykjavik",
+      "away": "Ventspils",
+      "home_id": "sr:competitor:1899",
+      "away_id": "sr:competitor:5354",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2721,
+  "grille_type": "grille7",
+  "pool_id": 7002721,
+  "titre": "Grille 7 n°2721",
+  "statut": "CLOSED",
+  "fin": "2022-12-14T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:53:35.532720+00:00",
+  "mises_nettes": 4908,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 147.06
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 149,
+      "winningsPerGrid": 16.78
+    }
+  ],
+  "repartition": [
+    97,
+    555,
+    1452,
+    2026,
+    1584,
+    664,
+    149,
+    17
+  ],
+  "matches": [
+    {
+      "match_id": 32972211,
+      "debut": "2022-12-14T19:00:00+00:00",
+      "home": "France",
+      "away": "Maroc",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4778",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36922833,
+      "debut": "2022-12-14T20:45:00+00:00",
+      "home": "Sporting Covilha",
+      "away": "Nacional Madeira ",
+      "home_id": "sr:competitor:3037",
+      "away_id": "sr:competitor:3013",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36922883,
+      "debut": "2022-12-14T20:45:00+00:00",
+      "home": "Portimonense",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:3026",
+      "away_id": "sr:competitor:3010",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37396555,
+      "debut": "2022-12-15T07:00:00+00:00",
+      "home": "Beijing Guoan",
+      "away": "Changchun Yatai",
+      "home_id": "sr:competitor:3376",
+      "away_id": "sr:competitor:34694",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37396557,
+      "debut": "2022-12-15T11:00:00+00:00",
+      "home": "Cangzhou Mighty Lions",
+      "away": "Henan Songshan Longmen",
+      "home_id": "sr:competitor:66440",
+      "away_id": "sr:competitor:34692",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37396567,
+      "debut": "2022-12-15T11:30:00+00:00",
+      "home": "Zhejiang",
+      "away": "Chengdu Rongcheng",
+      "home_id": "sr:competitor:34697",
+      "away_id": "sr:competitor:252167",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37972515,
+      "debut": "2022-12-15T11:30:00+00:00",
+      "home": "Meizhou Hakka FC",
+      "away": "Shanghai Port",
+      "home_id": "sr:competitor:245357",
+      "away_id": "sr:competitor:41537",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

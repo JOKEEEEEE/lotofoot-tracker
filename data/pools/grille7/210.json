@@ -1,0 +1,127 @@
+{
+  "grille_id": 210,
+  "grille_type": "grille7",
+  "pool_id": 7000210,
+  "titre": "Grille 7 n°210",
+  "statut": "CLOSED",
+  "fin": "2016-04-26T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:38:43.708159+00:00",
+  "mises_nettes": 7155,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100111010001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 90,
+      "winningsPerGrid": 44.44
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9295751,
+      "debut": "2016-04-26T18:45:00+00:00",
+      "home": "Manchester City",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9129839,
+      "debut": "2016-04-26T18:45:00+00:00",
+      "home": "Hull City",
+      "away": "Brentford",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:50",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474080,
+      "debut": "2016-04-27T16:30:00+00:00",
+      "home": "Lille",
+      "away": "Angers",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1684",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8630044,
+      "debut": "2016-04-27T16:30:00+00:00",
+      "home": "Östersunds FK",
+      "away": "Örebro",
+      "home_id": "sr:competitor:1836",
+      "away_id": "sr:competitor:1768",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8630046,
+      "debut": "2016-04-27T16:30:00+00:00",
+      "home": "Jönköpings Södra",
+      "away": "Falkenbergs",
+      "home_id": "sr:competitor:1841",
+      "away_id": "sr:competitor:1812",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8630048,
+      "debut": "2016-04-27T16:30:00+00:00",
+      "home": "IFK Göteborg",
+      "away": "Malmö",
+      "home_id": "sr:competitor:1761",
+      "away_id": "sr:competitor:1892",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9295753,
+      "debut": "2016-04-27T18:45:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 483,
+  "grille_type": "grille7",
+  "pool_id": 7000483,
+  "titre": "Grille 7 n°483",
+  "statut": "CLOSED",
+  "fin": "2017-03-04T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:14:05.309546+00:00",
+  "mises_nettes": 7432.5,
+  "montant_distribue": 7432.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1858.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 34,
+      "winningsPerGrid": 109.3
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9540013,
+      "debut": "2017-03-04T19:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1654",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9540017,
+      "debut": "2017-03-04T19:00:00+00:00",
+      "home": "Bastia",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1655",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9540019,
+      "debut": "2017-03-04T19:00:00+00:00",
+      "home": "Dijon",
+      "away": "Nice",
+      "home_id": "sr:competitor:1686",
+      "away_id": "sr:competitor:1661",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9540025,
+      "debut": "2017-03-04T19:00:00+00:00",
+      "home": "Caen",
+      "away": "Angers",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1684",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9540027,
+      "debut": "2017-03-04T19:00:00+00:00",
+      "home": "Metz",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1658",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9720779,
+      "debut": "2017-03-04T19:00:00+00:00",
+      "home": "Racing Genk",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2888",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10892562,
+      "debut": "2017-03-04T21:00:00+00:00",
+      "home": "Los Angeles Galaxy",
+      "away": "FC Dallas",
+      "home_id": "sr:competitor:2513",
+      "away_id": "sr:competitor:2512",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

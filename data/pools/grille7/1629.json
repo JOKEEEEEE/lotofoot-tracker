@@ -1,0 +1,127 @@
+{
+  "grille_id": 1629,
+  "grille_type": "grille7",
+  "pool_id": 7001629,
+  "titre": "Grille 7 n°1629",
+  "statut": "CLOSED",
+  "fin": "2020-06-06T13:30:00+00:00",
+  "collecte_le": "2026-08-20T10:28:24.798281+00:00",
+  "mises_nettes": 19179.75,
+  "montant_distribue": 19179.75,
+  "montant_garanti": 13000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 1598.31
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 141,
+      "winningsPerGrid": 68.01
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21971237,
+      "debut": "2020-06-06T13:30:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2672",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971233,
+      "debut": "2020-06-06T13:30:00+00:00",
+      "home": "RB Leipzig",
+      "away": "Paderborn",
+      "home_id": "sr:competitor:36360",
+      "away_id": "sr:competitor:2561",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971241,
+      "debut": "2020-06-06T13:30:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:2556",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971249,
+      "debut": "2020-06-06T13:30:00+00:00",
+      "home": "Düsseldorf",
+      "away": "Hoffenheim",
+      "home_id": "sr:competitor:2588",
+      "away_id": "sr:competitor:2569",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22129053,
+      "debut": "2020-06-06T16:15:00+00:00",
+      "home": "Panionios",
+      "away": "Volos Nps",
+      "home_id": "sr:competitor:3247",
+      "away_id": "sr:competitor:373128",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971229,
+      "debut": "2020-06-06T16:30:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Hertha Berlin",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2528",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085157,
+      "debut": "2020-06-06T20:15:00+00:00",
+      "home": "Boavista",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3014",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

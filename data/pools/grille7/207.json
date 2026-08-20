@@ -1,0 +1,127 @@
+{
+  "grille_id": 207,
+  "grille_type": "grille7",
+  "pool_id": 7000207,
+  "titre": "Grille 7 n°207",
+  "statut": "CLOSED",
+  "fin": "2016-04-23T18:30:00+00:00",
+  "collecte_le": "2026-08-20T13:33:25.704052+00:00",
+  "mises_nettes": 7619.25,
+  "montant_distribue": 7619.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 67,
+      "winningsPerGrid": 56.86
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 692,
+      "winningsPerGrid": 5.51
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7610838,
+      "debut": "2016-04-23T18:30:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Gijon",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2852",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9107263,
+      "debut": "2016-04-23T18:30:00+00:00",
+      "home": "Charleroi",
+      "away": "Malines",
+      "home_id": "sr:competitor:2898",
+      "away_id": "sr:competitor:5044",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689500,
+      "debut": "2016-04-23T18:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2695",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8810138,
+      "debut": "2016-04-23T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Lille",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1643",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697422,
+      "debut": "2016-04-23T20:00:00+00:00",
+      "home": "Montréal",
+      "away": "Toronto FC",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:7080",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610836,
+      "debut": "2016-04-23T20:05:00+00:00",
+      "home": "Eibar",
+      "away": "Deportivo La Corogne",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2832",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697418,
+      "debut": "2016-04-23T21:30:00+00:00",
+      "home": "DC United",
+      "away": "New England Revolution",
+      "home_id": "sr:competitor:2502",
+      "away_id": "sr:competitor:2511",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

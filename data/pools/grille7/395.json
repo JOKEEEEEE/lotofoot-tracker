@@ -1,0 +1,127 @@
+{
+  "grille_id": 395,
+  "grille_type": "grille7",
+  "pool_id": 7000395,
+  "titre": "Grille 7 n°395",
+  "statut": "CLOSED",
+  "fin": "2016-11-28T19:15:00+00:00",
+  "collecte_le": "2026-08-20T12:23:17.715107+00:00",
+  "mises_nettes": 9192,
+  "montant_distribue": 9192,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 328.29
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 246,
+      "winningsPerGrid": 18.68
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9691005,
+      "debut": "2016-11-28T19:15:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Nuremberg",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2523",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9565925,
+      "debut": "2016-11-28T19:30:00+00:00",
+      "home": "Reims",
+      "away": "Niort",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1665",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9913925,
+      "debut": "2016-11-28T19:30:00+00:00",
+      "home": "Salernitana",
+      "away": "Pro Vercelli ",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2769",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769399,
+      "debut": "2016-11-28T19:45:00+00:00",
+      "home": "Las Palmas",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:2825",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645593,
+      "debut": "2016-11-28T19:45:00+00:00",
+      "home": "Huddersfield",
+      "away": "Wigan",
+      "home_id": "sr:competitor:59",
+      "away_id": "sr:competitor:49",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9821141,
+      "debut": "2016-11-28T20:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2693",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788763,
+      "debut": "2016-11-28T20:00:00+00:00",
+      "home": "Braga",
+      "away": "Feirense",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:4501",
+      "score_home": 6,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

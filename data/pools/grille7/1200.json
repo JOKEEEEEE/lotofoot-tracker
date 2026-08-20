@@ -1,0 +1,127 @@
+{
+  "grille_id": 1200,
+  "grille_type": "grille7",
+  "pool_id": 7001200,
+  "titre": "Grille 7 n°1200",
+  "statut": "CLOSED",
+  "fin": "2019-03-20T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:09:47.335498+00:00",
+  "mises_nettes": 8337.75,
+  "montant_distribue": 8337.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100111010010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1042.22
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 66,
+      "winningsPerGrid": 63.16
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16231624,
+      "debut": "2019-03-20T19:45:00+00:00",
+      "home": "Lyon",
+      "away": "Wolfsburg",
+      "home_id": "sr:competitor:26245",
+      "away_id": "sr:competitor:5556",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17189295,
+      "debut": "2019-03-20T19:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Serbie",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:6355",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17635838,
+      "debut": "2019-03-20T21:15:00+00:00",
+      "home": "Deportivo Capiata",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:87470",
+      "away_id": "sr:competitor:5996",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17635842,
+      "debut": "2019-03-20T23:15:00+00:00",
+      "home": "Olimpia Asuncion",
+      "away": "Deportivo Santani",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:90962",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17458055,
+      "debut": "2019-03-21T00:30:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Deportivo Cali",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:6112",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17602747,
+      "debut": "2019-03-21T14:00:00+00:00",
+      "home": "NA Hussein Dey",
+      "away": "MO Bejaia",
+      "home_id": "sr:competitor:42208",
+      "away_id": "sr:competitor:112469",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16401688,
+      "debut": "2019-03-21T15:00:00+00:00",
+      "home": "Kazakhstan",
+      "away": "Écosse",
+      "home_id": "sr:competitor:4772",
+      "away_id": "sr:competitor:4695",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

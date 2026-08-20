@@ -1,0 +1,136 @@
+{
+  "grille_id": 3047,
+  "grille_type": "grille7",
+  "pool_id": 7003047,
+  "titre": "Grille 7 n°3047",
+  "statut": "CLOSED",
+  "fin": "2023-09-22T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:18:27.290346+00:00",
+  "mises_nettes": 14207.25,
+  "montant_distribue": 14207.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 373.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 248,
+      "winningsPerGrid": 28.64
+    }
+  ],
+  "repartition": [
+    294,
+    2074,
+    4960,
+    6032,
+    3951,
+    1365,
+    248,
+    19
+  ],
+  "matches": [
+    {
+      "match_id": 42023025,
+      "debut": "2023-09-22T18:30:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Darmstadt",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2576",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134193,
+      "debut": "2023-09-22T18:45:00+00:00",
+      "home": "Lecce",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2689",
+      "away_id": "sr:competitor:2713",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893801,
+      "debut": "2023-09-22T18:45:00+00:00",
+      "home": "Standard Liège",
+      "away": "Westerlo",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:2893",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42004613,
+      "debut": "2023-09-22T19:00:00+00:00",
+      "home": "Monaco",
+      "away": "Nice",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1661",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893011,
+      "debut": "2023-09-22T19:00:00+00:00",
+      "home": "Alaves",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2825",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41887771,
+      "debut": "2023-09-22T19:00:00+00:00",
+      "home": "Birmingham",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:1",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146211,
+      "debut": "2023-09-22T19:15:00+00:00",
+      "home": "Famalicao",
+      "away": "FC Arouca",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:25777",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

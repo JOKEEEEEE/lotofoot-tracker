@@ -1,0 +1,127 @@
+{
+  "grille_id": 2443,
+  "grille_type": "grille7",
+  "pool_id": 7002443,
+  "titre": "Grille 7 n°2443",
+  "statut": "CLOSED",
+  "fin": "2022-04-17T18:45:00+00:00",
+  "collecte_le": "2026-08-20T09:17:27.305760+00:00",
+  "mises_nettes": 7626.75,
+  "montant_distribue": 7626.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 162,
+      "winningsPerGrid": 23.54
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 962,
+      "winningsPerGrid": 3.96
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 27885318,
+      "debut": "2022-04-17T18:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1641",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965800,
+      "debut": "2022-04-17T19:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2829",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932181,
+      "debut": "2022-04-17T19:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1981",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077556,
+      "debut": "2022-04-17T19:30:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3006",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31046045,
+      "debut": "2022-04-17T20:00:00+00:00",
+      "home": "Los Angeles FC",
+      "away": "Kansas City",
+      "home_id": "sr:competitor:402227",
+      "away_id": "sr:competitor:2509",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932189,
+      "debut": "2022-04-17T21:00:00+00:00",
+      "home": "Internacional ",
+      "away": "Fortaleza CE",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:2020",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932197,
+      "debut": "2022-04-17T21:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

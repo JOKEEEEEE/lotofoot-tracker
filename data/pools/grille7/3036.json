@@ -1,0 +1,136 @@
+{
+  "grille_id": 3036,
+  "grille_type": "grille7",
+  "pool_id": 7003036,
+  "titre": "Grille 7 n°3036",
+  "statut": "CLOSED",
+  "fin": "2023-09-14T21:30:00+00:00",
+  "collecte_le": "2026-08-20T08:27:09.933517+00:00",
+  "mises_nettes": 5151,
+  "montant_distribue": 5151,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 29,
+      "winningsPerGrid": 88.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 214,
+      "winningsPerGrid": 12.04
+    }
+  ],
+  "repartition": [
+    76,
+    542,
+    1426,
+    2071,
+    1718,
+    792,
+    214,
+    29
+  ],
+  "matches": [
+    {
+      "match_id": 42129369,
+      "debut": "2023-09-14T21:30:00+00:00",
+      "home": "Tolima",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6115",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439399,
+      "debut": "2023-09-14T22:00:00+00:00",
+      "home": "Santos",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1954",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439409,
+      "debut": "2023-09-14T22:00:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1957",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42129363,
+      "debut": "2023-09-14T22:45:00+00:00",
+      "home": "Águilas Doradas",
+      "away": "AD Unión Magdalena",
+      "home_id": "sr:competitor:48244",
+      "away_id": "sr:competitor:89376",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439407,
+      "debut": "2023-09-14T23:00:00+00:00",
+      "home": "Coritiba",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1955",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42129367,
+      "debut": "2023-09-14T23:40:00+00:00",
+      "home": "Deportivo Cali",
+      "away": "Atletico Huila",
+      "home_id": "sr:competitor:6112",
+      "away_id": "sr:competitor:6104",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439401,
+      "debut": "2023-09-15T00:30:00+00:00",
+      "home": "Bragantino SP",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:5926",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

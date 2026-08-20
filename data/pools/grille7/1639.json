@@ -1,0 +1,127 @@
+{
+  "grille_id": 1639,
+  "grille_type": "grille7",
+  "pool_id": 7001639,
+  "titre": "Grille 7 n°1639",
+  "statut": "CLOSED",
+  "fin": "2020-06-15T17:30:00+00:00",
+  "collecte_le": "2026-08-20T10:27:36.115189+00:00",
+  "mises_nettes": 14456.25,
+  "montant_distribue": 14456.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 18,
+      "winningsPerGrid": 401.56
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 278,
+      "winningsPerGrid": 26
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22153509,
+      "debut": "2020-06-15T17:30:00+00:00",
+      "home": "Levante",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22178507,
+      "debut": "2020-06-15T17:30:00+00:00",
+      "home": "Ponferradina",
+      "away": "Elche",
+      "home_id": "sr:competitor:6195",
+      "away_id": "sr:competitor:2846",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085365,
+      "debut": "2020-06-15T18:00:00+00:00",
+      "home": "Maritimo",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:3007",
+      "away_id": "sr:competitor:3010",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22136571,
+      "debut": "2020-06-15T18:00:00+00:00",
+      "home": "Sivasspor",
+      "away": "Denizlispor",
+      "home_id": "sr:competitor:3076",
+      "away_id": "sr:competitor:3058",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22070029,
+      "debut": "2020-06-15T18:30:00+00:00",
+      "home": "Arminia Bielefeld",
+      "away": "Dynamo Dresden",
+      "home_id": "sr:competitor:2540",
+      "away_id": "sr:competitor:2595",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22178499,
+      "debut": "2020-06-15T19:30:00+00:00",
+      "home": "Tenerife",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:2830",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22153513,
+      "debut": "2020-06-15T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:33779",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

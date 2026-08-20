@@ -1,0 +1,127 @@
+{
+  "grille_id": 902,
+  "grille_type": "grille7",
+  "pool_id": 7000902,
+  "titre": "Grille 7 n°902",
+  "statut": "CLOSED",
+  "fin": "2018-05-18T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:36:32.208101+00:00",
+  "mises_nettes": 10034.25,
+  "montant_distribue": 10034.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "111001010001001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 64,
+      "winningsPerGrid": 78.39
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 671,
+      "winningsPerGrid": 7.48
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12188766,
+      "debut": "2018-05-18T18:30:00+00:00",
+      "home": "Ternana",
+      "away": "Avellino",
+      "home_id": "sr:competitor:2708",
+      "away_id": "sr:competitor:2730",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188770,
+      "debut": "2018-05-18T18:30:00+00:00",
+      "home": "Ascoli",
+      "away": "Brescia",
+      "home_id": "sr:competitor:2707",
+      "away_id": "sr:competitor:2691",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188786,
+      "debut": "2018-05-18T18:30:00+00:00",
+      "home": "Salernitana",
+      "away": "Palerme",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2715",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188790,
+      "debut": "2018-05-18T18:30:00+00:00",
+      "home": "Spezia",
+      "away": "Parme",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:2690",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188798,
+      "debut": "2018-05-18T18:30:00+00:00",
+      "home": "Venezia",
+      "away": "Pescara Calcio",
+      "home_id": "sr:competitor:2688",
+      "away_id": "sr:competitor:2728",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188806,
+      "debut": "2018-05-18T18:30:00+00:00",
+      "home": "Novara",
+      "away": "Entella",
+      "home_id": "sr:competitor:2767",
+      "away_id": "sr:competitor:43680",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14556898,
+      "debut": "2018-05-20T17:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1662",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

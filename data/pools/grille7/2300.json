@@ -1,0 +1,136 @@
+{
+  "grille_id": 2300,
+  "grille_type": "grille7",
+  "pool_id": 7002300,
+  "titre": "Grille 7 n°2300",
+  "statut": "CLOSED",
+  "fin": "2021-12-20T18:00:00+00:00",
+  "collecte_le": "2026-08-20T09:29:45.201217+00:00",
+  "mises_nettes": 7861.5,
+  "montant_distribue": 7861.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001111001001111001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 44,
+      "winningsPerGrid": 89.34
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 692,
+      "winningsPerGrid": 5.68
+    }
+  ],
+  "repartition": [
+    0,
+    0,
+    840,
+    2891,
+    3703,
+    2312,
+    692,
+    44
+  ],
+  "matches": [
+    {
+      "match_id": 28077916,
+      "debut": "2021-12-20T18:00:00+00:00",
+      "home": "Sporting Covilha",
+      "away": "SC Varzim",
+      "home_id": "sr:competitor:3037",
+      "away_id": "sr:competitor:3005",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27958238,
+      "debut": "2021-12-20T18:30:00+00:00",
+      "home": "Dinamo Bucarest",
+      "away": "Farul Constanța",
+      "home_id": "sr:competitor:3292",
+      "away_id": "sr:competitor:3294",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28303698,
+      "debut": "2021-12-20T19:30:00+00:00",
+      "home": "Lecce",
+      "away": "Vicenza",
+      "home_id": "sr:competitor:2689",
+      "away_id": "sr:competitor:2722",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27867482,
+      "debut": "2021-12-20T19:45:00+00:00",
+      "home": "Fulham",
+      "away": "Sheffield United",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:15",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965512,
+      "debut": "2021-12-20T20:00:00+00:00",
+      "home": "Levante",
+      "away": "Valence",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2828",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27973504,
+      "debut": "2021-12-20T20:00:00+00:00",
+      "home": "Lugo",
+      "away": "Almeria",
+      "home_id": "sr:competitor:24332",
+      "away_id": "sr:competitor:2858",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077920,
+      "debut": "2021-12-20T20:15:00+00:00",
+      "home": "Trofense",
+      "away": "Feirense",
+      "home_id": "sr:competitor:6154",
+      "away_id": "sr:competitor:4501",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2901,
+  "grille_type": "grille7",
+  "pool_id": 7002901,
+  "titre": "Grille 7 n°2901",
+  "statut": "CLOSED",
+  "fin": "2023-05-09T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:37:58.619213+00:00",
+  "mises_nettes": 6729.75,
+  "montant_distribue": 6729.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 25,
+      "winningsPerGrid": 134.6
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 296,
+      "winningsPerGrid": 11.37
+    }
+  ],
+  "repartition": [
+    144,
+    795,
+    1812,
+    2487,
+    2235,
+    1179,
+    296,
+    25
+  ],
+  "matches": [
+    {
+      "match_id": 40781327,
+      "debut": "2023-05-09T19:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:17",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38306791,
+      "debut": "2023-05-09T19:30:00+00:00",
+      "home": "Deportes Magallanes",
+      "away": "Curico Unido",
+      "home_id": "sr:competitor:89508",
+      "away_id": "sr:competitor:33595",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38306793,
+      "debut": "2023-05-09T22:00:00+00:00",
+      "home": "Nublense",
+      "away": "Deportes Copiapo",
+      "home_id": "sr:competitor:7029",
+      "away_id": "sr:competitor:89506",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38306797,
+      "debut": "2023-05-09T22:00:00+00:00",
+      "home": "Union Espanola",
+      "away": "Deportes Union La Calera",
+      "home_id": "sr:competitor:3153",
+      "away_id": "sr:competitor:48242",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38306785,
+      "debut": "2023-05-10T00:30:00+00:00",
+      "home": "Colo Colo",
+      "away": "Audax Italiano",
+      "home_id": "sr:competitor:3155",
+      "away_id": "sr:competitor:3162",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38707065,
+      "debut": "2023-05-10T10:30:00+00:00",
+      "home": "Jeju United",
+      "away": "Incheon United",
+      "home_id": "sr:competitor:7649",
+      "away_id": "sr:competitor:7648",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38707067,
+      "debut": "2023-05-10T10:30:00+00:00",
+      "home": "Suwon Bluewings",
+      "away": "Jeonbuk Motors",
+      "home_id": "sr:competitor:7652",
+      "away_id": "sr:competitor:6908",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

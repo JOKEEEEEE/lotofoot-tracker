@@ -1,0 +1,127 @@
+{
+  "grille_id": 502,
+  "grille_type": "grille7",
+  "pool_id": 7000502,
+  "titre": "Grille 7 n°502",
+  "statut": "CLOSED",
+  "fin": "2017-03-25T19:30:00+00:00",
+  "collecte_le": "2026-08-20T12:11:11.648118+00:00",
+  "mises_nettes": 7983,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 8,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 96,
+      "winningsPerGrid": 41.67
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9914309,
+      "debut": "2017-03-25T19:30:00+00:00",
+      "home": "Benevento",
+      "away": "Trapani",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:43686",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9774925,
+      "debut": "2017-03-25T19:30:00+00:00",
+      "home": "Majorque",
+      "away": "Levante",
+      "home_id": "sr:competitor:2826",
+      "away_id": "sr:competitor:2849",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9774915,
+      "debut": "2017-03-25T19:45:00+00:00",
+      "home": "Real Oviedo",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:24264",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678170,
+      "debut": "2017-03-25T19:45:00+00:00",
+      "home": "Bulgarie",
+      "away": "Pays-Bas",
+      "home_id": "sr:competitor:4716",
+      "away_id": "sr:competitor:4705",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678228,
+      "debut": "2017-03-25T19:45:00+00:00",
+      "home": "Portugal",
+      "away": "Hongrie",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4709",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678602,
+      "debut": "2017-03-25T19:45:00+00:00",
+      "home": "Belgique",
+      "away": "Grèce",
+      "home_id": "sr:competitor:4717",
+      "away_id": "sr:competitor:4710",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893084,
+      "debut": "2017-03-25T20:00:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "Real Salt Lake",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:5133",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

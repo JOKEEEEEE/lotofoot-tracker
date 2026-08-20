@@ -1,0 +1,136 @@
+{
+  "grille_id": 2816,
+  "grille_type": "grille7",
+  "pool_id": 7002816,
+  "titre": "Grille 7 n°2816",
+  "statut": "CLOSED",
+  "fin": "2023-03-02T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:45:21.935365+00:00",
+  "mises_nettes": 6755.25,
+  "montant_distribue": 6755.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100111010001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1688.82
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 36,
+      "winningsPerGrid": 93.82
+    }
+  ],
+  "repartition": [
+    0,
+    1272,
+    3039,
+    2970,
+    1333,
+    339,
+    36,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 38658125,
+      "debut": "2023-03-02T19:45:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:4860",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39039255,
+      "debut": "2023-03-02T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39617013,
+      "debut": "2023-03-02T22:00:00+00:00",
+      "home": "Tacuary Asuncion",
+      "away": "Sportivo Ameliano",
+      "home_id": "sr:competitor:5999",
+      "away_id": "sr:competitor:607728",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38292679,
+      "debut": "2023-03-02T23:30:00+00:00",
+      "home": "Universidad De Chile",
+      "away": "Deportes Union La Calera",
+      "home_id": "sr:competitor:3161",
+      "away_id": "sr:competitor:48242",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38638377,
+      "debut": "2023-03-03T01:00:00+00:00",
+      "home": "La Equidad",
+      "away": "Boyaca Chico FC",
+      "home_id": "sr:competitor:6975",
+      "away_id": "sr:competitor:6107",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35118861,
+      "debut": "2023-03-03T08:45:00+00:00",
+      "home": "Adelaide United FC",
+      "away": "Melbourne City",
+      "home_id": "sr:competitor:2946",
+      "away_id": "sr:competitor:42210",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38871461,
+      "debut": "2023-03-03T10:00:00+00:00",
+      "home": "Yokohama Marinos",
+      "away": "Sanfrecce Hiroshima",
+      "home_id": "sr:competitor:3137",
+      "away_id": "sr:competitor:3135",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1243,
+  "grille_type": "grille7",
+  "pool_id": 7001243,
+  "titre": "Grille 7 n°1243",
+  "statut": "CLOSED",
+  "fin": "2019-05-03T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:05:15.581525+00:00",
+  "mises_nettes": 21551.25,
+  "montant_distribue": 21551.25,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 1346.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 119,
+      "winningsPerGrid": 90.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14745469,
+      "debut": "2019-05-03T18:00:00+00:00",
+      "home": "Troyes",
+      "away": "Nancy",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1675",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745451,
+      "debut": "2019-05-03T18:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Orléans",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:6921",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745453,
+      "debut": "2019-05-03T18:00:00+00:00",
+      "home": "Auxerre",
+      "away": "Châteauroux",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1666",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745455,
+      "debut": "2019-05-03T18:00:00+00:00",
+      "home": "AS Béziers",
+      "away": "Brest",
+      "home_id": "sr:competitor:62200",
+      "away_id": "sr:competitor:1715",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745457,
+      "debut": "2019-05-03T18:00:00+00:00",
+      "home": "Le Havre",
+      "away": "GFC Ajaccio",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:7924",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745465,
+      "debut": "2019-05-03T18:00:00+00:00",
+      "home": "Paris FC",
+      "away": "Grenoble",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1671",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701345,
+      "debut": "2019-05-03T18:45:00+00:00",
+      "home": "Strasbourg",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1659",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

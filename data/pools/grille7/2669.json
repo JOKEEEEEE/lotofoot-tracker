@@ -1,0 +1,136 @@
+{
+  "grille_id": 2669,
+  "grille_type": "grille7",
+  "pool_id": 7002669,
+  "titre": "Grille 7 n°2669",
+  "statut": "CLOSED",
+  "fin": "2022-10-28T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:58:41.856537+00:00",
+  "mises_nettes": 10362,
+  "montant_distribue": 10362,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 24,
+      "winningsPerGrid": 215.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 220,
+      "winningsPerGrid": 23.55
+    }
+  ],
+  "repartition": [
+    126,
+    950,
+    3264,
+    4823,
+    3280,
+    1129,
+    220,
+    24
+  ],
+  "matches": [
+    {
+      "match_id": 34169163,
+      "debut": "2022-10-28T18:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Hertha Berlin",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2528",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271219,
+      "debut": "2022-10-28T18:45:00+00:00",
+      "home": "Racing Genk",
+      "away": "Malines",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:5044",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172245,
+      "debut": "2022-10-28T19:00:00+00:00",
+      "home": "Lens",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1681",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277433,
+      "debut": "2022-10-28T19:00:00+00:00",
+      "home": "Majorque",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2826",
+      "away_id": "sr:competitor:2814",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265551,
+      "debut": "2022-10-28T19:00:00+00:00",
+      "home": "Birmingham",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:1",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278683,
+      "debut": "2022-10-28T19:00:00+00:00",
+      "home": "Tenerife",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:2815",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504761,
+      "debut": "2022-10-28T19:15:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "Maritimo",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:3007",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

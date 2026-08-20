@@ -1,0 +1,136 @@
+{
+  "grille_id": 3708,
+  "grille_type": "grille7",
+  "pool_id": 7003708,
+  "titre": "Grille 7 n°3708",
+  "statut": "CLOSED",
+  "fin": "2025-05-05T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:25:58.875505+00:00",
+  "mises_nettes": 5109.75,
+  "montant_distribue": 5109.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 232.26
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 130,
+      "winningsPerGrid": 19.65
+    }
+  ],
+  "repartition": [
+    99,
+    599,
+    1601,
+    2155,
+    1592,
+    626,
+    130,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 51472403,
+      "debut": "2025-05-05T17:00:00+00:00",
+      "home": "Kasimpasa",
+      "away": "Trabzonspor",
+      "home_id": "sr:competitor:6063",
+      "away_id": "sr:competitor:3051",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51391759,
+      "debut": "2025-05-05T17:00:00+00:00",
+      "home": "Penafiel",
+      "away": "Torreense",
+      "home_id": "sr:competitor:3017",
+      "away_id": "sr:competitor:25787",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51103735,
+      "debut": "2025-05-05T18:30:00+00:00",
+      "home": "Castellon",
+      "away": "Gijon",
+      "home_id": "sr:competitor:5067",
+      "away_id": "sr:competitor:2852",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273497,
+      "debut": "2025-05-05T18:45:00+00:00",
+      "home": "Genoa",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850665,
+      "debut": "2025-05-05T19:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:14",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852741,
+      "debut": "2025-05-05T19:00:00+00:00",
+      "home": "Gérone",
+      "away": "Majorque",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2826",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51389337,
+      "debut": "2025-05-05T19:15:00+00:00",
+      "home": "AVS Futebol SAD",
+      "away": "Boavista",
+      "home_id": "sr:competitor:1031053",
+      "away_id": "sr:competitor:2995",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

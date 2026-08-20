@@ -1,0 +1,127 @@
+{
+  "grille_id": 498,
+  "grille_type": "grille7",
+  "pool_id": 7000498,
+  "titre": "Grille 7 n°498",
+  "statut": "CLOSED",
+  "fin": "2017-03-20T19:15:00+00:00",
+  "collecte_le": "2026-08-20T12:11:32.783982+00:00",
+  "mises_nettes": 8835.75,
+  "montant_distribue": 8835.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001010001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1472.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 87,
+      "winningsPerGrid": 50.78
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9691209,
+      "debut": "2017-03-20T19:15:00+00:00",
+      "home": "Union Berlin",
+      "away": "Nuremberg",
+      "home_id": "sr:competitor:2547",
+      "away_id": "sr:competitor:2523",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9914175,
+      "debut": "2017-03-20T19:30:00+00:00",
+      "home": "Entella",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:43680",
+      "away_id": "sr:competitor:2710",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566133,
+      "debut": "2017-03-20T19:45:00+00:00",
+      "home": "Auxerre",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1659",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10859502,
+      "debut": "2017-03-20T21:30:00+00:00",
+      "home": "Deportes Temuco",
+      "away": "Audax Italiano",
+      "home_id": "sr:competitor:119072",
+      "away_id": "sr:competitor:3162",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11226317,
+      "debut": "2017-03-20T22:00:00+00:00",
+      "home": "Arsenal Sarandi",
+      "away": "Atletico Rafaela",
+      "home_id": "sr:competitor:3221",
+      "away_id": "sr:competitor:34976",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11014983,
+      "debut": "2017-03-20T22:30:00+00:00",
+      "home": "La Equidad",
+      "away": "Boyaca Patriotas FC",
+      "home_id": "sr:competitor:6975",
+      "away_id": "sr:competitor:61504",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10859498,
+      "debut": "2017-03-21T00:00:00+00:00",
+      "home": "O'Higgins",
+      "away": "Deportes Iquique",
+      "home_id": "sr:competitor:3163",
+      "away_id": "sr:competitor:33596",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

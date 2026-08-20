@@ -1,0 +1,127 @@
+{
+  "grille_id": 1520,
+  "grille_type": "grille7",
+  "pool_id": 7001520,
+  "titre": "Grille 7 n°1520",
+  "statut": "CLOSED",
+  "fin": "2020-01-15T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:41:59.535431+00:00",
+  "mises_nettes": 13749,
+  "montant_distribue": 13749,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 103,
+      "winningsPerGrid": 66.74
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1011,
+      "winningsPerGrid": 6.8
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 20292703,
+      "debut": "2020-01-15T18:00:00+00:00",
+      "home": "Nîmes",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1663",
+      "away_id": "sr:competitor:1658",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20587397,
+      "debut": "2020-01-15T18:00:00+00:00",
+      "home": "Amiens",
+      "away": "Reims",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1682",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20581143,
+      "debut": "2020-01-15T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2695",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20869015,
+      "debut": "2020-01-15T19:45:00+00:00",
+      "home": "Manchester United",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:3",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18659470,
+      "debut": "2020-01-15T20:00:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:35092",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20780553,
+      "debut": "2020-01-15T20:00:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "Famalicao",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:49531",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20564419,
+      "debut": "2020-01-15T20:00:00+00:00",
+      "home": "Monaco",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

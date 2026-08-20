@@ -1,0 +1,127 @@
+{
+  "grille_id": 1198,
+  "grille_type": "grille7",
+  "pool_id": 7001198,
+  "titre": "Grille 7 n°1198",
+  "statut": "CLOSED",
+  "fin": "2019-03-18T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:09:51.556218+00:00",
+  "mises_nettes": 13088.25,
+  "montant_distribue": 13088.25,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 727.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 118,
+      "winningsPerGrid": 55.46
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14895185,
+      "debut": "2019-03-18T19:30:00+00:00",
+      "home": "SSV Jahn Regensburg",
+      "away": "Greuther Fürth",
+      "home_id": "sr:competitor:2567",
+      "away_id": "sr:competitor:2551",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745311,
+      "debut": "2019-03-18T19:45:00+00:00",
+      "home": "GFC Ajaccio",
+      "away": "Lens",
+      "home_id": "sr:competitor:7924",
+      "away_id": "sr:competitor:1648",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145731,
+      "debut": "2019-03-18T20:00:00+00:00",
+      "home": "Numancia",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2855",
+      "away_id": "sr:competitor:2830",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15201585,
+      "debut": "2019-03-18T22:00:00+00:00",
+      "home": "Banfield",
+      "away": "Godoy Cruz",
+      "home_id": "sr:competitor:3219",
+      "away_id": "sr:competitor:6074",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15201581,
+      "debut": "2019-03-19T00:10:00+00:00",
+      "home": "Huracan",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:7629",
+      "away_id": "sr:competitor:3206",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17635836,
+      "debut": "2019-03-18T22:15:00+00:00",
+      "home": "Cerro Porteno",
+      "away": "Sol De America",
+      "home_id": "sr:competitor:5991",
+      "away_id": "sr:competitor:36439",
+      "score_home": 7,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16638695,
+      "debut": "2019-03-19T01:00:00+00:00",
+      "home": "Deportivo Cuenca",
+      "away": "Tecnico Universitario",
+      "home_id": "sr:competitor:5251",
+      "away_id": "sr:competitor:21941",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

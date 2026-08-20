@@ -1,0 +1,127 @@
+{
+  "grille_id": 1696,
+  "grille_type": "grille7",
+  "pool_id": 7001696,
+  "titre": "Grille 7 n°1696",
+  "statut": "CLOSED",
+  "fin": "2020-08-03T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:24:02.570382+00:00",
+  "mises_nettes": 12390.75,
+  "montant_distribue": 12390.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 2065.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 86,
+      "winningsPerGrid": 72.04
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22137851,
+      "debut": "2020-08-03T18:30:00+00:00",
+      "home": "FC Bâle",
+      "away": "Lucerne",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:2453",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22137853,
+      "debut": "2020-08-03T18:30:00+00:00",
+      "home": "FC Neuchatel Xamax",
+      "away": "FC Lugano",
+      "home_id": "sr:competitor:2451",
+      "away_id": "sr:competitor:2443",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22137855,
+      "debut": "2020-08-03T18:30:00+00:00",
+      "home": "Servette FC",
+      "away": "Sion",
+      "home_id": "sr:competitor:2448",
+      "away_id": "sr:competitor:2452",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22137859,
+      "debut": "2020-08-03T18:30:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Saint-Gall",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:2442",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22137861,
+      "debut": "2020-08-03T18:30:00+00:00",
+      "home": "FC Zurich",
+      "away": "Thoune",
+      "home_id": "sr:competitor:2450",
+      "away_id": "sr:competitor:2454",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22713203,
+      "debut": "2020-08-03T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3170",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22627553,
+      "debut": "2020-08-03T18:45:00+00:00",
+      "home": "Ross County",
+      "away": "Motherwell",
+      "home_id": "sr:competitor:2365",
+      "away_id": "sr:competitor:2346",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

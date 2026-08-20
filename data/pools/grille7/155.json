@@ -1,0 +1,127 @@
+{
+  "grille_id": 155,
+  "grille_type": "grille7",
+  "pool_id": 7000155,
+  "titre": "Grille 7 n°155",
+  "statut": "CLOSED",
+  "fin": "2016-02-24T19:45:00+00:00",
+  "collecte_le": "2026-08-20T12:44:52.159863+00:00",
+  "mises_nettes": 11687.25,
+  "montant_distribue": 11687.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100010100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1168.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 118,
+      "winningsPerGrid": 49.52
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8581102,
+      "debut": "2016-02-24T19:45:00+00:00",
+      "home": "Dynamo Kiev",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:3305",
+      "away_id": "sr:competitor:17",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8581090,
+      "debut": "2016-02-24T19:45:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7466536,
+      "debut": "2016-02-24T19:45:00+00:00",
+      "home": "Derby County",
+      "away": "Blackburn",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:46",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8583606,
+      "debut": "2016-02-25T16:00:00+00:00",
+      "home": "Lokomotiv Moscou",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:2320",
+      "away_id": "sr:competitor:3052",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8583626,
+      "debut": "2016-02-25T18:00:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:3061",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8583630,
+      "debut": "2016-02-25T18:00:00+00:00",
+      "home": "Schalke 04",
+      "away": "Shakhtar Donetsk",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:3313",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8583634,
+      "debut": "2016-02-25T18:00:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Marseille",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

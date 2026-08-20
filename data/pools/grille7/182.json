@@ -1,0 +1,127 @@
+{
+  "grille_id": 182,
+  "grille_type": "grille7",
+  "pool_id": 7000182,
+  "titre": "Grille 7 n°182",
+  "statut": "CLOSED",
+  "fin": "2016-03-24T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:42:15.229055+00:00",
+  "mises_nettes": 11845.5,
+  "montant_distribue": 11845.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 394.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 336,
+      "winningsPerGrid": 17.63
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8860164,
+      "debut": "2016-03-24T19:00:00+00:00",
+      "home": "Danemark",
+      "away": "Islande",
+      "home_id": "sr:competitor:4476",
+      "away_id": "sr:competitor:4708",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8356702,
+      "debut": "2016-03-24T19:45:00+00:00",
+      "home": "Italie",
+      "away": "Espagne",
+      "home_id": "sr:competitor:4707",
+      "away_id": "sr:competitor:4698",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8720036,
+      "debut": "2016-03-24T19:45:00+00:00",
+      "home": "République Tchèque",
+      "away": "Écosse",
+      "home_id": "sr:competitor:4714",
+      "away_id": "sr:competitor:4695",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8860158,
+      "debut": "2016-03-24T19:45:00+00:00",
+      "home": "Pays de Galles",
+      "away": "Irlande du Nord",
+      "home_id": "sr:competitor:4702",
+      "away_id": "sr:competitor:4786",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7695994,
+      "debut": "2016-03-24T20:00:00+00:00",
+      "home": "Bolivie",
+      "away": "Colombie",
+      "home_id": "sr:competitor:4746",
+      "away_id": "sr:competitor:4820",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8738350,
+      "debut": "2016-03-24T20:00:00+00:00",
+      "home": "France U21",
+      "away": "Écosse U21",
+      "home_id": "sr:competitor:5936",
+      "away_id": "sr:competitor:6051",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7695988,
+      "debut": "2016-03-24T23:30:00+00:00",
+      "home": "Chili",
+      "away": "Argentine",
+      "home_id": "sr:competitor:4754",
+      "away_id": "sr:competitor:4819",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

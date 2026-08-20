@@ -1,0 +1,127 @@
+{
+  "grille_id": 1100,
+  "grille_type": "grille7",
+  "pool_id": 7001100,
+  "titre": "Grille 7 n°1100",
+  "statut": "CLOSED",
+  "fin": "2018-12-07T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:17:02.912262+00:00",
+  "mises_nettes": 16024.5,
+  "montant_distribue": 16024.5,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010010111100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 183,
+      "winningsPerGrid": 43.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1444,
+      "winningsPerGrid": 5.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15159911,
+      "debut": "2018-12-07T19:30:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14894299,
+      "debut": "2018-12-07T19:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Düsseldorf",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2588",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700967,
+      "debut": "2018-12-07T19:45:00+00:00",
+      "home": "Monaco",
+      "away": "Nice",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1661",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14783299,
+      "debut": "2018-12-07T20:00:00+00:00",
+      "home": "West Bromwich",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:8",
+      "away_id": "sr:competitor:40",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109265,
+      "debut": "2018-12-07T20:00:00+00:00",
+      "home": "Leganes",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15196117,
+      "debut": "2018-12-07T20:00:00+00:00",
+      "home": "Tenerife",
+      "away": "Extremadura UD",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:43758",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324478,
+      "debut": "2018-12-07T20:00:00+00:00",
+      "home": "Pescara Calcio",
+      "away": "Carpi",
+      "home_id": "sr:competitor:2728",
+      "away_id": "sr:competitor:43685",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

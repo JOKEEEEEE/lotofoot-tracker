@@ -1,0 +1,136 @@
+{
+  "grille_id": 3475,
+  "grille_type": "grille7",
+  "pool_id": 7003475,
+  "titre": "Grille 7 n°3475",
+  "statut": "CLOSED",
+  "fin": "2024-09-26T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:48:39.555801+00:00",
+  "mises_nettes": 12419.25,
+  "montant_distribue": 12419.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 20,
+      "winningsPerGrid": 310.48
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 477,
+      "winningsPerGrid": 13.02
+    }
+  ],
+  "repartition": [
+    251,
+    1224,
+    3183,
+    4711,
+    4373,
+    2320,
+    477,
+    20
+  ],
+  "matches": [
+    {
+      "match_id": 53160573,
+      "debut": "2024-09-26T19:00:00+00:00",
+      "home": "Lyon",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:3245",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160567,
+      "debut": "2024-09-26T19:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2825",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160565,
+      "debut": "2024-09-26T19:00:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:3050",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160569,
+      "debut": "2024-09-26T19:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Viktoria Plzen",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:4502",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160571,
+      "debut": "2024-09-26T19:00:00+00:00",
+      "home": "FCSB ",
+      "away": "Rigas Futbola Skola",
+      "home_id": "sr:competitor:3301",
+      "away_id": "sr:competitor:68718",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160575,
+      "debut": "2024-09-26T19:00:00+00:00",
+      "home": "Braga",
+      "away": "Maccabi Tel Aviv",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:5198",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852213,
+      "debut": "2024-09-26T19:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

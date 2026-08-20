@@ -1,0 +1,136 @@
+{
+  "grille_id": 3630,
+  "grille_type": "grille7",
+  "pool_id": 7003630,
+  "titre": "Grille 7 n°3630",
+  "statut": "CLOSED",
+  "fin": "2025-02-17T19:45:00+00:00",
+  "collecte_le": "2026-08-20T07:35:50.698574+00:00",
+  "mises_nettes": 8595,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 77,
+      "winningsPerGrid": 64.94
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 736,
+      "winningsPerGrid": 6.79
+    }
+  ],
+  "repartition": [
+    28,
+    357,
+    1527,
+    3033,
+    3472,
+    2230,
+    736,
+    77
+  ],
+  "matches": [
+    {
+      "match_id": 57042839,
+      "debut": "2025-02-17T19:45:00+00:00",
+      "home": "Annecy FC",
+      "away": "Caen",
+      "home_id": "sr:competitor:234888",
+      "away_id": "sr:competitor:1667",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273289,
+      "debut": "2025-02-17T19:45:00+00:00",
+      "home": "Genoa",
+      "away": "Venise",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2688",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852543,
+      "debut": "2025-02-17T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2818",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55549267,
+      "debut": "2025-02-17T20:00:00+00:00",
+      "home": "Leeds",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:41",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742861,
+      "debut": "2025-02-17T20:00:00+00:00",
+      "home": "Sarmiento",
+      "away": "Deportivo Riestra",
+      "home_id": "sr:competitor:42338",
+      "away_id": "sr:competitor:191648",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742865,
+      "debut": "2025-02-17T20:00:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "San Martín",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:7772",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51389093,
+      "debut": "2025-02-17T20:15:00+00:00",
+      "home": "Gil Vicente",
+      "away": "Famalicao",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:49531",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

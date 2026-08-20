@@ -1,0 +1,127 @@
+{
+  "grille_id": 1613,
+  "grille_type": "grille7",
+  "pool_id": 7001613,
+  "titre": "Grille 7 n°1613",
+  "statut": "CLOSED",
+  "fin": "2020-05-18T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:29:59.176847+00:00",
+  "mises_nettes": 8182.5,
+  "montant_distribue": 8182.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001001001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 4091.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 53,
+      "winningsPerGrid": 77.19
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21970819,
+      "debut": "2020-05-18T18:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Bayer Leverkusen",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2681",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22022591,
+      "debut": "2020-05-19T16:00:00+00:00",
+      "home": "Tallinna JK Legion",
+      "away": "Levadia Tallinn",
+      "home_id": "sr:competitor:36076",
+      "away_id": "sr:competitor:3342",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22022593,
+      "debut": "2020-05-19T16:00:00+00:00",
+      "home": "FC Kuressaare",
+      "away": "Nomme Kalju",
+      "home_id": "sr:competitor:7106",
+      "away_id": "sr:competitor:8091",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22022595,
+      "debut": "2020-05-19T16:30:00+00:00",
+      "home": "Paide Linnameeskond",
+      "away": "Viljandi JK Tulevik",
+      "home_id": "sr:competitor:32476",
+      "away_id": "sr:competitor:74497",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21893961,
+      "debut": "2020-05-20T16:00:00+00:00",
+      "home": "Dinamo Brest",
+      "away": "BATE Borisov",
+      "home_id": "sr:competitor:3353",
+      "away_id": "sr:competitor:3350",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22022597,
+      "debut": "2020-05-20T16:00:00+00:00",
+      "home": "Tallinn Kalev",
+      "away": "Trans Narva",
+      "home_id": "sr:competitor:7105",
+      "away_id": "sr:competitor:3343",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22022599,
+      "debut": "2020-05-20T16:30:00+00:00",
+      "home": "Flora Tallinn",
+      "away": "Tammeka Tartu",
+      "home_id": "sr:competitor:3346",
+      "away_id": "sr:competitor:138566",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

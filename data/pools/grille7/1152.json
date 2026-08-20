@@ -1,0 +1,127 @@
+{
+  "grille_id": 1152,
+  "grille_type": "grille7",
+  "pool_id": 7001152,
+  "titre": "Grille 7 n°1152",
+  "statut": "CLOSED",
+  "fin": "2019-01-31T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:14:56.894143+00:00",
+  "mises_nettes": 6706.5,
+  "montant_distribue": 6706.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001010000100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 335.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 142,
+      "winningsPerGrid": 23.61
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14895059,
+      "debut": "2019-01-31T19:30:00+00:00",
+      "home": "Union Berlin",
+      "away": "Cologne",
+      "home_id": "sr:competitor:2547",
+      "away_id": "sr:competitor:2671",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16762171,
+      "debut": "2019-01-31T19:30:00+00:00",
+      "home": "Gibraltar United FC",
+      "away": "Mons Calpe SC",
+      "home_id": "sr:competitor:226290",
+      "away_id": "sr:competitor:261759",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17006587,
+      "debut": "2019-01-31T20:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2699",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17076051,
+      "debut": "2019-01-31T20:30:00+00:00",
+      "home": "Gérone",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2829",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899287,
+      "debut": "2019-01-31T23:00:00+00:00",
+      "home": "Once Caldas",
+      "away": "Millonarios ",
+      "home_id": "sr:competitor:6118",
+      "away_id": "sr:competitor:6117",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16650113,
+      "debut": "2019-02-01T00:00:00+00:00",
+      "home": "San Martin De San Juan",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:7772",
+      "away_id": "sr:competitor:3202",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899289,
+      "debut": "2019-02-01T01:00:00+00:00",
+      "home": "America De Cali",
+      "away": "Tolima",
+      "home_id": "sr:competitor:6102",
+      "away_id": "sr:competitor:6111",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

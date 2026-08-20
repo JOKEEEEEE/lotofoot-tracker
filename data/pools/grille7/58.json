@@ -1,0 +1,127 @@
+{
+  "grille_id": 58,
+  "grille_type": "grille7",
+  "pool_id": 7000058,
+  "titre": "Grille 7 n°58",
+  "statut": "CLOSED",
+  "fin": "2015-11-15T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:53:42.751768+00:00",
+  "mises_nettes": 4160.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 58,
+      "winningsPerGrid": 43.1
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7616334,
+      "debut": "2015-11-15T16:00:00+00:00",
+      "home": "Almeria",
+      "away": "Ponferradina",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:6195",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616342,
+      "debut": "2015-11-15T16:00:00+00:00",
+      "home": "Cordoue",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2850",
+      "away_id": "sr:competitor:24265",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616328,
+      "debut": "2015-11-15T18:15:00+00:00",
+      "home": "Osasuna",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2826",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 6971402,
+      "debut": "2015-11-15T19:00:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1959",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8240936,
+      "debut": "2015-11-15T19:00:00+00:00",
+      "home": "Guinée",
+      "away": "Namibie",
+      "home_id": "sr:competitor:4826",
+      "away_id": "sr:competitor:4832",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7988984,
+      "debut": "2015-11-15T19:30:00+00:00",
+      "home": "Cesena",
+      "away": "Bari",
+      "home_id": "sr:competitor:2742",
+      "away_id": "sr:competitor:2712",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8240464,
+      "debut": "2015-11-15T19:45:00+00:00",
+      "home": "Hongrie",
+      "away": "Norvège",
+      "home_id": "sr:competitor:4709",
+      "away_id": "sr:competitor:4475",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

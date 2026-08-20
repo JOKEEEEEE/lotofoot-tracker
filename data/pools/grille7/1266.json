@@ -1,0 +1,127 @@
+{
+  "grille_id": 1266,
+  "grille_type": "grille7",
+  "pool_id": 7001266,
+  "titre": "Grille 7 n°1266",
+  "statut": "CLOSED",
+  "fin": "2019-05-26T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:03:23.920186+00:00",
+  "mises_nettes": 11780.25,
+  "montant_distribue": 11780.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 129,
+      "winningsPerGrid": 45.66
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1058,
+      "winningsPerGrid": 5.57
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15160369,
+      "debut": "2019-05-26T18:30:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2793",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160371,
+      "debut": "2019-05-26T18:30:00+00:00",
+      "home": "AS Rome",
+      "away": "Parme",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2690",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160373,
+      "debut": "2019-05-26T18:30:00+00:00",
+      "home": "Inter Milan",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2705",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160377,
+      "debut": "2019-05-26T18:30:00+00:00",
+      "home": "Spal 2013",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:113755",
+      "away_id": "sr:competitor:2692",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160379,
+      "debut": "2019-05-26T18:30:00+00:00",
+      "home": "Fiorentina",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2713",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160383,
+      "debut": "2019-05-26T18:30:00+00:00",
+      "home": "Cagliari",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2695",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17788904,
+      "debut": "2019-05-26T19:00:00+00:00",
+      "home": "Santos",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

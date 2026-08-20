@@ -1,0 +1,127 @@
+{
+  "grille_id": 1204,
+  "grille_type": "grille7",
+  "pool_id": 7001204,
+  "titre": "Grille 7 n°1204",
+  "statut": "CLOSED",
+  "fin": "2019-03-24T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:09:38.159788+00:00",
+  "mises_nettes": 16176.75,
+  "montant_distribue": 16176.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 58,
+      "winningsPerGrid": 139.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 871,
+      "winningsPerGrid": 9.29
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16403908,
+      "debut": "2019-03-24T19:45:00+00:00",
+      "home": "Pays-Bas",
+      "away": "Allemagne",
+      "home_id": "sr:competitor:4705",
+      "away_id": "sr:competitor:4711",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16403698,
+      "debut": "2019-03-24T19:45:00+00:00",
+      "home": "Chypre",
+      "away": "Belgique",
+      "home_id": "sr:competitor:4482",
+      "away_id": "sr:competitor:4717",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16403714,
+      "debut": "2019-03-24T19:45:00+00:00",
+      "home": "Slovénie",
+      "away": "Macédoine du Nord",
+      "home_id": "sr:competitor:4484",
+      "away_id": "sr:competitor:4777",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16403716,
+      "debut": "2019-03-24T19:45:00+00:00",
+      "home": "Pologne",
+      "away": "Lettonie",
+      "home_id": "sr:competitor:4703",
+      "away_id": "sr:competitor:4706",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16403802,
+      "debut": "2019-03-24T19:45:00+00:00",
+      "home": "Irlande du Nord",
+      "away": "Biélorussie",
+      "home_id": "sr:competitor:4786",
+      "away_id": "sr:competitor:4743",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145753,
+      "debut": "2019-03-24T19:45:00+00:00",
+      "home": "Gijon",
+      "away": "Real Oviedo",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:2851",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681567,
+      "debut": "2019-03-24T20:00:00+00:00",
+      "home": "New England Revolution",
+      "away": "FC Cincinnati",
+      "home_id": "sr:competitor:2511",
+      "away_id": "sr:competitor:245305",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

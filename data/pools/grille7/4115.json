@@ -1,0 +1,136 @@
+{
+  "grille_id": 4115,
+  "grille_type": "grille7",
+  "pool_id": 7004115,
+  "titre": "Grille 7 n°4115",
+  "statut": "CLOSED",
+  "fin": "2026-06-23T17:00:00+00:00",
+  "collecte_le": "2026-08-20T05:57:29.076544+00:00",
+  "mises_nettes": 14985,
+  "montant_distribue": 14985,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 116,
+      "winningsPerGrid": 64.59
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 2221,
+      "winningsPerGrid": 3.37
+    }
+  ],
+  "repartition": [
+    16,
+    235,
+    1310,
+    3844,
+    6355,
+    5883,
+    2221,
+    116
+  ],
+  "matches": [
+    {
+      "match_id": 66457034,
+      "debut": "2026-06-23T17:00:00+00:00",
+      "home": "Portugal",
+      "away": "Ouzbékistan",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4723",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.1,
+      "cote_N": 7.75,
+      "cote_2": 16
+    },
+    {
+      "match_id": 66457046,
+      "debut": "2026-06-23T20:00:00+00:00",
+      "home": "Angleterre",
+      "away": "Ghana",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:4764",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.16,
+      "cote_N": 6,
+      "cote_2": 12.5
+    },
+    {
+      "match_id": 66457048,
+      "debut": "2026-06-23T23:00:00+00:00",
+      "home": "Panama",
+      "away": "Croatie",
+      "home_id": "sr:competitor:5164",
+      "away_id": "sr:competitor:4715",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 6.5,
+      "cote_N": 3.95,
+      "cote_2": 1.41
+    },
+    {
+      "match_id": 66457036,
+      "debut": "2026-06-24T02:00:00+00:00",
+      "home": "Colombie",
+      "away": "RD Congo",
+      "home_id": "sr:competitor:4820",
+      "away_id": "sr:competitor:4823",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.48,
+      "cote_N": 3.65,
+      "cote_2": 6
+    },
+    {
+      "match_id": 66456924,
+      "debut": "2026-06-24T19:00:00+00:00",
+      "home": "Suisse",
+      "away": "Canada",
+      "home_id": "sr:competitor:4699",
+      "away_id": "sr:competitor:4752",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.35,
+      "cote_N": 2.75,
+      "cote_2": 3
+    },
+    {
+      "match_id": 66456926,
+      "debut": "2026-06-24T19:00:00+00:00",
+      "home": "Bosnie-Herzégovine",
+      "away": "Qatar",
+      "home_id": "sr:competitor:4479",
+      "away_id": "sr:competitor:4792",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.4,
+      "cote_N": 5.1,
+      "cote_2": 6.75
+    },
+    {
+      "match_id": 66456936,
+      "debut": "2026-06-24T22:00:00+00:00",
+      "home": "Écosse",
+      "away": "Brésil",
+      "home_id": "sr:competitor:4695",
+      "away_id": "sr:competitor:4748",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 7.75,
+      "cote_N": 4.7,
+      "cote_2": 1.3
+    }
+  ]
+}

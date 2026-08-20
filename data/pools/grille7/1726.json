@@ -1,0 +1,127 @@
+{
+  "grille_id": 1726,
+  "grille_type": "grille7",
+  "pool_id": 7001726,
+  "titre": "Grille 7 n°1726",
+  "statut": "CLOSED",
+  "fin": "2020-09-01T15:30:00+00:00",
+  "collecte_le": "2026-08-20T13:20:15.462169+00:00",
+  "mises_nettes": 7233,
+  "montant_distribue": 7233,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1808.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 30,
+      "winningsPerGrid": 120.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22237453,
+      "debut": "2020-09-01T15:30:00+00:00",
+      "home": "Honka",
+      "away": "Hifk",
+      "home_id": "sr:competitor:2260",
+      "away_id": "sr:competitor:2261",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22237459,
+      "debut": "2020-09-01T15:30:00+00:00",
+      "home": "FC Haka",
+      "away": "FC Ilves",
+      "home_id": "sr:competitor:2240",
+      "away_id": "sr:competitor:22386",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23115449,
+      "debut": "2020-09-01T17:15:00+00:00",
+      "home": "Deportivo Cuenca",
+      "away": "Tecnico Universitario",
+      "home_id": "sr:competitor:5251",
+      "away_id": "sr:competitor:21941",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23115437,
+      "debut": "2020-09-01T19:30:00+00:00",
+      "home": "Orense SC",
+      "away": "Mushuc Runa",
+      "home_id": "sr:competitor:403235",
+      "away_id": "sr:competitor:134976",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23115441,
+      "debut": "2020-09-01T21:45:00+00:00",
+      "home": "Liga Dep Universitaria Quito",
+      "away": "CSD Macara",
+      "home_id": "sr:competitor:5257",
+      "away_id": "sr:competitor:6001",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23115451,
+      "debut": "2020-09-02T00:00:00+00:00",
+      "home": "Barcelona SC",
+      "away": "Aucas",
+      "home_id": "sr:competitor:5250",
+      "away_id": "sr:competitor:5249",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23120295,
+      "debut": "2020-09-02T00:00:00+00:00",
+      "home": "Toronto FC",
+      "away": "Montréal",
+      "home_id": "sr:competitor:7080",
+      "away_id": "sr:competitor:22006",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

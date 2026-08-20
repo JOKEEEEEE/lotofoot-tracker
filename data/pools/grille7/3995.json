@@ -1,0 +1,136 @@
+{
+  "grille_id": 3995,
+  "grille_type": "grille7",
+  "pool_id": 7003995,
+  "titre": "Grille 7 n°3995",
+  "statut": "CLOSED",
+  "fin": "2026-02-20T19:00:00+00:00",
+  "collecte_le": "2026-08-20T06:25:35.609502+00:00",
+  "mises_nettes": 10514.25,
+  "montant_distribue": 10514.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1051.43
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 77,
+      "winningsPerGrid": 68.27
+    }
+  ],
+  "repartition": [
+    413,
+    2873,
+    4812,
+    3681,
+    1695,
+    463,
+    77,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 61527780,
+      "debut": "2026-02-20T19:00:00+00:00",
+      "home": "Annecy FC",
+      "away": "Red Star",
+      "home_id": "sr:competitor:234888",
+      "away_id": "sr:competitor:52874",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.45,
+      "cote_N": 3,
+      "cote_2": 2.85
+    },
+    {
+      "match_id": 62716735,
+      "debut": "2026-02-20T19:00:00+00:00",
+      "home": "US Boulogne",
+      "away": "Clermont",
+      "home_id": "sr:competitor:1711",
+      "away_id": "sr:competitor:1680",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.25,
+      "cote_N": 2.7,
+      "cote_2": 2.8
+    },
+    {
+      "match_id": 61527778,
+      "debut": "2026-02-20T19:00:00+00:00",
+      "home": "Dunkerque",
+      "away": "Bastia",
+      "home_id": "sr:competitor:6918",
+      "away_id": "sr:competitor:1655",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2,
+      "cote_N": 2.75,
+      "cote_2": 3.35
+    },
+    {
+      "match_id": 61527776,
+      "debut": "2026-02-20T19:00:00+00:00",
+      "home": "Nancy",
+      "away": "Grenoble",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:1671",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.88,
+      "cote_N": 3.5,
+      "cote_2": 3.75
+    },
+    {
+      "match_id": 61527772,
+      "debut": "2026-02-20T19:00:00+00:00",
+      "home": "Rodez",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:6925",
+      "away_id": "sr:competitor:1642",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.7,
+      "cote_N": 3.3,
+      "cote_2": 2.4
+    },
+    {
+      "match_id": 61526388,
+      "debut": "2026-02-20T19:45:00+00:00",
+      "home": "Brest",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1641",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 3.75,
+      "cote_N": 3.75,
+      "cote_2": 1.84
+    },
+    {
+      "match_id": 61624420,
+      "debut": "2026-02-20T20:00:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Elche",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2846",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 170,
+      "cote_2": null
+    }
+  ]
+}

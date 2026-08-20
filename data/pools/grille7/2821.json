@@ -1,0 +1,136 @@
+{
+  "grille_id": 2821,
+  "grille_type": "grille7",
+  "pool_id": 7002821,
+  "titre": "Grille 7 n°2821",
+  "statut": "CLOSED",
+  "fin": "2023-03-05T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:45:10.782676+00:00",
+  "mises_nettes": 11645.25,
+  "montant_distribue": 11645.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 21,
+      "winningsPerGrid": 277.27
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 250,
+      "winningsPerGrid": 23.29
+    }
+  ],
+  "repartition": [
+    178,
+    1444,
+    3852,
+    5045,
+    3498,
+    1239,
+    250,
+    21
+  ],
+  "matches": [
+    {
+      "match_id": 34172505,
+      "debut": "2023-03-05T19:45:00+00:00",
+      "home": "Rennes",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34287003,
+      "debut": "2023-03-05T19:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277663,
+      "debut": "2023-03-05T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34279057,
+      "debut": "2023-03-05T20:00:00+00:00",
+      "home": "Ponferradina",
+      "away": "FC Cartagena",
+      "home_id": "sr:competitor:6195",
+      "away_id": "sr:competitor:24329",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504967,
+      "debut": "2023-03-05T20:30:00+00:00",
+      "home": "Braga",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3036",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545687,
+      "debut": "2023-03-05T20:00:00+00:00",
+      "home": "Independiente",
+      "away": "Instituto AC Cordoba",
+      "home_id": "sr:competitor:3209",
+      "away_id": "sr:competitor:4937",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38638447,
+      "debut": "2023-03-05T20:30:00+00:00",
+      "home": "Millonarios ",
+      "away": "Deportivo Cali",
+      "home_id": "sr:competitor:6117",
+      "away_id": "sr:competitor:6112",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

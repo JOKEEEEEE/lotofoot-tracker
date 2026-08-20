@@ -1,0 +1,136 @@
+{
+  "grille_id": 2487,
+  "grille_type": "grille7",
+  "pool_id": 7002487,
+  "titre": "Grille 7 n°2487",
+  "statut": "CLOSED",
+  "fin": "2022-05-23T18:30:00+00:00",
+  "collecte_le": "2026-08-20T13:15:52.209622+00:00",
+  "mises_nettes": 6796.5,
+  "montant_distribue": 6796.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1132.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 62,
+      "winningsPerGrid": 54.81
+    }
+  ],
+  "repartition": [
+    247,
+    1255,
+    2619,
+    2871,
+    1564,
+    441,
+    62,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 33658515,
+      "debut": "2022-05-23T18:30:00+00:00",
+      "home": "Hambourg",
+      "away": "Hertha Berlin",
+      "home_id": "sr:competitor:2676",
+      "away_id": "sr:competitor:2528",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33642557,
+      "debut": "2022-05-23T18:45:00+00:00",
+      "home": "St Johnstone",
+      "away": "Inverness",
+      "home_id": "sr:competitor:2348",
+      "away_id": "sr:competitor:2362",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31184705,
+      "debut": "2022-05-23T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3177",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31184707,
+      "debut": "2022-05-23T18:45:00+00:00",
+      "home": "Shelbourne Dublin",
+      "away": "UC Dublin",
+      "home_id": "sr:competitor:3174",
+      "away_id": "sr:competitor:3168",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31184709,
+      "debut": "2022-05-23T18:45:00+00:00",
+      "home": "Sligo Rovers",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3190",
+      "away_id": "sr:competitor:3170",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31184711,
+      "debut": "2022-05-23T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3173",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31184713,
+      "debut": "2022-05-23T19:00:00+00:00",
+      "home": "Finn Harps",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3181",
+      "away_id": "sr:competitor:3179",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

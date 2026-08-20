@@ -1,0 +1,127 @@
+{
+  "grille_id": 706,
+  "grille_type": "grille7",
+  "pool_id": 7000706,
+  "titre": "Grille 7 n°706",
+  "statut": "CLOSED",
+  "fin": "2017-10-29T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:52:00.110137+00:00",
+  "mises_nettes": 13239,
+  "montant_distribue": 13239,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 49,
+      "winningsPerGrid": 135.09
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 587,
+      "winningsPerGrid": 11.28
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11832958,
+      "debut": "2017-10-29T16:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1678",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830438,
+      "debut": "2017-10-29T16:00:00+00:00",
+      "home": "Leicester",
+      "away": "Everton",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:48",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11913918,
+      "debut": "2017-10-29T17:00:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Fribourg",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2538",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055252,
+      "debut": "2017-10-29T17:30:00+00:00",
+      "home": "Eibar",
+      "away": "Levante",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2849",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055260,
+      "debut": "2017-10-29T19:45:00+00:00",
+      "home": "Malaga",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2821",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090122,
+      "debut": "2017-10-29T19:45:00+00:00",
+      "home": "Torino",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2719",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832870,
+      "debut": "2017-10-29T20:00:00+00:00",
+      "home": "Lille",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

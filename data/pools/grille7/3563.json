@@ -1,0 +1,136 @@
+{
+  "grille_id": 3563,
+  "grille_type": "grille7",
+  "pool_id": 7003563,
+  "titre": "Grille 7 n°3563",
+  "statut": "CLOSED",
+  "fin": "2024-12-13T19:30:00+00:00",
+  "collecte_le": "2026-08-20T07:42:12.016641+00:00",
+  "mises_nettes": 9216.75,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 357.14
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 181,
+      "winningsPerGrid": 27.62
+    }
+  ],
+  "repartition": [
+    247,
+    1484,
+    3239,
+    3739,
+    2455,
+    930,
+    181,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 51269251,
+      "debut": "2024-12-13T19:30:00+00:00",
+      "home": "Fribourg",
+      "away": "Wolfsbourg",
+      "home_id": "sr:competitor:2538",
+      "away_id": "sr:competitor:2524",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51467915,
+      "debut": "2024-12-13T19:30:00+00:00",
+      "home": "Pisa",
+      "away": "Bari",
+      "home_id": "sr:competitor:2737",
+      "away_id": "sr:competitor:2712",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955601,
+      "debut": "2024-12-13T19:45:00+00:00",
+      "home": "Toulouse",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1678",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271731,
+      "debut": "2024-12-13T19:45:00+00:00",
+      "home": "Empoli",
+      "away": "Torino",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2696",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50715109,
+      "debut": "2024-12-13T19:45:00+00:00",
+      "home": "Malines",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:5044",
+      "away_id": "sr:competitor:2889",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51095735,
+      "debut": "2024-12-13T20:00:00+00:00",
+      "home": "Derby County",
+      "away": "Portsmouth",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:2",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852417,
+      "debut": "2024-12-13T20:00:00+00:00",
+      "home": "Real Valladolid",
+      "away": "Valence",
+      "home_id": "sr:competitor:2831",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

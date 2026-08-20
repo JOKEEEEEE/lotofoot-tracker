@@ -1,0 +1,136 @@
+{
+  "grille_id": 3768,
+  "grille_type": "grille7",
+  "pool_id": 7003768,
+  "titre": "Grille 7 n°3768",
+  "statut": "CLOSED",
+  "fin": "2025-07-02T15:00:00+00:00",
+  "collecte_le": "2026-08-20T07:32:28.108914+00:00",
+  "mises_nettes": 1982.25,
+  "montant_distribue": 2000,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 1000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 50,
+      "winningsPerGrid": 20
+    }
+  ],
+  "repartition": [
+    26,
+    150,
+    448,
+    833,
+    796,
+    339,
+    50,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 57159343,
+      "debut": "2025-07-02T15:00:00+00:00",
+      "home": "HJK Helsinki",
+      "away": "Jaro",
+      "home_id": "sr:competitor:2242",
+      "away_id": "sr:competitor:2252",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57159345,
+      "debut": "2025-07-02T15:00:00+00:00",
+      "home": "FC Ilves",
+      "away": "KTP",
+      "home_id": "sr:competitor:22386",
+      "away_id": "sr:competitor:2255",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57159347,
+      "debut": "2025-07-02T15:00:00+00:00",
+      "home": "Vaasa",
+      "away": "FC Haka",
+      "home_id": "sr:competitor:2246",
+      "away_id": "sr:competitor:2240",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58023833,
+      "debut": "2025-07-02T16:00:00+00:00",
+      "home": "Metta/Lu",
+      "away": "Tukums 2000",
+      "home_id": "sr:competitor:36082",
+      "away_id": "sr:competitor:36080",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488723,
+      "debut": "2025-07-02T19:00:00+00:00",
+      "home": "Suisse (F)",
+      "away": "Norvège (F)",
+      "home_id": "sr:competitor:38103",
+      "away_id": "sr:competitor:7422",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61168193,
+      "debut": "2025-07-02T23:00:00+00:00",
+      "home": "États-Unis",
+      "away": "Guatemala",
+      "home_id": "sr:competitor:4724",
+      "away_id": "sr:competitor:5163",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61168195,
+      "debut": "2025-07-03T02:00:00+00:00",
+      "home": "Mexique",
+      "away": "Honduras",
+      "home_id": "sr:competitor:4781",
+      "away_id": "sr:competitor:4827",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

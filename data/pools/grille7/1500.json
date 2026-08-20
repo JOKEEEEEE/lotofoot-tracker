@@ -1,0 +1,127 @@
+{
+  "grille_id": 1500,
+  "grille_type": "grille7",
+  "pool_id": 7001500,
+  "titre": "Grille 7 n°1500",
+  "statut": "CLOSED",
+  "fin": "2019-12-23T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:43:09.619986+00:00",
+  "mises_nettes": 6181.5,
+  "montant_distribue": 6181.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001001010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 25,
+      "winningsPerGrid": 123.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 240,
+      "winningsPerGrid": 12.88
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18807890,
+      "debut": "2019-12-23T17:00:00+00:00",
+      "home": "Konyaspor",
+      "away": "Trabzonspor",
+      "home_id": "sr:competitor:3085",
+      "away_id": "sr:competitor:3051",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18807904,
+      "debut": "2019-12-23T17:00:00+00:00",
+      "home": "Denizlispor",
+      "away": "Alanyaspor",
+      "home_id": "sr:competitor:3058",
+      "away_id": "sr:competitor:6362",
+      "score_home": 1,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18490326,
+      "debut": "2019-12-23T19:45:00+00:00",
+      "home": "Blackburn",
+      "away": "Wigan",
+      "home_id": "sr:competitor:46",
+      "away_id": "sr:competitor:49",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18507416,
+      "debut": "2019-12-24T17:00:00+00:00",
+      "home": "Hapoel Kfar Saba",
+      "away": "Ironi Kiryat Shmona",
+      "home_id": "sr:competitor:5200",
+      "away_id": "sr:competitor:5399",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18507410,
+      "debut": "2019-12-24T17:30:00+00:00",
+      "home": "Hapoel Hadera",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:39525",
+      "away_id": "sr:competitor:5202",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18507418,
+      "debut": "2019-12-24T18:15:00+00:00",
+      "home": "Bnei Yehuda Tel-Aviv",
+      "away": "Maccabi Tel-Aviv",
+      "home_id": "sr:competitor:5203",
+      "away_id": "sr:competitor:5198",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18507414,
+      "debut": "2019-12-24T18:15:00+00:00",
+      "home": "Maccabi Haifa",
+      "away": "Hapoel Haifa",
+      "home_id": "sr:competitor:5197",
+      "away_id": "sr:competitor:5201",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

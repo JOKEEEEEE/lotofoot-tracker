@@ -1,0 +1,127 @@
+{
+  "grille_id": 966,
+  "grille_type": "grille7",
+  "pool_id": 7000966,
+  "titre": "Grille 7 n°966",
+  "statut": "CLOSED",
+  "fin": "2018-07-24T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:31:19.766503+00:00",
+  "mises_nettes": 8478.75,
+  "montant_distribue": 8478.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 847.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 243,
+      "winningsPerGrid": 17.45
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14770009,
+      "debut": "2018-07-24T17:30:00+00:00",
+      "home": "PAOK Salonique",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:3251",
+      "away_id": "sr:competitor:2501",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15032423,
+      "debut": "2018-07-24T18:00:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:5202",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15042293,
+      "debut": "2018-07-24T18:15:00+00:00",
+      "home": "Shkendija Tetovo",
+      "away": "Sheriff Tiraspol",
+      "home_id": "sr:competitor:5413",
+      "away_id": "sr:competitor:5173",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15032513,
+      "debut": "2018-07-24T18:30:00+00:00",
+      "home": "Etoile Rouge de Belgrade",
+      "away": "Suduva",
+      "home_id": "sr:competitor:5149",
+      "away_id": "sr:competitor:5343",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15042307,
+      "debut": "2018-07-24T19:00:00+00:00",
+      "home": "Legia Varsovie",
+      "away": "Spartak Trnava",
+      "home_id": "sr:competitor:3106",
+      "away_id": "sr:competitor:2406",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14974151,
+      "debut": "2018-07-24T23:00:00+00:00",
+      "home": "Atletico Huila",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6104",
+      "away_id": "sr:competitor:6115",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14974113,
+      "debut": "2018-07-25T01:00:00+00:00",
+      "home": "America De Cali",
+      "away": "Deportivo Rionegro",
+      "home_id": "sr:competitor:6102",
+      "away_id": "sr:competitor:89362",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

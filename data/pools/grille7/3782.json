@@ -1,0 +1,136 @@
+{
+  "grille_id": 3782,
+  "grille_type": "grille7",
+  "pool_id": 7003782,
+  "titre": "Grille 7 n°3782",
+  "statut": "CLOSED",
+  "fin": "2025-07-16T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:20:41.790091+00:00",
+  "mises_nettes": 3636,
+  "montant_distribue": 3636,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 1818
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 12,
+      "winningsPerGrid": 151.5
+    }
+  ],
+  "repartition": [
+    180,
+    1111,
+    1732,
+    1203,
+    493,
+    116,
+    12,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 61280739,
+      "debut": "2025-07-16T18:45:00+00:00",
+      "home": "Dinamo Minsk",
+      "away": "Ludogorets",
+      "home_id": "sr:competitor:3361",
+      "away_id": "sr:competitor:43840",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61280715,
+      "debut": "2025-07-16T18:45:00+00:00",
+      "home": "Linfield",
+      "away": "Shelbourne",
+      "home_id": "sr:competitor:5272",
+      "away_id": "sr:competitor:3174",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052663,
+      "debut": "2025-07-16T22:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Mirassol",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:21982",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60897213,
+      "debut": "2025-07-16T22:00:00+00:00",
+      "home": "Bolivar",
+      "away": "Palestino",
+      "home_id": "sr:competitor:7059",
+      "away_id": "sr:competitor:3157",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052675,
+      "debut": "2025-07-16T22:30:00+00:00",
+      "home": "Ceara",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1957",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052665,
+      "debut": "2025-07-16T23:00:00+00:00",
+      "home": "Santos",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690907,
+      "debut": "2025-07-16T23:30:00+00:00",
+      "home": "FC Cincinnati",
+      "away": "Inter Miami CF",
+      "home_id": "sr:competitor:245305",
+      "away_id": "sr:competitor:659691",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

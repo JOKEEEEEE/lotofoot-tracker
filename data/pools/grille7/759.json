@@ -1,0 +1,127 @@
+{
+  "grille_id": 759,
+  "grille_type": "grille7",
+  "pool_id": 7000759,
+  "titre": "Grille 7 n°759",
+  "statut": "CLOSED",
+  "fin": "2017-12-22T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:48:22.701520+00:00",
+  "mises_nettes": 11811,
+  "montant_distribue": 11811,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1181.1
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 67,
+      "winningsPerGrid": 88.14
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11842090,
+      "debut": "2017-12-22T19:00:00+00:00",
+      "home": "ADO La Haye",
+      "away": "Zwolle",
+      "home_id": "sr:competitor:2966",
+      "away_id": "sr:competitor:2971",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11822816,
+      "debut": "2017-12-22T19:30:00+00:00",
+      "home": "Anderlecht",
+      "away": "Eupen",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:2926",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11822830,
+      "debut": "2017-12-22T19:30:00+00:00",
+      "home": "Waasland-Beveren",
+      "away": "Ostende",
+      "home_id": "sr:competitor:4859",
+      "away_id": "sr:competitor:4494",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830374,
+      "debut": "2017-12-22T19:45:00+00:00",
+      "home": "Arsenal",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:44",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868524,
+      "debut": "2017-12-22T19:45:00+00:00",
+      "home": "Norwich",
+      "away": "Brentford",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:50",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090376,
+      "debut": "2017-12-22T19:45:00+00:00",
+      "home": "Cagliari",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2693",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055390,
+      "debut": "2017-12-22T20:30:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

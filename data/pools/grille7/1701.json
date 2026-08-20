@@ -1,0 +1,127 @@
+{
+  "grille_id": 1701,
+  "grille_type": "grille7",
+  "pool_id": 7001701,
+  "titre": "Grille 7 n°1701",
+  "statut": "CLOSED",
+  "fin": "2020-08-08T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:22:00.792529+00:00",
+  "mises_nettes": 12643.5,
+  "montant_distribue": 12643.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 173,
+      "winningsPerGrid": 36.54
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1032,
+      "winningsPerGrid": 6.13
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22340053,
+      "debut": "2020-08-08T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Naples",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2714",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22340051,
+      "debut": "2020-08-08T19:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:38",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22997009,
+      "debut": "2020-08-08T19:00:00+00:00",
+      "home": "Chievo Vérone",
+      "away": "Spezia",
+      "home_id": "sr:competitor:2694",
+      "away_id": "sr:competitor:2735",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22712423,
+      "debut": "2020-08-08T22:00:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1967",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22712421,
+      "debut": "2020-08-08T22:30:00+00:00",
+      "home": "Coritiba",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22712259,
+      "debut": "2020-08-09T00:00:00+00:00",
+      "home": "Sport Recife ",
+      "away": "Ceara CE",
+      "home_id": "sr:competitor:1959",
+      "away_id": "sr:competitor:2001",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22721651,
+      "debut": "2020-08-09T00:00:00+00:00",
+      "home": "Cruz Azul",
+      "away": "Leon",
+      "home_id": "sr:competitor:1947",
+      "away_id": "sr:competitor:36534",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

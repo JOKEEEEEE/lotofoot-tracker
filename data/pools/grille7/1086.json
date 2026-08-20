@@ -1,0 +1,127 @@
+{
+  "grille_id": 1086,
+  "grille_type": "grille7",
+  "pool_id": 7001086,
+  "titre": "Grille 7 n°1086",
+  "statut": "CLOSED",
+  "fin": "2018-11-23T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:19:51.082151+00:00",
+  "mises_nettes": 16878.75,
+  "montant_distribue": 16878.75,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 29,
+      "winningsPerGrid": 291.01
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 288,
+      "winningsPerGrid": 29.3
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14745043,
+      "debut": "2018-11-23T19:00:00+00:00",
+      "home": "Orléans",
+      "away": "Brest",
+      "home_id": "sr:competitor:6921",
+      "away_id": "sr:competitor:1715",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745049,
+      "debut": "2018-11-23T19:00:00+00:00",
+      "home": "Troyes",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1656",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745047,
+      "debut": "2018-11-23T19:00:00+00:00",
+      "home": "Sochaux",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1657",
+      "away_id": "sr:competitor:1646",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745039,
+      "debut": "2018-11-23T19:00:00+00:00",
+      "home": "Nancy",
+      "away": "Red Star",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:52874",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745031,
+      "debut": "2018-11-23T19:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Clermont",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1680",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745045,
+      "debut": "2018-11-23T19:00:00+00:00",
+      "home": "Paris FC",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1662",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700907,
+      "debut": "2018-11-23T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1678",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

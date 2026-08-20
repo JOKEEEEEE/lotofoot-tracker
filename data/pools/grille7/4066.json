@@ -1,0 +1,136 @@
+{
+  "grille_id": 4066,
+  "grille_type": "grille7",
+  "pool_id": 7004066,
+  "titre": "Grille 7 n°4066",
+  "statut": "CLOSED",
+  "fin": "2026-05-05T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:11:42.703222+00:00",
+  "mises_nettes": 7408.5,
+  "montant_distribue": 7408.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 336.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 125,
+      "winningsPerGrid": 29.63
+    }
+  ],
+  "repartition": [
+    104,
+    825,
+    2521,
+    3405,
+    2148,
+    739,
+    125,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 69339436,
+      "debut": "2026-05-05T19:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.54,
+      "cote_N": 3.8,
+      "cote_2": 4.7
+    },
+    {
+      "match_id": 70076102,
+      "debut": "2026-05-05T22:00:00+00:00",
+      "home": "Rosario Central",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:5996",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.33,
+      "cote_N": 4.4,
+      "cote_2": 7
+    },
+    {
+      "match_id": 70075870,
+      "debut": "2026-05-05T22:00:00+00:00",
+      "home": "Sporting Cristal",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:2302",
+      "away_id": "sr:competitor:1963",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 5.2,
+      "cote_N": 3.75,
+      "cote_2": 1.49
+    },
+    {
+      "match_id": 70075244,
+      "debut": "2026-05-05T22:00:00+00:00",
+      "home": "Deportivo Riestra",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:191648",
+      "away_id": "sr:competitor:5926",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.75,
+      "cote_N": 2.6,
+      "cote_2": 2.6
+    },
+    {
+      "match_id": 70075218,
+      "debut": "2026-05-05T22:00:00+00:00",
+      "home": "Independiente Petrolero",
+      "away": "Caracas FC",
+      "home_id": "sr:competitor:498412",
+      "away_id": "sr:competitor:6230",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.98,
+      "cote_N": 3.1,
+      "cote_2": 3.2
+    },
+    {
+      "match_id": 70075748,
+      "debut": "2026-05-06T00:00:00+00:00",
+      "home": "Barcelona SC",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:5250",
+      "away_id": "sr:competitor:3202",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 3.85,
+      "cote_N": 2.85,
+      "cote_2": 1.88
+    },
+    {
+      "match_id": 70076104,
+      "debut": "2026-05-06T00:00:00+00:00",
+      "home": "FC UCV",
+      "away": "Independiente Del Valle",
+      "home_id": "sr:competitor:324069",
+      "away_id": "sr:competitor:39723",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 5.3,
+      "cote_N": 3.8,
+      "cote_2": 1.48
+    }
+  ]
+}

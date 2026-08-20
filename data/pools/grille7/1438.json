@@ -1,0 +1,127 @@
+{
+  "grille_id": 1438,
+  "grille_type": "grille7",
+  "pool_id": 7001438,
+  "titre": "Grille 7 n°1438",
+  "statut": "CLOSED",
+  "fin": "2019-11-05T20:00:00+00:00",
+  "collecte_le": "2026-08-20T10:49:12.892860+00:00",
+  "mises_nettes": 27697.5,
+  "montant_distribue": 27697.5,
+  "montant_garanti": 20000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 62,
+      "winningsPerGrid": 223.37
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 732,
+      "winningsPerGrid": 18.92
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 19323842,
+      "debut": "2019-11-05T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Benfica",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:3006",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323946,
+      "debut": "2019-11-05T20:00:00+00:00",
+      "home": "Valence",
+      "away": "Lille",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:1643",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323792,
+      "debut": "2019-11-05T20:00:00+00:00",
+      "home": "Liverpool",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323794,
+      "debut": "2019-11-05T20:00:00+00:00",
+      "home": "Naples",
+      "away": "Red Bull Salzbourg",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2046",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323864,
+      "debut": "2019-11-05T20:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:2953",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19323810,
+      "debut": "2019-11-05T20:00:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2697",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19331082,
+      "debut": "2019-11-06T15:50:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

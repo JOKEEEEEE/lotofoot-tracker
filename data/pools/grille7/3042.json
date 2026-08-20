@@ -1,0 +1,136 @@
+{
+  "grille_id": 3042,
+  "grille_type": "grille7",
+  "pool_id": 7003042,
+  "titre": "Grille 7 n°3042",
+  "statut": "CLOSED",
+  "fin": "2023-09-18T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:26:55.194323+00:00",
+  "mises_nettes": 15875.25,
+  "montant_distribue": 15875.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 23,
+      "winningsPerGrid": 345.11
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 302,
+      "winningsPerGrid": 26.28
+    }
+  ],
+  "repartition": [
+    482,
+    2363,
+    5414,
+    6551,
+    4412,
+    1620,
+    302,
+    23
+  ],
+  "matches": [
+    {
+      "match_id": 42261689,
+      "debut": "2023-09-18T18:30:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Cittadella",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2717",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43061871,
+      "debut": "2023-09-18T18:45:00+00:00",
+      "home": "Guingamp",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1660",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41762931,
+      "debut": "2023-09-18T18:45:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Burnley",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:6",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134169,
+      "debut": "2023-09-18T18:45:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2685",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41983929,
+      "debut": "2023-09-18T19:00:00+00:00",
+      "home": "FC Andorra",
+      "away": "Real Oviedo",
+      "home_id": "sr:competitor:610334",
+      "away_id": "sr:competitor:2851",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41892991,
+      "debut": "2023-09-18T19:00:00+00:00",
+      "home": "Grenade",
+      "away": "Gérone",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:24264",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146189,
+      "debut": "2023-09-18T19:15:00+00:00",
+      "home": "Boavista",
+      "away": "Chaves",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3025",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

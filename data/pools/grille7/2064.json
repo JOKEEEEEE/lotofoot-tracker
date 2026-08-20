@@ -1,0 +1,136 @@
+{
+  "grille_id": 2064,
+  "grille_type": "grille7",
+  "pool_id": 7002064,
+  "titre": "Grille 7 n°2064",
+  "statut": "CLOSED",
+  "fin": "2021-06-02T18:45:00+00:00",
+  "collecte_le": "2026-08-20T13:25:26.944893+00:00",
+  "mises_nettes": 12030,
+  "montant_distribue": 12030,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010010111100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 42,
+      "winningsPerGrid": 143.21
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 512,
+      "winningsPerGrid": 11.75
+    }
+  ],
+  "repartition": [
+    0,
+    323,
+    1769,
+    5948,
+    5077,
+    2369,
+    512,
+    42
+  ],
+  "matches": [
+    {
+      "match_id": 26877056,
+      "debut": "2021-06-02T18:45:00+00:00",
+      "home": "Pays-Bas",
+      "away": "Écosse",
+      "home_id": "sr:competitor:4705",
+      "away_id": "sr:competitor:4695",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 36,
+      "cote_N": 1,
+      "cote_2": 60
+    },
+    {
+      "match_id": 26877050,
+      "debut": "2021-06-02T19:00:00+00:00",
+      "home": "Allemagne",
+      "away": "Danemark",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4476",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 17,
+      "cote_N": 1.01,
+      "cote_2": 28
+    },
+    {
+      "match_id": 26877058,
+      "debut": "2021-06-02T19:00:00+00:00",
+      "home": "Angleterre",
+      "away": "Autriche",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:4718",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 19,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27378408,
+      "debut": "2021-06-02T19:05:00+00:00",
+      "home": "France",
+      "away": "Pays de Galles",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4702",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27373976,
+      "debut": "2021-06-11T14:00:00+00:00",
+      "home": "Philippines",
+      "away": "Ile de Guam",
+      "home_id": "sr:competitor:4791",
+      "away_id": "sr:competitor:23493",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27411908,
+      "debut": "2021-06-03T09:35:00+00:00",
+      "home": "Adelaide United FC",
+      "away": "Western Sydney",
+      "home_id": "sr:competitor:2946",
+      "away_id": "sr:competitor:72926",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 24,
+      "cote_N": 1.01,
+      "cote_2": 60
+    },
+    {
+      "match_id": 27425076,
+      "debut": "2021-06-03T14:00:00+00:00",
+      "home": "Bangladesh",
+      "away": "Afghanistan",
+      "home_id": "sr:competitor:6080",
+      "away_id": "sr:competitor:4689",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 46,
+      "cote_N": 1.01,
+      "cote_2": 17
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 281,
+  "grille_type": "grille7",
+  "pool_id": 7000281,
+  "titre": "Grille 7 n°281",
+  "statut": "CLOSED",
+  "fin": "2016-07-30T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:32:58.218812+00:00",
+  "mises_nettes": 5291.25,
+  "montant_distribue": 5291.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 86,
+      "winningsPerGrid": 30.76
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 467,
+      "winningsPerGrid": 5.67
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9716117,
+      "debut": "2016-07-30T18:00:00+00:00",
+      "home": "Zulte Waregem",
+      "away": "Eupen",
+      "home_id": "sr:competitor:2933",
+      "away_id": "sr:competitor:2926",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9716133,
+      "debut": "2016-07-30T18:00:00+00:00",
+      "home": "Saint-Trond",
+      "away": "Lokeren",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:2887",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9716129,
+      "debut": "2016-07-30T18:30:00+00:00",
+      "home": "Charleroi",
+      "away": "Waasland-Beveren",
+      "home_id": "sr:competitor:2898",
+      "away_id": "sr:competitor:4859",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9601303,
+      "debut": "2016-07-30T18:30:00+00:00",
+      "home": "Wisla Plock",
+      "away": "Legia Varsovie",
+      "home_id": "sr:competitor:3122",
+      "away_id": "sr:competitor:3106",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8697702,
+      "debut": "2016-07-30T19:00:00+00:00",
+      "home": "New York City FC",
+      "away": "Colorado Rapids",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:2510",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211895,
+      "debut": "2016-07-30T21:30:00+00:00",
+      "home": "Figueirense",
+      "away": "Vitoria",
+      "home_id": "sr:competitor:1985",
+      "away_id": "sr:competitor:1962",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9211899,
+      "debut": "2016-07-30T21:30:00+00:00",
+      "home": "Sport Recife ",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1959",
+      "away_id": "sr:competitor:1967",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

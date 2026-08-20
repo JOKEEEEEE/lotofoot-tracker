@@ -1,0 +1,136 @@
+{
+  "grille_id": 2937,
+  "grille_type": "grille7",
+  "pool_id": 7002937,
+  "titre": "Grille 7 n°2937",
+  "statut": "CLOSED",
+  "fin": "2023-06-10T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:35:18.513185+00:00",
+  "mises_nettes": 10593,
+  "montant_distribue": 10593,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 106,
+      "winningsPerGrid": 49.97
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 637,
+      "winningsPerGrid": 8.31
+    }
+  ],
+  "repartition": [
+    99,
+    803,
+    2688,
+    4073,
+    3667,
+    2051,
+    637,
+    106
+  ],
+  "matches": [
+    {
+      "match_id": 41316767,
+      "debut": "2023-06-10T19:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38185935,
+      "debut": "2023-06-10T23:30:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "DC United",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:2502",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38185937,
+      "debut": "2023-06-10T23:30:00+00:00",
+      "home": "Charlotte FC",
+      "away": "Seattle Sounders",
+      "home_id": "sr:competitor:863473",
+      "away_id": "sr:competitor:22009",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38185939,
+      "debut": "2023-06-10T23:30:00+00:00",
+      "home": "Montréal",
+      "away": "Minnesota United FC",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:41618",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38185941,
+      "debut": "2023-06-10T23:30:00+00:00",
+      "home": "New England Revolution",
+      "away": "Inter Miami CF",
+      "home_id": "sr:competitor:2511",
+      "away_id": "sr:competitor:659691",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38185943,
+      "debut": "2023-06-11T00:20:00+00:00",
+      "home": "Orlando City SC",
+      "away": "Colorado Rapids",
+      "home_id": "sr:competitor:52237",
+      "away_id": "sr:competitor:2510",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38185945,
+      "debut": "2023-06-10T23:30:00+00:00",
+      "home": "Toronto FC",
+      "away": "Nashville SC",
+      "home_id": "sr:competitor:7080",
+      "away_id": "sr:competitor:668063",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2493,
+  "grille_type": "grille7",
+  "pool_id": 7002493,
+  "titre": "Grille 7 n°2493",
+  "statut": "CLOSED",
+  "fin": "2022-05-29T14:00:00+00:00",
+  "collecte_le": "2026-08-20T09:12:29.898634+00:00",
+  "mises_nettes": 6871.5,
+  "montant_distribue": 6871.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 38,
+      "winningsPerGrid": 90.41
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 355,
+      "winningsPerGrid": 9.68
+    }
+  ],
+  "repartition": [
+    72,
+    515,
+    1634,
+    2691,
+    2522,
+    1335,
+    355,
+    38
+  ],
+  "matches": [
+    {
+      "match_id": 33653719,
+      "debut": "2022-05-29T14:00:00+00:00",
+      "home": "Quevilly Rouen",
+      "away": "Villefranche-sur-Saône",
+      "home_id": "sr:competitor:233162",
+      "away_id": "sr:competitor:32934",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33764469,
+      "debut": "2022-05-29T14:30:00+00:00",
+      "home": "Lucerne",
+      "away": "FC Schaffhausen",
+      "home_id": "sr:competitor:2453",
+      "away_id": "sr:competitor:2461",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33785181,
+      "debut": "2022-05-29T15:00:00+00:00",
+      "home": "Rapid Vienne",
+      "away": "WSG Swarovski Tirol",
+      "home_id": "sr:competitor:2055",
+      "away_id": "sr:competitor:5405",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33695875,
+      "debut": "2022-05-29T15:30:00+00:00",
+      "home": "Huddersfield",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:59",
+      "away_id": "sr:competitor:14",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33745765,
+      "debut": "2022-05-29T16:00:00+00:00",
+      "home": "ADO La Haye",
+      "away": "Excelsior Rotterdam",
+      "home_id": "sr:competitor:2966",
+      "away_id": "sr:competitor:2967",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33750051,
+      "debut": "2022-05-29T17:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1646",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33670715,
+      "debut": "2022-05-29T18:30:00+00:00",
+      "home": "Moreirense",
+      "away": "Chaves",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3025",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

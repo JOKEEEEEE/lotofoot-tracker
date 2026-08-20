@@ -1,0 +1,127 @@
+{
+  "grille_id": 1758,
+  "grille_type": "grille7",
+  "pool_id": 7001758,
+  "titre": "Grille 7 n°1758",
+  "statut": "CLOSED",
+  "fin": "2020-09-29T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:17:04.166506+00:00",
+  "mises_nettes": 12858.75,
+  "montant_distribue": 12858.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 2143.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 71,
+      "winningsPerGrid": 90.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23360393,
+      "debut": "2020-09-29T17:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Valence",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2828",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 170,
+      "cote_N": 12.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23726277,
+      "debut": "2020-09-29T18:45:00+00:00",
+      "home": "Tottenham",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 24,
+      "cote_N": 1.01,
+      "cote_2": 23
+    },
+    {
+      "match_id": 23582195,
+      "debut": "2020-09-29T19:00:00+00:00",
+      "home": "Dynamo Kiev",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:3305",
+      "away_id": "sr:competitor:2903",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23594325,
+      "debut": "2020-09-29T19:00:00+00:00",
+      "home": "Omonia Nicosie",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:3395",
+      "away_id": "sr:competitor:3245",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 26,
+      "cote_N": 1.02,
+      "cote_2": 11
+    },
+    {
+      "match_id": 23594355,
+      "debut": "2020-09-29T19:00:00+00:00",
+      "home": "Ferencvaros",
+      "away": "Molde",
+      "home_id": "sr:competitor:1925",
+      "away_id": "sr:competitor:661",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 16,
+      "cote_N": 1.02,
+      "cote_2": 14.5
+    },
+    {
+      "match_id": 23345411,
+      "debut": "2020-09-29T19:00:00+00:00",
+      "home": "Academica Coimbra",
+      "away": "Feirense",
+      "home_id": "sr:competitor:3015",
+      "away_id": "sr:competitor:4501",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23360385,
+      "debut": "2020-09-29T19:30:00+00:00",
+      "home": "Getafe",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2816",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

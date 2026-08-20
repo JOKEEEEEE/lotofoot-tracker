@@ -1,0 +1,127 @@
+{
+  "grille_id": 829,
+  "grille_type": "grille7",
+  "pool_id": 7000829,
+  "titre": "Grille 7 n°829",
+  "statut": "CLOSED",
+  "fin": "2018-03-05T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:42:54.903941+00:00",
+  "mises_nettes": 15090,
+  "montant_distribue": 15090,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001100111001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 113,
+      "winningsPerGrid": 66.77
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1467,
+      "winningsPerGrid": 5.14
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11914680,
+      "debut": "2018-03-05T19:30:00+00:00",
+      "home": "Ingolstadt",
+      "away": "Bochum",
+      "home_id": "sr:competitor:5880",
+      "away_id": "sr:competitor:2542",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188188,
+      "debut": "2018-03-05T19:30:00+00:00",
+      "home": "Foggia",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2803",
+      "away_id": "sr:competitor:2705",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11837030,
+      "debut": "2018-03-05T19:45:00+00:00",
+      "home": "Lorient",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1662",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830098,
+      "debut": "2018-03-05T20:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:35",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11972002,
+      "debut": "2018-03-05T20:00:00+00:00",
+      "home": "CD Aves",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:3032",
+      "away_id": "sr:competitor:3026",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055604,
+      "debut": "2018-03-05T20:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:6577",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12213152,
+      "debut": "2018-03-05T22:00:00+00:00",
+      "home": "San Martin De San Juan",
+      "away": "Independiente",
+      "home_id": "sr:competitor:7772",
+      "away_id": "sr:competitor:3209",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

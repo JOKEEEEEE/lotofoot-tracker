@@ -1,0 +1,127 @@
+{
+  "grille_id": 1748,
+  "grille_type": "grille7",
+  "pool_id": 7001748,
+  "titre": "Grille 7 n°1748",
+  "statut": "CLOSED",
+  "fin": "2020-09-21T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:17:45.960992+00:00",
+  "mises_nettes": 14430.75,
+  "montant_distribue": 14430.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 64,
+      "winningsPerGrid": 112.74
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 566,
+      "winningsPerGrid": 12.75
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23031827,
+      "debut": "2020-09-21T18:30:00+00:00",
+      "home": "Bochum",
+      "away": "St. Pauli",
+      "home_id": "sr:competitor:2542",
+      "away_id": "sr:competitor:2526",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22651243,
+      "debut": "2020-09-21T18:45:00+00:00",
+      "home": "Auxerre",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1652",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23390473,
+      "debut": "2020-09-21T18:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2685",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23030837,
+      "debut": "2020-09-21T18:45:00+00:00",
+      "home": "Cercle Bruges",
+      "away": "Saint-Trond",
+      "home_id": "sr:competitor:2929",
+      "away_id": "sr:competitor:2895",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23320061,
+      "debut": "2020-09-21T18:45:00+00:00",
+      "home": "Portimonense",
+      "away": "Paços de Ferreira",
+      "home_id": "sr:competitor:3026",
+      "away_id": "sr:competitor:3003",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23066689,
+      "debut": "2020-09-21T19:15:00+00:00",
+      "home": "La Vallette",
+      "away": "Birkirkara",
+      "home_id": "sr:competitor:5332",
+      "away_id": "sr:competitor:5330",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23203819,
+      "debut": "2020-09-21T19:15:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:17",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

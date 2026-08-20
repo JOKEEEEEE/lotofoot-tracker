@@ -1,0 +1,136 @@
+{
+  "grille_id": 3787,
+  "grille_type": "grille7",
+  "pool_id": 7003787,
+  "titre": "Grille 7 n°3787",
+  "statut": "CLOSED",
+  "fin": "2025-07-21T18:15:00+00:00",
+  "collecte_le": "2026-08-20T07:32:22.719567+00:00",
+  "mises_nettes": 2533.5,
+  "montant_distribue": 3000,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 1500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 25,
+      "winningsPerGrid": 60
+    }
+  ],
+  "repartition": [
+    77,
+    466,
+    959,
+    1023,
+    611,
+    216,
+    25,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 61199069,
+      "debut": "2025-07-21T18:15:00+00:00",
+      "home": "Spartak Varna",
+      "away": "Beroe",
+      "home_id": "sr:competitor:3278",
+      "away_id": "sr:competitor:3281",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61470329,
+      "debut": "2025-07-21T18:30:00+00:00",
+      "home": "Dinamo Bucarest",
+      "away": "FC Botosani",
+      "home_id": "sr:competitor:3292",
+      "away_id": "sr:competitor:24798",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61345763,
+      "debut": "2025-07-21T21:30:00+00:00",
+      "home": "CD Recoleta",
+      "away": "Sportivo Ameliano",
+      "home_id": "sr:competitor:463345",
+      "away_id": "sr:competitor:607728",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098449,
+      "debut": "2025-07-21T22:00:00+00:00",
+      "home": "Estudiantes",
+      "away": "Huracan",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:7629",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380367,
+      "debut": "2025-07-21T23:00:00+00:00",
+      "home": "Huachipato",
+      "away": "O'Higgins",
+      "home_id": "sr:competitor:3164",
+      "away_id": "sr:competitor:3163",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57381455,
+      "debut": "2025-07-22T00:00:00+00:00",
+      "home": "Libertad",
+      "away": "Manta FC",
+      "home_id": "sr:competitor:838486",
+      "away_id": "sr:competitor:33561",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098455,
+      "debut": "2025-07-22T00:15:00+00:00",
+      "home": "San Martín",
+      "away": "Deportivo Riestra",
+      "home_id": "sr:competitor:7772",
+      "away_id": "sr:competitor:191648",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

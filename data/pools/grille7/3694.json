@@ -1,0 +1,136 @@
+{
+  "grille_id": 3694,
+  "grille_type": "grille7",
+  "pool_id": 7003694,
+  "titre": "Grille 7 n°3694",
+  "statut": "CLOSED",
+  "fin": "2025-04-21T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:27:28.244760+00:00",
+  "mises_nettes": 6948,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001001111010111010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 90,
+      "winningsPerGrid": 41.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 686,
+      "winningsPerGrid": 5.47
+    }
+  ],
+  "repartition": [
+    0,
+    0,
+    629,
+    2340,
+    3287,
+    2232,
+    686,
+    90
+  ],
+  "matches": [
+    {
+      "match_id": 52034799,
+      "debut": "2025-04-21T18:00:00+00:00",
+      "home": "Al-Ittihad FC",
+      "away": "Al-Ettifaq",
+      "home_id": "sr:competitor:34315",
+      "away_id": "sr:competitor:34318",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51103693,
+      "debut": "2025-04-21T18:30:00+00:00",
+      "home": "Eibar",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2830",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51468257,
+      "debut": "2025-04-21T18:30:00+00:00",
+      "home": "Pisa",
+      "away": "Cremonese",
+      "home_id": "sr:competitor:2737",
+      "away_id": "sr:competitor:2761",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58966685,
+      "debut": "2025-04-21T18:45:00+00:00",
+      "home": "Annecy FC",
+      "away": "Lorient",
+      "home_id": "sr:competitor:234888",
+      "away_id": "sr:competitor:1656",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273465,
+      "debut": "2025-04-23T16:30:00+00:00",
+      "home": "Parme",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2690",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850631,
+      "debut": "2025-04-21T19:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:14",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852711,
+      "debut": "2025-04-21T19:00:00+00:00",
+      "home": "Gérone",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2816",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

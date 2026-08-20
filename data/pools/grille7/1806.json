@@ -1,0 +1,127 @@
+{
+  "grille_id": 1806,
+  "grille_type": "grille7",
+  "pool_id": 7001806,
+  "titre": "Grille 7 n°1806",
+  "statut": "CLOSED",
+  "fin": "2020-11-06T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:11:32.393546+00:00",
+  "mises_nettes": 19493.25,
+  "montant_distribue": 19493.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 974.66
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 158,
+      "winningsPerGrid": 61.69
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23031951,
+      "debut": "2020-11-06T19:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Cologne",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2671",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 15,
+      "cote_N": 1.02,
+      "cote_2": 26
+    },
+    {
+      "match_id": 23390699,
+      "debut": "2020-11-06T19:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:2695",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 46,
+      "cote_N": 1,
+      "cote_2": 50
+    },
+    {
+      "match_id": 23203935,
+      "debut": "2020-11-06T20:00:00+00:00",
+      "home": "Southampton",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:39",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360497,
+      "debut": "2020-11-06T20:00:00+00:00",
+      "home": "Elche",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2846",
+      "away_id": "sr:competitor:2821",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 29,
+      "cote_N": 1.01,
+      "cote_2": 16
+    },
+    {
+      "match_id": 23362419,
+      "debut": "2020-11-06T20:00:00+00:00",
+      "home": "Albacete",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2848",
+      "away_id": "sr:competitor:2845",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 42,
+      "cote_N": 1.01,
+      "cote_2": 26
+    },
+    {
+      "match_id": 23495697,
+      "debut": "2020-11-06T20:00:00+00:00",
+      "home": "Spal 2013",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:113755",
+      "away_id": "sr:competitor:2710",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22650525,
+      "debut": "2020-11-06T20:00:00+00:00",
+      "home": "Strasbourg",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1659",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 200,
+      "cote_N": 19,
+      "cote_2": 1.01
+    }
+  ]
+}

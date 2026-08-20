@@ -1,0 +1,136 @@
+{
+  "grille_id": 3090,
+  "grille_type": "grille7",
+  "pool_id": 7003090,
+  "titre": "Grille 7 n°3090",
+  "statut": "CLOSED",
+  "fin": "2023-10-27T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:15:26.925038+00:00",
+  "mises_nettes": 10965,
+  "montant_distribue": 10965,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 214,
+      "winningsPerGrid": 25.62
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1323,
+      "winningsPerGrid": 4.14
+    }
+  ],
+  "repartition": [
+    80,
+    561,
+    1897,
+    3450,
+    3994,
+    3101,
+    1323,
+    214
+  ],
+  "matches": [
+    {
+      "match_id": 42023093,
+      "debut": "2023-10-27T18:30:00+00:00",
+      "home": "Bochum",
+      "away": "Mayence",
+      "home_id": "sr:competitor:2542",
+      "away_id": "sr:competitor:2556",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134289,
+      "debut": "2023-10-27T18:45:00+00:00",
+      "home": "Genoa",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2710",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893867,
+      "debut": "2023-10-27T18:45:00+00:00",
+      "home": "Saint-Trond",
+      "away": "Racing White Daring Molenbeek",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:220436",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42004689,
+      "debut": "2023-10-27T19:00:00+00:00",
+      "home": "Clermont",
+      "away": "Nice",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1661",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763031,
+      "debut": "2023-10-27T19:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893113,
+      "debut": "2023-10-27T19:00:00+00:00",
+      "home": "Gérone",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2821",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146319,
+      "debut": "2023-10-27T19:15:00+00:00",
+      "home": "FC Arouca",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:25777",
+      "away_id": "sr:competitor:3014",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1186,
+  "grille_type": "grille7",
+  "pool_id": 7001186,
+  "titre": "Grille 7 n°1186",
+  "statut": "CLOSED",
+  "fin": "2019-03-06T20:00:00+00:00",
+  "collecte_le": "2026-08-20T11:13:01.859688+00:00",
+  "mises_nettes": 14177.25,
+  "montant_distribue": 14177.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 2362.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 47,
+      "winningsPerGrid": 150.82
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 16514885,
+      "debut": "2019-03-06T20:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16514899,
+      "debut": "2019-03-06T20:00:00+00:00",
+      "home": "FC Porto",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386149,
+      "debut": "2019-03-06T22:15:00+00:00",
+      "home": "Universidad De Concepcion",
+      "away": "Sporting Cristal",
+      "home_id": "sr:competitor:5034",
+      "away_id": "sr:competitor:2302",
+      "score_home": 5,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386183,
+      "debut": "2019-03-07T00:30:00+00:00",
+      "home": "Zamora FC",
+      "away": "Club Nacional De Football",
+      "home_id": "sr:competitor:6237",
+      "away_id": "sr:competitor:3230",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386195,
+      "debut": "2019-03-07T00:30:00+00:00",
+      "home": "Junior De Barranquilla",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:6105",
+      "away_id": "sr:competitor:1963",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386409,
+      "debut": "2019-03-07T00:30:00+00:00",
+      "home": "Rosario Central",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:5926",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17386677,
+      "debut": "2019-03-07T00:30:00+00:00",
+      "home": "Alianza Lima",
+      "away": "River Plate",
+      "home_id": "sr:competitor:2311",
+      "away_id": "sr:competitor:3211",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

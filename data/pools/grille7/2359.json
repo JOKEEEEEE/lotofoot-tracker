@@ -1,0 +1,136 @@
+{
+  "grille_id": 2359,
+  "grille_type": "grille7",
+  "pool_id": 7002359,
+  "titre": "Grille 7 n°2359",
+  "statut": "CLOSED",
+  "fin": "2022-02-12T14:00:00+00:00",
+  "collecte_le": "2026-08-20T09:24:22.484665+00:00",
+  "mises_nettes": 8729.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 714.29
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 104,
+      "winningsPerGrid": 48.08
+    }
+  ],
+  "repartition": [
+    331,
+    1679,
+    3340,
+    3617,
+    1959,
+    602,
+    104,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 27886220,
+      "debut": "2022-02-12T14:00:00+00:00",
+      "home": "Valenciennes",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1681",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27883468,
+      "debut": "2022-02-12T14:30:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Wolfsbourg",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:2524",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751538,
+      "debut": "2022-02-12T15:00:00+00:00",
+      "home": "Everton",
+      "away": "Leeds",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:34",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751532,
+      "debut": "2022-02-12T15:00:00+00:00",
+      "home": "Brentford",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:50",
+      "away_id": "sr:competitor:7",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965642,
+      "debut": "2022-02-12T15:15:00+00:00",
+      "home": "Villarreal",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27885160,
+      "debut": "2022-02-12T16:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Lille",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1643",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160322,
+      "debut": "2022-02-12T17:00:00+00:00",
+      "home": "Naples",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

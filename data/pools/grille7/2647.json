@@ -1,0 +1,136 @@
+{
+  "grille_id": 2647,
+  "grille_type": "grille7",
+  "pool_id": 7002647,
+  "titre": "Grille 7 n°2647",
+  "statut": "CLOSED",
+  "fin": "2022-10-12T19:00:00+00:00",
+  "collecte_le": "2026-08-20T13:15:39.297500+00:00",
+  "mises_nettes": 23882.25,
+  "montant_distribue": 23882.25,
+  "montant_garanti": 20000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 57,
+      "winningsPerGrid": 209.49
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 856,
+      "winningsPerGrid": 13.95
+    }
+  ],
+  "repartition": [
+    207,
+    1447,
+    5415,
+    10463,
+    9312,
+    4086,
+    856,
+    57
+  ],
+  "matches": [
+    {
+      "match_id": 35645047,
+      "debut": "2022-10-12T19:00:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Marseille",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:1641",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35645037,
+      "debut": "2022-10-12T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2697",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35644947,
+      "debut": "2022-10-12T19:00:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:3002",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278609,
+      "debut": "2022-10-12T19:00:00+00:00",
+      "home": "Racing Santander",
+      "away": "Real Saragosse",
+      "home_id": "sr:competitor:2835",
+      "away_id": "sr:competitor:2815",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35645039,
+      "debut": "2022-10-12T19:00:00+00:00",
+      "home": "Viktoria Plzen",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:4502",
+      "away_id": "sr:competitor:2672",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35645045,
+      "debut": "2022-10-12T19:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:2674",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35644859,
+      "debut": "2022-10-12T19:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 7,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 424,
+  "grille_type": "grille7",
+  "pool_id": 7000424,
+  "titre": "Grille 7 n°424",
+  "statut": "CLOSED",
+  "fin": "2016-12-30T19:30:00+00:00",
+  "collecte_le": "2026-08-20T12:19:48.033500+00:00",
+  "mises_nettes": 7878.75,
+  "montant_distribue": 7878.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "111010001100111100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 281.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 204,
+      "winningsPerGrid": 19.31
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9913741,
+      "debut": "2016-12-30T19:30:00+00:00",
+      "home": "Ternana",
+      "away": "Ascoli",
+      "home_id": "sr:competitor:2708",
+      "away_id": "sr:competitor:2707",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9913977,
+      "debut": "2016-12-30T19:30:00+00:00",
+      "home": "Pro Vercelli ",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:2769",
+      "away_id": "sr:competitor:2801",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645733,
+      "debut": "2016-12-30T19:45:00+00:00",
+      "home": "Brighton",
+      "away": "Cardiff",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:61",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645739,
+      "debut": "2016-12-30T19:45:00+00:00",
+      "home": "Ipswich",
+      "away": "Bristol City",
+      "home_id": "sr:competitor:32",
+      "away_id": "sr:competitor:58",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9612773,
+      "debut": "2016-12-30T19:45:00+00:00",
+      "home": "Heart of Midlothian",
+      "away": "Aberdeen",
+      "home_id": "sr:competitor:2353",
+      "away_id": "sr:competitor:2355",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600107,
+      "debut": "2016-12-30T20:00:00+00:00",
+      "home": "Hull City",
+      "away": "Everton",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:48",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9645745,
+      "debut": "2016-12-30T20:00:00+00:00",
+      "home": "Reading",
+      "away": "Fulham",
+      "home_id": "sr:competitor:28",
+      "away_id": "sr:competitor:43",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

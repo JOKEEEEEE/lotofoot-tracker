@@ -1,0 +1,127 @@
+{
+  "grille_id": 1727,
+  "grille_type": "grille7",
+  "pool_id": 7001727,
+  "titre": "Grille 7 n°1727",
+  "statut": "CLOSED",
+  "fin": "2020-09-02T23:00:00+00:00",
+  "collecte_le": "2026-08-20T10:18:48.873309+00:00",
+  "mises_nettes": 8934,
+  "montant_distribue": 8934,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 558.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 106,
+      "winningsPerGrid": 42.14
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23049935,
+      "debut": "2020-09-02T23:00:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "Inter Miami CF",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:659691",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23049933,
+      "debut": "2020-09-02T23:30:00+00:00",
+      "home": "FC Cincinnati",
+      "away": "Chicago Fire",
+      "home_id": "sr:competitor:245305",
+      "away_id": "sr:competitor:2505",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23049937,
+      "debut": "2020-09-02T23:30:00+00:00",
+      "home": "Columbus Crew",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:39833",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23049943,
+      "debut": "2020-09-03T00:00:00+00:00",
+      "home": "New England Revolution",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:2511",
+      "away_id": "sr:competitor:167510",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23049945,
+      "debut": "2020-09-03T00:30:00+00:00",
+      "home": "Nashville SC",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:668063",
+      "away_id": "sr:competitor:52237",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23049949,
+      "debut": "2020-09-03T01:30:00+00:00",
+      "home": "Real Salt Lake",
+      "away": "Seattle Sounders",
+      "home_id": "sr:competitor:5133",
+      "away_id": "sr:competitor:22009",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23049953,
+      "debut": "2020-09-03T03:00:00+00:00",
+      "home": "Los Angeles FC",
+      "away": "San Jose Earthquakes",
+      "home_id": "sr:competitor:402227",
+      "away_id": "sr:competitor:21825",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

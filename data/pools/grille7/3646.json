@@ -1,0 +1,136 @@
+{
+  "grille_id": 3646,
+  "grille_type": "grille7",
+  "pool_id": 7003646,
+  "titre": "Grille 7 n°3646",
+  "statut": "CLOSED",
+  "fin": "2025-03-05T20:00:00+00:00",
+  "collecte_le": "2026-08-20T07:34:34.725544+00:00",
+  "mises_nettes": 7503,
+  "montant_distribue": 7503,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001010010100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 468.94
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 103,
+      "winningsPerGrid": 36.42
+    }
+  ],
+  "repartition": [
+    199,
+    1286,
+    2802,
+    3055,
+    1911,
+    640,
+    103,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 58262007,
+      "debut": "2025-03-05T20:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58261993,
+      "debut": "2025-03-05T20:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Bayer Leverkusen",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:2681",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58262009,
+      "debut": "2025-03-05T20:00:00+00:00",
+      "home": "Benfica",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56571557,
+      "debut": "2025-03-05T22:00:00+00:00",
+      "home": "Academia Puerto Cabello",
+      "away": "FC Metropolitanos",
+      "home_id": "sr:competitor:266595",
+      "away_id": "sr:competitor:162480",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56571529,
+      "debut": "2025-03-05T22:00:00+00:00",
+      "home": "Union Espanola",
+      "away": "Everton",
+      "home_id": "sr:competitor:3153",
+      "away_id": "sr:competitor:5032",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56571551,
+      "debut": "2025-03-05T22:00:00+00:00",
+      "home": "Racing Club Montevideo",
+      "away": "Montevideo Wanderers",
+      "home_id": "sr:competitor:25010",
+      "away_id": "sr:competitor:3240",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58466535,
+      "debut": "2025-03-05T22:00:00+00:00",
+      "home": "FBC Melgar",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:2308",
+      "away_id": "sr:competitor:5991",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

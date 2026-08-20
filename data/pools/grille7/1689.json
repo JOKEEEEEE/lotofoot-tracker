@@ -1,0 +1,127 @@
+{
+  "grille_id": 1689,
+  "grille_type": "grille7",
+  "pool_id": 7001689,
+  "titre": "Grille 7 n°1689",
+  "statut": "CLOSED",
+  "fin": "2020-07-27T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:24:25.398076+00:00",
+  "mises_nettes": 11212.5,
+  "montant_distribue": 11212.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5606.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 48,
+      "winningsPerGrid": 116.8
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22838579,
+      "debut": "2020-07-27T18:45:00+00:00",
+      "home": "Cardiff",
+      "away": "Fulham",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:43",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194577,
+      "debut": "2020-07-27T19:00:00+00:00",
+      "home": "Crotone",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:2718",
+      "away_id": "sr:competitor:2801",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194581,
+      "debut": "2020-07-27T19:00:00+00:00",
+      "home": "Empoli",
+      "away": "Nuova Cosenza Calcio",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2716",
+      "score_home": 1,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194579,
+      "debut": "2020-07-27T19:00:00+00:00",
+      "home": "Juve Stabia",
+      "away": "Cremonese",
+      "home_id": "sr:competitor:5324",
+      "away_id": "sr:competitor:2761",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194567,
+      "debut": "2020-07-27T19:00:00+00:00",
+      "home": "Pérouse",
+      "away": "Trapani",
+      "home_id": "sr:competitor:2698",
+      "away_id": "sr:competitor:43686",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194565,
+      "debut": "2020-07-27T19:00:00+00:00",
+      "home": "Pordenone",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:111205",
+      "away_id": "sr:competitor:2710",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22194583,
+      "debut": "2020-07-27T19:00:00+00:00",
+      "home": "Benevento",
+      "away": "Chievo Vérone",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:2694",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

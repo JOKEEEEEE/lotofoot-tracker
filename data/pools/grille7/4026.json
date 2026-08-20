@@ -1,0 +1,136 @@
+{
+  "grille_id": 4026,
+  "grille_type": "grille7",
+  "pool_id": 7004026,
+  "titre": "Grille 7 n°4026",
+  "statut": "CLOSED",
+  "fin": "2026-03-23T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:30:47.026358+00:00",
+  "mises_nettes": 4617.75,
+  "montant_distribue": 4617.75,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 577.22
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 56,
+      "winningsPerGrid": 41.23
+    }
+  ],
+  "repartition": [
+    182,
+    965,
+    1890,
+    1872,
+    912,
+    276,
+    56,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 67698002,
+      "debut": "2026-03-23T19:00:00+00:00",
+      "home": "Boyaca Chico FC",
+      "away": "Tolima",
+      "home_id": "sr:competitor:6107",
+      "away_id": "sr:competitor:6111",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 110,
+      "cote_N": 1.01,
+      "cote_2": 48
+    },
+    {
+      "match_id": 61623696,
+      "debut": "2026-03-23T19:30:00+00:00",
+      "home": "Castellon",
+      "away": "Cultural Leonesa",
+      "home_id": "sr:competitor:5067",
+      "away_id": "sr:competitor:2868",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.4,
+      "cote_N": 4.2,
+      "cote_2": 5.7
+    },
+    {
+      "match_id": 67698004,
+      "debut": "2026-03-23T21:10:00+00:00",
+      "home": "Santa Fe",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:6115",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.3,
+      "cote_N": 100,
+      "cote_2": null
+    },
+    {
+      "match_id": 68042376,
+      "debut": "2026-03-23T21:30:00+00:00",
+      "home": "Sportivo Trinidense",
+      "away": "CD Recoleta",
+      "home_id": "sr:competitor:39722",
+      "away_id": "sr:competitor:463345",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.1,
+      "cote_N": 3.05,
+      "cote_2": 3
+    },
+    {
+      "match_id": 67091842,
+      "debut": "2026-03-23T22:00:00+00:00",
+      "home": "Estudiantes",
+      "away": "Central Cordoba",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:65676",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.49,
+      "cote_N": 3.4,
+      "cote_2": 6.25
+    },
+    {
+      "match_id": 67698006,
+      "debut": "2026-03-23T23:20:00+00:00",
+      "home": "Jaguares De Cordoba",
+      "away": "Águilas Doradas",
+      "home_id": "sr:competitor:89370",
+      "away_id": "sr:competitor:48244",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 65,
+      "cote_N": 1,
+      "cote_2": 65
+    },
+    {
+      "match_id": 67091858,
+      "debut": "2026-03-24T00:15:00+00:00",
+      "home": "Huracan",
+      "away": "Club Atletico Barracas Central",
+      "home_id": "sr:competitor:7629",
+      "away_id": "sr:competitor:65668",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.76,
+      "cote_N": 2.85,
+      "cote_2": 4.5
+    }
+  ]
+}

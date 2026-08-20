@@ -1,0 +1,136 @@
+{
+  "grille_id": 3904,
+  "grille_type": "grille7",
+  "pool_id": 7003904,
+  "titre": "Grille 7 n°3904",
+  "statut": "CLOSED",
+  "fin": "2025-11-19T22:30:00+00:00",
+  "collecte_le": "2026-08-20T06:46:46.630980+00:00",
+  "mises_nettes": 4569,
+  "montant_distribue": 4569,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 12,
+      "winningsPerGrid": 190.38
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 170,
+      "winningsPerGrid": 13.44
+    }
+  ],
+  "repartition": [
+    335,
+    1262,
+    1980,
+    1600,
+    733,
+    170,
+    12,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 58053199,
+      "debut": "2025-11-19T22:30:00+00:00",
+      "home": "Palmeiras",
+      "away": "Vitoria",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1962",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.27,
+      "cote_N": 4.1,
+      "cote_2": 7.25
+    },
+    {
+      "match_id": 65721586,
+      "debut": "2025-11-19T23:30:00+00:00",
+      "home": "Bucaramanga",
+      "away": "Santa Fe",
+      "home_id": "sr:competitor:6103",
+      "away_id": "sr:competitor:6116",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.7,
+      "cote_N": 2.95,
+      "cote_2": 3.8
+    },
+    {
+      "match_id": 58053133,
+      "debut": "2025-11-20T00:35:00+00:00",
+      "home": "Fluminense",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:5981",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.2,
+      "cote_N": 2.6,
+      "cote_2": 2
+    },
+    {
+      "match_id": 58053145,
+      "debut": "2025-11-20T00:30:00+00:00",
+      "home": "Grêmio",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:1974",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.78,
+      "cote_N": 3.2,
+      "cote_2": 3.25
+    },
+    {
+      "match_id": 58053139,
+      "debut": "2025-11-20T00:30:00+00:00",
+      "home": "Santos",
+      "away": "Mirassol",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:21982",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.66,
+      "cote_N": 3.1,
+      "cote_2": 3.85
+    },
+    {
+      "match_id": 65721282,
+      "debut": "2025-11-20T01:36:00+00:00",
+      "home": "Junior De Barranquilla",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6105",
+      "away_id": "sr:competitor:6115",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.1,
+      "cote_N": 2.95,
+      "cote_2": 2.6
+    },
+    {
+      "match_id": 58053137,
+      "debut": "2025-11-20T22:30:00+00:00",
+      "home": "Corinthians",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1981",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.25,
+      "cote_N": 2.55,
+      "cote_2": 3.3
+    }
+  ]
+}

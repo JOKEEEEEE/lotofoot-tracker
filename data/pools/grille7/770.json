@@ -1,0 +1,127 @@
+{
+  "grille_id": 770,
+  "grille_type": "grille7",
+  "pool_id": 7000770,
+  "titre": "Grille 7 n°770",
+  "statut": "CLOSED",
+  "fin": "2018-01-03T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:47:44.776644+00:00",
+  "mises_nettes": 16437,
+  "montant_distribue": 16437,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 169,
+      "winningsPerGrid": 48.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1304,
+      "winningsPerGrid": 6.3
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11830370,
+      "debut": "2018-01-03T19:45:00+00:00",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:38",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13404555,
+      "debut": "2018-01-03T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Torino",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2696",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13281345,
+      "debut": "2018-01-03T20:00:00+00:00",
+      "home": "CF Cadiz",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:2833",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13281349,
+      "debut": "2018-01-03T20:00:00+00:00",
+      "home": "Las Palmas",
+      "away": "Valence",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971834,
+      "debut": "2018-01-03T20:15:00+00:00",
+      "home": "Feirense",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:4501",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971844,
+      "debut": "2018-01-03T20:15:00+00:00",
+      "home": "Rio Ave",
+      "away": "Paços de Ferreira",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:3003",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971830,
+      "debut": "2018-01-03T21:30:00+00:00",
+      "home": "Benfica",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

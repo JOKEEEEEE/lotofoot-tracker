@@ -1,0 +1,136 @@
+{
+  "grille_id": 4169,
+  "grille_type": "grille7",
+  "pool_id": 7004169,
+  "titre": "Grille 7 n°4169",
+  "statut": "CLOSED",
+  "fin": "2026-08-15T14:00:00+00:00",
+  "collecte_le": "2026-08-20T05:44:22.081991+00:00",
+  "mises_nettes": 5321.25,
+  "montant_distribue": 5321.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1330.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 64,
+      "winningsPerGrid": 41.57
+    }
+  ],
+  "repartition": [
+    120,
+    639,
+    1506,
+    2234,
+    1852,
+    678,
+    64,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 72202970,
+      "debut": "2026-08-15T14:00:00+00:00",
+      "home": "Union Saint-Gilloise",
+      "away": "Zulte Waregem",
+      "home_id": "sr:competitor:4860",
+      "away_id": "sr:competitor:2933",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 40,
+      "cote_N": 1.01,
+      "cote_2": 140
+    },
+    {
+      "match_id": 72478446,
+      "debut": "2026-08-15T17:30:00+00:00",
+      "home": "Alaves",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2859",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.2,
+      "cote_N": 2.55,
+      "cote_2": 3.35
+    },
+    {
+      "match_id": 72041056,
+      "debut": "2026-08-15T18:00:00+00:00",
+      "home": "Excelsior Rotterdam",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:2967",
+      "away_id": "sr:competitor:2952",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 5.7,
+      "cote_N": 4.5,
+      "cote_2": 1.38
+    },
+    {
+      "match_id": 72723132,
+      "debut": "2026-08-15T18:30:00+00:00",
+      "home": "Genclerbirligi",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:7802",
+      "away_id": "sr:competitor:3052",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 4.8,
+      "cote_N": 3.9,
+      "cote_2": 1.54
+    },
+    {
+      "match_id": 72202974,
+      "debut": "2026-08-15T18:45:00+00:00",
+      "home": "O-H Louvain",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:2918",
+      "away_id": "sr:competitor:2888",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 5.2,
+      "cote_N": 4.1,
+      "cote_2": 1.43
+    },
+    {
+      "match_id": 72478462,
+      "debut": "2026-08-15T19:38:00+00:00",
+      "home": "FC Séville",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2818",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.2,
+      "cote_N": 2.75,
+      "cote_2": 3.05
+    },
+    {
+      "match_id": 72530852,
+      "debut": "2026-08-15T19:30:00+00:00",
+      "home": "Rio Ave",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:3002",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 7,
+      "cote_N": 4.2,
+      "cote_2": 1.35
+    }
+  ]
+}

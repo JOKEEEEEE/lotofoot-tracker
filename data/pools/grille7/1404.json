@@ -1,0 +1,127 @@
+{
+  "grille_id": 1404,
+  "grille_type": "grille7",
+  "pool_id": 7001404,
+  "titre": "Grille 7 n°1404",
+  "statut": "CLOSED",
+  "fin": "2019-10-09T18:45:00+00:00",
+  "collecte_le": "2026-08-20T10:51:41.049259+00:00",
+  "mises_nettes": 10119.75,
+  "montant_distribue": 10119.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 421.66
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 169,
+      "winningsPerGrid": 29.94
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18334087,
+      "debut": "2019-10-09T18:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Argentine",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4819",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789268,
+      "debut": "2019-10-09T22:15:00+00:00",
+      "home": "Botafogo",
+      "away": "Goias",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1960",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789260,
+      "debut": "2019-10-09T23:30:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:21845",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789272,
+      "debut": "2019-10-10T00:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1981",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789256,
+      "debut": "2019-10-10T00:00:00+00:00",
+      "home": "Grêmio",
+      "away": "Ceara CE",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:2001",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789264,
+      "debut": "2019-10-10T00:30:00+00:00",
+      "home": "Santos",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1963",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17789258,
+      "debut": "2019-10-10T00:30:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1961",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

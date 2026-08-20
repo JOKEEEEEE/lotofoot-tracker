@@ -1,0 +1,127 @@
+{
+  "grille_id": 1919,
+  "grille_type": "grille7",
+  "pool_id": 7001919,
+  "titre": "Grille 7 n°1919",
+  "statut": "CLOSED",
+  "fin": "2021-02-06T14:00:00+00:00",
+  "collecte_le": "2026-08-20T10:00:59.627748+00:00",
+  "mises_nettes": 14217,
+  "montant_distribue": 14217,
+  "montant_garanti": 12500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 473.9
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 209,
+      "winningsPerGrid": 34.01
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22651659,
+      "debut": "2021-02-06T14:00:00+00:00",
+      "home": "Troyes",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1681",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 19,
+      "cote_N": 1.01,
+      "cote_2": 32
+    },
+    {
+      "match_id": 22651651,
+      "debut": "2021-02-06T14:00:00+00:00",
+      "home": "Le Havre",
+      "away": "Paris FC",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:6070",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 21,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23390963,
+      "debut": "2021-02-06T14:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Torino",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2696",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 22,
+      "cote_N": 1,
+      "cote_2": 38
+    },
+    {
+      "match_id": 23032173,
+      "debut": "2021-02-06T14:30:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "VfB Stuttgart",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2677",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23204233,
+      "debut": "2021-02-06T15:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Southampton",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:45",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 8.5,
+      "cote_2": 90
+    },
+    {
+      "match_id": 22650793,
+      "debut": "2021-02-06T16:00:00+00:00",
+      "home": "Lorient",
+      "away": "Reims",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1682",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 19,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23390971,
+      "debut": "2021-02-06T17:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

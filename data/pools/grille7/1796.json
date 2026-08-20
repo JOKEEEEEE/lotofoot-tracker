@@ -1,0 +1,127 @@
+{
+  "grille_id": 1796,
+  "grille_type": "grille7",
+  "pool_id": 7001796,
+  "titre": "Grille 7 n°1796",
+  "statut": "CLOSED",
+  "fin": "2020-10-30T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:13:42.999801+00:00",
+  "mises_nettes": 13347,
+  "montant_distribue": 13347,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1334.7
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 51,
+      "winningsPerGrid": 130.85
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23031929,
+      "debut": "2020-10-30T19:30:00+00:00",
+      "home": "Schalke 04",
+      "away": "VfB Stuttgart",
+      "home_id": "sr:competitor:2530",
+      "away_id": "sr:competitor:2677",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 22,
+      "cote_N": 1.02,
+      "cote_2": 11.5
+    },
+    {
+      "match_id": 23031187,
+      "debut": "2020-10-30T19:45:00+00:00",
+      "home": "Racing Genk",
+      "away": "Eupen",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2926",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23216473,
+      "debut": "2020-10-30T19:45:00+00:00",
+      "home": "Coventry City",
+      "away": "Reading",
+      "home_id": "sr:competitor:11",
+      "away_id": "sr:competitor:28",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 27,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23203919,
+      "debut": "2020-10-30T20:00:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:7",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360467,
+      "debut": "2020-10-30T20:00:00+00:00",
+      "home": "Eibar",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:4488",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23320141,
+      "debut": "2020-10-30T20:30:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:3002",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.02,
+      "cote_N": 9,
+      "cote_2": 100
+    },
+    {
+      "match_id": 22721879,
+      "debut": "2020-10-31T01:30:00+00:00",
+      "home": "Necaxa",
+      "away": "Toluca",
+      "home_id": "sr:competitor:1944",
+      "away_id": "sr:competitor:1931",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 19,
+      "cote_N": 1.01,
+      "cote_2": 27
+    }
+  ]
+}

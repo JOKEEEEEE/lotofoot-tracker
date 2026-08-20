@@ -1,0 +1,127 @@
+{
+  "grille_id": 313,
+  "grille_type": "grille7",
+  "pool_id": 7000313,
+  "titre": "Grille 7 n°313",
+  "statut": "CLOSED",
+  "fin": "2016-09-02T18:00:00+00:00",
+  "collecte_le": "2026-08-20T13:33:07.562022+00:00",
+  "mises_nettes": 6493.5,
+  "montant_distribue": 6493.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 3246.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 24,
+      "winningsPerGrid": 135.28
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8738362,
+      "debut": "2016-09-02T18:00:00+00:00",
+      "home": "Irlande du Nord U21",
+      "away": "Islande U21",
+      "home_id": "sr:competitor:6043",
+      "away_id": "sr:competitor:6031",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8738342,
+      "debut": "2016-09-02T18:30:00+00:00",
+      "home": "Irlande U21",
+      "away": "Slovénie U21",
+      "home_id": "sr:competitor:6047",
+      "away_id": "sr:competitor:6371",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8738360,
+      "debut": "2016-09-02T18:30:00+00:00",
+      "home": "Écosse U21",
+      "away": "Macédoine du Nord U21",
+      "home_id": "sr:competitor:6051",
+      "away_id": "sr:competitor:6028",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693302,
+      "debut": "2016-09-02T18:45:00+00:00",
+      "home": "Derry City",
+      "away": "Galway United",
+      "home_id": "sr:competitor:3170",
+      "away_id": "sr:competitor:3172",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693306,
+      "debut": "2016-09-02T18:45:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "St Patricks",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3169",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8693372,
+      "debut": "2016-09-02T18:45:00+00:00",
+      "home": "Bohemians",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3173",
+      "away_id": "sr:competitor:3179",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8738364,
+      "debut": "2016-09-02T19:00:00+00:00",
+      "home": "Ukraine U21",
+      "away": "France U21",
+      "home_id": "sr:competitor:4887",
+      "away_id": "sr:competitor:5936",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

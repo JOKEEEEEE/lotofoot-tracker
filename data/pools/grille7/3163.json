@@ -1,0 +1,136 @@
+{
+  "grille_id": 3163,
+  "grille_type": "grille7",
+  "pool_id": 7003163,
+  "titre": "Grille 7 n°3163",
+  "statut": "CLOSED",
+  "fin": "2023-12-24T13:00:00+00:00",
+  "collecte_le": "2026-08-20T08:10:47.012257+00:00",
+  "mises_nettes": 6047.25,
+  "montant_distribue": 6047.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 755.91
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 75,
+      "winningsPerGrid": 40.32
+    }
+  ],
+  "repartition": [
+    218,
+    1197,
+    2354,
+    2451,
+    1345,
+    419,
+    75,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 41763199,
+      "debut": "2023-12-24T13:00:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:38",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415711,
+      "debut": "2023-12-24T13:00:00+00:00",
+      "home": "Adana Demirspor",
+      "away": "Antalyaspor",
+      "home_id": "sr:competitor:3101",
+      "away_id": "sr:competitor:3056",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415717,
+      "debut": "2023-12-24T16:00:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:3061",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415707,
+      "debut": "2023-12-25T14:00:00+00:00",
+      "home": "Kasimpasa",
+      "away": "Rizespor",
+      "home_id": "sr:competitor:6063",
+      "away_id": "sr:competitor:3064",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415709,
+      "debut": "2023-12-25T14:00:00+00:00",
+      "home": "Alanyaspor",
+      "away": "Samsunspor",
+      "home_id": "sr:competitor:6362",
+      "away_id": "sr:competitor:3053",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415703,
+      "debut": "2023-12-25T17:00:00+00:00",
+      "home": "Hatayspor",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:3091",
+      "away_id": "sr:competitor:3050",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42415705,
+      "debut": "2023-12-25T17:00:00+00:00",
+      "home": "Pendikspor",
+      "away": "MKE Ankaragücü",
+      "home_id": "sr:competitor:7032",
+      "away_id": "sr:competitor:3103",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

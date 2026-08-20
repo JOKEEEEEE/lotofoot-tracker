@@ -1,0 +1,127 @@
+{
+  "grille_id": 1125,
+  "grille_type": "grille7",
+  "pool_id": 7001125,
+  "titre": "Grille 7 n°1125",
+  "statut": "CLOSED",
+  "fin": "2019-01-04T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:15:57.196053+00:00",
+  "mises_nettes": 13737,
+  "montant_distribue": 13737,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010111100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 332,
+      "winningsPerGrid": 20.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 2185,
+      "winningsPerGrid": 3.14
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14917607,
+      "debut": "2019-01-04T19:45:00+00:00",
+      "home": "Aberystwyth",
+      "away": "Connah's Quay",
+      "home_id": "sr:competitor:4905",
+      "away_id": "sr:competitor:4912",
+      "score_home": 1,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14917609,
+      "debut": "2019-01-04T19:45:00+00:00",
+      "home": "The New Saints",
+      "away": "Newtown",
+      "home_id": "sr:competitor:4921",
+      "away_id": "sr:competitor:4918",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16484205,
+      "debut": "2019-01-04T19:55:00+00:00",
+      "home": "Nantes",
+      "away": "Châteauroux",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1666",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16484211,
+      "debut": "2019-01-04T19:55:00+00:00",
+      "home": "Grenoble",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1659",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145501,
+      "debut": "2019-01-04T20:00:00+00:00",
+      "home": "Grenade",
+      "away": "Albacete",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2848",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145509,
+      "debut": "2019-01-04T20:00:00+00:00",
+      "home": "Tenerife",
+      "away": "Elche",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:2846",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109313,
+      "debut": "2019-01-04T20:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2845",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3412,
+  "grille_type": "grille7",
+  "pool_id": 7003412,
+  "titre": "Grille 7 n°3412",
+  "statut": "CLOSED",
+  "fin": "2024-07-30T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:53:12.873360+00:00",
+  "mises_nettes": 4710,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 36,
+      "winningsPerGrid": 69.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 479,
+      "winningsPerGrid": 5.22
+    }
+  ],
+  "repartition": [
+    32,
+    159,
+    595,
+    1499,
+    2025,
+    1455,
+    479,
+    36
+  ],
+  "matches": [
+    {
+      "match_id": 48820719,
+      "debut": "2024-07-30T17:00:00+00:00",
+      "home": "Nouvelle-Zélande",
+      "away": "France",
+      "home_id": "sr:competitor:24256",
+      "away_id": "sr:competitor:789974",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50880065,
+      "debut": "2024-07-30T17:00:00+00:00",
+      "home": "Fenerbahce",
+      "away": "FC Lugano",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:2443",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51617503,
+      "debut": "2024-07-30T17:00:00+00:00",
+      "home": "CS Petrocub",
+      "away": "APOEL Nicosie",
+      "home_id": "sr:competitor:167232",
+      "away_id": "sr:competitor:3398",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51595851,
+      "debut": "2024-07-30T17:00:00+00:00",
+      "home": "Sparta Prague",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:2218",
+      "away_id": "sr:competitor:3177",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51595847,
+      "debut": "2024-07-30T18:00:00+00:00",
+      "home": "The New Saints",
+      "away": "Ferencvaros",
+      "home_id": "sr:competitor:4921",
+      "away_id": "sr:competitor:1925",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51617507,
+      "debut": "2024-07-30T18:30:00+00:00",
+      "home": "Slovan Bratislava",
+      "away": "Celje",
+      "home_id": "sr:competitor:2404",
+      "away_id": "sr:competitor:2413",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51619389,
+      "debut": "2024-07-30T18:45:00+00:00",
+      "home": "Klaksvik",
+      "away": "Malmö",
+      "home_id": "sr:competitor:5194",
+      "away_id": "sr:competitor:1892",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

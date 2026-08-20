@@ -1,0 +1,136 @@
+{
+  "grille_id": 3758,
+  "grille_type": "grille7",
+  "pool_id": 7003758,
+  "titre": "Grille 7 n°3758",
+  "statut": "CLOSED",
+  "fin": "2025-06-22T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:22:37.676481+00:00",
+  "mises_nettes": 3887.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010100111100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 36,
+      "winningsPerGrid": 55.56
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 317,
+      "winningsPerGrid": 6.31
+    }
+  ],
+  "repartition": [
+    0,
+    42,
+    318,
+    1171,
+    1977,
+    1229,
+    299,
+    33
+  ],
+  "matches": [
+    {
+      "match_id": 61301495,
+      "debut": "2025-06-22T16:00:00+00:00",
+      "home": "Danemark U21",
+      "away": "France U21",
+      "home_id": "sr:competitor:6023",
+      "away_id": "sr:competitor:5936",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189487,
+      "debut": "2025-06-22T16:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Wydad Casablanca",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:36268",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61157877,
+      "debut": "2025-06-22T18:30:00+00:00",
+      "home": "Salernitana",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:2711",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189499,
+      "debut": "2025-06-22T19:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Pachuca",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:1936",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61301501,
+      "debut": "2025-06-22T19:00:00+00:00",
+      "home": "Allemagne U21",
+      "away": "Italie U21",
+      "home_id": "sr:competitor:4890",
+      "away_id": "sr:competitor:4888",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189501,
+      "debut": "2025-06-22T22:00:00+00:00",
+      "home": "Red Bull Salzbourg",
+      "away": "Al-Hilal",
+      "home_id": "sr:competitor:2046",
+      "away_id": "sr:competitor:21895",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380349,
+      "debut": "2025-06-23T00:00:00+00:00",
+      "home": "Everton",
+      "away": "O'Higgins",
+      "home_id": "sr:competitor:5032",
+      "away_id": "sr:competitor:3163",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

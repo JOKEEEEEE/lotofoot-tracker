@@ -1,0 +1,136 @@
+{
+  "grille_id": 3311,
+  "grille_type": "grille7",
+  "pool_id": 7003311,
+  "titre": "Grille 7 n°3311",
+  "statut": "CLOSED",
+  "fin": "2024-04-25T18:00:00+00:00",
+  "collecte_le": "2026-08-20T08:01:19.039480+00:00",
+  "mises_nettes": 4796.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001001001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 46,
+      "winningsPerGrid": 54.35
+    }
+  ],
+  "repartition": [
+    107,
+    714,
+    1911,
+    2128,
+    1166,
+    322,
+    46,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 42417193,
+      "debut": "2024-04-25T18:00:00+00:00",
+      "home": "Al Riyadh",
+      "away": "Al Ahli SC",
+      "home_id": "sr:competitor:168088",
+      "away_id": "sr:competitor:34469",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42417179,
+      "debut": "2024-04-25T18:00:00+00:00",
+      "home": "Al Wehda",
+      "away": "Al Hazem",
+      "home_id": "sr:competitor:32994",
+      "away_id": "sr:competitor:168086",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48719671,
+      "debut": "2024-04-25T18:30:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:4860",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48537073,
+      "debut": "2024-04-25T18:45:00+00:00",
+      "home": "CS Universitatea Craiova",
+      "away": "CFR Cluj",
+      "home_id": "sr:competitor:116223",
+      "away_id": "sr:competitor:5287",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41980663,
+      "debut": "2024-04-25T19:00:00+00:00",
+      "home": "GO Ahead Eagles",
+      "away": "Feyenoord",
+      "home_id": "sr:competitor:2979",
+      "away_id": "sr:competitor:2959",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48943907,
+      "debut": "2024-04-25T19:00:00+00:00",
+      "home": "Brighton",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722743,
+      "debut": "2024-04-25T22:00:00+00:00",
+      "home": "Cerro Porteno",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:5991",
+      "away_id": "sr:competitor:1961",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

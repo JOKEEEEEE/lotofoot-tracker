@@ -1,0 +1,136 @@
+{
+  "grille_id": 4062,
+  "grille_type": "grille7",
+  "pool_id": 7004062,
+  "titre": "Grille 7 n°4062",
+  "statut": "CLOSED",
+  "fin": "2026-05-01T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:30:28.950604+00:00",
+  "mises_nettes": 5377.5,
+  "montant_distribue": 5377.5,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 448.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 100,
+      "winningsPerGrid": 26.89
+    }
+  ],
+  "repartition": [
+    75,
+    618,
+    1739,
+    2371,
+    1677,
+    584,
+    100,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 61062285,
+      "debut": "2026-05-01T18:30:00+00:00",
+      "home": "Legia Varsovie",
+      "away": "Widzew Łódź",
+      "home_id": "sr:competitor:3106",
+      "away_id": "sr:competitor:3115",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.86,
+      "cote_N": 3.1,
+      "cote_2": 3.65
+    },
+    {
+      "match_id": 61061637,
+      "debut": "2026-05-01T18:45:00+00:00",
+      "home": "Pisa",
+      "away": "Lecce",
+      "home_id": "sr:competitor:2737",
+      "away_id": "sr:competitor:2689",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3.1,
+      "cote_N": 2.7,
+      "cote_2": 2.2
+    },
+    {
+      "match_id": 70674916,
+      "debut": "2026-05-01T18:45:00+00:00",
+      "home": "Livingston FC",
+      "away": "Aberdeen",
+      "home_id": "sr:competitor:2356",
+      "away_id": "sr:competitor:2355",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.5,
+      "cote_N": 3.15,
+      "cote_2": 2.35
+    },
+    {
+      "match_id": 61301213,
+      "debut": "2026-05-01T19:00:00+00:00",
+      "home": "Leeds",
+      "away": "Burnley",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:6",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.33,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61624608,
+      "debut": "2026-05-01T19:00:00+00:00",
+      "home": "Gérone",
+      "away": "Majorque",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2826",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.78,
+      "cote_N": 3.3,
+      "cote_2": 3.7
+    },
+    {
+      "match_id": 61623864,
+      "debut": "2026-05-01T19:00:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:33779",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.86,
+      "cote_N": 3.15,
+      "cote_2": 3.55
+    },
+    {
+      "match_id": 61732274,
+      "debut": "2026-05-01T19:30:00+00:00",
+      "home": "Sporting B",
+      "away": "Benfica B",
+      "home_id": "sr:competitor:74467",
+      "away_id": "sr:competitor:74465",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.5,
+      "cote_N": 3.15,
+      "cote_2": 2.35
+    }
+  ]
+}

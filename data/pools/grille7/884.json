@@ -1,0 +1,127 @@
+{
+  "grille_id": 884,
+  "grille_type": "grille7",
+  "pool_id": 7000884,
+  "titre": "Grille 7 n°884",
+  "statut": "CLOSED",
+  "fin": "2018-04-30T18:30:00+00:00",
+  "collecte_le": "2026-08-20T13:30:12.256892+00:00",
+  "mises_nettes": 15849,
+  "montant_distribue": 15849,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 75,
+      "winningsPerGrid": 105.66
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 863,
+      "winningsPerGrid": 9.18
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11914982,
+      "debut": "2018-04-30T18:30:00+00:00",
+      "home": "Nuremberg",
+      "away": "Eintracht Brunswick",
+      "home_id": "sr:competitor:2523",
+      "away_id": "sr:competitor:2557",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188638,
+      "debut": "2018-04-30T18:30:00+00:00",
+      "home": "Palerme",
+      "away": "Bari",
+      "home_id": "sr:competitor:2715",
+      "away_id": "sr:competitor:2712",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12081374,
+      "debut": "2018-04-30T18:45:00+00:00",
+      "home": "Lens",
+      "away": "Paris FC",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:6070",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830534,
+      "debut": "2018-04-30T19:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Watford",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:24",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11972120,
+      "debut": "2018-04-30T19:00:00+00:00",
+      "home": "CD Aves",
+      "away": "Estoril",
+      "home_id": "sr:competitor:3032",
+      "away_id": "sr:competitor:4500",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055772,
+      "debut": "2018-04-30T19:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2830",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13644317,
+      "debut": "2018-04-30T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Cork City",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:40896",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 439,
+  "grille_type": "grille7",
+  "pool_id": 7000439,
+  "titre": "Grille 7 n°439",
+  "statut": "CLOSED",
+  "fin": "2017-01-17T19:45:00+00:00",
+  "collecte_le": "2026-08-20T12:18:33.940524+00:00",
+  "mises_nettes": 7917,
+  "montant_distribue": 7917,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1979.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 46,
+      "winningsPerGrid": 86.05
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10861750,
+      "debut": "2017-01-17T19:45:00+00:00",
+      "home": "Burnley",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:41",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10861752,
+      "debut": "2017-01-17T19:45:00+00:00",
+      "home": "Barnsley",
+      "away": "Blackpool",
+      "home_id": "sr:competitor:23",
+      "away_id": "sr:competitor:67",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10861754,
+      "debut": "2017-01-17T19:45:00+00:00",
+      "home": "Fleetwood Town",
+      "away": "Bristol City",
+      "home_id": "sr:competitor:23959",
+      "away_id": "sr:competitor:58",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10861756,
+      "debut": "2017-01-17T19:45:00+00:00",
+      "home": "Wimbledon",
+      "away": "Sutton United",
+      "home_id": "sr:competitor:23957",
+      "away_id": "sr:competitor:6339",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10861758,
+      "debut": "2017-01-17T20:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Bolton",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:5",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10758536,
+      "debut": "2017-01-17T20:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2685",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10861748,
+      "debut": "2017-01-17T20:05:00+00:00",
+      "home": "Lincoln City",
+      "away": "Ipswich",
+      "home_id": "sr:competitor:92",
+      "away_id": "sr:competitor:32",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

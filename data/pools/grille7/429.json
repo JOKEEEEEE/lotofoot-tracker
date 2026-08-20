@@ -1,0 +1,127 @@
+{
+  "grille_id": 429,
+  "grille_type": "grille7",
+  "pool_id": 7000429,
+  "titre": "Grille 7 n°429",
+  "statut": "CLOSED",
+  "fin": "2017-01-05T20:15:00+00:00",
+  "collecte_le": "2026-08-20T12:19:16.147634+00:00",
+  "mises_nettes": 6327.75,
+  "montant_distribue": 6327.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 632.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 72,
+      "winningsPerGrid": 43.94
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10798560,
+      "debut": "2017-01-05T20:15:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2817",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9774687,
+      "debut": "2017-01-06T15:00:00+00:00",
+      "home": "Real Valladolid",
+      "away": "CF Reus Deportiu",
+      "home_id": "sr:competitor:2831",
+      "away_id": "sr:competitor:37589",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9774689,
+      "debut": "2017-01-06T15:00:00+00:00",
+      "home": "Almeria",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:2859",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9774671,
+      "debut": "2017-01-06T17:00:00+00:00",
+      "home": "Numancia",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2855",
+      "away_id": "sr:competitor:24265",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9774691,
+      "debut": "2017-01-06T17:00:00+00:00",
+      "home": "Majorque",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:2826",
+      "away_id": "sr:competitor:35092",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769487,
+      "debut": "2017-01-06T19:45:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Deportivo La Corogne",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2832",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10701448,
+      "debut": "2017-01-06T19:55:00+00:00",
+      "home": "West Ham",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

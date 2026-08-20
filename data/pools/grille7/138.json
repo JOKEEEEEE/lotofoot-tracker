@@ -1,0 +1,127 @@
+{
+  "grille_id": 138,
+  "grille_type": "grille7",
+  "pool_id": 7000138,
+  "titre": "Grille 7 n°138",
+  "statut": "CLOSED",
+  "fin": "2016-02-07T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:46:09.074465+00:00",
+  "mises_nettes": 12720.75,
+  "montant_distribue": 12720.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010001001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1272.08
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 55,
+      "winningsPerGrid": 115.64
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7464934,
+      "debut": "2016-02-07T16:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473876,
+      "debut": "2016-02-07T16:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1678",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558346,
+      "debut": "2016-02-07T16:00:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:2995",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7518156,
+      "debut": "2016-02-07T16:30:00+00:00",
+      "home": "Hoffenheim",
+      "away": "Darmstadt",
+      "home_id": "sr:competitor:2569",
+      "away_id": "sr:competitor:2576",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689030,
+      "debut": "2016-02-07T17:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2705",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610592,
+      "debut": "2016-02-07T17:15:00+00:00",
+      "home": "Celta Vigo",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473884,
+      "debut": "2016-02-07T20:00:00+00:00",
+      "home": "Marseille",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

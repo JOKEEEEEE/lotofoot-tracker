@@ -1,0 +1,136 @@
+{
+  "grille_id": 3840,
+  "grille_type": "grille7",
+  "pool_id": 7003840,
+  "titre": "Grille 7 n°3840",
+  "statut": "CLOSED",
+  "fin": "2025-09-15T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:01:46.030776+00:00",
+  "mises_nettes": 7869,
+  "montant_distribue": 7869,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 437.17
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 87,
+      "winningsPerGrid": 45.22
+    }
+  ],
+  "repartition": [
+    425,
+    1724,
+    3184,
+    3006,
+    1588,
+    469,
+    87,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 61470443,
+      "debut": "2025-09-15T18:00:00+00:00",
+      "home": "FC Petrolul Ploiesti",
+      "away": "Dinamo Bucarest",
+      "home_id": "sr:competitor:25856",
+      "away_id": "sr:competitor:3292",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56958355,
+      "debut": "2025-09-15T18:00:00+00:00",
+      "home": "Breidablik Kopavogur",
+      "away": "IBV Vestmannaeyjar",
+      "home_id": "sr:competitor:1901",
+      "away_id": "sr:competitor:1895",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61623032,
+      "debut": "2025-09-15T18:30:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Albacete",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:2848",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62819259,
+      "debut": "2025-09-15T18:45:00+00:00",
+      "home": "Guingamp",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1642",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61060739,
+      "debut": "2025-09-15T18:45:00+00:00",
+      "home": "Côme",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2704",
+      "away_id": "sr:competitor:2713",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61624004,
+      "debut": "2025-09-15T19:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2826",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61731772,
+      "debut": "2025-09-15T19:15:00+00:00",
+      "home": "Oliveirense",
+      "away": "Academico Viseu",
+      "home_id": "sr:competitor:21831",
+      "away_id": "sr:competitor:3022",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

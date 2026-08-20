@@ -1,0 +1,127 @@
+{
+  "grille_id": 1790,
+  "grille_type": "grille7",
+  "pool_id": 7001790,
+  "titre": "Grille 7 n°1790",
+  "statut": "CLOSED",
+  "fin": "2020-10-25T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:14:34.795520+00:00",
+  "mises_nettes": 9348.75,
+  "montant_distribue": 9348.75,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "100001111010100111010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 42,
+      "winningsPerGrid": 111.29
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 652,
+      "winningsPerGrid": 7.17
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23390653,
+      "debut": "2020-10-25T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2701",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 12.5,
+      "cote_N": 1.02,
+      "cote_2": 42
+    },
+    {
+      "match_id": 23031173,
+      "debut": "2020-10-25T19:45:00+00:00",
+      "home": "Charleroi",
+      "away": "Waasland-Beveren",
+      "home_id": "sr:competitor:2898",
+      "away_id": "sr:competitor:4859",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.19,
+      "cote_N": 4.9,
+      "cote_2": 9
+    },
+    {
+      "match_id": 22650479,
+      "debut": "2020-10-25T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1653",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23362369,
+      "debut": "2020-10-25T20:00:00+00:00",
+      "home": "Real Saragosse",
+      "away": "Sabadell",
+      "home_id": "sr:competitor:2815",
+      "away_id": "sr:competitor:24335",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 21,
+      "cote_N": 1.01,
+      "cote_2": 23
+    },
+    {
+      "match_id": 23495643,
+      "debut": "2020-10-25T20:00:00+00:00",
+      "home": "Cremonese",
+      "away": "Brescia",
+      "home_id": "sr:competitor:2761",
+      "away_id": "sr:competitor:2691",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.2,
+      "cote_N": 2.9,
+      "cote_2": 3.15
+    },
+    {
+      "match_id": 23320129,
+      "debut": "2020-10-25T20:00:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Braga",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 200,
+      "cote_N": 14.5,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 23360451,
+      "debut": "2020-10-25T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:24265",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

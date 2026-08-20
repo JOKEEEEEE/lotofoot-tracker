@@ -1,0 +1,127 @@
+{
+  "grille_id": 891,
+  "grille_type": "grille7",
+  "pool_id": 7000891,
+  "titre": "Grille 7 n°891",
+  "statut": "CLOSED",
+  "fin": "2018-05-07T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:38:52.235712+00:00",
+  "mises_nettes": 12025.5,
+  "montant_distribue": 12025.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010001001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 39,
+      "winningsPerGrid": 154.17
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 342,
+      "winningsPerGrid": 17.58
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12188690,
+      "debut": "2018-05-07T18:30:00+00:00",
+      "home": "Empoli",
+      "away": "Cremonese",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2761",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11972150,
+      "debut": "2018-05-07T19:00:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:3036",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055798,
+      "debut": "2018-05-07T19:00:00+00:00",
+      "home": "Leganes",
+      "away": "Levante",
+      "home_id": "sr:competitor:2845",
+      "away_id": "sr:competitor:2849",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12075054,
+      "debut": "2018-05-07T19:00:00+00:00",
+      "home": "Grenade",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2818",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370476,
+      "debut": "2018-05-07T19:15:00+00:00",
+      "home": "Vikingur Reykjavik",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1908",
+      "away_id": "sr:competitor:1899",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370478,
+      "debut": "2018-05-07T19:15:00+00:00",
+      "home": "Keflavik",
+      "away": "Grindavik",
+      "home_id": "sr:competitor:1900",
+      "away_id": "sr:competitor:1897",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370480,
+      "debut": "2018-05-07T19:15:00+00:00",
+      "home": "FH Hafnarfjordur",
+      "away": "Breidablik",
+      "home_id": "sr:competitor:1894",
+      "away_id": "sr:competitor:1901",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

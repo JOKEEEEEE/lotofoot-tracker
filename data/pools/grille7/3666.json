@@ -1,0 +1,136 @@
+{
+  "grille_id": 3666,
+  "grille_type": "grille7",
+  "pool_id": 7003666,
+  "titre": "Grille 7 n°3666",
+  "statut": "CLOSED",
+  "fin": "2025-03-27T20:00:00+00:00",
+  "collecte_le": "2026-08-20T07:29:18.448705+00:00",
+  "mises_nettes": 4233.75,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 312.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 133,
+      "winningsPerGrid": 18.8
+    }
+  ],
+  "repartition": [
+    15,
+    280,
+    1150,
+    2019,
+    1482,
+    558,
+    133,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 59070997,
+      "debut": "2025-03-27T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2820",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57889535,
+      "debut": "2025-03-27T20:00:00+00:00",
+      "home": "Chelsea (F)",
+      "away": "Manchester City (F)",
+      "home_id": "sr:competitor:66768",
+      "away_id": "sr:competitor:142658",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742997,
+      "debut": "2025-03-27T21:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:3206",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380203,
+      "debut": "2025-03-27T21:15:00+00:00",
+      "home": "Colo Colo",
+      "away": "Palestino",
+      "home_id": "sr:competitor:3155",
+      "away_id": "sr:competitor:3157",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57310897,
+      "debut": "2025-03-27T23:00:00+00:00",
+      "home": "Once Caldas",
+      "away": "Llaneros FC",
+      "home_id": "sr:competitor:6118",
+      "away_id": "sr:competitor:89374",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380189,
+      "debut": "2025-03-27T23:30:00+00:00",
+      "home": "Everton",
+      "away": "Universidad De Chile",
+      "home_id": "sr:competitor:5032",
+      "away_id": "sr:competitor:3161",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56743009,
+      "debut": "2025-03-28T00:00:00+00:00",
+      "home": "Independiente Rivadavia",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:36842",
+      "away_id": "sr:competitor:3215",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

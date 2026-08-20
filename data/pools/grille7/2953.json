@@ -1,0 +1,136 @@
+{
+  "grille_id": 2953,
+  "grille_type": "grille7",
+  "pool_id": 7002953,
+  "titre": "Grille 7 n°2953",
+  "statut": "CLOSED",
+  "fin": "2023-06-27T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:34:21.709312+00:00",
+  "mises_nettes": 4515,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 28,
+      "winningsPerGrid": 89.29
+    }
+  ],
+  "repartition": [
+    198,
+    922,
+    2048,
+    1783,
+    830,
+    210,
+    28,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 36967497,
+      "debut": "2023-06-27T18:45:00+00:00",
+      "home": "Espagne U21",
+      "away": "Ukraine U21",
+      "home_id": "sr:competitor:4891",
+      "away_id": "sr:competitor:4887",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36967499,
+      "debut": "2023-06-27T18:45:00+00:00",
+      "home": "Croatie U21",
+      "away": "Roumanie U21",
+      "home_id": "sr:competitor:6370",
+      "away_id": "sr:competitor:6048",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346361,
+      "debut": "2023-06-27T22:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Alianza Lima",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:2311",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346363,
+      "debut": "2023-06-27T22:00:00+00:00",
+      "home": "Libertad Asuncion",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:5996",
+      "away_id": "sr:competitor:1977",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346281,
+      "debut": "2023-06-28T00:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Sporting Cristal",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:2302",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346387,
+      "debut": "2023-06-28T00:00:00+00:00",
+      "home": "Olimpia Asuncion",
+      "away": "FBC Melgar",
+      "home_id": "sr:competitor:5997",
+      "away_id": "sr:competitor:2308",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346389,
+      "debut": "2023-06-28T00:00:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Patronato ",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:43741",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

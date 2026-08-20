@@ -1,0 +1,136 @@
+{
+  "grille_id": 3457,
+  "grille_type": "grille7",
+  "pool_id": 7003457,
+  "titre": "Grille 7 n°3457",
+  "statut": "CLOSED",
+  "fin": "2024-09-12T21:30:00+00:00",
+  "collecte_le": "2026-08-20T07:50:06.288735+00:00",
+  "mises_nettes": 4527.75,
+  "montant_distribue": 4527.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 205.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 112,
+      "winningsPerGrid": 20.21
+    }
+  ],
+  "repartition": [
+    70,
+    443,
+    1304,
+    1914,
+    1558,
+    625,
+    112,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 53232557,
+      "debut": "2024-09-12T21:30:00+00:00",
+      "home": "Sportivo Luqueno",
+      "away": "2 de Mayo",
+      "home_id": "sr:competitor:5998",
+      "away_id": "sr:competitor:5992",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53232559,
+      "debut": "2024-09-13T00:00:00+00:00",
+      "home": "Nacional Asuncion",
+      "away": "Club Olimpia",
+      "home_id": "sr:competitor:33001",
+      "away_id": "sr:competitor:5997",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53160075,
+      "debut": "2024-09-13T00:30:00+00:00",
+      "home": "Deportivo Pereira",
+      "away": "Alianza",
+      "home_id": "sr:competitor:6109",
+      "away_id": "sr:competitor:1098993",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47273565,
+      "debut": "2024-09-13T10:00:00+00:00",
+      "home": "Kawasaki Frontale",
+      "away": "Sagan Tosu",
+      "home_id": "sr:competitor:5127",
+      "away_id": "sr:competitor:21904",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47273567,
+      "debut": "2024-09-13T10:00:00+00:00",
+      "home": "Yokohama F. Marinos",
+      "away": "Kyoto Sanga FC",
+      "home_id": "sr:competitor:3137",
+      "away_id": "sr:competitor:3149",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47273573,
+      "debut": "2024-09-13T10:00:00+00:00",
+      "home": "Vissel Kobe",
+      "away": "Cerezo Osaka",
+      "home_id": "sr:competitor:3146",
+      "away_id": "sr:competitor:3141",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47092293,
+      "debut": "2024-09-13T10:30:00+00:00",
+      "home": "Ulsan HD FC",
+      "away": "Gangwon FC",
+      "home_id": "sr:competitor:7653",
+      "away_id": "sr:competitor:34220",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

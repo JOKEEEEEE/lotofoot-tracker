@@ -1,0 +1,127 @@
+{
+  "grille_id": 432,
+  "grille_type": "grille7",
+  "pool_id": 7000432,
+  "titre": "Grille 7 n°432",
+  "statut": "CLOSED",
+  "fin": "2017-01-09T19:45:00+00:00",
+  "collecte_le": "2026-08-20T12:19:02.965770+00:00",
+  "mises_nettes": 8082,
+  "montant_distribue": 8082,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 20,
+      "winningsPerGrid": 202.05
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 248,
+      "winningsPerGrid": 16.29
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9769489,
+      "debut": "2017-01-09T19:45:00+00:00",
+      "home": "Osasuna",
+      "away": "Valence",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2828",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10701494,
+      "debut": "2017-01-09T19:45:00+00:00",
+      "home": "Cambridge United",
+      "away": "Leeds",
+      "home_id": "sr:competitor:63",
+      "away_id": "sr:competitor:34",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788869,
+      "debut": "2017-01-09T20:00:00+00:00",
+      "home": "Moreirense",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3004",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10756230,
+      "debut": "2017-01-10T17:30:00+00:00",
+      "home": "Nantes",
+      "away": "Nancy",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1675",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10673186,
+      "debut": "2017-01-10T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Hull City",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:96",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10756222,
+      "debut": "2017-01-10T20:00:00+00:00",
+      "home": "Sochaux",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1657",
+      "away_id": "sr:competitor:1653",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10758528,
+      "debut": "2017-01-10T20:00:00+00:00",
+      "home": "Naples",
+      "away": "Spezia",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2735",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

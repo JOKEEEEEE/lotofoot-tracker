@@ -1,0 +1,127 @@
+{
+  "grille_id": 1694,
+  "grille_type": "grille7",
+  "pool_id": 7001694,
+  "titre": "Grille 7 n°1694",
+  "statut": "CLOSED",
+  "fin": "2020-08-01T16:30:00+00:00",
+  "collecte_le": "2026-08-20T10:24:10.678034+00:00",
+  "mises_nettes": 18953.25,
+  "montant_distribue": 18953.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 1184.58
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 145,
+      "winningsPerGrid": 65.36
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22786339,
+      "debut": "2020-08-01T16:30:00+00:00",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:38",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22128933,
+      "debut": "2020-08-01T18:30:00+00:00",
+      "home": "Club Bruges",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:2889",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172849,
+      "debut": "2020-08-01T18:45:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172857,
+      "debut": "2020-08-01T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2702",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172861,
+      "debut": "2020-08-01T18:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2719",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172863,
+      "debut": "2020-08-01T18:45:00+00:00",
+      "home": "Naples",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2699",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22419949,
+      "debut": "2020-08-01T19:45:00+00:00",
+      "home": "Benfica",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

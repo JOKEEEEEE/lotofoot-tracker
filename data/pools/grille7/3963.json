@@ -1,0 +1,136 @@
+{
+  "grille_id": 3963,
+  "grille_type": "grille7",
+  "pool_id": 7003963,
+  "titre": "Grille 7 n°3963",
+  "statut": "CLOSED",
+  "fin": "2026-01-19T19:45:00+00:00",
+  "collecte_le": "2026-08-20T07:14:59.797133+00:00",
+  "mises_nettes": 4800,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 15,
+      "winningsPerGrid": 166.67
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 180,
+      "winningsPerGrid": 13.89
+    }
+  ],
+  "repartition": [
+    205,
+    1268,
+    2140,
+    1793,
+    799,
+    180,
+    15,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 65867278,
+      "debut": "2026-01-19T19:45:00+00:00",
+      "home": "Nancy",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:1654",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.45,
+      "cote_N": 2.85,
+      "cote_2": 2.45
+    },
+    {
+      "match_id": 61061351,
+      "debut": "2026-01-19T19:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Côme",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2704",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.7,
+      "cote_N": 2.65,
+      "cote_2": 2.35
+    },
+    {
+      "match_id": 65905654,
+      "debut": "2026-01-19T20:00:00+00:00",
+      "home": "Brighton",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:60",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.76,
+      "cote_N": 3.5,
+      "cote_2": 3.3
+    },
+    {
+      "match_id": 61624322,
+      "debut": "2026-01-19T20:00:00+00:00",
+      "home": "Elche",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2846",
+      "away_id": "sr:competitor:2833",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.15,
+      "cote_N": 2.75,
+      "cote_2": 2.9
+    },
+    {
+      "match_id": 61731190,
+      "debut": "2026-01-19T20:15:00+00:00",
+      "home": "CF Estrela Amadora",
+      "away": "Estoril",
+      "home_id": "sr:competitor:744135",
+      "away_id": "sr:competitor:4500",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 2.55,
+      "cote_N": 3.05,
+      "cote_2": 2.25
+    },
+    {
+      "match_id": 63369949,
+      "debut": "2026-01-20T15:30:00+00:00",
+      "home": "Kairat",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:5172",
+      "away_id": "sr:competitor:2888",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 5.3,
+      "cote_N": 4.3,
+      "cote_2": 1.38
+    },
+    {
+      "match_id": 63369951,
+      "debut": "2026-01-20T17:45:00+00:00",
+      "home": "Bodø/Glimt",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:656",
+      "away_id": "sr:competitor:17",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 5.1,
+      "cote_N": 4.8,
+      "cote_2": 1.35
+    }
+  ]
+}

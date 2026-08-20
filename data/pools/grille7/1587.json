@@ -1,0 +1,127 @@
+{
+  "grille_id": 1587,
+  "grille_type": "grille7",
+  "pool_id": 7001587,
+  "titre": "Grille 7 n°1587",
+  "statut": "CLOSED",
+  "fin": "2020-03-05T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:35:12.682111+00:00",
+  "mises_nettes": 13890.75,
+  "montant_distribue": 13890.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100100001111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 42,
+      "winningsPerGrid": 165.37
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 649,
+      "winningsPerGrid": 10.7
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 21165635,
+      "debut": "2020-03-05T19:45:00+00:00",
+      "home": "Naples",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21239571,
+      "debut": "2020-03-05T19:45:00+00:00",
+      "home": "Derby County",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:27",
+      "away_id": "sr:competitor:35",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21337407,
+      "debut": "2020-03-05T19:55:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1658",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21261255,
+      "debut": "2020-03-05T20:00:00+00:00",
+      "home": "Grenade",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2825",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18661220,
+      "debut": "2020-03-05T20:00:00+00:00",
+      "home": "Academica Coimbra",
+      "away": "Penafiel",
+      "home_id": "sr:competitor:3015",
+      "away_id": "sr:competitor:3017",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20925285,
+      "debut": "2020-03-05T21:00:00+00:00",
+      "home": "Universidad De Chile",
+      "away": "Everton",
+      "home_id": "sr:competitor:3161",
+      "away_id": "sr:competitor:5032",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20735917,
+      "debut": "2020-03-05T22:00:00+00:00",
+      "home": "Estudiantes De Merida",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:7745",
+      "away_id": "sr:competitor:3215",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

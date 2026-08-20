@@ -1,0 +1,136 @@
+{
+  "grille_id": 2849,
+  "grille_type": "grille7",
+  "pool_id": 7002849,
+  "titre": "Grille 7 n°2849",
+  "statut": "CLOSED",
+  "fin": "2023-03-28T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:42:58.606063+00:00",
+  "mises_nettes": 9675,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 140,
+      "winningsPerGrid": 35.71
+    }
+  ],
+  "repartition": [
+    72,
+    686,
+    2495,
+    4601,
+    3736,
+    1165,
+    140,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 39379203,
+      "debut": "2023-03-28T18:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Belgique",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4717",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36600921,
+      "debut": "2023-03-28T18:45:00+00:00",
+      "home": "Écosse",
+      "away": "Espagne",
+      "home_id": "sr:competitor:4695",
+      "away_id": "sr:competitor:4698",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36602319,
+      "debut": "2023-03-28T18:45:00+00:00",
+      "home": "Turquie",
+      "away": "Croatie",
+      "home_id": "sr:competitor:4700",
+      "away_id": "sr:competitor:4715",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36602321,
+      "debut": "2023-03-28T18:45:00+00:00",
+      "home": "Pays de Galles",
+      "away": "Lettonie",
+      "home_id": "sr:competitor:4702",
+      "away_id": "sr:competitor:4706",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36604339,
+      "debut": "2023-03-28T18:45:00+00:00",
+      "home": "Suisse",
+      "away": "Israël",
+      "home_id": "sr:competitor:4699",
+      "away_id": "sr:competitor:4480",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36604341,
+      "debut": "2023-03-28T18:45:00+00:00",
+      "home": "Roumanie",
+      "away": "Biélorussie",
+      "home_id": "sr:competitor:4477",
+      "away_id": "sr:competitor:4743",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36604343,
+      "debut": "2023-03-28T18:45:00+00:00",
+      "home": "Kosovo",
+      "away": "Andorre",
+      "home_id": "sr:competitor:154426",
+      "away_id": "sr:competitor:4818",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

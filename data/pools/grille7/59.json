@@ -1,0 +1,127 @@
+{
+  "grille_id": 59,
+  "grille_type": "grille7",
+  "pool_id": 7000059,
+  "titre": "Grille 7 n°59",
+  "statut": "CLOSED",
+  "fin": "2015-11-16T17:45:00+00:00",
+  "collecte_le": "2026-08-20T12:53:40.556598+00:00",
+  "mises_nettes": 4254,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 277.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 209,
+      "winningsPerGrid": 11.96
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7958186,
+      "debut": "2015-11-16T17:45:00+00:00",
+      "home": "Angleterre U21",
+      "away": "Suisse U21",
+      "home_id": "sr:competitor:6025",
+      "away_id": "sr:competitor:4876",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8240466,
+      "debut": "2015-11-16T19:45:00+00:00",
+      "home": "République d'Irlande",
+      "away": "Bosnie-Herzégovine",
+      "home_id": "sr:competitor:4693",
+      "away_id": "sr:competitor:4479",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8240898,
+      "debut": "2015-11-17T14:00:00+00:00",
+      "home": "Cameroun",
+      "away": "Niger",
+      "home_id": "sr:competitor:4751",
+      "away_id": "sr:competitor:8031",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8240940,
+      "debut": "2015-11-17T15:00:00+00:00",
+      "home": "Congo",
+      "away": "Ethiopie",
+      "home_id": "sr:competitor:8040",
+      "away_id": "sr:competitor:8036",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8306806,
+      "debut": "2015-11-17T16:00:00+00:00",
+      "home": "Russie",
+      "away": "Croatie",
+      "home_id": "sr:competitor:4694",
+      "away_id": "sr:competitor:4715",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7673764,
+      "debut": "2015-11-17T17:00:00+00:00",
+      "home": "Afrique du Sud",
+      "away": "Angola",
+      "home_id": "sr:competitor:4736",
+      "away_id": "sr:competitor:4692",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8240966,
+      "debut": "2015-11-17T17:00:00+00:00",
+      "home": "Côte d'Ivoire",
+      "away": "Libéria",
+      "home_id": "sr:competitor:4768",
+      "away_id": "sr:competitor:8034",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

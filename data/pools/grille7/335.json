@@ -1,0 +1,127 @@
+{
+  "grille_id": 335,
+  "grille_type": "grille7",
+  "pool_id": 7000335,
+  "titre": "Grille 7 n°335",
+  "statut": "CLOSED",
+  "fin": "2016-09-25T15:00:00+00:00",
+  "collecte_le": "2026-08-20T12:27:18.639252+00:00",
+  "mises_nettes": 10221.75,
+  "montant_distribue": 10221.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 268.99
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 251,
+      "winningsPerGrid": 20.36
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9539767,
+      "debut": "2016-09-25T15:00:00+00:00",
+      "home": "Nancy",
+      "away": "Nice",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:1661",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9599859,
+      "debut": "2016-09-25T15:00:00+00:00",
+      "home": "West Ham",
+      "away": "Southampton",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:45",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769259,
+      "debut": "2016-09-25T16:30:00+00:00",
+      "home": "Villarreal",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2820",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9788669,
+      "debut": "2016-09-25T17:00:00+00:00",
+      "home": "Paços de Ferreira",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:3003",
+      "away_id": "sr:competitor:3036",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539777,
+      "debut": "2016-09-25T18:45:00+00:00",
+      "home": "Marseille",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1647",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9820805,
+      "debut": "2016-09-25T18:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769257,
+      "debut": "2016-09-25T18:45:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:2821",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

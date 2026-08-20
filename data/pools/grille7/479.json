@@ -1,0 +1,127 @@
+{
+  "grille_id": 479,
+  "grille_type": "grille7",
+  "pool_id": 7000479,
+  "titre": "Grille 7 n°479",
+  "statut": "CLOSED",
+  "fin": "2017-02-28T19:45:00+00:00",
+  "collecte_le": "2026-08-20T12:14:27.648516+00:00",
+  "mises_nettes": 12948.75,
+  "montant_distribue": 12948.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100111001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 559,
+      "winningsPerGrid": 11.58
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 2644,
+      "winningsPerGrid": 2.45
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10973566,
+      "debut": "2017-02-28T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Naples",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2714",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10932196,
+      "debut": "2017-02-28T19:45:00+00:00",
+      "home": "Brighton",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:39",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10923426,
+      "debut": "2017-02-28T19:45:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Huddersfield",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:59",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11053087,
+      "debut": "2017-02-28T20:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1656",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10932670,
+      "debut": "2017-02-28T20:15:00+00:00",
+      "home": "Estoril",
+      "away": "Benfica",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769645,
+      "debut": "2017-02-28T20:30:00+00:00",
+      "home": "Malaga",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2816",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769651,
+      "debut": "2017-02-28T20:30:00+00:00",
+      "home": "Valence",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:2845",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

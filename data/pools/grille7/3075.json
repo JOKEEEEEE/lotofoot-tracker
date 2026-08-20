@@ -1,0 +1,136 @@
+{
+  "grille_id": 3075,
+  "grille_type": "grille7",
+  "pool_id": 7003075,
+  "titre": "Grille 7 n°3075",
+  "statut": "CLOSED",
+  "fin": "2023-10-15T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:16:33.633861+00:00",
+  "mises_nettes": 13182,
+  "montant_distribue": 13182,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 23,
+      "winningsPerGrid": 286.57
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 389,
+      "winningsPerGrid": 16.94
+    }
+  ],
+  "repartition": [
+    42,
+    391,
+    2470,
+    5705,
+    6020,
+    2536,
+    389,
+    23
+  ],
+  "matches": [
+    {
+      "match_id": 36601205,
+      "debut": "2023-10-15T18:45:00+00:00",
+      "home": "Norvège",
+      "away": "Espagne",
+      "home_id": "sr:competitor:4475",
+      "away_id": "sr:competitor:4698",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36602641,
+      "debut": "2023-10-15T18:45:00+00:00",
+      "home": "Pays de Galles",
+      "away": "Croatie",
+      "home_id": "sr:competitor:4702",
+      "away_id": "sr:competitor:4715",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36602601,
+      "debut": "2023-10-15T18:45:00+00:00",
+      "home": "Turquie",
+      "away": "Lettonie",
+      "home_id": "sr:competitor:4700",
+      "away_id": "sr:competitor:4706",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36602865,
+      "debut": "2023-10-15T18:45:00+00:00",
+      "home": "Pologne",
+      "away": "Moldavie",
+      "home_id": "sr:competitor:4703",
+      "away_id": "sr:competitor:4782",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36604545,
+      "debut": "2023-10-15T18:45:00+00:00",
+      "home": "Roumanie",
+      "away": "Andorre",
+      "home_id": "sr:competitor:4477",
+      "away_id": "sr:competitor:4818",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42129473,
+      "debut": "2023-10-15T21:00:00+00:00",
+      "home": "Águilas Doradas",
+      "away": "Petrolera",
+      "home_id": "sr:competitor:48244",
+      "away_id": "sr:competitor:89156",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42129471,
+      "debut": "2023-10-15T23:10:00+00:00",
+      "home": "Deportivo Cali",
+      "away": "America De Cali",
+      "home_id": "sr:competitor:6112",
+      "away_id": "sr:competitor:6102",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

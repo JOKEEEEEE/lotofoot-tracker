@@ -1,0 +1,127 @@
+{
+  "grille_id": 1563,
+  "grille_type": "grille7",
+  "pool_id": 7001563,
+  "titre": "Grille 7 n°1563",
+  "statut": "CLOSED",
+  "fin": "2020-02-16T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:37:38.011384+00:00",
+  "mises_nettes": 10269,
+  "montant_distribue": 10269,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2567.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 53,
+      "winningsPerGrid": 96.88
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18927252,
+      "debut": "2020-02-16T19:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2697",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440412,
+      "debut": "2020-02-16T20:00:00+00:00",
+      "home": "Lille",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18641110,
+      "debut": "2020-02-16T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2821",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660512,
+      "debut": "2020-02-16T20:00:00+00:00",
+      "home": "Famalicao",
+      "away": "CD Aves",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:3032",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030444,
+      "debut": "2020-02-16T20:00:00+00:00",
+      "home": "Empoli",
+      "away": "Pisa",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2737",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723694,
+      "debut": "2020-02-16T22:40:00+00:00",
+      "home": "River Plate",
+      "away": "Banfield",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:3219",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723704,
+      "debut": "2020-02-16T22:40:00+00:00",
+      "home": "Lanus",
+      "away": "Newell's Old Boys",
+      "home_id": "sr:competitor:3218",
+      "away_id": "sr:competitor:3212",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

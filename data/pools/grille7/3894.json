@@ -1,0 +1,136 @@
+{
+  "grille_id": 3894,
+  "grille_type": "grille7",
+  "pool_id": 7003894,
+  "titre": "Grille 7 n°3894",
+  "statut": "CLOSED",
+  "fin": "2025-11-08T16:00:00+00:00",
+  "collecte_le": "2026-08-20T06:49:06.065401+00:00",
+  "mises_nettes": 13113.75,
+  "montant_distribue": 13113.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 437.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 217,
+      "winningsPerGrid": 30.22
+    }
+  ],
+  "repartition": [
+    185,
+    1285,
+    4671,
+    6139,
+    3742,
+    1231,
+    217,
+    15
+  ],
+  "matches": [
+    {
+      "match_id": 61526176,
+      "debut": "2025-11-08T16:00:00+00:00",
+      "home": "Marseille",
+      "away": "Brest",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1715",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61061031,
+      "debut": "2025-11-08T17:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Torino",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2696",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61300721,
+      "debut": "2025-11-08T17:30:00+00:00",
+      "home": "Sunderland",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:41",
+      "away_id": "sr:competitor:42",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61526184,
+      "debut": "2025-11-08T18:00:00+00:00",
+      "home": "Le Havre",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1647",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61527590,
+      "debut": "2025-11-08T19:00:00+00:00",
+      "home": "Troyes",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1678",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61300711,
+      "debut": "2025-11-08T20:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:3",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61526190,
+      "debut": "2025-11-08T20:05:00+00:00",
+      "home": "Monaco",
+      "away": "Lens",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1648",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

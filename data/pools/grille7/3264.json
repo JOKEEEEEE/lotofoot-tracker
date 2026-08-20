@@ -1,0 +1,136 @@
+{
+  "grille_id": 3264,
+  "grille_type": "grille7",
+  "pool_id": 7003264,
+  "titre": "Grille 7 n°3264",
+  "statut": "CLOSED",
+  "fin": "2024-03-15T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:04:13.636732+00:00",
+  "mises_nettes": 10062.75,
+  "montant_distribue": 10062.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100111001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 243,
+      "winningsPerGrid": 20.71
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1581,
+      "winningsPerGrid": 3.18
+    }
+  ],
+  "repartition": [
+    0,
+    136,
+    887,
+    2783,
+    4197,
+    3590,
+    1581,
+    243
+  ],
+  "matches": [
+    {
+      "match_id": 42023533,
+      "debut": "2024-03-15T19:30:00+00:00",
+      "home": "FC Cologne",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2671",
+      "away_id": "sr:competitor:36360",
+      "score_home": 1,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42262183,
+      "debut": "2024-03-15T19:30:00+00:00",
+      "home": "Palerme",
+      "away": "Venise",
+      "home_id": "sr:competitor:2715",
+      "away_id": "sr:competitor:2688",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134673,
+      "debut": "2024-03-15T19:45:00+00:00",
+      "home": "Empoli",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2685",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41888517,
+      "debut": "2024-03-15T20:00:00+00:00",
+      "home": "Leicester",
+      "away": "Southampton",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:45",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893465,
+      "debut": "2024-03-15T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:4488",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42004975,
+      "debut": "2024-03-15T20:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1649",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146641,
+      "debut": "2024-03-15T20:15:00+00:00",
+      "home": "Estoril",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:3026",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3644,
+  "grille_type": "grille7",
+  "pool_id": 7003644,
+  "titre": "Grille 7 n°3644",
+  "statut": "CLOSED",
+  "fin": "2025-03-03T19:30:00+00:00",
+  "collecte_le": "2026-08-20T07:34:45.446252+00:00",
+  "mises_nettes": 7512.75,
+  "montant_distribue": 7512.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100001111001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 42,
+      "winningsPerGrid": 89.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 468,
+      "winningsPerGrid": 8.03
+    }
+  ],
+  "repartition": [
+    0,
+    93,
+    785,
+    2808,
+    3745,
+    2076,
+    468,
+    42
+  ],
+  "matches": [
+    {
+      "match_id": 58102903,
+      "debut": "2025-03-03T19:30:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Ipswich",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:32",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273333,
+      "debut": "2025-03-03T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2701",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57892879,
+      "debut": "2025-03-03T19:45:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Dunkerque",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:6918",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852599,
+      "debut": "2025-03-03T20:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2814",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742913,
+      "debut": "2025-03-03T20:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Godoy Cruz",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:6074",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51389183,
+      "debut": "2025-03-03T20:15:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Estoril",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:4500",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742929,
+      "debut": "2025-03-03T22:00:00+00:00",
+      "home": "San Lorenzo",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:3201",
+      "away_id": "sr:competitor:3215",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

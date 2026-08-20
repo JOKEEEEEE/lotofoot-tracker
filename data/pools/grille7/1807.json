@@ -1,0 +1,127 @@
+{
+  "grille_id": 1807,
+  "grille_type": "grille7",
+  "pool_id": 7001807,
+  "titre": "Grille 7 n°1807",
+  "statut": "CLOSED",
+  "fin": "2020-11-07T14:00:00+00:00",
+  "collecte_le": "2026-08-20T10:11:29.947195+00:00",
+  "mises_nettes": 13458.75,
+  "montant_distribue": 13458.75,
+  "montant_garanti": 9000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 395.85
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 163,
+      "winningsPerGrid": 41.28
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22651369,
+      "debut": "2020-11-07T14:00:00+00:00",
+      "home": "Clermont",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1654",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 15,
+      "cote_N": 1.02,
+      "cote_2": 26
+    },
+    {
+      "match_id": 22651373,
+      "debut": "2020-11-07T14:00:00+00:00",
+      "home": "Grenoble",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1662",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 190,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23031947,
+      "debut": "2020-11-07T14:30:00+00:00",
+      "home": "Mayence",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:2530",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 15,
+      "cote_N": 1.02,
+      "cote_2": 13.5
+    },
+    {
+      "match_id": 23203927,
+      "debut": "2020-11-07T15:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Leeds",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:34",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23390689,
+      "debut": "2020-11-07T14:00:00+00:00",
+      "home": "Cagliari",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2711",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23360481,
+      "debut": "2020-11-07T15:15:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2816",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 50,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22650509,
+      "debut": "2020-11-07T16:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1642",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    }
+  ]
+}

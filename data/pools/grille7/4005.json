@@ -1,0 +1,136 @@
+{
+  "grille_id": 4005,
+  "grille_type": "grille7",
+  "pool_id": 7004005,
+  "titre": "Grille 7 n°4005",
+  "statut": "CLOSED",
+  "fin": "2026-03-02T19:30:00+00:00",
+  "collecte_le": "2026-08-20T07:14:10.874095+00:00",
+  "mises_nettes": 9952.5,
+  "montant_distribue": 9952.5,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 42,
+      "winningsPerGrid": 118.48
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 399,
+      "winningsPerGrid": 12.47
+    }
+  ],
+  "repartition": [
+    440,
+    2222,
+    4272,
+    4070,
+    1825,
+    399,
+    42,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 61623646,
+      "debut": "2026-03-02T19:30:00+00:00",
+      "home": "Cordoue",
+      "away": "FC Andorra",
+      "home_id": "sr:competitor:2850",
+      "away_id": "sr:competitor:610334",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 1.52,
+      "cote_N": 3.7,
+      "cote_2": 4.5
+    },
+    {
+      "match_id": 68746300,
+      "debut": "2026-03-02T19:45:00+00:00",
+      "home": "Amiens",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1652",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3.9,
+      "cote_N": 3.95,
+      "cote_2": 1.76
+    },
+    {
+      "match_id": 61061481,
+      "debut": "2026-03-02T19:45:00+00:00",
+      "home": "Udinese",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2695",
+      "away_id": "sr:competitor:2693",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.9,
+      "cote_N": 2.9,
+      "cote_2": 2.1
+    },
+    {
+      "match_id": 61624454,
+      "debut": "2026-03-02T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2859",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.33,
+      "cote_N": 4,
+      "cote_2": 7.25
+    },
+    {
+      "match_id": 66421492,
+      "debut": "2026-03-02T20:00:00+00:00",
+      "home": "Birmingham",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:36",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.4,
+      "cote_N": 3.1,
+      "cote_2": 2.3
+    },
+    {
+      "match_id": 61731370,
+      "debut": "2026-03-02T20:15:00+00:00",
+      "home": "Gil Vicente",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 80,
+      "cote_2": 1
+    },
+    {
+      "match_id": 67091718,
+      "debut": "2026-03-02T22:15:00+00:00",
+      "home": "Estudiantes",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:3208",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 65,
+      "cote_2": 1
+    }
+  ]
+}

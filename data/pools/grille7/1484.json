@@ -1,0 +1,127 @@
+{
+  "grille_id": 1484,
+  "grille_type": "grille7",
+  "pool_id": 7001484,
+  "titre": "Grille 7 n°1484",
+  "statut": "CLOSED",
+  "fin": "2019-12-12T17:55:00+00:00",
+  "collecte_le": "2026-08-20T10:46:21.198667+00:00",
+  "mises_nettes": 16356,
+  "montant_distribue": 16356,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1635.6
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 88,
+      "winningsPerGrid": 92.93
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 19331066,
+      "debut": "2019-12-12T17:55:00+00:00",
+      "home": "Rennes",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:2699",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19331044,
+      "debut": "2019-12-12T17:55:00+00:00",
+      "home": "LASK Linz",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:2058",
+      "away_id": "sr:competitor:3001",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19331092,
+      "debut": "2019-12-12T17:55:00+00:00",
+      "home": "Standard Liège",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:42",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19330856,
+      "debut": "2019-12-12T17:55:00+00:00",
+      "home": "APOEL Nicosie",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:3398",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19331068,
+      "debut": "2019-12-12T17:55:00+00:00",
+      "home": "CFR Cluj",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:5287",
+      "away_id": "sr:competitor:2352",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19330886,
+      "debut": "2019-12-12T17:55:00+00:00",
+      "home": "FC Copenhague",
+      "away": "Malmö",
+      "home_id": "sr:competitor:1284",
+      "away_id": "sr:competitor:1892",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19330916,
+      "debut": "2019-12-12T17:55:00+00:00",
+      "home": "Getafe",
+      "away": "FK Krasnodar",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:34425",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

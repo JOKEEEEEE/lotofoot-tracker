@@ -1,0 +1,127 @@
+{
+  "grille_id": 602,
+  "grille_type": "grille7",
+  "pool_id": 7000602,
+  "titre": "Grille 7 n°602",
+  "statut": "CLOSED",
+  "fin": "2017-07-10T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:59:42.214927+00:00",
+  "mises_nettes": 3279,
+  "montant_distribue": 3279,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010111100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 117.11
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 142,
+      "winningsPerGrid": 11.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10829038,
+      "debut": "2017-07-10T17:00:00+00:00",
+      "home": "Sarpsborg 08",
+      "away": "Lillestrøm",
+      "home_id": "sr:competitor:822",
+      "away_id": "sr:competitor:664",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10922834,
+      "debut": "2017-07-10T17:00:00+00:00",
+      "home": "IFK Göteborg",
+      "away": "Halmstad",
+      "home_id": "sr:competitor:1761",
+      "away_id": "sr:competitor:1767",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10922836,
+      "debut": "2017-07-10T17:00:00+00:00",
+      "home": "Djurgardens",
+      "away": "GIF Sundsvall",
+      "home_id": "sr:competitor:1759",
+      "away_id": "sr:competitor:1763",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549897,
+      "debut": "2017-07-10T19:15:00+00:00",
+      "home": "KR Reykjavik",
+      "away": "Fjölnir",
+      "home_id": "sr:competitor:1902",
+      "away_id": "sr:competitor:5374",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549899,
+      "debut": "2017-07-10T20:00:00+00:00",
+      "home": "IA Akranes",
+      "away": "Vikingur Reykjavik",
+      "home_id": "sr:competitor:1898",
+      "away_id": "sr:competitor:1908",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439431,
+      "debut": "2017-07-10T23:00:00+00:00",
+      "home": "Coritiba",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1959",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11854792,
+      "debut": "2017-07-11T18:45:00+00:00",
+      "home": "Partizan Belgrade",
+      "away": "Buducnost Podgorica",
+      "home_id": "sr:competitor:5152",
+      "away_id": "sr:competitor:5143",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

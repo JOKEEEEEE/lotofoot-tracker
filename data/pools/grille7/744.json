@@ -1,0 +1,127 @@
+{
+  "grille_id": 744,
+  "grille_type": "grille7",
+  "pool_id": 7000744,
+  "titre": "Grille 7 n°744",
+  "statut": "CLOSED",
+  "fin": "2017-12-07T20:05:00+00:00",
+  "collecte_le": "2026-08-20T11:49:21.111172+00:00",
+  "mises_nettes": 16376.25,
+  "montant_distribue": 16376.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 545.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 226,
+      "winningsPerGrid": 36.23
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12340408,
+      "debut": "2017-12-07T20:05:00+00:00",
+      "home": "Marseille",
+      "away": "Red Bull Salzbourg",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:2046",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12340452,
+      "debut": "2017-12-07T20:05:00+00:00",
+      "home": "Vitesse Arnhem",
+      "away": "Nice",
+      "home_id": "sr:competitor:2958",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12340390,
+      "debut": "2017-12-07T20:05:00+00:00",
+      "home": "Arsenal",
+      "away": "BATE Borisov",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:3350",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12340454,
+      "debut": "2017-12-07T20:05:00+00:00",
+      "home": "Zulte Waregem",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2933",
+      "away_id": "sr:competitor:2699",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12340468,
+      "debut": "2017-12-07T20:05:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Zénith St-Pétersbourg",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2321",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12340392,
+      "debut": "2017-12-07T20:05:00+00:00",
+      "home": "Etoile Rouge de Belgrade",
+      "away": "Cologne",
+      "home_id": "sr:competitor:5149",
+      "away_id": "sr:competitor:2671",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12340424,
+      "debut": "2017-12-07T20:05:00+00:00",
+      "home": "Zorya Louhansk",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:5987",
+      "away_id": "sr:competitor:2825",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

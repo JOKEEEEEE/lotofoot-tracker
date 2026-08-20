@@ -1,0 +1,127 @@
+{
+  "grille_id": 656,
+  "grille_type": "grille7",
+  "pool_id": 7000656,
+  "titre": "Grille 7 n°656",
+  "statut": "CLOSED",
+  "fin": "2017-09-06T17:00:00+00:00",
+  "collecte_le": "2026-08-20T11:56:50.832381+00:00",
+  "mises_nettes": 4488.75,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 53,
+      "winningsPerGrid": 47.17
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12001480,
+      "debut": "2017-09-06T17:00:00+00:00",
+      "home": "Levski Sofia",
+      "away": "Ludogorets",
+      "home_id": "sr:competitor:3273",
+      "away_id": "sr:competitor:43840",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11928480,
+      "debut": "2017-09-06T17:30:00+00:00",
+      "home": "Paksi",
+      "away": "MOL Vidi FC",
+      "home_id": "sr:competitor:6059",
+      "away_id": "sr:competitor:1926",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10894034,
+      "debut": "2017-09-06T23:30:00+00:00",
+      "home": "New York City FC",
+      "away": "Kansas City",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:2509",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10978034,
+      "debut": "2017-09-07T15:30:00+00:00",
+      "home": "JJK Jyvaskyla",
+      "away": "Lahti",
+      "home_id": "sr:competitor:7298",
+      "away_id": "sr:competitor:2249",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10978212,
+      "debut": "2017-09-07T15:30:00+00:00",
+      "home": "Rovaniemi",
+      "away": "PS Kemi",
+      "home_id": "sr:competitor:2250",
+      "away_id": "sr:competitor:2290",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10978280,
+      "debut": "2017-09-07T15:30:00+00:00",
+      "home": "Inter Turku",
+      "away": "FC Ilves",
+      "home_id": "sr:competitor:2247",
+      "away_id": "sr:competitor:22386",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12330696,
+      "debut": "2017-09-08T00:45:00+00:00",
+      "home": "Flamengo",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1954",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

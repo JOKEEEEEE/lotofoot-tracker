@@ -1,0 +1,127 @@
+{
+  "grille_id": 1678,
+  "grille_type": "grille7",
+  "pool_id": 7001678,
+  "titre": "Grille 7 n°1678",
+  "statut": "CLOSED",
+  "fin": "2020-07-18T14:00:00+00:00",
+  "collecte_le": "2026-08-20T10:25:16.230702+00:00",
+  "mises_nettes": 9324,
+  "montant_distribue": 9324,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 582.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 138,
+      "winningsPerGrid": 33.78
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22238243,
+      "debut": "2020-07-18T14:00:00+00:00",
+      "home": "Fulham",
+      "away": "Sheffield Wednesday",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:12",
+      "score_home": 5,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22238259,
+      "debut": "2020-07-18T14:00:00+00:00",
+      "home": "Swansea",
+      "away": "Bristol City",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:58",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22238265,
+      "debut": "2020-07-18T14:00:00+00:00",
+      "home": "Queens Park Rangers",
+      "away": "Millwall",
+      "home_id": "sr:competitor:1",
+      "away_id": "sr:competitor:25",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22238271,
+      "debut": "2020-07-18T14:00:00+00:00",
+      "home": "Middlesbrough",
+      "away": "Cardiff",
+      "home_id": "sr:competitor:36",
+      "away_id": "sr:competitor:61",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172687,
+      "debut": "2020-07-18T15:15:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22255635,
+      "debut": "2020-07-18T16:30:00+00:00",
+      "home": "Norwich",
+      "away": "Burnley",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:6",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172689,
+      "debut": "2020-07-18T17:30:00+00:00",
+      "home": "Cagliari",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2793",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

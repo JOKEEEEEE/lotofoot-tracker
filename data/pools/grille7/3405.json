@@ -1,0 +1,136 @@
+{
+  "grille_id": 3405,
+  "grille_type": "grille7",
+  "pool_id": 7003405,
+  "titre": "Grille 7 n°3405",
+  "statut": "CLOSED",
+  "fin": "2024-07-23T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:53:35.525774+00:00",
+  "mises_nettes": 4293,
+  "montant_distribue": 4293,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 60,
+      "winningsPerGrid": 35.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 516,
+      "winningsPerGrid": 4.16
+    }
+  ],
+  "repartition": [
+    21,
+    139,
+    522,
+    1257,
+    1753,
+    1456,
+    516,
+    60
+  ],
+  "matches": [
+    {
+      "match_id": 50880211,
+      "debut": "2024-07-23T18:00:00+00:00",
+      "home": "Dynamo Kiev",
+      "away": "Partizan Belgrade",
+      "home_id": "sr:competitor:3305",
+      "away_id": "sr:competitor:5152",
+      "score_home": 6,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51595845,
+      "debut": "2024-07-23T18:00:00+00:00",
+      "home": "Ferencvaros",
+      "away": "The New Saints",
+      "home_id": "sr:competitor:1925",
+      "away_id": "sr:competitor:4921",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51595853,
+      "debut": "2024-07-23T18:00:00+00:00",
+      "home": "UE Santa Coloma",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:37949",
+      "away_id": "sr:competitor:1289",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655705,
+      "debut": "2024-07-23T18:00:00+00:00",
+      "home": "Deportivo Riestra",
+      "away": "Argentinos Juniors",
+      "home_id": "sr:competitor:191648",
+      "away_id": "sr:competitor:3216",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50880063,
+      "debut": "2024-07-23T18:30:00+00:00",
+      "home": "FC Lugano",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:2443",
+      "away_id": "sr:competitor:3052",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51595849,
+      "debut": "2024-07-23T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Sparta Prague",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:2218",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655719,
+      "debut": "2024-07-23T21:45:00+00:00",
+      "home": "Newell's Old Boys",
+      "away": "Independiente Rivadavia",
+      "home_id": "sr:competitor:3212",
+      "away_id": "sr:competitor:36842",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

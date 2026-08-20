@@ -1,0 +1,136 @@
+{
+  "grille_id": 3071,
+  "grille_type": "grille7",
+  "pool_id": 7003071,
+  "titre": "Grille 7 n°3071",
+  "statut": "CLOSED",
+  "fin": "2023-10-09T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:16:49.922594+00:00",
+  "mises_nettes": 6021.75,
+  "montant_distribue": 6021.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 334.54
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 148,
+      "winningsPerGrid": 20.34
+    }
+  ],
+  "repartition": [
+    94,
+    785,
+    1993,
+    2504,
+    1763,
+    733,
+    148,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 41984017,
+      "debut": "2023-10-09T17:00:00+00:00",
+      "home": "Elche",
+      "away": "FC Andorra",
+      "home_id": "sr:competitor:2846",
+      "away_id": "sr:competitor:610334",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41978371,
+      "debut": "2023-10-09T18:00:00+00:00",
+      "home": "FC Universitatea Cluj",
+      "away": "Sepsi OSK",
+      "home_id": "sr:competitor:7734",
+      "away_id": "sr:competitor:276385",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984025,
+      "debut": "2023-10-09T19:00:00+00:00",
+      "home": "Villarreal CF B",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:24338",
+      "away_id": "sr:competitor:2814",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42147085,
+      "debut": "2023-10-09T19:15:00+00:00",
+      "home": "AVS Futebol SAD",
+      "away": "Penafiel",
+      "home_id": "sr:competitor:1031053",
+      "away_id": "sr:competitor:3017",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42787837,
+      "debut": "2023-10-09T21:00:00+00:00",
+      "home": "Arsenal Sarandi",
+      "away": "Banfield",
+      "home_id": "sr:competitor:3221",
+      "away_id": "sr:competitor:3219",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42787841,
+      "debut": "2023-10-09T21:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Colon De Santa Fe",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:3207",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42787835,
+      "debut": "2023-10-09T23:30:00+00:00",
+      "home": "Velez Sarsfield",
+      "away": "Atletico Tucuman",
+      "home_id": "sr:competitor:3208",
+      "away_id": "sr:competitor:36833",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

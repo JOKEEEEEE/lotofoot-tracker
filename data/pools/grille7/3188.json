@@ -1,0 +1,136 @@
+{
+  "grille_id": 3188,
+  "grille_type": "grille7",
+  "pool_id": 7003188,
+  "titre": "Grille 7 n°3188",
+  "statut": "CLOSED",
+  "fin": "2024-01-19T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:09:19.705494+00:00",
+  "mises_nettes": 8178,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100001001111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 174,
+      "winningsPerGrid": 28.74
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1411,
+      "winningsPerGrid": 3.54
+    }
+  ],
+  "repartition": [
+    0,
+    70,
+    542,
+    1945,
+    3533,
+    3229,
+    1411,
+    174
+  ],
+  "matches": [
+    {
+      "match_id": 42023253,
+      "debut": "2024-01-19T19:30:00+00:00",
+      "home": "Mayence",
+      "away": "Union Berlin",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:2547",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42262007,
+      "debut": "2024-01-19T19:30:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Parme",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2690",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46827697,
+      "debut": "2024-01-19T19:45:00+00:00",
+      "home": "Bergerac Perigord FC",
+      "away": "Lyon",
+      "home_id": "sr:competitor:300302",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893307,
+      "debut": "2024-01-19T20:00:00+00:00",
+      "home": "Alaves",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:4488",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44636954,
+      "debut": "2024-01-19T20:00:00+00:00",
+      "home": "Guinée",
+      "away": "Gambie",
+      "home_id": "sr:competitor:4826",
+      "away_id": "sr:competitor:4762",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41888273,
+      "debut": "2024-01-19T20:00:00+00:00",
+      "home": "Sunderland",
+      "away": "Hull City",
+      "home_id": "sr:competitor:41",
+      "away_id": "sr:competitor:96",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146493,
+      "debut": "2024-01-19T20:15:00+00:00",
+      "home": "Benfica",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2995",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

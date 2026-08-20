@@ -1,0 +1,127 @@
+{
+  "grille_id": 1240,
+  "grille_type": "grille7",
+  "pool_id": 7001240,
+  "titre": "Grille 7 n°1240",
+  "statut": "CLOSED",
+  "fin": "2019-04-30T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:05:21.495831+00:00",
+  "mises_nettes": 5193.75,
+  "montant_distribue": 7000,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 25,
+      "winningsPerGrid": 140
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 222,
+      "winningsPerGrid": 15.77
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18001013,
+      "debut": "2019-04-30T19:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:2953",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18054679,
+      "debut": "2019-04-30T23:30:00+00:00",
+      "home": "General Diaz",
+      "away": "Club River Plate Asuncion",
+      "home_id": "sr:competitor:87472",
+      "away_id": "sr:competitor:90970",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15229321,
+      "debut": "2019-05-01T11:00:00+00:00",
+      "home": "FC Ararat-Armenia",
+      "away": "Pyunik Yerevan",
+      "home_id": "sr:competitor:364472",
+      "away_id": "sr:competitor:5214",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17462559,
+      "debut": "2019-05-01T11:00:00+00:00",
+      "home": "Tobol",
+      "away": "Ordabasy Shymkent",
+      "home_id": "sr:competitor:5362",
+      "away_id": "sr:competitor:5366",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17462563,
+      "debut": "2019-05-01T12:00:00+00:00",
+      "home": "I. Pavlodar",
+      "away": "Zhetysu Taldykorgan",
+      "home_id": "sr:competitor:5365",
+      "away_id": "sr:competitor:5364",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17462565,
+      "debut": "2019-05-01T11:00:00+00:00",
+      "home": "Taraz",
+      "away": "Okzhetpes Kokshetau",
+      "home_id": "sr:competitor:5361",
+      "away_id": "sr:competitor:5359",
+      "score_home": 2,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17462557,
+      "debut": "2019-05-01T11:30:00+00:00",
+      "home": "Kaisar Kyzylorda",
+      "away": "Kairat",
+      "home_id": "sr:competitor:36142",
+      "away_id": "sr:competitor:5172",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3582,
+  "grille_type": "grille7",
+  "pool_id": 7003582,
+  "titre": "Grille 7 n°3582",
+  "statut": "CLOSED",
+  "fin": "2025-01-02T15:00:00+00:00",
+  "collecte_le": "2026-08-20T07:41:09.231652+00:00",
+  "mises_nettes": 7206,
+  "montant_distribue": 7206,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1201
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 58,
+      "winningsPerGrid": 62.12
+    }
+  ],
+  "repartition": [
+    456,
+    1823,
+    2948,
+    2546,
+    1370,
+    404,
+    58,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 51115821,
+      "debut": "2025-01-02T15:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Celtic Glasgow",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2352",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51115815,
+      "debut": "2025-01-02T15:00:00+00:00",
+      "home": "Aberdeen",
+      "away": "Ross County",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:2365",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51115817,
+      "debut": "2025-01-02T15:00:00+00:00",
+      "home": "Heart of Midlothian",
+      "away": "Motherwell",
+      "home_id": "sr:competitor:2353",
+      "away_id": "sr:competitor:2346",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51115819,
+      "debut": "2025-01-02T15:00:00+00:00",
+      "home": "Kilmarnock",
+      "away": "St. Mirren",
+      "home_id": "sr:competitor:2347",
+      "away_id": "sr:competitor:2359",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51115823,
+      "debut": "2025-01-02T15:00:00+00:00",
+      "home": "St Johnstone",
+      "away": "Hibernian FC",
+      "home_id": "sr:competitor:2348",
+      "away_id": "sr:competitor:2354",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51115825,
+      "debut": "2025-01-02T17:30:00+00:00",
+      "home": "Dundee FC",
+      "away": "Dundee United",
+      "home_id": "sr:competitor:2357",
+      "away_id": "sr:competitor:2349",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 54429523,
+      "debut": "2025-01-02T19:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2686",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

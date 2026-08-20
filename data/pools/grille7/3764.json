@@ -1,0 +1,136 @@
+{
+  "grille_id": 3764,
+  "grille_type": "grille7",
+  "pool_id": 7003764,
+  "titre": "Grille 7 n°3764",
+  "statut": "CLOSED",
+  "fin": "2025-06-28T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:21:47.544550+00:00",
+  "mises_nettes": 4632,
+  "montant_distribue": 4632,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 210.55
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 93,
+      "winningsPerGrid": 24.9
+    }
+  ],
+  "repartition": [
+    86,
+    693,
+    1758,
+    1921,
+    1180,
+    434,
+    93,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 57490693,
+      "debut": "2025-06-28T16:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1958",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61301507,
+      "debut": "2025-06-28T19:00:00+00:00",
+      "home": "Angleterre U21",
+      "away": "Allemagne U21",
+      "home_id": "sr:competitor:6025",
+      "away_id": "sr:competitor:4890",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57490691,
+      "debut": "2025-06-28T20:00:00+00:00",
+      "home": "Benfica",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61168145,
+      "debut": "2025-06-28T23:15:00+00:00",
+      "home": "Panama",
+      "away": "Honduras",
+      "home_id": "sr:competitor:5164",
+      "away_id": "sr:competitor:4827",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690821,
+      "debut": "2025-06-28T23:30:00+00:00",
+      "home": "Orlando City SC",
+      "away": "FC Cincinnati",
+      "home_id": "sr:competitor:52237",
+      "away_id": "sr:competitor:245305",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690827,
+      "debut": "2025-06-29T00:30:00+00:00",
+      "home": "FC Dallas",
+      "away": "San Diego FC",
+      "home_id": "sr:competitor:2512",
+      "away_id": "sr:competitor:1217911",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61168127,
+      "debut": "2025-06-29T02:15:00+00:00",
+      "home": "Mexique",
+      "away": "Arabie Saoudite",
+      "home_id": "sr:competitor:4781",
+      "away_id": "sr:competitor:4834",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

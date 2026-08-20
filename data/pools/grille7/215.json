@@ -1,0 +1,127 @@
+{
+  "grille_id": 215,
+  "grille_type": "grille7",
+  "pool_id": 7000215,
+  "titre": "Grille 7 n°215",
+  "statut": "CLOSED",
+  "fin": "2016-05-02T18:15:00+00:00",
+  "collecte_le": "2026-08-20T12:38:26.314228+00:00",
+  "mises_nettes": 11166,
+  "montant_distribue": 11166,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 106,
+      "winningsPerGrid": 52.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1139,
+      "winningsPerGrid": 4.9
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7518376,
+      "debut": "2016-05-02T18:15:00+00:00",
+      "home": "Werder Brême",
+      "away": "VfB Stuttgart",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2677",
+      "score_home": 6,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474880,
+      "debut": "2016-05-02T18:30:00+00:00",
+      "home": "Valenciennes",
+      "away": "Nancy",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:1675",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610866,
+      "debut": "2016-05-02T18:30:00+00:00",
+      "home": "Malaga",
+      "away": "Levante",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2849",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9282719,
+      "debut": "2016-05-02T18:45:00+00:00",
+      "home": "Dundee FC",
+      "away": "Dundee United",
+      "home_id": "sr:competitor:2357",
+      "away_id": "sr:competitor:2349",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9299339,
+      "debut": "2016-05-02T18:45:00+00:00",
+      "home": "Benfica",
+      "away": "Braga",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:2999",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7465152,
+      "debut": "2016-05-02T19:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689504,
+      "debut": "2016-05-02T19:00:00+00:00",
+      "home": "Naples",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2686",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

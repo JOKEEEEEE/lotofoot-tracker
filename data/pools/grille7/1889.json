@@ -1,0 +1,127 @@
+{
+  "grille_id": 1889,
+  "grille_type": "grille7",
+  "pool_id": 7001889,
+  "titre": "Grille 7 n°1889",
+  "statut": "CLOSED",
+  "fin": "2021-01-13T19:45:00+00:00",
+  "collecte_le": "2026-08-20T13:19:20.436275+00:00",
+  "mises_nettes": 17469,
+  "montant_distribue": 17469,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010111010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 21,
+      "winningsPerGrid": 415.93
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 289,
+      "winningsPerGrid": 30.22
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 24931376,
+      "debut": "2021-01-13T20:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1641",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 38,
+      "cote_2": 250
+    },
+    {
+      "match_id": 24649172,
+      "debut": "2021-01-13T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2713",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 18,
+      "cote_N": 1.01,
+      "cote_2": 48
+    },
+    {
+      "match_id": 24369586,
+      "debut": "2021-01-13T19:45:00+00:00",
+      "home": "Holstein Kiel",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2573",
+      "away_id": "sr:competitor:2672",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 27,
+      "cote_2": 1
+    },
+    {
+      "match_id": 25060758,
+      "debut": "2021-01-13T17:30:00+00:00",
+      "home": "Kfco Beerschot-Wilrijk",
+      "away": "Cercle Bruges",
+      "home_id": "sr:competitor:169260",
+      "away_id": "sr:competitor:2929",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 14.5,
+      "cote_N": 1.01,
+      "cote_2": 14
+    },
+    {
+      "match_id": 24947812,
+      "debut": "2021-01-13T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 12.5,
+      "cote_N": 1.06,
+      "cote_2": 8.5
+    },
+    {
+      "match_id": 22870753,
+      "debut": "2021-01-13T20:00:00+00:00",
+      "home": "Feyenoord",
+      "away": "Zwolle",
+      "home_id": "sr:competitor:2959",
+      "away_id": "sr:competitor:2971",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 23,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25044876,
+      "debut": "2021-01-13T22:15:00+00:00",
+      "home": "Santos",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:3202",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

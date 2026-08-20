@@ -1,0 +1,136 @@
+{
+  "grille_id": 2692,
+  "grille_type": "grille7",
+  "pool_id": 7002692,
+  "titre": "Grille 7 n°2692",
+  "statut": "CLOSED",
+  "fin": "2022-11-13T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:57:04.360834+00:00",
+  "mises_nettes": 9984,
+  "montant_distribue": 9984,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001010100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 51,
+      "winningsPerGrid": 97.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 418,
+      "winningsPerGrid": 11.94
+    }
+  ],
+  "repartition": [
+    132,
+    866,
+    2650,
+    4028,
+    3506,
+    1661,
+    418,
+    51
+  ],
+  "matches": [
+    {
+      "match_id": 34172273,
+      "debut": "2022-11-13T19:45:00+00:00",
+      "home": "Monaco",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1641",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286801,
+      "debut": "2022-11-13T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2699",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271259,
+      "debut": "2022-11-13T20:00:00+00:00",
+      "home": "Courtrai",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:4858",
+      "away_id": "sr:competitor:2903",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35187001,
+      "debut": "2022-11-13T20:00:00+00:00",
+      "home": "Sportivo Ameliano",
+      "away": "Guarani Asuncion",
+      "home_id": "sr:competitor:607728",
+      "away_id": "sr:competitor:5994",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 35187005,
+      "debut": "2022-11-13T20:00:00+00:00",
+      "home": "Club General Caballero Jlm",
+      "away": "Sol De America",
+      "home_id": "sr:competitor:818704",
+      "away_id": "sr:competitor:36439",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504789,
+      "debut": "2022-11-13T20:30:00+00:00",
+      "home": "Famalicao",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:3001",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37142859,
+      "debut": "2022-11-13T21:00:00+00:00",
+      "home": "Santa Fe",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:6105",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

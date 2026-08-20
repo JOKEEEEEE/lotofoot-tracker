@@ -1,0 +1,127 @@
+{
+  "grille_id": 838,
+  "grille_type": "grille7",
+  "pool_id": 7000838,
+  "titre": "Grille 7 n°838",
+  "statut": "CLOSED",
+  "fin": "2018-03-14T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:42:27.736669+00:00",
+  "mises_nettes": 8770.5,
+  "montant_distribue": 8770.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 40,
+      "winningsPerGrid": 109.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 426,
+      "winningsPerGrid": 10.29
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13330345,
+      "debut": "2018-03-14T19:45:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:38",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13648533,
+      "debut": "2018-03-14T22:15:00+00:00",
+      "home": "Bolivar",
+      "away": "Colo Colo",
+      "home_id": "sr:competitor:7059",
+      "away_id": "sr:competitor:3155",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13649023,
+      "debut": "2018-03-14T22:15:00+00:00",
+      "home": "Estudiantes",
+      "away": "Real Garcilaso",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:63760",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842647,
+      "debut": "2018-03-14T23:00:00+00:00",
+      "home": "Pasto",
+      "away": "Boyaca Patriotas FC",
+      "home_id": "sr:competitor:6113",
+      "away_id": "sr:competitor:61504",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842649,
+      "debut": "2018-03-14T23:00:00+00:00",
+      "home": "Envigado FC",
+      "away": "Santa Fe",
+      "home_id": "sr:competitor:6114",
+      "away_id": "sr:competitor:6116",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13648539,
+      "debut": "2018-03-15T00:45:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Delfin SC",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:241468",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13648987,
+      "debut": "2018-03-15T00:45:00+00:00",
+      "home": "Club Sport Emelec",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:5255",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

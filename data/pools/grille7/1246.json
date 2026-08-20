@@ -1,0 +1,127 @@
+{
+  "grille_id": 1246,
+  "grille_type": "grille7",
+  "pool_id": 7001246,
+  "titre": "Grille 7 n°1246",
+  "statut": "CLOSED",
+  "fin": "2019-05-06T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:04:56.480340+00:00",
+  "mises_nettes": 18957,
+  "montant_distribue": 18957,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 58,
+      "winningsPerGrid": 163.42
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 681,
+      "winningsPerGrid": 13.92
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15160307,
+      "debut": "2019-05-06T18:30:00+00:00",
+      "home": "Milan AC",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2685",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14895303,
+      "debut": "2019-05-06T18:30:00+00:00",
+      "home": "Greuther Fürth",
+      "away": "Cologne",
+      "home_id": "sr:competitor:2551",
+      "away_id": "sr:competitor:2671",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14745463,
+      "debut": "2019-05-06T18:45:00+00:00",
+      "home": "Niort",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1665",
+      "away_id": "sr:competitor:1656",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736961,
+      "debut": "2019-05-06T19:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Leicester",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:31",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145869,
+      "debut": "2019-05-06T19:00:00+00:00",
+      "home": "CF Cadiz",
+      "away": "Malaga",
+      "home_id": "sr:competitor:4488",
+      "away_id": "sr:competitor:2830",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15433594,
+      "debut": "2019-05-06T19:00:00+00:00",
+      "home": "Foggia",
+      "away": "Pérouse",
+      "home_id": "sr:competitor:2803",
+      "away_id": "sr:competitor:2698",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14946335,
+      "debut": "2019-05-06T19:15:00+00:00",
+      "home": "Vitoria Setubal",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3008",
+      "away_id": "sr:competitor:2995",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2177,
+  "grille_type": "grille7",
+  "pool_id": 7002177,
+  "titre": "Grille 7 n°2177",
+  "statut": "CLOSED",
+  "fin": "2021-09-16T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:42:50.054661+00:00",
+  "mises_nettes": 10122,
+  "montant_distribue": 10122,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010010100010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 33,
+      "winningsPerGrid": 153.36
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 362,
+      "winningsPerGrid": 13.98
+    }
+  ],
+  "repartition": [
+    128,
+    1017,
+    3000,
+    4276,
+    3210,
+    1470,
+    362,
+    33
+  ],
+  "matches": [
+    {
+      "match_id": 28936124,
+      "debut": "2021-09-16T19:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Lyon",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:1649",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28936154,
+      "debut": "2021-09-16T19:00:00+00:00",
+      "home": "Monaco",
+      "away": "Sturm Graz",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:2051",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 65,
+      "cote_2": null
+    },
+    {
+      "match_id": 28936152,
+      "debut": "2021-09-16T19:00:00+00:00",
+      "home": "PSV Eindhoven",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2952",
+      "away_id": "sr:competitor:2824",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 44,
+      "cote_N": 1,
+      "cote_2": 60
+    },
+    {
+      "match_id": 28936126,
+      "debut": "2021-09-16T19:00:00+00:00",
+      "home": "Brøndby",
+      "away": "Sparta Prague",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:2218",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 1,
+      "cote_2": 55
+    },
+    {
+      "match_id": 28936212,
+      "debut": "2021-09-16T19:00:00+00:00",
+      "home": "Olympiakos",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:3245",
+      "away_id": "sr:competitor:2889",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 75,
+      "cote_2": null
+    },
+    {
+      "match_id": 28936214,
+      "debut": "2021-09-16T19:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:3052",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 42,
+      "cote_N": 1,
+      "cote_2": 55
+    },
+    {
+      "match_id": 28936180,
+      "debut": "2021-09-16T19:00:00+00:00",
+      "home": "Leicester",
+      "away": "Naples",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:2714",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 1.01,
+      "cote_2": 36
+    }
+  ]
+}

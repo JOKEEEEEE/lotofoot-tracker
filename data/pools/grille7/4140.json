@@ -1,0 +1,136 @@
+{
+  "grille_id": 4140,
+  "grille_type": "grille7",
+  "pool_id": 7004140,
+  "titre": "Grille 7 n°4140",
+  "statut": "CLOSED",
+  "fin": "2026-07-18T16:00:00+00:00",
+  "collecte_le": "2026-08-20T05:51:39.517539+00:00",
+  "mises_nettes": 2848.5,
+  "montant_distribue": 2848.5,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 10,
+      "winningsPerGrid": 142.43
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 117,
+      "winningsPerGrid": 12.17
+    }
+  ],
+  "repartition": [
+    78,
+    545,
+    1257,
+    1236,
+    555,
+    117,
+    10,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 71998064,
+      "debut": "2026-07-18T16:00:00+00:00",
+      "home": "FK Septemvri Sofia",
+      "away": "FC Arda Kardzhali",
+      "home_id": "sr:competitor:214054",
+      "away_id": "sr:competitor:364786",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 4.1,
+      "cote_N": 3.2,
+      "cote_2": 1.7
+    },
+    {
+      "match_id": 71998062,
+      "debut": "2026-07-18T18:15:00+00:00",
+      "home": "Ludogorets",
+      "away": "Lokomotiv Plovdiv",
+      "home_id": "sr:competitor:43840",
+      "away_id": "sr:competitor:3272",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.32,
+      "cote_N": 4.6,
+      "cote_2": 7
+    },
+    {
+      "match_id": 72278390,
+      "debut": "2026-07-18T18:15:00+00:00",
+      "home": "Olimpija Ljubljana",
+      "away": "Bravo",
+      "home_id": "sr:competitor:2416",
+      "away_id": "sr:competitor:362744",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.7,
+      "cote_N": 3.6,
+      "cote_2": 3.7
+    },
+    {
+      "match_id": 68687740,
+      "debut": "2026-07-18T19:00:00+00:00",
+      "home": "Deportivo Cuenca",
+      "away": "Universidad Católica (EQU)",
+      "home_id": "sr:competitor:5251",
+      "away_id": "sr:competitor:21942",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.65,
+      "cote_N": 3.1,
+      "cote_2": 2.25
+    },
+    {
+      "match_id": 68194736,
+      "debut": "2026-07-18T19:15:00+00:00",
+      "home": "Valur Reykjavik",
+      "away": "Fram Reykjavik",
+      "home_id": "sr:competitor:1899",
+      "away_id": "sr:competitor:1893",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 3.25,
+      "cote_N": 4.2,
+      "cote_2": 1.68
+    },
+    {
+      "match_id": 53452539,
+      "debut": "2026-07-18T21:00:00+00:00",
+      "home": "France",
+      "away": "Angleterre",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4713",
+      "score_home": 4,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": 1.62,
+      "cote_N": 3.8,
+      "cote_2": 4.2
+    },
+    {
+      "match_id": 72338814,
+      "debut": "2026-07-18T21:30:00+00:00",
+      "home": "LDU Quito",
+      "away": "Club Leones Del Norte",
+      "home_id": "sr:competitor:5257",
+      "away_id": "sr:competitor:671275",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.38,
+      "cote_N": 4.1,
+      "cote_2": 5.9
+    }
+  ]
+}

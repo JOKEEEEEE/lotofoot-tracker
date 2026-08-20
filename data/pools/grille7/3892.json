@@ -1,0 +1,136 @@
+{
+  "grille_id": 3892,
+  "grille_type": "grille7",
+  "pool_id": 7003892,
+  "titre": "Grille 7 n°3892",
+  "statut": "CLOSED",
+  "fin": "2025-11-06T17:45:00+00:00",
+  "collecte_le": "2026-08-20T06:49:33.485500+00:00",
+  "mises_nettes": 11088.75,
+  "montant_distribue": 11088.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001001100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 82,
+      "winningsPerGrid": 67.61
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 626,
+      "winningsPerGrid": 8.86
+    }
+  ],
+  "repartition": [
+    172,
+    923,
+    2624,
+    4276,
+    3931,
+    2151,
+    626,
+    82
+  ],
+  "matches": [
+    {
+      "match_id": 63377861,
+      "debut": "2025-11-06T17:45:00+00:00",
+      "home": "Étoile Rouge Belgrade",
+      "away": "Lille",
+      "home_id": "sr:competitor:5149",
+      "away_id": "sr:competitor:1643",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377869,
+      "debut": "2025-11-06T17:45:00+00:00",
+      "home": "Nice",
+      "away": "Fribourg",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:2538",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377863,
+      "debut": "2025-11-06T17:45:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:2821",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377879,
+      "debut": "2025-11-06T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Lyon",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:1649",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377531,
+      "debut": "2025-11-06T20:00:00+00:00",
+      "home": "Häcken",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1760",
+      "away_id": "sr:competitor:1659",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377891,
+      "debut": "2025-11-06T20:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2702",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63377893,
+      "debut": "2025-11-06T20:00:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Feyenoord",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2959",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

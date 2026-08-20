@@ -1,0 +1,127 @@
+{
+  "grille_id": 1262,
+  "grille_type": "grille7",
+  "pool_id": 7001262,
+  "titre": "Grille 7 n°1262",
+  "statut": "CLOSED",
+  "fin": "2019-05-22T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:03:58.585920+00:00",
+  "mises_nettes": 6802.5,
+  "montant_distribue": 6802.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 425.16
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 211,
+      "winningsPerGrid": 16.12
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14775701,
+      "debut": "2019-05-22T18:00:00+00:00",
+      "home": "Grasshopper Zurich",
+      "away": "Sion",
+      "home_id": "sr:competitor:2449",
+      "away_id": "sr:competitor:2452",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14775703,
+      "debut": "2019-05-22T18:00:00+00:00",
+      "home": "FC Neuchatel Xamax",
+      "away": "FC Lugano",
+      "home_id": "sr:competitor:2451",
+      "away_id": "sr:competitor:2443",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14775705,
+      "debut": "2019-05-22T18:00:00+00:00",
+      "home": "Lucerne",
+      "away": "FC Zurich",
+      "home_id": "sr:competitor:2453",
+      "away_id": "sr:competitor:2450",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14775707,
+      "debut": "2019-05-22T18:00:00+00:00",
+      "home": "Saint-Gall",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:2442",
+      "away_id": "sr:competitor:2445",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14775709,
+      "debut": "2019-05-22T18:00:00+00:00",
+      "home": "Thoune",
+      "away": "FC Bâle",
+      "home_id": "sr:competitor:2454",
+      "away_id": "sr:competitor:2501",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18238941,
+      "debut": "2019-05-22T18:45:00+00:00",
+      "home": "De Graafschap",
+      "away": "Cambuur",
+      "home_id": "sr:competitor:2949",
+      "away_id": "sr:competitor:2970",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18149149,
+      "debut": "2019-05-22T18:45:00+00:00",
+      "home": "Sparta Rotterdam",
+      "away": "FC Oss",
+      "home_id": "sr:competitor:2960",
+      "away_id": "sr:competitor:2978",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

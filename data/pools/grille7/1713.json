@@ -1,0 +1,127 @@
+{
+  "grille_id": 1713,
+  "grille_type": "grille7",
+  "pool_id": 7001713,
+  "titre": "Grille 7 n°1713",
+  "statut": "CLOSED",
+  "fin": "2020-08-20T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:21:00.754725+00:00",
+  "mises_nettes": 7694.25,
+  "montant_distribue": 7694.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 52,
+      "winningsPerGrid": 73.98
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 491,
+      "winningsPerGrid": 7.84
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23036219,
+      "debut": "2020-08-20T18:30:00+00:00",
+      "home": "St Johnstone",
+      "away": "Aberdeen",
+      "home_id": "sr:competitor:2348",
+      "away_id": "sr:competitor:2355",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23066671,
+      "debut": "2020-08-20T18:30:00+00:00",
+      "home": "Coleraine",
+      "away": "SP La Fiorita",
+      "home_id": "sr:competitor:5270",
+      "away_id": "sr:competitor:37860",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23066659,
+      "debut": "2020-08-21T18:00:00+00:00",
+      "home": "SP Tre Penne",
+      "away": "KF Gjilani",
+      "home_id": "sr:competitor:37862",
+      "away_id": "sr:competitor:277839",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23106831,
+      "debut": "2020-08-20T19:15:00+00:00",
+      "home": "Spezia",
+      "away": "Frosinone",
+      "home_id": "sr:competitor:2735",
+      "away_id": "sr:competitor:2801",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22713321,
+      "debut": "2020-08-20T22:15:00+00:00",
+      "home": "Sport Recife ",
+      "away": "Santos",
+      "home_id": "sr:competitor:1959",
+      "away_id": "sr:competitor:1968",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23049869,
+      "debut": "2020-08-20T23:00:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "New York City FC",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:167510",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 23049871,
+      "debut": "2020-08-20T23:30:00+00:00",
+      "home": "Columbus Crew",
+      "away": "Chicago Fire",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:2505",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

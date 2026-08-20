@@ -1,0 +1,136 @@
+{
+  "grille_id": 3795,
+  "grille_type": "grille7",
+  "pool_id": 7003795,
+  "titre": "Grille 7 n°3795",
+  "statut": "CLOSED",
+  "fin": "2025-07-29T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:18:48.667796+00:00",
+  "mises_nettes": 1983.75,
+  "montant_distribue": 2000,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 333.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 12,
+      "winningsPerGrid": 83.33
+    }
+  ],
+  "repartition": [
+    56,
+    400,
+    854,
+    822,
+    392,
+    106,
+    12,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 61302483,
+      "debut": "2025-07-29T18:00:00+00:00",
+      "home": "KF Drita",
+      "away": "Copenhague",
+      "home_id": "sr:competitor:277835",
+      "away_id": "sr:competitor:1284",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61911122,
+      "debut": "2025-07-29T18:30:00+00:00",
+      "home": "Barnet FC",
+      "away": "Newport County",
+      "home_id": "sr:competitor:77",
+      "away_id": "sr:competitor:79",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61302497,
+      "debut": "2025-07-29T19:00:00+00:00",
+      "home": "Zrinjski Mostar",
+      "away": "Slovan Bratislava",
+      "home_id": "sr:competitor:5178",
+      "away_id": "sr:competitor:2404",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58167155,
+      "debut": "2025-07-29T23:00:00+00:00",
+      "home": "Montréal",
+      "away": "Leon",
+      "home_id": "sr:competitor:22006",
+      "away_id": "sr:competitor:36534",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58167153,
+      "debut": "2025-07-29T23:00:00+00:00",
+      "home": "Toluca",
+      "away": "Columbus Crew",
+      "home_id": "sr:competitor:1931",
+      "away_id": "sr:competitor:2504",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052671,
+      "debut": "2025-07-29T23:30:00+00:00",
+      "home": "Grêmio",
+      "away": "Fortaleza CE",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:2020",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58167161,
+      "debut": "2025-07-30T03:00:00+00:00",
+      "home": "Pachuca",
+      "away": "San Diego FC",
+      "home_id": "sr:competitor:1936",
+      "away_id": "sr:competitor:1217911",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

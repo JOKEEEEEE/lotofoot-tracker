@@ -1,0 +1,127 @@
+{
+  "grille_id": 1838,
+  "grille_type": "grille7",
+  "pool_id": 7001838,
+  "titre": "Grille 7 n°1838",
+  "statut": "CLOSED",
+  "fin": "2020-12-01T20:00:00+00:00",
+  "collecte_le": "2026-08-20T10:09:26.938404+00:00",
+  "mises_nettes": 30469.5,
+  "montant_distribue": 30469.5,
+  "montant_garanti": 25000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 5078.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 159,
+      "winningsPerGrid": 95.82
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23831651,
+      "debut": "2020-12-01T20:00:00+00:00",
+      "home": "Marseille",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:3245",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 21,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23831585,
+      "debut": "2020-12-01T20:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 14,
+      "cote_N": 1.01,
+      "cote_2": 18
+    },
+    {
+      "match_id": 23831609,
+      "debut": "2020-12-01T20:00:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2697",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 200,
+      "cote_N": 15,
+      "cote_2": 1
+    },
+    {
+      "match_id": 24355510,
+      "debut": "2020-12-01T21:45:00+00:00",
+      "home": "Moreirense",
+      "away": "Paços de Ferreira",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3003",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 23,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23831681,
+      "debut": "2020-12-01T20:00:00+00:00",
+      "home": "Liverpool",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:2953",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 18,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23831683,
+      "debut": "2020-12-01T20:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:1289",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 14,
+      "cote_N": 1.01,
+      "cote_2": 46
+    },
+    {
+      "match_id": 23831653,
+      "debut": "2020-12-01T20:00:00+00:00",
+      "home": "FC Porto",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 44,
+      "cote_N": 1.01,
+      "cote_2": 13
+    }
+  ]
+}

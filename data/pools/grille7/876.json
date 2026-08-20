@@ -1,0 +1,127 @@
+{
+  "grille_id": 876,
+  "grille_type": "grille7",
+  "pool_id": 7000876,
+  "titre": "Grille 7 n°876",
+  "statut": "CLOSED",
+  "fin": "2018-04-22T15:00:00+00:00",
+  "collecte_le": "2026-08-20T11:40:00.252451+00:00",
+  "mises_nettes": 15388.5,
+  "montant_distribue": 15388.5,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 36,
+      "winningsPerGrid": 213.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 453,
+      "winningsPerGrid": 16.99
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11833400,
+      "debut": "2018-04-22T15:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1652",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830154,
+      "debut": "2018-04-22T15:30:00+00:00",
+      "home": "Manchester City",
+      "away": "Swansea",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:74",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11913896,
+      "debut": "2018-04-22T16:00:00+00:00",
+      "home": "Cologne",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:2671",
+      "away_id": "sr:competitor:2530",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055746,
+      "debut": "2018-04-22T16:30:00+00:00",
+      "home": "Las Palmas",
+      "away": "Alaves",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:2885",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055750,
+      "debut": "2018-04-22T18:45:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2816",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090280,
+      "debut": "2018-04-22T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Naples",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2714",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833096,
+      "debut": "2018-04-22T19:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

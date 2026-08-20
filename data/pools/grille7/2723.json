@@ -1,0 +1,136 @@
+{
+  "grille_id": 2723,
+  "grille_type": "grille7",
+  "pool_id": 7002723,
+  "titre": "Grille 7 n°2723",
+  "statut": "CLOSED",
+  "fin": "2022-12-16T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:53:30.935496+00:00",
+  "mises_nettes": 4675.5,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 131.58
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 193,
+      "winningsPerGrid": 12.95
+    }
+  ],
+  "repartition": [
+    30,
+    230,
+    1008,
+    1955,
+    1888,
+    911,
+    193,
+    19
+  ],
+  "matches": [
+    {
+      "match_id": 36337881,
+      "debut": "2022-12-16T18:30:00+00:00",
+      "home": "Santa Clara",
+      "away": "FC Arouca",
+      "home_id": "sr:competitor:3011",
+      "away_id": "sr:competitor:25777",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36337883,
+      "debut": "2022-12-16T18:30:00+00:00",
+      "home": "Feirense",
+      "away": "Leixoes SC",
+      "home_id": "sr:competitor:4501",
+      "away_id": "sr:competitor:3018",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36462067,
+      "debut": "2022-12-16T20:00:00+00:00",
+      "home": "Paris SG (F)",
+      "away": "Real Madrid (F)",
+      "home_id": "sr:competitor:55505",
+      "away_id": "sr:competitor:522312",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265671,
+      "debut": "2022-12-16T20:00:00+00:00",
+      "home": "Birmingham",
+      "away": "Reading",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:28",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278857,
+      "debut": "2022-12-16T20:00:00+00:00",
+      "home": "Tenerife",
+      "away": "FC Andorra",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:610334",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36336991,
+      "debut": "2022-12-16T20:30:00+00:00",
+      "home": "Chaves",
+      "away": "CD Mafra",
+      "home_id": "sr:competitor:3025",
+      "away_id": "sr:competitor:38744",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36922969,
+      "debut": "2022-12-16T20:30:00+00:00",
+      "home": "FC Porto",
+      "away": "FC Vizela",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:5136",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

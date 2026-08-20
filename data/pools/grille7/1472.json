@@ -1,0 +1,127 @@
+{
+  "grille_id": 1472,
+  "grille_type": "grille7",
+  "pool_id": 7001472,
+  "titre": "Grille 7 n°1472",
+  "statut": "CLOSED",
+  "fin": "2019-12-03T20:00:00+00:00",
+  "collecte_le": "2026-08-20T10:47:14.451695+00:00",
+  "mises_nettes": 8259.75,
+  "montant_distribue": 8259.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 242.93
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 241,
+      "winningsPerGrid": 17.14
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18442364,
+      "debut": "2019-12-03T20:05:00+00:00",
+      "home": "Grenoble",
+      "away": "Clermont",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1680",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442366,
+      "debut": "2019-12-03T20:05:00+00:00",
+      "home": "Châteauroux",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1666",
+      "away_id": "sr:competitor:1657",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442368,
+      "debut": "2019-12-03T20:05:00+00:00",
+      "home": "Le Havre",
+      "away": "Le Mans",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1672",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442370,
+      "debut": "2019-12-03T20:05:00+00:00",
+      "home": "Lens",
+      "away": "Chambly",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:61612",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442372,
+      "debut": "2019-12-03T20:05:00+00:00",
+      "home": "Niort",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1665",
+      "away_id": "sr:competitor:1660",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18442374,
+      "debut": "2019-12-03T20:05:00+00:00",
+      "home": "Paris FC",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1654",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440222,
+      "debut": "2019-12-03T20:05:00+00:00",
+      "home": "Lyon",
+      "away": "Lille",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1643",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

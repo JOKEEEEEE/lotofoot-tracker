@@ -1,0 +1,136 @@
+{
+  "grille_id": 3275,
+  "grille_type": "grille7",
+  "pool_id": 7003275,
+  "titre": "Grille 7 n°3275",
+  "statut": "CLOSED",
+  "fin": "2024-03-27T17:45:00+00:00",
+  "collecte_le": "2026-08-20T08:03:35.255124+00:00",
+  "mises_nettes": 3548.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 51,
+      "winningsPerGrid": 39.22
+    }
+  ],
+  "repartition": [
+    39,
+    360,
+    1197,
+    1627,
+    1092,
+    364,
+    51,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 47609283,
+      "debut": "2024-03-27T17:45:00+00:00",
+      "home": "Olympique Lyonnais (F)",
+      "away": "SL Benfica (F)",
+      "home_id": "sr:competitor:26245",
+      "away_id": "sr:competitor:475052",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47609289,
+      "debut": "2024-03-27T20:00:00+00:00",
+      "home": "Chelsea (F)",
+      "away": "Ajax Amsterdam (F)",
+      "home_id": "sr:competitor:66768",
+      "away_id": "sr:competitor:178260",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46188053,
+      "debut": "2024-03-27T22:00:00+00:00",
+      "home": "Tacuary",
+      "away": "Sportivo Ameliano",
+      "home_id": "sr:competitor:5999",
+      "away_id": "sr:competitor:607728",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47875307,
+      "debut": "2024-03-27T23:10:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Jaguares De Cordoba",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:89370",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46188061,
+      "debut": "2024-03-28T00:30:00+00:00",
+      "home": "Sportivo Trinidense",
+      "away": "Sportivo Luqueno",
+      "home_id": "sr:competitor:39722",
+      "away_id": "sr:competitor:5998",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46656677,
+      "debut": "2024-03-28T00:30:00+00:00",
+      "home": "Lanus",
+      "away": "Union De Santa Fe",
+      "home_id": "sr:competitor:3218",
+      "away_id": "sr:competitor:3204",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46669759,
+      "debut": "2024-03-28T01:20:00+00:00",
+      "home": "Millonarios ",
+      "away": "Santa Fe",
+      "home_id": "sr:competitor:6117",
+      "away_id": "sr:competitor:6116",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

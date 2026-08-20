@@ -1,0 +1,136 @@
+{
+  "grille_id": 2969,
+  "grille_type": "grille7",
+  "pool_id": 7002969,
+  "titre": "Grille 7 n°2969",
+  "statut": "CLOSED",
+  "fin": "2023-07-13T19:15:00+00:00",
+  "collecte_le": "2026-08-20T08:33:26.240164+00:00",
+  "mises_nettes": 4322.25,
+  "montant_distribue": 4322.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 720.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 65,
+      "winningsPerGrid": 33.25
+    }
+  ],
+  "repartition": [
+    116,
+    674,
+    1591,
+    1821,
+    1102,
+    391,
+    65,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 41846611,
+      "debut": "2023-07-13T19:15:00+00:00",
+      "home": "HK Kopavogs",
+      "away": "KR Reykjavik",
+      "home_id": "sr:competitor:7121",
+      "away_id": "sr:competitor:1902",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41678853,
+      "debut": "2023-07-14T01:05:00+00:00",
+      "home": "Santos Laguna",
+      "away": "Atlas",
+      "home_id": "sr:competitor:1948",
+      "away_id": "sr:competitor:1949",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41678855,
+      "debut": "2023-07-14T03:00:00+00:00",
+      "home": "Guadalajara ",
+      "away": "Necaxa",
+      "home_id": "sr:competitor:1938",
+      "away_id": "sr:competitor:1944",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38140787,
+      "debut": "2023-07-14T09:50:00+00:00",
+      "home": "Melbourne Demons",
+      "away": "Brisbane Lions",
+      "home_id": "sr:competitor:4456",
+      "away_id": "sr:competitor:4444",
+      "score_home": 51,
+      "score_away": 52,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41968445,
+      "debut": "2023-07-14T15:30:00+00:00",
+      "home": "Otelul Galati",
+      "away": "UTA Arad",
+      "home_id": "sr:competitor:3291",
+      "away_id": "sr:competitor:221210",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41753779,
+      "debut": "2023-07-14T15:45:00+00:00",
+      "home": "Pirin Blagoevgrad",
+      "away": "Beroe",
+      "home_id": "sr:competitor:5245",
+      "away_id": "sr:competitor:3281",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41570801,
+      "debut": "2023-07-14T16:00:00+00:00",
+      "home": "Banga Gargzdai",
+      "away": "Dziugas",
+      "home_id": "sr:competitor:35388",
+      "away_id": "sr:competitor:168446",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

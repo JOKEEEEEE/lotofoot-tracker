@@ -1,0 +1,136 @@
+{
+  "grille_id": 2955,
+  "grille_type": "grille7",
+  "pool_id": 7002955,
+  "titre": "Grille 7 n°2955",
+  "statut": "CLOSED",
+  "fin": "2023-06-29T19:15:00+00:00",
+  "collecte_le": "2026-08-20T08:34:17.600637+00:00",
+  "mises_nettes": 4456.5,
+  "montant_distribue": 4456.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 318.32
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 107,
+      "winningsPerGrid": 20.82
+    }
+  ],
+  "repartition": [
+    45,
+    362,
+    1186,
+    2043,
+    1581,
+    611,
+    107,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 38453715,
+      "debut": "2023-06-29T19:15:00+00:00",
+      "home": "Stjarnan",
+      "away": "FH Hafnarfjordur",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:1894",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38453717,
+      "debut": "2023-06-29T19:15:00+00:00",
+      "home": "Fylkir",
+      "away": "Vikingur Reykjavik",
+      "home_id": "sr:competitor:1896",
+      "away_id": "sr:competitor:1908",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346331,
+      "debut": "2023-06-29T22:00:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Monagas SC",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:6233",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346333,
+      "debut": "2023-06-29T22:00:00+00:00",
+      "home": "Colo Colo",
+      "away": "Deportivo Pereira",
+      "home_id": "sr:competitor:3155",
+      "away_id": "sr:competitor:6109",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346251,
+      "debut": "2023-06-30T00:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Bolivar",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:7059",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346253,
+      "debut": "2023-06-30T00:00:00+00:00",
+      "home": "Barcelona SC",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:5250",
+      "away_id": "sr:competitor:5991",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38871861,
+      "debut": "2023-06-30T10:00:00+00:00",
+      "home": "Cerezo Osaka",
+      "away": "Avispa Fukuoka",
+      "home_id": "sr:competitor:3141",
+      "away_id": "sr:competitor:3143",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

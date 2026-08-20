@@ -1,0 +1,136 @@
+{
+  "grille_id": 3495,
+  "grille_type": "grille7",
+  "pool_id": 7003495,
+  "titre": "Grille 7 n°3495",
+  "statut": "CLOSED",
+  "fin": "2024-10-13T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:46:54.629385+00:00",
+  "mises_nettes": 8592.75,
+  "montant_distribue": 8592.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010010100100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 358.03
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 216,
+      "winningsPerGrid": 19.89
+    }
+  ],
+  "repartition": [
+    53,
+    630,
+    2354,
+    3901,
+    3076,
+    1215,
+    216,
+    12
+  ],
+  "matches": [
+    {
+      "match_id": 47659491,
+      "debut": "2024-10-13T16:00:00+00:00",
+      "home": "Finlande",
+      "away": "Angleterre",
+      "home_id": "sr:competitor:4712",
+      "away_id": "sr:competitor:4713",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659869,
+      "debut": "2024-10-13T16:00:00+00:00",
+      "home": "Arménie",
+      "away": "Macédoine du Nord",
+      "home_id": "sr:competitor:4740",
+      "away_id": "sr:competitor:4777",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659493,
+      "debut": "2024-10-13T18:45:00+00:00",
+      "home": "Grèce",
+      "away": "République d'Irlande",
+      "home_id": "sr:competitor:4710",
+      "away_id": "sr:competitor:4693",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659631,
+      "debut": "2024-10-13T18:45:00+00:00",
+      "home": "Autriche",
+      "away": "Norvège",
+      "home_id": "sr:competitor:4718",
+      "away_id": "sr:competitor:4475",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659891,
+      "debut": "2024-10-13T16:00:00+00:00",
+      "home": "Malte",
+      "away": "Moldavie",
+      "home_id": "sr:competitor:4483",
+      "away_id": "sr:competitor:4782",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47659871,
+      "debut": "2024-10-13T18:45:00+00:00",
+      "home": "Îles Féroé",
+      "away": "Lettonie",
+      "home_id": "sr:competitor:4760",
+      "away_id": "sr:competitor:4706",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51103107,
+      "debut": "2024-10-13T19:00:00+00:00",
+      "home": "Elche",
+      "away": "Deportivo La Corogne",
+      "home_id": "sr:competitor:2846",
+      "away_id": "sr:competitor:2832",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

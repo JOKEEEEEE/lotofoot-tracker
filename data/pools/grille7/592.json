@@ -1,0 +1,127 @@
+{
+  "grille_id": 592,
+  "grille_type": "grille7",
+  "pool_id": 7000592,
+  "titre": "Grille 7 n°592",
+  "statut": "CLOSED",
+  "fin": "2017-06-30T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:02:00.626788+00:00",
+  "mises_nettes": 4730.25,
+  "montant_distribue": 4730.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1182.57
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 47,
+      "winningsPerGrid": 50.32
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11907536,
+      "debut": "2017-06-30T18:45:00+00:00",
+      "home": "Allemagne U21",
+      "away": "Espagne U21",
+      "home_id": "sr:competitor:4890",
+      "away_id": "sr:competitor:4891",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799208,
+      "debut": "2017-06-30T18:45:00+00:00",
+      "home": "Bray",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3171",
+      "away_id": "sr:competitor:3179",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799236,
+      "debut": "2017-06-30T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Galway United",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:3172",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10799038,
+      "debut": "2017-06-30T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Limerick",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:7127",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893944,
+      "debut": "2017-07-01T01:30:00+00:00",
+      "home": "Real Salt Lake",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:5133",
+      "away_id": "sr:competitor:52237",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11001418,
+      "debut": "2017-07-01T05:00:00+00:00",
+      "home": "Consadole Sapporo",
+      "away": "Shimizu",
+      "home_id": "sr:competitor:3142",
+      "away_id": "sr:competitor:3133",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11001420,
+      "debut": "2017-07-01T10:00:00+00:00",
+      "home": "Vegalta Sendai",
+      "away": "Gamba Osaka",
+      "home_id": "sr:competitor:3148",
+      "away_id": "sr:competitor:3138",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

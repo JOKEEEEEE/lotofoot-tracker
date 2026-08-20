@@ -1,0 +1,136 @@
+{
+  "grille_id": 2973,
+  "grille_type": "grille7",
+  "pool_id": 7002973,
+  "titre": "Grille 7 n°2973",
+  "statut": "CLOSED",
+  "fin": "2023-07-17T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:33:04.348937+00:00",
+  "mises_nettes": 2952.75,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 13,
+      "winningsPerGrid": 153.85
+    }
+  ],
+  "repartition": [
+    168,
+    769,
+    1286,
+    1074,
+    509,
+    117,
+    13,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 41968459,
+      "debut": "2023-07-17T18:30:00+00:00",
+      "home": "Dinamo Bucarest",
+      "away": "CS Universitatea Craiova",
+      "home_id": "sr:competitor:3292",
+      "away_id": "sr:competitor:116223",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38306851,
+      "debut": "2023-07-17T19:00:00+00:00",
+      "home": "Palestino",
+      "away": "Coquimbo Unido",
+      "home_id": "sr:competitor:3157",
+      "away_id": "sr:competitor:3165",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38453743,
+      "debut": "2023-07-17T19:15:00+00:00",
+      "home": "Stjarnan",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:1899",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42248565,
+      "debut": "2023-07-17T21:00:00+00:00",
+      "home": "Guairena FC",
+      "away": "Sportivo Luqueno",
+      "home_id": "sr:competitor:322375",
+      "away_id": "sr:competitor:5998",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546345,
+      "debut": "2023-07-17T21:00:00+00:00",
+      "home": "Tigre",
+      "away": "Club Atletico Barracas Central",
+      "home_id": "sr:competitor:7628",
+      "away_id": "sr:competitor:65668",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546343,
+      "debut": "2023-07-17T21:00:00+00:00",
+      "home": "Arsenal Sarandi",
+      "away": "Instituto AC Cordoba",
+      "home_id": "sr:competitor:3221",
+      "away_id": "sr:competitor:4937",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38306849,
+      "debut": "2023-07-17T22:30:00+00:00",
+      "home": "Union Espanola",
+      "away": "Universidad De Chile",
+      "home_id": "sr:competitor:3153",
+      "away_id": "sr:competitor:3161",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

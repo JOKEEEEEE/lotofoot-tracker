@@ -1,0 +1,127 @@
+{
+  "grille_id": 958,
+  "grille_type": "grille7",
+  "pool_id": 7000958,
+  "titre": "Grille 7 n°958",
+  "statut": "CLOSED",
+  "fin": "2018-07-16T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:31:51.525742+00:00",
+  "mises_nettes": 4533.75,
+  "montant_distribue": 4533.75,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 27,
+      "winningsPerGrid": 83.96
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 244,
+      "winningsPerGrid": 9.29
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14695529,
+      "debut": "2018-07-16T16:00:00+00:00",
+      "home": "FC Copenhague",
+      "away": "AC Horsens",
+      "home_id": "sr:competitor:1284",
+      "away_id": "sr:competitor:1297",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13414743,
+      "debut": "2018-07-16T17:00:00+00:00",
+      "home": "Elfsborg",
+      "away": "Hammarby IF",
+      "home_id": "sr:competitor:1762",
+      "away_id": "sr:competitor:1758",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14209789,
+      "debut": "2018-07-16T17:45:00+00:00",
+      "home": "Dinamo Brest",
+      "away": "Shakhtar Soligorsk",
+      "home_id": "sr:competitor:3353",
+      "away_id": "sr:competitor:3357",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14695517,
+      "debut": "2018-07-16T18:15:00+00:00",
+      "home": "Randers",
+      "away": "Brøndby",
+      "home_id": "sr:competitor:1301",
+      "away_id": "sr:competitor:1281",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370596,
+      "debut": "2018-07-16T19:15:00+00:00",
+      "home": "Breidablik",
+      "away": "Fjölnir",
+      "home_id": "sr:competitor:1901",
+      "away_id": "sr:competitor:5374",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370598,
+      "debut": "2018-07-16T19:15:00+00:00",
+      "home": "Fylkir",
+      "away": "KR Reykjavik",
+      "home_id": "sr:competitor:1896",
+      "away_id": "sr:competitor:1902",
+      "score_home": 2,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13688209,
+      "debut": "2018-07-17T00:15:00+00:00",
+      "home": "Tecnico Universitario",
+      "away": "Guayaquil City FC",
+      "home_id": "sr:competitor:21941",
+      "away_id": "sr:competitor:171976",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 873,
+  "grille_type": "grille7",
+  "pool_id": 7000873,
+  "titre": "Grille 7 n°873",
+  "statut": "CLOSED",
+  "fin": "2018-04-19T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:40:20.249321+00:00",
+  "mises_nettes": 11357.25,
+  "montant_distribue": 11357.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 34,
+      "winningsPerGrid": 167.02
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 372,
+      "winningsPerGrid": 15.27
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12055724,
+      "debut": "2018-04-19T17:30:00+00:00",
+      "home": "Alaves",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:24264",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055728,
+      "debut": "2018-04-19T17:30:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2836",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14083307,
+      "debut": "2018-04-19T18:30:00+00:00",
+      "home": "Club Bruges",
+      "away": "Charleroi",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:2898",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14146409,
+      "debut": "2018-04-19T18:45:00+00:00",
+      "home": "Burnley",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:38",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14146413,
+      "debut": "2018-04-19T18:45:00+00:00",
+      "home": "Leicester",
+      "away": "Southampton",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:45",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055726,
+      "debut": "2018-04-19T19:30:00+00:00",
+      "home": "Betis Séville",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:6577",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055730,
+      "debut": "2018-04-19T19:30:00+00:00",
+      "home": "Levante",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2830",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

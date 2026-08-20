@@ -1,0 +1,127 @@
+{
+  "grille_id": 573,
+  "grille_type": "grille7",
+  "pool_id": 7000573,
+  "titre": "Grille 7 n°573",
+  "statut": "CLOSED",
+  "fin": "2017-06-10T18:45:00+00:00",
+  "collecte_le": "2026-08-20T12:03:27.909442+00:00",
+  "mises_nettes": 6366.75,
+  "montant_distribue": 6366.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 162,
+      "winningsPerGrid": 19.65
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 885,
+      "winningsPerGrid": 3.6
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7678288,
+      "debut": "2017-06-10T18:45:00+00:00",
+      "home": "Norvège",
+      "away": "République Tchèque",
+      "home_id": "sr:competitor:4475",
+      "away_id": "sr:competitor:4714",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678412,
+      "debut": "2017-06-10T18:45:00+00:00",
+      "home": "Monténégro",
+      "away": "Arménie",
+      "home_id": "sr:competitor:7139",
+      "away_id": "sr:competitor:4740",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678414,
+      "debut": "2017-06-10T18:45:00+00:00",
+      "home": "Pologne",
+      "away": "Roumanie",
+      "home_id": "sr:competitor:4703",
+      "away_id": "sr:competitor:4477",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678508,
+      "debut": "2017-06-10T18:45:00+00:00",
+      "home": "Lituanie",
+      "away": "Slovaquie",
+      "home_id": "sr:competitor:4776",
+      "away_id": "sr:competitor:4697",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439233,
+      "debut": "2017-06-10T19:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1961",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893684,
+      "debut": "2017-06-10T20:00:00+00:00",
+      "home": "Chicago Fire",
+      "away": "Atlanta United FC",
+      "home_id": "sr:competitor:2505",
+      "away_id": "sr:competitor:305920",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893700,
+      "debut": "2017-06-11T02:30:00+00:00",
+      "home": "Portland Timbers",
+      "away": "FC Dallas",
+      "home_id": "sr:competitor:22007",
+      "away_id": "sr:competitor:2512",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

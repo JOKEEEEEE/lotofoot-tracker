@@ -1,0 +1,127 @@
+{
+  "grille_id": 1062,
+  "grille_type": "grille7",
+  "pool_id": 7001062,
+  "titre": "Grille 7 n°1062",
+  "statut": "CLOSED",
+  "fin": "2018-10-29T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:21:23.881479+00:00",
+  "mises_nettes": 18990.75,
+  "montant_distribue": 18990.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 114,
+      "winningsPerGrid": 83.29
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1009,
+      "winningsPerGrid": 9.41
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15159813,
+      "debut": "2018-10-29T19:30:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15382554,
+      "debut": "2018-10-29T19:30:00+00:00",
+      "home": "PAOK Salonique",
+      "away": "Panathinaïkos",
+      "home_id": "sr:competitor:3251",
+      "away_id": "sr:competitor:3248",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14894911,
+      "debut": "2018-10-29T19:30:00+00:00",
+      "home": "Bochum",
+      "away": "SSV Jahn Regensburg",
+      "home_id": "sr:competitor:2542",
+      "away_id": "sr:competitor:2567",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14744977,
+      "debut": "2018-10-29T19:45:00+00:00",
+      "home": "Clermont",
+      "away": "Brest",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1715",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736437,
+      "debut": "2018-10-29T20:00:00+00:00",
+      "home": "Tottenham",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:17",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15145299,
+      "debut": "2018-10-29T20:00:00+00:00",
+      "home": "Malaga",
+      "away": "Numancia",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:2855",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14950127,
+      "debut": "2018-10-29T20:15:00+00:00",
+      "home": "Penafiel",
+      "away": "Academica Coimbra",
+      "home_id": "sr:competitor:3017",
+      "away_id": "sr:competitor:3015",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3991,
+  "grille_type": "grille7",
+  "pool_id": 7003991,
+  "titre": "Grille 7 n°3991",
+  "statut": "CLOSED",
+  "fin": "2026-02-16T19:30:00+00:00",
+  "collecte_le": "2026-08-20T06:26:31.014046+00:00",
+  "mises_nettes": 9177,
+  "montant_distribue": 9177,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1147.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 53,
+      "winningsPerGrid": 86.58
+    }
+  ],
+  "repartition": [
+    311,
+    2181,
+    4273,
+    3508,
+    1522,
+    384,
+    53,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 61623602,
+      "debut": "2026-02-16T19:30:00+00:00",
+      "home": "Real Sociedad B",
+      "away": "Malaga",
+      "home_id": "sr:competitor:24360",
+      "away_id": "sr:competitor:2830",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.4,
+      "cote_N": 2.95,
+      "cote_2": 2.45
+    },
+    {
+      "match_id": 67735940,
+      "debut": "2026-02-16T19:30:00+00:00",
+      "home": "Macclesfield FC",
+      "away": "Brentford",
+      "home_id": "sr:competitor:935861",
+      "away_id": "sr:competitor:50",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 11.5,
+      "cote_N": 6.25,
+      "cote_2": 1.16
+    },
+    {
+      "match_id": 67180682,
+      "debut": "2026-02-16T19:45:00+00:00",
+      "home": "Bastia",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1655",
+      "away_id": "sr:competitor:1652",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.55,
+      "cote_N": 2.75,
+      "cote_2": 2.4
+    },
+    {
+      "match_id": 61061425,
+      "debut": "2026-02-16T19:45:00+00:00",
+      "home": "Cagliari",
+      "away": "Lecce",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2689",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.15,
+      "cote_N": 2.6,
+      "cote_2": 3.1
+    },
+    {
+      "match_id": 61624412,
+      "debut": "2026-02-16T20:00:00+00:00",
+      "home": "Gérone",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2817",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.04,
+      "cote_N": 11.5,
+      "cote_2": null
+    },
+    {
+      "match_id": 61491055,
+      "debut": "2026-02-16T20:00:00+00:00",
+      "home": "Coventry City",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:11",
+      "away_id": "sr:competitor:36",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.1,
+      "cote_N": 3.15,
+      "cote_2": 2.75
+    },
+    {
+      "match_id": 61731330,
+      "debut": "2026-02-16T20:15:00+00:00",
+      "home": "Rio Ave",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:3014",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3,
+      "cote_N": 2.9,
+      "cote_2": 2.05
+    }
+  ]
+}

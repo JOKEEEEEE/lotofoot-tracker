@@ -1,0 +1,136 @@
+{
+  "grille_id": 2724,
+  "grille_type": "grille7",
+  "pool_id": 7002724,
+  "titre": "Grille 7 n°2724",
+  "statut": "CLOSED",
+  "fin": "2022-12-17T15:00:00+00:00",
+  "collecte_le": "2026-08-20T08:53:28.487948+00:00",
+  "mises_nettes": 5364,
+  "montant_distribue": 5364,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1341
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 56,
+      "winningsPerGrid": 47.89
+    }
+  ],
+  "repartition": [
+    177,
+    897,
+    1960,
+    2242,
+    1397,
+    421,
+    56,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 32972215,
+      "debut": "2022-12-17T15:00:00+00:00",
+      "home": "Croatie",
+      "away": "Maroc",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:4778",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265675,
+      "debut": "2022-12-17T15:00:00+00:00",
+      "home": "Burnley",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:36",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265679,
+      "debut": "2022-12-17T15:00:00+00:00",
+      "home": "Coventry City",
+      "away": "Swansea",
+      "home_id": "sr:competitor:11",
+      "away_id": "sr:competitor:74",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265681,
+      "debut": "2022-12-17T15:00:00+00:00",
+      "home": "Huddersfield",
+      "away": "Watford",
+      "home_id": "sr:competitor:59",
+      "away_id": "sr:competitor:24",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265683,
+      "debut": "2022-12-17T15:00:00+00:00",
+      "home": "Hull City",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:41",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265689,
+      "debut": "2022-12-17T15:00:00+00:00",
+      "home": "Preston North End",
+      "away": "Queens Park Rangers",
+      "home_id": "sr:competitor:21",
+      "away_id": "sr:competitor:1",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34265687,
+      "debut": "2022-12-17T17:30:00+00:00",
+      "home": "Norwich",
+      "away": "Blackburn",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:46",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

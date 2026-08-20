@@ -1,0 +1,127 @@
+{
+  "grille_id": 1642,
+  "grille_type": "grille7",
+  "pool_id": 7001642,
+  "titre": "Grille 7 n°1642",
+  "statut": "CLOSED",
+  "fin": "2020-06-18T17:30:00+00:00",
+  "collecte_le": "2026-08-20T10:27:22.020926+00:00",
+  "mises_nettes": 13617.75,
+  "montant_distribue": 13617.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 33,
+      "winningsPerGrid": 206.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 281,
+      "winningsPerGrid": 24.23
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22153533,
+      "debut": "2020-06-18T17:30:00+00:00",
+      "home": "Alaves",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2824",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22178389,
+      "debut": "2020-06-18T17:30:00+00:00",
+      "home": "Huesca",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:35092",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22178501,
+      "debut": "2020-06-18T17:30:00+00:00",
+      "home": "Numancia",
+      "away": "CF Cadiz",
+      "home_id": "sr:competitor:2855",
+      "away_id": "sr:competitor:4488",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085377,
+      "debut": "2020-06-18T18:00:00+00:00",
+      "home": "Boavista",
+      "away": "Vitoria Setubal",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3008",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22178509,
+      "debut": "2020-06-18T19:45:00+00:00",
+      "home": "Alcorcon",
+      "away": "Gijon",
+      "home_id": "sr:competitor:24322",
+      "away_id": "sr:competitor:2852",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22153531,
+      "debut": "2020-06-18T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Valence",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2828",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085379,
+      "debut": "2020-06-18T20:15:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Tondela",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:38396",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1117,
+  "grille_type": "grille7",
+  "pool_id": 7001117,
+  "titre": "Grille 7 n°1117",
+  "statut": "CLOSED",
+  "fin": "2018-12-25T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:16:16.103277+00:00",
+  "mises_nettes": 7024.5,
+  "montant_distribue": 7024.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010010100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 3512.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 21,
+      "winningsPerGrid": 167.25
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14824679,
+      "debut": "2018-12-25T17:30:00+00:00",
+      "home": "Maccabi Petach Tikva",
+      "away": "Bnei Yehuda Tel-Aviv",
+      "home_id": "sr:competitor:5333",
+      "away_id": "sr:competitor:5203",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14824687,
+      "debut": "2018-12-25T17:30:00+00:00",
+      "home": "Bnei Sakhnin",
+      "away": "Maccabi Netanya",
+      "home_id": "sr:competitor:5392",
+      "away_id": "sr:competitor:5395",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14824683,
+      "debut": "2018-12-25T19:00:00+00:00",
+      "home": "Maccabi Tel-Aviv",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:5198",
+      "away_id": "sr:competitor:5202",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159983,
+      "debut": "2018-12-26T11:30:00+00:00",
+      "home": "Frosinone",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2801",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736607,
+      "debut": "2018-12-26T12:30:00+00:00",
+      "home": "Fulham",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:3",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159975,
+      "debut": "2018-12-26T14:00:00+00:00",
+      "home": "Atalanta Bergame",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2686",
+      "away_id": "sr:competitor:2687",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159969,
+      "debut": "2018-12-26T14:00:00+00:00",
+      "home": "Fiorentina",
+      "away": "Parme",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2690",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

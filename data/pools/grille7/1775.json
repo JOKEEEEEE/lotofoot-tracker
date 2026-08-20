@@ -1,0 +1,127 @@
+{
+  "grille_id": 1775,
+  "grille_type": "grille7",
+  "pool_id": 7001775,
+  "titre": "Grille 7 n°1775",
+  "statut": "CLOSED",
+  "fin": "2020-10-15T19:00:00+00:00",
+  "collecte_le": "2026-08-20T13:20:05.290593+00:00",
+  "mises_nettes": 7959.75,
+  "montant_distribue": 7959.75,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1326.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 58,
+      "winningsPerGrid": 68.62
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23682397,
+      "debut": "2020-10-15T19:00:00+00:00",
+      "home": "Feirense",
+      "away": "Chaves",
+      "home_id": "sr:competitor:4501",
+      "away_id": "sr:competitor:3025",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23511609,
+      "debut": "2020-10-15T19:00:00+00:00",
+      "home": "Independiente Medellin",
+      "away": "Jaguares De Cordoba",
+      "home_id": "sr:competitor:6115",
+      "away_id": "sr:competitor:89370",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 11.5,
+      "cote_N": 1.02,
+      "cote_2": 27
+    },
+    {
+      "match_id": 23742977,
+      "debut": "2020-10-15T19:00:00+00:00",
+      "home": "Deportes Antofagasta",
+      "away": "Universidad De Chile",
+      "home_id": "sr:competitor:5601",
+      "away_id": "sr:competitor:3161",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 28,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23511605,
+      "debut": "2020-10-15T21:00:00+00:00",
+      "home": "Tolima",
+      "away": "Alianza Petrolera",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:89156",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23742979,
+      "debut": "2020-10-15T21:30:00+00:00",
+      "home": "Audax Italiano",
+      "away": "O'Higgins",
+      "home_id": "sr:competitor:3162",
+      "away_id": "sr:competitor:3163",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.01,
+      "cote_N": 13.5,
+      "cote_2": 225
+    },
+    {
+      "match_id": 22727591,
+      "debut": "2020-10-15T23:00:00+00:00",
+      "home": "Flamengo",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1999",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 10,
+      "cote_N": 1.03,
+      "cote_2": 23
+    },
+    {
+      "match_id": 23511601,
+      "debut": "2020-10-15T23:05:00+00:00",
+      "home": "Águilas Doradas",
+      "away": "Atletico Nacional Medellin",
+      "home_id": "sr:competitor:48244",
+      "away_id": "sr:competitor:6106",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 19,
+      "cote_2": 1.01
+    }
+  ]
+}

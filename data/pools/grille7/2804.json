@@ -1,0 +1,136 @@
+{
+  "grille_id": 2804,
+  "grille_type": "grille7",
+  "pool_id": 7002804,
+  "titre": "Grille 7 n°2804",
+  "statut": "CLOSED",
+  "fin": "2023-02-21T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:46:14.091982+00:00",
+  "mises_nettes": 15414.75,
+  "montant_distribue": 15414.75,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 856.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 219,
+      "winningsPerGrid": 35.19
+    }
+  ],
+  "repartition": [
+    426,
+    2192,
+    5081,
+    6600,
+    4532,
+    1494,
+    219,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 38872849,
+      "debut": "2023-02-21T19:45:00+00:00",
+      "home": "Swansea",
+      "away": "Stoke City",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:29",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38797765,
+      "debut": "2023-02-21T19:45:00+00:00",
+      "home": "Norwich",
+      "away": "Birmingham",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:9",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38872859,
+      "debut": "2023-02-21T19:45:00+00:00",
+      "home": "Blackburn",
+      "away": "Blackpool",
+      "home_id": "sr:competitor:46",
+      "away_id": "sr:competitor:67",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38872861,
+      "debut": "2023-02-21T19:45:00+00:00",
+      "home": "Millwall",
+      "away": "Burnley",
+      "home_id": "sr:competitor:25",
+      "away_id": "sr:competitor:6",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38627309,
+      "debut": "2023-02-21T19:45:00+00:00",
+      "home": "Rotherham",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:13",
+      "away_id": "sr:competitor:41",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37291033,
+      "debut": "2023-02-21T20:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Naples",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:2714",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37290983,
+      "debut": "2023-02-21T20:00:00+00:00",
+      "home": "Liverpool",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:2829",
+      "score_home": 2,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

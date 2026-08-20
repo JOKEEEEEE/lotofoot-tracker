@@ -1,0 +1,136 @@
+{
+  "grille_id": 3543,
+  "grille_type": "grille7",
+  "pool_id": 7003543,
+  "titre": "Grille 7 n°3543",
+  "statut": "CLOSED",
+  "fin": "2024-11-25T17:30:00+00:00",
+  "collecte_le": "2026-08-20T07:43:23.424697+00:00",
+  "mises_nettes": 5918.25,
+  "montant_distribue": 5918.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 40,
+      "winningsPerGrid": 73.98
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 371,
+      "winningsPerGrid": 7.98
+    }
+  ],
+  "repartition": [
+    91,
+    905,
+    2270,
+    2677,
+    1537,
+    371,
+    40,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 51271667,
+      "debut": "2024-11-25T17:30:00+00:00",
+      "home": "Empoli",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2695",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50606273,
+      "debut": "2024-11-25T18:15:00+00:00",
+      "home": "Midtjylland",
+      "away": "Silkeborg",
+      "home_id": "sr:competitor:1289",
+      "away_id": "sr:competitor:1285",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 54694821,
+      "debut": "2024-11-25T18:00:00+00:00",
+      "home": "Puszcza Niepolomnice",
+      "away": "Widzew Łódź",
+      "home_id": "sr:competitor:38729",
+      "away_id": "sr:competitor:3115",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51207869,
+      "debut": "2024-11-25T18:30:00+00:00",
+      "home": "UTA Arad",
+      "away": "CS Universitatea Craiova",
+      "home_id": "sr:competitor:221210",
+      "away_id": "sr:competitor:116223",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271683,
+      "debut": "2024-11-25T19:45:00+00:00",
+      "home": "Venise",
+      "away": "Lecce",
+      "home_id": "sr:competitor:2688",
+      "away_id": "sr:competitor:2689",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55074843,
+      "debut": "2024-11-25T19:45:00+00:00",
+      "home": "Dunkerque",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:6918",
+      "away_id": "sr:competitor:1660",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850203,
+      "debut": "2024-11-25T20:00:00+00:00",
+      "home": "Newcastle",
+      "away": "West Ham",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:37",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

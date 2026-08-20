@@ -1,0 +1,127 @@
+{
+  "grille_id": 1687,
+  "grille_type": "grille7",
+  "pool_id": 7001687,
+  "titre": "Grille 7 n°1687",
+  "statut": "CLOSED",
+  "fin": "2020-07-25T15:15:00+00:00",
+  "collecte_le": "2026-08-20T10:24:42.794523+00:00",
+  "mises_nettes": 11580.75,
+  "montant_distribue": 11580.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 82,
+      "winningsPerGrid": 70.61
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 766,
+      "winningsPerGrid": 7.56
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22172797,
+      "debut": "2020-07-25T15:15:00+00:00",
+      "home": "Brescia",
+      "away": "Parme",
+      "home_id": "sr:competitor:2691",
+      "away_id": "sr:competitor:2690",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172811,
+      "debut": "2020-07-25T17:30:00+00:00",
+      "home": "Genoa",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085531,
+      "debut": "2020-07-25T18:00:00+00:00",
+      "home": "Maritimo",
+      "away": "Famalicao",
+      "home_id": "sr:competitor:3007",
+      "away_id": "sr:competitor:49531",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22166239,
+      "debut": "2020-07-25T18:00:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Rizespor",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:3064",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22172823,
+      "debut": "2020-07-25T19:45:00+00:00",
+      "home": "Naples",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2793",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085543,
+      "debut": "2020-07-25T20:15:00+00:00",
+      "home": "Braga",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3002",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085527,
+      "debut": "2020-07-25T20:15:00+00:00",
+      "home": "Benfica",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:3001",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

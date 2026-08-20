@@ -1,0 +1,136 @@
+{
+  "grille_id": 3958,
+  "grille_type": "grille7",
+  "pool_id": 7003958,
+  "titre": "Grille 7 n°3958",
+  "statut": "CLOSED",
+  "fin": "2026-01-14T19:30:00+00:00",
+  "collecte_le": "2026-08-20T06:34:13.001754+00:00",
+  "mises_nettes": 10284,
+  "montant_distribue": 10284,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 467.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 477,
+      "winningsPerGrid": 10.78
+    }
+  ],
+  "repartition": [
+    37,
+    333,
+    1781,
+    3972,
+    4500,
+    2601,
+    477,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 61513910,
+      "debut": "2026-01-14T19:30:00+00:00",
+      "home": "FC Cologne",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2671",
+      "away_id": "sr:competitor:2672",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 7,
+      "cote_N": 6,
+      "cote_2": 1.22
+    },
+    {
+      "match_id": 64321023,
+      "debut": "2026-01-14T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Lecce",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2689",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 46,
+      "cote_2": null
+    },
+    {
+      "match_id": 61499233,
+      "debut": "2026-01-14T20:00:00+00:00",
+      "home": "Nigeria",
+      "away": "Maroc",
+      "home_id": "sr:competitor:4785",
+      "away_id": "sr:competitor:4778",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 3.55,
+      "cote_N": 2.75,
+      "cote_2": 1.92
+    },
+    {
+      "match_id": 67092044,
+      "debut": "2026-01-14T20:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:42",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 3.55,
+      "cote_N": 3.25,
+      "cote_2": 1.76
+    },
+    {
+      "match_id": 67539498,
+      "debut": "2026-01-14T20:00:00+00:00",
+      "home": "Albacete",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2848",
+      "away_id": "sr:competitor:2829",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 6.75,
+      "cote_N": 5,
+      "cote_2": 1.27
+    },
+    {
+      "match_id": 67539500,
+      "debut": "2026-01-14T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Elche",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2846",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.52,
+      "cote_N": 3.65,
+      "cote_2": 4.5
+    },
+    {
+      "match_id": 67091132,
+      "debut": "2026-01-14T20:45:00+00:00",
+      "home": "FC Porto",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3006",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.88,
+      "cote_N": 2.8,
+      "cote_2": 3.6
+    }
+  ]
+}

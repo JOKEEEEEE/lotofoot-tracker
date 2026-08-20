@@ -1,0 +1,136 @@
+{
+  "grille_id": 3737,
+  "grille_type": "grille7",
+  "pool_id": 7003737,
+  "titre": "Grille 7 n°3737",
+  "statut": "CLOSED",
+  "fin": "2025-06-01T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:24:15.118985+00:00",
+  "mises_nettes": 3468,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001010001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 666.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 20,
+      "winningsPerGrid": 100
+    }
+  ],
+  "repartition": [
+    373,
+    1077,
+    1480,
+    1061,
+    473,
+    137,
+    20,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 60658987,
+      "debut": "2025-06-01T18:45:00+00:00",
+      "home": "FC Vizela",
+      "away": "AVS Futebol SAD",
+      "home_id": "sr:competitor:5136",
+      "away_id": "sr:competitor:1031053",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052603,
+      "debut": "2025-06-01T19:00:00+00:00",
+      "home": "Santos",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1958",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052615,
+      "debut": "2025-06-01T19:00:00+00:00",
+      "home": "Juventude RS",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1980",
+      "away_id": "sr:competitor:5926",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57380303,
+      "debut": "2025-06-01T19:00:00+00:00",
+      "home": "Palestino",
+      "away": "Universidad Catolica",
+      "home_id": "sr:competitor:3157",
+      "away_id": "sr:competitor:3151",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60801649,
+      "debut": "2025-06-01T20:05:00+00:00",
+      "home": "Huracan",
+      "away": "Club Atletico Platense",
+      "home_id": "sr:competitor:7629",
+      "away_id": "sr:competitor:36837",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60832233,
+      "debut": "2025-06-01T21:05:00+00:00",
+      "home": "Santa Fe",
+      "away": "Millonarios ",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:6117",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052613,
+      "debut": "2025-06-01T21:30:00+00:00",
+      "home": "Ceara",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

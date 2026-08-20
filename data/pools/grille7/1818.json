@@ -1,0 +1,127 @@
+{
+  "grille_id": 1818,
+  "grille_type": "grille7",
+  "pool_id": 7001818,
+  "titre": "Grille 7 n°1818",
+  "statut": "CLOSED",
+  "fin": "2020-11-16T20:00:00+00:00",
+  "collecte_le": "2026-08-20T13:19:44.257469+00:00",
+  "mises_nettes": 14628,
+  "montant_distribue": 14628,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 664.91
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 165,
+      "winningsPerGrid": 44.33
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22364667,
+      "debut": "2020-11-16T20:00:00+00:00",
+      "home": "France U21",
+      "away": "Suisse U21",
+      "home_id": "sr:competitor:5936",
+      "away_id": "sr:competitor:4876",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.02,
+      "cote_N": 5.5,
+      "cote_2": 130
+    },
+    {
+      "match_id": 23362461,
+      "debut": "2020-11-16T20:00:00+00:00",
+      "home": "Gijon",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:2818",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 16,
+      "cote_N": 1.03,
+      "cote_2": 6.75
+    },
+    {
+      "match_id": 21571325,
+      "debut": "2020-11-16T21:00:00+00:00",
+      "home": "Coritiba",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1982",
+      "away_id": "sr:competitor:1955",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 25,
+      "cote_2": 1
+    },
+    {
+      "match_id": 24325629,
+      "debut": "2020-11-16T21:15:00+00:00",
+      "home": "Sportivo Luqueno",
+      "away": "12 De Octubre De Itaugua",
+      "home_id": "sr:competitor:5998",
+      "away_id": "sr:competitor:5989",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 180,
+      "cote_2": 1
+    },
+    {
+      "match_id": 21571313,
+      "debut": "2020-11-16T23:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1999",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 160,
+      "cote_N": 15,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 24325631,
+      "debut": "2020-11-16T23:30:00+00:00",
+      "home": "Guarani Asuncion",
+      "away": "Sportivo San Lorenzo",
+      "home_id": "sr:competitor:5994",
+      "away_id": "sr:competitor:90972",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 22,
+      "cote_2": 250
+    },
+    {
+      "match_id": 24295897,
+      "debut": "2020-11-17T13:00:00+00:00",
+      "home": "Senica",
+      "away": "Sered",
+      "home_id": "sr:competitor:36333",
+      "away_id": "sr:competitor:36891",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 13,
+      "cote_N": 1.06,
+      "cote_2": 9
+    }
+  ]
+}

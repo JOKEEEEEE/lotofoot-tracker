@@ -1,0 +1,136 @@
+{
+  "grille_id": 3618,
+  "grille_type": "grille7",
+  "pool_id": 7003618,
+  "titre": "Grille 7 n°3618",
+  "statut": "CLOSED",
+  "fin": "2025-02-06T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:24:10.747956+00:00",
+  "mises_nettes": 10302.75,
+  "montant_distribue": 10302.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 30,
+      "winningsPerGrid": 171.71
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 440,
+      "winningsPerGrid": 11.71
+    }
+  ],
+  "repartition": [
+    83,
+    708,
+    2456,
+    4086,
+    3905,
+    2029,
+    440,
+    30
+  ],
+  "matches": [
+    {
+      "match_id": 50867509,
+      "debut": "2025-02-06T19:30:00+00:00",
+      "home": "FC Bâle",
+      "away": "Lucerne",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:2453",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50867517,
+      "debut": "2025-02-06T19:30:00+00:00",
+      "home": "FC Winterthour",
+      "away": "FC Zurich",
+      "home_id": "sr:competitor:2458",
+      "away_id": "sr:competitor:2450",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57050179,
+      "debut": "2025-02-06T19:45:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:2900",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57224991,
+      "debut": "2025-02-06T20:00:00+00:00",
+      "home": "FC Bourgoin-Jallieu",
+      "away": "Reims",
+      "home_id": "sr:competitor:82685",
+      "away_id": "sr:competitor:1682",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56582711,
+      "debut": "2025-02-06T20:00:00+00:00",
+      "home": "Liverpool",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:33",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742789,
+      "debut": "2025-02-06T20:00:00+00:00",
+      "home": "Aldosivi",
+      "away": "Club Atletico Barracas Central",
+      "home_id": "sr:competitor:36836",
+      "away_id": "sr:competitor:65668",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57350855,
+      "debut": "2025-02-06T20:30:00+00:00",
+      "home": "Valence",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

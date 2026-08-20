@@ -1,0 +1,136 @@
+{
+  "grille_id": 3757,
+  "grille_type": "grille7",
+  "pool_id": 7003757,
+  "titre": "Grille 7 n°3757",
+  "statut": "CLOSED",
+  "fin": "2025-06-21T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:22:40.049001+00:00",
+  "mises_nettes": 3647.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 27,
+      "winningsPerGrid": 74.07
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 224,
+      "winningsPerGrid": 8.93
+    }
+  ],
+  "repartition": [
+    23,
+    169,
+    601,
+    1376,
+    1617,
+    826,
+    224,
+    27
+  ],
+  "matches": [
+    {
+      "match_id": 56189457,
+      "debut": "2025-06-21T16:00:00+00:00",
+      "home": "Mamelodi Sundowns",
+      "away": "Borussia Dortmund",
+      "home_id": "sr:competitor:7665",
+      "away_id": "sr:competitor:2673",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61301499,
+      "debut": "2025-06-21T16:00:00+00:00",
+      "home": "Portugal U21",
+      "away": "Pays-Bas U21",
+      "home_id": "sr:competitor:6045",
+      "away_id": "sr:competitor:5024",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61301503,
+      "debut": "2025-06-21T19:00:00+00:00",
+      "home": "Espagne U21",
+      "away": "Angleterre U21",
+      "home_id": "sr:competitor:4891",
+      "away_id": "sr:competitor:6025",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189407,
+      "debut": "2025-06-21T19:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Urawa Reds",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:3145",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60969999,
+      "debut": "2025-06-21T19:00:00+00:00",
+      "home": "Real Oviedo",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:35092",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189453,
+      "debut": "2025-06-21T22:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Ulsan HD FC",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:7653",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56189403,
+      "debut": "2025-06-22T01:00:00+00:00",
+      "home": "River Plate",
+      "away": "Monterrey",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:1932",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

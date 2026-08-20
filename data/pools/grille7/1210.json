@@ -1,0 +1,127 @@
+{
+  "grille_id": 1210,
+  "grille_type": "grille7",
+  "pool_id": 7001210,
+  "titre": "Grille 7 n°1210",
+  "statut": "CLOSED",
+  "fin": "2019-03-31T15:00:00+00:00",
+  "collecte_le": "2026-08-20T11:09:17.554999+00:00",
+  "mises_nettes": 17592.75,
+  "montant_distribue": 17592.75,
+  "montant_garanti": 16000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 140,
+      "winningsPerGrid": 62.83
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1611,
+      "winningsPerGrid": 5.46
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701235,
+      "debut": "2019-03-31T15:00:00+00:00",
+      "home": "Nantes",
+      "away": "Lille",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1643",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736875,
+      "debut": "2019-03-31T15:30:00+00:00",
+      "home": "Liverpool",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160199,
+      "debut": "2019-03-31T16:00:00+00:00",
+      "home": "Bologne",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2793",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109547,
+      "debut": "2019-03-31T16:30:00+00:00",
+      "home": "Real Valladolid",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2831",
+      "away_id": "sr:competitor:2824",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160193,
+      "debut": "2019-03-31T18:30:00+00:00",
+      "home": "Inter Milan",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2699",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109545,
+      "debut": "2019-03-31T18:45:00+00:00",
+      "home": "Real Madrid",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:24265",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701243,
+      "debut": "2019-03-31T19:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

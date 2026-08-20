@@ -1,0 +1,136 @@
+{
+  "grille_id": 2123,
+  "grille_type": "grille7",
+  "pool_id": 7002123,
+  "titre": "Grille 7 n°2123",
+  "statut": "CLOSED",
+  "fin": "2021-08-02T17:00:00+00:00",
+  "collecte_le": "2026-08-20T09:45:10.665001+00:00",
+  "mises_nettes": 5292,
+  "montant_distribue": 5292,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 240.55
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 117,
+      "winningsPerGrid": 22.62
+    }
+  ],
+  "repartition": [
+    162,
+    822,
+    1911,
+    2107,
+    1398,
+    528,
+    117,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 27752284,
+      "debut": "2021-08-02T17:00:00+00:00",
+      "home": "Akhmat Grozny",
+      "away": "FK Sotchi",
+      "home_id": "sr:competitor:5131",
+      "away_id": "sr:competitor:2334",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 200,
+      "cote_N": 21,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27574918,
+      "debut": "2021-08-02T17:00:00+00:00",
+      "home": "Sønderjyske",
+      "away": "Nordsjælland",
+      "home_id": "sr:competitor:1295",
+      "away_id": "sr:competitor:1292",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 25351930,
+      "debut": "2021-08-02T17:00:00+00:00",
+      "home": "AIK Stockholm",
+      "away": "Halmstad",
+      "home_id": "sr:competitor:1764",
+      "away_id": "sr:competitor:1767",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 36,
+      "cote_2": 250
+    },
+    {
+      "match_id": 25351936,
+      "debut": "2021-08-02T17:00:00+00:00",
+      "home": "IFK Göteborg",
+      "away": "Norrköping",
+      "home_id": "sr:competitor:1761",
+      "away_id": "sr:competitor:1769",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 34,
+      "cote_2": 1
+    },
+    {
+      "match_id": 25351938,
+      "debut": "2021-08-02T17:00:00+00:00",
+      "home": "IK Sirius",
+      "away": "Örebro",
+      "home_id": "sr:competitor:1793",
+      "away_id": "sr:competitor:1768",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 34,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27957944,
+      "debut": "2021-08-02T18:30:00+00:00",
+      "home": "Dinamo Bucarest",
+      "away": "CS FC Clinceni",
+      "home_id": "sr:competitor:3292",
+      "away_id": "sr:competitor:24789",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 27885764,
+      "debut": "2021-08-02T18:45:00+00:00",
+      "home": "Auxerre",
+      "away": "Grenoble",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1671",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 320,
+  "grille_type": "grille7",
+  "pool_id": 7000320,
+  "titre": "Grille 7 n°320",
+  "statut": "CLOSED",
+  "fin": "2016-09-10T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:27:54.944578+00:00",
+  "mises_nettes": 8223.75,
+  "montant_distribue": 8223.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 373.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 168,
+      "winningsPerGrid": 24.48
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9539567,
+      "debut": "2016-09-10T18:00:00+00:00",
+      "home": "Lorient",
+      "away": "Nancy",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1675",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539569,
+      "debut": "2016-09-10T18:00:00+00:00",
+      "home": "Lille",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1653",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539577,
+      "debut": "2016-09-10T18:00:00+00:00",
+      "home": "Bastia",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1655",
+      "away_id": "sr:competitor:1681",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539579,
+      "debut": "2016-09-10T18:00:00+00:00",
+      "home": "Angers",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1686",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539585,
+      "debut": "2016-09-10T18:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1642",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9611885,
+      "debut": "2016-09-10T18:00:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Lucerne",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:2453",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9820705,
+      "debut": "2016-09-10T18:45:00+00:00",
+      "home": "Palerme",
+      "away": "Naples",
+      "home_id": "sr:competitor:2715",
+      "away_id": "sr:competitor:2714",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

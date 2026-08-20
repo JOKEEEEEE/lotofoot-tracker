@@ -1,0 +1,127 @@
+{
+  "grille_id": 1318,
+  "grille_type": "grille7",
+  "pool_id": 7001318,
+  "titre": "Grille 7 n°1318",
+  "statut": "CLOSED",
+  "fin": "2019-07-19T19:00:00+00:00",
+  "collecte_le": "2026-08-20T10:58:53.667799+00:00",
+  "mises_nettes": 6944.25,
+  "montant_distribue": 6944.25,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 496.02
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 114,
+      "winningsPerGrid": 30.46
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18078359,
+      "debut": "2019-07-19T19:00:00+00:00",
+      "home": "Sénégal",
+      "away": "Algérie",
+      "home_id": "sr:competitor:4739",
+      "away_id": "sr:competitor:4691",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18433380,
+      "debut": "2019-07-19T19:00:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "Lokomotiva Zagreb",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:36246",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18548334,
+      "debut": "2019-07-19T22:15:00+00:00",
+      "home": "Nacional Asuncion",
+      "away": "Olimpia Asuncion",
+      "home_id": "sr:competitor:33001",
+      "away_id": "sr:competitor:5997",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18515194,
+      "debut": "2019-07-20T00:00:00+00:00",
+      "home": "Puebla",
+      "away": "Club Tijuana",
+      "home_id": "sr:competitor:1941",
+      "away_id": "sr:competitor:36525",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18527146,
+      "debut": "2019-07-20T00:30:00+00:00",
+      "home": "Envigado FC",
+      "away": "Pasto",
+      "home_id": "sr:competitor:6114",
+      "away_id": "sr:competitor:6113",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16638885,
+      "debut": "2019-07-20T01:00:00+00:00",
+      "home": "Club Sport Emelec",
+      "away": "Deportivo Cuenca",
+      "home_id": "sr:competitor:5255",
+      "away_id": "sr:competitor:5251",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681829,
+      "debut": "2019-07-20T02:00:00+00:00",
+      "home": "Los Angeles Galaxy",
+      "away": "Los Angeles FC",
+      "home_id": "sr:competitor:2513",
+      "away_id": "sr:competitor:402227",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

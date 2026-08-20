@@ -1,0 +1,136 @@
+{
+  "grille_id": 2970,
+  "grille_type": "grille7",
+  "pool_id": 7002970,
+  "titre": "Grille 7 n°2970",
+  "statut": "CLOSED",
+  "fin": "2023-07-14T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:33:24.393177+00:00",
+  "mises_nettes": 4894.5,
+  "montant_distribue": 4894.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 188.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 147,
+      "winningsPerGrid": 16.65
+    }
+  ],
+  "repartition": [
+    54,
+    562,
+    1492,
+    2035,
+    1568,
+    655,
+    147,
+    13
+  ],
+  "matches": [
+    {
+      "match_id": 41968475,
+      "debut": "2023-07-14T18:30:00+00:00",
+      "home": "Rapid Bucarest",
+      "away": "Sepsi OSK",
+      "home_id": "sr:competitor:3302",
+      "away_id": "sr:competitor:276385",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144901,
+      "debut": "2023-07-14T18:45:00+00:00",
+      "home": "Shelbourne Dublin",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3174",
+      "away_id": "sr:competitor:3173",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144903,
+      "debut": "2023-07-14T18:45:00+00:00",
+      "home": "UC Dublin",
+      "away": "Drogheda",
+      "home_id": "sr:competitor:3168",
+      "away_id": "sr:competitor:3180",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38306847,
+      "debut": "2023-07-14T21:00:00+00:00",
+      "home": "Cobresal",
+      "away": "Huachipato",
+      "home_id": "sr:competitor:3167",
+      "away_id": "sr:competitor:3164",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38453735,
+      "debut": "2023-07-14T20:15:00+00:00",
+      "home": "Fram",
+      "away": "Breidablik",
+      "home_id": "sr:competitor:1893",
+      "away_id": "sr:competitor:1901",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41988415,
+      "debut": "2023-07-14T21:00:00+00:00",
+      "home": "Envigado FC",
+      "away": "Bucaramanga",
+      "home_id": "sr:competitor:6114",
+      "away_id": "sr:competitor:6103",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546337,
+      "debut": "2023-07-14T22:00:00+00:00",
+      "home": "Sarmiento",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:42338",
+      "away_id": "sr:competitor:3208",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

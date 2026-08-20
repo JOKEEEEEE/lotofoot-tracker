@@ -1,0 +1,127 @@
+{
+  "grille_id": 1822,
+  "grille_type": "grille7",
+  "pool_id": 7001822,
+  "titre": "Grille 7 n°1822",
+  "statut": "CLOSED",
+  "fin": "2020-11-20T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:10:30.099393+00:00",
+  "mises_nettes": 12670.5,
+  "montant_distribue": 13000,
+  "montant_garanti": 13000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 11,
+      "winningsPerGrid": 590.91
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 179,
+      "winningsPerGrid": 36.31
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23216545,
+      "debut": "2020-11-20T19:45:00+00:00",
+      "home": "Coventry City",
+      "away": "Birmingham",
+      "home_id": "sr:competitor:11",
+      "away_id": "sr:competitor:9",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 18,
+      "cote_N": 1.02,
+      "cote_2": 18
+    },
+    {
+      "match_id": 22650527,
+      "debut": "2020-11-20T20:00:00+00:00",
+      "home": "Monaco",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1644",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 6.5,
+      "cote_2": 225
+    },
+    {
+      "match_id": 23360513,
+      "debut": "2020-11-20T20:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:24265",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 16,
+      "cote_N": 1.02,
+      "cote_2": 22
+    },
+    {
+      "match_id": 23362467,
+      "debut": "2020-11-20T20:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:24264",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 110,
+      "cote_N": 9.5,
+      "cote_2": 1.02
+    },
+    {
+      "match_id": 23495707,
+      "debut": "2020-11-20T20:00:00+00:00",
+      "home": "Frosinone",
+      "away": "Nuova Cosenza Calcio",
+      "home_id": "sr:competitor:2801",
+      "away_id": "sr:competitor:2716",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 180,
+      "cote_2": 1
+    },
+    {
+      "match_id": 24371862,
+      "debut": "2020-11-20T23:30:00+00:00",
+      "home": "New England Revolution",
+      "away": "Montréal",
+      "home_id": "sr:competitor:2511",
+      "away_id": "sr:competitor:22006",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 17,
+      "cote_N": 1.01,
+      "cote_2": 29
+    },
+    {
+      "match_id": 24371858,
+      "debut": "2020-11-21T02:00:00+00:00",
+      "home": "Nashville SC",
+      "away": "Inter Miami CF",
+      "home_id": "sr:competitor:668063",
+      "away_id": "sr:competitor:659691",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    }
+  ]
+}

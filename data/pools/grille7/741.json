@@ -1,0 +1,127 @@
+{
+  "grille_id": 741,
+  "grille_type": "grille7",
+  "pool_id": 7000741,
+  "titre": "Grille 7 n°741",
+  "statut": "CLOSED",
+  "fin": "2017-12-04T19:30:00+00:00",
+  "collecte_le": "2026-08-20T11:49:27.177840+00:00",
+  "mises_nettes": 11843.25,
+  "montant_distribue": 11843.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2960.82
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 52,
+      "winningsPerGrid": 113.88
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11914672,
+      "debut": "2017-12-04T19:30:00+00:00",
+      "home": "Ingolstadt",
+      "away": "Eintracht Brunswick",
+      "home_id": "sr:competitor:5880",
+      "away_id": "sr:competitor:2557",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188618,
+      "debut": "2017-12-04T19:30:00+00:00",
+      "home": "Pérouse",
+      "away": "Ascoli",
+      "home_id": "sr:competitor:2698",
+      "away_id": "sr:competitor:2707",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868442,
+      "debut": "2017-12-04T19:45:00+00:00",
+      "home": "Birmingham",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:3",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090268,
+      "debut": "2017-12-04T20:00:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2713",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055330,
+      "debut": "2017-12-04T20:00:00+00:00",
+      "home": "Gérone",
+      "away": "Alaves",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2885",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971776,
+      "debut": "2017-12-04T20:00:00+00:00",
+      "home": "Estoril",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:3026",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12212952,
+      "debut": "2017-12-04T20:00:00+00:00",
+      "home": "Lanus",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:3218",
+      "away_id": "sr:competitor:3208",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

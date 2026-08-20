@@ -1,0 +1,136 @@
+{
+  "grille_id": 3809,
+  "grille_type": "grille7",
+  "pool_id": 7003809,
+  "titre": "Grille 7 n°3809",
+  "statut": "CLOSED",
+  "fin": "2025-08-12T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:09:01.727665+00:00",
+  "mises_nettes": 5247.75,
+  "montant_distribue": 5247.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 21,
+      "winningsPerGrid": 124.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 237,
+      "winningsPerGrid": 11.07
+    }
+  ],
+  "repartition": [
+    32,
+    410,
+    1328,
+    2100,
+    1881,
+    988,
+    237,
+    21
+  ],
+  "matches": [
+    {
+      "match_id": 62199248,
+      "debut": "2025-08-12T17:00:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Feyenoord",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:2959",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62201284,
+      "debut": "2025-08-12T17:30:00+00:00",
+      "home": "Club Bruges",
+      "away": "Red Bull Salzbourg",
+      "home_id": "sr:competitor:2888",
+      "away_id": "sr:competitor:2046",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62201292,
+      "debut": "2025-08-12T17:00:00+00:00",
+      "home": "Viktoria Plzen",
+      "away": "Glasgow Rangers",
+      "home_id": "sr:competitor:4502",
+      "away_id": "sr:competitor:2351",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62201250,
+      "debut": "2025-08-12T18:15:00+00:00",
+      "home": "Slovan Bratislava",
+      "away": "Kairat",
+      "home_id": "sr:competitor:2404",
+      "away_id": "sr:competitor:5172",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61539464,
+      "debut": "2025-08-12T18:45:00+00:00",
+      "home": "Watford",
+      "away": "Norwich",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:263",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62199242,
+      "debut": "2025-08-12T19:00:00+00:00",
+      "home": "Benfica",
+      "away": "Nice",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:1661",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62201254,
+      "debut": "2025-08-12T19:00:00+00:00",
+      "home": "Étoile Rouge Belgrade",
+      "away": "Lech Poznan",
+      "home_id": "sr:competitor:5149",
+      "away_id": "sr:competitor:3121",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

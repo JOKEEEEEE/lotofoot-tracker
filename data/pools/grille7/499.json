@@ -1,0 +1,127 @@
+{
+  "grille_id": 499,
+  "grille_type": "grille7",
+  "pool_id": 7000499,
+  "titre": "Grille 7 n°499",
+  "statut": "CLOSED",
+  "fin": "2017-03-22T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:11:30.659315+00:00",
+  "mises_nettes": 7617,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 444.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 150,
+      "winningsPerGrid": 26.67
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10641926,
+      "debut": "2017-03-22T18:00:00+00:00",
+      "home": "Malmö (F)",
+      "away": "Barcelone",
+      "home_id": "sr:competitor:1886",
+      "away_id": "sr:competitor:77889",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10822310,
+      "debut": "2017-03-22T19:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Angleterre",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4713",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9291589,
+      "debut": "2017-03-23T11:35:00+00:00",
+      "home": "Chine",
+      "away": "Corée du Sud",
+      "home_id": "sr:competitor:4755",
+      "away_id": "sr:competitor:4735",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9291591,
+      "debut": "2017-03-23T12:00:00+00:00",
+      "home": "Syrie",
+      "away": "Ouzbékistan",
+      "home_id": "sr:competitor:4731",
+      "away_id": "sr:competitor:4723",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9291661,
+      "debut": "2017-03-23T12:00:00+00:00",
+      "home": "Thaïlande",
+      "away": "Arabie Saoudite",
+      "home_id": "sr:competitor:4730",
+      "away_id": "sr:competitor:4834",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9291657,
+      "debut": "2017-03-23T12:00:00+00:00",
+      "home": "Irak",
+      "away": "Australie",
+      "home_id": "sr:competitor:4767",
+      "away_id": "sr:competitor:4741",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9291659,
+      "debut": "2017-03-23T15:30:00+00:00",
+      "home": "Emirats Arabes Unis",
+      "away": "Japon",
+      "home_id": "sr:competitor:4727",
+      "away_id": "sr:competitor:4770",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

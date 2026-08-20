@@ -1,0 +1,136 @@
+{
+  "grille_id": 3600,
+  "grille_type": "grille7",
+  "pool_id": 7003600,
+  "titre": "Grille 7 n°3600",
+  "statut": "CLOSED",
+  "fin": "2025-01-20T19:30:00+00:00",
+  "collecte_le": "2026-08-20T07:39:36.121128+00:00",
+  "mises_nettes": 8137.5,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 35,
+      "winningsPerGrid": 142.86
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 345,
+      "winningsPerGrid": 14.49
+    }
+  ],
+  "repartition": [
+    136,
+    719,
+    2184,
+    3243,
+    2799,
+    1389,
+    345,
+    35
+  ],
+  "matches": [
+    {
+      "match_id": 51103417,
+      "debut": "2025-01-20T19:30:00+00:00",
+      "home": "Mirandes",
+      "away": "Malaga",
+      "home_id": "sr:competitor:35092",
+      "away_id": "sr:competitor:2830",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51967073,
+      "debut": "2025-01-20T19:45:00+00:00",
+      "home": "Troyes",
+      "away": "Annecy FC",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:234888",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273205,
+      "debut": "2025-01-20T19:45:00+00:00",
+      "home": "Côme",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2704",
+      "away_id": "sr:competitor:2695",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850391,
+      "debut": "2025-01-20T20:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:3",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56123175,
+      "debut": "2025-01-20T20:00:00+00:00",
+      "home": "Dundee FC",
+      "away": "Dundee United",
+      "home_id": "sr:competitor:2357",
+      "away_id": "sr:competitor:2349",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852473,
+      "debut": "2025-01-20T20:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2826",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51389023,
+      "debut": "2025-01-20T20:15:00+00:00",
+      "home": "Boavista",
+      "away": "Casa Pia AC",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:36365",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

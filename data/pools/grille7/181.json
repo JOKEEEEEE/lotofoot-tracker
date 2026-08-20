@@ -1,0 +1,127 @@
+{
+  "grille_id": 181,
+  "grille_type": "grille7",
+  "pool_id": 7000181,
+  "titre": "Grille 7 n°181",
+  "statut": "CLOSED",
+  "fin": "2016-03-21T17:30:00+00:00",
+  "collecte_le": "2026-08-20T12:42:17.765011+00:00",
+  "mises_nettes": 6654,
+  "montant_distribue": 6654,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 415.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 141,
+      "winningsPerGrid": 23.6
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8560120,
+      "debut": "2016-03-21T17:30:00+00:00",
+      "home": "Giannina",
+      "away": "Panionios",
+      "home_id": "sr:competitor:6349",
+      "away_id": "sr:competitor:3247",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7517506,
+      "debut": "2016-03-21T19:15:00+00:00",
+      "home": "Fribourg",
+      "away": "Karlsruhe",
+      "home_id": "sr:competitor:2538",
+      "away_id": "sr:competitor:2553",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7474768,
+      "debut": "2016-03-21T19:30:00+00:00",
+      "home": "Clermont",
+      "away": "Red Star",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:52874",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7989396,
+      "debut": "2016-03-21T19:30:00+00:00",
+      "home": "Avellino",
+      "away": "Ternana",
+      "home_id": "sr:competitor:2730",
+      "away_id": "sr:competitor:2708",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736444,
+      "debut": "2016-03-21T22:00:00+00:00",
+      "home": "Rosario Central",
+      "away": "Sarmiento",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:42338",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736424,
+      "debut": "2016-03-22T00:15:00+00:00",
+      "home": "Atletico Rafaela",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:34976",
+      "away_id": "sr:competitor:3215",
+      "score_home": 3,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736440,
+      "debut": "2016-03-22T00:15:00+00:00",
+      "home": "Tigre",
+      "away": "Newell's Old Boys",
+      "home_id": "sr:competitor:7628",
+      "away_id": "sr:competitor:3212",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

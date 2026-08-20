@@ -1,0 +1,136 @@
+{
+  "grille_id": 3172,
+  "grille_type": "grille7",
+  "pool_id": 7003172,
+  "titre": "Grille 7 n°3172",
+  "statut": "CLOSED",
+  "fin": "2024-01-04T16:00:00+00:00",
+  "collecte_le": "2026-08-20T08:10:21.408668+00:00",
+  "mises_nettes": 7926,
+  "montant_distribue": 7926,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 148,
+      "winningsPerGrid": 26.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 992,
+      "winningsPerGrid": 3.99
+    }
+  ],
+  "repartition": [
+    17,
+    287,
+    1186,
+    2467,
+    3074,
+    2397,
+    992,
+    148
+  ],
+  "matches": [
+    {
+      "match_id": 41893265,
+      "debut": "2024-01-04T16:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Almeria",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2858",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42401675,
+      "debut": "2024-01-04T17:00:00+00:00",
+      "home": "Atromitos Athènes",
+      "away": "Kifisias AE",
+      "home_id": "sr:competitor:5062",
+      "away_id": "sr:competitor:120224",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893267,
+      "debut": "2024-01-04T18:15:00+00:00",
+      "home": "FC Séville",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2825",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45817649,
+      "debut": "2024-01-04T18:30:00+00:00",
+      "home": "Hapoel Haifa",
+      "away": "Beitar Jerusalem",
+      "home_id": "sr:competitor:5201",
+      "away_id": "sr:competitor:5204",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45102636,
+      "debut": "2024-01-04T20:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2710",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45923029,
+      "debut": "2024-01-04T20:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Everton",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:48",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893271,
+      "debut": "2024-01-04T20:30:00+00:00",
+      "home": "Las Palmas",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

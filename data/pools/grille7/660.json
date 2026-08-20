@@ -1,0 +1,127 @@
+{
+  "grille_id": 660,
+  "grille_type": "grille7",
+  "pool_id": 7000660,
+  "titre": "Grille 7 n°660",
+  "statut": "CLOSED",
+  "fin": "2017-09-11T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:56:41.264278+00:00",
+  "mises_nettes": 9954,
+  "montant_distribue": 9954,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 4977
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 40,
+      "winningsPerGrid": 124.43
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11915002,
+      "debut": "2017-09-11T18:30:00+00:00",
+      "home": "Nuremberg",
+      "away": "St. Pauli",
+      "home_id": "sr:competitor:2523",
+      "away_id": "sr:competitor:2526",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12187968,
+      "debut": "2017-09-11T18:30:00+00:00",
+      "home": "Cittadella",
+      "away": "Pérouse",
+      "home_id": "sr:competitor:2717",
+      "away_id": "sr:competitor:2698",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12060310,
+      "debut": "2017-09-11T18:30:00+00:00",
+      "home": "CF Reus Deportiu",
+      "away": "Numancia",
+      "home_id": "sr:competitor:37589",
+      "away_id": "sr:competitor:2855",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11836596,
+      "debut": "2017-09-11T18:45:00+00:00",
+      "home": "Reims",
+      "away": "Brest",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1715",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830244,
+      "debut": "2017-09-11T19:00:00+00:00",
+      "home": "West Ham",
+      "away": "Huddersfield",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:59",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055122,
+      "debut": "2017-09-11T19:00:00+00:00",
+      "home": "Malaga",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2830",
+      "away_id": "sr:competitor:6577",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11971626,
+      "debut": "2017-09-11T19:00:00+00:00",
+      "home": "CD Aves",
+      "away": "Belenenses",
+      "home_id": "sr:competitor:3032",
+      "away_id": "sr:competitor:3004",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

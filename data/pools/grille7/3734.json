@@ -1,0 +1,136 @@
+{
+  "grille_id": 3734,
+  "grille_type": "grille7",
+  "pool_id": 7003734,
+  "titre": "Grille 7 n°3734",
+  "statut": "CLOSED",
+  "fin": "2025-05-29T16:30:00+00:00",
+  "collecte_le": "2026-08-20T07:24:22.737637+00:00",
+  "mises_nettes": 3200.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 27,
+      "winningsPerGrid": 74.07
+    }
+  ],
+  "repartition": [
+    173,
+    787,
+    1329,
+    1208,
+    581,
+    160,
+    27,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 60789493,
+      "debut": "2025-05-29T16:30:00+00:00",
+      "home": "Royal Antwerp FC",
+      "away": "Charleroi",
+      "home_id": "sr:competitor:2889",
+      "away_id": "sr:competitor:2898",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60478571,
+      "debut": "2025-05-29T18:30:00+00:00",
+      "home": "Reims",
+      "away": "Metz",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1651",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60565683,
+      "debut": "2025-05-29T18:30:00+00:00",
+      "home": "Cremonese",
+      "away": "Spezia",
+      "home_id": "sr:competitor:2761",
+      "away_id": "sr:competitor:2735",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56958197,
+      "debut": "2025-05-29T19:15:00+00:00",
+      "home": "Stjarnan",
+      "away": "KR Reykjavik",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:1902",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59011769,
+      "debut": "2025-05-29T22:00:00+00:00",
+      "home": "Penarol de Montevideo",
+      "away": "Velez Sarsfield",
+      "home_id": "sr:competitor:3227",
+      "away_id": "sr:competitor:3208",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59011125,
+      "debut": "2025-05-30T00:30:00+00:00",
+      "home": "Racing Club",
+      "away": "Fortaleza CE",
+      "home_id": "sr:competitor:3215",
+      "away_id": "sr:competitor:2020",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59011127,
+      "debut": "2025-05-30T00:30:00+00:00",
+      "home": "Colo Colo",
+      "away": "Bucaramanga",
+      "home_id": "sr:competitor:3155",
+      "away_id": "sr:competitor:6103",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

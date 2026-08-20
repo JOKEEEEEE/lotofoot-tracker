@@ -1,0 +1,136 @@
+{
+  "grille_id": 2759,
+  "grille_type": "grille7",
+  "pool_id": 7002759,
+  "titre": "Grille 7 n°2759",
+  "statut": "CLOSED",
+  "fin": "2023-01-17T18:00:00+00:00",
+  "collecte_le": "2026-08-20T13:10:07.126328+00:00",
+  "mises_nettes": 9792.75,
+  "montant_distribue": 9792.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001010010001001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 544.04
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 308,
+      "winningsPerGrid": 15.9
+    }
+  ],
+  "repartition": [
+    213,
+    1248,
+    2807,
+    3699,
+    3068,
+    1705,
+    308,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 38532561,
+      "debut": "2023-01-17T18:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2826",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271325,
+      "debut": "2023-01-17T19:45:00+00:00",
+      "home": "Standard Liège",
+      "away": "Malines",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:5044",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271337,
+      "debut": "2023-01-17T19:45:00+00:00",
+      "home": "Westerlo",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:2893",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38501827,
+      "debut": "2023-01-17T19:45:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38510303,
+      "debut": "2023-01-17T19:45:00+00:00",
+      "home": "Swansea",
+      "away": "Bristol City",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:58",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 36945409,
+      "debut": "2023-01-17T20:00:00+00:00",
+      "home": "Naples",
+      "away": "Cremonese",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2761",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38532567,
+      "debut": "2023-01-17T20:00:00+00:00",
+      "home": "Alaves",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2885",
+      "away_id": "sr:competitor:2833",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

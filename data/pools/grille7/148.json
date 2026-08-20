@@ -1,0 +1,127 @@
+{
+  "grille_id": 148,
+  "grille_type": "grille7",
+  "pool_id": 7000148,
+  "titre": "Grille 7 n°148",
+  "statut": "CLOSED",
+  "fin": "2016-02-17T19:45:00+00:00",
+  "collecte_le": "2026-08-20T12:45:27.847084+00:00",
+  "mises_nettes": 6000,
+  "montant_distribue": 6000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 333.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 200,
+      "winningsPerGrid": 15
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8580990,
+      "debut": "2016-02-17T19:45:00+00:00",
+      "home": "La Gantoise",
+      "away": "Wolfsbourg",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:2524",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8580994,
+      "debut": "2016-02-17T19:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736274,
+      "debut": "2016-02-17T20:00:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "Atletico Rafaela",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:34976",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736292,
+      "debut": "2016-02-17T20:00:00+00:00",
+      "home": "Newell's Old Boys",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:3212",
+      "away_id": "sr:competitor:3215",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736268,
+      "debut": "2016-02-17T22:15:00+00:00",
+      "home": "Patronato ",
+      "away": "Arsenal Sarandi",
+      "home_id": "sr:competitor:43741",
+      "away_id": "sr:competitor:3221",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736288,
+      "debut": "2016-02-17T22:15:00+00:00",
+      "home": "Independiente",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:3209",
+      "away_id": "sr:competitor:3217",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736280,
+      "debut": "2016-02-18T00:15:00+00:00",
+      "home": "San Martin De San Juan",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:7772",
+      "away_id": "sr:competitor:3202",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

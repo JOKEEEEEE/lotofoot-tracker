@@ -1,0 +1,136 @@
+{
+  "grille_id": 3774,
+  "grille_type": "grille7",
+  "pool_id": 7003774,
+  "titre": "Grille 7 n°3774",
+  "statut": "CLOSED",
+  "fin": "2025-07-08T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:21:00.531660+00:00",
+  "mises_nettes": 3412.5,
+  "montant_distribue": 3412.5,
+  "montant_garanti": 2000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 121.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 163,
+      "winningsPerGrid": 10.47
+    }
+  ],
+  "repartition": [
+    15,
+    148,
+    671,
+    1357,
+    1467,
+    715,
+    163,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 56488757,
+      "debut": "2025-07-08T16:00:00+00:00",
+      "home": "Allemagne (F)",
+      "away": "Danemark (F)",
+      "home_id": "sr:competitor:23992",
+      "away_id": "sr:competitor:7414",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61280729,
+      "debut": "2025-07-08T17:00:00+00:00",
+      "home": "Olimpija Ljubljana",
+      "away": "Kairat",
+      "home_id": "sr:competitor:2416",
+      "away_id": "sr:competitor:5172",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61280705,
+      "debut": "2025-07-08T18:00:00+00:00",
+      "home": "Vikingur Gota",
+      "away": "Lincoln FC",
+      "home_id": "sr:competitor:5193",
+      "away_id": "sr:competitor:126304",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61280701,
+      "debut": "2025-07-08T18:00:00+00:00",
+      "home": "KF Drita",
+      "away": "Differdange FC 03",
+      "home_id": "sr:competitor:277835",
+      "away_id": "sr:competitor:7605",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61280681,
+      "debut": "2025-07-08T18:00:00+00:00",
+      "home": "The New Saints",
+      "away": "KF Shkëndija",
+      "home_id": "sr:competitor:4921",
+      "away_id": "sr:competitor:5413",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56488755,
+      "debut": "2025-07-08T19:00:00+00:00",
+      "home": "Pologne (F)",
+      "away": "Suède (F)",
+      "home_id": "sr:competitor:22026",
+      "away_id": "sr:competitor:7423",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57490683,
+      "debut": "2025-07-08T19:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:38",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

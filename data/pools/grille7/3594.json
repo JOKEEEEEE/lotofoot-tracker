@@ -1,0 +1,136 @@
+{
+  "grille_id": 3594,
+  "grille_type": "grille7",
+  "pool_id": 7003594,
+  "titre": "Grille 7 n°3594",
+  "statut": "CLOSED",
+  "fin": "2025-01-14T19:45:00+00:00",
+  "collecte_le": "2026-08-20T07:39:57.793195+00:00",
+  "mises_nettes": 11809.5,
+  "montant_distribue": 11809.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100111010010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 984.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 90,
+      "winningsPerGrid": 65.61
+    }
+  ],
+  "repartition": [
+    0,
+    2062,
+    5608,
+    4937,
+    2358,
+    649,
+    90,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 56663345,
+      "debut": "2025-01-14T19:45:00+00:00",
+      "home": "Reims",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1653",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56663325,
+      "debut": "2025-01-14T19:45:00+00:00",
+      "home": "Bastia",
+      "away": "Nice",
+      "home_id": "sr:competitor:1655",
+      "away_id": "sr:competitor:1661",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56663343,
+      "debut": "2025-01-14T19:45:00+00:00",
+      "home": "Guingamp",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1657",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56663333,
+      "debut": "2025-01-14T19:45:00+00:00",
+      "home": "Le Mans",
+      "away": "Valenciennes",
+      "home_id": "sr:competitor:1672",
+      "away_id": "sr:competitor:5061",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56663335,
+      "debut": "2025-01-14T19:45:00+00:00",
+      "home": "Haguenau",
+      "away": "Dunkerque",
+      "home_id": "sr:competitor:32493",
+      "away_id": "sr:competitor:6918",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56663327,
+      "debut": "2025-01-14T19:45:00+00:00",
+      "home": "SU Dives-Cabourg",
+      "away": "Le Puy",
+      "home_id": "sr:competitor:59249",
+      "away_id": "sr:competitor:181754",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56663337,
+      "debut": "2025-01-14T20:10:00+00:00",
+      "home": "Marseille",
+      "away": "Lille",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1643",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

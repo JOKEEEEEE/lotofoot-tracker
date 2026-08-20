@@ -1,0 +1,127 @@
+{
+  "grille_id": 1654,
+  "grille_type": "grille7",
+  "pool_id": 7001654,
+  "titre": "Grille 7 n°1654",
+  "statut": "CLOSED",
+  "fin": "2020-06-27T17:30:00+00:00",
+  "collecte_le": "2026-08-20T10:26:36.384388+00:00",
+  "mises_nettes": 9081,
+  "montant_distribue": 9081,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100001010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 412.77
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 184,
+      "winningsPerGrid": 24.68
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22170515,
+      "debut": "2020-06-27T17:30:00+00:00",
+      "home": "Cagliari",
+      "away": "Torino",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2696",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22169339,
+      "debut": "2020-06-27T17:30:00+00:00",
+      "home": "Osasuna",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2845",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22137863,
+      "debut": "2020-06-27T18:00:00+00:00",
+      "home": "Göztepe AS",
+      "away": "Alanyaspor",
+      "home_id": "sr:competitor:3054",
+      "away_id": "sr:competitor:6362",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22137865,
+      "debut": "2020-06-27T18:00:00+00:00",
+      "home": "Trabzonspor",
+      "away": "MKE Ankaragücü",
+      "home_id": "sr:competitor:3051",
+      "away_id": "sr:competitor:3103",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22181229,
+      "debut": "2020-06-27T19:45:00+00:00",
+      "home": "Racing Santander",
+      "away": "Albacete",
+      "home_id": "sr:competitor:2835",
+      "away_id": "sr:competitor:2848",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22170595,
+      "debut": "2020-06-27T19:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2693",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22169323,
+      "debut": "2020-06-27T20:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Alaves",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2885",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

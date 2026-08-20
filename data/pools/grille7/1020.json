@@ -1,0 +1,127 @@
+{
+  "grille_id": 1020,
+  "grille_type": "grille7",
+  "pool_id": 7001020,
+  "titre": "Grille 7 n°1020",
+  "statut": "CLOSED",
+  "fin": "2018-09-16T15:00:00+00:00",
+  "collecte_le": "2026-08-20T13:35:57.886865+00:00",
+  "mises_nettes": 18949.5,
+  "montant_distribue": 18949.5,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010001010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 3158.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 111,
+      "winningsPerGrid": 85.36
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14700723,
+      "debut": "2018-09-16T15:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Nîmes",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1663",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736325,
+      "debut": "2018-09-16T15:00:00+00:00",
+      "home": "Everton",
+      "away": "West Ham",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14894101,
+      "debut": "2018-09-16T16:00:00+00:00",
+      "home": "Fribourg",
+      "away": "VfB Stuttgart",
+      "home_id": "sr:competitor:2538",
+      "away_id": "sr:competitor:2677",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159687,
+      "debut": "2018-09-16T16:00:00+00:00",
+      "home": "Empoli",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2699",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15159685,
+      "debut": "2018-09-16T18:30:00+00:00",
+      "home": "Cagliari",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2719",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109047,
+      "debut": "2018-09-16T18:45:00+00:00",
+      "home": "FC Séville",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2859",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14700729,
+      "debut": "2018-09-16T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1654",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

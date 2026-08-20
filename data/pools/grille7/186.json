@@ -1,0 +1,127 @@
+{
+  "grille_id": 186,
+  "grille_type": "grille7",
+  "pool_id": 7000186,
+  "titre": "Grille 7 n°186",
+  "statut": "CLOSED",
+  "fin": "2016-03-28T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:41:59.066736+00:00",
+  "mises_nettes": 8142.75,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010100111100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 555.56
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 274,
+      "winningsPerGrid": 18.25
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8860160,
+      "debut": "2016-03-28T18:00:00+00:00",
+      "home": "Ukraine",
+      "away": "Pays de Galles",
+      "home_id": "sr:competitor:4701",
+      "away_id": "sr:competitor:4702",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8738230,
+      "debut": "2016-03-28T15:00:00+00:00",
+      "home": "Belgique U21",
+      "away": "Monténégro U21",
+      "home_id": "sr:competitor:4877",
+      "away_id": "sr:competitor:7852",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8738380,
+      "debut": "2016-03-28T18:00:00+00:00",
+      "home": "Albanie U21",
+      "away": "Hongrie U21",
+      "home_id": "sr:competitor:4878",
+      "away_id": "sr:competitor:6030",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8738354,
+      "debut": "2016-03-28T19:00:00+00:00",
+      "home": "France U21",
+      "away": "Macédoine du Nord U21",
+      "home_id": "sr:competitor:5936",
+      "away_id": "sr:competitor:6028",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9159915,
+      "debut": "2016-03-29T00:00:00+00:00",
+      "home": "Argentinos Juniors",
+      "away": "Huracan",
+      "home_id": "sr:competitor:3216",
+      "away_id": "sr:competitor:7629",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8356704,
+      "debut": "2016-03-29T18:45:00+00:00",
+      "home": "Allemagne",
+      "away": "Italie",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4707",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8356706,
+      "debut": "2016-03-29T19:00:00+00:00",
+      "home": "France",
+      "away": "Russie",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4694",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

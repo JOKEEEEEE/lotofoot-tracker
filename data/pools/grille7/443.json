@@ -1,0 +1,127 @@
+{
+  "grille_id": 443,
+  "grille_type": "grille7",
+  "pool_id": 7000443,
+  "titre": "Grille 7 n°443",
+  "statut": "CLOSED",
+  "fin": "2017-01-22T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:18:11.259662+00:00",
+  "mises_nettes": 9930,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001001010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 131,
+      "winningsPerGrid": 38.17
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 828,
+      "winningsPerGrid": 6.04
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9539909,
+      "debut": "2017-01-22T16:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Angers",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1684",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9690273,
+      "debut": "2017-01-22T16:30:00+00:00",
+      "home": "Mayence",
+      "away": "Cologne",
+      "home_id": "sr:competitor:2556",
+      "away_id": "sr:competitor:2671",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769535,
+      "debut": "2017-01-22T17:30:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2821",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10470748,
+      "debut": "2017-01-22T19:00:00+00:00",
+      "home": "Cameroun",
+      "away": "Gabon",
+      "home_id": "sr:competitor:4751",
+      "away_id": "sr:competitor:4761",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10470752,
+      "debut": "2017-01-22T19:00:00+00:00",
+      "home": "Guinée Bissau",
+      "away": "Burkina Faso",
+      "home_id": "sr:competitor:23478",
+      "away_id": "sr:competitor:4749",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769523,
+      "debut": "2017-01-22T19:45:00+00:00",
+      "home": "Eibar",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9539913,
+      "debut": "2017-01-22T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1641",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

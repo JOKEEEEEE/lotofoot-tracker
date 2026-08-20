@@ -1,0 +1,127 @@
+{
+  "grille_id": 682,
+  "grille_type": "grille7",
+  "pool_id": 7000682,
+  "titre": "Grille 7 n°682",
+  "statut": "CLOSED",
+  "fin": "2017-10-05T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:55:49.294254+00:00",
+  "mises_nettes": 19761,
+  "montant_distribue": 19761,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010010100010100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 34,
+      "winningsPerGrid": 290.6
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 457,
+      "winningsPerGrid": 21.62
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7678304,
+      "debut": "2017-10-05T18:45:00+00:00",
+      "home": "Irlande du Nord",
+      "away": "Allemagne",
+      "home_id": "sr:competitor:4786",
+      "away_id": "sr:competitor:4711",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678430,
+      "debut": "2017-10-05T18:45:00+00:00",
+      "home": "Monténégro",
+      "away": "Danemark",
+      "home_id": "sr:competitor:7139",
+      "away_id": "sr:competitor:4476",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678522,
+      "debut": "2017-10-05T18:45:00+00:00",
+      "home": "Angleterre",
+      "away": "Slovénie",
+      "home_id": "sr:competitor:4713",
+      "away_id": "sr:competitor:4484",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678524,
+      "debut": "2017-10-05T18:45:00+00:00",
+      "home": "Malte",
+      "away": "Lituanie",
+      "home_id": "sr:competitor:4483",
+      "away_id": "sr:competitor:4776",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678526,
+      "debut": "2017-10-05T18:45:00+00:00",
+      "home": "Écosse",
+      "away": "Slovaquie",
+      "home_id": "sr:competitor:4695",
+      "away_id": "sr:competitor:4697",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7696116,
+      "debut": "2017-10-05T20:00:00+00:00",
+      "home": "Bolivie",
+      "away": "Brésil",
+      "home_id": "sr:competitor:4746",
+      "away_id": "sr:competitor:4748",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7696114,
+      "debut": "2017-10-05T21:00:00+00:00",
+      "home": "Vénézuela",
+      "away": "Uruguay",
+      "home_id": "sr:competitor:4722",
+      "away_id": "sr:competitor:4725",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

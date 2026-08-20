@@ -1,0 +1,127 @@
+{
+  "grille_id": 466,
+  "grille_type": "grille7",
+  "pool_id": 7000466,
+  "titre": "Grille 7 n°466",
+  "statut": "CLOSED",
+  "fin": "2017-02-15T19:45:00+00:00",
+  "collecte_le": "2026-08-20T12:15:24.704210+00:00",
+  "mises_nettes": 11703.75,
+  "montant_distribue": 11703.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 390.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 198,
+      "winningsPerGrid": 29.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10736110,
+      "debut": "2017-02-15T19:45:00+00:00",
+      "home": "Real Madrid",
+      "away": "Naples",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2714",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10736118,
+      "debut": "2017-02-15T19:45:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:42",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738982,
+      "debut": "2017-02-16T16:00:00+00:00",
+      "home": "FK Krasnodar",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:34425",
+      "away_id": "sr:competitor:3052",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738916,
+      "debut": "2017-02-16T18:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Shakhtar Donetsk",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:3313",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738974,
+      "debut": "2017-02-16T18:00:00+00:00",
+      "home": "La Gantoise",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738986,
+      "debut": "2017-02-16T18:00:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2693",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10738990,
+      "debut": "2017-02-16T18:00:00+00:00",
+      "home": "AZ Alkmaar",
+      "away": "Lyon",
+      "home_id": "sr:competitor:2950",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

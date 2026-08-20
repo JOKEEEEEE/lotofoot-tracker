@@ -1,0 +1,127 @@
+{
+  "grille_id": 1703,
+  "grille_type": "grille7",
+  "pool_id": 7001703,
+  "titre": "Grille 7 n°1703",
+  "statut": "CLOSED",
+  "fin": "2020-08-10T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:21:55.808478+00:00",
+  "mises_nettes": 9075.75,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010111100100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 106,
+      "winningsPerGrid": 47.17
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22481229,
+      "debut": "2020-08-10T18:30:00+00:00",
+      "home": "Molde",
+      "away": "Brann",
+      "home_id": "sr:competitor:661",
+      "away_id": "sr:competitor:1159",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22660389,
+      "debut": "2020-08-10T19:00:00+00:00",
+      "home": "Manchester United",
+      "away": "FC Copenhague",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:1284",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22660391,
+      "debut": "2020-08-10T19:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "Bayer Leverkusen",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2681",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22951257,
+      "debut": "2020-08-10T19:00:00+00:00",
+      "home": "Pescara Calcio",
+      "away": "Pérouse",
+      "home_id": "sr:competitor:2728",
+      "away_id": "sr:competitor:2698",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22778801,
+      "debut": "2020-08-10T19:00:00+00:00",
+      "home": "Wydad Casablanca",
+      "away": "Khouribga",
+      "home_id": "sr:competitor:36268",
+      "away_id": "sr:competitor:55047",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21986351,
+      "debut": "2020-08-10T19:15:00+00:00",
+      "home": "Breidablik",
+      "away": "Fylkir",
+      "home_id": "sr:competitor:1901",
+      "away_id": "sr:competitor:1896",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22778803,
+      "debut": "2020-08-10T21:00:00+00:00",
+      "home": "Difaa El Jadida",
+      "away": "FAR Rabat",
+      "home_id": "sr:competitor:55043",
+      "away_id": "sr:competitor:24394",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

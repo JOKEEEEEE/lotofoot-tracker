@@ -1,0 +1,127 @@
+{
+  "grille_id": 620,
+  "grille_type": "grille7",
+  "pool_id": 7000620,
+  "titre": "Grille 7 n°620",
+  "statut": "CLOSED",
+  "fin": "2017-07-29T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:58:16.024216+00:00",
+  "mises_nettes": 4452,
+  "montant_distribue": 4452,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1113
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 14,
+      "winningsPerGrid": 159
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12084162,
+      "debut": "2017-07-30T10:00:00+00:00",
+      "home": "Allemagne (F)",
+      "away": "Danemark (F)",
+      "home_id": "sr:competitor:23992",
+      "away_id": "sr:competitor:7414",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11798386,
+      "debut": "2017-07-29T19:00:00+00:00",
+      "home": "Monaco",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439521,
+      "debut": "2017-07-29T19:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1981",
+      "score_home": 3,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11927844,
+      "debut": "2017-07-29T20:15:00+00:00",
+      "home": "Jaguares De Cordoba",
+      "away": "America De Cali",
+      "home_id": "sr:competitor:89370",
+      "away_id": "sr:competitor:6102",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893846,
+      "debut": "2017-07-29T20:30:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "Orlando City SC",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:52237",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11760836,
+      "debut": "2017-07-29T22:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:33",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11760842,
+      "debut": "2017-07-30T00:05:00+00:00",
+      "home": "Real Madrid",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2817",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

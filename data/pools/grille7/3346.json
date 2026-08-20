@@ -1,0 +1,136 @@
+{
+  "grille_id": 3346,
+  "grille_type": "grille7",
+  "pool_id": 7003346,
+  "titre": "Grille 7 n°3346",
+  "statut": "CLOSED",
+  "fin": "2024-05-26T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:58:29.927223+00:00",
+  "mises_nettes": 7077,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001001001010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 3750
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 36,
+      "winningsPerGrid": 104.17
+    }
+  ],
+  "repartition": [
+    380,
+    1820,
+    3134,
+    2603,
+    1156,
+    306,
+    36,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 42134861,
+      "debut": "2024-05-26T18:45:00+00:00",
+      "home": "Empoli",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134867,
+      "debut": "2024-05-26T18:45:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2697",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134871,
+      "debut": "2024-05-26T18:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2793",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134863,
+      "debut": "2024-05-26T18:45:00+00:00",
+      "home": "Frosinone",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2801",
+      "away_id": "sr:competitor:2695",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893663,
+      "debut": "2024-05-26T19:00:00+00:00",
+      "home": "FC Séville",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2817",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655603,
+      "debut": "2024-05-26T20:30:00+00:00",
+      "home": "Sarmiento",
+      "away": "Independiente Rivadavia",
+      "home_id": "sr:competitor:42338",
+      "away_id": "sr:competitor:36842",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655609,
+      "debut": "2024-05-26T20:45:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "Banfield",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:3219",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

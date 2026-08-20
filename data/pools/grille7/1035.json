@@ -1,0 +1,127 @@
+{
+  "grille_id": 1035,
+  "grille_type": "grille7",
+  "pool_id": 7001035,
+  "titre": "Grille 7 n°1035",
+  "statut": "CLOSED",
+  "fin": "2018-10-01T18:30:00+00:00",
+  "collecte_le": "2026-08-20T11:23:30.961277+00:00",
+  "mises_nettes": 18685.5,
+  "montant_distribue": 18685.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 47,
+      "winningsPerGrid": 198.78
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 513,
+      "winningsPerGrid": 18.21
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15159761,
+      "debut": "2018-10-01T18:30:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Spal 2013",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:113755",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14894861,
+      "debut": "2018-10-01T18:30:00+00:00",
+      "home": "Ingolstadt",
+      "away": "Union Berlin",
+      "home_id": "sr:competitor:5880",
+      "away_id": "sr:competitor:2547",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14744929,
+      "debut": "2018-10-01T18:45:00+00:00",
+      "home": "Troyes",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1646",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736363,
+      "debut": "2018-10-01T19:00:00+00:00",
+      "home": "Bournemouth",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:7",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109091,
+      "debut": "2018-10-01T19:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15324316,
+      "debut": "2018-10-02T15:30:00+00:00",
+      "home": "Padoue",
+      "away": "Pescara Calcio",
+      "home_id": "sr:competitor:2741",
+      "away_id": "sr:competitor:2728",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14945869,
+      "debut": "2018-10-01T19:15:00+00:00",
+      "home": "CD Aves",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:3032",
+      "away_id": "sr:competitor:3026",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

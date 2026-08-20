@@ -1,0 +1,136 @@
+{
+  "grille_id": 4034,
+  "grille_type": "grille7",
+  "pool_id": 7004034,
+  "titre": "Grille 7 n°4034",
+  "statut": "CLOSED",
+  "fin": "2026-04-03T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:30:40.355760+00:00",
+  "mises_nettes": 9385.5,
+  "montant_distribue": 9385.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 335.2
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 161,
+      "winningsPerGrid": 29.15
+    }
+  ],
+  "repartition": [
+    167,
+    1393,
+    3545,
+    4026,
+    2378,
+    830,
+    161,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 61527862,
+      "debut": "2026-04-03T18:00:00+00:00",
+      "home": "Annecy FC",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:234888",
+      "away_id": "sr:competitor:1654",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.55,
+      "cote_N": 3.3,
+      "cote_2": 2.45
+    },
+    {
+      "match_id": 61527860,
+      "debut": "2026-04-03T18:00:00+00:00",
+      "home": "Bastia",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1655",
+      "away_id": "sr:competitor:1676",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.72,
+      "cote_N": 3.6,
+      "cote_2": 4.1
+    },
+    {
+      "match_id": 61527866,
+      "debut": "2026-04-03T18:00:00+00:00",
+      "home": "Dunkerque",
+      "away": "Rodez",
+      "home_id": "sr:competitor:6918",
+      "away_id": "sr:competitor:6925",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 3.6,
+      "cote_2": 2.95
+    },
+    {
+      "match_id": 61527938,
+      "debut": "2026-04-03T18:00:00+00:00",
+      "home": "Grenoble",
+      "away": "Clermont",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1680",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.45,
+      "cote_N": 3.1,
+      "cote_2": 2.7
+    },
+    {
+      "match_id": 61527936,
+      "debut": "2026-04-03T18:00:00+00:00",
+      "home": "Red Star",
+      "away": "Laval",
+      "home_id": "sr:competitor:52874",
+      "away_id": "sr:competitor:1673",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.35,
+      "cote_2": 4.7
+    },
+    {
+      "match_id": 61526490,
+      "debut": "2026-04-03T18:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1681",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.27,
+      "cote_N": 4.9,
+      "cote_2": 8.5
+    },
+    {
+      "match_id": 61624534,
+      "debut": "2026-04-03T19:00:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Elche",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2846",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.62,
+      "cote_N": 3.6,
+      "cote_2": 4.1
+    }
+  ]
+}

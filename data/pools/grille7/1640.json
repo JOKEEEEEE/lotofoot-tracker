@@ -1,0 +1,127 @@
+{
+  "grille_id": 1640,
+  "grille_type": "grille7",
+  "pool_id": 7001640,
+  "titre": "Grille 7 n°1640",
+  "statut": "CLOSED",
+  "fin": "2020-06-16T17:30:00+00:00",
+  "collecte_le": "2026-08-20T10:27:27.050176+00:00",
+  "mises_nettes": 15506.25,
+  "montant_distribue": 15506.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 203,
+      "winningsPerGrid": 38.19
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1601,
+      "winningsPerGrid": 4.84
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22153517,
+      "debut": "2020-06-16T17:30:00+00:00",
+      "home": "Getafe",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2814",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22153521,
+      "debut": "2020-06-16T17:30:00+00:00",
+      "home": "Villarreal",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2826",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085367,
+      "debut": "2020-06-16T18:00:00+00:00",
+      "home": "Santa Clara",
+      "away": "Portimonense",
+      "home_id": "sr:competitor:3011",
+      "away_id": "sr:competitor:3026",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971407,
+      "debut": "2020-06-16T18:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2672",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971411,
+      "debut": "2020-06-16T18:30:00+00:00",
+      "home": "Fribourg",
+      "away": "Hertha Berlin",
+      "home_id": "sr:competitor:2538",
+      "away_id": "sr:competitor:2528",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 21971415,
+      "debut": "2020-06-16T18:30:00+00:00",
+      "home": "Union Berlin",
+      "away": "Paderborn",
+      "home_id": "sr:competitor:2547",
+      "away_id": "sr:competitor:2561",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22153523,
+      "debut": "2020-06-16T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Leganes",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2845",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

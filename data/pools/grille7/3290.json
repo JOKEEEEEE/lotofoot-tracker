@@ -1,0 +1,136 @@
+{
+  "grille_id": 3290,
+  "grille_type": "grille7",
+  "pool_id": 7003290,
+  "titre": "Grille 7 n°3290",
+  "statut": "CLOSED",
+  "fin": "2024-04-08T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:02:26.169208+00:00",
+  "mises_nettes": 6195.75,
+  "montant_distribue": 6195.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 182.23
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 333,
+      "winningsPerGrid": 9.3
+    }
+  ],
+  "repartition": [
+    54,
+    403,
+    1322,
+    2353,
+    2441,
+    1338,
+    333,
+    17
+  ],
+  "matches": [
+    {
+      "match_id": 41984569,
+      "debut": "2024-04-08T18:30:00+00:00",
+      "home": "Racing Santander",
+      "away": "Alcorcon",
+      "home_id": "sr:competitor:2835",
+      "away_id": "sr:competitor:24322",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46656741,
+      "debut": "2024-04-08T18:30:00+00:00",
+      "home": "Deportivo Riestra",
+      "away": "Huracan",
+      "home_id": "sr:competitor:191648",
+      "away_id": "sr:competitor:7629",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134731,
+      "debut": "2024-04-08T18:45:00+00:00",
+      "home": "Udinese",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2695",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49142887,
+      "debut": "2024-04-08T18:45:00+00:00",
+      "home": "Auxerre",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1652",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146679,
+      "debut": "2024-04-08T19:15:00+00:00",
+      "home": "Casa Pia AC",
+      "away": "Estoril",
+      "home_id": "sr:competitor:36365",
+      "away_id": "sr:competitor:4500",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46656725,
+      "debut": "2024-04-08T23:00:00+00:00",
+      "home": "Godoy Cruz",
+      "away": "Sarmiento",
+      "home_id": "sr:competitor:6074",
+      "away_id": "sr:competitor:42338",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46656729,
+      "debut": "2024-04-08T23:00:00+00:00",
+      "home": "Club Atletico Platense",
+      "away": "Tigre",
+      "home_id": "sr:competitor:36837",
+      "away_id": "sr:competitor:7628",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

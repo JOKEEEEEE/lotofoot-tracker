@@ -1,0 +1,127 @@
+{
+  "grille_id": 539,
+  "grille_type": "grille7",
+  "pool_id": 7000539,
+  "titre": "Grille 7 n°539",
+  "statut": "CLOSED",
+  "fin": "2017-05-05T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:06:19.761955+00:00",
+  "mises_nettes": 11255.25,
+  "montant_distribue": 11255.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 8,
+      "winningsPerGrid": 703.45
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 90,
+      "winningsPerGrid": 62.53
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9566303,
+      "debut": "2017-05-05T18:00:00+00:00",
+      "home": "Auxerre",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1652",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566307,
+      "debut": "2017-05-05T18:00:00+00:00",
+      "home": "Clermont",
+      "away": "Bourg-en-Bresse",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:35056",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566309,
+      "debut": "2017-05-05T18:00:00+00:00",
+      "home": "Laval",
+      "away": "Tours",
+      "home_id": "sr:competitor:1673",
+      "away_id": "sr:competitor:1727",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566315,
+      "debut": "2017-05-05T18:00:00+00:00",
+      "home": "Reims",
+      "away": "Orléans",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:6921",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9566319,
+      "debut": "2017-05-05T18:00:00+00:00",
+      "home": "Valenciennes",
+      "away": "Red Star",
+      "home_id": "sr:competitor:5061",
+      "away_id": "sr:competitor:52874",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9540211,
+      "debut": "2017-05-05T18:45:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1645",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9600463,
+      "debut": "2017-05-05T19:00:00+00:00",
+      "home": "West Ham",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

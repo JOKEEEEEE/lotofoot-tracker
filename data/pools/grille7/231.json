@@ -1,0 +1,127 @@
+{
+  "grille_id": 231,
+  "grille_type": "grille7",
+  "pool_id": 7000231,
+  "titre": "Grille 7 n°231",
+  "statut": "CLOSED",
+  "fin": "2016-05-23T17:00:00+00:00",
+  "collecte_le": "2026-08-20T13:33:21.863771+00:00",
+  "mises_nettes": 4118.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 416.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 172,
+      "winningsPerGrid": 14.53
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7495020,
+      "debut": "2016-05-23T17:00:00+00:00",
+      "home": "Brøndby",
+      "away": "Viborg FF",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:1288",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9160223,
+      "debut": "2016-05-23T17:00:00+00:00",
+      "home": "Gefle",
+      "away": "AIK Stockholm",
+      "home_id": "sr:competitor:1778",
+      "away_id": "sr:competitor:1764",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9160225,
+      "debut": "2016-05-23T17:00:00+00:00",
+      "home": "IFK Göteborg",
+      "away": "Hammarby IF",
+      "home_id": "sr:competitor:1761",
+      "away_id": "sr:competitor:1758",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9160227,
+      "debut": "2016-05-23T17:00:00+00:00",
+      "home": "Malmö",
+      "away": "Falkenbergs",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:1812",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9460635,
+      "debut": "2016-05-23T17:30:00+00:00",
+      "home": "Panathinaïkos",
+      "away": "AEK Athènes",
+      "home_id": "sr:competitor:3248",
+      "away_id": "sr:competitor:3250",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9448851,
+      "debut": "2016-05-23T18:30:00+00:00",
+      "home": "Nuremberg",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:2523",
+      "away_id": "sr:competitor:2674",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736668,
+      "debut": "2016-05-23T22:00:00+00:00",
+      "home": "Belgrano",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:3203",
+      "away_id": "sr:competitor:3217",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

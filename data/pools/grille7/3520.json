@@ -1,0 +1,136 @@
+{
+  "grille_id": 3520,
+  "grille_type": "grille7",
+  "pool_id": 7003520,
+  "titre": "Grille 7 n°3520",
+  "statut": "CLOSED",
+  "fin": "2024-11-04T19:30:00+00:00",
+  "collecte_le": "2026-08-20T07:45:19.116790+00:00",
+  "mises_nettes": 8196,
+  "montant_distribue": 8196,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100100001111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 76,
+      "winningsPerGrid": 53.92
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 548,
+      "winningsPerGrid": 7.48
+    }
+  ],
+  "repartition": [
+    0,
+    178,
+    1418,
+    3337,
+    3458,
+    1913,
+    548,
+    76
+  ],
+  "matches": [
+    {
+      "match_id": 51103189,
+      "debut": "2024-11-04T19:30:00+00:00",
+      "home": "Levante",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2830",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53785171,
+      "debut": "2024-11-04T19:45:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Metz",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1651",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271633,
+      "debut": "2024-11-04T19:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2719",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850149,
+      "debut": "2024-11-04T20:00:00+00:00",
+      "home": "Fulham",
+      "away": "Brentford",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:50",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852305,
+      "debut": "2024-11-04T20:00:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388883,
+      "debut": "2024-11-04T20:15:00+00:00",
+      "home": "Nacional Madeira ",
+      "away": "Santa Clara",
+      "home_id": "sr:competitor:3013",
+      "away_id": "sr:competitor:3011",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48215081,
+      "debut": "2024-11-04T23:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1963",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

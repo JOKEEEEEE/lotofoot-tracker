@@ -1,0 +1,127 @@
+{
+  "grille_id": 505,
+  "grille_type": "grille7",
+  "pool_id": 7000505,
+  "titre": "Grille 7 n°505",
+  "statut": "CLOSED",
+  "fin": "2017-03-29T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:11:04.185986+00:00",
+  "mises_nettes": 4002,
+  "montant_distribue": 6000,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 3000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 38,
+      "winningsPerGrid": 78.95
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10641938,
+      "debut": "2017-03-29T18:00:00+00:00",
+      "home": "Paris SG (F)",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:55505",
+      "away_id": "sr:competitor:5543",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9668617,
+      "debut": "2017-03-29T18:15:00+00:00",
+      "home": "Olimpija Ljubljana",
+      "away": "Gorica",
+      "home_id": "sr:competitor:2416",
+      "away_id": "sr:competitor:2409",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10641936,
+      "debut": "2017-03-29T18:45:00+00:00",
+      "home": "Lyon",
+      "away": "Wolfsburg",
+      "home_id": "sr:competitor:26245",
+      "away_id": "sr:competitor:5556",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11281353,
+      "debut": "2017-03-29T23:00:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Santa Fe",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:6116",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11273921,
+      "debut": "2017-03-30T01:00:00+00:00",
+      "home": "Junior De Barranquilla",
+      "away": "Millonarios ",
+      "home_id": "sr:competitor:6105",
+      "away_id": "sr:competitor:6117",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11108321,
+      "debut": "2017-03-30T17:00:00+00:00",
+      "home": "Suduva",
+      "away": "Atlantas Klaipeda",
+      "home_id": "sr:competitor:5343",
+      "away_id": "sr:competitor:5337",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10641932,
+      "debut": "2017-03-30T18:00:00+00:00",
+      "home": "Manchester City (F)",
+      "away": "Fortuna Hjorring (F)",
+      "home_id": "sr:competitor:142658",
+      "away_id": "sr:competitor:1367",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

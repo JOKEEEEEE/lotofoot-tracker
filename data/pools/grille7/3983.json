@@ -1,0 +1,136 @@
+{
+  "grille_id": 3983,
+  "grille_type": "grille7",
+  "pool_id": 7003983,
+  "titre": "Grille 7 n°3983",
+  "statut": "CLOSED",
+  "fin": "2026-02-08T14:00:00+00:00",
+  "collecte_le": "2026-08-20T06:28:23.206420+00:00",
+  "mises_nettes": 13376.25,
+  "montant_distribue": 13376.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 836.02
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 126,
+      "winningsPerGrid": 53.08
+    }
+  ],
+  "repartition": [
+    323,
+    1931,
+    5142,
+    6051,
+    3325,
+    929,
+    126,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 61526348,
+      "debut": "2026-02-08T14:00:00+00:00",
+      "home": "Nice",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1653",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 3.05,
+      "cote_N": 3.4,
+      "cote_2": 1.86
+    },
+    {
+      "match_id": 61526360,
+      "debut": "2026-02-08T16:15:00+00:00",
+      "home": "Angers",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1681",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 3.3,
+      "cote_N": 3,
+      "cote_2": 1.92
+    },
+    {
+      "match_id": 61526354,
+      "debut": "2026-02-08T16:15:00+00:00",
+      "home": "Auxerre",
+      "away": "Paris FC",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:6070",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 50,
+      "cote_N": 1,
+      "cote_2": 120
+    },
+    {
+      "match_id": 61526352,
+      "debut": "2026-02-08T16:15:00+00:00",
+      "home": "Le Havre",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1659",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.75,
+      "cote_N": 3.3,
+      "cote_2": 1.7
+    },
+    {
+      "match_id": 61301011,
+      "debut": "2026-02-08T16:30:00+00:00",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:17",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 200,
+      "cote_2": 1
+    },
+    {
+      "match_id": 61526346,
+      "debut": "2026-02-08T19:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1641",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.36,
+      "cote_N": 4.4,
+      "cote_2": 5.5
+    },
+    {
+      "match_id": 61624394,
+      "debut": "2026-02-08T20:00:00+00:00",
+      "home": "Valence",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 4.4,
+      "cote_N": 3.7,
+      "cote_2": 1.52
+    }
+  ]
+}

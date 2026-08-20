@@ -1,0 +1,127 @@
+{
+  "grille_id": 100,
+  "grille_type": "grille7",
+  "pool_id": 7000100,
+  "titre": "Grille 7 n°100",
+  "statut": "CLOSED",
+  "fin": "2015-12-30T17:15:00+00:00",
+  "collecte_le": "2026-08-20T13:35:16.650377+00:00",
+  "mises_nettes": 10285.5,
+  "montant_distribue": 10285.5,
+  "montant_garanti": 5100,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 184,
+      "winningsPerGrid": 27.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1447,
+      "winningsPerGrid": 3.55
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7610480,
+      "debut": "2015-12-30T17:15:00+00:00",
+      "home": "FC Séville",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2814",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610488,
+      "debut": "2015-12-30T17:15:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610476,
+      "debut": "2015-12-30T17:30:00+00:00",
+      "home": "Eibar",
+      "away": "Gijon",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2852",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610474,
+      "debut": "2015-12-30T19:30:00+00:00",
+      "home": "Getafe",
+      "away": "Deportivo La Corogne",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2832",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610478,
+      "debut": "2015-12-30T19:30:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2816",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610484,
+      "debut": "2015-12-30T19:30:00+00:00",
+      "home": "Celta Vigo",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:2821",
+      "away_id": "sr:competitor:2825",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7464818,
+      "debut": "2015-12-30T19:45:00+00:00",
+      "home": "Sunderland",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:41",
+      "away_id": "sr:competitor:44",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1297,
+  "grille_type": "grille7",
+  "pool_id": 7001297,
+  "titre": "Grille 7 n°1297",
+  "statut": "CLOSED",
+  "fin": "2019-06-28T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:01:59.510609+00:00",
+  "mises_nettes": 11100,
+  "montant_distribue": 11100,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 462.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 297,
+      "winningsPerGrid": 18.69
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18079635,
+      "debut": "2019-06-28T19:00:00+00:00",
+      "home": "France (F)",
+      "away": "États-Unis (F)",
+      "home_id": "sr:competitor:32485",
+      "away_id": "sr:competitor:7424",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18079549,
+      "debut": "2019-06-28T19:00:00+00:00",
+      "home": "Vénézuela",
+      "away": "Argentine",
+      "home_id": "sr:competitor:4722",
+      "away_id": "sr:competitor:4819",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17159973,
+      "debut": "2019-06-28T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3179",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17953301,
+      "debut": "2019-06-28T20:00:00+00:00",
+      "home": "Afrique du Sud",
+      "away": "Namibie",
+      "home_id": "sr:competitor:4736",
+      "away_id": "sr:competitor:4832",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18079551,
+      "debut": "2019-06-28T23:20:00+00:00",
+      "home": "Colombie",
+      "away": "Chili",
+      "home_id": "sr:competitor:4820",
+      "away_id": "sr:competitor:4754",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681509,
+      "debut": "2019-06-29T00:00:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "Chicago Fire",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:2505",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681515,
+      "debut": "2019-06-29T02:00:00+00:00",
+      "home": "Colorado Rapids",
+      "away": "Los Angeles FC",
+      "home_id": "sr:competitor:2510",
+      "away_id": "sr:competitor:402227",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

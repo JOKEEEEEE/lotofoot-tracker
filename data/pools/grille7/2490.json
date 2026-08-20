@@ -1,0 +1,136 @@
+{
+  "grille_id": 2490,
+  "grille_type": "grille7",
+  "pool_id": 7002490,
+  "titre": "Grille 7 n°2490",
+  "statut": "CLOSED",
+  "fin": "2022-05-26T17:00:00+00:00",
+  "collecte_le": "2026-08-20T09:12:37.465179+00:00",
+  "mises_nettes": 6678,
+  "montant_distribue": 6678,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 63,
+      "winningsPerGrid": 53
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 587,
+      "winningsPerGrid": 5.69
+    }
+  ],
+  "repartition": [
+    19,
+    327,
+    1318,
+    2344,
+    2540,
+    1706,
+    587,
+    63
+  ],
+  "matches": [
+    {
+      "match_id": 33750049,
+      "debut": "2022-05-26T17:00:00+00:00",
+      "home": "Auxerre",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1678",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33756029,
+      "debut": "2022-05-26T18:00:00+00:00",
+      "home": "Vitesse Arnhem",
+      "away": "AZ Alkmaar",
+      "home_id": "sr:competitor:2958",
+      "away_id": "sr:competitor:2950",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31602035,
+      "debut": "2022-05-26T18:00:00+00:00",
+      "home": "Sarpsborg",
+      "away": "Molde",
+      "home_id": "sr:competitor:822",
+      "away_id": "sr:competitor:661",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33756471,
+      "debut": "2022-05-26T18:30:00+00:00",
+      "home": "Monza",
+      "away": "Pisa",
+      "home_id": "sr:competitor:2729",
+      "away_id": "sr:competitor:2737",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898555,
+      "debut": "2022-05-26T22:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Caracas FC",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:6230",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898557,
+      "debut": "2022-05-26T22:00:00+00:00",
+      "home": "Libertad Asuncion",
+      "away": "The Strongest",
+      "home_id": "sr:competitor:5996",
+      "away_id": "sr:competitor:32529",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32898661,
+      "debut": "2022-05-27T00:00:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Deportivo Cali",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:6112",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

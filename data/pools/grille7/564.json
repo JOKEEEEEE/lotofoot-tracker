@@ -1,0 +1,127 @@
+{
+  "grille_id": 564,
+  "grille_type": "grille7",
+  "pool_id": 7000564,
+  "titre": "Grille 7 n°564",
+  "statut": "CLOSED",
+  "fin": "2017-05-31T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:04:07.910130+00:00",
+  "mises_nettes": 4574.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "111100100100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 30,
+      "winningsPerGrid": 83.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 373,
+      "winningsPerGrid": 6.7
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11740753,
+      "debut": "2017-05-31T18:30:00+00:00",
+      "home": "Ostende",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:4494",
+      "away_id": "sr:competitor:2890",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11729175,
+      "debut": "2017-05-31T23:15:00+00:00",
+      "home": "Atletico Tucuman",
+      "away": "River Plate",
+      "home_id": "sr:competitor:36833",
+      "away_id": "sr:competitor:3211",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893678,
+      "debut": "2017-05-31T23:30:00+00:00",
+      "home": "New York City FC",
+      "away": "New England Revolution",
+      "home_id": "sr:competitor:167510",
+      "away_id": "sr:competitor:2511",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893680,
+      "debut": "2017-05-31T23:30:00+00:00",
+      "home": "Columbus Crew",
+      "away": "Seattle Sounders",
+      "home_id": "sr:competitor:2504",
+      "away_id": "sr:competitor:22009",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893682,
+      "debut": "2017-05-31T23:30:00+00:00",
+      "home": "Orlando City SC",
+      "away": "DC United",
+      "home_id": "sr:competitor:52237",
+      "away_id": "sr:competitor:2502",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893688,
+      "debut": "2017-06-01T00:30:00+00:00",
+      "home": "Houston Dynamo",
+      "away": "Real Salt Lake",
+      "home_id": "sr:competitor:2508",
+      "away_id": "sr:competitor:5133",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10893690,
+      "debut": "2017-09-03T03:00:00+00:00",
+      "home": "Los Angeles Galaxy",
+      "away": "Colorado Rapids",
+      "home_id": "sr:competitor:2513",
+      "away_id": "sr:competitor:2510",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

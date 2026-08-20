@@ -1,0 +1,136 @@
+{
+  "grille_id": 2933,
+  "grille_type": "grille7",
+  "pool_id": 7002933,
+  "titre": "Grille 7 n°2933",
+  "statut": "CLOSED",
+  "fin": "2023-06-06T17:00:00+00:00",
+  "collecte_le": "2026-08-20T08:35:34.448583+00:00",
+  "mises_nettes": 5373,
+  "montant_distribue": 5373,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100001100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 50,
+      "winningsPerGrid": 53.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 465,
+      "winningsPerGrid": 5.78
+    }
+  ],
+  "repartition": [
+    49,
+    340,
+    1035,
+    1868,
+    2034,
+    1323,
+    465,
+    50
+  ],
+  "matches": [
+    {
+      "match_id": 34478697,
+      "debut": "2023-06-06T17:00:00+00:00",
+      "home": "Istanbul Basaksehir",
+      "away": "Trabzonspor",
+      "home_id": "sr:competitor:3086",
+      "away_id": "sr:competitor:3051",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346327,
+      "debut": "2023-06-06T22:00:00+00:00",
+      "home": "Monagas SC",
+      "away": "Deportivo Pereira",
+      "home_id": "sr:competitor:6233",
+      "away_id": "sr:competitor:6109",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346351,
+      "debut": "2023-06-06T22:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:5996",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346329,
+      "debut": "2023-06-07T00:00:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Colo Colo",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:3155",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346353,
+      "debut": "2023-06-07T00:00:00+00:00",
+      "home": "Alianza Lima",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:2311",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346381,
+      "debut": "2023-06-07T00:00:00+00:00",
+      "home": "FBC Melgar",
+      "away": "Patronato ",
+      "home_id": "sr:competitor:2308",
+      "away_id": "sr:competitor:43741",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40346247,
+      "debut": "2023-06-07T02:00:00+00:00",
+      "home": "Bolivar",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:7059",
+      "away_id": "sr:competitor:5991",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

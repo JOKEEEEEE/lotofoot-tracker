@@ -1,0 +1,136 @@
+{
+  "grille_id": 3793,
+  "grille_type": "grille7",
+  "pool_id": 7003793,
+  "titre": "Grille 7 n°3793",
+  "statut": "CLOSED",
+  "fin": "2025-07-27T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:31:50.664755+00:00",
+  "mises_nettes": 2933.25,
+  "montant_distribue": 3000,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 375
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 50,
+      "winningsPerGrid": 30
+    }
+  ],
+  "repartition": [
+    61,
+    442,
+    1028,
+    1229,
+    812,
+    285,
+    50,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 57657987,
+      "debut": "2025-07-27T16:00:00+00:00",
+      "home": "Angleterre (F)",
+      "away": "Espagne (F)",
+      "home_id": "sr:competitor:7415",
+      "away_id": "sr:competitor:37371",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61358227,
+      "debut": "2025-07-27T17:15:00+00:00",
+      "home": "Saint-Trond",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:2895",
+      "away_id": "sr:competitor:2903",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052725,
+      "debut": "2025-07-27T19:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:1961",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098473,
+      "debut": "2025-07-27T21:30:00+00:00",
+      "home": "Huracan",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:7629",
+      "away_id": "sr:competitor:3202",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57381465,
+      "debut": "2025-07-27T23:00:00+00:00",
+      "home": "Deportivo Cuenca",
+      "away": "Independiente Del Valle",
+      "home_id": "sr:competitor:5251",
+      "away_id": "sr:competitor:39723",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58052719,
+      "debut": "2025-07-27T23:30:00+00:00",
+      "home": "Flamengo",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1977",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61098487,
+      "debut": "2025-07-27T23:30:00+00:00",
+      "home": "River Plate",
+      "away": "San Lorenzo",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:3201",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

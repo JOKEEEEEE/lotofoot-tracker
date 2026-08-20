@@ -1,0 +1,136 @@
+{
+  "grille_id": 3185,
+  "grille_type": "grille7",
+  "pool_id": 7003185,
+  "titre": "Grille 7 n°3185",
+  "statut": "CLOSED",
+  "fin": "2024-01-16T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:09:32.718052+00:00",
+  "mises_nettes": 11477.25,
+  "montant_distribue": 11477.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 35,
+      "winningsPerGrid": 163.96
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 478,
+      "winningsPerGrid": 12.01
+    }
+  ],
+  "repartition": [
+    55,
+    679,
+    2509,
+    4793,
+    4525,
+    2229,
+    478,
+    35
+  ],
+  "matches": [
+    {
+      "match_id": 42134497,
+      "debut": "2024-01-16T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2793",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46822605,
+      "debut": "2024-01-16T19:45:00+00:00",
+      "home": "Bristol City",
+      "away": "West Ham",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46790899,
+      "debut": "2024-01-16T19:45:00+00:00",
+      "home": "Birmingham",
+      "away": "Hull City",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:96",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46296935,
+      "debut": "2024-01-16T19:45:00+00:00",
+      "home": "La Gantoise",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:2888",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46826675,
+      "debut": "2024-01-16T21:00:00+00:00",
+      "home": "Tenerife",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:2826",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46826683,
+      "debut": "2024-01-16T20:00:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Alaves",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2885",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44637062,
+      "debut": "2024-01-16T20:00:00+00:00",
+      "home": "Mali",
+      "away": "Afrique du Sud",
+      "home_id": "sr:competitor:4831",
+      "away_id": "sr:competitor:4736",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

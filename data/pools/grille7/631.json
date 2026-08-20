@@ -1,0 +1,127 @@
+{
+  "grille_id": 631,
+  "grille_type": "grille7",
+  "pool_id": 7000631,
+  "titre": "Grille 7 n°631",
+  "statut": "CLOSED",
+  "fin": "2017-08-10T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:57:49.119522+00:00",
+  "mises_nettes": 6621,
+  "montant_distribue": 6621,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 230,
+      "winningsPerGrid": 14.39
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1057,
+      "winningsPerGrid": 3.13
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11866884,
+      "debut": "2017-08-10T18:00:00+00:00",
+      "home": "FC Bâle",
+      "away": "Grasshopper Zurich",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:2449",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11866886,
+      "debut": "2017-08-10T18:00:00+00:00",
+      "home": "FC Zurich",
+      "away": "Sion",
+      "home_id": "sr:competitor:2450",
+      "away_id": "sr:competitor:2452",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11967794,
+      "debut": "2017-08-10T18:00:00+00:00",
+      "home": "CFR Cluj",
+      "away": "Dinamo Bucarest",
+      "home_id": "sr:competitor:5287",
+      "away_id": "sr:competitor:3292",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11880668,
+      "debut": "2017-08-10T18:00:00+00:00",
+      "home": "FK Radnik Surdulica",
+      "away": "Etoile Rouge de Belgrade",
+      "home_id": "sr:competitor:111127",
+      "away_id": "sr:competitor:5149",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11880676,
+      "debut": "2017-08-10T18:00:00+00:00",
+      "home": "FK Javor Ivanjica",
+      "away": "Spartak Subotica",
+      "home_id": "sr:competitor:5144",
+      "away_id": "sr:competitor:36967",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11837498,
+      "debut": "2017-08-10T18:45:00+00:00",
+      "home": "Bury FC",
+      "away": "Sunderland",
+      "home_id": "sr:competitor:52",
+      "away_id": "sr:competitor:41",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11964356,
+      "debut": "2017-08-10T20:00:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "Chaves",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3025",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

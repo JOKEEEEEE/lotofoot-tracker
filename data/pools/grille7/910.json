@@ -1,0 +1,127 @@
+{
+  "grille_id": 910,
+  "grille_type": "grille7",
+  "pool_id": 7000910,
+  "titre": "Grille 7 n°910",
+  "statut": "CLOSED",
+  "fin": "2018-05-26T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:35:54.393857+00:00",
+  "mises_nettes": 8628.75,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5000
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 23,
+      "winningsPerGrid": 217.39
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14482228,
+      "debut": "2018-05-26T18:45:00+00:00",
+      "home": "Real Madrid",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:44",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805485,
+      "debut": "2018-05-26T19:00:00+00:00",
+      "home": "Fluminense",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:21845",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497273,
+      "debut": "2018-05-26T21:30:00+00:00",
+      "home": "Vancouver",
+      "away": "New England Revolution",
+      "home_id": "sr:competitor:22010",
+      "away_id": "sr:competitor:2511",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805493,
+      "debut": "2018-05-26T22:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1959",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497275,
+      "debut": "2018-05-26T23:00:00+00:00",
+      "home": "New York Red Bulls",
+      "away": "Philadelphia Union",
+      "home_id": "sr:competitor:2506",
+      "away_id": "sr:competitor:39833",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805477,
+      "debut": "2018-05-27T00:00:00+00:00",
+      "home": "Atlético Mineiro",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1977",
+      "away_id": "sr:competitor:5981",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13497281,
+      "debut": "2018-05-27T01:00:00+00:00",
+      "home": "Colorado Rapids",
+      "away": "Portland Timbers",
+      "home_id": "sr:competitor:2510",
+      "away_id": "sr:competitor:22007",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3241,
+  "grille_type": "grille7",
+  "pool_id": 7003241,
+  "titre": "Grille 7 n°3241",
+  "statut": "CLOSED",
+  "fin": "2024-02-27T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:05:33.314628+00:00",
+  "mises_nettes": 10382.25,
+  "montant_distribue": 10382.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001010010010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 2595.57
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 62,
+      "winningsPerGrid": 83.73
+    }
+  ],
+  "repartition": [
+    286,
+    2745,
+    4853,
+    3781,
+    1669,
+    445,
+    62,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 42262123,
+      "debut": "2024-02-27T19:30:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Cremonese",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2761",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47609247,
+      "debut": "2024-02-27T19:29:00+00:00",
+      "home": "Bournemouth",
+      "away": "Leicester",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:31",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47609249,
+      "debut": "2024-02-27T20:00:00+00:00",
+      "home": "Blackburn",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:46",
+      "away_id": "sr:competitor:39",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47648169,
+      "debut": "2024-02-27T19:45:00+00:00",
+      "home": "Lyon",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1659",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42021665,
+      "debut": "2024-02-27T20:00:00+00:00",
+      "home": "Ross County",
+      "away": "St. Mirren",
+      "home_id": "sr:competitor:2365",
+      "away_id": "sr:competitor:2359",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47609257,
+      "debut": "2024-02-27T20:00:00+00:00",
+      "home": "Luton Town",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:72",
+      "away_id": "sr:competitor:17",
+      "score_home": 2,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47297443,
+      "debut": "2024-02-27T20:30:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Majorque",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2826",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

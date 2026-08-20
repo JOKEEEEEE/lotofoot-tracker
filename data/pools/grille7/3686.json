@@ -1,0 +1,136 @@
+{
+  "grille_id": 3686,
+  "grille_type": "grille7",
+  "pool_id": 7003686,
+  "titre": "Grille 7 n°3686",
+  "statut": "CLOSED",
+  "fin": "2025-04-14T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:27:58.629602+00:00",
+  "mises_nettes": 6783.75,
+  "montant_distribue": 6783.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 131,
+      "winningsPerGrid": 25.89
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 841,
+      "winningsPerGrid": 4.03
+    }
+  ],
+  "repartition": [
+    22,
+    162,
+    801,
+    2126,
+    2826,
+    2136,
+    841,
+    131
+  ],
+  "matches": [
+    {
+      "match_id": 51103673,
+      "debut": "2025-04-14T18:30:00+00:00",
+      "home": "Huesca",
+      "away": "Malaga",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:2830",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56743067,
+      "debut": "2025-04-14T18:30:00+00:00",
+      "home": "Aldosivi",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:36836",
+      "away_id": "sr:competitor:3215",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956863,
+      "debut": "2025-04-14T18:45:00+00:00",
+      "home": "Bastia",
+      "away": "Laval",
+      "home_id": "sr:competitor:1655",
+      "away_id": "sr:competitor:1673",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273441,
+      "debut": "2025-04-14T18:45:00+00:00",
+      "home": "Naples",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2705",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852683,
+      "debut": "2025-04-14T19:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2831",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58579761,
+      "debut": "2025-04-14T19:00:00+00:00",
+      "home": "Bournemouth",
+      "away": "Fulham",
+      "home_id": "sr:competitor:60",
+      "away_id": "sr:competitor:43",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58896295,
+      "debut": "2025-04-14T19:00:00+00:00",
+      "home": "Hull City",
+      "away": "Coventry City",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:11",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

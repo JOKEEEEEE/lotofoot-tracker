@@ -1,0 +1,136 @@
+{
+  "grille_id": 3186,
+  "grille_type": "grille7",
+  "pool_id": 7003186,
+  "titre": "Grille 7 n°3186",
+  "statut": "CLOSED",
+  "fin": "2024-01-17T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:09:30.148185+00:00",
+  "mises_nettes": 11081.25,
+  "montant_distribue": 11081.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010001100111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 82,
+      "winningsPerGrid": 67.57
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 879,
+      "winningsPerGrid": 6.3
+    }
+  ],
+  "repartition": [
+    0,
+    334,
+    1884,
+    4026,
+    4607,
+    2963,
+    879,
+    82
+  ],
+  "matches": [
+    {
+      "match_id": 46296941,
+      "debut": "2024-01-17T19:30:00+00:00",
+      "home": "Union Saint-Gilloise",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:4860",
+      "away_id": "sr:competitor:2900",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46748611,
+      "debut": "2024-01-17T19:45:00+00:00",
+      "home": "Everton",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:48",
+      "away_id": "sr:competitor:7",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46790895,
+      "debut": "2024-01-17T19:45:00+00:00",
+      "home": "Bristol Rovers",
+      "away": "Norwich",
+      "home_id": "sr:competitor:76",
+      "away_id": "sr:competitor:263",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46822859,
+      "debut": "2024-01-17T19:45:00+00:00",
+      "home": "Blackpool",
+      "away": "Nottingham Forest",
+      "home_id": "sr:competitor:67",
+      "away_id": "sr:competitor:14",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 44637082,
+      "debut": "2024-01-17T20:00:00+00:00",
+      "home": "République Démocratique du Congo",
+      "away": "Zambie",
+      "home_id": "sr:competitor:4823",
+      "away_id": "sr:competitor:4720",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46826677,
+      "debut": "2024-01-17T20:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2824",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46826689,
+      "debut": "2024-01-17T20:30:00+00:00",
+      "home": "Gérone",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2818",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

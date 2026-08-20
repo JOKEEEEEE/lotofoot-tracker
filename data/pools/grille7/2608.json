@@ -1,0 +1,136 @@
+{
+  "grille_id": 2608,
+  "grille_type": "grille7",
+  "pool_id": 7002608,
+  "titre": "Grille 7 n°2608",
+  "statut": "CLOSED",
+  "fin": "2022-09-11T13:00:00+00:00",
+  "collecte_le": "2026-08-20T09:02:28.356312+00:00",
+  "mises_nettes": 18067.5,
+  "montant_distribue": 18067.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 645.27
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 247,
+      "winningsPerGrid": 36.57
+    }
+  ],
+  "repartition": [
+    389,
+    2392,
+    6244,
+    8026,
+    5124,
+    1654,
+    247,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 34172117,
+      "debut": "2022-09-11T13:00:00+00:00",
+      "home": "Lorient",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1647",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172111,
+      "debut": "2022-09-11T13:00:00+00:00",
+      "home": "AC Ajaccio",
+      "away": "Nice",
+      "home_id": "sr:competitor:1660",
+      "away_id": "sr:competitor:1661",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172115,
+      "debut": "2022-09-11T13:00:00+00:00",
+      "home": "Angers",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1642",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172129,
+      "debut": "2022-09-11T13:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Reims",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1682",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34169043,
+      "debut": "2022-09-11T15:30:00+00:00",
+      "home": "Fribourg",
+      "away": "Borussia M'Gladbach",
+      "home_id": "sr:competitor:2538",
+      "away_id": "sr:competitor:2527",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172127,
+      "debut": "2022-09-11T15:05:00+00:00",
+      "home": "Rennes",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1646",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277283,
+      "debut": "2022-09-11T16:30:00+00:00",
+      "home": "Getafe",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2824",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

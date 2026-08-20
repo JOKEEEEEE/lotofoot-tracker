@@ -1,0 +1,136 @@
+{
+  "grille_id": 3744,
+  "grille_type": "grille7",
+  "pool_id": 7003744,
+  "titre": "Grille 7 n°3744",
+  "statut": "CLOSED",
+  "fin": "2025-06-08T13:00:00+00:00",
+  "collecte_le": "2026-08-20T07:32:59.198054+00:00",
+  "mises_nettes": 4167.75,
+  "montant_distribue": 4167.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100001010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 9,
+      "winningsPerGrid": 231.54
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 112,
+      "winningsPerGrid": 18.61
+    }
+  ],
+  "repartition": [
+    255,
+    1152,
+    1952,
+    1505,
+    572,
+    112,
+    9,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 55809543,
+      "debut": "2025-06-08T13:00:00+00:00",
+      "home": "Allemagne",
+      "away": "France",
+      "home_id": "sr:competitor:4711",
+      "away_id": "sr:competitor:4481",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60969993,
+      "debut": "2025-06-08T16:30:00+00:00",
+      "home": "Racing Santander",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:2835",
+      "away_id": "sr:competitor:35092",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55809537,
+      "debut": "2025-06-08T19:00:00+00:00",
+      "home": "Portugal",
+      "away": "Espagne",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4698",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61006409,
+      "debut": "2025-06-08T21:05:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Santa Fe",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:6116",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56690755,
+      "debut": "2025-06-08T23:00:00+00:00",
+      "home": "Portland Timbers",
+      "away": "Saint Louis City SC",
+      "home_id": "sr:competitor:22007",
+      "away_id": "sr:competitor:874725",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60912979,
+      "debut": "2025-06-08T23:15:00+00:00",
+      "home": "Junior De Barranquilla",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6105",
+      "away_id": "sr:competitor:6115",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60913031,
+      "debut": "2025-06-09T01:20:00+00:00",
+      "home": "Once Caldas",
+      "away": "Millonarios ",
+      "home_id": "sr:competitor:6118",
+      "away_id": "sr:competitor:6117",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

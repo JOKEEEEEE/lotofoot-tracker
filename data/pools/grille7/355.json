@@ -1,0 +1,127 @@
+{
+  "grille_id": 355,
+  "grille_type": "grille7",
+  "pool_id": 7000355,
+  "titre": "Grille 7 n°355",
+  "statut": "CLOSED",
+  "fin": "2016-10-17T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:25:54.585855+00:00",
+  "mises_nettes": 10161.75,
+  "montant_distribue": 10161.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 37,
+      "winningsPerGrid": 137.32
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 402,
+      "winningsPerGrid": 12.64
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9565765,
+      "debut": "2016-10-17T18:30:00+00:00",
+      "home": "Sochaux",
+      "away": "Lens",
+      "home_id": "sr:competitor:1657",
+      "away_id": "sr:competitor:1648",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9914125,
+      "debut": "2016-10-17T18:30:00+00:00",
+      "home": "Trapani",
+      "away": "Ternana",
+      "home_id": "sr:competitor:43686",
+      "away_id": "sr:competitor:2708",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9820907,
+      "debut": "2016-10-17T18:45:00+00:00",
+      "home": "Palerme",
+      "away": "Torino",
+      "home_id": "sr:competitor:2715",
+      "away_id": "sr:competitor:2696",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9769301,
+      "debut": "2016-10-17T18:45:00+00:00",
+      "home": "Eibar",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2820",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10352034,
+      "debut": "2016-10-17T18:45:00+00:00",
+      "home": "St Patricks",
+      "away": "Cork City",
+      "home_id": "sr:competitor:3169",
+      "away_id": "sr:competitor:40896",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9599889,
+      "debut": "2016-10-17T19:00:00+00:00",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:35",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10352040,
+      "debut": "2016-10-17T19:00:00+00:00",
+      "home": "Longford Town",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:3175",
+      "away_id": "sr:competitor:3179",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

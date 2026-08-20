@@ -1,0 +1,127 @@
+{
+  "grille_id": 1299,
+  "grille_type": "grille7",
+  "pool_id": 7001299,
+  "titre": "Grille 7 n°1299",
+  "statut": "CLOSED",
+  "fin": "2019-06-30T16:00:00+00:00",
+  "collecte_le": "2026-08-20T11:00:09.549372+00:00",
+  "mises_nettes": 7162.5,
+  "montant_distribue": 7162.5,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 3581.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 64,
+      "winningsPerGrid": 55.96
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17953273,
+      "debut": "2019-06-30T16:00:00+00:00",
+      "home": "Madagascar",
+      "away": "Nigeria",
+      "home_id": "sr:competitor:8035",
+      "away_id": "sr:competitor:4785",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17953275,
+      "debut": "2019-06-30T16:00:00+00:00",
+      "home": "Burundi",
+      "away": "Guinée",
+      "home_id": "sr:competitor:4750",
+      "away_id": "sr:competitor:4826",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16599639,
+      "debut": "2019-06-30T16:00:00+00:00",
+      "home": "Bodø/Glimt",
+      "away": "Odd",
+      "home_id": "sr:competitor:656",
+      "away_id": "sr:competitor:659",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16599643,
+      "debut": "2019-06-30T18:00:00+00:00",
+      "home": "Molde",
+      "away": "Brann",
+      "home_id": "sr:competitor:661",
+      "away_id": "sr:competitor:1159",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18567268,
+      "debut": "2019-06-30T18:45:00+00:00",
+      "home": "Espagne U21",
+      "away": "Allemagne U21",
+      "home_id": "sr:competitor:4891",
+      "away_id": "sr:competitor:4890",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17953263,
+      "debut": "2019-06-30T19:00:00+00:00",
+      "home": "Zimbabwe",
+      "away": "RD Congo",
+      "home_id": "sr:competitor:4719",
+      "away_id": "sr:competitor:4823",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17953261,
+      "debut": "2019-06-30T19:00:00+00:00",
+      "home": "Ouganda",
+      "away": "Égypte",
+      "home_id": "sr:competitor:4726",
+      "away_id": "sr:competitor:4758",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

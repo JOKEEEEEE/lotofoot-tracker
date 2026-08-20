@@ -1,0 +1,127 @@
+{
+  "grille_id": 995,
+  "grille_type": "grille7",
+  "pool_id": 7000995,
+  "titre": "Grille 7 n°995",
+  "statut": "CLOSED",
+  "fin": "2018-08-22T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:29:45.450828+00:00",
+  "mises_nettes": 14050.5,
+  "montant_distribue": 14050.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 878.16
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 118,
+      "winningsPerGrid": 59.54
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14782863,
+      "debut": "2018-08-22T18:45:00+00:00",
+      "home": "Aston Villa",
+      "away": "Brentford",
+      "home_id": "sr:competitor:40",
+      "away_id": "sr:competitor:50",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14782875,
+      "debut": "2018-08-22T18:45:00+00:00",
+      "home": "Blackburn",
+      "away": "Reading",
+      "home_id": "sr:competitor:46",
+      "away_id": "sr:competitor:28",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14782881,
+      "debut": "2018-08-22T19:00:00+00:00",
+      "home": "Bolton",
+      "away": "Birmingham",
+      "home_id": "sr:competitor:5",
+      "away_id": "sr:competitor:9",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14782883,
+      "debut": "2018-08-22T19:00:00+00:00",
+      "home": "Stoke City",
+      "away": "Wigan",
+      "home_id": "sr:competitor:29",
+      "away_id": "sr:competitor:49",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15325846,
+      "debut": "2018-08-22T19:00:00+00:00",
+      "home": "MOL Vidi FC",
+      "away": "AEK Athènes",
+      "home_id": "sr:competitor:1926",
+      "away_id": "sr:competitor:3250",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15325854,
+      "debut": "2018-08-22T19:00:00+00:00",
+      "home": "Young Boys Berne",
+      "away": "Dinamo Zagreb",
+      "home_id": "sr:competitor:2445",
+      "away_id": "sr:competitor:2032",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15325870,
+      "debut": "2018-08-22T19:00:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:3305",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

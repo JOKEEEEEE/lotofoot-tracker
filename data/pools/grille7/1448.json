@@ -1,0 +1,127 @@
+{
+  "grille_id": 1448,
+  "grille_type": "grille7",
+  "pool_id": 7001448,
+  "titre": "Grille 7 n°1448",
+  "statut": "CLOSED",
+  "fin": "2019-11-12T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:48:23.200934+00:00",
+  "mises_nettes": 7809.75,
+  "montant_distribue": 7809.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 41,
+      "winningsPerGrid": 95.24
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 414,
+      "winningsPerGrid": 9.43
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 19173998,
+      "debut": "2019-11-12T18:00:00+00:00",
+      "home": "Suisse (F)",
+      "away": "Roumanie (F)",
+      "home_id": "sr:competitor:38103",
+      "away_id": "sr:competitor:7611",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19173840,
+      "debut": "2019-11-12T18:30:00+00:00",
+      "home": "Portugal (F)",
+      "away": "Finlande (F)",
+      "home_id": "sr:competitor:22027",
+      "away_id": "sr:competitor:21802",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19173906,
+      "debut": "2019-11-12T19:00:00+00:00",
+      "home": "Hongrie (F)",
+      "away": "Lettonie (F)",
+      "home_id": "sr:competitor:38090",
+      "away_id": "sr:competitor:38095",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19173990,
+      "debut": "2019-11-12T19:30:00+00:00",
+      "home": "Belgique (F)",
+      "away": "Lituanie (F)",
+      "home_id": "sr:competitor:38081",
+      "away_id": "sr:competitor:38096",
+      "score_home": 6,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19173744,
+      "debut": "2019-11-12T19:45:00+00:00",
+      "home": "Irlande du Nord (F)",
+      "away": "Pays de Galles (F)",
+      "home_id": "sr:competitor:38099",
+      "away_id": "sr:competitor:34015",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18548518,
+      "debut": "2019-11-12T21:00:00+00:00",
+      "home": "Sportivo Luqueno",
+      "away": "Club River Plate Asuncion",
+      "home_id": "sr:competitor:5998",
+      "away_id": "sr:competitor:90970",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18548524,
+      "debut": "2019-11-12T23:00:00+00:00",
+      "home": "Deportivo Capiata",
+      "away": "Sol De America",
+      "home_id": "sr:competitor:87470",
+      "away_id": "sr:competitor:36439",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 981,
+  "grille_type": "grille7",
+  "pool_id": 7000981,
+  "titre": "Grille 7 n°981",
+  "statut": "CLOSED",
+  "fin": "2018-08-08T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:30:32.269355+00:00",
+  "mises_nettes": 7257,
+  "montant_distribue": 7257,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010010111010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 279.12
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 169,
+      "winningsPerGrid": 21.47
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15209523,
+      "debut": "2018-08-08T18:45:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "AEK Athènes",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:3250",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370634,
+      "debut": "2018-08-08T19:15:00+00:00",
+      "home": "Stjarnan",
+      "away": "Valur Reykjavik",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:1899",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14370636,
+      "debut": "2018-08-08T19:15:00+00:00",
+      "home": "Fjölnir",
+      "away": "Keflavik",
+      "home_id": "sr:competitor:5374",
+      "away_id": "sr:competitor:1900",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13805749,
+      "debut": "2018-08-08T22:30:00+00:00",
+      "home": "Ceara CE",
+      "away": "Santos",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1968",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14689919,
+      "debut": "2018-08-08T22:30:00+00:00",
+      "home": "Boca Juniors",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:3202",
+      "away_id": "sr:competitor:5996",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14689913,
+      "debut": "2018-08-09T00:45:00+00:00",
+      "home": "Colo Colo",
+      "away": "Corinthians",
+      "home_id": "sr:competitor:3155",
+      "away_id": "sr:competitor:1957",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14689917,
+      "debut": "2018-08-09T00:45:00+00:00",
+      "home": "Flamengo",
+      "away": "Cruzeiro",
+      "home_id": "sr:competitor:5981",
+      "away_id": "sr:competitor:1954",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

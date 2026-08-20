@@ -1,0 +1,136 @@
+{
+  "grille_id": 3319,
+  "grille_type": "grille7",
+  "pool_id": 7003319,
+  "titre": "Grille 7 n°3319",
+  "statut": "CLOSED",
+  "fin": "2024-05-01T16:00:00+00:00",
+  "collecte_le": "2026-08-20T08:00:47.433915+00:00",
+  "mises_nettes": 5799.75,
+  "montant_distribue": 5799.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 16,
+      "winningsPerGrid": 181.24
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 152,
+      "winningsPerGrid": 19.08
+    }
+  ],
+  "repartition": [
+    310,
+    1890,
+    2805,
+    1866,
+    694,
+    152,
+    16,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 42262291,
+      "debut": "2024-05-01T16:00:00+00:00",
+      "home": "Bari",
+      "away": "Parme",
+      "home_id": "sr:competitor:2712",
+      "away_id": "sr:competitor:2690",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42262299,
+      "debut": "2024-05-01T16:00:00+00:00",
+      "home": "Calcio Lecco 1912",
+      "away": "Sampdoria Gênes",
+      "home_id": "sr:competitor:7933",
+      "away_id": "sr:competitor:2711",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42262301,
+      "debut": "2024-05-01T16:00:00+00:00",
+      "home": "Reggiana",
+      "away": "Modène",
+      "home_id": "sr:competitor:24516",
+      "away_id": "sr:competitor:2706",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42267141,
+      "debut": "2024-05-01T16:00:00+00:00",
+      "home": "AC Feralpisalo",
+      "away": "Brescia",
+      "home_id": "sr:competitor:37173",
+      "away_id": "sr:competitor:2691",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48613107,
+      "debut": "2024-05-01T19:00:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:1644",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49393761,
+      "debut": "2024-05-02T00:00:00+00:00",
+      "home": "CD Universidad Catolica",
+      "away": "Barcelona SC",
+      "home_id": "sr:competitor:21942",
+      "away_id": "sr:competitor:5250",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49378959,
+      "debut": "2024-05-02T02:15:00+00:00",
+      "home": "Monterrey",
+      "away": "Columbus Crew",
+      "home_id": "sr:competitor:1932",
+      "away_id": "sr:competitor:2504",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3272,
+  "grille_type": "grille7",
+  "pool_id": 7003272,
+  "titre": "Grille 7 n°3272",
+  "statut": "CLOSED",
+  "fin": "2024-03-24T20:00:00+00:00",
+  "collecte_le": "2026-08-20T08:03:41.931711+00:00",
+  "mises_nettes": 7755,
+  "montant_distribue": 7755,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 33,
+      "winningsPerGrid": 117.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 337,
+      "winningsPerGrid": 11.51
+    }
+  ],
+  "repartition": [
+    224,
+    980,
+    2349,
+    2992,
+    2294,
+    1131,
+    337,
+    33
+  ],
+  "matches": [
+    {
+      "match_id": 47748429,
+      "debut": "2024-03-24T20:00:00+00:00",
+      "home": "Italie",
+      "away": "Equateur",
+      "home_id": "sr:competitor:4707",
+      "away_id": "sr:competitor:4757",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984527,
+      "debut": "2024-03-24T20:00:00+00:00",
+      "home": "Racing Santander",
+      "away": "Club Deportivo Eldense",
+      "home_id": "sr:competitor:2835",
+      "away_id": "sr:competitor:47321",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47343615,
+      "debut": "2024-03-24T20:30:00+00:00",
+      "home": "Tecnico Universitario",
+      "away": "CSD Macara",
+      "home_id": "sr:competitor:21941",
+      "away_id": "sr:competitor:6001",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46669725,
+      "debut": "2024-03-24T21:00:00+00:00",
+      "home": "Bucaramanga",
+      "away": "Envigado FC",
+      "home_id": "sr:competitor:6103",
+      "away_id": "sr:competitor:6114",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48897075,
+      "debut": "2024-03-24T22:00:00+00:00",
+      "home": "Jamaïque",
+      "away": "Panama",
+      "home_id": "sr:competitor:4769",
+      "away_id": "sr:competitor:5164",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46669727,
+      "debut": "2024-03-24T23:10:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Pasto",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:6113",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48897079,
+      "debut": "2024-03-25T01:15:00+00:00",
+      "home": "États-Unis",
+      "away": "Mexique",
+      "home_id": "sr:competitor:4724",
+      "away_id": "sr:competitor:4781",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

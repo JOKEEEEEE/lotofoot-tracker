@@ -1,0 +1,127 @@
+{
+  "grille_id": 615,
+  "grille_type": "grille7",
+  "pool_id": 7000615,
+  "titre": "Grille 7 n°615",
+  "statut": "CLOSED",
+  "fin": "2017-07-24T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:58:27.218943+00:00",
+  "mises_nettes": 3383.25,
+  "montant_distribue": 3383.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 338.33
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 70,
+      "winningsPerGrid": 24.17
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10555360,
+      "debut": "2017-07-24T18:45:00+00:00",
+      "home": "Belgique (F)",
+      "away": "Pays-Bas (F)",
+      "home_id": "sr:competitor:38081",
+      "away_id": "sr:competitor:32484",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10555362,
+      "debut": "2017-07-24T18:45:00+00:00",
+      "home": "Norvège (F)",
+      "away": "Danemark (F)",
+      "home_id": "sr:competitor:7422",
+      "away_id": "sr:competitor:7414",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12041120,
+      "debut": "2017-07-24T19:00:00+00:00",
+      "home": "Finn Harps",
+      "away": "Derry City",
+      "home_id": "sr:competitor:3181",
+      "away_id": "sr:competitor:3170",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439507,
+      "debut": "2017-07-24T23:00:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:5926",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11927832,
+      "debut": "2017-07-24T23:00:00+00:00",
+      "home": "Envigado FC",
+      "away": "Bucaramanga",
+      "home_id": "sr:competitor:6114",
+      "away_id": "sr:competitor:6103",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11927838,
+      "debut": "2017-07-25T01:00:00+00:00",
+      "home": "Alianza Petrolera",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:89156",
+      "away_id": "sr:competitor:6105",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11659611,
+      "debut": "2017-07-25T11:35:00+00:00",
+      "home": "Chelsea",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:2672",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3152,
+  "grille_type": "grille7",
+  "pool_id": 7003152,
+  "titre": "Grille 7 n°3152",
+  "statut": "CLOSED",
+  "fin": "2023-12-15T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:26:21.116184+00:00",
+  "mises_nettes": 11379.75,
+  "montant_distribue": 11379.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001001100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 812.84
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 92,
+      "winningsPerGrid": 61.85
+    }
+  ],
+  "repartition": [
+    437,
+    2424,
+    4849,
+    4589,
+    2184,
+    591,
+    92,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 42023203,
+      "debut": "2023-12-15T19:30:00+00:00",
+      "home": "Borussia M'Gladbach",
+      "away": "Werder Brême",
+      "home_id": "sr:competitor:2527",
+      "away_id": "sr:competitor:2534",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134413,
+      "debut": "2023-12-15T19:45:00+00:00",
+      "home": "Genoa",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2687",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893951,
+      "debut": "2023-12-15T19:45:00+00:00",
+      "home": "Westerlo",
+      "away": "Eupen",
+      "home_id": "sr:competitor:2893",
+      "away_id": "sr:competitor:2926",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42004797,
+      "debut": "2023-12-15T20:00:00+00:00",
+      "home": "Monaco",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1649",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763177,
+      "debut": "2023-12-15T20:00:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:33",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893227,
+      "debut": "2023-12-15T20:00:00+00:00",
+      "home": "Osasuna",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2820",
+      "away_id": "sr:competitor:2818",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146423,
+      "debut": "2023-12-15T20:15:00+00:00",
+      "home": "Farense",
+      "away": "CF Estrela Amadora",
+      "home_id": "sr:competitor:2998",
+      "away_id": "sr:competitor:744135",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

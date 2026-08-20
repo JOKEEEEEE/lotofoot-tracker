@@ -1,0 +1,136 @@
+{
+  "grille_id": 3146,
+  "grille_type": "grille7",
+  "pool_id": 7003146,
+  "titre": "Grille 7 n°3146",
+  "statut": "CLOSED",
+  "fin": "2023-12-10T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:12:02.149836+00:00",
+  "mises_nettes": 8652.75,
+  "montant_distribue": 8652.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010010100100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1442.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 62,
+      "winningsPerGrid": 69.78
+    }
+  ],
+  "repartition": [
+    317,
+    1982,
+    3863,
+    3414,
+    1517,
+    379,
+    62,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 42004779,
+      "debut": "2023-12-10T19:45:00+00:00",
+      "home": "Lorient",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1641",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134403,
+      "debut": "2023-12-10T19:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2693",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893207,
+      "debut": "2023-12-10T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:24264",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984229,
+      "debut": "2023-12-10T20:00:00+00:00",
+      "home": "Huesca",
+      "away": "Racing Ferrol",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:2843",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146399,
+      "debut": "2023-12-10T20:30:00+00:00",
+      "home": "Estoril",
+      "away": "Chaves",
+      "home_id": "sr:competitor:4500",
+      "away_id": "sr:competitor:3025",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45933693,
+      "debut": "2023-12-10T21:30:00+00:00",
+      "home": "Independiente Del Valle",
+      "away": "Liga Dep Universitaria Quito",
+      "home_id": "sr:competitor:39723",
+      "away_id": "sr:competitor:5257",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45938327,
+      "debut": "2023-12-11T02:00:00+00:00",
+      "home": "Tigres",
+      "away": "U.N.A.M.",
+      "home_id": "sr:competitor:1940",
+      "away_id": "sr:competitor:1933",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

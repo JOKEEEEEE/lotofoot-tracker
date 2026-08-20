@@ -1,0 +1,136 @@
+{
+  "grille_id": 3463,
+  "grille_type": "grille7",
+  "pool_id": 7003463,
+  "titre": "Grille 7 n°3463",
+  "statut": "CLOSED",
+  "fin": "2024-09-16T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:49:52.207044+00:00",
+  "mises_nettes": 7448.25,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100001010100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 9,
+      "winningsPerGrid": 416.67
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 182,
+      "winningsPerGrid": 20.6
+    }
+  ],
+  "repartition": [
+    97,
+    770,
+    2199,
+    3135,
+    2510,
+    1029,
+    182,
+    9
+  ],
+  "matches": [
+    {
+      "match_id": 51103001,
+      "debut": "2024-09-16T18:30:00+00:00",
+      "home": "Almeria",
+      "away": "Castellon",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:5067",
+      "score_home": 2,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956343,
+      "debut": "2024-09-16T18:45:00+00:00",
+      "home": "Grenoble",
+      "away": "Caen",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1667",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51271495,
+      "debut": "2024-09-16T18:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Hellas Vérone",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2701",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852175,
+      "debut": "2024-09-16T19:00:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2820",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388791,
+      "debut": "2024-09-16T19:15:00+00:00",
+      "home": "CF Estrela Amadora",
+      "away": "Boavista",
+      "home_id": "sr:competitor:744135",
+      "away_id": "sr:competitor:2995",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 53100235,
+      "debut": "2024-09-16T18:45:00+00:00",
+      "home": "Galway United",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:3172",
+      "away_id": "sr:competitor:3177",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214951,
+      "debut": "2024-09-16T23:00:00+00:00",
+      "home": "Internacional ",
+      "away": "Cuiaba MT",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:49202",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

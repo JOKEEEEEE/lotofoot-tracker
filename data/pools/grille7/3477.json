@@ -1,0 +1,136 @@
+{
+  "grille_id": 3477,
+  "grille_type": "grille7",
+  "pool_id": 7003477,
+  "titre": "Grille 7 n°3477",
+  "statut": "CLOSED",
+  "fin": "2024-09-28T14:00:00+00:00",
+  "collecte_le": "2026-08-20T07:48:27.812938+00:00",
+  "mises_nettes": 9194.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "111001100010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 171,
+      "winningsPerGrid": 29.24
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1178,
+      "winningsPerGrid": 4.24
+    }
+  ],
+  "repartition": [
+    0,
+    89,
+    909,
+    2712,
+    3986,
+    3214,
+    1178,
+    171
+  ],
+  "matches": [
+    {
+      "match_id": 50850069,
+      "debut": "2024-09-28T14:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Leicester",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:31",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850073,
+      "debut": "2024-09-28T14:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Brighton",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:30",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955437,
+      "debut": "2024-09-28T15:00:00+00:00",
+      "home": "Lens",
+      "away": "Nice",
+      "home_id": "sr:competitor:1648",
+      "away_id": "sr:competitor:1661",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51268995,
+      "debut": "2024-09-28T16:30:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Bayer Leverkusen",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:2681",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852227,
+      "debut": "2024-09-28T16:30:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Valence",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2828",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50955441,
+      "debut": "2024-09-28T17:00:00+00:00",
+      "home": "Le Havre",
+      "away": "Lille",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1643",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50956415,
+      "debut": "2024-09-28T17:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Caen",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1667",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

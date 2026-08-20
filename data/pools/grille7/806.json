@@ -1,0 +1,127 @@
+{
+  "grille_id": 806,
+  "grille_type": "grille7",
+  "pool_id": 7000806,
+  "titre": "Grille 7 n°806",
+  "statut": "CLOSED",
+  "fin": "2018-02-10T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:44:18.289615+00:00",
+  "mises_nettes": 14276.25,
+  "montant_distribue": 14276.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 128,
+      "winningsPerGrid": 55.77
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1215,
+      "winningsPerGrid": 5.88
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11833436,
+      "debut": "2018-02-10T19:00:00+00:00",
+      "home": "Angers",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1653",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832892,
+      "debut": "2018-02-10T19:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Caen",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1667",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832964,
+      "debut": "2018-02-10T19:00:00+00:00",
+      "home": "Metz",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1642",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833112,
+      "debut": "2018-02-10T19:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1676",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833334,
+      "debut": "2018-02-10T19:00:00+00:00",
+      "home": "Dijon",
+      "away": "Nice",
+      "home_id": "sr:competitor:1686",
+      "away_id": "sr:competitor:1661",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12089880,
+      "debut": "2018-02-10T19:45:00+00:00",
+      "home": "Naples",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2699",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12055510,
+      "debut": "2018-02-10T19:45:00+00:00",
+      "home": "Real Madrid",
+      "away": "Real Sociedad",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2824",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

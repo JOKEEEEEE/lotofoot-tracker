@@ -1,0 +1,127 @@
+{
+  "grille_id": 652,
+  "grille_type": "grille7",
+  "pool_id": 7000652,
+  "titre": "Grille 7 n°652",
+  "statut": "CLOSED",
+  "fin": "2017-09-02T18:45:00+00:00",
+  "collecte_le": "2026-08-20T11:56:59.798262+00:00",
+  "mises_nettes": 14097,
+  "montant_distribue": 14097,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 26,
+      "winningsPerGrid": 271.1
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 404,
+      "winningsPerGrid": 17.45
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7678348,
+      "debut": "2017-09-02T18:45:00+00:00",
+      "home": "Pays de Galles",
+      "away": "Autriche",
+      "home_id": "sr:competitor:4702",
+      "away_id": "sr:competitor:4718",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678566,
+      "debut": "2017-09-02T18:45:00+00:00",
+      "home": "Israël",
+      "away": "Macédoine du Nord",
+      "home_id": "sr:competitor:4480",
+      "away_id": "sr:competitor:4777",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678568,
+      "debut": "2017-09-02T18:45:00+00:00",
+      "home": "Espagne",
+      "away": "Italie",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4707",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7678648,
+      "debut": "2017-09-02T18:45:00+00:00",
+      "home": "Ukraine",
+      "away": "Turquie",
+      "home_id": "sr:competitor:4701",
+      "away_id": "sr:competitor:4700",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9732485,
+      "debut": "2017-09-02T18:45:00+00:00",
+      "home": "Croatie",
+      "away": "Kosovo",
+      "home_id": "sr:competitor:4715",
+      "away_id": "sr:competitor:154426",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439633,
+      "debut": "2017-09-02T19:00:00+00:00",
+      "home": "Grêmio",
+      "away": "Sport Recife ",
+      "home_id": "sr:competitor:5926",
+      "away_id": "sr:competitor:1959",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9684439,
+      "debut": "2017-09-02T20:00:00+00:00",
+      "home": "Sénégal",
+      "away": "Burkina Faso",
+      "home_id": "sr:competitor:4739",
+      "away_id": "sr:competitor:4749",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

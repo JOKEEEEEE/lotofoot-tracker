@@ -1,0 +1,127 @@
+{
+  "grille_id": 1745,
+  "grille_type": "grille7",
+  "pool_id": 7001745,
+  "titre": "Grille 7 n°1745",
+  "statut": "CLOSED",
+  "fin": "2020-09-19T17:00:00+00:00",
+  "collecte_le": "2026-08-20T10:17:52.523968+00:00",
+  "mises_nettes": 11439.75,
+  "montant_distribue": 11439.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1906.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 31,
+      "winningsPerGrid": 184.51
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22651245,
+      "debut": "2020-09-19T17:00:00+00:00",
+      "home": "Caen",
+      "away": "Chambly",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:61612",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22651247,
+      "debut": "2020-09-19T17:00:00+00:00",
+      "home": "Châteauroux",
+      "away": "Amiens",
+      "home_id": "sr:competitor:1666",
+      "away_id": "sr:competitor:1676",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22651251,
+      "debut": "2020-09-19T17:00:00+00:00",
+      "home": "Dunkerque",
+      "away": "Valenciennes",
+      "home_id": "sr:competitor:6918",
+      "away_id": "sr:competitor:5061",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22651253,
+      "debut": "2020-09-19T17:00:00+00:00",
+      "home": "Grenoble",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1660",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22651257,
+      "debut": "2020-09-19T17:00:00+00:00",
+      "home": "Paris FC",
+      "away": "Nancy",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1675",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22651259,
+      "debut": "2020-09-19T17:00:00+00:00",
+      "home": "Pau",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1685",
+      "away_id": "sr:competitor:1654",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22651261,
+      "debut": "2020-09-19T17:00:00+00:00",
+      "home": "Sochaux",
+      "away": "Rodez",
+      "home_id": "sr:competitor:1657",
+      "away_id": "sr:competitor:6925",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

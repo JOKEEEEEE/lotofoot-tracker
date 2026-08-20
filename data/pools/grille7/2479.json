@@ -1,0 +1,136 @@
+{
+  "grille_id": 2479,
+  "grille_type": "grille7",
+  "pool_id": 7002479,
+  "titre": "Grille 7 n°2479",
+  "statut": "CLOSED",
+  "fin": "2022-05-16T17:00:00+00:00",
+  "collecte_le": "2026-08-20T09:13:38.643470+00:00",
+  "mises_nettes": 7670.25,
+  "montant_distribue": 7670.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 767.03
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 84,
+      "winningsPerGrid": 45.66
+    }
+  ],
+  "repartition": [
+    273,
+    1350,
+    2816,
+    3164,
+    1931,
+    604,
+    84,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 28153674,
+      "debut": "2022-05-16T17:00:00+00:00",
+      "home": "Galatasaray",
+      "away": "Adana Demirspor",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:3101",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28153672,
+      "debut": "2022-05-16T17:00:00+00:00",
+      "home": "Rizespor",
+      "away": "Sivasspor",
+      "home_id": "sr:competitor:3064",
+      "away_id": "sr:competitor:3076",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 32811683,
+      "debut": "2022-05-16T17:00:00+00:00",
+      "home": "Silkeborg",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:1285",
+      "away_id": "sr:competitor:1289",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31602959,
+      "debut": "2022-05-16T17:10:00+00:00",
+      "home": "Djurgardens",
+      "away": "Malmö",
+      "home_id": "sr:competitor:1759",
+      "away_id": "sr:competitor:1892",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28160558,
+      "debut": "2022-05-16T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2699",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33532981,
+      "debut": "2022-05-16T18:45:00+00:00",
+      "home": "Huddersfield",
+      "away": "Luton Town",
+      "home_id": "sr:competitor:59",
+      "away_id": "sr:competitor:72",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751780,
+      "debut": "2022-05-16T19:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:42",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

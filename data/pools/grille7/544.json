@@ -1,0 +1,127 @@
+{
+  "grille_id": 544,
+  "grille_type": "grille7",
+  "pool_id": 7000544,
+  "titre": "Grille 7 n°544",
+  "statut": "CLOSED",
+  "fin": "2017-05-11T19:05:00+00:00",
+  "collecte_le": "2026-08-20T12:05:55.017869+00:00",
+  "mises_nettes": 6498,
+  "montant_distribue": 6498,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1624.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 20,
+      "winningsPerGrid": 162.45
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11543505,
+      "debut": "2017-05-11T19:05:00+00:00",
+      "home": "Lyon",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:2953",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11543513,
+      "debut": "2017-05-11T19:05:00+00:00",
+      "home": "Manchester United",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:2821",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11015109,
+      "debut": "2017-05-11T23:00:00+00:00",
+      "home": "Tolima",
+      "away": "Águilas Doradas",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:48244",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11647717,
+      "debut": "2017-05-12T00:30:00+00:00",
+      "home": "Mazatlán F.C.",
+      "away": "Club Tijuana",
+      "home_id": "sr:competitor:1946",
+      "away_id": "sr:competitor:36525",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11015121,
+      "debut": "2017-05-12T01:00:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Tigres ",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:89354",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11647721,
+      "debut": "2017-05-12T02:30:00+00:00",
+      "home": "Atlas",
+      "away": "Guadalajara ",
+      "home_id": "sr:competitor:1949",
+      "away_id": "sr:competitor:1938",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11329523,
+      "debut": "2017-05-12T12:00:00+00:00",
+      "home": "Sønderjyske",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:1295",
+      "away_id": "sr:competitor:1289",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

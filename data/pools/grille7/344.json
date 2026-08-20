@@ -1,0 +1,127 @@
+{
+  "grille_id": 344,
+  "grille_type": "grille7",
+  "pool_id": 7000344,
+  "titre": "Grille 7 n°344",
+  "statut": "CLOSED",
+  "fin": "2016-10-05T22:30:00+00:00",
+  "collecte_le": "2026-08-20T12:26:39.081149+00:00",
+  "mises_nettes": 5731.5,
+  "montant_distribue": 5731.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 220.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 193,
+      "winningsPerGrid": 14.85
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9212121,
+      "debut": "2016-10-05T22:30:00+00:00",
+      "home": "Vitoria",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1962",
+      "away_id": "sr:competitor:5926",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9212135,
+      "debut": "2016-10-05T22:30:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Chapecoense",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:21845",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9212125,
+      "debut": "2016-10-06T00:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9212127,
+      "debut": "2016-10-06T00:00:00+00:00",
+      "home": "Santos",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1961",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9212139,
+      "debut": "2016-10-06T00:45:00+00:00",
+      "home": "Sport Recife ",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:1959",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9291573,
+      "debut": "2016-10-06T11:00:00+00:00",
+      "home": "Corée du Sud",
+      "away": "Qatar",
+      "home_id": "sr:competitor:4735",
+      "away_id": "sr:competitor:4792",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9291569,
+      "debut": "2016-10-06T13:00:00+00:00",
+      "home": "Ouzbékistan",
+      "away": "Iran",
+      "home_id": "sr:competitor:4723",
+      "away_id": "sr:competitor:4766",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

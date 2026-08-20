@@ -1,0 +1,136 @@
+{
+  "grille_id": 3415,
+  "grille_type": "grille7",
+  "pool_id": 7003415,
+  "titre": "Grille 7 n°3415",
+  "statut": "CLOSED",
+  "fin": "2024-08-02T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:53:05.482170+00:00",
+  "mises_nettes": 5247.75,
+  "montant_distribue": 5247.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 72,
+      "winningsPerGrid": 36.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 626,
+      "winningsPerGrid": 4.19
+    }
+  ],
+  "repartition": [
+    7,
+    116,
+    550,
+    1529,
+    2279,
+    1818,
+    626,
+    72
+  ],
+  "matches": [
+    {
+      "match_id": 48859767,
+      "debut": "2024-08-02T17:00:00+00:00",
+      "home": "Egypte",
+      "away": "Paraguay",
+      "home_id": "sr:competitor:69224",
+      "away_id": "sr:competitor:49086",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50606075,
+      "debut": "2024-08-02T17:00:00+00:00",
+      "home": "Aarhus GF",
+      "away": "Sønderjyske",
+      "home_id": "sr:competitor:1291",
+      "away_id": "sr:competitor:1295",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51269679,
+      "debut": "2024-08-02T18:30:00+00:00",
+      "home": "FC Cologne",
+      "away": "Hambourg",
+      "home_id": "sr:competitor:2671",
+      "away_id": "sr:competitor:2676",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51143353,
+      "debut": "2024-08-02T18:30:00+00:00",
+      "home": "Grazer AK",
+      "away": "Red Bull Salzbourg",
+      "home_id": "sr:competitor:2052",
+      "away_id": "sr:competitor:2046",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50714829,
+      "debut": "2024-08-02T18:45:00+00:00",
+      "home": "Union Saint-Gilloise",
+      "away": "Beerschot",
+      "home_id": "sr:competitor:4860",
+      "away_id": "sr:competitor:169260",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50587401,
+      "debut": "2024-08-02T19:00:00+00:00",
+      "home": "Dinamo Zagreb",
+      "away": "Istra 1961",
+      "home_id": "sr:competitor:2032",
+      "away_id": "sr:competitor:25529",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48859769,
+      "debut": "2024-08-02T19:00:00+00:00",
+      "home": "France",
+      "away": "Argentine",
+      "home_id": "sr:competitor:789974",
+      "away_id": "sr:competitor:24246",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3326,
+  "grille_type": "grille7",
+  "pool_id": 7003326,
+  "titre": "Grille 7 n°3326",
+  "statut": "CLOSED",
+  "fin": "2024-05-08T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:25:42.383862+00:00",
+  "mises_nettes": 7466.25,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001100010100111100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 76,
+      "winningsPerGrid": 49.34
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 677,
+      "winningsPerGrid": 5.54
+    }
+  ],
+  "repartition": [
+    0,
+    268,
+    1247,
+    2679,
+    3033,
+    1975,
+    677,
+    76
+  ],
+  "matches": [
+    {
+      "match_id": 48613119,
+      "debut": "2024-05-08T19:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2672",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722781,
+      "debut": "2024-05-08T22:00:00+00:00",
+      "home": "Huachipato",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:3164",
+      "away_id": "sr:competitor:5926",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48723121,
+      "debut": "2024-05-08T22:00:00+00:00",
+      "home": "CA Talleres",
+      "away": "Barcelona SC",
+      "home_id": "sr:competitor:3210",
+      "away_id": "sr:competitor:5250",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722761,
+      "debut": "2024-05-09T00:00:00+00:00",
+      "home": "Alianza Lima",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:2311",
+      "away_id": "sr:competitor:5991",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722721,
+      "debut": "2024-05-09T00:30:00+00:00",
+      "home": "Botafogo",
+      "away": "Liga Dep Universitaria Quito",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:5257",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48723133,
+      "debut": "2024-05-09T00:30:00+00:00",
+      "home": "Cobresal",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:3167",
+      "away_id": "sr:competitor:1981",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48722679,
+      "debut": "2024-05-09T02:00:00+00:00",
+      "home": "Millonarios ",
+      "away": "Bolivar",
+      "home_id": "sr:competitor:6117",
+      "away_id": "sr:competitor:7059",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

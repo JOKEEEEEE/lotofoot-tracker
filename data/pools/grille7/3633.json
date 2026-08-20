@@ -1,0 +1,136 @@
+{
+  "grille_id": 3633,
+  "grille_type": "grille7",
+  "pool_id": 7003633,
+  "titre": "Grille 7 n°3633",
+  "statut": "CLOSED",
+  "fin": "2025-02-20T17:45:00+00:00",
+  "collecte_le": "2026-08-20T07:35:42.808024+00:00",
+  "mises_nettes": 8343.75,
+  "montant_distribue": 8343.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1390.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 78,
+      "winningsPerGrid": 53.49
+    }
+  ],
+  "repartition": [
+    238,
+    1410,
+    3196,
+    3545,
+    2062,
+    593,
+    78,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 57687897,
+      "debut": "2025-02-20T17:45:00+00:00",
+      "home": "AS Rome",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:3002",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57687905,
+      "debut": "2025-02-20T17:45:00+00:00",
+      "home": "Galatasaray",
+      "away": "AZ Alkmaar",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:2950",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57687921,
+      "debut": "2025-02-20T17:45:00+00:00",
+      "home": "Bodø/Glimt",
+      "away": "Twente",
+      "home_id": "sr:competitor:656",
+      "away_id": "sr:competitor:2955",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57687915,
+      "debut": "2025-02-20T17:45:00+00:00",
+      "home": "FCSB ",
+      "away": "PAOK Salonique",
+      "home_id": "sr:competitor:3301",
+      "away_id": "sr:competitor:3251",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57687913,
+      "debut": "2025-02-20T20:00:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Union Saint-Gilloise",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:4860",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57687909,
+      "debut": "2025-02-20T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Midtjylland",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:1289",
+      "score_home": 5,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57687923,
+      "debut": "2025-02-20T20:00:00+00:00",
+      "home": "Anderlecht",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:2900",
+      "away_id": "sr:competitor:3052",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

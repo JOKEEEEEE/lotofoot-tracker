@@ -1,0 +1,127 @@
+{
+  "grille_id": 719,
+  "grille_type": "grille7",
+  "pool_id": 7000719,
+  "titre": "Grille 7 n°719",
+  "statut": "CLOSED",
+  "fin": "2017-11-12T15:00:00+00:00",
+  "collecte_le": "2026-08-20T11:50:49.650542+00:00",
+  "mises_nettes": 7796.25,
+  "montant_distribue": 7796.25,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "100010100010001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 649.69
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 101,
+      "winningsPerGrid": 38.6
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12060540,
+      "debut": "2017-11-12T15:00:00+00:00",
+      "home": "Gimnastic Tarragone",
+      "away": "Real Oviedo",
+      "home_id": "sr:competitor:2840",
+      "away_id": "sr:competitor:2851",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9684503,
+      "debut": "2017-11-12T15:30:00+00:00",
+      "home": "Ghana",
+      "away": "Égypte",
+      "home_id": "sr:competitor:4764",
+      "away_id": "sr:competitor:4758",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12060538,
+      "debut": "2017-11-12T17:00:00+00:00",
+      "home": "Lugo",
+      "away": "Numancia",
+      "home_id": "sr:competitor:24332",
+      "away_id": "sr:competitor:2855",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12966944,
+      "debut": "2017-11-12T17:00:00+00:00",
+      "home": "Fredrikstad FK",
+      "away": "Notodden",
+      "home_id": "sr:competitor:687",
+      "away_id": "sr:competitor:833",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188456,
+      "debut": "2017-11-12T19:30:00+00:00",
+      "home": "Bari",
+      "away": "Pescara Calcio",
+      "home_id": "sr:competitor:2712",
+      "away_id": "sr:competitor:2728",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12060520,
+      "debut": "2017-11-12T19:30:00+00:00",
+      "home": "Gijon",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:2831",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12924888,
+      "debut": "2017-11-12T23:30:00+00:00",
+      "home": "River Plate",
+      "away": "Deportivo Moron",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:93109",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3917,
+  "grille_type": "grille7",
+  "pool_id": 7003917,
+  "titre": "Grille 7 n°3917",
+  "statut": "CLOSED",
+  "fin": "2025-12-04T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:16:15.787784+00:00",
+  "mises_nettes": 8892,
+  "montant_distribue": 8892,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 11,
+      "winningsPerGrid": 404.18
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 111,
+      "winningsPerGrid": 40.05
+    }
+  ],
+  "repartition": [
+    1418,
+    3752,
+    3736,
+    2111,
+    717,
+    111,
+    11,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 65314908,
+      "debut": "2025-12-04T18:30:00+00:00",
+      "home": "Juve Stabia",
+      "away": "Bari",
+      "home_id": "sr:competitor:5324",
+      "away_id": "sr:competitor:2712",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.05,
+      "cote_2": 4.2
+    },
+    {
+      "match_id": 65263182,
+      "debut": "2025-12-04T19:30:00+00:00",
+      "home": "Genk",
+      "away": "Anderlecht",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2900",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 3.05,
+      "cote_2": 2.65
+    },
+    {
+      "match_id": 65263178,
+      "debut": "2025-12-04T19:30:00+00:00",
+      "home": "Charleroi",
+      "away": "Malines",
+      "home_id": "sr:competitor:2898",
+      "away_id": "sr:competitor:5044",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.58,
+      "cote_N": 3.4,
+      "cote_2": 3.8
+    },
+    {
+      "match_id": 61300793,
+      "debut": "2025-12-04T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "West Ham",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.27,
+      "cote_N": 4.3,
+      "cote_2": 6.5
+    },
+    {
+      "match_id": 64099995,
+      "debut": "2025-12-04T20:00:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2692",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.95,
+      "cote_N": 2.7,
+      "cote_2": 2.05
+    },
+    {
+      "match_id": 61733598,
+      "debut": "2025-12-04T20:15:00+00:00",
+      "home": "FC Porto",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3009",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.38,
+      "cote_N": 3.65,
+      "cote_2": 5.6
+    },
+    {
+      "match_id": 58053205,
+      "debut": "2025-12-04T22:30:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1958",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.62,
+      "cote_N": 3.1,
+      "cote_2": 4.1
+    }
+  ]
+}

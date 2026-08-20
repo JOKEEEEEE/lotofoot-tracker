@@ -1,0 +1,127 @@
+{
+  "grille_id": 325,
+  "grille_type": "grille7",
+  "pool_id": 7000325,
+  "titre": "Grille 7 n°325",
+  "statut": "CLOSED",
+  "fin": "2016-09-15T19:05:00+00:00",
+  "collecte_le": "2026-08-20T12:27:42.612647+00:00",
+  "mises_nettes": 13764,
+  "montant_distribue": 13764,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010010001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 362.21
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 259,
+      "winningsPerGrid": 26.57
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10063245,
+      "debut": "2016-09-15T19:05:00+00:00",
+      "home": "Nice",
+      "away": "Schalke 04",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:2530",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10063235,
+      "debut": "2016-09-15T19:05:00+00:00",
+      "home": "Standard Liège",
+      "away": "Celta Vigo",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:2821",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10063237,
+      "debut": "2016-09-15T19:05:00+00:00",
+      "home": "Panathinaïkos",
+      "away": "Ajax Amsterdam",
+      "home_id": "sr:competitor:3248",
+      "away_id": "sr:competitor:2953",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10063241,
+      "debut": "2016-09-15T19:05:00+00:00",
+      "home": "Braga",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:2903",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10063255,
+      "debut": "2016-09-15T19:05:00+00:00",
+      "home": "PAOK Salonique",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:3251",
+      "away_id": "sr:competitor:2693",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10063259,
+      "debut": "2016-09-15T19:05:00+00:00",
+      "home": "Southampton",
+      "away": "Sparta Prague",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:2218",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10063263,
+      "debut": "2016-09-15T19:05:00+00:00",
+      "home": "Villarreal",
+      "away": "FC Zurich",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2450",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

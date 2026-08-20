@@ -1,0 +1,127 @@
+{
+  "grille_id": 1227,
+  "grille_type": "grille7",
+  "pool_id": 7001227,
+  "titre": "Grille 7 n°1227",
+  "statut": "CLOSED",
+  "fin": "2019-04-17T19:00:00+00:00",
+  "collecte_le": "2026-08-20T11:06:30.534571+00:00",
+  "mises_nettes": 8318.25,
+  "montant_distribue": 11000,
+  "montant_garanti": 11000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 13,
+      "winningsPerGrid": 423.08
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 206,
+      "winningsPerGrid": 26.7
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17679868,
+      "debut": "2019-04-17T19:00:00+00:00",
+      "home": "FC Porto",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17679872,
+      "debut": "2019-04-17T19:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:33",
+      "score_home": 4,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899573,
+      "debut": "2019-04-17T19:00:00+00:00",
+      "home": "Pasto",
+      "away": "Alianza Petrolera",
+      "home_id": "sr:competitor:6113",
+      "away_id": "sr:competitor:89156",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899587,
+      "debut": "2019-04-17T21:00:00+00:00",
+      "home": "Jaguares De Cordoba",
+      "away": "Envigado FC",
+      "home_id": "sr:competitor:89370",
+      "away_id": "sr:competitor:6114",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17791478,
+      "debut": "2019-04-17T22:15:00+00:00",
+      "home": "General Diaz",
+      "away": "Sol De America",
+      "home_id": "sr:competitor:87472",
+      "away_id": "sr:competitor:36439",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899585,
+      "debut": "2019-04-17T23:00:00+00:00",
+      "home": "Atletico Huila",
+      "away": "Santa Fe",
+      "home_id": "sr:competitor:6104",
+      "away_id": "sr:competitor:6116",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16899575,
+      "debut": "2019-04-18T00:00:00+00:00",
+      "home": "Millonarios ",
+      "away": "Tolima",
+      "home_id": "sr:competitor:6117",
+      "away_id": "sr:competitor:6111",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

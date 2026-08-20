@@ -1,0 +1,136 @@
+{
+  "grille_id": 3725,
+  "grille_type": "grille7",
+  "pool_id": 7003725,
+  "titre": "Grille 7 n°3725",
+  "statut": "CLOSED",
+  "fin": "2025-05-20T17:15:00+00:00",
+  "collecte_le": "2026-08-20T07:24:43.854600+00:00",
+  "mises_nettes": 3090.75,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 57,
+      "winningsPerGrid": 35.09
+    }
+  ],
+  "repartition": [
+    93,
+    459,
+    1010,
+    1239,
+    918,
+    341,
+    57,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 60052203,
+      "debut": "2025-05-20T17:15:00+00:00",
+      "home": "FK Septemvri Sofia",
+      "away": "Lokomotiv Sofia",
+      "home_id": "sr:competitor:214054",
+      "away_id": "sr:competitor:3277",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52034871,
+      "debut": "2025-05-20T18:00:00+00:00",
+      "home": "Al Shabab",
+      "away": "Al-Ittihad FC",
+      "home_id": "sr:competitor:34313",
+      "away_id": "sr:competitor:34315",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60367893,
+      "debut": "2025-05-20T19:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:60",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850705,
+      "debut": "2025-05-20T19:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:3",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60557767,
+      "debut": "2025-05-20T19:30:00+00:00",
+      "home": "Sportivo Luqueno",
+      "away": "CD Recoleta",
+      "home_id": "sr:competitor:5998",
+      "away_id": "sr:competitor:463345",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60557769,
+      "debut": "2025-05-20T22:00:00+00:00",
+      "home": "Sportivo Trinidense",
+      "away": "Nacional Asuncion",
+      "home_id": "sr:competitor:39722",
+      "away_id": "sr:competitor:33001",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60544461,
+      "debut": "2025-05-20T23:30:00+00:00",
+      "home": "River Plate",
+      "away": "Club Atletico Platense",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:36837",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

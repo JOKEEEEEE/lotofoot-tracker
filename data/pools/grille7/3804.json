@@ -1,0 +1,136 @@
+{
+  "grille_id": 3804,
+  "grille_type": "grille7",
+  "pool_id": 7003804,
+  "titre": "Grille 7 n°3804",
+  "statut": "CLOSED",
+  "fin": "2025-08-07T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:18:03.077926+00:00",
+  "mises_nettes": 4150.5,
+  "montant_distribue": 4150.5,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2075.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 24,
+      "winningsPerGrid": 86.47
+    }
+  ],
+  "repartition": [
+    352,
+    1350,
+    1728,
+    1321,
+    600,
+    158,
+    24,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 62201974,
+      "debut": "2025-08-07T18:00:00+00:00",
+      "home": "Panathinaïkos FC",
+      "away": "Shakhtar Donetsk",
+      "home_id": "sr:competitor:3248",
+      "away_id": "sr:competitor:3313",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62247638,
+      "debut": "2025-08-07T18:00:00+00:00",
+      "home": "Vikingur Gota",
+      "away": "Linfield",
+      "home_id": "sr:competitor:5193",
+      "away_id": "sr:competitor:5272",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62247842,
+      "debut": "2025-08-07T18:00:00+00:00",
+      "home": "Polissya Zhytomyr",
+      "away": "Paksi",
+      "home_id": "sr:competitor:350828",
+      "away_id": "sr:competitor:6059",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62247628,
+      "debut": "2025-08-07T18:00:00+00:00",
+      "home": "Differdange FC 03",
+      "away": "Levadia Tallinn",
+      "home_id": "sr:competitor:7605",
+      "away_id": "sr:competitor:3342",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62201964,
+      "debut": "2025-08-07T18:30:00+00:00",
+      "home": "Servette FC",
+      "away": "Utrecht",
+      "home_id": "sr:competitor:2448",
+      "away_id": "sr:competitor:2948",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62247826,
+      "debut": "2025-08-07T18:30:00+00:00",
+      "home": "KF Ballkani",
+      "away": "Shamrock Rovers",
+      "home_id": "sr:competitor:280003",
+      "away_id": "sr:competitor:3177",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62247862,
+      "debut": "2025-08-07T19:00:00+00:00",
+      "home": "Partizan Belgrade",
+      "away": "Hibernian FC",
+      "home_id": "sr:competitor:5152",
+      "away_id": "sr:competitor:2354",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

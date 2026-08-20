@@ -1,0 +1,136 @@
+{
+  "grille_id": 2936,
+  "grille_type": "grille7",
+  "pool_id": 7002936,
+  "titre": "Grille 7 n°2936",
+  "statut": "CLOSED",
+  "fin": "2023-06-09T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:35:27.418002+00:00",
+  "mises_nettes": 5466.75,
+  "montant_distribue": 5466.75,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 2733.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 36,
+      "winningsPerGrid": 75.93
+    }
+  ],
+  "repartition": [
+    70,
+    1179,
+    2465,
+    2178,
+    1067,
+    293,
+    36,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 38546135,
+      "debut": "2023-06-09T18:30:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:3217",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144859,
+      "debut": "2023-06-09T18:45:00+00:00",
+      "home": "Derry City",
+      "away": "Bohemians",
+      "home_id": "sr:competitor:3170",
+      "away_id": "sr:competitor:3173",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144861,
+      "debut": "2023-06-09T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "St Patricks",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3169",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144863,
+      "debut": "2023-06-09T18:45:00+00:00",
+      "home": "Shelbourne Dublin",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3174",
+      "away_id": "sr:competitor:3190",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144857,
+      "debut": "2023-06-09T18:45:00+00:00",
+      "home": "Cork City",
+      "away": "Dundalk",
+      "home_id": "sr:competitor:40896",
+      "away_id": "sr:competitor:3179",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38144865,
+      "debut": "2023-06-09T19:00:00+00:00",
+      "home": "Shamrock Rovers",
+      "away": "UC Dublin",
+      "home_id": "sr:competitor:3177",
+      "away_id": "sr:competitor:3168",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40456211,
+      "debut": "2023-06-09T21:00:00+00:00",
+      "home": "Guairena FC",
+      "away": "Sportivo Luqueno",
+      "home_id": "sr:competitor:322375",
+      "away_id": "sr:competitor:5998",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

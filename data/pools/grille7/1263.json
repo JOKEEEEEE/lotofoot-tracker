@@ -1,0 +1,127 @@
+{
+  "grille_id": 1263,
+  "grille_type": "grille7",
+  "pool_id": 7001263,
+  "titre": "Grille 7 n°1263",
+  "statut": "CLOSED",
+  "fin": "2019-05-23T15:00:00+00:00",
+  "collecte_le": "2026-08-20T11:03:50.008760+00:00",
+  "mises_nettes": 3288,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010100100001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 65,
+      "winningsPerGrid": 30.77
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 17160807,
+      "debut": "2019-05-23T15:00:00+00:00",
+      "home": "Chikhura Sachkhere",
+      "away": "Dinamo Batumi",
+      "home_id": "sr:competitor:37296",
+      "away_id": "sr:competitor:37297",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17160809,
+      "debut": "2019-05-23T17:00:00+00:00",
+      "home": "Georgia Tbilisi",
+      "away": "Lokomotivi Tbilisi",
+      "home_id": "sr:competitor:5196",
+      "away_id": "sr:competitor:5170",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18200195,
+      "debut": "2019-05-23T17:00:00+00:00",
+      "home": "Etar 1924 Veliko Tarnovo",
+      "away": "Slavia Sofia",
+      "home_id": "sr:competitor:36941",
+      "away_id": "sr:competitor:3274",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 17586857,
+      "debut": "2019-05-23T17:30:00+00:00",
+      "home": "Gaz Metan Medias",
+      "away": "FC Voluntari",
+      "home_id": "sr:competitor:23575",
+      "away_id": "sr:competitor:44255",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18254987,
+      "debut": "2019-05-23T18:30:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Union Berlin",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2547",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18251259,
+      "debut": "2019-05-23T18:45:00+00:00",
+      "home": "Dundee United",
+      "away": "St. Mirren",
+      "home_id": "sr:competitor:2349",
+      "away_id": "sr:competitor:2359",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18257231,
+      "debut": "2019-05-24T01:45:00+00:00",
+      "home": "Tigres",
+      "away": "Leon",
+      "home_id": "sr:competitor:1940",
+      "away_id": "sr:competitor:36534",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

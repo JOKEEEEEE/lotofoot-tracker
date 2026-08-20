@@ -1,0 +1,127 @@
+{
+  "grille_id": 54,
+  "grille_type": "grille7",
+  "pool_id": 7000054,
+  "titre": "Grille 7 n°54",
+  "statut": "CLOSED",
+  "fin": "2015-11-11T17:00:00+00:00",
+  "collecte_le": "2026-08-20T12:53:51.601938+00:00",
+  "mises_nettes": 6126.75,
+  "montant_distribue": 6126.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001010001001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 612.68
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 123,
+      "winningsPerGrid": 24.91
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7673736,
+      "debut": "2015-11-11T17:00:00+00:00",
+      "home": "Soudan",
+      "away": "Zambie",
+      "home_id": "sr:competitor:4734",
+      "away_id": "sr:competitor:4720",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7673742,
+      "debut": "2015-11-11T17:00:00+00:00",
+      "home": "Mozambique",
+      "away": "Gabon",
+      "home_id": "sr:competitor:4783",
+      "away_id": "sr:competitor:4761",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8255890,
+      "debut": "2015-11-11T17:00:00+00:00",
+      "home": "LSK Kvinner",
+      "away": "Francfort (F)",
+      "home_id": "sr:competitor:733",
+      "away_id": "sr:competitor:5541",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8255870,
+      "debut": "2015-11-11T18:00:00+00:00",
+      "home": "FC Twente",
+      "away": "Barcelone",
+      "home_id": "sr:competitor:55511",
+      "away_id": "sr:competitor:77889",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8255884,
+      "debut": "2015-11-11T18:00:00+00:00",
+      "home": "KIF Örebro Dff",
+      "away": "Paris SG (F)",
+      "home_id": "sr:competitor:7390",
+      "away_id": "sr:competitor:55505",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8255876,
+      "debut": "2015-11-11T19:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Lyon",
+      "home_id": "sr:competitor:77879",
+      "away_id": "sr:competitor:26245",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8255880,
+      "debut": "2015-11-11T19:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Wolfsburg",
+      "home_id": "sr:competitor:66768",
+      "away_id": "sr:competitor:5556",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

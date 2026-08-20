@@ -1,0 +1,136 @@
+{
+  "grille_id": 2902,
+  "grille_type": "grille7",
+  "pool_id": 7002902,
+  "titre": "Grille 7 n°2902",
+  "statut": "CLOSED",
+  "fin": "2023-05-10T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:37:56.556105+00:00",
+  "mises_nettes": 7212.75,
+  "montant_distribue": 7212.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 721.28
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 107,
+      "winningsPerGrid": 33.7
+    }
+  ],
+  "repartition": [
+    102,
+    1099,
+    2620,
+    2981,
+    1985,
+    718,
+    107,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 40781317,
+      "debut": "2023-05-10T19:00:00+00:00",
+      "home": "Milan AC",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438885,
+      "debut": "2023-05-10T22:00:00+00:00",
+      "home": "Santos",
+      "away": "Bahia ",
+      "home_id": "sr:competitor:1968",
+      "away_id": "sr:competitor:1955",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438891,
+      "debut": "2023-05-10T22:00:00+00:00",
+      "home": "Bragantino SP",
+      "away": "America Mineiro MG",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:1973",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438901,
+      "debut": "2023-05-10T22:00:00+00:00",
+      "home": "Internacional ",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1967",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438907,
+      "debut": "2023-05-10T23:00:00+00:00",
+      "home": "Cuiaba MT",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:49202",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438883,
+      "debut": "2023-05-11T00:30:00+00:00",
+      "home": "Palmeiras",
+      "away": "Grêmio",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:5926",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438899,
+      "debut": "2023-05-11T00:30:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1961",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

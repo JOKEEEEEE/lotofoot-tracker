@@ -1,0 +1,136 @@
+{
+  "grille_id": 2052,
+  "grille_type": "grille7",
+  "pool_id": 7002052,
+  "titre": "Grille 7 n°2052",
+  "statut": "CLOSED",
+  "fin": "2021-05-22T13:30:00+00:00",
+  "collecte_le": "2026-08-20T13:18:53.798731+00:00",
+  "mises_nettes": 10740,
+  "montant_distribue": 10740,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 259,
+      "winningsPerGrid": 20.73
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1942,
+      "winningsPerGrid": 2.77
+    }
+  ],
+  "repartition": [
+    45,
+    298,
+    1123,
+    2748,
+    4162,
+    3743,
+    1942,
+    259
+  ],
+  "matches": [
+    {
+      "match_id": 23032425,
+      "debut": "2021-05-22T13:30:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Bayer Leverkusen",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2681",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 170,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23032431,
+      "debut": "2021-05-22T13:30:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Fribourg",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:2538",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.02,
+      "cote_N": 14.5,
+      "cote_2": 200
+    },
+    {
+      "match_id": 23032433,
+      "debut": "2021-05-22T13:30:00+00:00",
+      "home": "Union Berlin",
+      "away": "RB Leipzig",
+      "home_id": "sr:competitor:2547",
+      "away_id": "sr:competitor:36360",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.03,
+      "cote_N": 10,
+      "cote_2": 110
+    },
+    {
+      "match_id": 23032437,
+      "debut": "2021-05-22T13:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Borussia M'Gladbach",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2527",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 225,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23361061,
+      "debut": "2021-05-22T16:00:00+00:00",
+      "home": "Real Valladolid",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2831",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 180,
+      "cote_N": 14,
+      "cote_2": 1.02
+    },
+    {
+      "match_id": 23361065,
+      "debut": "2021-05-22T16:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2819",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.02,
+      "cote_N": 14.5,
+      "cote_2": 200
+    },
+    {
+      "match_id": 23361075,
+      "debut": "2021-05-22T16:00:00+00:00",
+      "home": "Eibar",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2817",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 23,
+      "cote_2": 1.01
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1655,
+  "grille_type": "grille7",
+  "pool_id": 7001655,
+  "titre": "Grille 7 n°1655",
+  "statut": "CLOSED",
+  "fin": "2020-06-28T12:00:00+00:00",
+  "collecte_le": "2026-08-20T10:26:33.980472+00:00",
+  "mises_nettes": 11070,
+  "montant_distribue": 11070,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 44,
+      "winningsPerGrid": 125.8
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 423,
+      "winningsPerGrid": 13.09
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22169337,
+      "debut": "2020-06-28T12:00:00+00:00",
+      "home": "Levante",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2849",
+      "away_id": "sr:competitor:2816",
+      "score_home": 4,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22135721,
+      "debut": "2020-06-28T12:00:00+00:00",
+      "home": "Sheffield United",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:15",
+      "away_id": "sr:competitor:42",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22237901,
+      "debut": "2020-06-28T13:15:00+00:00",
+      "home": "Nottingham Forest",
+      "away": "Huddersfield",
+      "home_id": "sr:competitor:14",
+      "away_id": "sr:competitor:59",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22169351,
+      "debut": "2020-06-28T15:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Valence",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2828",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22135717,
+      "debut": "2020-06-28T15:00:00+00:00",
+      "home": "Leicester",
+      "away": "Chelsea",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:38",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22170601,
+      "debut": "2020-06-28T15:15:00+00:00",
+      "home": "Milan AC",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22206305,
+      "debut": "2020-06-28T15:30:00+00:00",
+      "home": "Watford",
+      "away": "Southampton",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:45",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

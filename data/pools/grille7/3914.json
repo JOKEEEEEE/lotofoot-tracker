@@ -1,0 +1,136 @@
+{
+  "grille_id": 3914,
+  "grille_type": "grille7",
+  "pool_id": 7003914,
+  "titre": "Grille 7 n°3914",
+  "statut": "CLOSED",
+  "fin": "2025-12-01T17:00:00+00:00",
+  "collecte_le": "2026-08-20T06:44:27.478943+00:00",
+  "mises_nettes": 6433.5,
+  "montant_distribue": 6433.5,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010001010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 3216.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 42,
+      "winningsPerGrid": 76.59
+    }
+  ],
+  "repartition": [
+    185,
+    1330,
+    2868,
+    2528,
+    1284,
+    340,
+    42,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 61720650,
+      "debut": "2025-12-01T17:00:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:3061",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2,
+      "cote_N": 3.15,
+      "cote_2": 2.65
+    },
+    {
+      "match_id": 61720644,
+      "debut": "2025-12-01T17:00:00+00:00",
+      "home": "Samsunspor",
+      "away": "Alanyaspor",
+      "home_id": "sr:competitor:3053",
+      "away_id": "sr:competitor:6362",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.25,
+      "cote_2": 4
+    },
+    {
+      "match_id": 61062029,
+      "debut": "2025-12-01T18:00:00+00:00",
+      "home": "Motor Lublin",
+      "away": "Legia Varsovie",
+      "home_id": "sr:competitor:7915",
+      "away_id": "sr:competitor:3106",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.45,
+      "cote_N": 3,
+      "cote_2": 2.15
+    },
+    {
+      "match_id": 61061067,
+      "debut": "2025-12-01T19:45:00+00:00",
+      "home": "Bologne",
+      "away": "Cremonese",
+      "home_id": "sr:competitor:2685",
+      "away_id": "sr:competitor:2761",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.4,
+      "cote_N": 3.6,
+      "cote_2": 5.3
+    },
+    {
+      "match_id": 61624206,
+      "debut": "2025-12-01T20:00:00+00:00",
+      "home": "Rayo Vallecano",
+      "away": "Valence",
+      "home_id": "sr:competitor:2818",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.86,
+      "cote_N": 2.8,
+      "cote_2": 3.3
+    },
+    {
+      "match_id": 62819093,
+      "debut": "2025-12-01T20:00:00+00:00",
+      "home": "Birmingham",
+      "away": "Watford",
+      "home_id": "sr:competitor:9",
+      "away_id": "sr:competitor:24",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.58,
+      "cote_N": 3.2,
+      "cote_2": 4.1
+    },
+    {
+      "match_id": 61731072,
+      "debut": "2025-12-01T20:15:00+00:00",
+      "home": "FC Arouca",
+      "away": "Braga",
+      "home_id": "sr:competitor:25777",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 6,
+      "cote_N": 3.9,
+      "cote_2": 1.33
+    }
+  ]
+}

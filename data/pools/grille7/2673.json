@@ -1,0 +1,136 @@
+{
+  "grille_id": 2673,
+  "grille_type": "grille7",
+  "pool_id": 7002673,
+  "titre": "Grille 7 n°2673",
+  "statut": "CLOSED",
+  "fin": "2022-10-30T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:58:20.666022+00:00",
+  "mises_nettes": 10192.5,
+  "montant_distribue": 10192.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 849.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 103,
+      "winningsPerGrid": 49.48
+    }
+  ],
+  "repartition": [
+    312,
+    1636,
+    4071,
+    4404,
+    2369,
+    689,
+    103,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 34172241,
+      "debut": "2022-10-30T19:45:00+00:00",
+      "home": "Lyon",
+      "away": "Lille",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1643",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286751,
+      "debut": "2022-10-30T19:45:00+00:00",
+      "home": "Torino",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2692",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277431,
+      "debut": "2022-10-30T20:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2816",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34271231,
+      "debut": "2022-10-30T20:00:00+00:00",
+      "home": "Charleroi",
+      "away": "Royal Antwerp FC",
+      "home_id": "sr:competitor:2898",
+      "away_id": "sr:competitor:2889",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278685,
+      "debut": "2022-10-30T20:00:00+00:00",
+      "home": "Albacete",
+      "away": "Villarreal CF B",
+      "home_id": "sr:competitor:2848",
+      "away_id": "sr:competitor:24338",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31802747,
+      "debut": "2022-10-30T20:30:00+00:00",
+      "home": "Colo Colo",
+      "away": "O'Higgins",
+      "home_id": "sr:competitor:3155",
+      "away_id": "sr:competitor:3163",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504755,
+      "debut": "2022-10-30T20:30:00+00:00",
+      "home": "Gil Vicente",
+      "away": "Braga",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:2999",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2832,
+  "grille_type": "grille7",
+  "pool_id": 7002832,
+  "titre": "Grille 7 n°2832",
+  "statut": "CLOSED",
+  "fin": "2023-03-13T19:45:00+00:00",
+  "collecte_le": "2026-08-20T13:09:28.775825+00:00",
+  "mises_nettes": 13136.25,
+  "montant_distribue": 13136.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001100010010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 1313.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 115,
+      "winningsPerGrid": 57.11
+    }
+  ],
+  "repartition": [
+    643,
+    2798,
+    5231,
+    5127,
+    2771,
+    825,
+    115,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 34171773,
+      "debut": "2023-03-13T19:45:00+00:00",
+      "home": "Metz",
+      "away": "Le Havre",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1662",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34287025,
+      "debut": "2023-03-13T19:48:00+00:00",
+      "home": "Milan AC",
+      "away": "Salernitana",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2710",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39307883,
+      "debut": "2023-03-13T19:45:00+00:00",
+      "home": "Crusaders",
+      "away": "Cliftonville",
+      "home_id": "sr:competitor:5180",
+      "away_id": "sr:competitor:5181",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39414405,
+      "debut": "2023-03-13T19:45:00+00:00",
+      "home": "Falkirk FC",
+      "away": "AYR United",
+      "home_id": "sr:competitor:2363",
+      "away_id": "sr:competitor:2364",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277689,
+      "debut": "2023-03-13T20:00:00+00:00",
+      "home": "Gérone",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34279077,
+      "debut": "2023-03-13T20:00:00+00:00",
+      "home": "Racing Santander",
+      "away": "Huesca",
+      "home_id": "sr:competitor:2835",
+      "away_id": "sr:competitor:24265",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504989,
+      "debut": "2023-03-13T20:15:00+00:00",
+      "home": "Famalicao",
+      "away": "Casa Pia AC",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:36365",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

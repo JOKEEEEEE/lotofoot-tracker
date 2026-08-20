@@ -1,0 +1,127 @@
+{
+  "grille_id": 93,
+  "grille_type": "grille7",
+  "pool_id": 7000093,
+  "titre": "Grille 7 n°93",
+  "statut": "CLOSED",
+  "fin": "2015-12-21T18:30:00+00:00",
+  "collecte_le": "2026-08-20T12:50:57.742252+00:00",
+  "mises_nettes": 7887.75,
+  "montant_distribue": 7887.75,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 985.97
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 79,
+      "winningsPerGrid": 49.92
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7509132,
+      "debut": "2015-12-21T18:30:00+00:00",
+      "home": "FC Steaua Bucarest",
+      "away": "ACS Poli Timisoara",
+      "home_id": "sr:competitor:3301",
+      "away_id": "sr:competitor:79541",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7607466,
+      "debut": "2015-12-21T18:55:00+00:00",
+      "home": "Maccabi Tel-Aviv",
+      "away": "Hapoel Beer Sheva",
+      "home_id": "sr:competitor:5198",
+      "away_id": "sr:competitor:5202",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7517364,
+      "debut": "2015-12-21T19:00:00+00:00",
+      "home": "Paderborn",
+      "away": "Düsseldorf",
+      "home_id": "sr:competitor:2561",
+      "away_id": "sr:competitor:2588",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558220,
+      "debut": "2015-12-21T19:00:00+00:00",
+      "home": "Belenenses",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3004",
+      "away_id": "sr:competitor:2995",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7616444,
+      "debut": "2015-12-21T19:30:00+00:00",
+      "home": "Athletic Bilbao B",
+      "away": "Lugo",
+      "home_id": "sr:competitor:24324",
+      "away_id": "sr:competitor:24332",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7464766,
+      "debut": "2015-12-21T20:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:17",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558224,
+      "debut": "2015-12-21T21:00:00+00:00",
+      "home": "Braga",
+      "away": "Paços de Ferreira",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3003",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

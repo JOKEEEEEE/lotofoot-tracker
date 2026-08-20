@@ -1,0 +1,136 @@
+{
+  "grille_id": 3428,
+  "grille_type": "grille7",
+  "pool_id": 7003428,
+  "titre": "Grille 7 n°3428",
+  "statut": "CLOSED",
+  "fin": "2024-08-15T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:51:58.655377+00:00",
+  "mises_nettes": 5231.25,
+  "montant_distribue": 5231.25,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010001001001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 12,
+      "winningsPerGrid": 217.97
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 94,
+      "winningsPerGrid": 27.83
+    }
+  ],
+  "repartition": [
+    769,
+    2123,
+    2250,
+    1285,
+    442,
+    94,
+    12,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 50852081,
+      "debut": "2024-08-15T17:00:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Getafe",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2859",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52117183,
+      "debut": "2024-08-15T18:00:00+00:00",
+      "home": "Cercle Bruges",
+      "away": "Molde",
+      "home_id": "sr:competitor:2929",
+      "away_id": "sr:competitor:661",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52117185,
+      "debut": "2024-08-15T18:15:00+00:00",
+      "home": "Ajax Amsterdam",
+      "away": "Panathinaïkos",
+      "home_id": "sr:competitor:2953",
+      "away_id": "sr:competitor:3248",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51102925,
+      "debut": "2024-08-15T18:30:00+00:00",
+      "home": "Grenade",
+      "away": "Albacete",
+      "home_id": "sr:competitor:33779",
+      "away_id": "sr:competitor:2848",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52116885,
+      "debut": "2024-08-15T18:30:00+00:00",
+      "home": "FC Lugano",
+      "away": "Partizan Belgrade",
+      "home_id": "sr:competitor:2443",
+      "away_id": "sr:competitor:5152",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 52117189,
+      "debut": "2024-08-15T18:30:00+00:00",
+      "home": "Servette FC",
+      "away": "Braga",
+      "home_id": "sr:competitor:2448",
+      "away_id": "sr:competitor:2999",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852083,
+      "debut": "2024-08-15T19:30:00+00:00",
+      "home": "Betis Séville",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:24264",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

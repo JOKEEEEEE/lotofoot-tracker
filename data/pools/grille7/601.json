@@ -1,0 +1,127 @@
+{
+  "grille_id": 601,
+  "grille_type": "grille7",
+  "pool_id": 7000601,
+  "titre": "Grille 7 n°601",
+  "statut": "CLOSED",
+  "fin": "2017-07-09T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:59:44.185136+00:00",
+  "mises_nettes": 3674.25,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100010010100111100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 400
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 68,
+      "winningsPerGrid": 29.41
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 10829030,
+      "debut": "2017-07-09T18:00:00+00:00",
+      "home": "Stabaek",
+      "away": "Brann",
+      "home_id": "sr:competitor:1162",
+      "away_id": "sr:competitor:1159",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10829036,
+      "debut": "2017-07-09T18:00:00+00:00",
+      "home": "Vålerenga",
+      "away": "Haugesund",
+      "home_id": "sr:competitor:1165",
+      "away_id": "sr:competitor:673",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439429,
+      "debut": "2017-07-09T19:00:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1963",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439435,
+      "debut": "2017-07-09T19:00:00+00:00",
+      "home": "Bahia ",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1955",
+      "away_id": "sr:competitor:1961",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11549895,
+      "debut": "2017-07-09T20:00:00+00:00",
+      "home": "Valur Reykjavik",
+      "away": "Stjarnan",
+      "home_id": "sr:competitor:1899",
+      "away_id": "sr:competitor:1912",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11914394,
+      "debut": "2017-07-09T20:15:00+00:00",
+      "home": "Tigres ",
+      "away": "Once Caldas",
+      "home_id": "sr:competitor:89354",
+      "away_id": "sr:competitor:6118",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11439353,
+      "debut": "2017-07-09T22:00:00+00:00",
+      "home": "Botafogo",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1958",
+      "away_id": "sr:competitor:1977",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

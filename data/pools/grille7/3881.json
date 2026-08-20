@@ -1,0 +1,136 @@
+{
+  "grille_id": 3881,
+  "grille_type": "grille7",
+  "pool_id": 7003881,
+  "titre": "Grille 7 n°3881",
+  "statut": "CLOSED",
+  "fin": "2025-10-27T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:16:58.627331+00:00",
+  "mises_nettes": 4147.5,
+  "montant_distribue": 4147.5,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001010001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 345.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 116,
+      "winningsPerGrid": 17.88
+    }
+  ],
+  "repartition": [
+    78,
+    415,
+    1110,
+    1679,
+    1508,
+    618,
+    116,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 61720570,
+      "debut": "2025-10-27T17:00:00+00:00",
+      "home": "Samsunspor",
+      "away": "Rizespor",
+      "home_id": "sr:competitor:3053",
+      "away_id": "sr:competitor:3064",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61720574,
+      "debut": "2025-10-27T17:00:00+00:00",
+      "home": "Gaziantep Bld Spor",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:5138",
+      "away_id": "sr:competitor:3052",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62116214,
+      "debut": "2025-10-27T17:00:00+00:00",
+      "home": "AEK Larnaca",
+      "away": "APOEL Nicosie",
+      "home_id": "sr:competitor:3404",
+      "away_id": "sr:competitor:3398",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61073753,
+      "debut": "2025-10-27T18:00:00+00:00",
+      "home": "Odense",
+      "away": "Brøndby",
+      "home_id": "sr:competitor:1286",
+      "away_id": "sr:competitor:1281",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56523865,
+      "debut": "2025-10-27T18:10:00+00:00",
+      "home": "Malmö",
+      "away": "Hammarby IF",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:1758",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61624128,
+      "debut": "2025-10-27T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61731026,
+      "debut": "2025-10-27T20:15:00+00:00",
+      "home": "Moreirense",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

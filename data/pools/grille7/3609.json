@@ -1,0 +1,136 @@
+{
+  "grille_id": 3609,
+  "grille_type": "grille7",
+  "pool_id": 7003609,
+  "titre": "Grille 7 n°3609",
+  "statut": "CLOSED",
+  "fin": "2025-01-28T19:45:00+00:00",
+  "collecte_le": "2026-08-20T07:38:55.913855+00:00",
+  "mises_nettes": 3275.25,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 30,
+      "winningsPerGrid": 83.33
+    }
+  ],
+  "repartition": [
+    115,
+    640,
+    1337,
+    1297,
+    739,
+    207,
+    30,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 56132161,
+      "debut": "2025-01-28T19:45:00+00:00",
+      "home": "Portsmouth",
+      "away": "Millwall",
+      "home_id": "sr:competitor:2",
+      "away_id": "sr:competitor:25",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742743,
+      "debut": "2025-01-28T22:15:00+00:00",
+      "home": "Rosario Central",
+      "away": "Lanus",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:3218",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742745,
+      "debut": "2025-01-28T22:15:00+00:00",
+      "home": "Sarmiento",
+      "away": "Godoy Cruz",
+      "home_id": "sr:competitor:42338",
+      "away_id": "sr:competitor:6074",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742741,
+      "debut": "2025-01-28T20:00:00+00:00",
+      "home": "Deportivo Riestra",
+      "away": "San Martín",
+      "home_id": "sr:competitor:191648",
+      "away_id": "sr:competitor:7772",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742731,
+      "debut": "2025-01-29T00:32:00+00:00",
+      "home": "Independiente Rivadavia",
+      "away": "Club Atletico Barracas Central",
+      "home_id": "sr:competitor:36842",
+      "away_id": "sr:competitor:65668",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742753,
+      "debut": "2025-01-29T00:29:00+00:00",
+      "home": "Velez Sarsfield",
+      "away": "Club Atletico Platense",
+      "home_id": "sr:competitor:3208",
+      "away_id": "sr:competitor:36837",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56590999,
+      "debut": "2025-01-29T01:00:00+00:00",
+      "home": "Club América",
+      "away": "Atletico San Luis",
+      "home_id": "sr:competitor:1939",
+      "away_id": "sr:competitor:1950",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

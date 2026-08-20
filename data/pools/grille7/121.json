@@ -1,0 +1,127 @@
+{
+  "grille_id": 121,
+  "grille_type": "grille7",
+  "pool_id": 7000121,
+  "titre": "Grille 7 n°121",
+  "statut": "CLOSED",
+  "fin": "2016-01-21T19:00:00+00:00",
+  "collecte_le": "2026-08-20T12:47:21.361191+00:00",
+  "mises_nettes": 4879.5,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100111111100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 45,
+      "winningsPerGrid": 55.56
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 433,
+      "winningsPerGrid": 5.77
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 8736144,
+      "debut": "2016-01-21T19:00:00+00:00",
+      "home": "Valence",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:6577",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8680894,
+      "debut": "2016-01-21T20:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1660",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 8736146,
+      "debut": "2016-01-21T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Mirandes",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:35092",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7433766,
+      "debut": "2016-01-22T17:00:00+00:00",
+      "home": "Standard Liège",
+      "away": "La Gantoise",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:2903",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7433776,
+      "debut": "2016-01-22T17:00:00+00:00",
+      "home": "Waasland-Beveren",
+      "away": "Club Bruges",
+      "home_id": "sr:competitor:4859",
+      "away_id": "sr:competitor:2888",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7433774,
+      "debut": "2016-01-22T19:30:00+00:00",
+      "home": "Courtrai",
+      "away": "Ostende",
+      "home_id": "sr:competitor:4858",
+      "away_id": "sr:competitor:4494",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7479952,
+      "debut": "2016-01-22T19:45:00+00:00",
+      "home": "Aberdeen",
+      "away": "Dundee FC",
+      "home_id": "sr:competitor:2355",
+      "away_id": "sr:competitor:2357",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

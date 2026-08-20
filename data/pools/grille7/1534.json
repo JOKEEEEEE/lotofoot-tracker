@@ -1,0 +1,127 @@
+{
+  "grille_id": 1534,
+  "grille_type": "grille7",
+  "pool_id": 7001534,
+  "titre": "Grille 7 n°1534",
+  "statut": "CLOSED",
+  "fin": "2020-01-26T14:00:00+00:00",
+  "collecte_le": "2026-08-20T10:40:40.367653+00:00",
+  "mises_nettes": 9198.75,
+  "montant_distribue": 9198.75,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 44,
+      "winningsPerGrid": 104.53
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 459,
+      "winningsPerGrid": 10.02
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18440332,
+      "debut": "2020-01-26T14:00:00+00:00",
+      "home": "Lyon",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1681",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927196,
+      "debut": "2020-01-26T14:00:00+00:00",
+      "home": "Hellas Vérone",
+      "away": "Lecce",
+      "home_id": "sr:competitor:2701",
+      "away_id": "sr:competitor:2689",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927200,
+      "debut": "2020-01-26T14:00:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2793",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18927202,
+      "debut": "2020-01-26T14:00:00+00:00",
+      "home": "Parme",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2690",
+      "away_id": "sr:competitor:2695",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18572046,
+      "debut": "2020-01-26T14:30:00+00:00",
+      "home": "Werder Brême",
+      "away": "Hoffenheim",
+      "home_id": "sr:competitor:2534",
+      "away_id": "sr:competitor:2569",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18641046,
+      "debut": "2020-01-26T15:00:00+00:00",
+      "home": "Getafe",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2816",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18440328,
+      "debut": "2020-01-26T16:00:00+00:00",
+      "home": "Nantes",
+      "away": "Bordeaux",
+      "home_id": "sr:competitor:1647",
+      "away_id": "sr:competitor:1645",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

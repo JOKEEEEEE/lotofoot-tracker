@@ -1,0 +1,136 @@
+{
+  "grille_id": 2204,
+  "grille_type": "grille7",
+  "pool_id": 7002204,
+  "titre": "Grille 7 n°2204",
+  "statut": "CLOSED",
+  "fin": "2021-10-06T18:45:00+00:00",
+  "collecte_le": "2026-08-20T09:39:35.971439+00:00",
+  "mises_nettes": 11433,
+  "montant_distribue": 11433,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010100010010001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 5716.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 22,
+      "winningsPerGrid": 259.84
+    }
+  ],
+  "repartition": [
+    1730,
+    4577,
+    4774,
+    2892,
+    1030,
+    218,
+    22,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 24740256,
+      "debut": "2021-10-06T18:45:00+00:00",
+      "home": "Italie",
+      "away": "Espagne",
+      "home_id": "sr:competitor:4707",
+      "away_id": "sr:competitor:4698",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 60,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27471880,
+      "debut": "2021-10-06T22:00:00+00:00",
+      "home": "Atletico GO",
+      "away": "Atlético Paranaense",
+      "home_id": "sr:competitor:7314",
+      "away_id": "sr:competitor:1967",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27471884,
+      "debut": "2021-10-06T22:00:00+00:00",
+      "home": "Ceara CE",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:2001",
+      "away_id": "sr:competitor:1966",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 50,
+      "cote_N": 1,
+      "cote_2": 75
+    },
+    {
+      "match_id": 27471886,
+      "debut": "2021-10-06T22:00:00+00:00",
+      "home": "Chapecoense",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:21845",
+      "away_id": "sr:competitor:1977",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 1,
+      "cote_2": 42
+    },
+    {
+      "match_id": 27471896,
+      "debut": "2021-10-06T22:00:00+00:00",
+      "home": "Sport Recife ",
+      "away": "Juventude RS",
+      "home_id": "sr:competitor:1959",
+      "away_id": "sr:competitor:1980",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 500,
+      "cote_2": null
+    },
+    {
+      "match_id": 27471882,
+      "debut": "2021-10-06T23:30:00+00:00",
+      "home": "Bragantino SP",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 1,
+      "cote_2": 50
+    },
+    {
+      "match_id": 27471890,
+      "debut": "2021-10-07T00:30:00+00:00",
+      "home": "Fluminense",
+      "away": "Fortaleza CE",
+      "home_id": "sr:competitor:1961",
+      "away_id": "sr:competitor:2020",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

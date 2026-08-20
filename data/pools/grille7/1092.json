@@ -1,0 +1,127 @@
+{
+  "grille_id": 1092,
+  "grille_type": "grille7",
+  "pool_id": 7001092,
+  "titre": "Grille 7 n°1092",
+  "statut": "CLOSED",
+  "fin": "2018-11-29T20:00:00+00:00",
+  "collecte_le": "2026-08-20T11:19:37.639758+00:00",
+  "mises_nettes": 18459.75,
+  "montant_distribue": 18459.75,
+  "montant_garanti": 12000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 3076.63
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 89,
+      "winningsPerGrid": 103.71
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15519082,
+      "debut": "2018-11-29T20:00:00+00:00",
+      "home": "Eintracht Francfort",
+      "away": "Marseille",
+      "home_id": "sr:competitor:2674",
+      "away_id": "sr:competitor:1641",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519188,
+      "debut": "2018-11-29T20:00:00+00:00",
+      "home": "Jablonec",
+      "away": "Rennes",
+      "home_id": "sr:competitor:2205",
+      "away_id": "sr:competitor:1658",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519144,
+      "debut": "2018-11-29T20:00:00+00:00",
+      "home": "Standard Liège",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2901",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519110,
+      "debut": "2018-11-29T20:00:00+00:00",
+      "home": "Malmö",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:1892",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519108,
+      "debut": "2018-11-29T20:00:00+00:00",
+      "home": "Sarpsborg 08",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:822",
+      "away_id": "sr:competitor:3050",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519084,
+      "debut": "2018-11-29T20:00:00+00:00",
+      "home": "Apollon Limassol",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:3402",
+      "away_id": "sr:competitor:2699",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15519056,
+      "debut": "2018-11-29T20:00:00+00:00",
+      "home": "Glasgow Rangers",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2351",
+      "away_id": "sr:competitor:2819",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

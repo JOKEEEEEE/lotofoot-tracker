@@ -1,0 +1,127 @@
+{
+  "grille_id": 1333,
+  "grille_type": "grille7",
+  "pool_id": 7001333,
+  "titre": "Grille 7 n°1333",
+  "statut": "CLOSED",
+  "fin": "2019-08-03T18:30:00+00:00",
+  "collecte_le": "2026-08-20T10:57:47.042558+00:00",
+  "mises_nettes": 9540,
+  "montant_distribue": 9540,
+  "montant_garanti": 7000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 954
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 85,
+      "winningsPerGrid": 56.12
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18300045,
+      "debut": "2019-08-03T18:30:00+00:00",
+      "home": "Borussia Dortmund",
+      "away": "Bayern Munich",
+      "home_id": "sr:competitor:2673",
+      "away_id": "sr:competitor:2672",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18382099,
+      "debut": "2019-08-03T18:30:00+00:00",
+      "home": "Zénith St-Pétersbourg",
+      "away": "FK Krasnodar",
+      "home_id": "sr:competitor:2321",
+      "away_id": "sr:competitor:34425",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18600404,
+      "debut": "2019-08-03T18:30:00+00:00",
+      "home": "Malines",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:5044",
+      "away_id": "sr:competitor:2890",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723266,
+      "debut": "2019-08-03T18:30:00+00:00",
+      "home": "Rosario Central",
+      "away": "CA Talleres",
+      "home_id": "sr:competitor:3217",
+      "away_id": "sr:competitor:3210",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18439754,
+      "debut": "2019-08-03T18:45:00+00:00",
+      "home": "Twente",
+      "away": "PSV Eindhoven",
+      "home_id": "sr:competitor:2955",
+      "away_id": "sr:competitor:2952",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18439752,
+      "debut": "2019-08-03T18:45:00+00:00",
+      "home": "VVV Venlo",
+      "away": "RKC Waalwijk",
+      "home_id": "sr:competitor:2980",
+      "away_id": "sr:competitor:2956",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16682121,
+      "debut": "2019-08-03T21:00:00+00:00",
+      "home": "Atlanta United FC",
+      "away": "Los Angeles Galaxy",
+      "home_id": "sr:competitor:305920",
+      "away_id": "sr:competitor:2513",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

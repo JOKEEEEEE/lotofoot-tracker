@@ -1,0 +1,136 @@
+{
+  "grille_id": 3128,
+  "grille_type": "grille7",
+  "pool_id": 7003128,
+  "titre": "Grille 7 n°3128",
+  "statut": "CLOSED",
+  "fin": "2023-11-26T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:12:48.714232+00:00",
+  "mises_nettes": 7201.5,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100010100100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 220.59
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 215,
+      "winningsPerGrid": 17.44
+    }
+  ],
+  "repartition": [
+    103,
+    774,
+    2178,
+    3030,
+    2304,
+    981,
+    215,
+    17
+  ],
+  "matches": [
+    {
+      "match_id": 42004745,
+      "debut": "2023-11-26T19:45:00+00:00",
+      "home": "Lyon",
+      "away": "Lille",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1643",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134359,
+      "debut": "2023-11-26T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893163,
+      "debut": "2023-11-26T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:6577",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984179,
+      "debut": "2023-11-26T20:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Alcorcon",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:24322",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439689,
+      "debut": "2023-11-26T21:30:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Palmeiras",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:1963",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439685,
+      "debut": "2023-11-26T21:30:00+00:00",
+      "home": "Internacional ",
+      "away": "Bragantino SP",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:1999",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39439677,
+      "debut": "2023-11-26T21:30:00+00:00",
+      "home": "Sao Paulo",
+      "away": "Cuiaba MT",
+      "home_id": "sr:competitor:1981",
+      "away_id": "sr:competitor:49202",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

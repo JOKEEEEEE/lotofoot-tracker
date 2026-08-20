@@ -1,0 +1,136 @@
+{
+  "grille_id": 3258,
+  "grille_type": "grille7",
+  "pool_id": 7003258,
+  "titre": "Grille 7 n°3258",
+  "statut": "CLOSED",
+  "fin": "2024-03-10T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:04:28.632280+00:00",
+  "mises_nettes": 10610.25,
+  "montant_distribue": 10610.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 353.68
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 142,
+      "winningsPerGrid": 37.36
+    }
+  ],
+  "repartition": [
+    59,
+    943,
+    4090,
+    4972,
+    2985,
+    941,
+    142,
+    15
+  ],
+  "matches": [
+    {
+      "match_id": 42004959,
+      "debut": "2024-03-10T19:45:00+00:00",
+      "home": "Marseille",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1647",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134655,
+      "debut": "2024-03-10T19:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893449,
+      "debut": "2024-03-10T20:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "Villarreal",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2819",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984463,
+      "debut": "2024-03-10T20:00:00+00:00",
+      "home": "Alcorcon",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:24322",
+      "away_id": "sr:competitor:2814",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46656577,
+      "debut": "2024-03-10T20:00:00+00:00",
+      "home": "Huracan",
+      "away": "Argentinos Juniors",
+      "home_id": "sr:competitor:7629",
+      "away_id": "sr:competitor:3216",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146621,
+      "debut": "2024-03-10T20:30:00+00:00",
+      "home": "Benfica",
+      "away": "Estoril",
+      "home_id": "sr:competitor:3006",
+      "away_id": "sr:competitor:4500",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46364495,
+      "debut": "2024-03-10T21:00:00+00:00",
+      "home": "Inter Miami CF",
+      "away": "Montréal",
+      "home_id": "sr:competitor:659691",
+      "away_id": "sr:competitor:22006",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

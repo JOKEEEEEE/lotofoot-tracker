@@ -1,0 +1,127 @@
+{
+  "grille_id": 1090,
+  "grille_type": "grille7",
+  "pool_id": 7001090,
+  "titre": "Grille 7 n°1090",
+  "statut": "CLOSED",
+  "fin": "2018-11-27T20:00:00+00:00",
+  "collecte_le": "2026-08-20T11:19:43.027520+00:00",
+  "mises_nettes": 24778.5,
+  "montant_distribue": 25000,
+  "montant_garanti": 25000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 79,
+      "winningsPerGrid": 158.23
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1111,
+      "winningsPerGrid": 11.25
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 15511492,
+      "debut": "2018-11-27T20:00:00+00:00",
+      "home": "Lyon",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:17",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15511490,
+      "debut": "2018-11-27T20:00:00+00:00",
+      "home": "Bayern Munich",
+      "away": "Benfica",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:3006",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15511494,
+      "debut": "2018-11-27T20:00:00+00:00",
+      "home": "Hoffenheim",
+      "away": "Shakhtar Donetsk",
+      "home_id": "sr:competitor:2569",
+      "away_id": "sr:competitor:3313",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15511498,
+      "debut": "2018-11-27T20:00:00+00:00",
+      "home": "AS Rome",
+      "away": "Real Madrid",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2829",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15511500,
+      "debut": "2018-11-27T20:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Valence",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2828",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15511502,
+      "debut": "2018-11-27T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:2445",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15511504,
+      "debut": "2018-11-28T17:55:00+00:00",
+      "home": "Lokomotiv Moscou",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:2320",
+      "away_id": "sr:competitor:3061",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

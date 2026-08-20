@@ -1,0 +1,127 @@
+{
+  "grille_id": 851,
+  "grille_type": "grille7",
+  "pool_id": 7000851,
+  "titre": "Grille 7 n°851",
+  "statut": "CLOSED",
+  "fin": "2018-03-28T18:05:00+00:00",
+  "collecte_le": "2026-08-20T13:30:14.448084+00:00",
+  "mises_nettes": 5301.75,
+  "montant_distribue": 5301.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 662.72
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 95,
+      "winningsPerGrid": 27.9
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 13103714,
+      "debut": "2018-03-28T18:05:00+00:00",
+      "home": "Chelsea",
+      "away": "Montpellier (F)",
+      "home_id": "sr:competitor:66768",
+      "away_id": "sr:competitor:36701",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12188360,
+      "debut": "2018-03-28T18:30:00+00:00",
+      "home": "Ascoli",
+      "away": "Bari",
+      "home_id": "sr:competitor:2707",
+      "away_id": "sr:competitor:2712",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14093863,
+      "debut": "2018-03-28T18:45:00+00:00",
+      "home": "St Johnstone",
+      "away": "Hamilton",
+      "home_id": "sr:competitor:2348",
+      "away_id": "sr:competitor:2376",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842707,
+      "debut": "2018-03-28T19:00:00+00:00",
+      "home": "Deportivo Rionegro",
+      "away": "Águilas Doradas",
+      "home_id": "sr:competitor:89362",
+      "away_id": "sr:competitor:48244",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842705,
+      "debut": "2018-03-28T23:00:00+00:00",
+      "home": "La Equidad",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:6975",
+      "away_id": "sr:competitor:6105",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842715,
+      "debut": "2018-03-29T01:00:00+00:00",
+      "home": "Atletico Nacional Medellin",
+      "away": "Atletico Huila",
+      "home_id": "sr:competitor:6106",
+      "away_id": "sr:competitor:6104",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13842717,
+      "debut": "2018-03-28T21:00:00+00:00",
+      "home": "America De Cali",
+      "away": "Envigado FC",
+      "home_id": "sr:competitor:6102",
+      "away_id": "sr:competitor:6114",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

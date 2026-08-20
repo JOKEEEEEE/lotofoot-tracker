@@ -1,0 +1,127 @@
+{
+  "grille_id": 1633,
+  "grille_type": "grille7",
+  "pool_id": 7001633,
+  "titre": "Grille 7 n°1633",
+  "statut": "CLOSED",
+  "fin": "2020-06-11T16:55:00+00:00",
+  "collecte_le": "2026-08-20T10:28:03.482808+00:00",
+  "mises_nettes": 8917.5,
+  "montant_distribue": 8917.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100001010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 75,
+      "winningsPerGrid": 59.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 618,
+      "winningsPerGrid": 7.21
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22027583,
+      "debut": "2020-06-11T16:55:00+00:00",
+      "home": "Inter Zapresic",
+      "away": "HNK Gorica",
+      "home_id": "sr:competitor:2045",
+      "away_id": "sr:competitor:43917",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22078919,
+      "debut": "2020-06-11T17:30:00+00:00",
+      "home": "Etar 1924 Veliko Tarnovo",
+      "away": "FC Dunav Ruse",
+      "home_id": "sr:competitor:36941",
+      "away_id": "sr:competitor:3286",
+      "score_home": 5,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085335,
+      "debut": "2020-06-11T18:00:00+00:00",
+      "home": "Belenenses",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3004",
+      "away_id": "sr:competitor:3009",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22027605,
+      "debut": "2020-06-11T19:05:00+00:00",
+      "home": "Istra 1961",
+      "away": "Hajduk Split",
+      "home_id": "sr:competitor:25529",
+      "away_id": "sr:competitor:2036",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22138547,
+      "debut": "2020-06-11T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2816",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22085337,
+      "debut": "2020-06-11T20:15:00+00:00",
+      "home": "Tondela",
+      "away": "CD Aves",
+      "home_id": "sr:competitor:38396",
+      "away_id": "sr:competitor:3032",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 22064245,
+      "debut": "2020-06-12T15:00:00+00:00",
+      "home": "FC Minsk",
+      "away": "Isloch Minsk",
+      "home_id": "sr:competitor:7304",
+      "away_id": "sr:competitor:42965",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 1526,
+  "grille_type": "grille7",
+  "pool_id": 7001526,
+  "titre": "Grille 7 n°1526",
+  "statut": "CLOSED",
+  "fin": "2020-01-19T19:45:00+00:00",
+  "collecte_le": "2026-08-20T10:41:47.302773+00:00",
+  "mises_nettes": 7872,
+  "montant_distribue": 8000,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "001100010100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 90,
+      "winningsPerGrid": 44.44
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1047,
+      "winningsPerGrid": 3.82
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18927172,
+      "debut": "2020-01-19T19:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Parme",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2690",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20881855,
+      "debut": "2020-01-19T19:55:00+00:00",
+      "home": "Lorient",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18641020,
+      "debut": "2020-01-19T20:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:33779",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18660442,
+      "debut": "2020-01-19T20:00:00+00:00",
+      "home": "Rio Ave",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:2995",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 19030364,
+      "debut": "2020-01-19T20:00:00+00:00",
+      "home": "Benevento",
+      "away": "Pisa",
+      "home_id": "sr:competitor:2759",
+      "away_id": "sr:competitor:2737",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 20726889,
+      "debut": "2020-01-19T22:00:00+00:00",
+      "home": "Querétaro",
+      "away": "Club Tijuana",
+      "home_id": "sr:competitor:1951",
+      "away_id": "sr:competitor:36525",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18723556,
+      "debut": "2020-01-19T22:10:00+00:00",
+      "home": "Independiente",
+      "away": "River Plate",
+      "home_id": "sr:competitor:3209",
+      "away_id": "sr:competitor:3211",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

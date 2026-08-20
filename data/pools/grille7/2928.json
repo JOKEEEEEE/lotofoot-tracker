@@ -1,0 +1,136 @@
+{
+  "grille_id": 2928,
+  "grille_type": "grille7",
+  "pool_id": 7002928,
+  "titre": "Grille 7 n°2928",
+  "statut": "CLOSED",
+  "fin": "2023-06-01T18:30:00+00:00",
+  "collecte_le": "2026-08-20T08:35:58.739940+00:00",
+  "mises_nettes": 7298.25,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100010010100001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 36,
+      "winningsPerGrid": 104.17
+    }
+  ],
+  "repartition": [
+    470,
+    1963,
+    3228,
+    2610,
+    1141,
+    280,
+    36,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 41351531,
+      "debut": "2023-06-01T18:30:00+00:00",
+      "home": "Brescia",
+      "away": "Nuova Cosenza Calcio",
+      "home_id": "sr:competitor:2691",
+      "away_id": "sr:competitor:2716",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41476775,
+      "debut": "2023-06-01T18:45:00+00:00",
+      "home": "VfB Stuttgart",
+      "away": "Hambourg",
+      "home_id": "sr:competitor:2677",
+      "away_id": "sr:competitor:2676",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41463323,
+      "debut": "2023-06-01T19:00:00+00:00",
+      "home": "Utrecht",
+      "away": "Sparta Rotterdam",
+      "home_id": "sr:competitor:2948",
+      "away_id": "sr:competitor:2960",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41477403,
+      "debut": "2023-06-01T19:00:00+00:00",
+      "home": "Partick Thistle",
+      "away": "Ross County",
+      "home_id": "sr:competitor:2358",
+      "away_id": "sr:competitor:2365",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38453673,
+      "debut": "2023-06-01T19:15:00+00:00",
+      "home": "Fylkir",
+      "away": "KR Reykjavik",
+      "home_id": "sr:competitor:1896",
+      "away_id": "sr:competitor:1902",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546107,
+      "debut": "2023-06-01T23:00:00+00:00",
+      "home": "Sarmiento",
+      "away": "Newell's Old Boys",
+      "home_id": "sr:competitor:42338",
+      "away_id": "sr:competitor:3212",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38546113,
+      "debut": "2023-06-02T00:30:00+00:00",
+      "home": "Arsenal Sarandi",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:3221",
+      "away_id": "sr:competitor:3202",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

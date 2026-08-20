@@ -1,0 +1,136 @@
+{
+  "grille_id": 4113,
+  "grille_type": "grille7",
+  "pool_id": 7004113,
+  "titre": "Grille 7 n°4113",
+  "statut": "CLOSED",
+  "fin": "2026-06-21T16:00:00+00:00",
+  "collecte_le": "2026-08-20T05:57:56.835079+00:00",
+  "mises_nettes": 14625,
+  "montant_distribue": 14625,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001010010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 121,
+      "winningsPerGrid": 60.43
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1234,
+      "winningsPerGrid": 5.93
+    }
+  ],
+  "repartition": [
+    12,
+    117,
+    1121,
+    4011,
+    7518,
+    5366,
+    1234,
+    121
+  ],
+  "matches": [
+    {
+      "match_id": 66456998,
+      "debut": "2026-06-21T16:00:00+00:00",
+      "home": "Espagne",
+      "away": "Arabie Saoudite",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4834",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.06,
+      "cote_N": 9.5,
+      "cote_2": 22
+    },
+    {
+      "match_id": 66456986,
+      "debut": "2026-06-21T19:00:00+00:00",
+      "home": "Belgique",
+      "away": "Iran",
+      "home_id": "sr:competitor:4717",
+      "away_id": "sr:competitor:4766",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.41,
+      "cote_N": 4.2,
+      "cote_2": 6
+    },
+    {
+      "match_id": 66457000,
+      "debut": "2026-06-21T22:00:00+00:00",
+      "home": "Uruguay",
+      "away": "Cap-Vert",
+      "home_id": "sr:competitor:4725",
+      "away_id": "sr:competitor:4753",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.34,
+      "cote_N": 4.3,
+      "cote_2": 7.25
+    },
+    {
+      "match_id": 66456988,
+      "debut": "2026-06-22T01:00:00+00:00",
+      "home": "Nouvelle Zélande",
+      "away": "Égypte",
+      "home_id": "sr:competitor:4784",
+      "away_id": "sr:competitor:4758",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 5.4,
+      "cote_N": 3.5,
+      "cote_2": 1.56
+    },
+    {
+      "match_id": 66457022,
+      "debut": "2026-06-22T17:00:00+00:00",
+      "home": "Argentine",
+      "away": "Autriche",
+      "home_id": "sr:competitor:4819",
+      "away_id": "sr:competitor:4718",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.42,
+      "cote_N": 4,
+      "cote_2": 6.25
+    },
+    {
+      "match_id": 66457010,
+      "debut": "2026-06-22T21:00:00+00:00",
+      "home": "France",
+      "away": "Irak",
+      "home_id": "sr:competitor:4481",
+      "away_id": "sr:competitor:4767",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.04,
+      "cote_N": 10.5,
+      "cote_2": 26
+    },
+    {
+      "match_id": 66457012,
+      "debut": "2026-06-23T00:00:00+00:00",
+      "home": "Norvège",
+      "away": "Sénégal",
+      "home_id": "sr:competitor:4475",
+      "away_id": "sr:competitor:4739",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.25,
+      "cote_N": 3.25,
+      "cote_2": 2.7
+    }
+  ]
+}

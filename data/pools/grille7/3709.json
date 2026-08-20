@@ -1,0 +1,136 @@
+{
+  "grille_id": 3709,
+  "grille_type": "grille7",
+  "pool_id": 7003709,
+  "titre": "Grille 7 n°3709",
+  "statut": "CLOSED",
+  "fin": "2025-05-06T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:25:56.573762+00:00",
+  "mises_nettes": 3486.75,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001001001010111",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 51,
+      "winningsPerGrid": 39.22
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 363,
+      "winningsPerGrid": 5.51
+    }
+  ],
+  "repartition": [
+    0,
+    144,
+    610,
+    1161,
+    1360,
+    960,
+    363,
+    51
+  ],
+  "matches": [
+    {
+      "match_id": 60132413,
+      "debut": "2025-05-06T17:00:00+00:00",
+      "home": "CS Constantine",
+      "away": "MC Oran",
+      "home_id": "sr:competitor:55393",
+      "away_id": "sr:competitor:45001",
+      "score_home": null,
+      "score_away": null,
+      "statut": "PREMATCH",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58265389,
+      "debut": "2025-05-06T19:00:00+00:00",
+      "home": "Inter Milan",
+      "away": "FC Barcelone",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2817",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59010855,
+      "debut": "2025-05-06T22:00:00+00:00",
+      "home": "Alianza Lima",
+      "away": "Sao Paulo",
+      "home_id": "sr:competitor:2311",
+      "away_id": "sr:competitor:1981",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59010467,
+      "debut": "2025-05-06T22:00:00+00:00",
+      "home": "Carabobo FC",
+      "away": "Botafogo",
+      "home_id": "sr:competitor:6229",
+      "away_id": "sr:competitor:1958",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59010967,
+      "debut": "2025-05-06T22:00:00+00:00",
+      "home": "Bucaramanga",
+      "away": "Racing Club",
+      "home_id": "sr:competitor:6103",
+      "away_id": "sr:competitor:3215",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59010965,
+      "debut": "2025-05-07T00:30:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Colo Colo",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:3155",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59011763,
+      "debut": "2025-05-07T02:00:00+00:00",
+      "home": "San Antonio Bulo Bulo",
+      "away": "Penarol de Montevideo",
+      "home_id": "sr:competitor:846036",
+      "away_id": "sr:competitor:3227",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

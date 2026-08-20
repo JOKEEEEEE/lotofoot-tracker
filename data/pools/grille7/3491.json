@@ -1,0 +1,136 @@
+{
+  "grille_id": 3491,
+  "grille_type": "grille7",
+  "pool_id": 7003491,
+  "titre": "Grille 7 n°3491",
+  "statut": "CLOSED",
+  "fin": "2024-10-07T18:00:00+00:00",
+  "collecte_le": "2026-08-20T07:47:23.034005+00:00",
+  "mises_nettes": 3984,
+  "montant_distribue": 4000,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100100001001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 500
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 32,
+      "winningsPerGrid": 62.5
+    }
+  ],
+  "repartition": [
+    133,
+    850,
+    1689,
+    1623,
+    775,
+    206,
+    32,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 46657041,
+      "debut": "2024-10-07T18:00:00+00:00",
+      "home": "Club Atletico Barracas Central",
+      "away": "Independiente Rivadavia",
+      "home_id": "sr:competitor:65668",
+      "away_id": "sr:competitor:36842",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47344889,
+      "debut": "2024-10-07T20:30:00+00:00",
+      "home": "CSD Macará",
+      "away": "Delfin SC",
+      "home_id": "sr:competitor:6001",
+      "away_id": "sr:competitor:241468",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657037,
+      "debut": "2024-10-07T21:00:00+00:00",
+      "home": "Banfield",
+      "away": "Estudiantes",
+      "home_id": "sr:competitor:3219",
+      "away_id": "sr:competitor:3206",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657035,
+      "debut": "2024-10-07T21:45:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "Rosario Central",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:3217",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47445541,
+      "debut": "2024-10-07T23:00:00+00:00",
+      "home": "Cobreloa",
+      "away": "Deportes Copiapó",
+      "home_id": "sr:competitor:3159",
+      "away_id": "sr:competitor:89506",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51468861,
+      "debut": "2024-10-07T23:00:00+00:00",
+      "home": "Fortaleza FC",
+      "away": "Jaguares De Cordoba",
+      "home_id": "sr:competitor:89368",
+      "away_id": "sr:competitor:89370",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46657025,
+      "debut": "2024-10-08T00:00:00+00:00",
+      "home": "Atletico Tucuman",
+      "away": "Tigre",
+      "home_id": "sr:competitor:36833",
+      "away_id": "sr:competitor:7628",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

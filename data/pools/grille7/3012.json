@@ -1,0 +1,136 @@
+{
+  "grille_id": 3012,
+  "grille_type": "grille7",
+  "pool_id": 7003012,
+  "titre": "Grille 7 n°3012",
+  "statut": "CLOSED",
+  "fin": "2023-08-23T19:00:00+00:00",
+  "collecte_le": "2026-08-20T08:28:35.629836+00:00",
+  "mises_nettes": 8154.75,
+  "montant_distribue": 8154.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 207,
+      "winningsPerGrid": 19.7
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1217,
+      "winningsPerGrid": 3.35
+    }
+  ],
+  "repartition": [
+    19,
+    175,
+    1108,
+    2434,
+    3059,
+    2654,
+    1217,
+    207
+  ],
+  "matches": [
+    {
+      "match_id": 43029547,
+      "debut": "2023-08-23T19:00:00+00:00",
+      "home": "Molde",
+      "away": "Galatasaray",
+      "home_id": "sr:competitor:661",
+      "away_id": "sr:competitor:3061",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43029713,
+      "debut": "2023-08-23T19:00:00+00:00",
+      "home": "Braga",
+      "away": "Panathinaïkos",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3248",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43029545,
+      "debut": "2023-08-23T19:00:00+00:00",
+      "home": "Maccabi Haifa",
+      "away": "Young Boys Berne",
+      "home_id": "sr:competitor:5197",
+      "away_id": "sr:competitor:2445",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42916527,
+      "debut": "2023-08-23T23:15:00+00:00",
+      "home": "Santa Fe",
+      "away": "Envigado FC",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:6114",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41678891,
+      "debut": "2023-08-24T01:00:00+00:00",
+      "home": "Club América",
+      "away": "Necaxa",
+      "home_id": "sr:competitor:1939",
+      "away_id": "sr:competitor:1944",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41678899,
+      "debut": "2023-08-24T01:06:00+00:00",
+      "home": "Pachuca",
+      "away": "Cruz Azul",
+      "home_id": "sr:competitor:1936",
+      "away_id": "sr:competitor:1947",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 43088143,
+      "debut": "2023-08-24T02:30:00+00:00",
+      "home": "Los Angeles FC",
+      "away": "Colorado Rapids",
+      "home_id": "sr:competitor:402227",
+      "away_id": "sr:competitor:2510",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

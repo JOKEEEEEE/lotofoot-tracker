@@ -1,0 +1,136 @@
+{
+  "grille_id": 2203,
+  "grille_type": "grille7",
+  "pool_id": 7002203,
+  "titre": "Grille 7 n°2203",
+  "statut": "CLOSED",
+  "fin": "2021-10-04T18:45:00+00:00",
+  "collecte_le": "2026-08-20T09:39:37.808358+00:00",
+  "mises_nettes": 8229.75,
+  "montant_distribue": 8229.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100010010100001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 6,
+      "winningsPerGrid": 685.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 62,
+      "winningsPerGrid": 66.37
+    }
+  ],
+  "repartition": [
+    398,
+    1846,
+    3477,
+    3148,
+    1611,
+    425,
+    62,
+    6
+  ],
+  "matches": [
+    {
+      "match_id": 28133302,
+      "debut": "2021-10-04T18:45:00+00:00",
+      "home": "Crusaders",
+      "away": "Coleraine",
+      "home_id": "sr:competitor:5180",
+      "away_id": "sr:competitor:5270",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 500,
+      "cote_N": 110,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27973214,
+      "debut": "2021-10-04T19:00:00+00:00",
+      "home": "Gérone",
+      "away": "Almeria",
+      "home_id": "sr:competitor:24264",
+      "away_id": "sr:competitor:2858",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 48,
+      "cote_2": 1
+    },
+    {
+      "match_id": 28077774,
+      "debut": "2021-10-04T19:15:00+00:00",
+      "home": "Trofense",
+      "away": "Nacional Madeira ",
+      "home_id": "sr:competitor:6154",
+      "away_id": "sr:competitor:3013",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27959480,
+      "debut": "2021-10-04T21:00:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "CA Talleres",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:3210",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28624064,
+      "debut": "2021-10-04T21:30:00+00:00",
+      "home": "CD Melipilla",
+      "away": "Santiago Wanderers",
+      "home_id": "sr:competitor:5033",
+      "away_id": "sr:competitor:3150",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 48,
+      "cote_N": 1,
+      "cote_2": 70
+    },
+    {
+      "match_id": 27959478,
+      "debut": "2021-10-04T23:15:00+00:00",
+      "home": "Colon De Santa Fe",
+      "away": "Banfield",
+      "home_id": "sr:competitor:3207",
+      "away_id": "sr:competitor:3219",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 55,
+      "cote_N": 1,
+      "cote_2": 60
+    },
+    {
+      "match_id": 25720682,
+      "debut": "2021-10-05T00:00:00+00:00",
+      "home": "Delfin SC",
+      "away": "Manta FC",
+      "home_id": "sr:competitor:241468",
+      "away_id": "sr:competitor:33561",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.68,
+      "cote_N": 3.2,
+      "cote_2": 4
+    }
+  ]
+}

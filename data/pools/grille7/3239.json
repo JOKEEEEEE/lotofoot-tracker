@@ -1,0 +1,136 @@
+{
+  "grille_id": 3239,
+  "grille_type": "grille7",
+  "pool_id": 7003239,
+  "titre": "Grille 7 n°3239",
+  "statut": "CLOSED",
+  "fin": "2024-02-25T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:05:38.153715+00:00",
+  "mises_nettes": 8129.25,
+  "montant_distribue": 8129.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010010010010100010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 508.08
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 130,
+      "winningsPerGrid": 31.27
+    }
+  ],
+  "repartition": [
+    253,
+    1282,
+    3092,
+    3328,
+    2038,
+    708,
+    130,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 42004925,
+      "debut": "2024-02-25T19:45:00+00:00",
+      "home": "Marseille",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1642",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134623,
+      "debut": "2024-02-25T19:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893411,
+      "debut": "2024-02-25T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46655477,
+      "debut": "2024-02-25T20:00:00+00:00",
+      "home": "River Plate",
+      "away": "Boca Juniors",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:3202",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984423,
+      "debut": "2024-02-25T20:00:00+00:00",
+      "home": "SD Amorebieta",
+      "away": "Albacete",
+      "home_id": "sr:competitor:54103",
+      "away_id": "sr:competitor:2848",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146585,
+      "debut": "2024-02-25T20:30:00+00:00",
+      "home": "Rio Ave",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:3001",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46364437,
+      "debut": "2024-02-25T22:00:00+00:00",
+      "home": "Nashville SC",
+      "away": "New York Red Bulls",
+      "home_id": "sr:competitor:668063",
+      "away_id": "sr:competitor:2506",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

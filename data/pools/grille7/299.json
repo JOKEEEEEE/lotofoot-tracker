@@ -1,0 +1,127 @@
+{
+  "grille_id": 299,
+  "grille_type": "grille7",
+  "pool_id": 7000299,
+  "titre": "Grille 7 n°299",
+  "statut": "CLOSED",
+  "fin": "2016-08-18T18:00:00+00:00",
+  "collecte_le": "2026-08-20T12:29:44.320307+00:00",
+  "mises_nettes": 6528,
+  "montant_distribue": 6528,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100010100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 35,
+      "winningsPerGrid": 93.26
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 354,
+      "winningsPerGrid": 9.22
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 9909853,
+      "debut": "2016-08-18T18:00:00+00:00",
+      "home": "Vojvodina",
+      "away": "AZ Alkmaar",
+      "home_id": "sr:competitor:5150",
+      "away_id": "sr:competitor:2950",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909857,
+      "debut": "2016-08-18T18:00:00+00:00",
+      "home": "Lokomotiva Zagreb",
+      "away": "Racing Genk",
+      "home_id": "sr:competitor:36246",
+      "away_id": "sr:competitor:2890",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909893,
+      "debut": "2016-08-18T18:00:00+00:00",
+      "home": "Panathinaïkos",
+      "away": "Brøndby",
+      "home_id": "sr:competitor:3248",
+      "away_id": "sr:competitor:1281",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909877,
+      "debut": "2016-08-18T18:15:00+00:00",
+      "home": "Astra Giurgiu",
+      "away": "West Ham",
+      "home_id": "sr:competitor:3288",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909889,
+      "debut": "2016-08-18T18:45:00+00:00",
+      "home": "Sassuolo",
+      "away": "Etoile Rouge de Belgrade",
+      "home_id": "sr:competitor:2793",
+      "away_id": "sr:competitor:5149",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909831,
+      "debut": "2016-08-18T19:00:00+00:00",
+      "home": "Arouca",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:25777",
+      "away_id": "sr:competitor:3245",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 9909845,
+      "debut": "2016-08-18T19:05:00+00:00",
+      "home": "AS Trencin",
+      "away": "Rapid Vienne",
+      "home_id": "sr:competitor:2398",
+      "away_id": "sr:competitor:2055",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

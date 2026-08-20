@@ -1,0 +1,127 @@
+{
+  "grille_id": 117,
+  "grille_type": "grille7",
+  "pool_id": 7000117,
+  "titre": "Grille 7 n°117",
+  "statut": "CLOSED",
+  "fin": "2016-01-17T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:47:30.993574+00:00",
+  "mises_nettes": 12526.5,
+  "montant_distribue": 12526.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100100001010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 1,
+      "winningsPerGrid": 6263.25
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 63,
+      "winningsPerGrid": 99.42
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7473808,
+      "debut": "2016-01-17T16:00:00+00:00",
+      "home": "Caen",
+      "away": "Marseille",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1641",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7464884,
+      "debut": "2016-01-17T16:15:00+00:00",
+      "home": "Stoke City",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:29",
+      "away_id": "sr:competitor:42",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610532,
+      "debut": "2016-01-17T17:15:00+00:00",
+      "home": "Las Palmas",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:6577",
+      "away_id": "sr:competitor:2836",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610540,
+      "debut": "2016-01-17T17:15:00+00:00",
+      "home": "Getafe",
+      "away": "Espanyol Barcelone",
+      "home_id": "sr:competitor:2859",
+      "away_id": "sr:competitor:2814",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7688880,
+      "debut": "2016-01-17T19:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Fiorentina",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2693",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473792,
+      "debut": "2016-01-17T20:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7558302,
+      "debut": "2016-01-17T20:30:00+00:00",
+      "home": "Vitoria Guimaraes",
+      "away": "FC Porto",
+      "home_id": "sr:competitor:3009",
+      "away_id": "sr:competitor:3002",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

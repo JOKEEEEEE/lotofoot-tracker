@@ -1,0 +1,136 @@
+{
+  "grille_id": 2217,
+  "grille_type": "grille7",
+  "pool_id": 7002217,
+  "titre": "Grille 7 n°2217",
+  "statut": "CLOSED",
+  "fin": "2021-10-17T18:45:00+00:00",
+  "collecte_le": "2026-08-20T13:18:26.870031+00:00",
+  "mises_nettes": 11084.25,
+  "montant_distribue": 11084.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 129,
+      "winningsPerGrid": 42.96
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1140,
+      "winningsPerGrid": 4.86
+    }
+  ],
+  "repartition": [
+    179,
+    1016,
+    2531,
+    3586,
+    3551,
+    2647,
+    1140,
+    129
+  ],
+  "matches": [
+    {
+      "match_id": 27884894,
+      "debut": "2021-10-17T18:45:00+00:00",
+      "home": "Marseille",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1656",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28159968,
+      "debut": "2021-10-17T18:45:00+00:00",
+      "home": "Juventus Turin",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2702",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 46,
+      "cote_2": null
+    },
+    {
+      "match_id": 27965324,
+      "debut": "2021-10-17T19:00:00+00:00",
+      "home": "FC Barcelone",
+      "away": "Valence",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2828",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27649346,
+      "debut": "2021-10-17T19:00:00+00:00",
+      "home": "La Gantoise",
+      "away": "Eupen",
+      "home_id": "sr:competitor:2903",
+      "away_id": "sr:competitor:2926",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 29559080,
+      "debut": "2021-10-17T19:00:00+00:00",
+      "home": "Rio Ave",
+      "away": "Boavista",
+      "home_id": "sr:competitor:3036",
+      "away_id": "sr:competitor:2995",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27472030,
+      "debut": "2021-10-17T19:00:00+00:00",
+      "home": "Atlético Paranaense",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1967",
+      "away_id": "sr:competitor:1961",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 38,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27472042,
+      "debut": "2021-10-17T19:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Internacional ",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:1966",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 100,
+      "cote_2": null
+    }
+  ]
+}

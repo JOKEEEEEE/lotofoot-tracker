@@ -1,0 +1,136 @@
+{
+  "grille_id": 3201,
+  "grille_type": "grille7",
+  "pool_id": 7003201,
+  "titre": "Grille 7 n°3201",
+  "statut": "CLOSED",
+  "fin": "2024-01-28T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:08:50.855458+00:00",
+  "mises_nettes": 7326,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100001010100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 55,
+      "winningsPerGrid": 68.18
+    }
+  ],
+  "repartition": [
+    241,
+    1311,
+    2904,
+    3271,
+    1582,
+    401,
+    55,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 42004845,
+      "debut": "2024-01-28T19:45:00+00:00",
+      "home": "Paris SG",
+      "away": "Brest",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:1715",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42134533,
+      "debut": "2024-01-28T19:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893323,
+      "debut": "2024-01-28T20:00:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Valence",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:2828",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46726309,
+      "debut": "2024-01-28T20:00:00+00:00",
+      "home": "Égypte",
+      "away": "République Démocratique du Congo",
+      "home_id": "sr:competitor:4758",
+      "away_id": "sr:competitor:4823",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984337,
+      "debut": "2024-01-28T20:00:00+00:00",
+      "home": "Gijon",
+      "away": "Racing Ferrol",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:2843",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146501,
+      "debut": "2024-01-28T20:30:00+00:00",
+      "home": "Gil Vicente",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3010",
+      "away_id": "sr:competitor:3009",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146511,
+      "debut": "2024-01-28T20:30:00+00:00",
+      "home": "FC Arouca",
+      "away": "FC Vizela",
+      "home_id": "sr:competitor:25777",
+      "away_id": "sr:competitor:5136",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

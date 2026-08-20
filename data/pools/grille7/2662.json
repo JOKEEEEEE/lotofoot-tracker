@@ -1,0 +1,136 @@
+{
+  "grille_id": 2662,
+  "grille_type": "grille7",
+  "pool_id": 7002662,
+  "titre": "Grille 7 n°2662",
+  "statut": "CLOSED",
+  "fin": "2022-10-23T13:00:00+00:00",
+  "collecte_le": "2026-08-20T08:59:17.521717+00:00",
+  "mises_nettes": 14355.75,
+  "montant_distribue": 14355.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010001010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1794.47
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 69,
+      "winningsPerGrid": 104.03
+    }
+  ],
+  "repartition": [
+    1213,
+    4551,
+    6299,
+    4642,
+    1923,
+    440,
+    69,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 34172227,
+      "debut": "2022-10-23T13:00:00+00:00",
+      "home": "Reims",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:1646",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172217,
+      "debut": "2022-10-23T13:00:00+00:00",
+      "home": "Clermont",
+      "away": "Brest",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1715",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172229,
+      "debut": "2022-10-23T13:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1659",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172231,
+      "debut": "2022-10-23T13:00:00+00:00",
+      "home": "Troyes",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1652",
+      "away_id": "sr:competitor:1656",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277407,
+      "debut": "2022-10-23T14:15:00+00:00",
+      "home": "Betis Séville",
+      "away": "Atletico Madrid",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2836",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34172223,
+      "debut": "2022-10-23T15:05:00+00:00",
+      "home": "Nice",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1647",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34151939,
+      "debut": "2022-10-23T15:30:00+00:00",
+      "home": "Tottenham",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:39",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

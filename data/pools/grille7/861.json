@@ -1,0 +1,127 @@
+{
+  "grille_id": 861,
+  "grille_type": "grille7",
+  "pool_id": 7000861,
+  "titre": "Grille 7 n°861",
+  "statut": "CLOSED",
+  "fin": "2018-04-07T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:41:00.197191+00:00",
+  "mises_nettes": 10138.5,
+  "montant_distribue": 10138.5,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 724.18
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 96,
+      "winningsPerGrid": 52.8
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11832916,
+      "debut": "2018-04-07T18:00:00+00:00",
+      "home": "Guingamp",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1654",
+      "away_id": "sr:competitor:1652",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11832956,
+      "debut": "2018-04-07T18:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Dijon",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1686",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833082,
+      "debut": "2018-04-07T18:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Lille",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1643",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833424,
+      "debut": "2018-04-07T18:00:00+00:00",
+      "home": "Angers",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1659",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833452,
+      "debut": "2018-04-07T18:00:00+00:00",
+      "home": "Amiens",
+      "away": "Caen",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1667",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14083293,
+      "debut": "2018-04-07T18:30:00+00:00",
+      "home": "Racing Genk",
+      "away": "Standard Liège",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:2901",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12090152,
+      "debut": "2018-04-07T18:45:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Genoa",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2713",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

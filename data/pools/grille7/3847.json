@@ -1,0 +1,136 @@
+{
+  "grille_id": 3847,
+  "grille_type": "grille7",
+  "pool_id": 7003847,
+  "titre": "Grille 7 n°3847",
+  "statut": "CLOSED",
+  "fin": "2025-09-22T18:30:00+00:00",
+  "collecte_le": "2026-08-20T07:17:37.789854+00:00",
+  "mises_nettes": 7064.25,
+  "montant_distribue": 7064.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 353.21
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 165,
+      "winningsPerGrid": 21.41
+    }
+  ],
+  "repartition": [
+    37,
+    403,
+    1911,
+    3370,
+    2602,
+    921,
+    165,
+    10
+  ],
+  "matches": [
+    {
+      "match_id": 61623044,
+      "debut": "2025-09-22T18:30:00+00:00",
+      "home": "Burgos CF",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2854",
+      "away_id": "sr:competitor:33779",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61060765,
+      "debut": "2025-09-22T18:45:00+00:00",
+      "home": "Naples",
+      "away": "Pisa",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2737",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63132449,
+      "debut": "2025-09-22T18:45:00+00:00",
+      "home": "Drogheda",
+      "away": "Shelbourne",
+      "home_id": "sr:competitor:3180",
+      "away_id": "sr:competitor:3174",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63132451,
+      "debut": "2025-09-22T18:45:00+00:00",
+      "home": "Galway United",
+      "away": "Sligo Rovers",
+      "home_id": "sr:competitor:3172",
+      "away_id": "sr:competitor:3190",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61764058,
+      "debut": "2025-09-22T19:00:00+00:00",
+      "home": "Millwall",
+      "away": "Watford",
+      "home_id": "sr:competitor:25",
+      "away_id": "sr:competitor:24",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 61730978,
+      "debut": "2025-09-22T19:15:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:3014",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 63816725,
+      "debut": "2025-09-22T19:15:00+00:00",
+      "home": "Valur Reykjavik",
+      "away": "Breidablik Kopavogur",
+      "home_id": "sr:competitor:1899",
+      "away_id": "sr:competitor:1901",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

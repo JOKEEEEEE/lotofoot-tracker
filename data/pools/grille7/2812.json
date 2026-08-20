@@ -1,0 +1,136 @@
+{
+  "grille_id": 2812,
+  "grille_type": "grille7",
+  "pool_id": 7002812,
+  "titre": "Grille 7 n°2812",
+  "statut": "CLOSED",
+  "fin": "2023-02-26T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:45:55.694997+00:00",
+  "mises_nettes": 10413.75,
+  "montant_distribue": 10413.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001100010010001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 30,
+      "winningsPerGrid": 173.56
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 386,
+      "winningsPerGrid": 13.49
+    }
+  ],
+  "repartition": [
+    631,
+    2607,
+    4575,
+    3925,
+    1731,
+    386,
+    30,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 34172489,
+      "debut": "2023-02-26T19:45:00+00:00",
+      "home": "Marseille",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286987,
+      "debut": "2023-02-26T19:45:00+00:00",
+      "home": "Milan AC",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2686",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277655,
+      "debut": "2023-02-26T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Osasuna",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2820",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34279039,
+      "debut": "2023-02-26T20:00:00+00:00",
+      "home": "Real Oviedo",
+      "away": "Albacete",
+      "home_id": "sr:competitor:2851",
+      "away_id": "sr:competitor:2848",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545665,
+      "debut": "2023-02-26T20:00:00+00:00",
+      "home": "Colon De Santa Fe",
+      "away": "Huracan",
+      "home_id": "sr:competitor:3207",
+      "away_id": "sr:competitor:7629",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38545673,
+      "debut": "2023-02-26T20:00:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "Atletico Tucuman",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:36833",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504955,
+      "debut": "2023-02-26T20:30:00+00:00",
+      "home": "FC Porto",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3010",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

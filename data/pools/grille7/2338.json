@@ -1,0 +1,136 @@
+{
+  "grille_id": 2338,
+  "grille_type": "grille7",
+  "pool_id": 7002338,
+  "titre": "Grille 7 n°2338",
+  "statut": "CLOSED",
+  "fin": "2022-01-24T18:30:00+00:00",
+  "collecte_le": "2026-08-20T09:26:43.780406+00:00",
+  "mises_nettes": 10079.25,
+  "montant_distribue": 10079.25,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010001001100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 18,
+      "winningsPerGrid": 279.98
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 238,
+      "winningsPerGrid": 21.17
+    }
+  ],
+  "repartition": [
+    88,
+    1024,
+    3041,
+    4355,
+    3319,
+    1356,
+    238,
+    18
+  ],
+  "matches": [
+    {
+      "match_id": 27772284,
+      "debut": "2022-01-24T18:30:00+00:00",
+      "home": "Beitar Trump Jerusalem",
+      "away": "Hapoel Tel-Aviv",
+      "home_id": "sr:competitor:5204",
+      "away_id": "sr:competitor:5396",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31406215,
+      "debut": "2022-01-24T19:00:00+00:00",
+      "home": "Cameroun",
+      "away": "Comores",
+      "home_id": "sr:competitor:4751",
+      "away_id": "sr:competitor:23494",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27886168,
+      "debut": "2022-01-24T19:45:00+00:00",
+      "home": "Caen",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1667",
+      "away_id": "sr:competitor:1660",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27867602,
+      "debut": "2022-01-24T19:45:00+00:00",
+      "home": "Blackburn",
+      "away": "Middlesbrough",
+      "home_id": "sr:competitor:46",
+      "away_id": "sr:competitor:36",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27973560,
+      "debut": "2022-01-24T20:00:00+00:00",
+      "home": "Almeria",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:2839",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27973574,
+      "debut": "2022-01-24T20:00:00+00:00",
+      "home": "Real Sociedad B",
+      "away": "FC Cartagena",
+      "home_id": "sr:competitor:24360",
+      "away_id": "sr:competitor:24329",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077982,
+      "debut": "2022-01-24T20:15:00+00:00",
+      "home": "Leixoes SC",
+      "away": "Chaves",
+      "home_id": "sr:competitor:3018",
+      "away_id": "sr:competitor:3025",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

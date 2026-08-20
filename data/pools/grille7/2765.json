@@ -1,0 +1,136 @@
+{
+  "grille_id": 2765,
+  "grille_type": "grille7",
+  "pool_id": 7002765,
+  "titre": "Grille 7 n°2765",
+  "statut": "CLOSED",
+  "fin": "2023-01-22T16:30:00+00:00",
+  "collecte_le": "2026-08-20T08:50:18.832147+00:00",
+  "mises_nettes": 15977.25,
+  "montant_distribue": 15977.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001010010010100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 19,
+      "winningsPerGrid": 420.45
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 422,
+      "winningsPerGrid": 18.93
+    }
+  ],
+  "repartition": [
+    92,
+    1374,
+    4459,
+    7044,
+    5808,
+    2085,
+    422,
+    19
+  ],
+  "matches": [
+    {
+      "match_id": 35763747,
+      "debut": "2023-01-22T16:30:00+00:00",
+      "home": "Arsenal",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:35",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38529601,
+      "debut": "2023-01-22T17:30:00+00:00",
+      "home": "Niort",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1665",
+      "away_id": "sr:competitor:1646",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38529771,
+      "debut": "2023-01-22T17:30:00+00:00",
+      "home": "Lille",
+      "away": "Pau",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1685",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38529861,
+      "debut": "2023-01-22T17:30:00+00:00",
+      "home": "Thaon",
+      "away": "Nantes",
+      "home_id": "sr:competitor:36390",
+      "away_id": "sr:competitor:1647",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38530445,
+      "debut": "2023-01-22T17:30:00+00:00",
+      "home": "Le Puy",
+      "away": "Vierzon FC",
+      "home_id": "sr:competitor:181754",
+      "away_id": "sr:competitor:575985",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38530455,
+      "debut": "2023-01-22T17:30:00+00:00",
+      "home": "Belfort",
+      "away": "Annecy FC",
+      "home_id": "sr:competitor:86364",
+      "away_id": "sr:competitor:234888",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38530447,
+      "debut": "2023-01-22T20:00:00+00:00",
+      "home": "Brest",
+      "away": "Lens",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1648",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

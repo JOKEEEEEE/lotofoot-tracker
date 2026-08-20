@@ -1,0 +1,127 @@
+{
+  "grille_id": 1245,
+  "grille_type": "grille7",
+  "pool_id": 7001245,
+  "titre": "Grille 7 n°1245",
+  "statut": "CLOSED",
+  "fin": "2019-05-05T15:00:00+00:00",
+  "collecte_le": "2026-08-20T11:05:05.034299+00:00",
+  "mises_nettes": 18722.25,
+  "montant_distribue": 18722.25,
+  "montant_garanti": 13000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100010100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 12,
+      "winningsPerGrid": 780.09
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 290,
+      "winningsPerGrid": 32.28
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14701355,
+      "debut": "2019-05-05T15:00:00+00:00",
+      "home": "Monaco",
+      "away": "Saint-Étienne",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1678",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14736979,
+      "debut": "2019-05-05T15:30:00+00:00",
+      "home": "Arsenal",
+      "away": "Brighton",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:30",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14894617,
+      "debut": "2019-05-05T16:00:00+00:00",
+      "home": "Bayer Leverkusen",
+      "away": "Eintracht Francfort",
+      "home_id": "sr:competitor:2681",
+      "away_id": "sr:competitor:2674",
+      "score_home": 6,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160317,
+      "debut": "2019-05-05T16:00:00+00:00",
+      "home": "Genoa",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2713",
+      "away_id": "sr:competitor:2702",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15160309,
+      "debut": "2019-05-05T18:30:00+00:00",
+      "home": "Naples",
+      "away": "Cagliari",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2719",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 15109683,
+      "debut": "2019-05-05T18:45:00+00:00",
+      "home": "Huesca",
+      "away": "Valence",
+      "home_id": "sr:competitor:24265",
+      "away_id": "sr:competitor:2828",
+      "score_home": 2,
+      "score_away": 6,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14701351,
+      "debut": "2019-05-05T19:00:00+00:00",
+      "home": "Lyon",
+      "away": "Lille",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1643",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3180,
+  "grille_type": "grille7",
+  "pool_id": 7003180,
+  "titre": "Grille 7 n°3180",
+  "statut": "CLOSED",
+  "fin": "2024-01-12T19:30:00+00:00",
+  "collecte_le": "2026-08-20T08:09:52.035813+00:00",
+  "mises_nettes": 11183.25,
+  "montant_distribue": 11183.25,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "100010001001010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 698.95
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 112,
+      "winningsPerGrid": 49.93
+    }
+  ],
+  "repartition": [
+    178,
+    2018,
+    4667,
+    4769,
+    2452,
+    707,
+    112,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 42023229,
+      "debut": "2024-01-12T19:30:00+00:00",
+      "home": "Bayern Munich",
+      "away": "TSG Hoffenheim",
+      "home_id": "sr:competitor:2672",
+      "away_id": "sr:competitor:2569",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984287,
+      "debut": "2024-01-12T19:30:00+00:00",
+      "home": "Eibar",
+      "away": "Racing Santander",
+      "home_id": "sr:competitor:2839",
+      "away_id": "sr:competitor:2835",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41763249,
+      "debut": "2024-01-12T19:45:00+00:00",
+      "home": "Burnley",
+      "away": "Luton Town",
+      "home_id": "sr:competitor:6",
+      "away_id": "sr:competitor:72",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41888239,
+      "debut": "2024-01-12T20:00:00+00:00",
+      "home": "Hull City",
+      "away": "Norwich",
+      "home_id": "sr:competitor:96",
+      "away_id": "sr:competitor:263",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893301,
+      "debut": "2024-01-12T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Alaves",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2885",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42004829,
+      "debut": "2024-01-12T20:00:00+00:00",
+      "home": "Marseille",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1659",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146477,
+      "debut": "2024-01-12T20:15:00+00:00",
+      "home": "Portimonense",
+      "away": "Farense",
+      "home_id": "sr:competitor:3026",
+      "away_id": "sr:competitor:2998",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

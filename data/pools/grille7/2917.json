@@ -1,0 +1,136 @@
+{
+  "grille_id": 2917,
+  "grille_type": "grille7",
+  "pool_id": 7002917,
+  "titre": "Grille 7 n°2917",
+  "statut": "CLOSED",
+  "fin": "2023-05-22T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:36:34.920640+00:00",
+  "mises_nettes": 7854,
+  "montant_distribue": 7854,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001010001010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 8,
+      "winningsPerGrid": 490.88
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 39,
+      "winningsPerGrid": 100.69
+    }
+  ],
+  "repartition": [
+    2000,
+    3878,
+    2995,
+    1238,
+    314,
+    39,
+    8,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 34171947,
+      "debut": "2023-05-22T18:45:00+00:00",
+      "home": "Le Havre",
+      "away": "Valenciennes",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:5061",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34287217,
+      "debut": "2023-05-22T18:45:00+00:00",
+      "home": "Empoli",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2705",
+      "away_id": "sr:competitor:2687",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40795215,
+      "debut": "2023-05-22T19:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Leicester",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:31",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38453657,
+      "debut": "2023-05-22T19:15:00+00:00",
+      "home": "Stjarnan",
+      "away": "Fylkir",
+      "home_id": "sr:competitor:1912",
+      "away_id": "sr:competitor:1896",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38453659,
+      "debut": "2023-05-22T19:15:00+00:00",
+      "home": "Fram",
+      "away": "KR Reykjavik",
+      "home_id": "sr:competitor:1893",
+      "away_id": "sr:competitor:1902",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 40456181,
+      "debut": "2023-05-22T21:00:00+00:00",
+      "home": "Sportivo Ameliano",
+      "away": "Guairena FC",
+      "home_id": "sr:competitor:607728",
+      "away_id": "sr:competitor:322375",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 39438939,
+      "debut": "2023-05-22T23:00:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Cuiaba MT",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:49202",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

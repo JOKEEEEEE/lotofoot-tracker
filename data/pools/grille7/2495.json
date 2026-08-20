@@ -1,0 +1,136 @@
+{
+  "grille_id": 2495,
+  "grille_type": "grille7",
+  "pool_id": 7002495,
+  "titre": "Grille 7 n°2495",
+  "statut": "CLOSED",
+  "fin": "2022-06-01T16:00:00+00:00",
+  "collecte_le": "2026-08-20T13:15:43.087386+00:00",
+  "mises_nettes": 8280,
+  "montant_distribue": 8280,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001100100001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 10,
+      "winningsPerGrid": 414
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 137,
+      "winningsPerGrid": 30.22
+    }
+  ],
+  "repartition": [
+    306,
+    1496,
+    3048,
+    3286,
+    2036,
+    721,
+    137,
+    10
+  ],
+  "matches": [
+    {
+      "match_id": 31079611,
+      "debut": "2022-06-01T16:00:00+00:00",
+      "home": "Pologne",
+      "away": "Pays de Galles",
+      "home_id": "sr:competitor:4703",
+      "away_id": "sr:competitor:4702",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33194839,
+      "debut": "2022-06-01T18:45:00+00:00",
+      "home": "Écosse",
+      "away": "Ukraine",
+      "home_id": "sr:competitor:4695",
+      "away_id": "sr:competitor:4701",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33870343,
+      "debut": "2022-06-01T19:00:00+00:00",
+      "home": "Tenerife",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:6577",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33677363,
+      "debut": "2022-06-01T23:00:00+00:00",
+      "home": "La Equidad",
+      "away": "Envigado FC",
+      "home_id": "sr:competitor:6975",
+      "away_id": "sr:competitor:6114",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31932211,
+      "debut": "2022-06-01T23:30:00+00:00",
+      "home": "Fortaleza CE",
+      "away": "Ceara CE",
+      "home_id": "sr:competitor:2020",
+      "away_id": "sr:competitor:2001",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33514559,
+      "debut": "2022-06-01T23:30:00+00:00",
+      "home": "États-Unis",
+      "away": "Maroc",
+      "home_id": "sr:competitor:4724",
+      "away_id": "sr:competitor:4778",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 33677361,
+      "debut": "2022-06-02T01:05:00+00:00",
+      "home": "Tolima",
+      "away": "Independiente Medellin",
+      "home_id": "sr:competitor:6111",
+      "away_id": "sr:competitor:6115",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3316,
+  "grille_type": "grille7",
+  "pool_id": 7003316,
+  "titre": "Grille 7 n°3316",
+  "statut": "CLOSED",
+  "fin": "2024-04-28T18:45:00+00:00",
+  "collecte_le": "2026-08-20T08:00:54.325858+00:00",
+  "mises_nettes": 6667.5,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100100100010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 220.59
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 192,
+      "winningsPerGrid": 19.53
+    }
+  ],
+  "repartition": [
+    176,
+    813,
+    2014,
+    2662,
+    2098,
+    918,
+    192,
+    17
+  ],
+  "matches": [
+    {
+      "match_id": 42134777,
+      "debut": "2024-04-28T18:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2793",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42005069,
+      "debut": "2024-04-28T19:00:00+00:00",
+      "home": "Marseille",
+      "away": "Lens",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1648",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41893551,
+      "debut": "2024-04-28T19:00:00+00:00",
+      "home": "Betis Séville",
+      "away": "FC Séville",
+      "home_id": "sr:competitor:2816",
+      "away_id": "sr:competitor:2833",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 41984625,
+      "debut": "2024-04-28T19:00:00+00:00",
+      "home": "Albacete",
+      "away": "Eibar",
+      "home_id": "sr:competitor:2848",
+      "away_id": "sr:competitor:2839",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214463,
+      "debut": "2024-04-28T19:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1961",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48214455,
+      "debut": "2024-04-28T19:00:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Vitoria",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:1962",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 42146729,
+      "debut": "2024-04-28T19:30:00+00:00",
+      "home": "FC Porto",
+      "away": "Sporting Portugal",
+      "home_id": "sr:competitor:3002",
+      "away_id": "sr:competitor:3001",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 769,
+  "grille_type": "grille7",
+  "pool_id": 7000769,
+  "titre": "Grille 7 n°769",
+  "statut": "CLOSED",
+  "fin": "2018-01-02T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:47:46.788100+00:00",
+  "mises_nettes": 12798,
+  "montant_distribue": 12798,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100001100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 44,
+      "winningsPerGrid": 145.43
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 693,
+      "winningsPerGrid": 9.23
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 11830566,
+      "debut": "2018-01-02T19:45:00+00:00",
+      "home": "Swansea",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:74",
+      "away_id": "sr:competitor:33",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830242,
+      "debut": "2018-01-02T19:45:00+00:00",
+      "home": "West Ham",
+      "away": "West Bromwich",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:8",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830286,
+      "debut": "2018-01-02T19:45:00+00:00",
+      "home": "Southampton",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:7",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868592,
+      "debut": "2018-01-02T19:45:00+00:00",
+      "home": "Fulham",
+      "away": "Ipswich",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:32",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11868608,
+      "debut": "2018-01-02T19:45:00+00:00",
+      "home": "Wolverhampton",
+      "away": "Brentford",
+      "home_id": "sr:competitor:3",
+      "away_id": "sr:competitor:50",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13404389,
+      "debut": "2018-01-02T19:45:00+00:00",
+      "home": "Naples",
+      "away": "Atalanta Bergame",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2686",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11830160,
+      "debut": "2018-01-02T20:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Watford",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:24",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

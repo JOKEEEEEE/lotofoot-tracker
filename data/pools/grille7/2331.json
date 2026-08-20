@@ -1,0 +1,136 @@
+{
+  "grille_id": 2331,
+  "grille_type": "grille7",
+  "pool_id": 7002331,
+  "titre": "Grille 7 n°2331",
+  "statut": "CLOSED",
+  "fin": "2022-01-19T18:00:00+00:00",
+  "collecte_le": "2026-08-20T09:27:12.176490+00:00",
+  "mises_nettes": 15891,
+  "montant_distribue": 15891,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001100001001001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 44,
+      "winningsPerGrid": 180.58
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1078,
+      "winningsPerGrid": 7.37
+    }
+  ],
+  "repartition": [
+    94,
+    769,
+    3054,
+    6022,
+    6387,
+    3740,
+    1078,
+    44
+  ],
+  "matches": [
+    {
+      "match_id": 31496689,
+      "debut": "2022-01-19T18:00:00+00:00",
+      "home": "Lille",
+      "away": "Lorient",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1656",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31496705,
+      "debut": "2022-01-19T18:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Troyes",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1652",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31423775,
+      "debut": "2022-01-19T18:00:00+00:00",
+      "home": "Clermont",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1680",
+      "away_id": "sr:competitor:1659",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31496737,
+      "debut": "2022-01-19T18:00:00+00:00",
+      "home": "Amiens",
+      "away": "AC Ajaccio",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1660",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31497777,
+      "debut": "2022-01-19T18:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Nancy",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1675",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31400673,
+      "debut": "2022-01-19T19:30:00+00:00",
+      "home": "Leicester",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:33",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 31400827,
+      "debut": "2022-01-19T20:00:00+00:00",
+      "home": "Brentford",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:50",
+      "away_id": "sr:competitor:35",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

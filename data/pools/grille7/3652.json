@@ -1,0 +1,136 @@
+{
+  "grille_id": 3652,
+  "grille_type": "grille7",
+  "pool_id": 7003652,
+  "titre": "Grille 7 n°3652",
+  "statut": "CLOSED",
+  "fin": "2025-03-10T19:45:00+00:00",
+  "collecte_le": "2026-08-20T07:34:14.333079+00:00",
+  "mises_nettes": 8988,
+  "montant_distribue": 8988,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010100010001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 1123.5
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 60,
+      "winningsPerGrid": 74.9
+    }
+  ],
+  "repartition": [
+    670,
+    2554,
+    3920,
+    3057,
+    1362,
+    357,
+    60,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 57540701,
+      "debut": "2025-03-10T19:45:00+00:00",
+      "home": "Rodez",
+      "away": "Dunkerque",
+      "home_id": "sr:competitor:6925",
+      "away_id": "sr:competitor:6918",
+      "score_home": 5,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51273357,
+      "debut": "2025-03-10T19:45:00+00:00",
+      "home": "Lazio Rome",
+      "away": "Udinese",
+      "home_id": "sr:competitor:2699",
+      "away_id": "sr:competitor:2695",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 57974637,
+      "debut": "2025-03-10T19:45:00+00:00",
+      "home": "Livingston FC",
+      "away": "St Johnstone",
+      "home_id": "sr:competitor:2356",
+      "away_id": "sr:competitor:2348",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50850531,
+      "debut": "2025-03-10T20:00:00+00:00",
+      "home": "West Ham",
+      "away": "Newcastle",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:39",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852615,
+      "debut": "2025-03-10T20:00:00+00:00",
+      "home": "Espanyol Barcelone",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2814",
+      "away_id": "sr:competitor:24264",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51389211,
+      "debut": "2025-03-10T20:15:00+00:00",
+      "home": "Famalicao",
+      "away": "Rio Ave",
+      "home_id": "sr:competitor:49531",
+      "away_id": "sr:competitor:3036",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 56742953,
+      "debut": "2025-03-10T21:59:00+00:00",
+      "home": "Gimnasia La Plata",
+      "away": "Deportivo Riestra",
+      "home_id": "sr:competitor:3205",
+      "away_id": "sr:competitor:191648",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "grille_id": 78,
+  "grille_type": "grille7",
+  "pool_id": 7000078,
+  "titre": "Grille 7 n°78",
+  "statut": "CLOSED",
+  "fin": "2015-12-06T16:00:00+00:00",
+  "collecte_le": "2026-08-20T12:52:26.536101+00:00",
+  "mises_nettes": 9839.25,
+  "montant_distribue": 10000,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 13,
+      "winningsPerGrid": 384.62
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 160,
+      "winningsPerGrid": 31.25
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7473714,
+      "debut": "2015-12-06T16:00:00+00:00",
+      "home": "Bordeaux",
+      "away": "Guingamp",
+      "home_id": "sr:competitor:1645",
+      "away_id": "sr:competitor:1654",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7464734,
+      "debut": "2015-12-06T16:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:44",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689454,
+      "debut": "2015-12-06T17:00:00+00:00",
+      "home": "Sampdoria Gênes",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2711",
+      "away_id": "sr:competitor:2793",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610420,
+      "debut": "2015-12-06T17:15:00+00:00",
+      "home": "Gijon",
+      "away": "Las Palmas",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:6577",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610428,
+      "debut": "2015-12-06T19:30:00+00:00",
+      "home": "Athletic Bilbao",
+      "away": "Malaga",
+      "home_id": "sr:competitor:2825",
+      "away_id": "sr:competitor:2830",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689430,
+      "debut": "2015-12-06T19:45:00+00:00",
+      "home": "Carpi",
+      "away": "Milan AC",
+      "home_id": "sr:competitor:43685",
+      "away_id": "sr:competitor:2692",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7473712,
+      "debut": "2015-12-06T20:00:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Rennes",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1658",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

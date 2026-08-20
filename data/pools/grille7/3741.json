@@ -1,0 +1,136 @@
+{
+  "grille_id": 3741,
+  "grille_type": "grille7",
+  "pool_id": 7003741,
+  "titre": "Grille 7 n°3741",
+  "statut": "CLOSED",
+  "fin": "2025-06-05T18:15:00+00:00",
+  "collecte_le": "2026-08-20T08:23:45.553443+00:00",
+  "mises_nettes": 5979.75,
+  "montant_distribue": 5979.75,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010001100010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 11,
+      "winningsPerGrid": 271.81
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 129,
+      "winningsPerGrid": 23.18
+    }
+  ],
+  "repartition": [
+    110,
+    727,
+    1946,
+    2594,
+    1809,
+    647,
+    129,
+    11
+  ],
+  "matches": [
+    {
+      "match_id": 51133441,
+      "debut": "2025-06-05T18:15:00+00:00",
+      "home": "Irak",
+      "away": "Corée du Sud",
+      "home_id": "sr:competitor:4767",
+      "away_id": "sr:competitor:4735",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51133377,
+      "debut": "2025-06-05T18:15:00+00:00",
+      "home": "Qatar",
+      "away": "Iran",
+      "home_id": "sr:competitor:4792",
+      "away_id": "sr:competitor:4766",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 55809539,
+      "debut": "2025-06-05T19:00:00+00:00",
+      "home": "Espagne",
+      "away": "France",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4481",
+      "score_home": 5,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60376737,
+      "debut": "2025-06-05T23:06:00+00:00",
+      "home": "Equateur",
+      "away": "Brésil",
+      "home_id": "sr:competitor:4757",
+      "away_id": "sr:competitor:4748",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60376735,
+      "debut": "2025-06-05T23:00:00+00:00",
+      "home": "Paraguay",
+      "away": "Uruguay",
+      "home_id": "sr:competitor:4789",
+      "away_id": "sr:competitor:4725",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60376739,
+      "debut": "2025-06-06T01:00:00+00:00",
+      "home": "Chili",
+      "away": "Argentine",
+      "home_id": "sr:competitor:4754",
+      "away_id": "sr:competitor:4819",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60832245,
+      "debut": "2025-06-06T01:15:00+00:00",
+      "home": "Millonarios ",
+      "away": "Atletico Nacional Medellin",
+      "home_id": "sr:competitor:6117",
+      "away_id": "sr:competitor:6106",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

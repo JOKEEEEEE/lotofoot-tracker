@@ -1,0 +1,136 @@
+{
+  "grille_id": 2306,
+  "grille_type": "grille7",
+  "pool_id": 7002306,
+  "titre": "Grille 7 n°2306",
+  "statut": "CLOSED",
+  "fin": "2021-12-28T15:00:00+00:00",
+  "collecte_le": "2026-08-20T09:29:31.250027+00:00",
+  "mises_nettes": 8707.5,
+  "montant_distribue": 8707.5,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 5,
+      "winningsPerGrid": 870.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 93,
+      "winningsPerGrid": 46.81
+    }
+  ],
+  "repartition": [
+    366,
+    1577,
+    3265,
+    3544,
+    2128,
+    632,
+    93,
+    5
+  ],
+  "matches": [
+    {
+      "match_id": 27751438,
+      "debut": "2021-12-28T15:00:00+00:00",
+      "home": "Crystal Palace",
+      "away": "Norwich",
+      "home_id": "sr:competitor:7",
+      "away_id": "sr:competitor:263",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751448,
+      "debut": "2021-12-28T15:00:00+00:00",
+      "home": "Southampton",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751450,
+      "debut": "2021-12-28T15:00:00+00:00",
+      "home": "Watford",
+      "away": "West Ham",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:37",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077316,
+      "debut": "2021-12-28T17:00:00+00:00",
+      "home": "Tondela",
+      "away": "Gil Vicente",
+      "home_id": "sr:competitor:38396",
+      "away_id": "sr:competitor:3010",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077318,
+      "debut": "2021-12-28T19:00:00+00:00",
+      "home": "Maritimo",
+      "away": "FC Vizela",
+      "home_id": "sr:competitor:3007",
+      "away_id": "sr:competitor:5136",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751444,
+      "debut": "2021-12-28T20:00:00+00:00",
+      "home": "Leicester",
+      "away": "Liverpool",
+      "home_id": "sr:competitor:31",
+      "away_id": "sr:competitor:44",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 28077312,
+      "debut": "2021-12-28T21:00:00+00:00",
+      "home": "Moreirense",
+      "away": "Estoril",
+      "home_id": "sr:competitor:3014",
+      "away_id": "sr:competitor:4500",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 2199,
+  "grille_type": "grille7",
+  "pool_id": 7002199,
+  "titre": "Grille 7 n°2199",
+  "statut": "CLOSED",
+  "fin": "2021-10-02T13:00:00+00:00",
+  "collecte_le": "2026-08-20T09:39:53.790219+00:00",
+  "mises_nettes": 14683.5,
+  "montant_distribue": 14683.5,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010100001010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 917.72
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 144,
+      "winningsPerGrid": 50.98
+    }
+  ],
+  "repartition": [
+    724,
+    3327,
+    6075,
+    5501,
+    2919,
+    880,
+    144,
+    8
+  ],
+  "matches": [
+    {
+      "match_id": 27885946,
+      "debut": "2021-10-02T13:00:00+00:00",
+      "home": "Auxerre",
+      "away": "Nîmes",
+      "home_id": "sr:competitor:1646",
+      "away_id": "sr:competitor:1663",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 44,
+      "cote_N": 1,
+      "cote_2": 55
+    },
+    {
+      "match_id": 27885944,
+      "debut": "2021-10-02T13:00:00+00:00",
+      "home": "Amiens",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1676",
+      "away_id": "sr:competitor:1681",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 65,
+      "cote_N": 1,
+      "cote_2": 50
+    },
+    {
+      "match_id": 27883202,
+      "debut": "2021-10-02T13:30:00+00:00",
+      "home": "Wolfsbourg",
+      "away": "Borussia M'Gladbach",
+      "home_id": "sr:competitor:2524",
+      "away_id": "sr:competitor:2527",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 27751180,
+      "debut": "2021-10-02T14:00:00+00:00",
+      "home": "Leeds",
+      "away": "Watford",
+      "home_id": "sr:competitor:34",
+      "away_id": "sr:competitor:24",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 55,
+      "cote_2": null
+    },
+    {
+      "match_id": 27884876,
+      "debut": "2021-10-02T15:00:00+00:00",
+      "home": "Montpellier",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1642",
+      "away_id": "sr:competitor:1659",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 60,
+      "cote_N": 1,
+      "cote_2": 50
+    },
+    {
+      "match_id": 28159934,
+      "debut": "2021-10-02T16:00:00+00:00",
+      "home": "Torino",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 60,
+      "cote_2": 1
+    },
+    {
+      "match_id": 27751172,
+      "debut": "2021-10-02T16:30:00+00:00",
+      "home": "Brighton",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:30",
+      "away_id": "sr:competitor:42",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 38,
+      "cote_N": 1.01,
+      "cote_2": 40
+    }
+  ]
+}

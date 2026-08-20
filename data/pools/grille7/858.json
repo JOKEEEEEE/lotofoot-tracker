@@ -1,0 +1,127 @@
+{
+  "grille_id": 858,
+  "grille_type": "grille7",
+  "pool_id": 7000858,
+  "titre": "Grille 7 n°858",
+  "statut": "CLOSED",
+  "fin": "2018-04-04T16:30:00+00:00",
+  "collecte_le": "2026-08-20T11:41:07.183320+00:00",
+  "mises_nettes": 14904.75,
+  "montant_distribue": 14904.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "010100100010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 931.55
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 190,
+      "winningsPerGrid": 39.22
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14097275,
+      "debut": "2018-04-04T16:30:00+00:00",
+      "home": "Milan AC",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2697",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14011591,
+      "debut": "2018-04-04T16:30:00+00:00",
+      "home": "Chievo Vérone",
+      "away": "Sassuolo",
+      "home_id": "sr:competitor:2694",
+      "away_id": "sr:competitor:2793",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14011593,
+      "debut": "2018-04-04T16:30:00+00:00",
+      "home": "Torino",
+      "away": "Crotone",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2718",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11833248,
+      "debut": "2018-04-04T16:45:00+00:00",
+      "home": "Rennes",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1653",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14088597,
+      "debut": "2018-04-04T18:45:00+00:00",
+      "home": "FC Barcelone",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:2817",
+      "away_id": "sr:competitor:2702",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14088663,
+      "debut": "2018-04-04T18:45:00+00:00",
+      "home": "Liverpool",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:17",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13927783,
+      "debut": "2018-04-04T18:45:00+00:00",
+      "home": "Celtic Glasgow",
+      "away": "Dundee FC",
+      "home_id": "sr:competitor:2352",
+      "away_id": "sr:competitor:2357",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

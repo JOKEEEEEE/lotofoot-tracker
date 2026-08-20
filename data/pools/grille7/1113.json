@@ -1,0 +1,127 @@
+{
+  "grille_id": 1113,
+  "grille_type": "grille7",
+  "pool_id": 7001113,
+  "titre": "Grille 7 n°1113",
+  "statut": "CLOSED",
+  "fin": "2018-12-20T18:00:00+00:00",
+  "collecte_le": "2026-08-20T11:16:24.972586+00:00",
+  "mises_nettes": 6703.5,
+  "montant_distribue": 6703.5,
+  "montant_garanti": 4000,
+  "montant_ajoute": null,
+  "resultat_code": "010001010010010001100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1675.88
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 50,
+      "winningsPerGrid": 67.04
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 14937241,
+      "debut": "2018-12-20T18:00:00+00:00",
+      "home": "Astra Giurgiu",
+      "away": "Dinamo Bucarest",
+      "home_id": "sr:competitor:3288",
+      "away_id": "sr:competitor:3292",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14742011,
+      "debut": "2018-12-20T19:30:00+00:00",
+      "home": "Zaglebie Sosnowiec",
+      "away": "Legia Varsovie",
+      "home_id": "sr:competitor:7693",
+      "away_id": "sr:competitor:3106",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14937243,
+      "debut": "2018-12-21T15:30:00+00:00",
+      "home": "FC Politehnica Iasi",
+      "away": "FC Voluntari",
+      "home_id": "sr:competitor:5334",
+      "away_id": "sr:competitor:44255",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14741997,
+      "debut": "2018-12-21T17:00:00+00:00",
+      "home": "Arka Gdynia",
+      "away": "Wisla Plock",
+      "home_id": "sr:competitor:5064",
+      "away_id": "sr:competitor:3122",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14742003,
+      "debut": "2018-12-21T17:00:00+00:00",
+      "home": "Piast Gliwice",
+      "away": "Jagiellonia Bialystok",
+      "home_id": "sr:competitor:7918",
+      "away_id": "sr:competitor:7691",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14895035,
+      "debut": "2018-12-21T17:30:00+00:00",
+      "home": "Cologne",
+      "away": "Bochum",
+      "home_id": "sr:competitor:2671",
+      "away_id": "sr:competitor:2542",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 14895045,
+      "debut": "2018-12-21T17:30:00+00:00",
+      "home": "Sandhausen",
+      "away": "Greuther Fürth",
+      "home_id": "sr:competitor:6157",
+      "away_id": "sr:competitor:2551",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

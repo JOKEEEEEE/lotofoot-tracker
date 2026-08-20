@@ -1,0 +1,127 @@
+{
+  "grille_id": 1866,
+  "grille_type": "grille7",
+  "pool_id": 7001866,
+  "titre": "Grille 7 n°1866",
+  "statut": "CLOSED",
+  "fin": "2020-12-21T19:30:00+00:00",
+  "collecte_le": "2026-08-20T10:07:32.107260+00:00",
+  "mises_nettes": 11916.75,
+  "montant_distribue": 11916.75,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "111100100001100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 313,
+      "winningsPerGrid": 19.04
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1894,
+      "winningsPerGrid": 3.15
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 23032861,
+      "debut": "2020-12-21T19:30:00+00:00",
+      "home": "Karlsruhe",
+      "away": "Hambourg",
+      "home_id": "sr:competitor:2553",
+      "away_id": "sr:competitor:2676",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 32,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23204045,
+      "debut": "2020-12-21T20:00:00+00:00",
+      "home": "Chelsea",
+      "away": "West Ham",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:37",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23495837,
+      "debut": "2020-12-21T20:00:00+00:00",
+      "home": "Salernitana",
+      "away": "Entella",
+      "home_id": "sr:competitor:2710",
+      "away_id": "sr:competitor:43680",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 22,
+      "cote_2": 250
+    },
+    {
+      "match_id": 23320217,
+      "debut": "2020-12-21T20:15:00+00:00",
+      "home": "Santa Clara",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:3011",
+      "away_id": "sr:competitor:3009",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23362615,
+      "debut": "2020-12-21T20:30:00+00:00",
+      "home": "Tenerife",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2822",
+      "away_id": "sr:competitor:24264",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 21571419,
+      "debut": "2020-12-21T23:00:00+00:00",
+      "home": "Corinthians",
+      "away": "Goias",
+      "home_id": "sr:competitor:1957",
+      "away_id": "sr:competitor:1960",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 25,
+      "cote_2": 250
+    },
+    {
+      "match_id": 24854446,
+      "debut": "2020-12-21T23:30:00+00:00",
+      "home": "Curico Unido",
+      "away": "Union Espanola",
+      "home_id": "sr:competitor:33595",
+      "away_id": "sr:competitor:3153",
+      "score_home": null,
+      "score_away": null,
+      "statut": "ENDED",
+      "cote_1": 2.85,
+      "cote_N": 3.15,
+      "cote_2": 1.94
+    }
+  ]
+}

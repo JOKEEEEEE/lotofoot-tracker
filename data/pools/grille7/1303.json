@@ -1,0 +1,127 @@
+{
+  "grille_id": 1303,
+  "grille_type": "grille7",
+  "pool_id": 7001303,
+  "titre": "Grille 7 n°1303",
+  "statut": "CLOSED",
+  "fin": "2019-07-04T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:59:53.447139+00:00",
+  "mises_nettes": 6414,
+  "montant_distribue": 6414,
+  "montant_garanti": 6000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 41,
+      "winningsPerGrid": 78.22
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 427,
+      "winningsPerGrid": 7.51
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18417398,
+      "debut": "2019-07-04T18:00:00+00:00",
+      "home": "Runavik",
+      "away": "Ballymena",
+      "home_id": "sr:competitor:5189",
+      "away_id": "sr:competitor:5269",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18417392,
+      "debut": "2019-07-04T18:30:00+00:00",
+      "home": "College Europa FC",
+      "away": "UE Sant Julia",
+      "home_id": "sr:competitor:126298",
+      "away_id": "sr:competitor:7607",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18417416,
+      "debut": "2019-07-04T18:45:00+00:00",
+      "home": "Cliftonville",
+      "away": "Barry Town",
+      "home_id": "sr:competitor:5181",
+      "away_id": "sr:competitor:35186",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16599647,
+      "debut": "2019-07-04T18:00:00+00:00",
+      "home": "Ranheim",
+      "away": "Rosenborg",
+      "home_id": "sr:competitor:708",
+      "away_id": "sr:competitor:1161",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681635,
+      "debut": "2019-07-05T01:00:00+00:00",
+      "home": "FC Dallas",
+      "away": "DC United",
+      "home_id": "sr:competitor:2512",
+      "away_id": "sr:competitor:2502",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681647,
+      "debut": "2019-07-05T01:00:00+00:00",
+      "home": "Colorado Rapids",
+      "away": "New England Revolution",
+      "home_id": "sr:competitor:2510",
+      "away_id": "sr:competitor:2511",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 16681641,
+      "debut": "2019-07-05T02:30:00+00:00",
+      "home": "Los Angeles Galaxy",
+      "away": "Toronto FC",
+      "home_id": "sr:competitor:2513",
+      "away_id": "sr:competitor:7080",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

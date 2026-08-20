@@ -1,0 +1,136 @@
+{
+  "grille_id": 3711,
+  "grille_type": "grille7",
+  "pool_id": 7003711,
+  "titre": "Grille 7 n°3711",
+  "statut": "CLOSED",
+  "fin": "2025-05-08T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:33:41.670340+00:00",
+  "mises_nettes": 6863.25,
+  "montant_distribue": 6863.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001100001100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 14,
+      "winningsPerGrid": 245.12
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 196,
+      "winningsPerGrid": 17.51
+    }
+  ],
+  "repartition": [
+    88,
+    623,
+    1906,
+    2878,
+    2423,
+    1023,
+    196,
+    14
+  ],
+  "matches": [
+    {
+      "match_id": 58267291,
+      "debut": "2025-05-08T19:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Athletic Bilbao",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:2825",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58267481,
+      "debut": "2025-05-08T19:00:00+00:00",
+      "home": "Fiorentina",
+      "away": "Betis Séville",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2816",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58267289,
+      "debut": "2025-05-08T19:00:00+00:00",
+      "home": "Bodø/Glimt",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:656",
+      "away_id": "sr:competitor:33",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 58267479,
+      "debut": "2025-05-08T19:00:00+00:00",
+      "home": "Chelsea",
+      "away": "Djurgardens",
+      "home_id": "sr:competitor:38",
+      "away_id": "sr:competitor:1759",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60322583,
+      "debut": "2025-05-08T19:00:00+00:00",
+      "home": "Bristol City",
+      "away": "Sheffield United",
+      "home_id": "sr:competitor:58",
+      "away_id": "sr:competitor:15",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59011685,
+      "debut": "2025-05-08T22:00:00+00:00",
+      "home": "Velez Sarsfield",
+      "away": "Club Olimpia",
+      "home_id": "sr:competitor:3208",
+      "away_id": "sr:competitor:5997",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 59010849,
+      "debut": "2025-05-08T22:00:00+00:00",
+      "home": "CA Talleres",
+      "away": "Libertad Asuncion",
+      "home_id": "sr:competitor:3210",
+      "away_id": "sr:competitor:5996",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

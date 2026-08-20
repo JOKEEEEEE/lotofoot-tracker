@@ -1,0 +1,127 @@
+{
+  "grille_id": 772,
+  "grille_type": "grille7",
+  "pool_id": 7000772,
+  "titre": "Grille 7 n°772",
+  "statut": "CLOSED",
+  "fin": "2018-01-05T19:45:00+00:00",
+  "collecte_le": "2026-08-20T11:47:40.042769+00:00",
+  "mises_nettes": 10751.25,
+  "montant_distribue": 10751.25,
+  "montant_garanti": 8000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 232,
+      "winningsPerGrid": 23.17
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 1526,
+      "winningsPerGrid": 3.52
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12089758,
+      "debut": "2018-01-05T19:45:00+00:00",
+      "home": "Fiorentina",
+      "away": "Inter Milan",
+      "home_id": "sr:competitor:2693",
+      "away_id": "sr:competitor:2697",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13272804,
+      "debut": "2018-01-05T19:55:00+00:00",
+      "home": "Liverpool",
+      "away": "Everton",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:48",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13272834,
+      "debut": "2018-01-05T20:00:00+00:00",
+      "home": "Manchester United",
+      "away": "Derby County",
+      "home_id": "sr:competitor:35",
+      "away_id": "sr:competitor:27",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12089752,
+      "debut": "2018-01-06T11:30:00+00:00",
+      "home": "Torino",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2685",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13276555,
+      "debut": "2018-01-06T14:00:00+00:00",
+      "home": "Toulouse",
+      "away": "Nice",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 13276805,
+      "debut": "2018-01-06T14:00:00+00:00",
+      "home": "Le Mans",
+      "away": "Lille",
+      "home_id": "sr:competitor:1672",
+      "away_id": "sr:competitor:1643",
+      "score_home": 2,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12089754,
+      "debut": "2018-01-06T14:00:00+00:00",
+      "home": "Milan AC",
+      "away": "Crotone",
+      "home_id": "sr:competitor:2692",
+      "away_id": "sr:competitor:2718",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

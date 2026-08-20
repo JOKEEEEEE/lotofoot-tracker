@@ -1,0 +1,136 @@
+{
+  "grille_id": 2022,
+  "grille_type": "grille7",
+  "pool_id": 7002022,
+  "titre": "Grille 7 n°2022",
+  "statut": "CLOSED",
+  "fin": "2021-04-28T19:00:00+00:00",
+  "collecte_le": "2026-08-20T09:52:46.135509+00:00",
+  "mises_nettes": 11853,
+  "montant_distribue": 15000,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "001100001010010100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 441.18
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 232,
+      "winningsPerGrid": 32.33
+    }
+  ],
+  "repartition": [
+    189,
+    1041,
+    3789,
+    5457,
+    3724,
+    1355,
+    232,
+    17
+  ],
+  "matches": [
+    {
+      "match_id": 26890584,
+      "debut": "2021-04-28T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Manchester City",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:17",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 36,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 26894998,
+      "debut": "2021-04-28T22:00:00+00:00",
+      "home": "Defensa Y Justicia",
+      "away": "Universitario De Deportes",
+      "home_id": "sr:competitor:36839",
+      "away_id": "sr:competitor:2305",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26895108,
+      "debut": "2021-04-28T22:00:00+00:00",
+      "home": "Club Nacional De Football",
+      "away": "Atletico Nacional Medellin",
+      "home_id": "sr:competitor:3230",
+      "away_id": "sr:competitor:6106",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 22,
+      "cote_N": 1.02,
+      "cote_2": 12
+    },
+    {
+      "match_id": 26895158,
+      "debut": "2021-04-28T22:00:00+00:00",
+      "home": "Cerro Porteno",
+      "away": "Deportivo La Guaira",
+      "home_id": "sr:competitor:5991",
+      "away_id": "sr:competitor:36437",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 12,
+      "cote_N": 1.02,
+      "cote_2": 46
+    },
+    {
+      "match_id": 26895178,
+      "debut": "2021-04-29T00:00:00+00:00",
+      "home": "Santa Fe",
+      "away": "Fluminense",
+      "home_id": "sr:competitor:6116",
+      "away_id": "sr:competitor:1961",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 225,
+      "cote_N": 15,
+      "cote_2": 1.01
+    },
+    {
+      "match_id": 26905684,
+      "debut": "2021-04-29T00:00:00+00:00",
+      "home": "River Plate",
+      "away": "Junior De Barranquilla",
+      "home_id": "sr:competitor:3211",
+      "away_id": "sr:competitor:6105",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 26895110,
+      "debut": "2021-04-29T22:00:00+00:00",
+      "home": "Universidad Catolica",
+      "away": "Argentinos Juniors",
+      "home_id": "sr:competitor:3151",
+      "away_id": "sr:competitor:3216",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    }
+  ]
+}

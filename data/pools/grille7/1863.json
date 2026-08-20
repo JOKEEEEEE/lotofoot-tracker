@@ -1,0 +1,127 @@
+{
+  "grille_id": 1863,
+  "grille_type": "grille7",
+  "pool_id": 7001863,
+  "titre": "Grille 7 n°1863",
+  "statut": "CLOSED",
+  "fin": "2020-12-19T18:00:00+00:00",
+  "collecte_le": "2026-08-20T10:07:45.432563+00:00",
+  "mises_nettes": 13582.5,
+  "montant_distribue": 13582.5,
+  "montant_garanti": 11500,
+  "montant_ajoute": null,
+  "resultat_code": "100010010001100001010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 52,
+      "winningsPerGrid": 130.6
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 640,
+      "winningsPerGrid": 10.61
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 22650635,
+      "debut": "2020-12-19T18:00:00+00:00",
+      "home": "Marseille",
+      "away": "Reims",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1682",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 17,
+      "cote_N": 1.01,
+      "cote_2": 34
+    },
+    {
+      "match_id": 23390815,
+      "debut": "2020-12-19T19:45:00+00:00",
+      "home": "Parme",
+      "away": "Juventus Turin",
+      "home_id": "sr:competitor:2690",
+      "away_id": "sr:competitor:2687",
+      "score_home": 0,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23031293,
+      "debut": "2020-12-19T19:45:00+00:00",
+      "home": "Racing Genk",
+      "away": "Courtrai",
+      "home_id": "sr:competitor:2890",
+      "away_id": "sr:competitor:4858",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 250,
+      "cote_2": 250
+    },
+    {
+      "match_id": 22650641,
+      "debut": "2020-12-19T20:00:00+00:00",
+      "home": "Nice",
+      "away": "Lyon",
+      "home_id": "sr:competitor:1661",
+      "away_id": "sr:competitor:1649",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 250,
+      "cote_N": 250,
+      "cote_2": 1
+    },
+    {
+      "match_id": 23360597,
+      "debut": "2020-12-19T20:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Real Valladolid",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:2831",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 17,
+      "cote_N": 1.01,
+      "cote_2": 29
+    },
+    {
+      "match_id": 23204053,
+      "debut": "2020-12-19T20:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Fulham",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:43",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 15,
+      "cote_N": 1.01,
+      "cote_2": 38
+    },
+    {
+      "match_id": 23320225,
+      "debut": "2020-12-19T20:30:00+00:00",
+      "home": "Sporting Portugal",
+      "away": "Farense",
+      "home_id": "sr:competitor:3001",
+      "away_id": "sr:competitor:2998",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1,
+      "cote_N": 28,
+      "cote_2": 250
+    }
+  ]
+}

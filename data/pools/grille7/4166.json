@@ -1,0 +1,136 @@
+{
+  "grille_id": 4166,
+  "grille_type": "grille7",
+  "pool_id": 7004166,
+  "titre": "Grille 7 n°4166",
+  "statut": "CLOSED",
+  "fin": "2026-08-12T19:00:00+00:00",
+  "collecte_le": "2026-08-20T05:45:03.705980+00:00",
+  "mises_nettes": 5286,
+  "montant_distribue": 5286,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001010001010100",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 660.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 63,
+      "winningsPerGrid": 41.95
+    }
+  ],
+  "repartition": [
+    160,
+    859,
+    1964,
+    2295,
+    1313,
+    390,
+    63,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 71828762,
+      "debut": "2026-08-12T19:00:00+00:00",
+      "home": "Paris SG",
+      "away": "Aston Villa",
+      "home_id": "sr:competitor:1644",
+      "away_id": "sr:competitor:40",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.56,
+      "cote_N": 3.7,
+      "cote_2": 4.4
+    },
+    {
+      "match_id": 71805784,
+      "debut": "2026-08-12T22:00:00+00:00",
+      "home": "Palmeiras",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:1963",
+      "away_id": "sr:competitor:5991",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.21,
+      "cote_N": 5,
+      "cote_2": 10.5
+    },
+    {
+      "match_id": 71805350,
+      "debut": "2026-08-12T22:00:00+00:00",
+      "home": "Bragantino SP",
+      "away": "Atlético Mineiro",
+      "home_id": "sr:competitor:1999",
+      "away_id": "sr:competitor:1977",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 2.8,
+      "cote_2": 3.3
+    },
+    {
+      "match_id": 71805766,
+      "debut": "2026-08-13T00:30:00+00:00",
+      "home": "Cruzeiro",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1954",
+      "away_id": "sr:competitor:5981",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.8,
+      "cote_N": 2.95,
+      "cote_2": 2.4
+    },
+    {
+      "match_id": 73011680,
+      "debut": "2026-08-13T15:00:00+00:00",
+      "home": "Tobol",
+      "away": "Partizan Belgrade",
+      "home_id": "sr:competitor:5362",
+      "away_id": "sr:competitor:5152",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 2.7,
+      "cote_N": 3.2,
+      "cote_2": 2.15
+    },
+    {
+      "match_id": 73011634,
+      "debut": "2026-08-13T16:00:00+00:00",
+      "home": "Qarabag Agdam",
+      "away": "Dynamo Kiev",
+      "home_id": "sr:competitor:5962",
+      "away_id": "sr:competitor:3305",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.84,
+      "cote_N": 3.2,
+      "cote_2": 3.55
+    },
+    {
+      "match_id": 73011656,
+      "debut": "2026-08-13T16:00:00+00:00",
+      "home": "FC Ilves",
+      "away": "Rijeka",
+      "home_id": "sr:competitor:22386",
+      "away_id": "sr:competitor:2039",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.85,
+      "cote_N": 3.2,
+      "cote_2": 1.76
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3341,
+  "grille_type": "grille7",
+  "pool_id": 7003341,
+  "titre": "Grille 7 n°3341",
+  "statut": "CLOSED",
+  "fin": "2024-05-21T17:00:00+00:00",
+  "collecte_le": "2026-08-20T07:58:41.553210+00:00",
+  "mises_nettes": 4419,
+  "montant_distribue": 5000,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "010010010010100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 7,
+      "winningsPerGrid": 357.14
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 49,
+      "winningsPerGrid": 51.02
+    }
+  ],
+  "repartition": [
+    847,
+    1862,
+    1819,
+    971,
+    337,
+    49,
+    7,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 50187137,
+      "debut": "2024-05-21T17:00:00+00:00",
+      "home": "Wolfsberger AC",
+      "away": "Austria Vienne",
+      "home_id": "sr:competitor:2076",
+      "away_id": "sr:competitor:2203",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 48751383,
+      "debut": "2024-05-21T17:00:00+00:00",
+      "home": "Aarhus GF",
+      "away": "FC Copenhague",
+      "home_id": "sr:competitor:1291",
+      "away_id": "sr:competitor:1284",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 46300907,
+      "debut": "2024-05-21T17:00:00+00:00",
+      "home": "IFK Göteborg",
+      "away": "Mjallby",
+      "home_id": "sr:competitor:1761",
+      "away_id": "sr:competitor:1783",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50187675,
+      "debut": "2024-05-21T18:00:00+00:00",
+      "home": "Breda",
+      "away": "FC Emmen",
+      "home_id": "sr:competitor:2947",
+      "away_id": "sr:competitor:2965",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49538307,
+      "debut": "2024-05-21T18:30:00+00:00",
+      "home": "FC Bâle",
+      "away": "Yverdon-Sport FC",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:2460",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49538309,
+      "debut": "2024-05-21T18:30:00+00:00",
+      "home": "FC Lausanne",
+      "away": "Grasshopper Zurich",
+      "home_id": "sr:competitor:2446",
+      "away_id": "sr:competitor:2449",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 49782413,
+      "debut": "2024-05-21T18:30:00+00:00",
+      "home": "Rodez",
+      "away": "Paris FC",
+      "home_id": "sr:competitor:6925",
+      "away_id": "sr:competitor:6070",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

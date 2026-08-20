@@ -1,0 +1,127 @@
+{
+  "grille_id": 219,
+  "grille_type": "grille7",
+  "pool_id": 7000219,
+  "titre": "Grille 7 n°219",
+  "statut": "CLOSED",
+  "fin": "2016-05-08T15:00:00+00:00",
+  "collecte_le": "2026-08-20T12:38:10.214239+00:00",
+  "mises_nettes": 11916,
+  "montant_distribue": 11916,
+  "montant_garanti": 10000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 8,
+      "winningsPerGrid": 744.75
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 147,
+      "winningsPerGrid": 40.53
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 7465180,
+      "debut": "2016-05-08T15:00:00+00:00",
+      "home": "Manchester City",
+      "away": "Arsenal",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:42",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7465178,
+      "debut": "2016-05-08T15:00:00+00:00",
+      "home": "Liverpool",
+      "away": "Watford",
+      "home_id": "sr:competitor:44",
+      "away_id": "sr:competitor:24",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610870,
+      "debut": "2016-05-08T15:00:00+00:00",
+      "home": "Real Sociedad",
+      "away": "Rayo Vallecano",
+      "home_id": "sr:competitor:2824",
+      "away_id": "sr:competitor:2818",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610874,
+      "debut": "2016-05-08T15:00:00+00:00",
+      "home": "Villarreal",
+      "away": "Deportivo La Corogne",
+      "home_id": "sr:competitor:2819",
+      "away_id": "sr:competitor:2832",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7610882,
+      "debut": "2016-05-08T15:00:00+00:00",
+      "home": "FC Séville",
+      "away": "Grenade",
+      "home_id": "sr:competitor:2833",
+      "away_id": "sr:competitor:33779",
+      "score_home": 1,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7588900,
+      "debut": "2016-05-08T17:00:00+00:00",
+      "home": "Galatasaray",
+      "away": "Besiktas",
+      "home_id": "sr:competitor:3061",
+      "away_id": "sr:competitor:3050",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 7689568,
+      "debut": "2016-05-08T18:45:00+00:00",
+      "home": "Torino",
+      "away": "Naples",
+      "home_id": "sr:competitor:2696",
+      "away_id": "sr:competitor:2714",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

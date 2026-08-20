@@ -1,0 +1,136 @@
+{
+  "grille_id": 2766,
+  "grille_type": "grille7",
+  "pool_id": 7002766,
+  "titre": "Grille 7 n°2766",
+  "statut": "CLOSED",
+  "fin": "2023-01-23T19:45:00+00:00",
+  "collecte_le": "2026-08-20T08:50:16.654209+00:00",
+  "mises_nettes": 14310.75,
+  "montant_distribue": 14310.75,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "001010001010001001001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 51,
+      "winningsPerGrid": 140.3
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 545,
+      "winningsPerGrid": 13.13
+    }
+  ],
+  "repartition": [
+    50,
+    2814,
+    6914,
+    6146,
+    2561,
+    545,
+    51,
+    0
+  ],
+  "matches": [
+    {
+      "match_id": 38690165,
+      "debut": "2023-01-23T19:45:00+00:00",
+      "home": "US Pays de Cassel",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:957065",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 7,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34286879,
+      "debut": "2023-01-23T19:45:00+00:00",
+      "home": "Inter Milan",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2697",
+      "away_id": "sr:competitor:2705",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34152091,
+      "debut": "2023-01-23T20:15:00+00:00",
+      "home": "Fulham",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:43",
+      "away_id": "sr:competitor:33",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277555,
+      "debut": "2023-01-23T20:00:00+00:00",
+      "home": "Valence",
+      "away": "Almeria",
+      "home_id": "sr:competitor:2828",
+      "away_id": "sr:competitor:2858",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34278929,
+      "debut": "2023-01-23T20:00:00+00:00",
+      "home": "FC Andorra",
+      "away": "Albacete",
+      "home_id": "sr:competitor:610334",
+      "away_id": "sr:competitor:2848",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34504857,
+      "debut": "2023-01-23T20:15:00+00:00",
+      "home": "Boavista",
+      "away": "Chaves",
+      "home_id": "sr:competitor:2995",
+      "away_id": "sr:competitor:3025",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38292287,
+      "debut": "2023-01-23T22:00:00+00:00",
+      "home": "Universidad De Chile",
+      "away": "Huachipato",
+      "home_id": "sr:competitor:3161",
+      "away_id": "sr:competitor:3164",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 4168,
+  "grille_type": "grille7",
+  "pool_id": 7004168,
+  "titre": "Grille 7 n°4168",
+  "statut": "CLOSED",
+  "fin": "2026-08-14T18:45:00+00:00",
+  "collecte_le": "2026-08-20T05:44:35.804230+00:00",
+  "mises_nettes": 13245.75,
+  "montant_distribue": 13245.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "010010001100100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 7,
+      "winningsPerGrid": 946.13
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 128,
+      "winningsPerGrid": 51.74
+    }
+  ],
+  "repartition": [
+    285,
+    2530,
+    5619,
+    5513,
+    2799,
+    780,
+    128,
+    7
+  ],
+  "matches": [
+    {
+      "match_id": 72037268,
+      "debut": "2026-08-14T18:45:00+00:00",
+      "home": "Reims",
+      "away": "Dunkerque",
+      "home_id": "sr:competitor:1682",
+      "away_id": "sr:competitor:6918",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.7,
+      "cote_N": 3.7,
+      "cote_2": 4.4
+    },
+    {
+      "match_id": 72037254,
+      "debut": "2026-08-14T18:45:00+00:00",
+      "home": "Annecy FC",
+      "away": "Rodez",
+      "home_id": "sr:competitor:234888",
+      "away_id": "sr:competitor:6925",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.4,
+      "cote_N": 3.35,
+      "cote_2": 2.7
+    },
+    {
+      "match_id": 72037262,
+      "debut": "2026-08-14T18:45:00+00:00",
+      "home": "Laval",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1673",
+      "away_id": "sr:competitor:1647",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.35,
+      "cote_N": 3.15,
+      "cote_2": 1.92
+    },
+    {
+      "match_id": 72037270,
+      "debut": "2026-08-14T18:45:00+00:00",
+      "home": "Saint-Étienne",
+      "away": "Clermont",
+      "home_id": "sr:competitor:1678",
+      "away_id": "sr:competitor:1680",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.42,
+      "cote_N": 4.7,
+      "cote_2": 6.25
+    },
+    {
+      "match_id": 72037264,
+      "debut": "2026-08-14T18:45:00+00:00",
+      "home": "Nancy",
+      "away": "Montpellier",
+      "home_id": "sr:competitor:1675",
+      "away_id": "sr:competitor:1642",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.45,
+      "cote_N": 3.1,
+      "cote_2": 2.4
+    },
+    {
+      "match_id": 72037258,
+      "debut": "2026-08-14T18:45:00+00:00",
+      "home": "Grenoble",
+      "away": "Metz",
+      "home_id": "sr:competitor:1671",
+      "away_id": "sr:competitor:1651",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.8,
+      "cote_N": 2.95,
+      "cote_2": 2.2
+    },
+    {
+      "match_id": 72037266,
+      "debut": "2026-08-14T18:45:00+00:00",
+      "home": "Red Star",
+      "away": "Sochaux",
+      "home_id": "sr:competitor:52874",
+      "away_id": "sr:competitor:1657",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.84,
+      "cote_N": 3.15,
+      "cote_2": 3.6
+    }
+  ]
+}

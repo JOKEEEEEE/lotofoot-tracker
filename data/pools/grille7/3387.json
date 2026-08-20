@@ -1,0 +1,136 @@
+{
+  "grille_id": 3387,
+  "grille_type": "grille7",
+  "pool_id": 7003387,
+  "titre": "Grille 7 n°3387",
+  "statut": "CLOSED",
+  "fin": "2024-07-05T16:00:00+00:00",
+  "collecte_le": "2026-08-20T07:55:24.634039+00:00",
+  "mises_nettes": 5919,
+  "montant_distribue": 7500,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "010010001010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 3,
+      "winningsPerGrid": 1250
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 31,
+      "winningsPerGrid": 120.97
+    }
+  ],
+  "repartition": [
+    639,
+    1932,
+    2439,
+    1770,
+    822,
+    256,
+    31,
+    3
+  ],
+  "matches": [
+    {
+      "match_id": 45843709,
+      "debut": "2024-07-05T16:00:00+00:00",
+      "home": "Espagne",
+      "away": "Allemagne",
+      "home_id": "sr:competitor:4698",
+      "away_id": "sr:competitor:4711",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45843707,
+      "debut": "2024-07-05T19:00:00+00:00",
+      "home": "Portugal",
+      "away": "France",
+      "home_id": "sr:competitor:4704",
+      "away_id": "sr:competitor:4481",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50728717,
+      "debut": "2024-07-05T22:45:00+00:00",
+      "home": "Puebla",
+      "away": "Santos Laguna",
+      "home_id": "sr:competitor:1941",
+      "away_id": "sr:competitor:1948",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 45994283,
+      "debut": "2024-07-06T01:00:00+00:00",
+      "home": "Vénézuela",
+      "away": "Canada",
+      "home_id": "sr:competitor:4722",
+      "away_id": "sr:competitor:4752",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50728715,
+      "debut": "2024-07-06T01:00:00+00:00",
+      "home": "Querétaro",
+      "away": "Club Tijuana",
+      "home_id": "sr:competitor:1951",
+      "away_id": "sr:competitor:36525",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50728719,
+      "debut": "2024-07-06T03:00:00+00:00",
+      "home": "FC Juarez",
+      "away": "Atlas",
+      "home_id": "sr:competitor:215048",
+      "away_id": "sr:competitor:1949",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 47273401,
+      "debut": "2024-07-06T09:43:00+00:00",
+      "home": "Tokyo Verdy",
+      "away": "Cerezo Osaka",
+      "home_id": "sr:competitor:3139",
+      "away_id": "sr:competitor:3141",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

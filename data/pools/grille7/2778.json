@@ -1,0 +1,136 @@
+{
+  "grille_id": 2778,
+  "grille_type": "grille7",
+  "pool_id": 7002778,
+  "titre": "Grille 7 n°2778",
+  "statut": "CLOSED",
+  "fin": "2023-02-02T17:00:00+00:00",
+  "collecte_le": "2026-08-20T13:10:03.782937+00:00",
+  "mises_nettes": 7835.25,
+  "montant_distribue": 7835.25,
+  "montant_garanti": 5000,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001100100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 15,
+      "winningsPerGrid": 261.18
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 198,
+      "winningsPerGrid": 19.79
+    }
+  ],
+  "repartition": [
+    64,
+    617,
+    2353,
+    3574,
+    2627,
+    999,
+    198,
+    15
+  ],
+  "matches": [
+    {
+      "match_id": 34478415,
+      "debut": "2023-02-02T17:00:00+00:00",
+      "home": "Adana Demirspor",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:3101",
+      "away_id": "sr:competitor:3052",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34526931,
+      "debut": "2023-02-02T17:00:00+00:00",
+      "home": "Anorthosis Famagouste",
+      "away": "Omonia Nicosie",
+      "home_id": "sr:competitor:3403",
+      "away_id": "sr:competitor:3395",
+      "score_home": 4,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34526921,
+      "debut": "2023-02-02T17:00:00+00:00",
+      "home": "AEL Limassol",
+      "away": "Akritas Chlorakas",
+      "home_id": "sr:competitor:3407",
+      "away_id": "sr:competitor:36398",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38658123,
+      "debut": "2023-02-02T19:45:00+00:00",
+      "home": "Zulte Waregem",
+      "away": "Malines",
+      "home_id": "sr:competitor:2933",
+      "away_id": "sr:competitor:5044",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 34277523,
+      "debut": "2023-02-02T20:00:00+00:00",
+      "home": "Real Madrid",
+      "away": "Valence",
+      "home_id": "sr:competitor:2829",
+      "away_id": "sr:competitor:2828",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 38801487,
+      "debut": "2023-02-02T20:00:00+00:00",
+      "home": "Juventus Turin",
+      "away": "Lazio Rome",
+      "home_id": "sr:competitor:2687",
+      "away_id": "sr:competitor:2699",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 37763399,
+      "debut": "2023-02-03T03:00:00+00:00",
+      "home": "Atletico San Luis",
+      "away": "Puebla",
+      "home_id": "sr:competitor:1950",
+      "away_id": "sr:competitor:1941",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

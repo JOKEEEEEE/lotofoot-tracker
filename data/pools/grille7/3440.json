@@ -1,0 +1,136 @@
+{
+  "grille_id": 3440,
+  "grille_type": "grille7",
+  "pool_id": 7003440,
+  "titre": "Grille 7 n°3440",
+  "statut": "CLOSED",
+  "fin": "2024-08-25T18:45:00+00:00",
+  "collecte_le": "2026-08-20T07:51:26.363378+00:00",
+  "mises_nettes": 7849.5,
+  "montant_distribue": 7849.5,
+  "montant_garanti": 7500,
+  "montant_ajoute": null,
+  "resultat_code": "100100100001001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 2,
+      "winningsPerGrid": 1962.38
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 55,
+      "winningsPerGrid": 71.36
+    }
+  ],
+  "repartition": [
+    218,
+    1276,
+    2839,
+    3400,
+    2236,
+    440,
+    55,
+    2
+  ],
+  "matches": [
+    {
+      "match_id": 50955375,
+      "debut": "2024-08-25T18:45:00+00:00",
+      "home": "Marseille",
+      "away": "Reims",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1682",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51269659,
+      "debut": "2024-08-25T18:45:00+00:00",
+      "home": "Naples",
+      "away": "Bologne",
+      "home_id": "sr:competitor:2714",
+      "away_id": "sr:competitor:2685",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51269663,
+      "debut": "2024-08-25T18:45:00+00:00",
+      "home": "AS Rome",
+      "away": "Empoli",
+      "home_id": "sr:competitor:2702",
+      "away_id": "sr:competitor:2705",
+      "score_home": 1,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51471843,
+      "debut": "2024-08-25T18:45:00+00:00",
+      "home": "Rizespor",
+      "away": "Fenerbahce",
+      "home_id": "sr:competitor:3064",
+      "away_id": "sr:competitor:3052",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 50852101,
+      "debut": "2024-08-25T19:30:00+00:00",
+      "home": "Atletico Madrid",
+      "away": "Gérone",
+      "home_id": "sr:competitor:2836",
+      "away_id": "sr:competitor:24264",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388745,
+      "debut": "2024-08-25T19:30:00+00:00",
+      "home": "Braga",
+      "away": "Moreirense",
+      "home_id": "sr:competitor:2999",
+      "away_id": "sr:competitor:3014",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 51388753,
+      "debut": "2024-08-25T19:30:00+00:00",
+      "home": "AVS Futebol SAD",
+      "away": "Vitoria Guimaraes",
+      "home_id": "sr:competitor:1031053",
+      "away_id": "sr:competitor:3009",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

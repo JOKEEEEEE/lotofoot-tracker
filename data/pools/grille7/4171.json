@@ -1,0 +1,136 @@
+{
+  "grille_id": 4171,
+  "grille_type": "grille7",
+  "pool_id": 7004171,
+  "titre": "Grille 7 n°4171",
+  "statut": "CLOSED",
+  "fin": "2026-08-17T17:00:00+00:00",
+  "collecte_le": "2026-08-20T05:43:54.119603+00:00",
+  "mises_nettes": 5238,
+  "montant_distribue": 5238,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "100001010010010100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 42,
+      "winningsPerGrid": 62.36
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 334,
+      "winningsPerGrid": 7.84
+    }
+  ],
+  "repartition": [
+    22,
+    268,
+    1040,
+    2176,
+    2002,
+    1100,
+    334,
+    42
+  ],
+  "matches": [
+    {
+      "match_id": 72477310,
+      "debut": "2026-08-17T17:00:00+00:00",
+      "home": "Gijon",
+      "away": "Sabadell",
+      "home_id": "sr:competitor:2852",
+      "away_id": "sr:competitor:24335",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2,
+      "cote_N": 2.95,
+      "cote_2": 3.3
+    },
+    {
+      "match_id": 71924974,
+      "debut": "2026-08-17T17:00:00+00:00",
+      "home": "Brøndby",
+      "away": "Sønderjyske",
+      "home_id": "sr:competitor:1281",
+      "away_id": "sr:competitor:1295",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.37,
+      "cote_N": 46,
+      "cote_2": null
+    },
+    {
+      "match_id": 72723140,
+      "debut": "2026-08-17T18:30:00+00:00",
+      "home": "Samsunspor",
+      "away": "Göztepe",
+      "home_id": "sr:competitor:3053",
+      "away_id": "sr:competitor:3054",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 1.98,
+      "cote_N": 3.2,
+      "cote_2": 3.1
+    },
+    {
+      "match_id": 72478452,
+      "debut": "2026-08-17T19:00:00+00:00",
+      "home": "Deportivo La Corogne",
+      "away": "Elche",
+      "home_id": "sr:competitor:2832",
+      "away_id": "sr:competitor:2846",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2,
+      "cote_N": 3.1,
+      "cote_2": 3.1
+    },
+    {
+      "match_id": 72339690,
+      "debut": "2026-08-17T19:00:00+00:00",
+      "home": "Cardiff",
+      "away": "Wrexham",
+      "home_id": "sr:competitor:61",
+      "away_id": "sr:competitor:64",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.3,
+      "cote_N": 3.35,
+      "cote_2": 2.45
+    },
+    {
+      "match_id": 72530846,
+      "debut": "2026-08-17T19:15:00+00:00",
+      "home": "Casa Pia AC",
+      "away": "Benfica",
+      "home_id": "sr:competitor:36365",
+      "away_id": "sr:competitor:3006",
+      "score_home": 0,
+      "score_away": 7,
+      "statut": "ENDED",
+      "cote_1": 13.5,
+      "cote_N": 6,
+      "cote_2": 1.18
+    },
+    {
+      "match_id": 72477290,
+      "debut": "2026-08-17T19:30:00+00:00",
+      "home": "Almeria",
+      "away": "Eldense",
+      "home_id": "sr:competitor:2858",
+      "away_id": "sr:competitor:47321",
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.41,
+      "cote_N": 4.2,
+      "cote_2": 5.6
+    }
+  ]
+}

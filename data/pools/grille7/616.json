@@ -1,0 +1,127 @@
+{
+  "grille_id": 616,
+  "grille_type": "grille7",
+  "pool_id": 7000616,
+  "titre": "Grille 7 n°616",
+  "statut": "CLOSED",
+  "fin": "2017-07-25T17:30:00+00:00",
+  "collecte_le": "2026-08-20T11:58:25.127809+00:00",
+  "mises_nettes": 3464.25,
+  "montant_distribue": 3464.25,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001001001001100010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 13,
+      "winningsPerGrid": 133.24
+    },
+    {
+      "nbCorrectResults": 5,
+      "winningGrids": 124,
+      "winningsPerGrid": 13.97
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 12009502,
+      "debut": "2017-07-25T17:30:00+00:00",
+      "home": "AEK Athènes",
+      "away": "CSKA Moscou",
+      "home_id": "sr:competitor:3250",
+      "away_id": "sr:competitor:2325",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12009504,
+      "debut": "2017-07-25T17:30:00+00:00",
+      "home": "FC Steaua Bucarest",
+      "away": "Viktoria Plzen",
+      "home_id": "sr:competitor:3301",
+      "away_id": "sr:competitor:4502",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12047854,
+      "debut": "2017-07-25T18:00:00+00:00",
+      "home": "Vardar Skopje",
+      "away": "FC Copenhague",
+      "home_id": "sr:competitor:5403",
+      "away_id": "sr:competitor:1284",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10555396,
+      "debut": "2017-07-25T18:45:00+00:00",
+      "home": "Russie (F)",
+      "away": "Allemagne (F)",
+      "home_id": "sr:competitor:32486",
+      "away_id": "sr:competitor:23992",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 10555398,
+      "debut": "2017-07-25T18:45:00+00:00",
+      "home": "Suède (F)",
+      "away": "Italie (F)",
+      "home_id": "sr:competitor:7423",
+      "away_id": "sr:competitor:22025",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 12039334,
+      "debut": "2017-07-25T18:45:00+00:00",
+      "home": "Partizan Belgrade",
+      "away": "Olympiakos",
+      "home_id": "sr:competitor:5152",
+      "away_id": "sr:competitor:3245",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 11760800,
+      "debut": "2017-07-26T00:00:00+00:00",
+      "home": "Tottenham",
+      "away": "AS Rome",
+      "home_id": "sr:competitor:33",
+      "away_id": "sr:competitor:2702",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

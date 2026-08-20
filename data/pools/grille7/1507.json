@@ -1,0 +1,127 @@
+{
+  "grille_id": 1507,
+  "grille_type": "grille7",
+  "pool_id": 7001507,
+  "titre": "Grille 7 n°1507",
+  "statut": "CLOSED",
+  "fin": "2020-01-01T15:00:00+00:00",
+  "collecte_le": "2026-08-20T10:42:48.784022+00:00",
+  "mises_nettes": 24350.25,
+  "montant_distribue": 24350.25,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100100010100100100001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 23,
+      "winningsPerGrid": 529.35
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 385,
+      "winningsPerGrid": 31.62
+    }
+  ],
+  "repartition": null,
+  "matches": [
+    {
+      "match_id": 18427934,
+      "debut": "2020-01-01T15:00:00+00:00",
+      "home": "Newcastle",
+      "away": "Leicester",
+      "home_id": "sr:competitor:39",
+      "away_id": "sr:competitor:31",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427938,
+      "debut": "2020-01-01T15:00:00+00:00",
+      "home": "Southampton",
+      "away": "Tottenham",
+      "home_id": "sr:competitor:45",
+      "away_id": "sr:competitor:33",
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427940,
+      "debut": "2020-01-01T15:00:00+00:00",
+      "home": "Watford",
+      "away": "Wolverhampton",
+      "home_id": "sr:competitor:24",
+      "away_id": "sr:competitor:3",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427932,
+      "debut": "2020-01-01T17:30:00+00:00",
+      "home": "Manchester City",
+      "away": "Everton",
+      "home_id": "sr:competitor:17",
+      "away_id": "sr:competitor:48",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427936,
+      "debut": "2020-01-01T17:30:00+00:00",
+      "home": "Norwich",
+      "away": "Crystal Palace",
+      "home_id": "sr:competitor:263",
+      "away_id": "sr:competitor:7",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427942,
+      "debut": "2020-01-01T17:30:00+00:00",
+      "home": "West Ham",
+      "away": "Bournemouth",
+      "home_id": "sr:competitor:37",
+      "away_id": "sr:competitor:60",
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 18427924,
+      "debut": "2020-01-01T20:00:00+00:00",
+      "home": "Arsenal",
+      "away": "Manchester United",
+      "home_id": "sr:competitor:42",
+      "away_id": "sr:competitor:35",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "grille_id": 3817,
+  "grille_type": "grille7",
+  "pool_id": 7003817,
+  "titre": "Grille 7 n°3817",
+  "statut": "CLOSED",
+  "fin": "2025-08-20T19:00:00+00:00",
+  "collecte_le": "2026-08-20T07:07:09.948121+00:00",
+  "mises_nettes": 5160.75,
+  "montant_distribue": 5160.75,
+  "montant_garanti": 3000,
+  "montant_ajoute": null,
+  "resultat_code": "001100100010100010010",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 4,
+      "winningsPerGrid": 645.1
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 60,
+      "winningsPerGrid": 43.01
+    }
+  ],
+  "repartition": [
+    176,
+    849,
+    1865,
+    2197,
+    1318,
+    412,
+    60,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 62599576,
+      "debut": "2025-08-20T19:00:00+00:00",
+      "home": "Fenerbahce",
+      "away": "Benfica",
+      "home_id": "sr:competitor:3052",
+      "away_id": "sr:competitor:3006",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62599504,
+      "debut": "2025-08-20T19:00:00+00:00",
+      "home": "FC Bâle",
+      "away": "Copenhague",
+      "home_id": "sr:competitor:2501",
+      "away_id": "sr:competitor:1284",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62599496,
+      "debut": "2025-08-20T19:00:00+00:00",
+      "home": "Bodø/Glimt",
+      "away": "Sturm Graz",
+      "home_id": "sr:competitor:656",
+      "away_id": "sr:competitor:2051",
+      "score_home": 5,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60986881,
+      "debut": "2025-08-20T22:00:00+00:00",
+      "home": "Estudiantes",
+      "away": "Cerro Porteno",
+      "home_id": "sr:competitor:3206",
+      "away_id": "sr:competitor:5991",
+      "score_home": 0,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62520996,
+      "debut": "2025-08-20T22:00:00+00:00",
+      "home": "Juventude RS",
+      "away": "Vasco da Gama",
+      "home_id": "sr:competitor:1980",
+      "away_id": "sr:competitor:1974",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 62736057,
+      "debut": "2025-08-21T00:00:00+00:00",
+      "home": "Inter Miami CF",
+      "away": "Tigres",
+      "home_id": "sr:competitor:659691",
+      "away_id": "sr:competitor:1940",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    },
+    {
+      "match_id": 60986885,
+      "debut": "2025-08-21T00:30:00+00:00",
+      "home": "Internacional ",
+      "away": "Flamengo",
+      "home_id": "sr:competitor:1966",
+      "away_id": "sr:competitor:5981",
+      "score_home": 0,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
+    }
+  ]
+}
