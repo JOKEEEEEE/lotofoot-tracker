@@ -144,7 +144,8 @@ def doubler(combien: int):
     return strategie
 
 
-def systeme(doubles: int, triples: int, ordre: str = "nets"):
+def systeme(doubles: int, triples: int, ordre: str = "nets",
+            triples_sur: str = None):
     """Un système : des doubles et des triples posés sur certains matchs.
 
     LA QUESTION N'EST PAS COMBIEN, C'EST OÙ. À budget identique, poser ses
@@ -157,16 +158,32 @@ def systeme(doubles: int, triples: int, ordre: str = "nets"):
         ordre = "serres" les matchs les plus incertains d'abord — l'instinct
                          habituel, celui qui couvre là où l'on hésite.
 
-    Les triples passent avant les doubles : un triple couvrant les trois
-    issues, il ne sert à rien de doubler par-dessus.
+    ET LES TRIPLES VONT AILLEURS QUE LES DOUBLES. `triples_sur` les place
+    séparément, et la mesure est nette : à configuration identique, 4 doubles
+    et 2 triples rapportent 23,38 € par grille quand les triples sont sur les
+    matchs serrés, et 1,91 € quand ils sont sur les nets.
+
+    La raison tient en une phrase. Un double sur un favori net achète de la
+    SOLITUDE — l'issue rare que personne ne coche. Un triple n'achète aucune
+    solitude puisqu'il prend tout, il achète de la SÉCURITÉ ; or on ne
+    sécurise pas ce qui est déjà sûr. Chacun sert donc à l'autre bout de la
+    grille.
+
+    Par défaut les triples suivent `ordre`, pour que le comportement reste
+    lisible ; c'est aux appelants de demander "serres" en connaissance.
     """
     def strategie(g):
         rang = sorted(range(MATCHS), key=lambda j: max(g["p"][j]),
                       reverse=(ordre == "nets"))
+        ou_t = ordre if triples_sur is None else triples_sur
+        cibles_t = (rang[:triples] if ou_t == ordre
+                    else rang[::-1][:triples])
+        # Les doubles prennent les meilleurs matchs restants, dans leur ordre.
+        cibles_d = [j for j in rang if j not in cibles_t][:doubles]
         jeux = [favori(g)]
-        for j in rang[:triples]:
+        for j in cibles_t:
             jeux = [[*c[:j], i, *c[j + 1:]] for c in jeux for i in range(3)]
-        for j in rang[triples:triples + doubles]:
+        for j in cibles_d:
             jeux = [[*c[:j], i, *c[j + 1:]] for c in jeux
                     for i in (rang_issue(g, j, 0), rang_issue(g, j, 1))]
         return jeux
@@ -244,6 +261,10 @@ def main() -> int:
                     help="comparer où poser doubles et triples, à budget égal")
     ap.add_argument("--taille", action="store_true",
                     help="rendement par euro contre gain espéré en euros")
+    ap.add_argument("--configs", action="store_true",
+                    help="balayer toutes les configurations base/double/triple")
+    ap.add_argument("--mise-max", type=int, default=400,
+                    help="ne pas montrer les configurations plus chères")
     args = ap.parse_args()
 
     grilles = charger(args.source)
@@ -334,6 +355,41 @@ def main() -> int:
               "de plus,")
         print("  et non le système entier. En dessous de 100 %, le double "
               "supplémentaire coûte.")
+        return 0
+
+    if args.configs:
+        # TOUTES LES FAÇONS DE DÉCOUPER SEPT MATCHS en bases, doubles et
+        # triples. Les doubles vont toujours sur les favoris les plus nets ;
+        # seul le placement des triples varie, parce que c'est la seule chose
+        # qui restait à trancher.
+        resultats = []
+        for triples in range(4):
+            for doubles in range(MATCHS + 1 - triples):
+                mise = 2 ** doubles * 3 ** triples
+                if mise > args.mise_max:
+                    continue
+                for ou in (("nets",) if triples == 0 else ("serres", "nets")):
+                    fn = systeme(doubles, triples, "nets", ou)
+                    tous = rendements(fn, grilles)
+                    moyen = statistics.mean(tous)
+                    resultats.append((
+                        MATCHS - doubles - triples, doubles, triples,
+                        ou if triples else "—", mise, moyen, (moyen - 1) * mise,
+                        statistics.mean(rendements(fn, grilles[:coupe])),
+                        statistics.mean(rendements(fn, grilles[coupe:])),
+                        sans_la_tete(tous)))
+        resultats.sort(key=lambda r: -r[6])
+        print(f"  {'base':>5}{'dbl':>5}{'trp':>5}  {'triples sur':<12}{'mise':>7}"
+              f"{'rend.':>8}{'gain espéré':>13}{'période A':>11}{'période B':>11}"
+              f"{'sans top3':>11}")
+        print("  " + "-" * 88)
+        for base, d, t, ou, mise, moyen, esp, a, b, st in resultats:
+            print(f"  {base:>5}{d:>5}{t:>5}  {ou:<12}{mise:>6}€{100*moyen:>7.0f} %"
+                  f"{esp:>+11.2f} €{100*a:>10.0f} %{100*b:>10.0f} %{100*st:>10.0f} %")
+        print(f"\n  Trié par gain espéré. {len(resultats)} configurations, "
+              f"mise plafonnée à {args.mise_max} €.")
+        print("  Doubles toujours sur les favoris les plus nets ; la colonne "
+              "dit où vont les triples.")
         return 0
 
     entete = (f"  {'stratégie':<38}{'coût':>6}{'rendement':>11}"

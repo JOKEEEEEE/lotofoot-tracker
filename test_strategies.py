@@ -105,6 +105,36 @@ def test_l_ordre_choisit_des_matchs_opposes():
     assert varie(serres) == {5, 6}, varie(serres)
 
 
+def test_triples_et_doubles_se_placent_aux_deux_bouts():
+    """Le double achète de la solitude, le triple achète de la sécurité.
+
+    On ne sécurise pas ce qui est déjà sûr : les triples vont donc sur les
+    matchs les plus incertains, les doubles sur les favoris les plus nets.
+    Mesuré : 4 doubles + 2 triples rapportent 23,38 € par grille ainsi placés,
+    contre 1,91 € avec les triples sur les nets.
+    """
+    g = _grille()                      # favori net au match 0, serré au match 6
+    jeux = S.systeme(2, 1, "nets", triples_sur="serres")(g)
+    assert len(jeux) == 12
+    couverture = [len({c[j] for c in jeux}) for j in range(7)]
+    assert couverture == [2, 2, 1, 1, 1, 1, 3], couverture
+
+    # Et si l'on demande les triples sur les nets, tout se déplace à l'autre bout.
+    couverture = [len({c[j] for c in S.systeme(2, 1, "nets", "nets")(g)})
+                  for j in range(7)]
+    assert couverture == [3, 2, 2, 1, 1, 1, 1], couverture
+
+
+def test_un_double_ne_se_pose_pas_sur_un_match_deja_triple():
+    """Sinon le budget partirait deux fois au même endroit."""
+    g = _grille()
+    for triples_sur in ("nets", "serres"):
+        jeux = S.systeme(3, 1, "nets", triples_sur)(g)
+        assert len(jeux) == 24, (triples_sur, len(jeux))
+        couverts = [j for j in range(7) if len({c[j] for c in jeux}) > 1]
+        assert len(couverts) == 4, couverts       # 3 doubles + 1 triple
+
+
 def test_sans_la_tete_retire_bien_les_meilleures():
     """Le garde-fou anti-loterie : si retirer trois grilles fait tout
     tomber, le rendement moyen ne décrivait qu'elles."""
