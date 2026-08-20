@@ -94,7 +94,9 @@ def test_sans_score_la_date_doit_tomber_juste():
     assert motif is None, motif
 
 
-CSV = """Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,PSCH,PSCD,PSCA,B365H,B365D,B365A
+# Les octets EF BB BF qui ouvrent les fichiers récents, tels qu'ils
+# apparaissent une fois le fichier lu en latin-1.
+CSV = """ï»¿Div,Date,HomeTeam,AwayTeam,FTHG,FTAG,PSCH,PSCD,PSCA,B365H,B365D,B365A
 F1,15/04/2023,Lyon,Nantes,2,1,1.80,3.50,4.20,1.75,3.55,4.40
 F1,22/04/2023,Nantes,Lyon,0,0,,,,1.00,15.0,3.10
 """
@@ -121,11 +123,28 @@ def test_lecture_de_football_data():
     assert len(aller) == len(retour) == 1, index
     assert aller[0]["score"] == (2, 1) and retour[0]["score"] == (0, 0)
     assert aller[0]["cotes"]["pinnacle_cloture"] == (1.8, 3.5, 4.2)
+    # La colonne Div doit survivre à la marque d'ordre des octets qui ouvre
+    # les fichiers récents de football-data. Sans quoi la compétition se perd
+    # en silence — les autres colonnes, elles, arrivent intactes.
     assert aller[0]["division"] == "F1"
     # Colonnes vides ou aberrantes : le trio entier est écarté plutôt que
     # complété à moitié. Pinnacle manque sur le retour, et le trio Bet365
     # porte une cote de 1.00 — une cote qui ne paie rien n'est pas une cote.
     assert retour[0]["cotes"] == {}, retour[0]["cotes"]
+
+
+def test_un_fichier_vide_ne_fait_pas_tomber_le_chargement():
+    """Un téléchargement interrompu laisse un CSV de zéro octet. Il ne doit
+    pas emporter les 258 autres fichiers avec lui."""
+    with tempfile.TemporaryDirectory() as rep:
+        (Path(rep) / "vide.csv").write_text("", encoding="latin-1")
+        (Path(rep) / "F1.csv").write_text(CSV, encoding="latin-1")
+        ancien, dg.CACHE_FD = dg.CACHE_FD, Path(rep)
+        try:
+            index = jc.charger_rencontres()
+        finally:
+            dg.CACHE_FD = ancien
+    assert len(index) == 2, index
 
 
 def test_match_sans_date_jamais_rapproche():

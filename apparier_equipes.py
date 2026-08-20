@@ -32,6 +32,11 @@ import dater_grilles as dg
 
 RACINE = Path(__file__).parent
 SORTIE = RACINE / "data" / "alias_equipes.json"
+# Footiqo écrit encore une troisième langue — « PSG », « Atl. Madrid »,
+# « Malmo FF ». Son dictionnaire vit à part : mélanger les deux ferait passer
+# un nom football-data pour un nom Footiqo, et la jointure chercherait une
+# équipe qui n'existe pas dans l'index qu'elle interroge.
+SORTIE_FOOTIQO = RACINE / "data" / "alias_footiqo.json"
 
 # Un candidat en dessous de ce seuil de ressemblance n'est même pas soumis à la
 # validation par les dates : c'est un filtre de débroussaillage, pas un critère.
@@ -205,6 +210,40 @@ def apparier_par_date_exacte(grilles: list, rencontres: dict, table: dict = None
     return alias, refuses
 
 
+# Combien de tours au maximum. La boucle s'arrête d'elle-même dès qu'un tour
+# n'apprend rien ; ce plafond n'est là que pour qu'un cas pathologique ne
+# tourne pas indéfiniment.
+TOURS_MAXI = 8
+
+
+def apparier_iteratif(grilles: list, rencontres: dict, table: dict = None) -> tuple:
+    """La passe par date exacte, répétée jusqu'à ce qu'elle n'apprenne plus rien.
+
+    UN TOUR NE SUFFIT PAS QUAND LES DEUX SOURCES PARLENT DES LANGUES
+    DIFFÉRENTES. Face à football-data, un seul tour allait loin parce que le
+    dictionnaire de la première passe donnait déjà 270 noms. Face à Footiqo,
+    on part de la seule amorce des noms écrits pareil des deux côtés — 172 sur
+    383. « PSG » contre « Paris SG », « Malmo FF » contre « Malmö » : aucun
+    des deux côtés n'est reconnu, et le match n'apprend rien.
+
+    Mais chaque alias appris rend lisible un côté de plus. Apprendre que
+    « Paris SG » est « PSG » permet, au tour suivant, de nommer son adversaire
+    d'un soir. La boucle s'arrête quand un tour n'ajoute rien.
+    """
+    acquis = dict(table or {})
+    total, tours = {}, 0
+    while tours < TOURS_MAXI:
+        tours += 1
+        neufs, refuses = apparier_par_date_exacte(grilles, rencontres, acquis)
+        inedits = {k: v for k, v in neufs.items() if k not in total}
+        if not inedits:
+            break
+        total.update(inedits)
+        acquis.update({k: v["vers"] for k, v in inedits.items()})
+        print(f"    tour {tours} : +{len(inedits)} alias (total {len(total)})")
+    return total, refuses
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Dictionnaire des noms d'équipes")
     ap.add_argument("--type", default="grille7",
@@ -218,7 +257,7 @@ def main() -> int:
     for chemin in sorted((RACINE / "data" / "football-data").glob("*.csv")):
         import csv
         with open(chemin, encoding="latin-1", newline="") as fh:
-            for ligne in csv.DictReader(fh):
+            for ligne in dg._lecteur(fh):
                 for cle in ("HomeTeam", "AwayTeam", "Home", "Away"):
                     v = ligne.get(cle)
                     if v:
@@ -278,6 +317,19 @@ def main() -> int:
     SORTIE.write_text(json.dumps(alias, ensure_ascii=False, indent=2, sort_keys=True),
                       encoding="utf-8")
     print(f"\n-> {SORTIE}")
+
+    # TROISIÈME DICTIONNAIRE : celui de Footiqo, s'il y a de quoi le bâtir.
+    # Il ne part de rien — pas même de la première passe, qui parle
+    # football-data — donc il s'amorce sur les seuls noms écrits pareil des
+    # deux côtés, et grandit par tours successifs.
+    import collecter_footiqo as fq
+    if pools and any(fq.SORTIE.glob("*.json")):
+        print("\n  dictionnaire Footiqo :")
+        alias_fq, _ = apparier_iteratif(pools, fq.charger(), {})
+        SORTIE_FOOTIQO.write_text(
+            json.dumps(alias_fq, ensure_ascii=False, indent=2, sort_keys=True),
+            encoding="utf-8")
+        print(f"  -> {SORTIE_FOOTIQO}  ({len(alias_fq)} alias)")
 
     if args.rapport:
         chemin = Path(args.rapport)

@@ -345,10 +345,35 @@ croissant :
 
 À trancher quand l'étape 3 aura dit ce qui manque vraiment.
 
+## Étape 1 ter — Les coupes, et la catégorisation ✅ faite le 20 août 2026
+
+**Footiqo** comble ce que football-data ne publiera jamais : 5 251 matchs de
+Ligue des champions, Europa League, Conference League, Copa Libertadores et
+Coupe du monde, depuis 2015/16. Couverture des cotes : **70 % → 77 %**.
+
+La source est validée par calibration, pas par confiance : marge moyenne
+1,030 contre 1,029 pour Pinnacle, et des fréquences observées qui suivent les
+probabilités annoncées seau par seau. Détail dans le README.
+
+**La catégorisation est faite** : 75 % des matchs portent leur compétition,
+et chaque grille son genre. 922 grilles du top 5, 242 de coupe d'Europe,
+1 793 multi-compétition. Une grille d'une seule compétition est nommée par
+elle — 73 grilles Ligue 1, 87 Ligue des champions.
+
+**OddsPortal est écarté**, définitivement : son `robots.txt` interdit toutes
+les URL d'archives de 1998 à 2024 et l'endpoint qui sert la donnée. Il n'y a
+pas d'arbitrage à faire quand l'éditeur a répondu dans le canal prévu pour ça.
+
+**Ce qui reste sans cote : 6 716 matchs**, essentiellement des sélections
+nationales — qualifications, Ligue des nations, amicaux — et des coupes
+nationales. Aucune source gratuite ne les couvre avant 2020. À reprendre
+seulement si l'étape 3 dit que ça manque.
+
 ## Envies en attente
 
-**Catégoriser les grilles par compétition** — « grille Ligue 1 » quand les sept
-matchs en relèvent, « multi-compétition » sinon.
+**~~Catégoriser les grilles par compétition~~** — fait le 20 août 2026, par la
+voie prévue ci-dessous. Le reste de cette note est conservé parce qu'il
+explique pourquoi on n'a pas pu faire plus simple.
 
 Vérifié le 20 août 2026 : les matchs d'une grille ne portent **aucun champ de
 compétition** dans le websocket. Ni `tournamentId`, ni `categoryId`, ni

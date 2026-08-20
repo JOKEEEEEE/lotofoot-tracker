@@ -844,6 +844,100 @@ Conséquence pratique : la collecte quotidienne n'est plus une commodité, c'est
 le seul moyen d'accumuler des cotes Winamax. Ce qui n'est pas pris dans les
 neuf mois est perdu.
 
+## Footiqo, pour ce que football-data ne publie pas
+
+Les coupes d'Europe pèsent 37 % des matchs sans cote, et football-data ne
+publiera jamais une Ligue des champions : il ne fait que des championnats
+nationaux. [Footiqo](https://footiqo.com/database/) publie les cotes de
+clôture pour la Ligue des champions, l'Europa League, la Conference League,
+la Copa Libertadores et la Coupe du monde, **à partir de la saison
+2015/2016** — c'est-à-dire exactement notre période.
+
+`collecter_footiqo.py` en récupère **5 251 matchs**, tous avec cotes et
+scores. La couverture passe de 70 % à **77 %**.
+
+### Ce qu'on s'autorise, et ce qu'on ne s'autorise pas
+
+Leur `robots.txt` n'interdit que `/wp-admin/` et **autorise explicitement**
+`admin-ajax.php`, par lequel passent leurs propres tableaux. Leurs CGU ne
+prohibent que le scraping *« at abusive rates »* — d'où trois à six secondes
+entre deux requêtes et des pages de 400 lignes plutôt que de 10. Une
+compétition entière tient en cinq requêtes.
+
+En revanche l'article 8 interdit la redistribution sans autorisation écrite.
+`data/footiqo/` est donc **ignoré par git**, comme `data/football-data/` : le
+dépôt est public, il ne republiera pas la donnée d'un tiers. Le script se
+relance en dix minutes.
+
+C'est l'inverse exact d'OddsPortal, qu'on est allé voir d'abord : là-bas, le
+`robots.txt` interdit toutes les URL d'archives de 1998 à 2024, et l'endpoint
+`ajax-sport-country-tournament-archive_` nommément — c'est-à-dire le seul
+chemin vers la donnée. Aucun arbitrage à faire quand l'éditeur a répondu dans
+le canal prévu pour ça.
+
+### La calibration valide la source
+
+Une source de cotes ne se juge pas sur son air sérieux. Confrontée aux
+résultats qu'on a déjà, elle doit annoncer juste :
+
+| Probabilité annoncée | Pinnacle observé | Footiqo observé |
+|---|---|---|
+| ~15 % | 15,6 % | 15,4 % |
+| ~25 % | 24,9 % | 23,7 % |
+| ~35 % | 33,6 % | 34,7 % |
+| ~45 % | 47,1 % | 48,0 % |
+| ~65 % | 66,7 % | 64,4 % |
+
+Marge moyenne : **1,029 pour Pinnacle, 1,030 pour Footiqo**, contre 1,080
+pour Winamax. Footiqo suit la référence de la littérature seau par seau.
+
+Et au passage, le premier signe de ce qu'on cherche depuis le début : sur les
+6 307 issues auxquelles Winamax donne moins de 10 %, **1,5 % se réalisent
+quand 5 % étaient annoncés**. C'est le longshot bias, et il est gros.
+
+## Catégoriser les grilles
+
+`categoriser_grilles.py` nomme la compétition de chaque match — **25 767 sur
+34 259, soit 75 %** — puis le genre de chaque grille.
+
+Une grille n'est dite d'une compétition que si **tous** ses matchs nommés en
+relèvent. Six matchs de Ligue 1 et un de Bundesliga font une grille
+multi-compétition : prendre la majorité effacerait exactement ce qu'on veut
+mesurer. Et en dessous de 60 % de matchs nommés, la grille reste
+« indéterminée » plutôt que de recevoir une étiquette plausible.
+
+| | |
+|---|---|
+| Multi-compétition | 1 793 — 39 % |
+| Indéterminée | 1 299 — 28 % |
+| Top 5 | 922 — 20 % |
+| Coupe d'Europe | 242 — 5 % |
+| Autre championnat | 177 — 4 % |
+| Deuxième division | 97 — 2 % |
+| Coupe du monde | 63 — 1 % |
+
+Quand une grille tient dans une seule compétition, elle est nommée par cette
+compétition et non par sa famille : 97 grilles Europa League, 95 grilles
+championnat du Brésil, 89 grilles Ligue 2, 87 Ligue des champions, 73 Ligue 1.
+
+### Le pays fait partie du nom
+
+« Serie A » désigne le Brésil chez football-data et l'Italie chez tout le
+monde ; « Premier League » la Russie autant que l'Angleterre. Les fichiers
+« extra » nomment leur ligue sans code, alors les deux se confondaient et une
+grille brésilienne passait pour une grille du top 5. La compétition porte
+donc son pays quand elle n'a pas de code : `Brazil · Serie A`.
+
+### Un BOM effaçait la compétition sur deux saisons
+
+Les fichiers récents de football-data commencent par une marque d'ordre des
+octets. Lus en latin-1 — ce qu'il faut bien faire, leurs noms d'équipes sont
+accentués en latin-1 — le premier en-tête devient `ï»¿Div` et `ligne["Div"]`
+rend `None`. Rien ne cassait : la date, les équipes et les cotes sont dans
+les colonnes suivantes et arrivaient intactes. Seule la compétition
+disparaissait, en silence, sur **16 394 rencontres** des saisons 2024/25 et
+2025/26 — c'est-à-dire au moment précis où on a voulu s'en servir.
+
 ## Conditions d'utilisation
 
 L'accès automatisé est probablement contraire aux CGU de Winamax. Le rythme est

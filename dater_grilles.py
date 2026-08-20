@@ -159,6 +159,24 @@ def _flottant(valeur):
         return None
 
 
+def _competition(ligne: dict):
+    """Le nom de la compétition, désambiguïsé par son pays.
+
+    Les fichiers de championnats portent un code — F1, E0 — qui suffit. Les
+    fichiers « extra » portent un nom de ligue qui ne suffit pas : « Serie A »
+    désigne le Brésil chez eux et l'Italie chez les autres, « Premier League »
+    la Russie autant que l'Angleterre. Sans le pays, deux championnats
+    différents se confondraient sous une même étiquette.
+    """
+    code = ligne.get("Div")
+    if code:
+        return code.strip()
+    ligue, pays = (ligne.get("League") or "").strip(), (ligne.get("Country") or "").strip()
+    if ligue and pays:
+        return f"{pays} · {ligue}"
+    return ligue or None
+
+
 def charger_rencontres() -> dict:
     """Les rencontres de football-data, avec leurs scores et leurs cotes.
 
@@ -169,7 +187,7 @@ def charger_rencontres() -> dict:
     index = defaultdict(list)
     for chemin in sorted(CACHE_FD.glob("*.csv")):
         with open(chemin, encoding="latin-1", newline="") as fh:
-            for ligne in csv.DictReader(fh):
+            for ligne in _lecteur(fh):
                 dom = ligne.get("HomeTeam") or ligne.get("Home")
                 ext = ligne.get("AwayTeam") or ligne.get("Away")
                 jour = _date_fr(ligne.get("Date"))
@@ -189,8 +207,28 @@ def charger_rencontres() -> dict:
                     score = None
                 index[(_plier(dom), _plier(ext))].append(
                     {"date": jour, "score": score, "cotes": cotes,
-                     "division": ligne.get("Div") or ligne.get("League")})
+                     "division": _competition(ligne)})
     return index
+
+
+def _lecteur(fh) -> csv.DictReader:
+    """Un DictReader dont la première colonne s'appelle vraiment comme elle
+    s'affiche.
+
+    Les fichiers récents de football-data commencent par une marque d'ordre
+    des octets. Lus en latin-1 — ce qu'il faut bien faire, leurs noms d'équipes
+    sont accentués en latin-1 — le premier en-tête devient « ï»¿Div » et
+    `ligne.get("Div")` rend None. Rien ne casse : la date, les équipes et les
+    cotes sont dans les colonnes suivantes et arrivent intactes. Seule la
+    compétition disparaît, en silence, sur 16 394 rencontres des saisons
+    2024/25 et 2025/26 — c'est-à-dire au moment précis où on a voulu s'en
+    servir pour catégoriser les grilles.
+    """
+    lecteur = csv.DictReader(fh)
+    if lecteur.fieldnames:
+        lecteur.fieldnames = [c.removeprefix("ï»¿").removeprefix("\ufeff")
+                              for c in lecteur.fieldnames]
+    return lecteur
 
 
 def charger_fixtures() -> dict:
@@ -204,7 +242,7 @@ def charger_fixtures() -> dict:
     fixtures = defaultdict(list)
     for chemin in sorted(CACHE_FD.glob("*.csv")):
         with open(chemin, encoding="latin-1", newline="") as fh:
-            for ligne in csv.DictReader(fh):
+            for ligne in _lecteur(fh):
                 dom = ligne.get("HomeTeam") or ligne.get("Home")
                 ext = ligne.get("AwayTeam") or ligne.get("Away")
                 jour = _date_fr(ligne.get("Date"))

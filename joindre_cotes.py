@@ -35,15 +35,20 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 
+import collecter_footiqo as fq
 import dater_grilles as dg
 
 RACINE = Path(__file__).parent
 DATA_POOLS = RACINE / "data" / "pools"
 SORTIE = RACINE / "data" / "cotes_matchs.json"
 
-# L'ordre de préférence des sources vit dans dater_grilles avec les colonnes :
-# Pinnacle d'abord — la référence de la littérature — puis Bet365 en repli.
-COLONNES = dg.COLONNES_COTES
+# L'ORDRE DE PRÉFÉRENCE DES SOURCES. Pinnacle d'abord — la référence de la
+# littérature sur les biais de marché — puis Bet365, puis Footiqo. Footiqo
+# vient en dernier non par méfiance mais par nature : c'est la clôture d'un
+# opérateur unique, quand les deux premiers sont des maisons dont la
+# littérature a mesuré la justesse. On ne s'en sert donc que là où personne
+# d'autre ne publie : les coupes.
+COLONNES = list(dg.COLONNES_COTES) + [("footiqo_cloture", None)]
 
 # football-data signale que ses cotes Pinnacle ne sont plus fiables depuis
 # juillet 2025. On ne les utilise donc pas au-delà, plutôt que de faire
@@ -69,12 +74,22 @@ def choisir_cote(cotes: dict, jour: date):
     return None, None
 
 
-def rapprocher(match: dict, index: dict) -> tuple:
-    """La rencontre correspondante, ou None avec le motif du refus."""
+def rapprocher(match: dict, index: dict, table: dict = None) -> tuple:
+    """La rencontre correspondante, ou None avec le motif du refus.
+
+    `table` est le dictionnaire de noms de la source interrogée. Chaque source
+    écrit dans sa langue : football-data en anglais, Footiqo dans une troisième
+    variante. Traduire avec le mauvais dictionnaire ne produit pas une erreur,
+    il produit un nom qui n'existe nulle part — donc un refus silencieux.
+    """
     if not match.get("debut"):
         return None, "match sans date"
     jour = date.fromisoformat(match["debut"][:10])
-    cle = (dg._cle(match.get("home")), dg._cle(match.get("away")))
+    if table is None:
+        cle = (dg._cle(match.get("home")), dg._cle(match.get("away")))
+    else:
+        cle = tuple(table.get(dg._plier(match.get(c)), dg._plier(match.get(c)))
+                    for c in ("home", "away"))
     candidates = [r for r in index.get(cle, ())
                   if abs((r["date"] - jour).days) <= MARGE_JOURS]
     if not candidates:
@@ -109,6 +124,20 @@ def main() -> int:
     print(f"football-data : {len(index)} affiches, "
           f"{sum(len(v) for v in index.values())} rencontres")
 
+    # LA SOURCE DE REPLI, pour ce que football-data ne publie pas : les coupes
+    # d'Europe, la Libertadores, la Coupe du monde. Elle vient en dernier,
+    # après Winamax et après Pinnacle : un opérateur unique renseigne moins
+    # bien sur l'état du marché qu'un bookmaker de référence.
+    index_fq, table_fq = fq.charger(), {}
+    chemin_alias = RACINE / "data" / "alias_footiqo.json"
+    if chemin_alias.exists():
+        table_fq = {k: v["vers"] for k, v in
+                    json.loads(chemin_alias.read_text(encoding="utf-8")).items()}
+    if index_fq:
+        print(f"footiqo       : {len(index_fq)} affiches, "
+              f"{sum(len(v) for v in index_fq.values())} rencontres, "
+              f"{len(table_fq)} alias")
+
     types = ["grille7", "grille9", "grille12"] if args.type == "tous" else [args.type]
     resultat, motifs, sources = {}, Counter(), Counter()
     # Un match peut figurer dans deux grilles le même jour — une grille 7 et
@@ -131,6 +160,11 @@ def main() -> int:
                     sources["winamax"] += 1
                     continue
                 trouvee, motif = rapprocher(m, index)
+                if trouvee is None and motif == "affiche absente de football-data":
+                    trouvee, motif_fq = rapprocher(m, index_fq, table_fq)
+                    if trouvee is None:
+                        motif = "absente des deux sources" if \
+                            motif_fq == "affiche absente de football-data" else motif_fq
                 if trouvee is None:
                     motifs[motif] += 1
                     continue
