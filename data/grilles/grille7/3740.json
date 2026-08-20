@@ -2,7 +2,7 @@
   "grille_id": 3740,
   "grille_type": "grille7",
   "url": "https://www.winamax.fr/paris-sportifs/grilles/grille7-3740",
-  "scraped_at": "2026-08-18T08:04:56.808084+00:00",
+  "scraped_at": "2026-08-18T14:47:49.042879+00:00",
   "statut": "terminee",
   "matches": [
     {
@@ -34,6 +34,13 @@
       "resultat": "1"
     },
     {
+      "home": "Western Bulldogs",
+      "away": "Hawthorn Hawks",
+      "score_home": 29,
+      "score_away": 52,
+      "resultat": "2"
+    },
+    {
       "home": "Australie",
       "away": "Japon",
       "score_home": 1,
@@ -60,12 +67,5 @@
       "montant": 32.41
     }
   ],
-  "montant_distribue": 4019.25,
-  "lignes_ignorees": [
-    {
-      "ligne": 4,
-      "motif": "score introuvable ou ambigu",
-      "texte": "Western Bulldogs\n1\nN\n2\nHawthorn Hawks\n29 - 52"
-    }
-  ]
+  "montant_distribue": 4019.25
 }
