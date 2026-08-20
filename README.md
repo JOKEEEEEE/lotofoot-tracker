@@ -627,13 +627,17 @@ avec sa provenance. Trois sources, dans cet ordre.
 
 | Source | Pourquoi elle vient d'abord | Matchs |
 |---|---|---|
-| **Winamax** | c'est la cote de l'opérateur lui-même, celle que le parieur voyait | 5 077 |
-| **Pinnacle** (clôture) | la référence de la littérature sur les biais de marché | 14 207 |
-| **Bet365** (clôture) | en repli, pour sa couverture plus large | 402 |
+| **Winamax** | c'est la cote de l'opérateur lui-même, celle que le parieur voyait | 5 070 |
+| **Pinnacle** (clôture) | la référence de la littérature sur les biais de marché | 15 304 |
+| **Bet365** (clôture) | en repli, pour sa couverture plus large | 438 |
 
-**19 686 matchs cotés sur 30 508**, soit 65 % — au-dessus des 57 % que la seule
-datation laissait espérer, parce que Winamax sert encore ses propres cotes sur
-les grilles récentes.
+**20 812 matchs cotés sur 29 941**, soit 70 % — bien au-dessus des 57 % que la
+seule datation laissait espérer, parce que Winamax sert encore ses propres
+cotes sur certaines périodes.
+
+Le dénominateur compte les matchs **distincts** : un même match peut figurer
+dans une grille 7 et une grille 12 le même jour. Le compter deux fois
+sous-estimait la couverture et doublait ses motifs de refus.
 
 ### Ce qui empêche un faux rapprochement
 
@@ -660,13 +664,82 @@ Refus, par motif :
 
 | | |
 |---|---|
-| affiche absente de football-data | 10 736 |
-| rencontre trouvée mais sans cote | 82 |
-| scores différents | 4 |
+| affiche absente de football-data | 9 038 |
+| rencontre trouvée mais sans cote | 88 |
+| scores différents | 3 |
 
-Les 10 736 sont les coupes et les compétitions internationales, que
-football-data ne publie pas. C'est toujours le même plafond, et il ne se lève
-qu'avec une autre source.
+### Ce qui reste vraiment hors d'atteinte
+
+« Il ne manque que les sélections et les coupes » était une hypothèse commode,
+et elle était fausse. En la vérifiant, on a trouvé 1 133 matchs qui ne
+manquaient que d'un alias — voir plus bas. Une fois ceux-là récupérés, il
+reste 9 038 matchs, et **ceux-là sont bien ce qu'on croyait** :
+
+| | | |
+|---|---|---|
+| 3 965 | 44 % | **aucune des deux équipes** n'est dans football-data — sélections nationales, championnats hors périmètre |
+| 3 782 | 42 % | **les deux clubs y sont** mais pas cette rencontre — Ligue des champions, Europa League, coupes nationales |
+| 1 291 | 14 % | **un seul des deux** — l'adversaire vient d'un championnat non couvert : Shakhtar Donetsk, Maccabi Tel-Aviv, Dinamo Zagreb |
+
+Aucun appariement plus astucieux ne les rattrapera : football-data ne publie
+que des championnats nationaux, et ces rencontres n'y sont pas. Il faut une
+autre source.
+
+### Winamax garde ses cotes par fenêtres, pas par ancienneté
+
+On croyait les cotes de Winamax simplement périssables. Les identifiants disent
+autre chose : elles sont présentes sur **deux plages continues** et absentes
+partout ailleurs.
+
+| Type | Plages où les cotes existent |
+|---|---|
+| grille 7 | 1751 → 2261, puis 3902 → 4175 |
+| grille 12 | 183 → 228, puis 373 → 402 |
+| grille 9 | 1 → 21 (toutes) |
+
+Soit environ septembre 2020 – décembre 2021, puis novembre 2025 – aujourd'hui.
+Entre les deux, rien : 0 % en 2022, 2023 et 2024, contre 75 % en 2021. Un
+vieillissement produirait une décroissance, pas deux blocs.
+
+Ce n'est pas un défaut de collecte — les deux blocs sont contigus dans le
+**temps**, pas dans l'ordre où on les a visités. Reste à savoir si Winamax
+range les cotes de la période intermédiaire sous une autre clé. Une capture
+brute d'une grille de 2023 le dira ; elle ne peut se faire que depuis la
+France.
+
+### 1 133 matchs qui ne manquaient que d'un nom
+
+`apparier_equipes.py` a désormais **deux passes**, et la seconde a trouvé
+68 alias que la première ne pouvait pas voir.
+
+La première propose des candidats par ressemblance de chaîne, puis les fait
+valider par la fenêtre de dates de la grille. Ce filtre était nécessaire tant
+que les dates étaient approximatives — mais il élimine les traductions avant
+même de les soumettre au test : « Mayence »/« Mainz », « Majorque »/« Mallorca »,
+« AS Rome »/« Roma » ne se ressemblent pas assez.
+
+Les dates exactes du websocket permettent d'inverser le raisonnement. Quand la
+grille dit que Schalke 04 reçoit « Mayence » le 13 septembre 2015, et que
+football-data ne connaît **qu'une seule** rencontre à domicile de Schalke ce
+jour-là, l'adversaire est nommé sans qu'aucune ressemblance n'intervienne. Une
+équipe ne joue jamais deux fois le même jour : c'est ce qui rend l'inférence
+sûre. Le score sert de contre-épreuve, et il faut deux confirmations, chacune
+devançant sa concurrente d'un facteur trois.
+
+| | Avant | **Après** |
+|---|---|---|
+| Alias | 270 | **338** |
+| Matchs cotés | 19 679 (66 %) | **20 812 (70 %)** |
+
+Les plus fréquents : AS Rome (221 matchs), Wolverhampton (161), Sporting
+Portugal (138), Hellas Vérone (99), Majorque (83), Real Saragosse (81),
+Mayence (64).
+
+**Le script relisait sa propre sortie.** La seconde passe partait du
+dictionnaire trouvé sur le disque ; les noms qu'il contenait n'étaient donc
+plus proposés, et la réécriture les perdait. Deux exécutions de suite ne
+donnaient pas le même fichier. Elle part maintenant de ce que la première
+passe vient de construire, et le résultat ne dépend que des données.
 
 ### Une cote Pinnacle qu'on n'utilise pas
 

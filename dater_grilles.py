@@ -139,6 +139,60 @@ def telecharger(force: bool = False) -> int:
     return pris
 
 
+# Les colonnes de cotes de football-data, par ordre de préférence. La clôture
+# avant l'ouverture : elle reflète le marché une fois informé, ce que la
+# littérature sur le longshot bias prend pour référence.
+COLONNES_COTES = [
+    ("pinnacle_cloture", ("PSCH", "PSCD", "PSCA")),
+    ("pinnacle", ("PSH", "PSD", "PSA")),
+    ("bet365_cloture", ("B365CH", "B365CD", "B365CA")),
+    ("bet365", ("B365H", "B365D", "B365A")),
+]
+
+
+def _flottant(valeur):
+    """Une cote, ou rien. Une cote de 1.00 ne paie pas : ce n'est pas une cote."""
+    try:
+        f = float(valeur)
+        return f if f > 1.0 else None
+    except (TypeError, ValueError):
+        return None
+
+
+def charger_rencontres() -> dict:
+    """Les rencontres de football-data, avec leurs scores et leurs cotes.
+
+    Même source que charger_fixtures, mais tout est gardé : c'est la vue dont
+    ont besoin ceux qui rapprochent par le score — le joiner des cotes, et
+    l'appariement des noms par date exacte.
+    """
+    index = defaultdict(list)
+    for chemin in sorted(CACHE_FD.glob("*.csv")):
+        with open(chemin, encoding="latin-1", newline="") as fh:
+            for ligne in csv.DictReader(fh):
+                dom = ligne.get("HomeTeam") or ligne.get("Home")
+                ext = ligne.get("AwayTeam") or ligne.get("Away")
+                jour = _date_fr(ligne.get("Date"))
+                if not (dom and ext and jour):
+                    continue
+                cotes = {}
+                for nom, (h, x, a) in COLONNES_COTES:
+                    trio = (_flottant(ligne.get(h)), _flottant(ligne.get(x)),
+                            _flottant(ligne.get(a)))
+                    if all(trio):
+                        cotes[nom] = trio
+                buts = (ligne.get("FTHG") or ligne.get("HG"),
+                        ligne.get("FTAG") or ligne.get("AG"))
+                try:
+                    score = (int(buts[0]), int(buts[1]))
+                except (TypeError, ValueError):
+                    score = None
+                index[(_plier(dom), _plier(ext))].append(
+                    {"date": jour, "score": score, "cotes": cotes,
+                     "division": ligne.get("Div") or ligne.get("League")})
+    return index
+
+
 def charger_fixtures() -> dict:
     """Les rencontres datées, indexées par (domicile, extérieur) plié.
 

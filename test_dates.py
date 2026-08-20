@@ -174,6 +174,140 @@ def test_alias_exige_deux_confirmations():
     assert refuses[0][3] == 1, refuses             # elle est comptée, pas ignorée
 
 
+def _rencontres(*lignes):
+    """Un index football-data minuscule : (dom, ext) -> [{date, score}]."""
+    index = {}
+    for dom, ext, jour, score in lignes:
+        index.setdefault((dom, ext), []).append(
+            {"date": jour, "score": score, "cotes": {}, "division": "D1"})
+    return index
+
+
+def _m(home, away, jour, sh, sa):
+    return {"home": home, "away": away, "debut": f"{jour.isoformat()}T18:30:00+00:00",
+            "score_home": sh, "score_away": sa}
+
+
+def test_date_exacte_nomme_sans_ressemblance():
+    """« Mayence » et « Mainz » ne se ressemblent pas — la date les relie.
+
+    C'est tout l'intérêt de cette seconde passe : la première ne propose que
+    des candidats qui se ressemblent, et perd donc les traductions.
+    """
+    import apparier_equipes as ae
+    j1, j2 = date(2015, 9, 13), date(2015, 10, 4)
+    rencontres = _rencontres(("schalke04", "mainz", j1, (1, 2)),
+                             ("schalke04", "mainz", j2, (3, 0)))
+    grilles = [(1, [_m("Schalke 04", "Mayence", j1, 1, 2)]),
+               (2, [_m("Schalke 04", "Mayence", j2, 3, 0)])]
+
+    alias, _ = ae.apparier_par_date_exacte(grilles, rencontres, table={})
+    assert alias["mayence"]["vers"] == "mainz", alias
+    assert alias["mayence"]["confirmations"] == 2, alias
+
+
+def test_le_score_est_la_contre_epreuve():
+    """Même jour, même équipe, mais pas le même score : on ne conclut pas.
+
+    Sans ce contrôle, un match de coupe joué le jour d'un match de
+    championnat suffirait à baptiser la mauvaise équipe.
+    """
+    import apparier_equipes as ae
+    j1, j2 = date(2015, 9, 13), date(2015, 10, 4)
+    rencontres = _rencontres(("schalke04", "mainz", j1, (1, 2)),
+                             ("schalke04", "mainz", j2, (3, 0)))
+    grilles = [(1, [_m("Schalke 04", "Mayence", j1, 0, 0)]),
+               (2, [_m("Schalke 04", "Mayence", j2, 0, 0)])]
+
+    alias, refuses = ae.apparier_par_date_exacte(grilles, rencontres, table={})
+    assert alias == {}, alias
+
+
+def test_une_seule_confirmation_ne_suffit_pas():
+    import apparier_equipes as ae
+    j = date(2015, 9, 13)
+    rencontres = _rencontres(("schalke04", "mainz", j, (1, 2)))
+    grilles = [(1, [_m("Schalke 04", "Mayence", j, 1, 2)])]
+
+    alias, refuses = ae.apparier_par_date_exacte(grilles, rencontres, table={})
+    assert alias == {}, alias
+    assert refuses and refuses[0][0] == "Mayence", refuses
+
+
+def test_deux_rencontres_le_meme_jour_ne_tranchent_pas():
+    """Si l'index propose deux rencontres, c'est lui qui est ambigu."""
+    import apparier_equipes as ae
+    j = date(2015, 9, 13)
+    rencontres = _rencontres(("schalke04", "mainz", j, (1, 2)),
+                             ("schalke04", "koln", j, (1, 2)))
+    grilles = [(1, [_m("Schalke 04", "Mayence", j, 1, 2)]),
+               (2, [_m("Schalke 04", "Mayence", j, 1, 2)])]
+
+    alias, _ = ae.apparier_par_date_exacte(grilles, rencontres, table={})
+    assert alias == {}, alias
+
+
+def test_la_table_des_alias_debloque_les_deux_cotes():
+    """Un alias connu en débloque d'autres.
+
+    « Manchester United » n'est pas le nom de football-data ; sans la table,
+    ce match a ses deux côtés inconnus et n'apprend rien.
+    """
+    import apparier_equipes as ae
+    j1, j2 = date(2015, 9, 13), date(2015, 10, 4)
+    rencontres = _rencontres(("manunited", "mainz", j1, (1, 2)),
+                             ("manunited", "mainz", j2, (3, 0)))
+    grilles = [(1, [_m("Manchester United", "Mayence", j1, 1, 2)]),
+               (2, [_m("Manchester United", "Mayence", j2, 3, 0)])]
+
+    assert ae.apparier_par_date_exacte(grilles, rencontres, table={})[0] == {}
+    table = {"manchesterunited": "manunited"}
+    alias, _ = ae.apparier_par_date_exacte(grilles, rencontres, table=table)
+    assert alias["mayence"]["vers"] == "mainz", alias
+
+
+def test_deux_candidats_a_egalite_ne_departagent_pas():
+    """Deux noms qui se disputent un alias à égalité sont un signe
+    d'ambiguïté, pas un vainqueur. Il en faut trois fois plus, pas un de plus.
+    """
+    import apparier_equipes as ae
+    jours = [date(2015, 9, 13 + i) for i in range(4)]
+    # Schalke reçoit alternativement Mainz et Cologne ; la grille appelle les
+    # deux « Mayence », ce qui ne peut pas être vrai des deux.
+    rencontres = _rencontres(*[("schalke04", "mainz" if i % 2 else "koln",
+                                jours[i], (1, 0)) for i in range(4)])
+    grilles = [(i, [_m("Schalke 04", "Mayence", jours[i], 1, 0)]) for i in range(4)]
+    alias, _ = ae.apparier_par_date_exacte(grilles, rencontres, table={})
+    assert alias == {}, alias
+
+    # Deux contre une : c'est une majorité, ce n'est pas une preuve.
+    rencontres = _rencontres(*[("schalke04", "mainz" if i < 2 else "koln",
+                                jours[i], (1, 0)) for i in range(3)])
+    trois = grilles[:3]
+    alias, _ = ae.apparier_par_date_exacte(trois, rencontres, table={})
+    assert alias == {}, alias
+
+    # Trois contre une : l'écart suffit, et c'est exactement le seuil.
+    rencontres = _rencontres(*[("schalke04", "mainz" if i else "koln",
+                                jours[i], (1, 0)) for i in range(4)])
+    alias, _ = ae.apparier_par_date_exacte(grilles, rencontres, table={})
+    assert alias["mayence"]["vers"] == "mainz", alias
+
+
+def test_le_sens_de_laffiche_est_respecte():
+    """Le domicile reste le domicile : une équipe qui reçoit ne peut pas être
+    nommée par une rencontre où elle se déplace."""
+    import apparier_equipes as ae
+    j1, j2 = date(2015, 9, 13), date(2015, 10, 4)
+    rencontres = _rencontres(("mainz", "schalke04", j1, (1, 2)),
+                             ("mainz", "schalke04", j2, (3, 0)))
+    grilles = [(1, [_m("Schalke 04", "Mayence", j1, 1, 2)]),
+               (2, [_m("Schalke 04", "Mayence", j2, 3, 0)])]
+
+    alias, _ = ae.apparier_par_date_exacte(grilles, rencontres, table={})
+    assert alias == {}, alias
+
+
 if __name__ == "__main__":
     echecs = 0
     for nom, fonction in sorted(globals().items()):

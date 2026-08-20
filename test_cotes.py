@@ -108,11 +108,13 @@ def test_lecture_de_football_data():
     """
     with tempfile.TemporaryDirectory() as rep:
         (Path(rep) / "F1.csv").write_text(CSV, encoding="latin-1")
-        ancien, jc.CACHE_FD = jc.CACHE_FD, Path(rep)
+        # Le chargement de football-data vit dans dater_grilles : c'est le
+        # seul module qui parle à cette source.
+        ancien, dg.CACHE_FD = dg.CACHE_FD, Path(rep)
         try:
             index = jc.charger_rencontres()
         finally:
-            jc.CACHE_FD = ancien
+            dg.CACHE_FD = ancien
 
     aller = index[(dg._cle("Lyon"), dg._cle("Nantes"))]
     retour = index[(dg._cle("Nantes"), dg._cle("Lyon"))]

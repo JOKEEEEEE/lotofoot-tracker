@@ -174,10 +174,9 @@ Les 30 % restants sont listés, pas cachés.
 **Livrable :** `data/cotes_matchs.json`, une cote 1/N/2 par match avec sa
 provenance.
 
-**Résultat : 19 686 matchs cotés sur 30 508**, soit 65 % — au-dessus des 57 %
-que la seule datation laissait espérer, parce que Winamax sert encore ses
-propres cotes sur les grilles récentes (5 077 matchs). Le reste vient de
-Pinnacle à la clôture (14 207) et de Bet365 en repli (402).
+**Résultat : 20 812 matchs cotés sur 29 941**, soit 70 % — bien au-dessus des
+57 % que la seule datation laissait espérer. Winamax sert ses propres cotes sur
+5 070 matchs, Pinnacle à la clôture en fournit 15 304 et Bet365 438.
 
 **La règle appliquée :** au moindre doute, on ne rapproche pas. Noms exacts,
 sens de l'affiche respecté, un jour de marge, un seul candidat, et **les scores
@@ -185,9 +184,15 @@ doivent concorder**. Ce dernier contrôle a écarté 4 rapprochements que les
 autres laissaient passer — tous des matchs abandonnés que Winamax a laissés à
 0-0. Détail dans le README.
 
-**Ce qui reste hors d'atteinte :** 10 736 matchs de coupe ou de sélection, que
-football-data ne publie pas. Toujours le même plafond, toujours la même issue :
-une autre source, pas un meilleur appariement.
+**Ce qui restait n'était pas ce qu'on croyait.** 1 133 matchs ne manquaient que
+d'un alias : « AS Rome », « Mayence », « Majorque » — des traductions que la
+ressemblance de chaîne ne rattrape pas et que la date exacte nomme sans
+hésiter. Une seconde passe d'appariement les a récupérés, sans nouvelle source.
+
+**Ce qui reste vraiment hors d'atteinte :** 9 038 matchs, dont 44 % de
+sélections nationales, 42 % de coupes entre clubs pourtant connus, et 14 % où
+l'adversaire vient d'un championnat non couvert. Aucun appariement ne les
+rattrapera : ces rencontres ne sont pas dans football-data.
 
 **Effet de bord utile :** en confrontant les scores, on a découvert que
 `strPoolResult` s'écrit **à l'envers** — le premier triplet décrit le dernier

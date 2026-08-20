@@ -30,29 +30,20 @@ pas en silence.
 """
 
 import argparse
-import csv
-import glob
 import json
-from collections import Counter, defaultdict
-from datetime import date, timedelta
+from collections import Counter
+from datetime import date
 from pathlib import Path
 
 import dater_grilles as dg
 
 RACINE = Path(__file__).parent
-CACHE_FD = RACINE / "data" / "football-data"
 DATA_POOLS = RACINE / "data" / "pools"
 SORTIE = RACINE / "data" / "cotes_matchs.json"
 
-# Colonnes de football-data, par ordre de préférence. La clôture avant
-# l'ouverture : elle reflète le marché une fois informé, ce que la
-# littérature sur le longshot bias prend pour référence.
-COLONNES = [
-    ("pinnacle_cloture", ("PSCH", "PSCD", "PSCA")),
-    ("pinnacle", ("PSH", "PSD", "PSA")),
-    ("bet365_cloture", ("B365CH", "B365CD", "B365CA")),
-    ("bet365", ("B365H", "B365D", "B365A")),
-]
+# L'ordre de préférence des sources vit dans dater_grilles avec les colonnes :
+# Pinnacle d'abord — la référence de la littérature — puis Bet365 en repli.
+COLONNES = dg.COLONNES_COTES
 
 # football-data signale que ses cotes Pinnacle ne sont plus fiables depuis
 # juillet 2025. On ne les utilise donc pas au-delà, plutôt que de faire
@@ -64,42 +55,7 @@ PINNACLE_FIABLE_JUSQUA = date(2025, 6, 30)
 # et les matchs de fin de soirée.
 MARGE_JOURS = 1
 
-
-def _flottant(valeur):
-    try:
-        f = float(valeur)
-        return f if f > 1.0 else None
-    except (TypeError, ValueError):
-        return None
-
-
-def charger_rencontres() -> dict:
-    """Les rencontres de football-data, avec leurs scores et leurs cotes."""
-    index = defaultdict(list)
-    for chemin in sorted(CACHE_FD.glob("*.csv")):
-        with open(chemin, encoding="latin-1", newline="") as fh:
-            for ligne in csv.DictReader(fh):
-                dom = ligne.get("HomeTeam") or ligne.get("Home")
-                ext = ligne.get("AwayTeam") or ligne.get("Away")
-                jour = dg._date_fr(ligne.get("Date"))
-                if not (dom and ext and jour):
-                    continue
-                cotes = {}
-                for nom, (h, x, a) in COLONNES:
-                    trio = (_flottant(ligne.get(h)), _flottant(ligne.get(x)),
-                            _flottant(ligne.get(a)))
-                    if all(trio):
-                        cotes[nom] = trio
-                buts = (ligne.get("FTHG") or ligne.get("HG"),
-                        ligne.get("FTAG") or ligne.get("AG"))
-                try:
-                    score = (int(buts[0]), int(buts[1]))
-                except (TypeError, ValueError):
-                    score = None
-                index[(dg._plier(dom), dg._plier(ext))].append(
-                    {"date": jour, "score": score, "cotes": cotes,
-                     "division": ligne.get("Div") or ligne.get("League")})
-    return index
+charger_rencontres = dg.charger_rencontres
 
 
 def choisir_cote(cotes: dict, jour: date):
@@ -155,15 +111,19 @@ def main() -> int:
 
     types = ["grille7", "grille9", "grille12"] if args.type == "tous" else [args.type]
     resultat, motifs, sources = {}, Counter(), Counter()
-    total = 0
+    # Un match peut figurer dans deux grilles le même jour — une grille 7 et
+    # une grille 12. Sans ce jeu, un match non rapproché serait compté deux
+    # fois au dénominateur et son motif de refus autant : le taux de
+    # couverture s'en trouvait sous-estimé.
+    vus = set()
     for t in types:
         for f in sorted((DATA_POOLS / t).glob("*.json"), key=lambda f: int(f.stem)):
             d = json.loads(f.read_text(encoding="utf-8"))
             for m in d.get("matches", []):
                 mid = m.get("match_id")
-                if mid is None or mid in resultat:
+                if mid is None or mid in vus:
                     continue
-                total += 1
+                vus.add(mid)
                 if m.get("cote_1") and m.get("cote_N") and m.get("cote_2"):
                     resultat[mid] = {"cote_1": m["cote_1"], "cote_N": m["cote_N"],
                                      "cote_2": m["cote_2"], "source": "winamax",
@@ -185,8 +145,9 @@ def main() -> int:
                                  "grille_type": t, "grille_id": d["grille_id"]}
                 sources[nom] += 1
 
-    print(f"\nmatchs examinés : {total}")
-    print(f"matchs cotés    : {len(resultat)}  ({100 * len(resultat) / total:.0f} %)")
+    total = len(vus)
+    print(f"\nmatchs distincts : {total}")
+    print(f"matchs cotés     : {len(resultat)}  ({100 * len(resultat) / total:.0f} %)")
     for nom, n in sources.most_common():
         print(f"    {nom:<20} {n:>6}")
     print("\nnon rapprochés :")
