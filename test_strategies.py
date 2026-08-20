@@ -66,6 +66,45 @@ def test_casser_prend_le_second_pas_loutsider():
     assert S.casser(1)(g)[0][0] == 1              # le N, deuxième issue
 
 
+def test_un_systeme_coute_deux_puissance_d_fois_trois_puissance_t():
+    g = _grille()
+    for doubles, triples, attendu in ((1, 0, 2), (2, 0, 4), (0, 1, 3),
+                                      (2, 1, 12), (3, 1, 24)):
+        jeux = S.systeme(doubles, triples)(g)
+        assert len(jeux) == attendu, (doubles, triples, len(jeux))
+        assert len({tuple(c) for c in jeux}) == attendu, "combinaisons en double"
+
+
+def test_un_triple_couvre_les_trois_issues():
+    """Un triple rend le match toujours juste — c'est ce qu'on paie."""
+    g = _grille()
+    jeux = S.systeme(0, 1)(g)
+    assert sorted(c[0] for c in jeux) == [0, 1, 2]
+    # Et les six autres matchs restent au favori.
+    assert all(c[1:] == [0] * 6 for c in jeux)
+
+
+def test_le_triple_passe_avant_le_double():
+    """Doubler un match déjà triplé ne coûterait que du budget."""
+    g = _grille()
+    jeux = S.systeme(1, 1)(g)
+    assert len(jeux) == 6, len(jeux)
+    assert sorted({c[0] for c in jeux}) == [0, 1, 2]      # match 0 : triplé
+    assert sorted({c[1] for c in jeux}) == [0, 1]         # match 1 : doublé
+    assert all(c[2:] == [0] * 5 for c in jeux)
+
+
+def test_l_ordre_choisit_des_matchs_opposes():
+    """« nets » et « serrés » ne doivent jamais viser le même match : c'est
+    tout l'objet de la comparaison à budget égal."""
+    g = _grille()                       # favoris de 0,85 (match 0) à 0,43 (match 6)
+    nets = S.systeme(2, 0, "nets")(g)
+    serres = S.systeme(2, 0, "serres")(g)
+    varie = lambda jeux: {j for j in range(7) if len({c[j] for c in jeux}) > 1}
+    assert varie(nets) == {0, 1}, varie(nets)
+    assert varie(serres) == {5, 6}, varie(serres)
+
+
 def test_sans_la_tete_retire_bien_les_meilleures():
     """Le garde-fou anti-loterie : si retirer trois grilles fait tout
     tomber, le rendement moyen ne décrivait qu'elles."""

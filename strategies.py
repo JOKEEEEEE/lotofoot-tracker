@@ -144,6 +144,35 @@ def doubler(combien: int):
     return strategie
 
 
+def systeme(doubles: int, triples: int, ordre: str = "nets"):
+    """Un système : des doubles et des triples posés sur certains matchs.
+
+    LA QUESTION N'EST PAS COMBIEN, C'EST OÙ. À budget identique, poser ses
+    doubles sur les matchs les plus SÛRS ou sur les plus INCERTAINS ne donne
+    pas le même résultat, et l'écart va de 10 à 52 points de rendement.
+
+        ordre = "nets"   les favoris les plus nets d'abord — les matchs qu'on
+                         croit joués d'avance, et sur lesquels tout le monde
+                         coche pareil ;
+        ordre = "serres" les matchs les plus incertains d'abord — l'instinct
+                         habituel, celui qui couvre là où l'on hésite.
+
+    Les triples passent avant les doubles : un triple couvrant les trois
+    issues, il ne sert à rien de doubler par-dessus.
+    """
+    def strategie(g):
+        rang = sorted(range(MATCHS), key=lambda j: max(g["p"][j]),
+                      reverse=(ordre == "nets"))
+        jeux = [favori(g)]
+        for j in rang[:triples]:
+            jeux = [[*c[:j], i, *c[j + 1:]] for c in jeux for i in range(3)]
+        for j in rang[triples:triples + doubles]:
+            jeux = [[*c[:j], i, *c[j + 1:]] for c in jeux
+                    for i in (rang_issue(g, j, 0), rang_issue(g, j, 1))]
+        return jeux
+    return strategie
+
+
 def doubler_le_plus_serre(g):
     """L'intuition inverse : doubler là où le marché hésite le plus."""
     j = min(range(MATCHS), key=lambda k: max(g["p"][k]))
@@ -159,6 +188,8 @@ STRATEGIES = [
     ("doubler les 2 favoris les plus nets", doubler(2), 4),
     ("doubler les 3 favoris les plus nets", doubler(3), 8),
     ("doubler le match le plus serré", doubler_le_plus_serre, 2),
+    ("1 triple sur le plus net", systeme(0, 1), 3),
+    ("1 triple + 2 doubles sur les plus nets", systeme(2, 1), 12),
 ]
 
 
@@ -209,6 +240,8 @@ def main() -> int:
     ap.add_argument("--source", default=None, help="n'utiliser qu'une source de cotes")
     ap.add_argument("--mecanisme", action="store_true",
                     help="mesurer la solitude au lieu des stratégies")
+    ap.add_argument("--systemes", action="store_true",
+                    help="comparer où poser doubles et triples, à budget égal")
     args = ap.parse_args()
 
     grilles = charger(args.source)
@@ -239,6 +272,30 @@ def main() -> int:
             print(f"S'écarter de lui coûte un facteur {(1-part/100)/(part/100):.2f} en "
                   f"chances et rapporte {facteur:.2f} en gain :")
             print(f"    espérance relative {facteur * (part/100) / (1-part/100):.2f}")
+        return 0
+
+    if args.systemes:
+        # À BUDGET ÉGAL, seule la place change. C'est le seul tableau où la
+        # comparaison est honnête : comparer un système à 8 € et un pari à 1 €
+        # ne dit rien, puisque le premier achète huit fois plus de chances.
+        print(f"  {'système':<26}{'combi.':>7}{'sur les NETS':>15}"
+              f"{'sur les SERRÉS':>16}{'écart':>9}")
+        print("  " + "-" * 73)
+        for triples, doubles in ((0, 0), (0, 1), (0, 2), (1, 0), (0, 3),
+                                 (1, 1), (0, 4), (1, 2), (2, 0), (1, 3)):
+            if doubles + triples > MATCHS:
+                continue
+            valeurs = [statistics.mean(rendements(systeme(doubles, triples, o), grilles))
+                       for o in ("nets", "serres")]
+            nom = (f"{triples} triple{'s' if triples > 1 else ''} + "
+                   f"{doubles} double{'s' if doubles > 1 else ''}" if triples
+                   else (f"{doubles} double{'s' if doubles > 1 else ''}" if doubles
+                         else "aucun (tout favori)"))
+            print(f"  {nom:<26}{2**doubles * 3**triples:>6}€"
+                  f"{100*valeurs[0]:>13.0f} %{100*valeurs[1]:>14.0f} %"
+                  f"{valeurs[0]*100 - valeurs[1]*100:>+8.0f}")
+        print("\n  « Nets » : doubles posés sur les favoris les plus courts.")
+        print("  « Serrés » : posés sur les matchs les plus incertains.")
         return 0
 
     entete = (f"  {'stratégie':<38}{'coût':>6}{'rendement':>11}"
