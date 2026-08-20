@@ -225,16 +225,33 @@ Relevé le 20 août 2026, en confrontant les trois types.
 |---|---|---|
 | grille7 | **2** | 50 % / 50 %, invariable sur 4 155 grilles |
 | grille9 | **4** | 50 / 25 / 25 quand le rang supérieur a un gagnant |
-| grille12 | **5** | 20 % chacune quand personne ne fait le maximum |
+| grille12 | **4** | 40 % au premier rang + report, 20 % aux trois autres |
 
 Le pot se divise en parts égales, une par rang, et **les rangs sans gagnant
 n'apparaissent pas dans les rapports** — d'où des sommes qui ne font pas 100 %
 du montant distribué.
 
-**Le rang supérieur accumule les reports.** Grille 12 n°223 : le 12/12 emporte
-45 % du pot. Grille 12 n°186 : il en emporte 69 %, et le montant distribué —
-46 587 € — dépasse le montant garanti de 40 000 €. Quand personne ne trouve les
-douze bons résultats, la part non réclamée s'ajoute à la grille suivante.
+**Le rang supérieur accumule les reports**, ce que le règlement officiel
+confirme : « dans le cas où aucune grille n'a pronostiqué l'issue exacte de
+l'ensemble des matchs, le montant alloué au premier rang sera remis en jeu sur
+le premier rang d'un prochain jeu ».
+
+**Le modèle a été testé contre les données : 131 grilles 12 à quatre rangs,
+131 conformes, zéro exception.** Il permet de calculer le report, que Winamax
+ne publie nulle part :
+
+    dotation = (total d'un rang inférieur) / 0,20
+    report   = montant distribué − dotation
+
+Médiane du report : **8 920 €**. Maximum relevé : **144 851 €** — sur la
+grille 12 n°223, le premier rang emportait 22 679 € dont 4 466 € de report ;
+sur la n°186, 32 056 € dont 22 357 €.
+
+Autres points du règlement vérifiés dans les données : prise de jeu unitaire à
+1 € (la somme de `repart` égale les mises), 75 % des mises alloués à la dotation
+(mesuré exactement sur 3 617 grilles), grille 7 à deux rangs de 50 % (invariable
+sur 4 155 grilles), et le glissement des rangs quand personne n'atteint le
+maximum — ce qui explique les grilles dont les rapports commencent à 6/7.
 
 **Pourquoi c'est intéressant pour le sujet.** Un rang dont la dotation grossit
 sans que les mises suivent est structurellement plus favorable, exactement comme

@@ -38,8 +38,20 @@ echo "=== $(date '+%Y-%m-%d %H:%M:%S') ===" >> "$JOURNAL"
 # Dix grilles : les actives, plus celles qui viennent de se clore et dont la
 # répartition n'arrive qu'après le règlement. Redemander une grille déjà
 # collectée est voulu — c'est ainsi que `repart` se remplit quand il paraît.
-if ! python collecter_ws.py --type grille7 --recentes 10 >> "$JOURNAL" 2>&1; then
-    echo "la collecte a échoué — rien à commiter, on réessaiera demain" >> "$JOURNAL"
+# LES TROIS TYPES, PAS SEULEMENT LA GRILLE 7. Les cotes et la répartition
+# s'effacent aussi vite sur les grilles 9 et 12 — et celles-ci sont bien plus
+# rares : 22 et 403 grilles contre 4 175. Chaque grille 9 manquée pèse donc
+# cinquante fois plus lourd dans son historique qu'une grille 7.
+#
+# Un type qui échoue n'empêche pas les autres : on note et on continue.
+echec=0
+for type in grille7 grille9 grille12; do
+    if ! python collecter_ws.py --type "$type" --recentes 6 >> "$JOURNAL" 2>&1; then
+        echo "collecte $type en échec — on réessaiera demain" >> "$JOURNAL"
+        echec=1
+    fi
+done
+if [ "$echec" = 1 ] && ! ls data/pools/*/*.json >/dev/null 2>&1; then
     exit 0
 fi
 
