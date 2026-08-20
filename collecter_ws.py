@@ -49,7 +49,16 @@ URL_ACCUEIL = "https://www.winamax.fr/paris-sportifs/grilles"
 PREFIXE = {"grille7": 7_000_000, "grille9": 9_000_000, "grille12": 12_000_000}
 
 RESSOURCES_IGNOREES = {"image", "media", "font"}
+
+# PLAFOND D'ATTENTE, PAS DURÉE D'ATTENTE. La première version patientait
+# 12 secondes par grille, systématiquement : 345 grilles en quatre-vingts
+# minutes, et seize heures pour l'archive entière. Or la trame arrive en
+# général en une seconde ou deux — il suffisait de s'en apercevoir et de
+# passer à la suite. On sonde donc toutes les CADENCE_SONDAGE_MS jusqu'à
+# trouver la grille demandée, et le plafond ne sert qu'aux pages qui ne
+# répondront jamais.
 ATTENTE_TRAME_MS = 12000
+CADENCE_SONDAGE_MS = 250
 
 
 def pool_id(grille_type: str, grille_id: int) -> int:
@@ -164,10 +173,34 @@ def _ecouter(page) -> list:
     return trames
 
 
-def visiter(page, trames: list, url: str, attente: int = ATTENTE_TRAME_MS):
+def _pool_complet(trames: list, pid: int) -> bool:
+    """La grille demandée est-elle arrivée, avec tous ses matchs ?
+
+    Le pool annonce la liste de ses matchs, et le détail de ceux-ci peut
+    suivre dans une trame ultérieure. Attendre le pool seul rendrait parfois
+    une grille sans équipes ni scores — on exige donc les deux.
+    """
+    pools, matchs = extraire(trames, pid)
+    if not pools:
+        return False
+    pool = next(iter(pools.values()))
+    attendus = pool.get("matches") or []
+    return bool(attendus) and all(mid in matchs for mid in attendus)
+
+
+def visiter(page, trames: list, url: str, attente: int = ATTENTE_TRAME_MS,
+            pid: int = None):
     trames.clear()
     page.goto(url, timeout=30000, wait_until="domcontentloaded")
-    page.wait_for_timeout(attente)
+    if pid is None:
+        page.wait_for_timeout(attente)
+        return
+    ecoule = 0
+    while ecoule < attente:
+        if _pool_complet(list(trames), pid):
+            return
+        page.wait_for_timeout(CADENCE_SONDAGE_MS)
+        ecoule += CADENCE_SONDAGE_MS
 
 
 def sauver(donnees: dict) -> Path:
@@ -188,8 +221,9 @@ def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True):
             chemin = DATA_POOLS / grille_type / f"{gid}.json"
             if chemin.exists() and not refaire:
                 continue
-            visiter(page, trames, BASE_URL.format(type=grille_type, id=gid))
-            pools, matchs = extraire(list(trames), pool_id(grille_type, gid))
+            pid = pool_id(grille_type, gid)
+            visiter(page, trames, BASE_URL.format(type=grille_type, id=gid), pid=pid)
+            pools, matchs = extraire(list(trames), pid)
             if not pools:
                 print(f"  [{grille_type}-{gid}] aucune trame pour cette grille")
                 vides += 1

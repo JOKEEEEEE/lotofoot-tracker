@@ -135,6 +135,28 @@ def test_match_absent_de_la_trame_est_signale():
     assert d["matches"] == [{"match_id": 999, "absent_de_la_trame": True}], d["matches"]
 
 
+def test_attente_s_arrete_des_que_la_grille_est_complete():
+    """On sonde jusqu'à ce que la grille soit là, on ne patiente pas au forfait.
+
+    La première version attendait douze secondes par grille, quoi qu'il
+    arrive : seize heures pour l'archive entière, là où la trame arrive en
+    une seconde ou deux. Le plafond ne doit servir qu'aux pages muettes.
+
+    Et il ne suffit pas que le pool soit arrivé : il annonce la liste de ses
+    matchs, dont le détail peut suivre dans une trame ultérieure. S'arrêter
+    trop tôt rendrait une grille sans équipes ni scores.
+    """
+    from collecter_ws import _pool_complet
+
+    pool_seul = _trame({"pools": {"7004168": {"poolId": 7004168, "poolEnd": None,
+                                              "matches": [72037254, 72037258]}},
+                        "matches": {}})
+    assert _pool_complet([pool_seul], 7004168) is False, "pool sans ses matchs"
+    assert _pool_complet([pool_seul, RECENTE], 7004168) is True
+    assert _pool_complet([RECENTE], 7000100) is False, "autre grille"
+    assert _pool_complet(BRUIT, 7004168) is False
+
+
 if __name__ == "__main__":
     echecs = 0
     for nom, fonction in sorted(globals().items()):
