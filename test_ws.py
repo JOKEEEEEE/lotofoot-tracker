@@ -10,7 +10,7 @@ Winamax ne sert plus ni les cotes ni la répartition.
 
 import json
 
-from collecter_ws import composer, extraire, pool_id
+from collecter_ws import composer, decoder_resultat, extraire, pool_id
 
 # Le format socket.io : un préfixe numérique, puis ["m", {données}].
 def _trame(charge: dict) -> str:
@@ -371,6 +371,30 @@ def test_pause_longue_entre_les_lots():
     assert code == 0, texte
     assert len([a for a in attentes if a >= 600]) == 2, attentes
     assert "lot de 3 terminé" in texte, texte
+
+
+def test_le_code_resultat_se_lit_a_lenvers():
+    """La grille 521 du 16 avril 2017, relevée dans la base.
+
+    Bastia-Lyon, match abandonné après envahissement du terrain : Winamax le
+    paie à toutes les issues et laisse le score à 0-0. Il est en PREMIÈRE
+    ligne de la grille, et son triplet « 111 » est en DERNIÈRE position du
+    code. Lu dans le sens de la lecture, on attribuerait l'annulation à
+    Marseille-Saint-Étienne, et un « 1 » à un match qui n'a pas eu lieu.
+    """
+    issues = decoder_resultat("100001100100100100111", 7)
+    #        Bastia-Lyon    MU-Chelsea  Darmstadt  Betis  Spartak  Grenade  OM
+    #        annulé         2-0         2-1        2-0    2-1      0-3      4-0
+    assert issues[0] == {"1", "N", "2"}, issues[0]
+    assert [i for i in issues[1:]] == [{"1"}, {"1"}, {"1"}, {"1"}, {"2"}, {"1"}], issues
+
+
+def test_code_resultat_incomplet_rendu_None():
+    """Quatre grilles de la base portent des triplets « 000 » ou un score
+    aberrant : on rend None plutôt qu'une issue inventée."""
+    assert decoder_resultat("000100", 2) == [{"1"}, None]
+    assert decoder_resultat(None, 3) == [None, None, None]
+    assert decoder_resultat("1001", 2) == [None, None]     # longueur fausse
 
 
 if __name__ == "__main__":

@@ -194,6 +194,37 @@ def composer(pool: dict, matchs: dict, grille_type: str, grille_id: int) -> dict
     }
 
 
+def decoder_resultat(code: str, nb_matchs: int) -> list:
+    """Les issues gagnantes de chaque match, dans l'ordre des lignes.
+
+    ATTENTION : `strPoolResult` est écrit À L'ENVERS. Trois caractères par
+    match, un par issue (1, N, 2), mais le premier triplet décrit le DERNIER
+    match de la grille. Lu dans le sens de la lecture, le code désigne un
+    match sur deux à côté.
+
+    Mesuré sur les 4 467 grilles réglées de la base : 4 293 ne s'accordent
+    avec les scores que dans le sens inversé, 174 dans les deux (grilles
+    palindromiques), 4 dans aucun. Ces quatre-là portent des triplets « 000 »
+    ou un score aberrant — Winamax n'a jamais fini de les remplir, et on
+    rend None plutôt que d'inventer.
+
+        « 100 » le 1 gagne, « 010 » le nul, « 001 » le 2
+        « 111 » match annulé : toutes les issues paient
+        « 000 » aucune issue : donnée incomplète, rendue None
+
+    Rend une liste de nb_matchs éléments, chacun étant un ensemble d'issues
+    parmi {"1", "N", "2"}, ou None si le code ne dit rien.
+    """
+    if not code or len(code) != 3 * nb_matchs:
+        return [None] * nb_matchs
+    triplets = [code[i:i + 3] for i in range(0, len(code), 3)][::-1]
+    issues = []
+    for t in triplets:
+        gagnantes = {nom for nom, c in zip(("1", "N", "2"), t) if c == "1"}
+        issues.append(gagnantes or None)
+    return issues
+
+
 def _ouvrir(playwright):
     nav = playwright.chromium.launch(headless=True)
     page = nav.new_page(locale="fr-FR", timezone_id="Europe/Paris")

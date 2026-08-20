@@ -169,6 +169,31 @@ par la règle des trois jours — les sept matchs d'une grille doivent tenir dan
 une fenêtre de trois jours — et par la croissance des dates avec les numéros.
 Les 30 % restants sont listés, pas cachés.
 
+## Étape 1 bis — Les cotes ✅ faite le 20 août 2026
+
+**Livrable :** `data/cotes_matchs.json`, une cote 1/N/2 par match avec sa
+provenance.
+
+**Résultat : 19 686 matchs cotés sur 30 508**, soit 65 % — au-dessus des 57 %
+que la seule datation laissait espérer, parce que Winamax sert encore ses
+propres cotes sur les grilles récentes (5 077 matchs). Le reste vient de
+Pinnacle à la clôture (14 207) et de Bet365 en repli (402).
+
+**La règle appliquée :** au moindre doute, on ne rapproche pas. Noms exacts,
+sens de l'affiche respecté, un jour de marge, un seul candidat, et **les scores
+doivent concorder**. Ce dernier contrôle a écarté 4 rapprochements que les
+autres laissaient passer — tous des matchs abandonnés que Winamax a laissés à
+0-0. Détail dans le README.
+
+**Ce qui reste hors d'atteinte :** 10 736 matchs de coupe ou de sélection, que
+football-data ne publie pas. Toujours le même plafond, toujours la même issue :
+une autre source, pas un meilleur appariement.
+
+**Effet de bord utile :** en confrontant les scores, on a découvert que
+`strPoolResult` s'écrit **à l'envers** — le premier triplet décrit le dernier
+match. Vérifié sur 4 293 grilles. `decoder_resultat()` le lit correctement,
+faute de quoi l'étape 3 aurait comparé des issues décalées d'un match.
+
 ## Étape 2 — Un classement Elo
 
 **Livrable :** un Elo par équipe, calculé chronologiquement sur onze ans.
@@ -195,6 +220,11 @@ ailleurs.
 **Comment :** comparer le nombre de gagnants observés à chaque rang avec celui
 qu'on attendrait si les mises suivaient les probabilités du modèle. L'écart est
 le biais.
+
+La matière est là : 19 686 matchs cotés, et `repart` — la répartition réelle
+des mises du public — sur les grilles postérieures à février 2021. Le longshot
+bias se lit dans l'écart entre les deux, sans qu'aucun modèle soit nécessaire
+pour le mesurer.
 
 **Critère de fin :** un texte qui tient en deux pages, avec ses chiffres et ses
 réserves. Y compris la réserve principale : un biais mesuré n'est pas un biais

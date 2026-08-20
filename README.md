@@ -620,6 +620,77 @@ Chaque entrée porte `date`, `date_min`, `date_max` et `source` — `affiches`,
 `interpolation` ou `hors_ancrage`. Une estimation à dix-neuf jours près et une
 date confirmée par six affiches ne doivent pas se ressembler dans le JSON.
 
+## Attacher une cote à chaque match
+
+`joindre_cotes.py` produit `data/cotes_matchs.json` : une cote 1/N/2 par match,
+avec sa provenance. Trois sources, dans cet ordre.
+
+| Source | Pourquoi elle vient d'abord | Matchs |
+|---|---|---|
+| **Winamax** | c'est la cote de l'opérateur lui-même, celle que le parieur voyait | 5 077 |
+| **Pinnacle** (clôture) | la référence de la littérature sur les biais de marché | 14 207 |
+| **Bet365** (clôture) | en repli, pour sa couverture plus large | 402 |
+
+**19 686 matchs cotés sur 30 508**, soit 65 % — au-dessus des 57 % que la seule
+datation laissait espérer, parce que Winamax sert encore ses propres cotes sur
+les grilles récentes.
+
+### Ce qui empêche un faux rapprochement
+
+Les dates exactes venues du websocket permettent d'exiger beaucoup plus qu'un
+nom d'équipe ressemblant :
+
+1. **les deux noms correspondent exactement**, alias compris — aucune
+   ressemblance approximative n'est acceptée ;
+2. **le sens de l'affiche compte** : Lyon–Nantes n'est pas Nantes–Lyon, sans
+   quoi la cote 1 désignerait l'équipe adverse ;
+3. la rencontre tombe **à un jour près** du coup d'envoi ;
+4. **un seul candidat** subsiste ; deux, et on renonce ;
+5. **les scores concordent** — les deux sources connaissent le résultat, et
+   deux matchs qui ne finissent pas pareil ne sont pas le même match.
+
+Le cinquième contrôle ne coûte rien et a écarté **4 rapprochements** que les
+quatre premiers laissaient passer. Ils se ressemblent tous : Winamax a laissé
+**0-0** sur un match qui n'est pas allé au bout. Bastia–Lyon du 16 avril 2017,
+abandonné après envahissement du terrain, est chez football-data à 0-3 sur
+tapis vert. Attacher une cote à ces matchs, c'est attacher une cote à un
+résultat qu'on ne sait pas lire.
+
+Refus, par motif :
+
+| | |
+|---|---|
+| affiche absente de football-data | 10 736 |
+| rencontre trouvée mais sans cote | 82 |
+| scores différents | 4 |
+
+Les 10 736 sont les coupes et les compétitions internationales, que
+football-data ne publie pas. C'est toujours le même plafond, et il ne se lève
+qu'avec une autre source.
+
+### Une cote Pinnacle qu'on n'utilise pas
+
+football-data signale ses cotes Pinnacle comme **peu fiables depuis juillet
+2025**. On s'arrête donc au 30 juin 2025 et on retombe sur Bet365, plutôt que
+de faire comme si l'avertissement n'existait pas — c'est ce qui explique
+l'essentiel des 402 matchs cotés par Bet365.
+
+### `strPoolResult` s'écrit à l'envers
+
+Trois caractères par match — un par issue, `100` pour le 1, `010` pour le nul,
+`001` pour le 2, `111` pour un match annulé qui paie tout le monde. Mais **le
+premier triplet décrit le dernier match de la grille**.
+
+Ce n'est pas une supposition : sur les 4 467 grilles réglées de la base,
+**4 293 ne s'accordent avec les scores que dans le sens inversé**, 174 dans les
+deux — ce sont les grilles palindromiques — et 4 dans aucun. Ces quatre-là
+portent un triplet `000` ou un score aberrant ; `decoder_resultat()` y rend
+`None` plutôt que d'inventer une issue.
+
+Lu dans le sens de la lecture, le code attribue l'annulation au mauvais match
+et un `1` à une rencontre qui n'a pas eu lieu. C'est le genre d'erreur qui ne
+se voit jamais dans un total.
+
 ## Conditions d'utilisation
 
 L'accès automatisé est probablement contraire aux CGU de Winamax. Le rythme est
