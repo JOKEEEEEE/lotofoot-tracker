@@ -210,6 +210,88 @@ def test_rechargement_quand_la_trame_manque():
     assert page.rechargements == 0 and page.attentes == 0, vars(page)
 
 
+class _FauxTemps:
+    def __init__(self):
+        self.attentes = []
+
+    def sleep(self, secondes):
+        self.attentes.append(secondes)
+
+
+def _lancer_collecte(reponses, **kwargs):
+    """Joue un lot où `visiter` livre ce que dit `reponses` : id -> trame ou None."""
+    import collecter_ws as cw
+
+    vrais = (cw.sync_playwright, cw._ouvrir, cw._ecouter, cw.visiter,
+             cw.sauver, cw.time)
+    temps, sauvees, lancements = _FauxTemps(), [], []
+
+    class _Faux:
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+        def close(self): pass
+
+    trames_courantes = []
+
+    def faux_visiter(page, trames, url, attente=None, pid=None):
+        trames.clear()
+        gid = int(url.rsplit("-", 1)[1])
+        trame = reponses.get(gid)
+        if trame:
+            trames.append(trame)
+            return 1
+        return 0
+
+    cw.sync_playwright = lambda: _Faux()
+    cw._ouvrir = lambda p: (lancements.append(1), (_Faux(), object()))[1]
+    cw._ecouter = lambda page: trames_courantes
+    cw.visiter = faux_visiter
+    cw.sauver = lambda d: sauvees.append(d["grille_id"])
+    cw.time = temps
+    try:
+        import io
+        from contextlib import redirect_stdout
+        sortie = io.StringIO()
+        with redirect_stdout(sortie):
+            code = cw.collecter("grille7", list(reponses), **kwargs)
+        return code, sauvees, temps.attentes, sortie.getvalue(), len(lancements)
+    finally:
+        (cw.sync_playwright, cw._ouvrir, cw._ecouter, cw.visiter,
+         cw.sauver, cw.time) = vrais
+
+
+def test_arret_apres_grilles_muettes_consecutives():
+    """Quinze grilles muettes d'affilée : on s'arrête au lieu d'insister.
+
+    Sans ce garde-fou, une coupure d'accès en pleine collecte laissait le
+    script taper dans le vide pendant des heures, en signalant simplement
+    « aucune trame » des milliers de fois. C'est arrivé.
+    """
+    reponses = {i: None for i in range(4170, 4150, -1)}
+    code, sauvees, _, texte, _ = _lancer_collecte(reponses, arret_vides=5, lot=0)
+    assert code == 1, texte
+    assert sauvees == []
+    assert "5 grilles muettes d'affilée" in texte, texte
+    # L'arrêt doit dire comment reprendre, sinon il ne sert qu'à moitié.
+    assert "--sauter-existantes" in texte and "--from-id 4166" in texte, texte
+
+
+def test_une_grille_trouvee_remet_le_compteur_a_zero():
+    reponses = {4170: None, 4169: None, 4168: RECENTE, 4167: None, 4166: None}
+    code, sauvees, _, texte, _ = _lancer_collecte(reponses, arret_vides=3, lot=0)
+    assert code == 0, texte
+    assert sauvees == [4168], sauvees
+
+
+def test_pause_longue_entre_les_lots():
+    reponses = {4170 - i: RECENTE for i in range(8)}
+    code, _, attentes, texte, _ = _lancer_collecte(
+        reponses, lot=3, pause_lot=(600.0, 601.0), pause=(0.0, 0.0), renouveler=0)
+    assert code == 0, texte
+    assert len([a for a in attentes if a >= 600]) == 2, attentes
+    assert "lot de 3 terminé" in texte, texte
+
+
 if __name__ == "__main__":
     echecs = 0
     for nom, fonction in sorted(globals().items()):

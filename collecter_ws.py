@@ -70,6 +70,23 @@ CADENCE_SONDAGE_MS = 250
 # rouvre le websocket, plutôt que d'attendre devant un canal muet.
 ESSAIS_TRAME = 2
 
+# PAUSES DE LOT ET ARRÊT AUTOMATIQUE, par défaut et non en option. Le scraper
+# HTML les avait ; ce collecteur a été porté sans, et la connexion a fini par
+# être coupée en pleine collecte. Rien ne l'arrêtait alors : il aurait tapé
+# dans le vide pendant des heures, en signalant simplement « aucune trame »
+# des milliers de fois.
+#
+# Une valeur par défaut sûre vaut mieux qu'une option qu'on oublie.
+LOT_DEFAUT = 100
+PAUSE_LOT_DEFAUT = (60.0, 120.0)
+# Une grille absente arrive ; quinze d'affilée signifient qu'on ne nous parle
+# plus, et insister ne ferait qu'aggraver le cas.
+ARRET_VIDES = 15
+# Un navigateur neuf de temps en temps, pour 4 000 chargements d'affilée. Le
+# second essai par rechargement couvre désormais les ratés qu'une relance
+# provoquait autrefois.
+RENOUVELER_DEFAUT = 500
+
 
 def pool_id(grille_type: str, grille_id: int) -> int:
     return PREFIXE[grille_type] + grille_id
@@ -237,14 +254,20 @@ def sauver(donnees: dict) -> Path:
     return chemin
 
 
-def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True):
-    ok = vides = rattrapees = 0
+def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True,
+              lot: int = LOT_DEFAUT, pause_lot: tuple = PAUSE_LOT_DEFAUT,
+              arret_vides: int = ARRET_VIDES, renouveler: int = RENOUVELER_DEFAUT):
+    ok = vides = rattrapees = deja = 0
+    vides_suite, demandees = 0, 0
+    motif_arret, rang_arret = None, len(ids)
+
     with sync_playwright() as p:
         nav, page = _ouvrir(p)
         trames = _ecouter(page)
         for rang, gid in enumerate(ids):
             chemin = DATA_POOLS / grille_type / f"{gid}.json"
             if chemin.exists() and not refaire:
+                deja += 1
                 continue
             pid = pool_id(grille_type, gid)
             essai = visiter(page, trames, BASE_URL.format(type=grille_type, id=gid),
@@ -255,7 +278,16 @@ def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True):
             if not pools:
                 print(f"  [{grille_type}-{gid}] aucune trame pour cette grille")
                 vides += 1
+                vides_suite += 1
+                if vides_suite >= arret_vides:
+                    motif_arret = (f"{vides_suite} grilles muettes d'affilée — "
+                                   f"l'accès est probablement coupé. Attendre, puis "
+                                   f"relancer : rien de ce qui est collecté ne sera "
+                                   f"redemandé")
+                    rang_arret = rang
+                    break
             else:
+                vides_suite = 0
                 donnees = composer(list(pools.values())[0], matchs, grille_type, gid)
                 sauver(donnees)
                 r = donnees["repartition"]
@@ -267,11 +299,32 @@ def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True):
                       f"{cotes} avec cotes | repartition : "
                       f"{'oui' if r else 'non'}{marque}")
                 ok += 1
-            if rang < len(ids) - 1:
+            demandees += 1
+            if rang >= len(ids) - 1:
+                continue
+            if renouveler and demandees % renouveler == 0:
+                print(f"  --- {demandees} pages, navigateur renouvelé ---")
+                nav.close()
+                nav, page = _ouvrir(p)
+                trames = _ecouter(page)
+            if lot and demandees % lot == 0:
+                repos = random.uniform(*pause_lot)
+                print(f"  --- lot de {lot} terminé, pause de {repos / 60:.1f} min ---")
+                time.sleep(repos)
+            else:
                 time.sleep(random.uniform(*pause))
         nav.close()
+
     print(f"\nBilan : {ok} enregistrée(s) dont {rattrapees} au second essai, "
-          f"{vides} sans trame.")
+          f"{deja} déjà en base, {vides} sans trame.")
+    if motif_arret:
+        restants = ids[rang_arret:]
+        print(f"\nARRÊT : {motif_arret}.")
+        print(f"Il reste {len(restants)} identifiant(s), de {restants[0]} "
+              f"à {restants[-1]}. Reprendre avec :")
+        print(f"  python collecter_ws.py --type {grille_type} "
+              f"--from-id {restants[0]} --to-id {restants[-1]} --sauter-existantes")
+        return 1
     return 0
 
 
@@ -312,22 +365,33 @@ def main() -> int:
     ap.add_argument("--from-id", type=int)
     ap.add_argument("--to-id", type=int)
     ap.add_argument("--pause", type=float, nargs=2, default=[1.0, 2.0],
-                    metavar=("MIN", "MAX"))
+                    metavar=("MIN", "MAX"), help="attente entre deux grilles")
+    ap.add_argument("--lot", type=int, default=LOT_DEFAUT, metavar="N",
+                    help="pause longue toutes les N grilles (0 = aucune)")
+    ap.add_argument("--pause-lot", type=float, nargs=2, default=list(PAUSE_LOT_DEFAUT),
+                    metavar=("MIN", "MAX"), help="durée de la pause de lot")
+    ap.add_argument("--arret-vides", type=int, default=ARRET_VIDES, metavar="N",
+                    help="arrêter après N grilles muettes d'affilée")
+    ap.add_argument("--renouveler", type=int, default=RENOUVELER_DEFAUT, metavar="N",
+                    help="rouvrir le navigateur toutes les N grilles (0 = jamais)")
     ap.add_argument("--sauter-existantes", action="store_true",
                     help="ne pas redemander ce qui est déjà collecté")
     args = ap.parse_args()
 
     pause = tuple(args.pause)
     refaire = not args.sauter_existantes
+    reglages = dict(lot=args.lot, pause_lot=tuple(args.pause_lot),
+                    arret_vides=args.arret_vides, renouveler=args.renouveler)
     if args.recentes:
         return collecter_recentes(args.type, args.recentes, pause)
     if args.ids:
-        return collecter(args.type, [int(x) for x in args.ids.split(",")], pause, refaire)
+        return collecter(args.type, [int(x) for x in args.ids.split(",")], pause,
+                         refaire, **reglages)
     if args.from_id is not None and args.to_id is not None:
         pas = 1 if args.to_id >= args.from_id else -1
         ids = list(range(args.from_id, args.to_id + pas, pas))
         print(f"{len(ids)} identifiant(s), de {args.from_id} à {args.to_id}")
-        return collecter(args.type, ids, pause, refaire)
+        return collecter(args.type, ids, pause, refaire, **reglages)
     ap.error("Utiliser --recentes N, --ids a,b,c, ou --from-id X --to-id Y")
     return 2
 
