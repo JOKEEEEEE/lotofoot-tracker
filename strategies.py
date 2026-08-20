@@ -242,6 +242,8 @@ def main() -> int:
                     help="mesurer la solitude au lieu des stratégies")
     ap.add_argument("--systemes", action="store_true",
                     help="comparer où poser doubles et triples, à budget égal")
+    ap.add_argument("--taille", action="store_true",
+                    help="rendement par euro contre gain espéré en euros")
     args = ap.parse_args()
 
     grilles = charger(args.source)
@@ -296,6 +298,42 @@ def main() -> int:
                   f"{valeurs[0]*100 - valeurs[1]*100:>+8.0f}")
         print("\n  « Nets » : doubles posés sur les favoris les plus courts.")
         print("  « Serrés » : posés sur les matchs les plus incertains.")
+        return 0
+
+    if args.taille:
+        # DEUX MESURES QUI NE DISENT PAS LA MÊME CHOSE. Le rendement par euro
+        # dit quelle mise travaille le mieux ; le gain espéré en euros dit
+        # combien on ramène. Ils ne culminent pas au même endroit, et c'est
+        # tout le sujet pour qui joue des grilles chères.
+        print(f"  {'système (sur les plus nets)':<26}{'mise':>7}{'rend.':>8}"
+              f"{'gain espéré':>13}{'marginal':>10}{'période A':>11}{'période B':>11}"
+              f"{'sans top3':>11}")
+        print("  " + "-" * 97)
+        precedent = None
+        for doubles, triples in ((0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0),
+                                 (6, 0), (7, 0)):
+            fn = systeme(doubles, triples, "nets")
+            mise = 2 ** doubles * 3 ** triples
+            tous = rendements(fn, grilles)
+            moyen = statistics.mean(tous)
+            espere = (moyen - 1) * mise
+            # Ce que rapportent les euros AJOUTÉS par ce double de plus.
+            marge = "—"
+            if precedent is not None:
+                sup = mise - precedent[0]
+                marge = f"{100 * (1 + (espere - precedent[1]) / sup):.0f} %" if sup else "—"
+            precedent = (mise, espere)
+            nom = (f"{doubles} double{'s' if doubles > 1 else ''}" if doubles
+                   else "tout favori")
+            print(f"  {nom:<26}{mise:>6}€{100*moyen:>7.0f} %{espere:>+11.2f} €"
+                  f"{marge:>10}"
+                  f"{100*statistics.mean(rendements(fn, grilles[:coupe])):>10.0f} %"
+                  f"{100*statistics.mean(rendements(fn, grilles[coupe:])):>10.0f} %"
+                  f"{100*sans_la_tete(tous):>10.0f} %")
+        print("\n  « Marginal » : ce que rendent les euros ajoutés par ce double "
+              "de plus,")
+        print("  et non le système entier. En dessous de 100 %, le double "
+              "supplémentaire coûte.")
         return 0
 
     entete = (f"  {'stratégie':<38}{'coût':>6}{'rendement':>11}"
