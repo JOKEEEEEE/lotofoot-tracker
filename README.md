@@ -497,13 +497,35 @@ collecte quotidienne passe donc par `launchd`, l'ordonnanceur de macOS :
 `quotidien.sh` fait le travail, `fr.lotofoot.quotidien.plist` le déclenche à
 9 h — après le règlement des grilles de la veille.
 
+### Ce que la collecte complète a donné
+
+| | |
+|---|---|
+| Grilles collectées | **4 175** (l'archive entière, plus les grilles ouvertes) |
+| Datées à la minute | **4 174 sur 4 175** |
+| Matchs | 29 218, **tous** avec leur identifiant Sportradar |
+| Équipes distinctes | 1 956, identifiées par clé et non par nom |
+| **Grilles avec les cotes** | **783**, jusqu'à la n°1751 du 24 septembre 2020 |
+| **Grilles avec `repart`** | **2 155**, jusqu'à la n°1948 du 27 février 2021 |
+
+Les deux dernières lignes sont bien meilleures que ce qu'on redoutait. En
+comparant seulement les grilles 4168 et 100, on avait conclu que cotes et
+répartition ne survivaient qu'aux grilles récentes. En réalité elles
+remontent à **cinq ans** pour les cotes et à **plus de la moitié de
+l'archive** pour la répartition : 2 155 grilles portent la performance
+complète du public, ce qui suffit largement à l'étude de biais.
+
 ### Les deux sources se contrôlent l'une l'autre
 
 Les fichiers partent dans `data/pools/`, **à côté** de `data/grilles/` et non à
 sa place : les 4 152 grilles déjà collectées et auditées servent de témoin.
-Vérifié sur les grilles 100 et 4168 — mêmes rapports, mêmes montants, mêmes
-scores sur les sept affiches. Le nouveau collecteur dit la même chose que
-l'ancien, et davantage.
+**Confronté sur les 4 152 grilles du témoin : zéro montant divergent, zéro
+rapport divergent.** Quarante-deux scores diffèrent, et ils s'expliquent tous
+— ce sont des matchs annulés, dont le DOM n'affichait que la mention tandis
+que le websocket conserve le score réellement joué. Il en dit davantage, il ne
+dit pas autre chose.
+
+Le nouveau collecteur est donc validé à l'échelle, pas sur deux exemples.
 
 ## Dater les grilles
 

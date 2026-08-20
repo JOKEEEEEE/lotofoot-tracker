@@ -116,6 +116,17 @@ avant tout lot, comme d'habitude. C'est cette discipline qui a évité d'enregis
 **Critère de fin :** les trois types collectés, `verifier_base.py --rapport`
 sans anomalie, et les trous expliqués.
 
+**Grille 7 faite le 20 août 2026, par le websocket et non par le DOM.** 4 175
+grilles, 4 174 datées à la minute, 29 218 matchs tous porteurs de leur
+identifiant Sportradar. Confronté aux 4 152 grilles du témoin : aucun montant
+ni rapport divergent. Restent les grilles 9 et 12.
+
+**Conséquence sur les étapes 1 et 2 :** `dater_grilles.py` et
+`apparier_equipes.py` deviennent sans objet pour ces données. Ils gardent leur
+valeur de méthode — et leur datation, validée à zéro jour d'écart sur la
+grille 100, a servi à construire le dictionnaire des noms — mais la date exacte
+et l'identifiant Sportradar les remplacent avantageusement.
+
 ## Étape 1 — Dater les grilles ✅ faite le 18 août 2026
 
 **Pourquoi d'abord :** rien de chronologique n'est possible sans dates, et il
