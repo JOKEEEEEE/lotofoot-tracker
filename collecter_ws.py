@@ -57,8 +57,18 @@ RESSOURCES_IGNOREES = {"image", "media", "font"}
 # passer à la suite. On sonde donc toutes les CADENCE_SONDAGE_MS jusqu'à
 # trouver la grille demandée, et le plafond ne sert qu'aux pages qui ne
 # répondront jamais.
-ATTENTE_TRAME_MS = 12000
+ATTENTE_TRAME_MS = 6000
 CADENCE_SONDAGE_MS = 250
+
+# DEUX ESSAIS PLUTÔT QU'UNE LONGUE ATTENTE. Mesuré en conditions réelles : les
+# grilles déclarées « aucune trame » coûtaient le plafond entier — treize ou
+# quatorze secondes — et un second passage du lot les récupérait presque
+# toutes. L'échec était donc transitoire, pas une grille absente.
+#
+# Attendre plus longtemps ne servait à rien : ce qui manque, c'est un nouvel
+# abonnement au flux, pas de la patience. On recharge donc la page, ce qui
+# rouvre le websocket, plutôt que d'attendre devant un canal muet.
+ESSAIS_TRAME = 2
 
 
 def pool_id(grille_type: str, grille_id: int) -> int:
@@ -188,19 +198,34 @@ def _pool_complet(trames: list, pid: int) -> bool:
     return bool(attendus) and all(mid in matchs for mid in attendus)
 
 
+def _sonder(page, trames: list, pid: int, attente: int) -> bool:
+    ecoule = 0
+    while ecoule < attente:
+        if _pool_complet(list(trames), pid):
+            return True
+        page.wait_for_timeout(CADENCE_SONDAGE_MS)
+        ecoule += CADENCE_SONDAGE_MS
+    return _pool_complet(list(trames), pid)
+
+
 def visiter(page, trames: list, url: str, attente: int = ATTENTE_TRAME_MS,
-            pid: int = None):
+            pid: int = None) -> int:
+    """Charge la page et attend la grille. Renvoie le numéro de l'essai réussi.
+
+    Zéro signifie que la grille n'est jamais arrivée, même après rechargement.
+    """
     trames.clear()
     page.goto(url, timeout=30000, wait_until="domcontentloaded")
     if pid is None:
         page.wait_for_timeout(attente)
-        return
-    ecoule = 0
-    while ecoule < attente:
-        if _pool_complet(list(trames), pid):
-            return
-        page.wait_for_timeout(CADENCE_SONDAGE_MS)
-        ecoule += CADENCE_SONDAGE_MS
+        return 1
+    for essai in range(1, ESSAIS_TRAME + 1):
+        if _sonder(page, trames, pid, attente):
+            return essai
+        if essai < ESSAIS_TRAME:
+            trames.clear()
+            page.reload(timeout=30000, wait_until="domcontentloaded")
+    return 0
 
 
 def sauver(donnees: dict) -> Path:
@@ -213,7 +238,7 @@ def sauver(donnees: dict) -> Path:
 
 
 def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True):
-    ok = vides = 0
+    ok = vides = rattrapees = 0
     with sync_playwright() as p:
         nav, page = _ouvrir(p)
         trames = _ecouter(page)
@@ -222,7 +247,10 @@ def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True):
             if chemin.exists() and not refaire:
                 continue
             pid = pool_id(grille_type, gid)
-            visiter(page, trames, BASE_URL.format(type=grille_type, id=gid), pid=pid)
+            essai = visiter(page, trames, BASE_URL.format(type=grille_type, id=gid),
+                            pid=pid)
+            if essai > 1:
+                rattrapees += 1
             pools, matchs = extraire(list(trames), pid)
             if not pools:
                 print(f"  [{grille_type}-{gid}] aucune trame pour cette grille")
@@ -232,15 +260,18 @@ def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True):
                 sauver(donnees)
                 r = donnees["repartition"]
                 cotes = sum(1 for m in donnees["matches"] if m.get("cote_1"))
+                marque = "  (2e essai)" if essai > 1 else ""
                 print(f"  [{grille_type}-{gid}] {donnees['statut']:<7} "
                       f"{donnees['fin'][:10] if donnees['fin'] else '?'} | "
                       f"{len(donnees['matches'])} matchs | "
-                      f"{cotes} avec cotes | repartition : {'oui' if r else 'non'}")
+                      f"{cotes} avec cotes | repartition : "
+                      f"{'oui' if r else 'non'}{marque}")
                 ok += 1
             if rang < len(ids) - 1:
                 time.sleep(random.uniform(*pause))
         nav.close()
-    print(f"\nBilan : {ok} enregistrée(s), {vides} sans trame.")
+    print(f"\nBilan : {ok} enregistrée(s) dont {rattrapees} au second essai, "
+          f"{vides} sans trame.")
     return 0
 
 

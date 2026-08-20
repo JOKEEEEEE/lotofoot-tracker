@@ -157,6 +157,59 @@ def test_attente_s_arrete_des_que_la_grille_est_complete():
     assert _pool_complet(BRUIT, 7004168) is False
 
 
+def test_rechargement_quand_la_trame_manque():
+    """Une trame ratée se rattrape en rechargeant, pas en attendant plus.
+
+    Mesuré : les grilles déclarées « aucune trame » coûtaient le plafond
+    entier, et un second passage du lot les récupérait presque toutes.
+    L'échec était donc transitoire — ce qui manquait était un nouvel
+    abonnement au flux, pas de la patience.
+    """
+    import collecter_ws as cw
+
+    class _FaussePage:
+        """Muette au premier chargement, bavarde après rechargement."""
+
+        def __init__(self, trames, muette_jusqua):
+            self.trames, self.muette_jusqua = trames, muette_jusqua
+            self.chargements, self.rechargements, self.attentes = 0, 0, 0
+
+        def goto(self, url, **kw):
+            self.chargements += 1
+            self._peut_etre_pousser()
+
+        def reload(self, **kw):
+            self.rechargements += 1
+            self._peut_etre_pousser()
+
+        def wait_for_timeout(self, ms):
+            self.attentes += ms
+
+        def _peut_etre_pousser(self):
+            if self.chargements + self.rechargements > self.muette_jusqua:
+                self.trames.append(RECENTE)
+
+    # Muette au premier chargement : le rechargement doit sauver la grille.
+    trames = []
+    page = _FaussePage(trames, muette_jusqua=1)
+    assert cw.visiter(page, trames, "url", pid=7004168) == 2
+    assert page.rechargements == 1, vars(page)
+
+    # Muette quoi qu'il arrive : on abandonne après ESSAIS_TRAME, sans boucler.
+    trames = []
+    page = _FaussePage(trames, muette_jusqua=99)
+    assert cw.visiter(page, trames, "url", pid=7004168) == 0
+    assert page.rechargements == cw.ESSAIS_TRAME - 1, vars(page)
+    # Et le coût total reste borné par le plafond, essais compris.
+    assert page.attentes <= cw.ATTENTE_TRAME_MS * cw.ESSAIS_TRAME + cw.CADENCE_SONDAGE_MS
+
+    # Disponible tout de suite : aucun rechargement, aucune attente inutile.
+    trames = []
+    page = _FaussePage(trames, muette_jusqua=0)
+    assert cw.visiter(page, trames, "url", pid=7004168) == 1
+    assert page.rechargements == 0 and page.attentes == 0, vars(page)
+
+
 if __name__ == "__main__":
     echecs = 0
     for nom, fonction in sorted(globals().items()):
