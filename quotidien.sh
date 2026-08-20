@@ -1,7 +1,7 @@
 #!/bin/sh
 # Collecte quotidienne des grilles encore récentes.
 #
-# POURQUOI CHAQUE JOUR. Les cotes 1/N/2 et la répartition du public ne sont
+# POURQUOI CHAQUE JOUR. Les cotes 1/N/2 et `repart` ne sont
 # servies que sur les grilles récentes : la grille 4168 les a, la grille 100
 # ne les a plus. Une grille par jour bascule ainsi hors de portée, sans
 # rattrapage possible. C'est la seule partie du projet qui court après le

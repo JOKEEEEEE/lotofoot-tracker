@@ -764,6 +764,35 @@ Lu dans le sens de la lecture, le code attribue l'annulation au mauvais match
 et un `1` à une rencontre qui n'a pas eu lieu. C'est le genre d'erreur qui ne
 se voit jamais dans un total.
 
+### Ce que `repart` est, et ce qu'il n'est pas
+
+`repart` est l'**histogramme des bulletins par nombre de bons résultats** :
+`repart[k]` compte les grilles jouées qui ont obtenu k bons pronostics, de 0
+jusqu'au nombre de matchs. Pour la grille 7 n°1948 :
+
+    [72, 711, 2669, 5279, 6330, 4261, 1320, 139]
+      0    1     2     3     4     5     6    7  bons résultats
+
+Les deux dernières valeurs sont les rangs qui paient — 139 gagnants à 7 bons,
+1 320 à 6 — et le reste, 20 642 bulletins, n'a rien gagné.
+
+Deux contrôles, sur les 2 354 grilles qui portent le champ :
+
+| | |
+|---|---|
+| `repart[k]` = gagnants du rang « k bons » | **4 870 rangs vérifiés**, 54 écarts |
+| somme de `repart` × 1 € × 75 % = mises nettes | **2 290 exactes**, 26 à moins de 1 %, 26 au-delà, 12 grilles à zéro |
+
+Le second contrôle confirme d'un coup trois choses mesurées séparément : la
+mise unitaire vaut 1 €, le prélèvement est de 25 %, et `repart` compte bien
+des bulletins et non des euros.
+
+**Ce n'est donc PAS la répartition des mises par issue.** On ne sait pas
+combien de parieurs ont coché le 1 plutôt que le N sur tel match — Winamax ne
+sert pas cette donnée. On sait seulement à quel point la foule a eu raison
+dans l'ensemble, ce qui reste la moitié du sujet : la distribution observée se
+compare à celle qu'on obtiendrait au hasard, ou en suivant les cotes.
+
 ### Deux fenêtres, et un trou de quatre ans
 
 Les cotes de Winamax ne sont pas servies partout. Relevé le 20 août 2026, sur
@@ -776,9 +805,9 @@ les 4 175 grilles 7 :
 | 3 nov. 2021 → 17 nov. 2025 | 2262 → 3901 | non | oui |
 | **depuis le 17 novembre 2025** | 3902 → 4175 | **oui** | oui |
 
-Ce n'est donc pas la grille entière qui vieillit : la répartition du public est
-servie sans interruption depuis février 2021, pendant que les cotes du même
-enregistrement sont vides. Les deux champs sont indépendants.
+Ce n'est donc pas la grille entière qui vieillit : `repart` est servi sans
+interruption depuis février 2021, pendant que les cotes du même enregistrement
+sont vides. Les deux champs sont indépendants.
 
 La fenêtre récente ressemble à une rétention glissante d'environ neuf mois —
 raison de plus pour que la collecte quotidienne tourne. Le bloc de 2020-2021,

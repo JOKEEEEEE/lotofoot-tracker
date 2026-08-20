@@ -226,10 +226,23 @@ ailleurs.
 qu'on attendrait si les mises suivaient les probabilités du modèle. L'écart est
 le biais.
 
-La matière est là : 19 686 matchs cotés, et `repart` — la répartition réelle
-des mises du public — sur les grilles postérieures à février 2021. Le longshot
-bias se lit dans l'écart entre les deux, sans qu'aucun modèle soit nécessaire
-pour le mesurer.
+La matière est là : 20 812 matchs cotés, et `repart` sur 2 354 grilles
+postérieures à février 2021.
+
+**Attention à ce que `repart` est et n'est pas.** C'est l'histogramme des
+bulletins par nombre de bons résultats — combien de grilles ont eu 0 bon, 1
+bon, … jusqu'à 7. Ce n'est PAS la répartition des mises du public issue par
+issue : on ne sait pas combien de parieurs ont coché le 1 sur tel match.
+Vérifié : la somme de `repart` égale le nombre de bulletins, et `repart[k]`
+vaut exactement le nombre de gagnants du rang « k bons » quand ce rang paie.
+
+Ce que ça permet quand même, et qui est beaucoup : comparer la distribution
+observée à celle qu'on attendrait si chaque parieur cochait au hasard, ou s'il
+suivait les cotes. Trois courbes sur le même graphique, et l'écart entre la
+deuxième et la troisième est la mesure du biais collectif — sans modèle.
+
+Ce que ça ne permet pas : dire QUEL match le public a mal jugé. Pour ça il
+faudrait la répartition par issue, que Winamax ne sert pas.
 
 **Critère de fin :** un texte qui tient en deux pages, avec ses chiffres et ses
 réserves. Y compris la réserve principale : un biais mesuré n'est pas un biais
@@ -302,8 +315,8 @@ autres.
 ## À vérifier chez Winamax, depuis le Mac
 
 Les cotes manquent sur 1 640 grilles — quatre ans, de novembre 2021 à novembre
-2025 — alors que la répartition du public, elle, est servie sur la même
-période. Avant d'aller acheter des cotes ailleurs, il faut savoir si Winamax
+2025 — alors que `repart`, l'histogramme des bulletins par nombre de bons
+résultats, est servi sur la même période. Avant d'aller acheter des cotes ailleurs, il faut savoir si Winamax
 les cache ou s'il ne les a plus.
 
     python sonder_cotes.py 4170     # témoin

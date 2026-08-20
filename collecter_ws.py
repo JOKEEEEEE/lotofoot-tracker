@@ -387,7 +387,7 @@ def collecter(grille_type: str, ids: list, pause=(1.0, 2.0), refaire=True,
 def collecter_recentes(grille_type: str, combien: int, pause=(1.0, 2.0)):
     """Les grilles encore actives, plus celles qui viennent de se clore.
 
-    C'EST LA COURSE CONTRE LA MONTRE. Les cotes et la répartition du public
+    C'EST LA COURSE CONTRE LA MONTRE. Les cotes et `repart`
     n'existent que sur les grilles récentes ; passé un certain âge, Winamax
     cesse de les servir. Une grille par jour bascule ainsi hors de portée, et
     rien ne permettra de la rattraper.
