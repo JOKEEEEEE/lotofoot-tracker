@@ -56,5 +56,12 @@ if git diff --cached --quiet; then
     exit 0
 fi
 git commit -q -m "Collecte quotidienne $(date '+%Y-%m-%d')" >> "$JOURNAL" 2>&1
-git push -q origin main >> "$JOURNAL" 2>&1 || \
+if git push -q origin main >> "$JOURNAL" 2>&1; then
+    # DIRE QUE ÇA A MARCHÉ. Toutes les commandes git étant en -q, un run
+    # réussi n'écrivait rien après le bilan de collecte — indiscernable d'un
+    # script mort en route. On a cherché la panne une demi-heure avant de
+    # constater que les commits étaient bien sur le serveur.
+    echo "commité et poussé" >> "$JOURNAL"
+else
     echo "push impossible — les données restent commitées en local" >> "$JOURNAL"
+fi
