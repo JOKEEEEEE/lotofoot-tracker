@@ -200,16 +200,21 @@ def _ecouter(page) -> list:
     return trames
 
 
-def _pool_complet(trames: list, pid: int) -> bool:
+def _pool_complet(trames: list, pid: int = None) -> bool:
     """La grille demandée est-elle arrivée, avec tous ses matchs ?
 
     Le pool annonce la liste de ses matchs, et le détail de ceux-ci peut
     suivre dans une trame ultérieure. Attendre le pool seul rendrait parfois
     une grille sans équipes ni scores — on exige donc les deux.
+
+    Sans identifiant, on interroge la page d'accueil : la seule présence de
+    grilles actives suffit alors, on ne cherche pas leur détail.
     """
     pools, matchs = extraire(trames, pid)
     if not pools:
         return False
+    if pid is None:
+        return True
     pool = next(iter(pools.values()))
     attendus = pool.get("matches") or []
     return bool(attendus) and all(mid in matchs for mid in attendus)
@@ -233,9 +238,10 @@ def visiter(page, trames: list, url: str, attente: int = ATTENTE_TRAME_MS,
     """
     trames.clear()
     page.goto(url, timeout=30000, wait_until="domcontentloaded")
-    if pid is None:
-        page.wait_for_timeout(attente)
-        return 1
+    # LA PAGE D'ACCUEIL A DROIT AU MÊME SECOND ESSAI. Elle patientait
+    # aveuglément, sans jamais réessayer : une trame ratée et la collecte
+    # quotidienne ne trouvait « aucune grille active », donc ne collectait
+    # rien du tout. Observé le 20 août à 18 h 18, réussi à 18 h 19.
     for essai in range(1, ESSAIS_TRAME + 1):
         if _sonder(page, trames, pid, attente):
             return essai
@@ -349,9 +355,13 @@ def collecter_recentes(grille_type: str, combien: int, pause=(1.0, 2.0)):
     with sync_playwright() as p:
         nav, page = _ouvrir(p)
         trames = _ecouter(page)
-        visiter(page, trames, URL_ACCUEIL)
+        trouve = visiter(page, trames, URL_ACCUEIL)
         pools, _ = extraire(list(trames))
         nav.close()
+
+    if not trouve:
+        print("La page d'accueil n'a pas répondu, même après rechargement.")
+        return 1
 
     prefixe = PREFIXE[grille_type]
     numeros = sorted(pid - prefixe for pid in pools

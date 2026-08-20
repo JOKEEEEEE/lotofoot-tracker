@@ -22,8 +22,11 @@
 #     launchctl print gui/$(id -u)/fr.lotofoot.quotidien | head -15
 #     tail -20 diagnostic/quotidien.log
 
-set -e
-cd "$(dirname "$0")"
+# PAS DE `set -e`. Il faisait mourir le script en silence : le 20 août, la
+# page d'accueil n'ayant pas répondu, la collecte sortait en erreur et le
+# script s'arrêtait sans écrire une ligne expliquant pourquoi. Un travail
+# programmé qui échoue sans le dire est pire qu'un travail qui n'existe pas.
+cd "$(dirname "$0")" || exit 1
 mkdir -p diagnostic
 JOURNAL="diagnostic/quotidien.log"
 
@@ -35,7 +38,10 @@ echo "=== $(date '+%Y-%m-%d %H:%M:%S') ===" >> "$JOURNAL"
 # Dix grilles : les actives, plus celles qui viennent de se clore et dont la
 # répartition n'arrive qu'après le règlement. Redemander une grille déjà
 # collectée est voulu — c'est ainsi que `repart` se remplit quand il paraît.
-python collecter_ws.py --type grille7 --recentes 10 >> "$JOURNAL" 2>&1
+if ! python collecter_ws.py --type grille7 --recentes 10 >> "$JOURNAL" 2>&1; then
+    echo "la collecte a échoué — rien à commiter, on réessaiera demain" >> "$JOURNAL"
+    exit 0
+fi
 
 # Le dépôt d'abord à jour, sinon le push sera refusé et la collecte du
 # lendemain repartirait sur un dépôt divergent.

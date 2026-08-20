@@ -307,6 +307,44 @@ def test_trame_incomplete_n_est_pas_enregistree():
     assert "aucune trame" in texte, texte
 
 
+def test_accueil_a_droit_au_second_essai():
+    """La page d'accueil ratait sa trame sans jamais réessayer.
+
+    Observé le 20 août : à 18 h 18 la collecte quotidienne annonçait « aucune
+    grille active » et s'arrêtait là ; à 18 h 19 elle fonctionnait. Un matin
+    sur cinq ou dix, elle n'aurait donc rien collecté — et comme les cotes et
+    la répartition s'effacent avec le temps, c'est une perte définitive.
+
+    Sans identifiant, la seule présence de grilles actives suffit à conclure :
+    on ne cherche pas leur détail depuis l'accueil.
+    """
+    import collecter_ws as cw
+
+    actives = _trame({"pools": {"7004173": {"poolId": 7004173, "poolEnd": None,
+                                            "matches": [1]}}, "matches": {}})
+    assert cw._pool_complet([actives]) is True, "l'accueil se contente des pools"
+    assert cw._pool_complet([actives], 7004173) is False, "le détail manque"
+    assert cw._pool_complet(BRUIT) is False
+
+    class _PageMuetteUneFois:
+        def __init__(self, trames):
+            self.trames, self.n = trames, 0
+
+        def goto(self, url, **kw):
+            self.n += 1
+
+        def reload(self, **kw):
+            self.n += 1
+            self.trames.append(actives)
+
+        def wait_for_timeout(self, ms):
+            pass
+
+    trames = []
+    page = _PageMuetteUneFois(trames)
+    assert cw.visiter(page, trames, "url") == 2, "l'accueil doit réessayer"
+
+
 def test_pause_longue_entre_les_lots():
     reponses = {4170 - i: RECENTE for i in range(8)}
     code, _, attentes, texte, _ = _lancer_collecte(
