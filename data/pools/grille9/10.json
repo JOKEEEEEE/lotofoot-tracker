@@ -1,0 +1,171 @@
+{
+  "grille_id": 10,
+  "grille_type": "grille9",
+  "pool_id": 9000010,
+  "titre": "Grille 9 n°10",
+  "statut": "CLOSED",
+  "fin": "2026-02-13T18:00:00+00:00",
+  "collecte_le": "2026-08-20T16:38:20.096182+00:00",
+  "mises_nettes": 20636.7,
+  "montant_distribue": 20636.71,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "100001100100001010010100100",
+  "rapports": [
+    {
+      "nbCorrectResults": 9,
+      "winningGrids": 1,
+      "winningsPerGrid": 10318.35
+    },
+    {
+      "nbCorrectResults": 8,
+      "winningGrids": 30,
+      "winningsPerGrid": 171.97
+    },
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 413,
+      "winningsPerGrid": 12.49
+    }
+  ],
+  "repartition": [
+    109,
+    750,
+    2990,
+    6905,
+    9496,
+    6519,
+    2268,
+    413,
+    30,
+    1
+  ],
+  "matches": [
+    {
+      "match_id": 61526380,
+      "debut": "2026-02-13T18:00:00+00:00",
+      "home": "Rennes",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1644",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 5.9,
+      "cote_N": 4.6,
+      "cote_2": 1.32
+    },
+    {
+      "match_id": 61526376,
+      "debut": "2026-02-13T20:05:00+00:00",
+      "home": "Monaco",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1653",
+      "away_id": "sr:competitor:1647",
+      "score_home": 3,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.44,
+      "cote_N": 4.7,
+      "cote_2": 6
+    },
+    {
+      "match_id": 61526366,
+      "debut": "2026-02-14T16:00:00+00:00",
+      "home": "Marseille",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1659",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.9,
+      "cote_N": 3.3,
+      "cote_2": 3.05
+    },
+    {
+      "match_id": 61526368,
+      "debut": "2026-02-14T18:00:00+00:00",
+      "home": "Lille",
+      "away": "Brest",
+      "home_id": "sr:competitor:1643",
+      "away_id": "sr:competitor:1715",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.5,
+      "cote_N": 3.55,
+      "cote_2": 4.8
+    },
+    {
+      "match_id": 61526378,
+      "debut": "2026-02-14T20:05:00+00:00",
+      "home": "Paris FC",
+      "away": "Lens",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1648",
+      "score_home": 0,
+      "score_away": 5,
+      "statut": "ENDED",
+      "cote_1": 3.45,
+      "cote_N": 3.15,
+      "cote_2": 1.82
+    },
+    {
+      "match_id": 61526370,
+      "debut": "2026-02-15T14:00:00+00:00",
+      "home": "Le Havre",
+      "away": "Toulouse",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1681",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.25,
+      "cote_N": 3.15,
+      "cote_2": 2.2
+    },
+    {
+      "match_id": 61526374,
+      "debut": "2026-02-15T16:15:00+00:00",
+      "home": "Lorient",
+      "away": "Angers",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1684",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.84,
+      "cote_N": 2.8,
+      "cote_2": 3.85
+    },
+    {
+      "match_id": 61526372,
+      "debut": "2026-02-15T16:15:00+00:00",
+      "home": "Metz",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1651",
+      "away_id": "sr:competitor:1646",
+      "score_home": 1,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.95,
+      "cote_N": 3.05,
+      "cote_2": 2.4
+    },
+    {
+      "match_id": 61526364,
+      "debut": "2026-02-15T19:50:00+00:00",
+      "home": "Lyon",
+      "away": "Nice",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1661",
+      "score_home": 2,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.76,
+      "cote_N": 3.3,
+      "cote_2": 3.55
+    }
+  ]
+}

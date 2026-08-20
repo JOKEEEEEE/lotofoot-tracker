@@ -1,0 +1,171 @@
+{
+  "grille_id": 17,
+  "grille_type": "grille9",
+  "pool_id": 9000017,
+  "titre": "Grille 9 n°17",
+  "statut": "CLOSED",
+  "fin": "2026-04-24T18:45:00+00:00",
+  "collecte_le": "2026-08-20T16:38:06.601536+00:00",
+  "mises_nettes": 10649.8,
+  "montant_distribue": 15000,
+  "montant_garanti": 15000,
+  "montant_ajoute": null,
+  "resultat_code": "010100001010001010001100010",
+  "rapports": [
+    {
+      "nbCorrectResults": 9,
+      "winningGrids": 4,
+      "winningsPerGrid": 1875
+    },
+    {
+      "nbCorrectResults": 8,
+      "winningGrids": 65,
+      "winningsPerGrid": 57.69
+    },
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 404,
+      "winningsPerGrid": 9.28
+    }
+  ],
+  "repartition": [
+    16,
+    218,
+    1045,
+    3160,
+    4933,
+    3784,
+    1585,
+    404,
+    65,
+    4
+  ],
+  "matches": [
+    {
+      "match_id": 61526548,
+      "debut": "2026-04-24T18:45:00+00:00",
+      "home": "Brest",
+      "away": "Lens",
+      "home_id": "sr:competitor:1715",
+      "away_id": "sr:competitor:1648",
+      "score_home": 3,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 5.3,
+      "cote_N": 4.3,
+      "cote_2": 1.52
+    },
+    {
+      "match_id": 61526544,
+      "debut": "2026-04-25T13:00:00+00:00",
+      "home": "Lyon",
+      "away": "Auxerre",
+      "home_id": "sr:competitor:1649",
+      "away_id": "sr:competitor:1646",
+      "score_home": 3,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 1.58,
+      "cote_N": 3.65,
+      "cote_2": 4.4
+    },
+    {
+      "match_id": 61526536,
+      "debut": "2026-04-25T17:00:00+00:00",
+      "home": "Angers",
+      "away": "Paris SG",
+      "home_id": "sr:competitor:1684",
+      "away_id": "sr:competitor:1644",
+      "score_home": 0,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 9,
+      "cote_N": 5.1,
+      "cote_2": 1.24
+    },
+    {
+      "match_id": 61526546,
+      "debut": "2026-04-25T19:05:00+00:00",
+      "home": "Toulouse",
+      "away": "Monaco",
+      "home_id": "sr:competitor:1681",
+      "away_id": "sr:competitor:1653",
+      "score_home": 2,
+      "score_away": 2,
+      "statut": "ENDED",
+      "cote_1": 3.9,
+      "cote_N": 3.75,
+      "cote_2": 1.64
+    },
+    {
+      "match_id": 61526542,
+      "debut": "2026-04-26T13:00:00+00:00",
+      "home": "Lorient",
+      "away": "Strasbourg",
+      "home_id": "sr:competitor:1656",
+      "away_id": "sr:competitor:1659",
+      "score_home": 2,
+      "score_away": 3,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 3.5,
+      "cote_2": 3.15
+    },
+    {
+      "match_id": 61526538,
+      "debut": "2026-04-26T15:15:00+00:00",
+      "home": "Le Havre",
+      "away": "Metz",
+      "home_id": "sr:competitor:1662",
+      "away_id": "sr:competitor:1651",
+      "score_home": 4,
+      "score_away": 4,
+      "statut": "ENDED",
+      "cote_1": 1.52,
+      "cote_N": 4,
+      "cote_2": 4.3
+    },
+    {
+      "match_id": 61526540,
+      "debut": "2026-04-26T15:15:00+00:00",
+      "home": "Paris FC",
+      "away": "Lille",
+      "home_id": "sr:competitor:6070",
+      "away_id": "sr:competitor:1643",
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 4.1,
+      "cote_N": 3.65,
+      "cote_2": 1.6
+    },
+    {
+      "match_id": 61526534,
+      "debut": "2026-04-26T15:15:00+00:00",
+      "home": "Rennes",
+      "away": "Nantes",
+      "home_id": "sr:competitor:1658",
+      "away_id": "sr:competitor:1647",
+      "score_home": 2,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.44,
+      "cote_N": 4,
+      "cote_2": 5.3
+    },
+    {
+      "match_id": 61526550,
+      "debut": "2026-04-26T18:45:00+00:00",
+      "home": "Marseille",
+      "away": "Nice",
+      "home_id": "sr:competitor:1641",
+      "away_id": "sr:competitor:1661",
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 1.6,
+      "cote_N": 3.65,
+      "cote_2": 4.1
+    }
+  ]
+}
