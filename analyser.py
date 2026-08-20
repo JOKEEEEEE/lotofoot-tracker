@@ -52,7 +52,7 @@ BOOTSTRAP = 4000
 ISSUES = ("1", "N", "2")
 
 
-def charger(source: str = None) -> list:
+def charger(source: str = None, types=("grille7",)) -> list:
     """Les matchs exploitables : une issue connue, et trois cotes.
 
     L'issue vient de `strPoolResult`, pas du score : c'est lui qui distingue
@@ -62,7 +62,7 @@ def charger(source: str = None) -> list:
     cotes = json.loads(COTES.read_text(encoding="utf-8"))
     competitions = json.loads(COMPETITIONS.read_text(encoding="utf-8"))
     vus, retenus = set(), []
-    for t in ("grille7", "grille9", "grille12"):
+    for t in types:
         for f in sorted((DATA_POOLS / t).glob("*.json"), key=lambda f: int(f.stem)):
             d = json.loads(f.read_text(encoding="utf-8"))
             ms = d.get("matches", [])
@@ -176,10 +176,10 @@ def evaluer_grille(ms: list, issues: list, rep: list, rapports: list,
     }
 
 
-def public(cotes: dict, source: str = None) -> list:
+def public(cotes: dict, source: str = None, types=("grille7",)) -> list:
     """Toutes les grilles jugeables : cotes complètes et répartition connue."""
     grilles = []
-    for t in ("grille7", "grille9", "grille12"):
+    for t in types:
         for f in sorted((DATA_POOLS / t).glob("*.json"), key=lambda f: int(f.stem)):
             d = json.loads(f.read_text(encoding="utf-8"))
             rep, ms = d.get("repartition"), d.get("matches", [])
@@ -213,14 +213,24 @@ def main() -> int:
     # sur le mélange, il vient du mélange et pas du marché.
     ap.add_argument("--source", default=None,
                     help="pinnacle_cloture, winamax, footiqo_cloture…")
+    # LA GRILLE 7 PAR DÉFAUT, ET ELLE SEULE. Les trois types ne se jouent ni
+    # ne se paient pareil : la grille 12 a quatre rangs et un report, la
+    # grille 7 en a deux à 50/50. Les mêler donnait un rendement moyen qui ne
+    # décrivait aucune des deux — 87 % pour 93 % à la grille 7 et 40 % à la 12.
+    ap.add_argument("--type", default="grille7",
+                    choices=["grille7", "grille9", "grille12", "tous"])
     args = ap.parse_args()
 
-    matchs = charger(args.source)
+    types = (("grille7", "grille9", "grille12") if args.type == "tous"
+             else (args.type,))
+    matchs = charger(args.source, types)
     cotes = json.loads(COTES.read_text(encoding="utf-8"))
     sortie = []
 
-    entete = f"{len(matchs)} matchs avec une issue connue et trois cotes"
-    sortie.append(entete + (f", source {args.source} uniquement." if args.source else "."))
+    entete = (f"{len(matchs)} matchs avec une issue connue et trois cotes, "
+              f"{args.type}")
+    sortie.append(entete + (f", source {args.source} uniquement." if args.source
+                            else "."))
 
     lignes = ["cote            paris   gagnés   rendement"]
     for borne, n, taux, r, marge in par_tranche(matchs):
@@ -265,7 +275,7 @@ def main() -> int:
                       f"favoris {100*rp:>5.1f}%   outsiders {100*rg:>5.1f}% ±{100*mg:.1f}")
     sortie.append(_bloc("3. PAR FAMILLE DE COMPÉTITION", lignes))
 
-    grilles = public(cotes, args.source)
+    grilles = public(cotes, args.source, types)
     if grilles:
         n = len(grilles)
         pub = sum(g["public"] for g in grilles) / n
@@ -335,9 +345,11 @@ def main() -> int:
             "  joueur moyen touche 75 %. Au-dessus, la stratégie bat la foule ;",
             "  au-dessus de 100 %, elle gagne de l'argent.",
         ]
-        lignes.append("")
-        lignes.append("  par type de grille :")
-        for t in ("grille7", "grille9", "grille12"):
+        # Le détail par type n'a de sens que si on en analyse plusieurs.
+        if len(types) > 1:
+            lignes.append("")
+            lignes.append("  par type de grille :")
+        for t in (types if len(types) > 1 else ()):
             sous = [g["gain_favori"] for g in mises if g["type"] == t]
             if len(sous) < 30:
                 continue

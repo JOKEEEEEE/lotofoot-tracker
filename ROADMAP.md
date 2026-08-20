@@ -212,41 +212,47 @@ sur des données qu'il n'a pas vues. Aucune information postérieure au match ne
 doit entrer dans son calcul ; c'est le piège classique, et il faut le vérifier
 explicitement.
 
-## Étape 3 — Les biais du public (le cœur du sujet)
+## Étape 3 — Les biais du public ✅ première mesure le 20 août 2026
 
-C'est l'étape pour laquelle les deux précédentes existent. Les autres sont des
-prérequis ; celle-ci est la raison d'être du projet.
+**LA GRILLE 7 ET ELLE SEULE.** Les trois types ne se jouent ni ne se paient
+pareil, et les mêler donnait un rendement moyen qui ne décrivait aucun des
+deux : 87 % pour 93 % à la grille 7 et 40 % à la grille 12. `analyser.py`
+travaille donc sur la grille 7 par défaut.
 
-**Livrable :** la réponse à la question du README initial — le public se
-trompe-t-il, et où ? — traitée sous l'angle des deux biais documentés par la
-littérature, de sorte que les résultats soient comparables à ce qui est publié
-ailleurs.
+**Le biais favori/outsider existe, et il est mesuré en argent.** Une mise
+d'1 € par tranche de cote, sur 21 246 matchs : 99-100 % de rendement entre 1,3
+et 2,5, puis 93 % vers 3,5, 84 % vers 9, et **57 % au-delà de 12**. Monotone.
+Le rendement ne demande aucune conversion en probabilité — c'est délibéré :
+répartir la marge proportionnellement fabrique à soi seul le biais qu'on
+cherche.
 
-**Comment :** comparer le nombre de gagnants observés à chaque rang avec celui
-qu'on attendrait si les mises suivaient les probabilités du modèle. L'écart est
-le biais.
+Vérifié source par source, pour écarter un artefact de mélange. Sur les seules
+cotes Winamax, même forme translatée par une marge plus lourde : 91 % sur les
+favoris, 68 % sur les outsiders. Chez Pinnacle : 100,5 % et 89,5 %. Le biais
+est plus prononcé chez l'opérateur grand public que chez le bookmaker sharp.
 
-La matière est là : 20 812 matchs cotés, et `repart` sur 2 354 grilles
-postérieures à février 2021.
+**Le public ne suit pas les favoris, il répartit.** Sur 1 132 grilles et
+17 millions de grilles jouées, il trouve 42,6 % des matchs quand un suiveur de
+cotes en trouverait 53,7 % — **onze points d'écart, stables de 2021 à 2026**.
+Il est en revanche à 1,3 point au-dessus du « probabiliste », celui qui coche
+chaque issue à hauteur de sa probabilité. C'est ce comportement-là qu'il imite.
 
-**Attention à ce que `repart` est et n'est pas.** C'est l'histogramme des
-bulletins par nombre de bons résultats — combien de grilles ont eu 0 bon, 1
-bon, … jusqu'à 7. Ce n'est PAS la répartition des mises du public issue par
-issue : on ne sait pas combien de parieurs ont coché le 1 sur tel match.
-Vérifié : la somme de `repart` égale le nombre de bulletins, et `repart[k]`
-vaut exactement le nombre de gagnants du rang « k bons » quand ce rang paie.
+**Mais prédire n'est pas gagner.** La grille des favoris, jouée 1 € à chaque
+fois, rend **93,1 %** — intervalle bootstrap 66,6 à 126,8 %. Elle bat donc
+nettement le joueur moyen, qui touche 75 % après prélèvement, sans qu'on
+puisse affirmer qu'elle soit rentable : l'intervalle traverse 100 %. Et
+**37 % du rendement vient de 1 % des grilles**. C'est une loterie à espérance
+relevée, pas une rente.
 
-Ce que ça permet quand même, et qui est beaucoup : comparer la distribution
-observée à celle qu'on attendrait si chaque parieur cochait au hasard, ou s'il
-suivait les cotes. Trois courbes sur le même graphique, et l'écart entre la
-deuxième et la troisième est la mesure du biais collectif — sans modèle.
+**Critère de fin (atteint) :** les chiffres sont là, avec leurs réserves, et
+le calcul se refait en une commande. Ce qui manque pour trancher la
+rentabilité, c'est du volume — deux à trois fois plus de grilles cotées — et
+il arrivera tout seul avec la collecte quotidienne.
 
-Ce que ça ne permet pas : dire QUEL match le public a mal jugé. Pour ça il
-faudrait la répartition par issue, que Winamax ne sert pas.
-
-**Critère de fin :** un texte qui tient en deux pages, avec ses chiffres et ses
-réserves. Y compris la réserve principale : un biais mesuré n'est pas un biais
-exploitable, à cause du prélèvement.
+**La réserve principale, celle qui a failli tout emporter :** 3 092 des 5 070
+cotes Winamax étaient des marchés déjà réglés, où l'issue réalisée vaut 1,00.
+Elles donnaient un suiveur de cotes à 6,64 bons résultats sur 7. Voir
+`cote_plausible()` et le README.
 
 ## Étape 4 — Explorer
 
