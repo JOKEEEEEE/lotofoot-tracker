@@ -52,6 +52,18 @@ def capturer(grille_type: str, grille_id: int, attente_ms: int = 8000):
                              "type": reponse.request.resource_type,
                              "taille": len(corps), "corps": corps})
 
+        # LES WEBSOCKETS AUSSI. Un site de paris pousse ses cotes en continu,
+        # et rien n'oblige la grille à voyager autrement. La première version
+        # de ce script n'écoutait que les requêtes classiques : sur 50
+        # réponses, les plus grosses étaient un hymne et un jingle en MP3.
+        trames = []
+
+        def sur_websocket(ws):
+            trames.append(("ouverture", ws.url))
+            ws.on("framereceived", lambda charge: trames.append(("recu", charge)))
+            ws.on("framesent", lambda charge: trames.append(("envoye", charge)))
+
+        page.on("websocket", sur_websocket)
         page.on("response", sur_reponse)
         page.goto(url, timeout=30000, wait_until="domcontentloaded")
         page.wait_for_timeout(attente_ms)
@@ -72,7 +84,35 @@ def capturer(grille_type: str, grille_id: int, attente_ms: int = 8000):
         nav.close()
 
     print(f"\n{len(echanges)} réponse(s) enregistrée(s)")
+    ouvertures = [u for genre, u in trames if genre == "ouverture"]
+    echangees = [c for genre, c in trames if genre != "ouverture"]
+    print(f"{len(ouvertures)} websocket(s), {len(echangees)} trame(s) échangée(s)")
+    for u in ouvertures:
+        print(f"    ws : {u}")
     print(f"équipes lues à l'écran : {equipes[:6] or 'aucune'}\n")
+
+    # Les trames qui nomment les équipes de la grille sont la piste directe.
+    if equipes and echangees:
+        porteuses_ws = []
+        for i, charge in enumerate(echangees):
+            texte = charge if isinstance(charge, str) else charge.decode("utf-8", "replace")
+            trouvees = [q for q in equipes if q in texte]
+            if len(trouvees) >= 2:
+                porteuses_ws.append((i, texte, trouvees))
+        if porteuses_ws:
+            print(f"{len(porteuses_ws)} TRAME(S) WEBSOCKET CONTENANT LES ÉQUIPES :")
+            for i, texte, trouvees in porteuses_ws[:3]:
+                dest = DIAGNOSTIC / f"ws-{grille_type}-{grille_id}-{i}.txt"
+                dest.write_text(texte, encoding="utf-8")
+                print(f"    trame {i} | {len(texte)} caractères | "
+                      f"{len(trouvees)} équipe(s) -> {dest}")
+                print(f"    aperçu : {texte[:300]}")
+        else:
+            print("Aucune trame websocket ne nomme les équipes non plus.")
+            gros = sorted(echangees, key=lambda c: -len(c))[:5]
+            for c in gros:
+                texte = c if isinstance(c, str) else c.decode("utf-8", "replace")
+                print(f"    trame de {len(texte)} caractères : {texte[:160]}")
 
     porteuses = []
     for e in echanges:
@@ -100,15 +140,20 @@ def capturer(grille_type: str, grille_id: int, attente_ms: int = 8000):
                 print("    (réponse non JSON)")
     else:
         print("Aucune réponse XHR ne contient les équipes affichées.")
-        print("Les requêtes vues, par taille décroissante :")
+        print("Les requêtes vues, par taille décroissante (tous types) :")
         for e in sorted(echanges, key=lambda x: -x["taille"])[:15]:
-            if e["type"] in {"xhr", "fetch"}:
-                print(f"    {e['taille']:>8} o  {e['statut']}  {e['url'][:110]}")
+            print(f"    {e['taille']:>8} o  {e['statut']}  {e['type']:<9} {e['url'][:100]}")
 
     journal = DIAGNOSTIC / f"reseau-{grille_type}-{grille_id}.txt"
-    journal.write_text("\n".join(
-        f"{e['statut']:>4} {e['type']:<9} {e['taille']:>9} {e['url']}"
-        for e in echanges), encoding="utf-8")
+    lignes = [f"{e['statut']:>4} {e['type']:<9} {e['taille']:>9} {e['url']}"
+              for e in echanges]
+    if trames:
+        lignes.append("")
+        lignes.append(f"--- {len(trames)} événement(s) websocket ---")
+        for genre, charge in trames:
+            texte = charge if isinstance(charge, str) else str(charge)
+            lignes.append(f"{genre:<10} {len(texte):>8} {texte[:200]}")
+    journal.write_text("\n".join(lignes), encoding="utf-8")
     print(f"\nJournal complet des requêtes : {journal}")
 
 
