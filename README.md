@@ -434,6 +434,7 @@ python test_parsing.py        # fonctions pures, aucune dépendance
 python test_selecteurs.py     # sélecteurs rejoués sur une page figée
 python test_lot.py            # reprise et arrêts d'un lot, sans réseau
 python test_dates.py          # ancrage, chronologie, interpolation
+python test_ws.py             # décodage des trames websocket
 ```
 
 `test_selecteurs.py` rejoue le vrai `scrape_grille()` sur `fixture_grille.html`,
@@ -452,6 +453,57 @@ test qui ne casse jamais ne teste rien.
 **Cela ne dit rien du scraping.** Les sélecteurs CSS restent non validés, et
 aucun test ne peut les couvrir sans accès au site. Le vert ici ne vaut que
 pour l'analyse de texte.
+
+## Collecter par le websocket, pas par le DOM
+
+```bash
+python collecter_ws.py --type grille7 --recentes 10      # chaque jour
+python collecter_ws.py --from-id 4170 --to-id 1          # l'historique
+```
+
+Le scraper HTML lit ce qui est affiché. **Le websocket qui alimente la page
+transporte bien davantage**, et c'est vérifié sur deux grilles distantes de
+onze ans :
+
+| Champ | Ce que c'est |
+|---|---|
+| `poolEnd`, `matchStart` | la date exacte, à la minute |
+| `competitorId` | `sr:competitor:2817` — un identifiant **Sportradar** |
+| `netStakes`, `guaranteedAmount` | les mises collectées, le montant garanti |
+| `odds1/oddsX/odds2` | les cotes de Winamax |
+| `repart` | la répartition des grilles jouées selon leur nombre de bons résultats |
+
+`repart` est la donnée la plus précieuse : elle livre la performance
+**complète** du public — combien de parieurs ont eu 0, 1, 2… 7 bons résultats
+— là où le DOM ne donnait que le nombre de gagnants. Sur la grille 4168 :
+`[285, 2530, 5619, 5513, 2799, 780, 128, 7]`, dont la somme, 17 661, tombe
+exactement sur le nombre de mises déduit du prélèvement de 25 %. Deux chemins
+indépendants, même chiffre.
+
+### Ce qui s'efface avec le temps
+
+**Les cotes et `repart` ne sont servies que sur les grilles récentes.** La
+grille 4168 les a, la grille 100 — du 30 décembre 2015 — ne les a plus. Une
+grille par jour bascule ainsi hors de portée, définitivement. C'est la seule
+partie du projet qui court après le temps, d'où la collecte quotidienne.
+
+Le reste — dates, identifiants, scores, rapports, mises — est servi quel que
+soit l'âge de la grille. L'historique est donc entièrement re-collectable.
+
+### Pourquoi pas un workflow GitHub
+
+Winamax bloque les IP de centre de données, runners GitHub compris. La
+collecte quotidienne passe donc par `launchd`, l'ordonnanceur de macOS :
+`quotidien.sh` fait le travail, `fr.lotofoot.quotidien.plist` le déclenche à
+9 h — après le règlement des grilles de la veille.
+
+### Les deux sources se contrôlent l'une l'autre
+
+Les fichiers partent dans `data/pools/`, **à côté** de `data/grilles/` et non à
+sa place : les 4 152 grilles déjà collectées et auditées servent de témoin.
+Vérifié sur les grilles 100 et 4168 — mêmes rapports, mêmes montants, mêmes
+scores sur les sept affiches. Le nouveau collecteur dit la même chose que
+l'ancien, et davantage.
 
 ## Dater les grilles
 

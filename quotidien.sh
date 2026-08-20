@@ -1,0 +1,51 @@
+#!/bin/sh
+# Collecte quotidienne des grilles encore récentes.
+#
+# POURQUOI CHAQUE JOUR. Les cotes 1/N/2 et la répartition du public ne sont
+# servies que sur les grilles récentes : la grille 4168 les a, la grille 100
+# ne les a plus. Une grille par jour bascule ainsi hors de portée, sans
+# rattrapage possible. C'est la seule partie du projet qui court après le
+# temps.
+#
+# POURQUOI PAS GITHUB ACTIONS. Winamax bloque les IP de centre de données,
+# runners GitHub compris. Ce script tourne donc sur la machine, par launchd.
+#
+# Installation :
+#     chmod +x quotidien.sh
+#     cp fr.lotofoot.quotidien.plist ~/Library/LaunchAgents/
+#     launchctl load ~/Library/LaunchAgents/fr.lotofoot.quotidien.plist
+#
+# Vérification :
+#     launchctl list | grep lotofoot
+#     tail -20 diagnostic/quotidien.log
+
+set -e
+cd "$(dirname "$0")"
+mkdir -p diagnostic
+JOURNAL="diagnostic/quotidien.log"
+
+echo "=== $(date '+%Y-%m-%d %H:%M:%S') ===" >> "$JOURNAL"
+
+# shellcheck disable=SC1091
+. .venv/bin/activate
+
+# Dix grilles : les actives, plus celles qui viennent de se clore et dont la
+# répartition n'arrive qu'après le règlement. Redemander une grille déjà
+# collectée est voulu — c'est ainsi que `repart` se remplit quand il paraît.
+python collecter_ws.py --type grille7 --recentes 10 >> "$JOURNAL" 2>&1
+
+# Le dépôt d'abord à jour, sinon le push sera refusé et la collecte du
+# lendemain repartirait sur un dépôt divergent.
+git pull --rebase --autostash -q origin main >> "$JOURNAL" 2>&1 || {
+    echo "pull impossible, on garde la collecte en local" >> "$JOURNAL"
+    exit 0
+}
+
+git add data/pools
+if git diff --cached --quiet; then
+    echo "rien de nouveau" >> "$JOURNAL"
+    exit 0
+fi
+git commit -q -m "Collecte quotidienne $(date '+%Y-%m-%d')" >> "$JOURNAL" 2>&1
+git push -q origin main >> "$JOURNAL" 2>&1 || \
+    echo "push impossible — les données restent commitées en local" >> "$JOURNAL"

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>fr.lotofoot.quotidien</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/sh</string>
+    <!-- À ADAPTER si le dépôt n'est pas dans ta maison. -->
+    <string>/Users/matthieuchevreuil/lotofoot-tracker/quotidien.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/matthieuchevreuil/lotofoot-tracker</string>
+
+  <!-- 9 h : les grilles de la veille se règlent en soirée, leur répartition
+       est donc disponible au matin. -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>9</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+
+  <!-- Si le Mac dormait à 9 h, la tâche part au réveil plutôt que d'être
+       sautée. C'est tout l'intérêt de launchd sur un portable. -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/matthieuchevreuil/lotofoot-tracker/diagnostic/launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/matthieuchevreuil/lotofoot-tracker/diagnostic/launchd.log</string>
+</dict>
+</plist>
