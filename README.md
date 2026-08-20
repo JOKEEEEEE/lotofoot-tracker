@@ -764,6 +764,48 @@ Lu dans le sens de la lecture, le code attribue l'annulation au mauvais match
 et un `1` à une rencontre qui n'a pas eu lieu. C'est le genre d'erreur qui ne
 se voit jamais dans un total.
 
+### Deux fenêtres, et un trou de quatre ans
+
+Les cotes de Winamax ne sont pas servies partout. Relevé le 20 août 2026, sur
+les 4 175 grilles 7 :
+
+| Période | Grilles | Cotes | Répartition |
+|---|---|---|---|
+| avant le 24 septembre 2020 | 1 → 1750 | non | non |
+| **24 sept. 2020 → 3 nov. 2021** | 1751 → 2261 | **oui** | à partir de fév. 2021 |
+| 3 nov. 2021 → 17 nov. 2025 | 2262 → 3901 | non | oui |
+| **depuis le 17 novembre 2025** | 3902 → 4175 | **oui** | oui |
+
+Ce n'est donc pas la grille entière qui vieillit : la répartition du public est
+servie sans interruption depuis février 2021, pendant que les cotes du même
+enregistrement sont vides. Les deux champs sont indépendants.
+
+La fenêtre récente ressemble à une rétention glissante d'environ neuf mois —
+raison de plus pour que la collecte quotidienne tourne. Le bloc de 2020-2021,
+lui, ne s'explique pas par une rétention : c'est un vestige, probablement un
+changement de stockage en novembre 2021.
+
+`sonder_cotes.py` sert à vérifier que `odds1/oddsX/odds2` sont bien le seul
+endroit où une cote pourrait se trouver. On ne lit que trois clés d'un objet
+qui en porte peut-être trente ; tant qu'on n'a pas regardé les autres,
+« Winamax ne sert plus les cotes » reste une hypothèse.
+
+La sonde ne suppose rien du nom des champs : elle parcourt toute la trame et
+signale **tout triplet de nombres dont les inverses somment entre 1,00 et
+1,40** — la signature arithmétique d'un marché 1/N/2 avec sa marge. Un nom de
+clé peut changer, pas cette somme.
+
+    python sonder_cotes.py 4170     # témoin : une grille qui a ses cotes
+    python sonder_cotes.py 3000     # le trou : une grille qui n'en a pas
+
+Puis comparer les deux inventaires de clés. Trois issues possibles :
+
+1. **la clé existe et vaut `null`** — Winamax a vidé le champ, il n'y a rien à
+   aller chercher, et il faut une source tierce ;
+2. **la clé a disparu** — le modèle a changé, les cotes sont peut-être ailleurs
+   dans la trame, et la sonde le dira ;
+3. **un triplet inattendu apparaît** — c'est la piste, et elle vaut le détour.
+
 ## Conditions d'utilisation
 
 L'accès automatisé est probablement contraire aux CGU de Winamax. Le rythme est

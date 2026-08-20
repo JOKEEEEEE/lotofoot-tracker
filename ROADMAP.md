@@ -299,6 +299,21 @@ sont disponibles pour le vérifier.
 cohérence suppose deux rangs à 50 % — vrai pour la grille 7, faux pour les
 autres.
 
+## À vérifier chez Winamax, depuis le Mac
+
+Les cotes manquent sur 1 640 grilles — quatre ans, de novembre 2021 à novembre
+2025 — alors que la répartition du public, elle, est servie sur la même
+période. Avant d'aller acheter des cotes ailleurs, il faut savoir si Winamax
+les cache ou s'il ne les a plus.
+
+    python sonder_cotes.py 4170     # témoin
+    python sonder_cotes.py 3000     # le trou
+
+Si la clé `odds1` existe et vaut `null` sur la 3000 comme elle vaut 2,40 sur la
+4170, l'affaire est close : il faudra une source tierce pour les coupes et les
+sélections. Si elle a disparu, ou si la sonde signale un triplet ailleurs dans
+la trame, c'est une piste — et de loin la moins chère.
+
 ## Envies en attente
 
 **Catégoriser les grilles par compétition** — « grille Ligue 1 » quand les sept
