@@ -6,7 +6,8 @@ données, et qui produisait un résultat crédible mais faux.
     python test_analyse.py        (ou : pytest test_analyse.py)
 """
 
-from analyser import evaluer_grille, probabilites, rendement
+from analyser import (evaluer_grille, probabilites, rendement,
+                      retention_combine)
 
 COTES = {"1": {"cote_1": 1.5, "cote_N": 4.0, "cote_2": 7.0, "source": "x"},
          "2": {"cote_1": 3.0, "cote_N": 3.3, "cote_2": 2.5, "source": "x"}}
@@ -84,6 +85,23 @@ def test_un_rang_non_paye_rapporte_zero():
     rapports = [{"nbCorrectResults": 2, "winningsPerGrid": 50.0}]
     g = evaluer_grille(_grille(), issues, rapports=rapports, rep=[1, 0, 0], cotes=COTES)
     assert g["favori_justes"] == 0 and g["gain_favori"] == 0.0
+
+
+def test_la_marge_du_combine_se_multiplie():
+    """L'erreur naturelle : croire qu'un combiné à sept jambes coûte 12 %.
+
+    Chaque jambe subit le prélèvement, et les prélèvements se composent. À
+    12,3 % la jambe, il reste 0,877 puissance 7, soit 40 % — et non 88 %.
+    """
+    jambe = (3.42, 3.42, 3.42)               # surcote 1,140 exactement
+    assert abs(sum(1/o for o in jambe) - 1.140) < 0.001
+    une = retention_combine([jambe])
+    sept = retention_combine([jambe] * 7)
+    assert abs(une - 1 / 1.140) < 1e-6, une
+    assert abs(sept - (1 / 1.140) ** 7) < 1e-9, sept
+    assert 0.39 < sept < 0.41, sept          # 40 %, pas 88 %
+    # Un marché sans marge rendrait tout, quel que soit le nombre de jambes.
+    assert abs(retention_combine([(3.0, 3.0, 3.0)] * 7) - 1.0) < 1e-9
 
 
 if __name__ == "__main__":

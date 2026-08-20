@@ -31,6 +31,7 @@ import argparse
 import json
 import math
 import random
+from math import prod
 from collections import defaultdict
 from pathlib import Path
 
@@ -200,6 +201,18 @@ def public(cotes: dict, source: str = None, types=("grille7",)) -> list:
     return grilles
 
 
+def retention_combine(trios: list) -> float:
+    """Ce qu'un combiné rend, à partir des surcotes de ses jambes.
+
+    UNE MARGE PAR JAMBE SE MULTIPLIE. Le bookmaker prélève sur chaque match,
+    et un combiné de sept matchs subit sept fois le prélèvement : à 12,3 % la
+    jambe, il ne reste pas 88 % mais 0,877 puissance 7, soit 40 %. C'est ce
+    qui rend la comparaison avec le pari mutuel intéressante — celui-ci
+    prélève une fois, sur le pot.
+    """
+    return prod(1 / sum(1 / o for o in t) for t in trios)
+
+
 def _bloc(titre: str, lignes: list) -> str:
     return "\n".join([f"\n{titre}", "-" * len(titre)] + lignes)
 
@@ -358,6 +371,43 @@ def main() -> int:
                           f"{100*sum(sous)/len(sous):>6.1f} %   "
                           f"payées {100*paye/len(sous):.1f} %")
         sortie.append(_bloc("6. CE QUE LA GRILLE DES FAVORIS AURAIT RAPPORTÉ", lignes))
+
+    # 7. LA GRILLE CONTRE LE COMBINÉ ÉQUIVALENT. Une grille 7 n'est pas un
+    # pari simple : il faut les sept résultats. Son vrai concurrent n'est donc
+    # pas le pari à l'unité mais le combiné de sept matchs, chez le même
+    # opérateur, sur les mêmes rencontres.
+    complets = []
+    for t in types:
+        for f in sorted((DATA_POOLS / t).glob("*.json"), key=lambda f: int(f.stem)):
+            d = json.loads(f.read_text(encoding="utf-8"))
+            ms = d.get("matches", [])
+            trios = []
+            for m in ms:
+                c = cotes.get(str(m.get("match_id")))
+                if not c or (args.source and c["source"] != args.source):
+                    break
+                trios.append((c["cote_1"], c["cote_N"], c["cote_2"]))
+            else:
+                if trios:
+                    complets.append(retention_combine(trios))
+    if len(complets) >= 30:
+        complets.sort()
+        med = complets[len(complets) // 2]
+        q1, q3 = complets[len(complets) // 4], complets[3 * len(complets) // 4]
+        lignes = [
+            f"  {len(complets)} grilles dont tous les matchs sont cotés.",
+            "",
+            f"      combiné équivalent, chez le même opérateur   "
+            f"{100*med:>5.1f} %   (quartiles {100*q1:.1f} – {100*q3:.1f})",
+            f"      pari mutuel de la grille                      75.0 %",
+            "",
+            f"  La grille rend {0.75/med:.2f} fois ce que rend le combiné.",
+            "",
+            "  Une marge par jambe se multiplie : sept prélèvements de 12 %",
+            "  ne laissent pas 88 % mais 40 %. Le pari mutuel, lui, prélève",
+            "  une seule fois, sur le pot. C'est structurel, pas conjoncturel.",
+        ]
+        sortie.append(_bloc("7. LA GRILLE CONTRE LE COMBINÉ ÉQUIVALENT", lignes))
 
     texte = "\n".join(sortie)
     print(texte)
