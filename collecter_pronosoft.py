@@ -39,6 +39,7 @@ import random
 import re
 import time
 import unicodedata
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -53,6 +54,11 @@ PAUSE = (2.5, 5.0)
 LOT = 60
 PAUSE_LOT = (60.0, 120.0)
 DELAI = 40
+# Une coupure réseau n'est pas une fin de collecte. Le 21 août, une résolution
+# DNS ratée a tué le script après 88 grilles ; il avait passé vingt minutes à
+# les télécharger. On réessaie, en espaçant.
+ESSAIS = 4
+ATTENTE_ESSAI = (5, 15, 45)
 ENTETE = {"User-Agent": "lotofoot-tracker (collecte personnelle, rythme lent)"}
 
 ISSUES = ("1", "N", "2")
@@ -127,9 +133,24 @@ def analyser(html: str, produit: str, numero: int) -> dict:
 
 
 def _lire(url: str) -> str:
-    requete = urllib.request.Request(url, headers=ENTETE)
-    with urllib.request.urlopen(requete, timeout=DELAI) as reponse:
-        return reponse.read().decode("latin-1", "replace")
+    """La page, en réessayant si le réseau flanche.
+
+    Une erreur de résolution ou une connexion coupée ne dit rien de la page
+    demandée : elle dit que le réseau a hoqueté. On patiente et on repose la
+    question, plutôt que de perdre une collecte entamée.
+    """
+    for essai in range(ESSAIS):
+        try:
+            requete = urllib.request.Request(url, headers=ENTETE)
+            with urllib.request.urlopen(requete, timeout=DELAI) as reponse:
+                return reponse.read().decode("latin-1", "replace")
+        except (urllib.error.URLError, TimeoutError, OSError) as souci:
+            if essai == ESSAIS - 1:
+                raise
+            repos = ATTENTE_ESSAI[min(essai, len(ATTENTE_ESSAI) - 1)]
+            print(f"    réseau : {souci} — nouvel essai dans {repos} s")
+            time.sleep(repos)
+    return ""
 
 
 def _depart(produit: str) -> str:
@@ -175,6 +196,15 @@ def collecter(produit: str, combien: int) -> int:
         chemin = dossier / f"{cle}.json"
         if chemin.exists():
             sautees += 1
+            # LA REPRISE NE DOIT RIEN RETÉLÉCHARGER. Le lien vers la grille
+            # précédente est enregistré avec la grille : sans lui, reprendre
+            # une collecte interrompue rechargeait toutes les pages déjà en
+            # base pour retrouver son chemin.
+            connue = json.loads(chemin.read_text(encoding="utf-8"))
+            suivante = connue.get("precedente")
+            if suivante:
+                url = suivante
+                continue
             html = _lire(url)
         else:
             html = _lire(url)
@@ -184,6 +214,7 @@ def collecter(produit: str, combien: int) -> int:
                 print(f"  [{cle}] pas encore réglée — on repassera")
             elif grille.get("matchs"):
                 grille["url"] = url
+                grille["precedente"] = _precedente(html, produit, numero)
                 chemin.write_text(json.dumps(grille, ensure_ascii=False, indent=2),
                                   encoding="utf-8")
                 enregistrees += 1

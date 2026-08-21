@@ -7,6 +7,9 @@ score, les entités HTML dans les montants, et la grille pas encore jouée.
     python test_pronosoft.py        (ou : pytest test_pronosoft.py)
 """
 
+import urllib.error
+
+import collecter_pronosoft as cp
 from collecter_pronosoft import analyser
 
 def _page(res=("res", "", ""), rapports=True):
@@ -56,6 +59,53 @@ def test_une_grille_pas_encore_jouee_n_est_pas_reglee():
 
 def test_une_page_sans_tableau_ne_casse_pas():
     assert analyser("<html><body>404</body></html>", "loto-foot-7", 1) == {}
+
+
+def test_le_reseau_qui_hoquette_ne_tue_pas_la_collecte():
+    """Le 21 août, une résolution DNS ratée a tué le script après 88 grilles.
+
+    Une erreur réseau ne dit rien de la page demandée : elle dit que le
+    réseau a hoqueté. On repose la question.
+    """
+    appels = []
+
+    def faux_urlopen(requete, timeout=None):
+        appels.append(requete.full_url)
+        if len(appels) < 3:
+            raise urllib.error.URLError("nodename nor servname provided")
+        class Reponse:
+            def __enter__(self): return self
+            def __exit__(self, *a): return False
+            def read(self): return b"<html>ok</html>"
+        return Reponse()
+
+    vrais = (cp.urllib.request.urlopen, cp.time.sleep)
+    cp.urllib.request.urlopen = faux_urlopen
+    cp.time.sleep = lambda s: None
+    try:
+        assert cp._lire("https://exemple.fr/x") == "<html>ok</html>"
+        assert len(appels) == 3, appels
+    finally:
+        cp.urllib.request.urlopen, cp.time.sleep = vrais
+
+
+def test_une_panne_qui_dure_finit_par_remonter():
+    """Réessayer n'est pas s'obstiner : au bout des essais, l'erreur sort."""
+    def toujours_ko(requete, timeout=None):
+        raise urllib.error.URLError("réseau coupé")
+
+    vrais = (cp.urllib.request.urlopen, cp.time.sleep)
+    cp.urllib.request.urlopen = toujours_ko
+    cp.time.sleep = lambda s: None
+    try:
+        leve = False
+        try:
+            cp._lire("https://exemple.fr/x")
+        except urllib.error.URLError:
+            leve = True
+        assert leve, "l'erreur doit remonter après les essais"
+    finally:
+        cp.urllib.request.urlopen, cp.time.sleep = vrais
 
 
 if __name__ == "__main__":
