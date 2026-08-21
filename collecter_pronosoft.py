@@ -153,8 +153,32 @@ def _lire(url: str) -> str:
     return ""
 
 
-def _depart(produit: str) -> str:
-    """L'adresse de la grille la plus récente, d'où l'on remontera."""
+def _depart(produit: str, dossier: Path) -> str:
+    """Par où recommencer : à la suite de ce qu'on a déjà, ou tout en haut.
+
+    REPRENDRE NE VEUT PAS DIRE TOUT RELIRE. La collecte descend le temps ;
+    si des grilles sont déjà en base, la suite du travail commence sous la
+    PLUS ANCIENNE d'entre elles, et il n'y a aucune raison de repasser par
+    les autres. On lit donc une seule page — celle-là — au lieu de quatre-
+    vingt-dix.
+    """
+    connues = sorted(dossier.glob("*.json"))
+    if connues:
+        plus_ancienne = json.loads(connues[0].read_text(encoding="utf-8"))
+        suite = plus_ancienne.get("precedente")
+        if suite:
+            print(f"  reprise sous la grille {connues[0].stem} "
+                  f"({len(connues)} déjà en base)")
+            return suite
+        # Grille enregistrée par une version antérieure, qui ne notait pas son
+        # lien : une requête suffit à le retrouver.
+        url = plus_ancienne.get("url")
+        if url:
+            numero = int(re.search(r"grille-(\d+)", url).group(1))
+            print(f"  reprise sous la grille {connues[0].stem} "
+                  f"({len(connues)} déjà en base)")
+            return _precedente(_lire(url), produit, numero)
+
     html = _lire(INDEX.format(produit=produit))
     liens = re.findall(LIEN_GRILLE.format(produit=produit), html)
     if not liens:
@@ -178,7 +202,7 @@ def _precedente(html: str, produit: str, numero: int) -> str:
 def collecter(produit: str, combien: int) -> int:
     dossier = SORTIE / produit
     dossier.mkdir(parents=True, exist_ok=True)
-    url = _depart(produit)
+    url = _depart(produit, dossier)
     if not url:
         print(f"aucune grille trouvée pour {produit}")
         return 1

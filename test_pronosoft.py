@@ -7,7 +7,10 @@ score, les entités HTML dans les montants, et la grille pas encore jouée.
     python test_pronosoft.py        (ou : pytest test_pronosoft.py)
 """
 
+import json
+import tempfile
 import urllib.error
+from pathlib import Path
 
 import collecter_pronosoft as cp
 from collecter_pronosoft import analyser
@@ -106,6 +109,46 @@ def test_une_panne_qui_dure_finit_par_remonter():
         assert leve, "l'erreur doit remonter après les essais"
     finally:
         cp.urllib.request.urlopen, cp.time.sleep = vrais
+
+
+def test_la_reprise_ne_relit_pas_ce_qui_est_deja_en_base():
+    """Reprendre ne veut pas dire tout relire.
+
+    La collecte descend le temps : la suite du travail commence sous la plus
+    ancienne grille en base, et il n'y a aucune raison de repasser par les
+    quatre-vingt-neuf autres.
+    """
+    appels = []
+    vrai = cp._lire
+    cp._lire = lambda url: appels.append(url) or "<html></html>"
+    try:
+        with tempfile.TemporaryDirectory() as rep:
+            d = Path(rep)
+            for cle, prec in (("2026-0110", "/fr/…/2026-grille-109/"),
+                              ("2026-0109", "/fr/…/2026-grille-108/"),
+                              ("2023-0022", "/fr/…/2023-grille-21/")):
+                (d / f"{cle}.json").write_text(json.dumps(
+                    {"url": f"https://x/{cle}/", "precedente": prec}))
+            # La plus ancienne est 2023-0022 : c'est sous elle qu'on reprend,
+            # et sans aucune requête.
+            assert cp._depart("loto-foot-7", d) == "/fr/…/2023-grille-21/"
+            assert appels == [], appels
+    finally:
+        cp._lire = vrai
+
+
+def test_une_base_vide_repart_de_la_grille_la_plus_recente():
+    vrai = cp._lire
+    cp._lire = lambda url: ('<a href="/fr/lotosports/historiques/loto-foot-7/'
+                            '2026-2027/2026-grille-105/">x</a>'
+                            '<a href="/fr/lotosports/historiques/loto-foot-7/'
+                            '2026-2027/2026-grille-103/">y</a>')
+    try:
+        with tempfile.TemporaryDirectory() as rep:
+            depart = cp._depart("loto-foot-7", Path(rep))
+            assert depart.endswith("2026-grille-105/"), depart
+    finally:
+        cp._lire = vrai
 
 
 if __name__ == "__main__":
