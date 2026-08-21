@@ -245,6 +245,11 @@ def test_le_remplissage_par_defaut_du_public_est_ecarte():
     assert cp._triplet_de_remplissage([[40, 30, 30], [40, 30, 30]] + vraie[:2]) is None
     # Trois, en revanche, sur une grille de sept : c'en est un.
     assert cp._triplet_de_remplissage([[40, 30, 30]] * 3 + vraie[:4]) == (40, 30, 30)
+    # Mais trois sur huit ne pèsent plus assez : le seuil est une part de la
+    # grille, pas seulement un compte. Une grille 8 doit en montrer quatre.
+    huit = [[40, 30, 30]] * 3 + vraie[:5]
+    assert cp._triplet_de_remplissage(huit) is None, huit
+    assert cp._triplet_de_remplissage([[40, 30, 30]] * 4 + vraie[:4]) == (40, 30, 30)
     assert cp._triplet_de_remplissage([]) is None
 
 
