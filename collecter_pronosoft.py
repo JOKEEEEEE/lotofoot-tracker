@@ -52,6 +52,7 @@ que de l'espérer.
 
 import argparse
 import json
+from collections import Counter
 import random
 import re
 import time
@@ -79,7 +80,12 @@ ATTENTE_ESSAI = (5, 15, 45)
 ENTETE = {"User-Agent": "lotofoot-tracker (collecte personnelle, rythme lent)"}
 
 ISSUES = ("1", "N", "2")
-REPARTITION = BASE + "/fr/lotofoot/repartition/lf7/{annee}-grille-{numero}/"
+# LE BON CHEMIN, ET IL EST PROPRE À CHAQUE PRODUIT. /fr/lotofoot/repartition/
+# lf7/ ne suit que le Loto Foot 7 et sert la grille en cours dès qu'on lui
+# donne un numéro du Loto Foot 8 — c'est ce qui m'a fait conclure à tort que le
+# Loto Foot 8 n'avait pas de cotes. Celui-ci nomme le produit, et son archive
+# remonte pour les deux.
+REPARTITION = BASE + "/fr/lotosports/repartition/{produit}/{annee}-grille-{numero}/"
 # Après tant de grilles d'affilée sans cote, on considère qu'on a dépassé la
 # période où Pronosoft les publiait, et on s'arrête.
 ARRET_SANS_COTES = 8
@@ -272,17 +278,12 @@ def _depart(produit: str, dossier: Path) -> str:
     return BASE + max(liens, key=lambda x: int(x[1]))[0]
 
 
-def _repartition(cle: str) -> list:
-    """La page de répartition d'une grille, désignée par sa clé année-numéro.
-
-    Une seule série pour les deux produits : l'adresse dit « lf7 » mais la
-    grille 110 de 2026 y rend huit affiches. C'est le numéro qui décide, pas
-    le nom du chemin.
-    """
+def _repartition(produit: str, cle: str) -> list:
+    """La page de répartition d'une grille, désignée par sa clé année-numéro."""
     annee, numero = cle.split("-")
     try:
-        return analyser_repartition(
-            _lire(REPARTITION.format(annee=annee, numero=int(numero))))
+        return analyser_repartition(_lire(REPARTITION.format(
+            produit=produit, annee=annee, numero=int(numero))))
     except urllib.error.HTTPError:
         return []
 
@@ -298,6 +299,24 @@ def _precedente(html: str, produit: str, numero: int) -> str:
     # d'une autre saison est la grille précédente.
     autres = [(u, n) for u, n in liens if f"grille-{numero}/" not in u]
     return BASE + max(autres, key=lambda x: x[1])[0] if autres else ""
+
+
+# Un triplet répété sur une bonne part des affiches n'est pas une
+# coïncidence : c'est le remplissage. On exige au moins trois occurrences pour
+# ne pas confondre avec deux matchs réellement pronostiqués pareil.
+REMPLISSAGE_MINI = 3
+REMPLISSAGE_PART = 0.4
+
+
+def _triplet_de_remplissage(parts: list):
+    """Le triplet servi par défaut sur cette grille, s'il y en a un."""
+    comptes = Counter(tuple(p) for p in parts if p)
+    if not comptes:
+        return None
+    triplet, combien = comptes.most_common(1)[0]
+    if combien >= max(REMPLISSAGE_MINI, REMPLISSAGE_PART * len(parts)):
+        return triplet
+    return None
 
 
 def _mots(nom: str) -> set:
@@ -328,8 +347,8 @@ def enrichir(grille: dict, lignes: list) -> dict:
     vu puisque les deux avaient huit lignes.
 
     On exige donc que les affiches concordent, faute de quoi on ne colle rien.
-    C'est aussi ce qui protège du cas Loto Foot 8, pour lequel il n'existe
-    aucune page de répartition : la série `lf7` ne suit que le Loto Foot 7.
+    C'est aussi ce qui protège des numéros qui n'existent pas encore dans une
+    série : la page répond 200 et sert autre chose.
     """
     matchs = grille.get("matchs", [])
     if not lignes or len(lignes) != len(matchs):
@@ -354,13 +373,22 @@ def enrichir(grille: dict, lignes: list) -> dict:
         if attendu != issue:
             grille["repartition"] = "scores en désaccord avec les issues"
             return grille
-    for match, ligne in zip(grille["matchs"], lignes):
+    # LE PUBLIC N'EST PAS TOUJOURS PUBLIÉ, ET PAS FORCÉMENT POUR TOUTE LA
+    # GRILLE. Là où il manque, la page affiche 38 / 29 / 32 et 50/50 en
+    # dessous — un remplissage par défaut. Sur la grille 108 de 2026, six
+    # affiches sur huit le portent et deux sont réelles. On l'écarte donc
+    # ligne à ligne, pas grille par grille. Les COTES, elles, sont réelles
+    # dans les deux cas : 1,86 / 3,05 / 3,55 pour Boca-Paranaense.
+    remplissage = _triplet_de_remplissage([l["public"] for l in lignes])
+    for match, ligne in zip(matchs, lignes):
         match["cotes"] = ligne["cotes"]
-        match["public"] = ligne["public"]
+        part = ligne["public"]
+        match["public"] = None if (part and tuple(part) == remplissage) else part
         match["score"] = ligne["score"]
         match["debut"] = ligne["debut"]
     grille["repartition"] = "ok"
     grille["cotees"] = sum(1 for m in grille["matchs"] if m.get("cotes"))
+    grille["public_connu"] = sum(1 for m in matchs if m.get("public"))
     return grille
 
 
@@ -416,7 +444,7 @@ def collecter(produit: str, combien: int, saison_plancher: str) -> int:
                 # Grille collectée avant que le collecteur ne sache lire les
                 # cotes : on va chercher la seule page qui manque, sans
                 # retélécharger l'historique.
-                enrichir(connue, _repartition(cle))
+                enrichir(connue, _repartition(produit, cle))
                 chemin.write_text(json.dumps(connue, ensure_ascii=False, indent=2),
                                   encoding="utf-8")
                 print(f"  [{cle}] complétée — {connue.get('cotees', 0)} matchs cotés")
@@ -436,7 +464,7 @@ def collecter(produit: str, combien: int, saison_plancher: str) -> int:
             elif grille.get("matchs"):
                 grille["url"] = url
                 grille["precedente"] = _precedente(html, produit, numero)
-                enrichir(grille, _repartition(cle))
+                enrichir(grille, _repartition(produit, cle))
                 sans_cotes = 0 if grille.get("cotees") else sans_cotes + 1
                 chemin.write_text(json.dumps(grille, ensure_ascii=False, indent=2),
                                   encoding="utf-8")

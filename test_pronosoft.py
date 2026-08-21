@@ -173,10 +173,10 @@ def test_la_repartition_donne_cotes_public_date_et_score():
 def test_une_page_de_repli_ne_se_colle_pas_sur_la_mauvaise_grille():
     """Le piège qui a réellement mordu.
 
-    Un numéro hors série ne renvoie pas 404 chez Pronosoft : la page sert
-    silencieusement la grille en cours. La grille 109 du Loto Foot 8 s'est vu
-    coller les cotes de la 110, et le contrôle de longueur n'y a rien vu
-    puisque les deux avaient huit lignes.
+    Un numéro qui n'existe pas dans la série ne renvoie pas 404 chez
+    Pronosoft : la page sert silencieusement la grille en cours. Une grille
+    s'est ainsi vu coller les cotes d'une autre, et le contrôle de longueur
+    n'y a rien vu puisque les deux avaient huit lignes.
     """
     grille = {"matchs": [{"home": "Atl. Madrid", "away": "Malaga", "issue": "1"},
                          {"home": "Celtic", "away": "Lask Linz", "issue": "1"}]}
@@ -221,6 +221,47 @@ def test_la_saison_borne_la_descente():
     # Une adresse sans saison ne fait jamais arrêter : on ne devine pas.
     assert not cp.trop_ancienne("/fr/…/lf7/2026-grille-104/", "2015-2016")
     assert not cp.trop_ancienne(u("2010-2011"), "")
+
+
+def test_le_remplissage_par_defaut_du_public_est_ecarte():
+    """Là où le public n'est pas publié, la page affiche 38 / 29 / 32.
+
+    Sur la grille 108 de 2026, six affiches sur huit portent ce triplet et
+    deux sont réelles. On l'écarte donc ligne à ligne : garder les six
+    reviendrait à inventer une foule qui aurait parié pareil partout.
+    """
+    six_remplies = [[38, 29, 32]] * 4 + [[59, 20, 21], [41, 35, 23]] \
+        + [[38, 29, 32]] * 2
+    assert cp._triplet_de_remplissage(six_remplies) == (38, 29, 32)
+
+    # Une vraie répartition varie à chaque affiche.
+    vraie = [[26, 37, 37], [44, 24, 32], [35, 29, 36], [74, 14, 11],
+             [40, 32, 28], [41, 32, 28], [33, 28, 39]]
+    assert cp._triplet_de_remplissage(vraie) is None
+
+    # Deux matchs pronostiqués pareil ne font pas un remplissage, même sur
+    # une grille courte où ils pèsent la moitié des lignes.
+    assert cp._triplet_de_remplissage([[40, 30, 30], [40, 30, 30]] + vraie[:5]) is None
+    assert cp._triplet_de_remplissage([[40, 30, 30], [40, 30, 30]] + vraie[:2]) is None
+    # Trois, en revanche, sur une grille de sept : c'en est un.
+    assert cp._triplet_de_remplissage([[40, 30, 30]] * 3 + vraie[:4]) == (40, 30, 30)
+    assert cp._triplet_de_remplissage([]) is None
+
+
+def test_les_cotes_survivent_au_remplissage_du_public():
+    """Les deux champs sont indépendants : le public peut manquer là où la
+    cote est bien réelle. C'est le cas de la majorité des grilles récentes."""
+    grille = {"matchs": [{"home": f"E{i}", "away": f"A{i}", "issue": None}
+                         for i in range(4)]}
+    lignes = [{"home": f"E{i}", "away": f"A{i}", "cotes": [1.5 + i, 3.5, 4.0],
+               "public": [38.0, 29.0, 32.0], "score": None, "debut": None}
+              for i in range(4)]
+    r = cp.enrichir(grille, lignes)
+    assert r["repartition"] == "ok"
+    assert r["cotees"] == 4, r
+    assert r["public_connu"] == 0, r
+    assert all(m["public"] is None for m in r["matchs"])
+    assert r["matchs"][2]["cotes"] == [3.5, 3.5, 4.0]
 
 
 if __name__ == "__main__":
