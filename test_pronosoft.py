@@ -151,6 +151,78 @@ def test_une_base_vide_repart_de_la_grille_la_plus_recente():
         cp._lire = vrai
 
 
+REPART = """<table><tr><th>1</th><th>N</th><th>2</th></tr>
+<tr id="m1"><td><span data-date-utc="2026-08-16 13:55:00">15h55</span></td>
+<td class="match">Lens-Paris SG</td>
+<td class="cote-d"><a href="/click.php?book=Winamax">38%<span class="dev_span_1">1,96</span></a></td>
+<td class="cote-d">29%<span class="dev_span_n">3,70</span></td>
+<td class="cote-d">33%<span class="dev_span_2">3,90</span></td>
+<td class="dev_s">2-0</td></tr></table>"""
+
+
+def test_la_repartition_donne_cotes_public_date_et_score():
+    ligne = cp.analyser_repartition(REPART)[0]
+    assert ligne["home"] == "Lens" and ligne["away"] == "Paris SG"
+    assert ligne["cotes"] == [1.96, 3.70, 3.90], ligne
+    # Le piège : une expression qui traverse les cellules ramenait 38 % trois
+    # fois. Les trois parts doivent être distinctes.
+    assert ligne["public"] == [38.0, 29.0, 33.0], ligne
+    assert ligne["score"] == [2, 0] and ligne["debut"] == "2026-08-16 13:55:00"
+
+
+def test_une_page_de_repli_ne_se_colle_pas_sur_la_mauvaise_grille():
+    """Le piège qui a réellement mordu.
+
+    Un numéro hors série ne renvoie pas 404 chez Pronosoft : la page sert
+    silencieusement la grille en cours. La grille 109 du Loto Foot 8 s'est vu
+    coller les cotes de la 110, et le contrôle de longueur n'y a rien vu
+    puisque les deux avaient huit lignes.
+    """
+    grille = {"matchs": [{"home": "Atl. Madrid", "away": "Malaga", "issue": "1"},
+                         {"home": "Celtic", "away": "Lask Linz", "issue": "1"}]}
+    repli = [{"home": "Marseille", "away": "Strasbourg", "cotes": [1.68, 4.25, 4.4],
+              "public": None, "score": None, "debut": None},
+             {"home": "Sochaux", "away": "Guingamp", "cotes": [3.0, 3.2, 2.35],
+              "public": None, "score": None, "debut": None}]
+    resultat = cp.enrichir(dict(grille), repli)
+    assert resultat["repartition"].startswith("affiches différentes"), resultat
+    assert "cotes" not in resultat["matchs"][0]
+
+
+def test_les_noms_traduits_ne_font_pas_refuser_la_bonne_grille():
+    """Fribourg / Freiburg, St Trond / St.Truiden, Étoile Rouge / Crvena
+    Zvezda : trois affiches sur sept ne concordent pas, et c'est pourtant la
+    bonne grille."""
+    assert cp.meme_affiche("Atl. Madrid", "Atletico Madrid")
+    assert cp.meme_affiche("Academico Viseu", "Viseu")
+    assert cp.meme_affiche("OFI Crète", "OFI Crete")
+    assert not cp.meme_affiche("Marseille", "Atl. Madrid")
+
+
+def test_le_score_doit_concorder_avec_lissue():
+    """Un nom se traduit, un score non. C'est le contrôle qui ne ment pas."""
+    grille = {"matchs": [{"home": "Lens", "away": "Paris SG", "issue": "1"}]}
+    bonne = [{"home": "Lens", "away": "Paris SG", "cotes": [1.9, 3.5, 4.0],
+              "public": [40.0, 30.0, 30.0], "score": [2, 0], "debut": None}]
+    assert cp.enrichir(dict(grille), bonne)["repartition"] == "ok"
+
+    fausse = [dict(bonne[0], score=[0, 2])]      # le 2 a gagné, pas le 1
+    r = cp.enrichir({"matchs": [dict(grille["matchs"][0])]}, fausse)
+    assert r["repartition"] == "scores en désaccord avec les issues", r
+
+
+def test_la_saison_borne_la_descente():
+    def u(saison):
+        return f"/fr/…/loto-foot-7/{saison}/2015-grille-97/"
+    assert cp._saison(u("2015-2016")) == "2015-2016"
+    assert cp.trop_ancienne(u("2014-2015"), "2015-2016")
+    assert not cp.trop_ancienne(u("2015-2016"), "2015-2016")   # la borne est incluse
+    assert not cp.trop_ancienne(u("2020-2021"), "2015-2016")
+    # Une adresse sans saison ne fait jamais arrêter : on ne devine pas.
+    assert not cp.trop_ancienne("/fr/…/lf7/2026-grille-104/", "2015-2016")
+    assert not cp.trop_ancienne(u("2010-2011"), "")
+
+
 if __name__ == "__main__":
     echecs = 0
     for nom, fonction in sorted(globals().items()):
