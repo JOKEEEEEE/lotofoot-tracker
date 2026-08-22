@@ -33,19 +33,39 @@ def test_le_bresil_ne_devient_pas_l_italie():
     assert lisible("I1") == "Serie A" and lisible("Brazil · Serie A") == "Brazil · Serie A"
 
 
-def test_une_seule_famille_nomme_la_grille():
+def test_le_genre_tient_en_quatre_cases():
+    """Neuf genres dont deux avalaient les deux tiers n'aidaient personne.
+
+    « multi-compétition » prenait 39 % des grilles dès qu'elles mélangeaient
+    deux familles — même deux familles de championnat — et le reste se
+    saupoudrait : deux grilles en Copa Libertadores, cinq en « autre
+    championnat européen ».
+    """
     assert categoriser(Counter({"top 5": 7}), 7) == "top 5"
-    assert categoriser(Counter({"coupe d'Europe": 7}), 7) == "coupe d'Europe"
+    assert categoriser(Counter({"coupe d'Europe": 7}), 7) == "coupes"
+    assert categoriser(Counter({"Coupe du monde": 7}), 7) == "coupes"
+    assert categoriser(Counter({"deuxième division": 7}), 7) == "autres championnats"
+    assert categoriser(Counter({"autre championnat": 7}), 7) == "autres championnats"
 
 
-def test_un_seul_intrus_suffit_a_faire_une_grille_multi():
-    """Six matchs de Ligue 1 et un de Bundesliga font une grille mélangée.
+def test_une_seule_coupe_suffit_a_classer_la_grille_en_coupe():
+    """C'est le choix contraire de la version précédente, où le mélange
+    effaçait tout : une Ligue des champions au milieu de six matchs de
+    championnat se cherche par la coupe, jamais par le championnat."""
+    assert categoriser(Counter({"top 5": 6, "coupe d'Europe": 1}), 7) == "coupes"
 
-    Prendre la majorité effacerait exactement ce qu'on veut mesurer : une
-    grille panachée ne se parie pas comme une journée de championnat.
+
+def test_un_melange_de_championnats_reste_du_championnat():
+    """Six matchs de Ligue 1 et un de Ligue 2, ce sont sept matchs de
+    championnat. Les ranger sous « multi-compétition » les rendait
+    introuvables sans rien apprendre à personne.
+
+    Le « top 5 » reste exigeant, en revanche : il dit de bout en bout.
     """
     assert categoriser(Counter({"top 5": 6, "deuxième division": 1}), 7) == \
-        "multi-compétition"
+        "autres championnats"
+    assert categoriser(Counter({"top 5": 6, "autre championnat européen": 1}), 7) == \
+        "autres championnats"
 
 
 def test_trop_peu_de_matchs_nommes_ne_qualifie_rien():

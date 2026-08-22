@@ -152,19 +152,17 @@ td.issue.gagne.grosse span{background:var(--accent-voile);
 </header>
 
 <div class="filtres">
-  <select id="f-type"><option value="">Tous les types</option></select>
-  <select id="f-annee"><option value="">Toutes les années</option></select>
-  <select id="f-famille"><option value="">Toutes compétitions</option></select>
+  <span class="etiquette">Type</span>
+  <div class="segments" id="f-type" role="group" aria-label="Type de grille"></div>
   <input type="search" id="f-texte" placeholder="Chercher une équipe, un numéro…">
-  <select id="f-surprise" aria-label="Surprises">
-    <option value="">Surprises : toutes</option>
-    <option value="0">Aucune surprise</option>
-    <option value="s1">Au moins 1 surprise</option>
-    <option value="s3">Au moins 3 surprises</option>
-    <option value="g1">Au moins 1 grosse surprise</option>
-    <option value="g2">Au moins 2 grosses surprises</option>
-    <option value="g3">Au moins 3 grosses surprises</option>
-  </select>
+  <select id="f-annee"><option value="">Toutes les années</option></select>
+</div>
+<div class="filtres">
+  <span class="etiquette">Compétition</span>
+  <div class="segments" id="f-famille" role="group" aria-label="Compétition"></div>
+  <span class="etiquette">Surprises</span>
+  <div class="segments" id="f-surprise" role="group" aria-label="Surprises"></div>
+  <div class="segments seul" id="f-overlay" role="group" aria-label="Rendement"></div>
   <select id="f-groupe">
     <option value="">Sans regroupement</option>
     <option value="mois">Grouper par mois</option>
@@ -174,7 +172,6 @@ td.issue.gagne.grosse span{background:var(--accent-voile);
     <option value="grosses">Grouper par grosses surprises</option>
     <option value="surprises">Grouper par surprises</option>
   </select>
-  <label class="bascule"><input type="checkbox" id="f-overlay"> TRJ &gt; 100 %</label>
   <span class="compte" id="compte"></span>
 </div>
 
@@ -229,16 +226,50 @@ async function demarrer() {
      <span><i class="chiffres">${num(cotees)}</i>avec cotes</span>
      <span><i class="chiffres">${overlays}</i>TRJ &gt; 100 %</span>`;
 
-  remplir("f-type", [...new Set(IDX.map(g => g.type))].sort((a, b) => a - b),
-          v => `Grille ${v}`);
+  segments("f-type", [["", "Toutes"], ...[...new Set(IDX.map(g => g.type))]
+    .sort((a, b) => a - b).map(v => [String(v), `Grille ${v}`])]);
+  // Quatre familles, dans l'ordre où on les cherche. Elles viennent de la
+  // base plutôt que d'une liste écrite ici : si categoriser_grilles.py en
+  // ajoute une, elle apparaît.
+  const ORDRE = ["top 5", "autres championnats", "coupes", "indéterminée"];
+  const vues = [...new Set(IDX.map(g => g.famille).filter(Boolean))]
+    .sort((a, b) => ORDRE.indexOf(a) - ORDRE.indexOf(b));
+  segments("f-famille", [["", "Toutes"], ...vues.map(v => [v, LIBELLES[v] || v])]);
+  segments("f-surprise", [["", "Toutes"], ["0", "Aucune"], ["s1", "≥ 1"],
+                          ["g1", "≥ 1 grosse"], ["g2", "≥ 2 grosses"]]);
+  segments("f-overlay", [["1", "TRJ > 100 %"]]);
   remplir("f-annee", [...new Set(IDX.map(g => g.date.slice(0, 4)))].sort().reverse());
-  remplir("f-famille", [...new Set(IDX.map(g => g.famille).filter(Boolean))].sort());
-  for (const id of ["f-type", "f-annee", "f-famille", "f-texte", "f-overlay",
-                    "f-groupe", "f-surprise"])
+  for (const id of ["f-annee", "f-texte", "f-groupe"])
     document.getElementById(id).addEventListener("input", filtrer);
   window.addEventListener("hashchange", depuisAdresse);
   filtrer();
   depuisAdresse();
+}
+
+/* Les libellés courts des familles : le bouton doit tenir sur une ligne, le
+   nom stocké dit la vérité. */
+const LIBELLES = {"top 5": "Top 5", "autres championnats": "Autres championnats",
+                  "coupes": "Coupes", "indéterminée": "Indéterminé"};
+
+/** Un groupe de boutons exclusif. La valeur choisie vit dans `data-valeur`
+ *  du conteneur : `filtrer` la lit comme il lisait `select.value`. Recliquer
+ *  le bouton actif d'un groupe à un seul choix le désactive — c'est ce qui
+ *  rend l'interrupteur TRJ possible sans code à part. */
+function segments(id, choix) {
+  const hote = document.getElementById(id);
+  hote.dataset.valeur = "";
+  hote.innerHTML = choix.map(([v, nom]) =>
+    `<button type="button" data-v="${v}" aria-pressed="${v === ""}">${nom}</button>`).join("");
+  hote.addEventListener("click", e => {
+    const b = e.target.closest("button[data-v]");
+    if (!b) return;
+    const seul = choix.length === 1;
+    hote.dataset.valeur = (seul && hote.dataset.valeur === b.dataset.v)
+      ? "" : b.dataset.v;
+    hote.querySelectorAll("button").forEach(x =>
+      x.setAttribute("aria-pressed", String(x.dataset.v === hote.dataset.valeur)));
+    filtrer();
+  });
 }
 
 function remplir(id, valeurs, libelle = v => v) {
@@ -251,12 +282,13 @@ function remplir(id, valeurs, libelle = v => v) {
 }
 
 function filtrer() {
-  const t = document.getElementById("f-type").value;
+  const choisi = id => document.getElementById(id).dataset.valeur;
+  const t = choisi("f-type");
   const a = document.getElementById("f-annee").value;
-  const f = document.getElementById("f-famille").value;
+  const f = choisi("f-famille");
   const q = document.getElementById("f-texte").value.trim().toLowerCase();
-  const o = document.getElementById("f-overlay").checked;
-  const sp = document.getElementById("f-surprise").value;
+  const o = choisi("f-overlay");
+  const sp = choisi("f-surprise");
   FILTRÉES = IDX.filter(g =>
     (!t || String(g.type) === t) &&
     (!a || g.date.startsWith(a)) &&
@@ -307,7 +339,10 @@ function paquet(g, critere) {
     return [g.date.slice(0, 7), `${MOIS[m - 1] || "?"} ${g.date.slice(0, 4)}`];
   }
   if (critere === "annee") return [g.date.slice(0, 4), g.date.slice(0, 4)];
-  if (critere === "famille") return [g.famille || "zzz", g.famille || "indéterminée"];
+  if (critere === "famille") {
+    const f = g.famille || "indéterminée";
+    return [f, LIBELLES[f] || f];
+  }
   if (critere === "type") return [String(g.type), `Grille ${g.type}`];
   if (critere === "grosses" || critere === "surprises") {
     const n = critere === "grosses" ? g.grosses : g.surprises;

@@ -75,6 +75,27 @@ FAMILLES = [
 # grille : deux matchs sur sept ne disent pas de quoi la grille est faite.
 COUVERTURE_MINI = 0.6
 
+# LES QUATRE CASES DU GENRE DE GRILLE, ET PAS NEUF.
+#
+# La version précédente en produisait neuf, dont deux avalaient les deux tiers :
+# « multi-compétition » (39 %) dès qu'une grille mélangeait deux familles, même
+# deux familles de championnat, et « indéterminée » (28 %). Le reste se
+# saupoudrait — deux grilles en Copa Libertadores, cinq en « autre championnat
+# européen ». Une liste où l'on ne peut pas choisir n'aide personne.
+#
+# CE DÉCOUPAGE SERT À NAVIGUER, PAS À PRÉDIRE, et c'est mesuré : ramené au
+# match coté, le taux de surprise va de 44,6 % (coupes) à 48,3 % (autres
+# championnats), et les grosses surprises de 5,7 % à 6,7 %. Aucune des quatre
+# cases n'annonce un profil de grille différent. Elles servent à retrouver
+# « les grilles de Ligue des champions », pas à parier autrement.
+#
+# UNE SEULE AFFICHE DE COUPE SUFFIT À CLASSER LA GRILLE EN COUPE. C'est le
+# choix contraire de celui d'avant, où le mélange effaçait tout : une Ligue des
+# champions au milieu de six matchs de championnat se cherche par la coupe,
+# jamais par le championnat.
+COUPES = {"coupe d'Europe", "Coupe du monde", "Copa Libertadores"}
+INDETERMINEE = "indéterminée"
+
 
 def famille(competition):
     if not competition:
@@ -94,19 +115,20 @@ def competition_du_match(m: dict, index: dict, index_fq: dict, table_fq: dict):
 
 
 def categoriser(compte: Counter, nb_matchs: int) -> str:
-    """Le genre d'une grille, à partir des familles de ses matchs.
+    """Le genre d'une grille, en quatre cases : voir COUPES plus haut.
 
-    Une grille est dite d'une compétition quand TOUS ses matchs nommés en
-    relèvent — pas la majorité. Six matchs de Ligue 1 et un de Bundesliga
-    font une grille multi-compétition : c'est le mélange qui la caractérise,
-    et le noyer dans une majorité ferait disparaître ce qu'on veut mesurer.
+    L'ordre des questions est le classement lui-même. Sait-on de quoi la
+    grille est faite ? Y a-t-il une coupe dedans ? Est-ce du très haut niveau
+    de bout en bout ? Sinon c'est du championnat, quel qu'il soit.
     """
     nommes = sum(compte.values())
     if not nommes or nommes < COUVERTURE_MINI * nb_matchs:
-        return "indéterminée"
-    if len(compte) == 1:
-        return next(iter(compte))
-    return "multi-compétition"
+        return INDETERMINEE
+    if set(compte) & COUPES:
+        return "coupes"
+    if set(compte) <= {"top 5"}:
+        return "top 5"
+    return "autres championnats"
 
 
 def main() -> int:

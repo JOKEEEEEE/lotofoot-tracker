@@ -90,6 +90,29 @@ select{padding-right:2rem;background-image:linear-gradient(45deg,transparent 50%
 input[type=search]{min-width:16rem;flex:1;cursor:text}
 input[type=search]::placeholder,input[type=number]::placeholder{color:var(--sourd)}
 input[type=number]{cursor:text}
+/* ---------- segments : un choix parmi peu, en boutons ---------- */
+/* UNE LISTE DÉROULANTE CACHE SES OPTIONS. Pour trois types de grille ou
+   quatre familles de compétition, elle demande un clic pour découvrir ce
+   qu'on peut choisir, puis un second pour choisir. Des boutons montrent
+   l'éventail et l'état courant d'un coup d'œil, et coûtent un clic. La
+   liste déroulante reste là où les options se comptent par dizaines —
+   les années, les modes de regroupement. */
+.etiquette{font-size:.63rem;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--sourd);margin-right:-.15rem;
+  align-self:center}
+.etiquette:not(:first-child){margin-left:.5rem}
+.segments{display:inline-flex;gap:2px;padding:3px;border-radius:var(--r-pilule);
+  background:var(--surface);border:1px solid var(--trait);box-shadow:var(--ombre);
+  flex-wrap:wrap}
+.segments button{background:none;border:0;padding:.36rem .9rem;cursor:pointer;
+  font-size:.82rem;font-weight:600;color:var(--sourd);white-space:nowrap;
+  border-radius:var(--r-pilule);transition:background .12s,color .12s}
+.segments button[aria-pressed=true]{background:var(--accent);color:#fff}
+.segments button:hover:not([aria-pressed=true]){background:var(--carte-2);
+  color:var(--encre)}
+/* Un interrupteur seul : même mobilier, un seul bouton. */
+.segments.seul button[aria-pressed=true]{background:var(--vert)}
+
 .bascule{display:inline-flex;align-items:center;gap:.45rem;font-size:.82rem;
   font-weight:500;color:var(--sourd);cursor:pointer;padding:.5rem .95rem;
   background:var(--surface);border:1px solid var(--trait);
