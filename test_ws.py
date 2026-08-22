@@ -10,7 +10,8 @@ Winamax ne sert plus ni les cotes ni la répartition.
 
 import json
 
-from collecter_ws import composer, decoder_resultat, extraire, pool_id
+from collecter_ws import (composer, conserver_cotes, decoder_resultat, extraire,
+                          pool_id)
 
 # Le format socket.io : un préfixe numérique, puis ["m", {données}].
 def _trame(charge: dict) -> str:
@@ -395,6 +396,38 @@ def test_code_resultat_incomplet_rendu_None():
     assert decoder_resultat("000100", 2) == [{"1"}, None]
     assert decoder_resultat(None, 3) == [None, None, None]
     assert decoder_resultat("1001", 2) == [None, None]     # longueur fausse
+
+
+def test_la_collecte_quotidienne_ne_detruit_pas_les_cotes_d_avant_match():
+    """Winamax retire le marché 1/N/2 dès qu'un match est terminé.
+
+    Constaté : la grille 7 n°4175 portait Marseille-Strasbourg à 1.72 / 4.10 /
+    4.10 le 21 août, statut PREMATCH. Réécrite le 22 au matin, statut ENDED,
+    elle ne portait plus rien — et le match sortait des cotes de tout le dépôt.
+    Une cote d'avant-match relevée une fois est un fait ; son absence le
+    lendemain n'est pas une correction.
+    """
+    hier = {"collecte_le": "2026-08-21T07:00:17+00:00", "matches": [
+        {"match_id": 1, "cote_1": 1.72, "cote_N": 4.1, "cote_2": 4.1},
+        {"match_id": 2, "cote_1": 2.4, "cote_N": 3.35, "cote_2": 2.7},
+        {"match_id": 3, "cote_1": None, "cote_N": None, "cote_2": None},
+    ]}
+    aujourdhui = {"matches": [
+        {"match_id": 1, "cote_1": None, "cote_N": None, "cote_2": None},
+        # Un marché déjà réglé : l'issue réalisée vaut 1.00. Il ne doit pas
+        # davantage remplacer la cote d'avant-match que le vide ne le fait.
+        {"match_id": 2, "cote_1": 1.0, "cote_N": 250.0, "cote_2": 250.0},
+        {"match_id": 3, "cote_1": 1.9, "cote_N": 3.4, "cote_2": 3.9},
+    ]}
+    sauves = conserver_cotes(aujourdhui, hier)
+    assert sauves == 2, sauves
+    m = {x["match_id"]: x for x in aujourdhui["matches"]}
+    assert (m[1]["cote_1"], m[1]["cote_N"], m[1]["cote_2"]) == (1.72, 4.1, 4.1)
+    assert (m[2]["cote_1"], m[2]["cote_N"], m[2]["cote_2"]) == (2.4, 3.35, 2.7)
+    # Une cote neuve et plausible reste la plus récente : on ne fige rien.
+    assert (m[3]["cote_1"], m[3]["cote_N"], m[3]["cote_2"]) == (1.9, 3.4, 3.9)
+    assert "cotes_relevees_le" not in m[3]
+    assert m[1]["cotes_relevees_le"] == "2026-08-21T07:00:17+00:00"
 
 
 if __name__ == "__main__":

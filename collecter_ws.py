@@ -39,6 +39,8 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
+import dater_grilles as dg
+
 RACINE = Path(__file__).parent
 DATA_POOLS = RACINE / "data" / "pools"
 BASE_URL = "https://www.winamax.fr/paris-sportifs/grilles/{type}-{id}"
@@ -291,10 +293,49 @@ def visiter(page, trames: list, url: str, attente: int = ATTENTE_TRAME_MS,
     return 0
 
 
+def conserver_cotes(neuves: dict, anciennes: dict) -> int:
+    """Reprendre les cotes déjà relevées quand la nouvelle collecte n'en a plus.
+
+    LA COLLECTE QUOTIDIENNE DÉTRUISAIT DES COTES. Winamax cesse de publier le
+    marché 1/N/2 dès qu'un match est terminé : le fichier de la grille 7 n°4175
+    portait Marseille-Strasbourg à 1.72 / 4.10 / 4.10 le 21 août, statut
+    PREMATCH ; réécrit le 22 au matin, statut ENDED, il ne portait plus rien.
+    Une cote d'avant-match relevée une fois est un fait ; son absence le
+    lendemain n'est pas une correction, c'est un oubli du fournisseur.
+
+    On garde donc l'ancienne cote quand la nouvelle est absente ou
+    invraisemblable — un marché déjà réglé, où l'issue réalisée vaut 1.00, ne
+    remplace jamais un marché d'avant-match. Rend le nombre de matchs sauvés.
+    """
+    par_id = {m.get("match_id"): m for m in anciennes.get("matches", [])}
+    sauves = 0
+    for match in neuves.get("matches", []):
+        ancien = par_id.get(match.get("match_id"))
+        if not ancien:
+            continue
+        trio = (match.get("cote_1"), match.get("cote_N"), match.get("cote_2"))
+        avant = (ancien.get("cote_1"), ancien.get("cote_N"), ancien.get("cote_2"))
+        if dg.cote_plausible(trio) or not dg.cote_plausible(avant):
+            continue
+        match["cote_1"], match["cote_N"], match["cote_2"] = avant
+        match["cotes_relevees_le"] = ancien.get("cotes_relevees_le") \
+            or anciennes.get("collecte_le")
+        sauves += 1
+    return sauves
+
+
 def sauver(donnees: dict) -> Path:
     dossier = DATA_POOLS / donnees["grille_type"]
     dossier.mkdir(parents=True, exist_ok=True)
     chemin = dossier / f"{donnees['grille_id']}.json"
+    if chemin.exists():
+        try:
+            sauves = conserver_cotes(
+                donnees, json.loads(chemin.read_text(encoding="utf-8")))
+            if sauves:
+                print(f"    {sauves} cote(s) d'avant-match conservée(s)")
+        except (ValueError, OSError):
+            pass          # fichier illisible : la nouvelle collecte fait foi
     chemin.write_text(json.dumps(donnees, ensure_ascii=False, indent=2),
                       encoding="utf-8")
     return chemin
