@@ -1,0 +1,157 @@
+/* L'identité visuelle, partagée par les deux pages.
+ *
+ * POURQUOI UN FICHIER PLUTÔT QU'UN BLOC PAR PAGE. La consultation et
+ * l'atelier montrent les mêmes objets — une grille, une cote, un rapport — et
+ * doivent donc les montrer pareil. Dupliquer les jetons de couleur, c'était
+ * accepter qu'ils divergent au premier ajustement.
+ *
+ * LA COULEUR PORTE UNE INFORMATION, ELLE NE DÉCORE PAS. Le vert dit « gagné »,
+ * le bleu dit « sélectionné ». Les couleurs de championnat appartiennent aux
+ * championnats et n'ont rien à faire dans le mobilier.
+ */
+:root{
+  --fond:#F2F3F6; --surface:#FFFFFF; --carte-2:#FAFAFB;
+  --encre:#1B2A4A; --sourd:#5C6780; --trait:#E6E8EE;
+  --accent:#2563C9; --accent-voile:#2563C914; --accent-fort:#1E4FA8;
+  --vert:#2E7D5B; --vert-voile:#2E7D5B14;
+  --bandeau:#1B2A4A; --bandeau-2:#2A3F6B;
+  --ombre:0 1px 2px rgba(27,42,74,.05), 0 8px 24px -12px rgba(27,42,74,.10);
+  --r-carte:18px; --r-petit:12px; --r-pilule:999px;
+  --sans:"Manrope",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+}
+/* Trois états de thème : « auto » ne pose pas d'attribut et suit le système,
+   les deux autres l'imposent — d'où la même palette écrite deux fois. */
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --fond:#0C0E12; --surface:#15181F; --carte-2:#1A1E26;
+  --encre:#EDEFF3; --sourd:#8F99AD; --trait:#252A34;
+  --accent:#6FA0F0; --accent-voile:#6FA0F01F; --accent-fort:#8FB8FA;
+  --vert:#5CC49B; --vert-voile:#5CC49B1A;
+  --bandeau:#1B2432; --bandeau-2:#243043;
+  --ombre:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -14px rgba(0,0,0,.5);
+}}
+:root[data-theme=dark]{
+  --fond:#0C0E12; --surface:#15181F; --carte-2:#1A1E26;
+  --encre:#EDEFF3; --sourd:#8F99AD; --trait:#252A34;
+  --accent:#6FA0F0; --accent-voile:#6FA0F01F; --accent-fort:#8FB8FA;
+  --vert:#5CC49B; --vert-voile:#5CC49B1A;
+  --bandeau:#1B2432; --bandeau-2:#243043;
+  --ombre:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -14px rgba(0,0,0,.5);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--encre);font-family:var(--sans);
+  font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;
+  letter-spacing:-.005em}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.chiffres{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
+
+.page{max-width:1360px;margin:0 auto;padding:1.6rem 1.4rem 3rem}
+
+/* ---------- bandeau ---------- */
+header{margin-bottom:1.1rem}
+.bandeau{background:linear-gradient(115deg,var(--bandeau) 0%,var(--bandeau-2) 100%);
+  border-radius:var(--r-carte);padding:1.5rem 1.8rem;display:flex;
+  flex-wrap:wrap;align-items:center;gap:1rem 1.6rem;color:#fff;
+  box-shadow:var(--ombre);position:relative;overflow:hidden}
+/* Décoratif, donc transparent au clic : sans cela le cercle recouvre les
+   boutons de thème et les rend inutilisables. */
+.bandeau::after{content:"";position:absolute;right:-90px;top:-140px;width:340px;
+  height:340px;border-radius:50%;background:rgba(255,255,255,.045);
+  pointer-events:none}
+h1{font-weight:800;font-size:1.6rem;letter-spacing:-.03em;margin:0;line-height:1.1}
+.resume{display:flex;gap:1.4rem;flex-wrap:wrap;font-size:.8rem;
+  color:rgba(255,255,255,.62);position:relative}
+.resume i{font-style:normal;display:block;font-size:1.15rem;font-weight:700;
+  color:#fff;letter-spacing:-.02em}
+
+/* ---------- onglets et thème, deux groupes de pilules identiques ---------- */
+.pilules{display:flex;gap:2px;padding:3px;border-radius:var(--r-pilule);
+  background:rgba(255,255,255,.10);position:relative}
+.pilules>*{background:none;border:0;padding:.3rem .8rem;cursor:pointer;
+  font-size:.74rem;font-weight:600;color:rgba(255,255,255,.6);
+  text-decoration:none;white-space:nowrap;
+  border-radius:var(--r-pilule);transition:background .15s,color .15s}
+.pilules>[aria-pressed=true],.pilules>[aria-current=page]{background:#fff;
+  color:var(--bandeau)}
+.pilules>:hover:not([aria-pressed=true]):not([aria-current=page]){color:#fff}
+.onglets{margin-left:auto}
+
+/* ---------- filtres ---------- */
+.filtres{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;
+  margin-bottom:1.1rem}
+select,input[type=search],input[type=number]{font:inherit;font-size:.85rem;
+  font-weight:500;padding:.5rem .95rem;background:var(--surface);color:var(--encre);
+  border:1px solid var(--trait);border-radius:var(--r-pilule);
+  box-shadow:var(--ombre);appearance:none;cursor:pointer}
+select{padding-right:2rem;background-image:linear-gradient(45deg,transparent 50%,var(--sourd) 50%),linear-gradient(135deg,var(--sourd) 50%,transparent 50%);
+  background-position:calc(100% - 15px) 51%,calc(100% - 10px) 51%;
+  background-size:5px 5px,5px 5px;background-repeat:no-repeat}
+input[type=search]{min-width:16rem;flex:1;cursor:text}
+input[type=search]::placeholder,input[type=number]::placeholder{color:var(--sourd)}
+input[type=number]{cursor:text}
+.bascule{display:inline-flex;align-items:center;gap:.45rem;font-size:.82rem;
+  font-weight:500;color:var(--sourd);cursor:pointer;padding:.5rem .95rem;
+  background:var(--surface);border:1px solid var(--trait);
+  border-radius:var(--r-pilule);box-shadow:var(--ombre)}
+.bascule input{accent-color:var(--accent);cursor:pointer}
+.compte{margin-left:auto;font-size:.78rem;font-weight:600;color:var(--sourd);
+  padding-left:1rem}
+
+/* ---------- disposition ---------- */
+main{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);
+  gap:1.1rem;align-items:start}
+@media (max-width:960px){main{grid-template-columns:1fr}}
+.carte{background:var(--surface);border:1px solid var(--trait);
+  border-radius:var(--r-carte);box-shadow:var(--ombre);overflow:hidden}
+
+.pastille{display:inline-block;font-size:.6rem;font-weight:700;letter-spacing:.04em;
+  padding:.14rem .45rem;border-radius:var(--r-pilule);background:var(--carte-2);
+  border:1px solid var(--trait);color:var(--sourd);text-transform:uppercase}
+.pastille.sur{background:var(--vert-voile);border-color:transparent;color:var(--vert)}
+
+h2{font-weight:800;font-size:1.35rem;margin:0;letter-spacing:-.03em}
+h3{font-size:.66rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--sourd);margin:1.7rem 0 .7rem}
+.vide{color:var(--sourd);font-size:.95rem;padding:2.5rem 0;text-align:center}
+
+.tuiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));
+  gap:.6rem;margin-bottom:1.6rem}
+.tuile{background:var(--carte-2);border:1px solid var(--trait);
+  border-radius:var(--r-petit);padding:.85rem 1rem}
+.tuile .lab{font-size:.62rem;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--sourd);display:block;margin-bottom:.25rem}
+.tuile .val{font-size:1.3rem;font-weight:700;letter-spacing:-.03em;
+  font-variant-numeric:tabular-nums;display:block;line-height:1.15}
+.tuile .val.accent{color:var(--accent)}
+.tuile .val.bien{color:var(--vert)}
+.tuile .val.trop{color:var(--sourd)}
+
+/* ---------- tableaux ---------- */
+table{width:100%;border-collapse:collapse;font-size:.86rem}
+th{font-size:.6rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--sourd);text-align:right;padding:0 0 .55rem .6rem;
+  border-bottom:1px solid var(--trait);white-space:nowrap}
+th:first-child{text-align:left;padding-left:0}
+td{padding:.5rem 0 .5rem .6rem;text-align:right;border-bottom:1px solid var(--trait);
+  color:var(--sourd);white-space:nowrap;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+td:first-child{text-align:left;padding-left:0;color:var(--encre);
+  white-space:normal;font-weight:600;letter-spacing:-.01em}
+/* LE SURLIGNAGE VA SUR UN SPAN, PAS SUR LA CELLULE. Une cellule de tableau
+   porte son propre remplissage et s'étire sur toute la hauteur de la ligne :
+   le fond arrondi s'y décalait et débordait. Un span en bloc en ligne se
+   dimensionne sur son texte, donc la pastille tombe juste. */
+td.issue{width:3.4rem;font-weight:500;padding-left:.4rem}
+td.issue span{display:inline-block;min-width:2.9rem;padding:.16rem .45rem;
+  border-radius:var(--r-pilule);text-align:center}
+td.issue.gagne span{color:var(--encre);font-weight:700;background:var(--vert-voile);
+  box-shadow:inset 0 0 0 1px var(--vert)}
+td.annule{color:var(--sourd);font-weight:600;font-style:italic}
+
+.legende{font-size:.78rem;color:var(--sourd);margin:.8rem 0 0}
+footer{margin-top:1.4rem;padding:1.1rem 1.4rem;background:var(--surface);
+  border:1px solid var(--trait);border-radius:var(--r-carte);
+  font-size:.78rem;color:var(--sourd);box-shadow:var(--ombre)}
+code{font-family:ui-monospace,Menlo,monospace;font-size:.86em;color:var(--encre)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}

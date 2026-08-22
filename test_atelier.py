@@ -198,6 +198,21 @@ def test_les_bons_resultats_se_comptent_sur_les_places_identiques():
     assert r["rien"] == 0
 
 
+def test_la_cote_plausible_tranche_comme_le_python():
+    """L'atelier écarte les cotes déjà réglées comme le fait la collecte. Deux
+    implémentations d'une même règle finissent par diverger si rien ne les
+    compare : voici ce qui les compare."""
+    import dater_grilles as dg
+    cas = [[1.54, 4.3, 5.1], [250.0, 250.0, 1.0], [1.05, 12.0, 30.0],
+           [1.2, 4.0, 101.0], [1.06, 4.0, 100.0], [2.0, None, 3.0],
+           [1.0, 1.0, 1.0], [3.0, 3.0]]
+    r = js(f"""
+      const cas = {json.dumps(cas)};
+      console.log(JSON.stringify(cas.map(A.cotePlausible)));""")
+    attendu = [dg.cote_plausible(c) for c in cas]
+    assert r == attendu, list(zip(cas, r, attendu))
+
+
 if __name__ == "__main__":
     echecs = 0
     for nom, fonction in sorted(globals().items()):

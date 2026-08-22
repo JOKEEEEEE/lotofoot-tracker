@@ -23,11 +23,17 @@ import construire_site as cs
 
 RACINE = Path(__file__).parent
 PAGE = RACINE / "index.html"
+ATELIER = RACINE / "atelier.html"
+PARTAGE = RACINE / "js" / "grilles.js"
 
 
 def _fonction_js() -> str:
-    """La fonction de décodage, telle qu'elle vit dans la page."""
-    texte = PAGE.read_text(encoding="utf-8")
+    """La fonction de décodage, telle qu'elle vit dans le site.
+
+    Elle a quitté index.html pour js/grilles.js le jour où l'atelier a eu
+    besoin d'elle : un décodeur en deux exemplaires finit par en faire deux.
+    """
+    texte = PARTAGE.read_text(encoding="utf-8")
     debut = texte.index("function decoderResultat")
     fin = texte.index("\n}", debut) + 2
     return 'const ISSUES = ["1","N","2"];\n' + texte[debut:fin]
@@ -111,12 +117,19 @@ def test_les_sources_de_cotes_tiennent_en_une_lettre():
 def test_la_page_ne_charge_rien_hors_du_depot():
     """Le site ne doit servir que ce que le dépôt contient : c'est ce qui
     garantit qu'aucune donnée ignorée par git ne sera publiée."""
-    texte = PAGE.read_text(encoding="utf-8")
-    for cible in re.findall(r'fetch\(\s*[`"\']([^`"\']+)', texte):
-        assert not cible.startswith(("http://", "https://", "//")), cible
-    externes = re.findall(r'(?:src|href)="(https?://[^"]+)"', texte)
-    assert all("fonts.googleapis.com" in u or "fonts.gstatic.com" in u
-               for u in externes), externes
+    for page in (PAGE, ATELIER):
+        texte = page.read_text(encoding="utf-8")
+        for cible in re.findall(r'fetch\(\s*[`"\']([^`"\']+)', texte):
+            assert not cible.startswith(("http://", "https://", "//")), cible
+        externes = re.findall(r'(?:src|href)="(https?://[^"]+)"', texte)
+        assert all("fonts.googleapis.com" in u or "fonts.gstatic.com" in u
+                   for u in externes), (page.name, externes)
+    # Les fichiers séparés comptent autant que les pages : une dépendance
+    # externe s'y cache tout aussi bien.
+    for f in sorted((RACINE / "js").glob("*.js")) + sorted((RACINE / "css").glob("*.css")):
+        texte = f.read_text(encoding="utf-8")
+        for cible in re.findall(r'(?:fetch\(\s*|@import\s+|url\()[`"\']([^`"\']+)', texte):
+            assert not cible.startswith(("http://", "https://", "//")), (f.name, cible)
 
 
 if __name__ == "__main__":

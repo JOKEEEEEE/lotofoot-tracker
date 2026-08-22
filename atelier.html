@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atelier — Grilles Loto Foot</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='2' fill='%238A6A18'/%3E%3Cg fill='%23fff'%3E%3Crect x='3' y='3' width='3' height='2.4' rx='.5'/%3E%3Crect x='3' y='6.8' width='3' height='2.4' rx='.5' opacity='.45'/%3E%3Crect x='3' y='10.6' width='3' height='2.4' rx='.5' opacity='.45'/%3E%3Crect x='10' y='3' width='3' height='2.4' rx='.5' opacity='.45'/%3E%3Crect x='10' y='6.8' width='3' height='2.4' rx='.5'/%3E%3Crect x='10' y='10.6' width='3' height='2.4' rx='.5' opacity='.45'/%3E%3C/g%3E%3C/svg%3E">
+<meta name="description" content="Composer une grille génératrice, la filtrer, la réduire : le système à jouer, calculé dans le navigateur.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="css/commun.css">
+<script src="js/theme.js"></script>
+<script src="js/grilles.js"></script>
+<style>
+/* Ce qui n'appartient qu'à l'atelier. La palette, le bandeau, les tuiles et
+   les tableaux viennent de css/commun.css, partagé avec la consultation. */
+main{grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr)}
+.panneau{padding:1.5rem 1.6rem 1.8rem}
+.tete-panneau{display:flex;flex-wrap:wrap;align-items:baseline;gap:.7rem;
+  margin-bottom:1.1rem}
+.origine{font-size:.78rem;font-weight:600;color:var(--sourd);margin-left:auto}
+.avert{font-size:.78rem;color:var(--sourd);margin:.7rem 0 0;min-height:1.2em}
+
+/* ---------- la grille génératrice ---------- */
+.rapide{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:1rem;
+  padding-bottom:1rem;border-bottom:1px solid var(--trait)}
+.rapide small{font-size:.63rem;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--sourd);align-self:center;
+  margin-right:.35rem}
+.rapide button{background:var(--carte-2);border:1px solid var(--trait);
+  border-radius:var(--r-pilule);padding:.3rem .8rem;font-size:.78rem;
+  font-weight:700;cursor:pointer;color:var(--sourd);transition:.12s;
+  font-variant-numeric:tabular-nums}
+.rapide button:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+
+table.composer td{padding:.28rem 0 .28rem .3rem;vertical-align:middle}
+table.composer td:first-child{font-size:.84rem;line-height:1.25}
+/* LA CASE PORTE LE BOUTON, PAS LE STYLE. Poser le fond sur la cellule le
+   faisait s'étirer sur toute la hauteur de la ligne et déborder les arrondis ;
+   le bouton, lui, se dimensionne sur son contenu. */
+td.case,th.case{width:3.9rem;padding-left:.25rem;text-align:center}
+.signe{width:100%;display:flex;flex-direction:column;align-items:center;gap:1px;
+  padding:.3rem .1rem;background:var(--carte-2);border:1px solid var(--trait);
+  border-radius:var(--r-petit);cursor:pointer;transition:.12s;color:var(--sourd)}
+.signe b{font-size:.86rem;font-weight:700;line-height:1}
+.signe i{font-style:normal;font-size:.66rem;font-variant-numeric:tabular-nums;
+  opacity:.75;line-height:1}
+.signe:hover{border-color:var(--accent);color:var(--accent)}
+.signe[aria-pressed=true]{background:var(--accent);border-color:var(--accent);
+  color:#fff}
+.signe[aria-pressed=true] i{opacity:.85}
+/* Ce qui est réellement sorti, quand la grille est réglée : un liseré, pas une
+   couleur pleine — c'est un repère, pas une sélection. */
+.signe.sorti::after{content:"";position:absolute;inset:auto auto -4px 50%;
+  transform:translateX(-50%);width:14px;height:2px;border-radius:2px;
+  background:var(--vert)}
+.signe{position:relative}
+td.outils{width:6.6rem;padding-left:.5rem;white-space:nowrap}
+.mini{background:none;border:1px solid var(--trait);border-radius:var(--r-pilule);
+  padding:.18rem .42rem;font-size:.66rem;font-weight:700;cursor:pointer;
+  color:var(--sourd);margin-left:.15rem;transition:.12s}
+.mini:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* ---------- filtres ---------- */
+.reglages{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));
+  gap:.4rem .9rem}
+.reglage{display:grid;grid-template-columns:1fr 4.3rem 4.3rem;gap:.35rem;
+  align-items:center}
+.reglage label{font-size:.79rem;font-weight:500;color:var(--sourd);cursor:help;
+  border-bottom:1px dotted var(--trait);padding-bottom:1px}
+.reglage input{padding:.28rem .5rem;font-size:.78rem;text-align:center;
+  box-shadow:none;border-radius:var(--r-petit)}
+/* Les flèches d'incrément volent la moitié d'un champ de quatre caractères. */
+.reglage input::-webkit-inner-spin-button{appearance:none;margin:0}
+.reglage input{-moz-appearance:textfield}
+
+.rangee{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.rangee label{font-size:.79rem;font-weight:600;color:var(--sourd)}
+.rangee select{padding:.35rem .9rem;padding-right:1.9rem;font-size:.8rem}
+.etat{font-size:.76rem;font-weight:600;color:var(--accent);margin-left:auto}
+
+textarea{width:100%;min-height:11rem;resize:vertical;font:inherit;
+  font-family:ui-monospace,Menlo,monospace;font-size:.82rem;line-height:1.65;
+  letter-spacing:.06em;padding:.8rem 1rem;background:var(--carte-2);
+  color:var(--encre);border:1px solid var(--trait);border-radius:var(--r-petit)}
+.sorties{display:flex;gap:.4rem;margin-top:.6rem}
+.sorties button{background:var(--carte-2);border:1px solid var(--trait);
+  border-radius:var(--r-pilule);padding:.35rem .95rem;font-size:.78rem;
+  font-weight:600;cursor:pointer;color:var(--sourd);transition:.12s}
+.sorties button:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+</style>
+</head>
+<body>
+
+<div class="page">
+<header>
+  <div class="bandeau">
+    <h1>Atelier</h1>
+    <div class="resume"><span>Composer, filtrer, réduire</span></div>
+    <nav class="pilules onglets" aria-label="Sections">
+      <a href="index.html">Consulter</a>
+      <a href="atelier.html" aria-current="page">Atelier</a>
+    </nav>
+    <div class="pilules theme" role="group" aria-label="Thème">
+      <button data-theme="" aria-pressed="false">Auto</button>
+      <button data-theme="light" aria-pressed="false">Clair</button>
+      <button data-theme="dark" aria-pressed="false">Sombre</button>
+    </div>
+  </div>
+</header>
+
+<div class="filtres">
+  <select id="f-source" aria-label="Grille de départ"></select>
+  <span class="compte" id="compte"></span>
+</div>
+
+<main>
+  <section class="carte panneau">
+    <div class="tete-panneau">
+      <h2 id="titre">Grille génératrice</h2>
+      <span class="origine" id="origine"></span>
+    </div>
+    <div class="rapide" id="rapide">
+      <small>Tous les matchs</small>
+      <button type="button" data-appliquer="favori" title="Ne garder que le favori de chaque match, d'après les cotes">Cor.</button>
+      <button type="button" data-appliquer="1">1</button>
+      <button type="button" data-appliquer="N">N</button>
+      <button type="button" data-appliquer="2">2</button>
+      <button type="button" data-appliquer="1N">1N</button>
+      <button type="button" data-appliquer="12">12</button>
+      <button type="button" data-appliquer="N2">N2</button>
+      <button type="button" data-appliquer="1N2">1N2</button>
+      <button type="button" data-appliquer="" title="Tout vider">Effacer</button>
+    </div>
+    <table class="composer">
+      <thead><tr><th>Match</th><th class="case">1</th><th class="case">N</th>
+        <th class="case">2</th><th></th></tr></thead>
+      <tbody id="matchs"></tbody>
+    </table>
+    <p class="avert" id="avert-grille"></p>
+    <p class="legende" id="legende"></p>
+
+    <h3>Synthèse de votre grille</h3>
+    <div class="tuiles" id="synthese"></div>
+  </section>
+
+  <section class="carte panneau">
+    <div class="tete-panneau">
+      <h2>Filtres</h2>
+      <span class="etat" id="etat"></span>
+    </div>
+    <div class="reglages" id="reglages"></div>
+
+    <h3>Réduction</h3>
+    <div class="rangee">
+      <label for="garantie">Garantir</label>
+      <select id="garantie">
+        <option value="">Aucune réduction</option>
+        <option value="0">N — tous les bons résultats</option>
+        <option value="1" selected>N−1</option>
+        <option value="2">N−2</option>
+        <option value="3">N−3</option>
+      </select>
+      <label for="couverture">sur</label>
+      <select id="couverture">
+        <option value="1" selected>100 % des grilles</option>
+        <option value="0.99">99 %</option>
+        <option value="0.95">95 %</option>
+        <option value="0.9">90 %</option>
+        <option value="0.8">80 %</option>
+      </select>
+    </div>
+
+    <h3>Synthèse de votre jeu réduit</h3>
+    <div class="tuiles" id="synthese-jeu"></div>
+    <p class="avert" id="avert-jeu"></p>
+
+    <h3>Vos grilles</h3>
+    <textarea id="sortie" readonly aria-label="Grilles à jouer"></textarea>
+    <div class="sorties">
+      <button type="button" id="copier">Copier</button>
+      <button type="button" id="telecharger">Télécharger</button>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Trois gestes, dans cet ordre : on ouvre des doubles et des triples là où l'on
+  hésite, on écarte les grilles qui ne ressemblent pas à ce qu'on veut jouer,
+  puis on ne garde que le plus petit jeu qui garantit encore N−1 ou N−2 bons
+  résultats. <strong>Garantir N−1 sur 100 %</strong> veut dire : quel que soit
+  le résultat, si votre grille génératrice contenait le bon, au moins une
+  grille jouée aura au minimum N−1 bons résultats. La réduction est un
+  recouvrement glouton — proche du minimum, pas le minimum exact. Tout est
+  calculé dans le navigateur : rien n'est envoyé nulle part.
+</footer>
+</div>
+
+<script type="module" src="js/atelier-ui.js"></script>
+</body>
+</html>

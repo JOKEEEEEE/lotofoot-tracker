@@ -15,9 +15,27 @@ export const ISSUES = ["1", "N", "2"];
  * le navigateur s'arrête avant nous. Le compte, lui, reste exact — il se
  * calcule sans rien énumérer. */
 export const PLAFOND_ENUMERATION = 300000;
-/* La réduction compare chaque grille à toutes les autres. Au-delà, le carré
- * devient déraisonnable et il vaut mieux filtrer davantage en amont. */
-export const PLAFOND_REDUCTION = 20000;
+/* La réduction compare chaque grille à toutes les autres : le coût est en
+ * carré, et il a été mesuré plutôt que deviné. 2 187 grilles se réduisent en
+ * 0,4 s ; 6 561 en 3,8 s ; 19 683 en 37 s. Au-delà de ce plafond on refuse,
+ * parce qu'une page qui gèle une demi-minute passe pour une page cassée —
+ * et parce qu'il vaut mieux filtrer davantage en amont. */
+export const PLAFOND_REDUCTION = 8000;
+
+/* LES MÊMES BORNES QUE `dater_grilles.cote_plausible`, ET POUR LA MÊME RAISON.
+ * Une cote à 1.00 n'est pas une cote : c'est un marché déjà réglé, où le
+ * résultat est écrit. En 2021, trois mille de ces cotes prises pour des cotes
+ * d'avant-match faisaient croire à une stratégie qui devinait l'avenir. Quand
+ * l'atelier récupère les cotes du fichier d'une grille faute de mieux, il
+ * repasse par ce même filtre — et test_atelier.py vérifie que les deux
+ * versions, JavaScript et Python, tranchent pareil. */
+export const COTE_PLANCHER = 1.06;
+export const COTE_PLAFOND = 100;
+export function cotePlausible(trio) {
+  if (!Array.isArray(trio) || trio.length !== 3) return false;
+  if (trio.some(o => typeof o !== "number" || !isFinite(o))) return false;
+  return Math.min(...trio) >= COTE_PLANCHER && Math.max(...trio) <= COTE_PLAFOND;
+}
 
 export function compter(grille) {
   return grille.reduce((n, m) => n * (m.length || 1), 1);
