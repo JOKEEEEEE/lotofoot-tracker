@@ -33,13 +33,29 @@ COTES = RACINE / "data" / "cotes_matchs.json"
 
 TYPES = ("grille7", "grille9", "grille12")
 CHAMPS = ["type", "id", "date", "famille", "matchs", "cotees",
-          "mises", "garanti", "distribue", "jouees", "trj", "rapports", "affiches"]
+          "mises", "garanti", "distribue", "jouees", "trj", "rapports", "affiches",
+          "debut", "statut", "surprises", "grosses"]
+
+ISSUES = ("1", "N", "2")
+# Ce qui sépare une surprise d'une GROSSE surprise. Mesuré, pas décrété : sur
+# les 21 574 matchs cotés des grilles 7, l'issue sortie n'est pas le favori
+# une fois sur deux (47,1 %) — c'est banal. Elle paie au moins trois fois la
+# cote du favori dans 6,3 % des cas, soit un match sur seize, soit à peu près
+# une grille de sept sur deux. Un seuil plus bas ne trierait plus rien ; un
+# seuil plus haut ne laisserait presque aucune grille.
+GROSSE_SURPRISE = 3.0
 
 
 # Les sources de cotes, réduites à une lettre. Sur vingt mille matchs, écrire
 # « pinnacle_cloture » en toutes lettres pèse plus que les cotes elles-mêmes.
+#
+# QUATRE MAISONS, PAS UNE DE PLUS. Winamax, Pinnacle, Bet365 et la FDJ pour le
+# Loto Foot. Footiqo est sorti de la liste avec les 2 624 cotes qu'il portait :
+# décision du propriétaire du dépôt, qui préfère une couverture plus faible
+# mais homogène. Une cote d'une autre provenance ne se range plus sous « ? » —
+# elle ne franchit pas cette porte du tout.
 SOURCES = {"winamax": "w", "pinnacle_cloture": "p", "pinnacle": "p",
-           "footiqo_cloture": "f", "bet365_cloture": "b", "bet365": "b"}
+           "bet365_cloture": "b", "bet365": "b", "fdj": "d"}
 
 
 def cotes_compactes(cotes: dict) -> dict:
@@ -49,9 +65,46 @@ def cotes_compactes(cotes: dict) -> dict:
     triplet et une lettre de provenance, le reste — type de grille, numéro —
     étant déjà connu de celui qui affiche le match.
     """
-    return {mid: [c["cote_1"], c["cote_N"], c["cote_2"],
-                  SOURCES.get(c["source"], "?")]
-            for mid, c in cotes.items()}
+    return {mid: [c["cote_1"], c["cote_N"], c["cote_2"], SOURCES[c["source"]]]
+            for mid, c in cotes.items() if c["source"] in SOURCES}
+
+
+def surprises(matchs, issues, cotes):
+    """Combien de fois le marché s'est trompé sur cette grille, et lourdement.
+
+    UNE SURPRISE SE MESURE CONTRE LES COTES, PAS CONTRE L'INTUITION. Le favori
+    d'un match est l'issue la moins chère ; une surprise, c'est autre chose qui
+    sort. Une grosse surprise, c'est une issue qui paie au moins
+    GROSSE_SURPRISE fois la cote du favori — un rapport, pas une cote absolue,
+    parce qu'un 4.00 dans un match serré et un 4.00 face à un archi-favori ne
+    racontent pas la même histoire.
+
+    UN MATCH ANNULÉ N'EST PAS UNE SURPRISE. Ses trois issues sont gagnantes :
+    il ne dit rien du marché et ne compte ni au numérateur ni au dénominateur.
+
+    Rend (surprises, grosses). Sans résultat ou sans aucune cote, (None, None) :
+    on ne compte pas une absence comme un zéro.
+    """
+    vus = petites = grosses = 0
+    for m, iss in zip(matchs, issues):
+        if not iss:
+            return None, None          # grille non réglée : rien à mesurer
+        if len(iss) == 3:
+            continue                   # annulé
+        trio = cotes.get(str(m.get("match_id")))
+        if not trio:
+            continue
+        v = [trio["cote_1"], trio["cote_N"], trio["cote_2"]]
+        # decoder_resultat rend des ENSEMBLES, pas des listes : hors du cas
+        # annulé il n'y en a qu'un, et c'est celui-là qu'on lit.
+        sortie = v[ISSUES.index(next(iter(iss)))]
+        favori = min(v)
+        vus += 1
+        if sortie > favori:
+            petites += 1
+            if sortie >= GROSSE_SURPRISE * favori:
+                grosses += 1
+    return (petites, grosses) if vus else (None, None)
 
 
 def _trj(distribue, jouees):
@@ -80,6 +133,9 @@ def construire() -> dict:
             rep = d.get("repartition")
             jouees = sum(rep) if rep else None
             info = competitions.get(t, {}).get(str(d["grille_id"]), {})
+            issues = cw.decoder_resultat(d.get("resultat_code"), len(ms))
+            surp, gros = surprises(ms, issues, cotes)
+            debuts = sorted(m["debut"] for m in ms if m.get("debut"))
             rapports = [[r.get("nbCorrectResults"), r.get("winningGrids"),
                          r.get("winningsPerGrid")]
                         for r in (d.get("rapports") or [])]
@@ -99,6 +155,12 @@ def construire() -> dict:
                 # Les affiches en une chaîne : c'est ce qui rend la recherche
                 # par équipe possible sans ouvrir 4 600 fichiers.
                 " · ".join(f"{m.get('home','?')}-{m.get('away','?')}" for m in ms),
+                # Le coup d'envoi du PREMIER match : c'est lui qui décide
+                # qu'une grille est encore travaillable, pas la fin.
+                debuts[0] if debuts else None,
+                d.get("statut"),
+                surp,
+                gros,
             ])
     return {"champs": CHAMPS, "grilles": lignes}
 

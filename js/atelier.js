@@ -110,17 +110,6 @@ export function suitesDistinctes(g, taille) {
   return vues.size;
 }
 
-/** Le produit des cotes de la grille : ce que rapporterait un euro si elle sort. */
-export function produitCotes(g, cotes) {
-  let p = 1;
-  for (let i = 0; i < g.length; i++) {
-    const trio = cotes[i];
-    if (!trio || !trio[g[i]]) return null;   // une cote manquante ne vaut pas 1
-    p *= trio[g[i]];
-  }
-  return p;
-}
-
 /* --- les filtres ---------------------------------------------------------- */
 
 const DANS = (v, borne) => v >= (borne.min ?? -Infinity) && v <= (borne.max ?? Infinity);
@@ -130,7 +119,7 @@ const DANS = (v, borne) => v >= (borne.min ?? -Infinity) && v <= (borne.max ?? I
  * facultative, et une entrée absente ne filtre rien — c'est ce qui permet
  * d'ajouter un critère sans toucher aux autres.
  */
-export function retenue(g, regles = {}, cotes = null) {
+export function retenue(g, regles = {}) {
   const c = compteSignes(g);
   for (const [k, i] of [["un", 0], ["nul", 1], ["deux", 2]])
     if (regles[k] && !DANS(c[i], regles[k])) return false;
@@ -141,11 +130,18 @@ export function retenue(g, regles = {}, cotes = null) {
   if (regles.diagonales && !DANS(diagonales(g), regles.diagonales)) return false;
   for (const [k, t] of [["paires", 2], ["tierces", 3], ["quartes", 4]])
     if (regles[k] && !DANS(suitesDistinctes(g, t), regles[k])) return false;
-  if (regles.cote && cotes) {
-    const p = produitCotes(g, cotes);
-    // Sans cote complète, on ne peut ni retenir ni écarter sur ce critère :
-    // on laisse passer plutôt que d'exclure sur une donnée manquante.
-    if (p !== null && !DANS(p, regles.cote)) return false;
+  /* UN GROUPE EST UN SOUS-ENSEMBLE DE MATCHS AVEC SES PROPRES BORNES.
+   * « Sur ces trois matchs où j'ai couvert le favori d'un nul, j'en attends au
+   * plus deux » ne se dit pas autrement : la borne porte sur le groupe, pas
+   * sur la grille. Un maximum de deux nuls sur la grille entière laisserait
+   * passer les trois nuls groupés, et écarterait des grilles saines ailleurs.
+   * Les groupes peuvent se chevaucher — chacun est vérifié pour lui-même. */
+  for (const gr of regles.groupes || []) {
+    if (!gr.matchs || !gr.matchs.length) continue;
+    const cg = [0, 0, 0];
+    for (const j of gr.matchs) if (g[j] != null) cg[g[j]]++;
+    for (const [k, i] of [["un", 0], ["nul", 1], ["deux", 2]])
+      if (gr[k] && !DANS(cg[i], gr[k])) return false;
   }
   if (regles.combinaisons && regles.combinaisons.length) {
     const signature = c.join("-");
@@ -154,8 +150,8 @@ export function retenue(g, regles = {}, cotes = null) {
   return true;
 }
 
-export function filtrer(grilles, regles = {}, cotes = null) {
-  return grilles.filter(g => retenue(g, regles, cotes));
+export function filtrer(grilles, regles = {}) {
+  return grilles.filter(g => retenue(g, regles));
 }
 
 /* --- la réduction --------------------------------------------------------- */

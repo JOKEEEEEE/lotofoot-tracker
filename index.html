@@ -20,18 +20,37 @@
 /* ---------- liste ---------- */
 .liste{max-height:calc(100vh - 13rem);overflow-y:auto;overscroll-behavior:contain}
 @media (max-width:960px){.liste{max-height:24rem}}
-.entete-liste{display:grid;grid-template-columns:4.8rem 4.4rem 1fr 1fr 2.9rem;
+.entete-liste{display:grid;grid-template-columns:4.8rem 4.4rem 1fr 1fr 4.4rem;
   gap:.6rem;padding:.85rem 1.2rem;position:sticky;top:0;z-index:1;
   background:var(--surface);border-bottom:1px solid var(--trait);
   font-size:.63rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
   color:var(--sourd)}
 .entete-liste span:nth-child(n+3){text-align:right}
-.groupe{position:sticky;top:2.45rem;z-index:1;display:flex;align-items:baseline;
-  gap:.6rem;padding:.5rem 1.2rem;background:var(--carte-2);
+/* Un entête de groupe est un BOUTON, pas un bandeau. Le regroupement ne sert
+   à rien si l'on ne peut pas replier : quatre mille grilles réparties en douze
+   mois restent quatre mille grilles à faire défiler. */
+.groupe{position:sticky;top:2.45rem;z-index:1;display:flex;align-items:center;
+  gap:.55rem;padding:.5rem 1.2rem;width:100%;text-align:left;cursor:pointer;
+  background:var(--carte-2);border:0;
   border-bottom:1px solid var(--trait);border-top:1px solid var(--trait);
-  font-size:.72rem;font-weight:700;letter-spacing:.04em;color:var(--encre)}
-.groupe b{margin-left:auto;font-weight:600;color:var(--sourd);font-size:.7rem}
-.ligne{display:grid;grid-template-columns:4.8rem 4.4rem 1fr 1fr 2.9rem;gap:.6rem;
+  font-size:.72rem;font-weight:700;letter-spacing:.04em;color:var(--encre);
+  transition:background .12s}
+.groupe:hover{background:var(--accent-voile)}
+.groupe b{margin-left:auto;font-weight:600;color:var(--sourd);font-size:.7rem;
+  font-variant-numeric:tabular-nums}
+.pouce{display:inline-flex;align-items:center;justify-content:center;
+  width:1.05rem;height:1.05rem;flex:none;border-radius:5px;
+  background:var(--surface);border:1px solid var(--trait);
+  font-size:.78rem;font-weight:700;line-height:1;color:var(--sourd)}
+.groupe[aria-expanded=true] .pouce{background:var(--accent);border-color:var(--accent);
+  color:#fff}
+.tout{background:var(--carte-2);border:1px solid var(--trait);border-radius:5px;
+  width:1.15rem;height:1.15rem;padding:0;font-size:.8rem;font-weight:700;
+  line-height:1;color:var(--sourd);cursor:pointer;float:right}
+.tout:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.reste{padding:.55rem 1.2rem;font-size:.75rem;color:var(--sourd);
+  border-bottom:1px solid var(--trait)}
+.ligne{display:grid;grid-template-columns:4.8rem 4.4rem 1fr 1fr 4.4rem;gap:.6rem;
   align-items:center;padding:.62rem 1.2rem;border:0;border-bottom:1px solid var(--trait);
   cursor:pointer;background:none;width:100%;text-align:left;font-size:.85rem;
   transition:background .12s}
@@ -44,7 +63,20 @@
 .ligne .eur{text-align:right;font-size:.82rem;color:var(--sourd);
   font-variant-numeric:tabular-nums}
 .ligne .eur.fort{color:var(--encre);font-weight:600}
-.ligne .marque{text-align:right}
+.ligne .marque{text-align:right;display:flex;justify-content:flex-end;
+  align-items:center;gap:.25rem}
+/* Un point par grosse surprise. Le compte de surprises tout court ne mérite
+   pas de place : neuf grilles sur dix en portent au moins une. */
+.chocs{font-size:.52rem;letter-spacing:.06em;color:var(--accent);line-height:1}
+
+/* Ce qui a gagné contre les cotes se distingue de ce qui a gagné comme prévu :
+   c'est là que se fabriquent les rapports. */
+td.issue.gagne.surprise span{box-shadow:inset 0 0 0 1px var(--accent)}
+td.issue.gagne.grosse span{background:var(--accent-voile);
+  box-shadow:inset 0 0 0 2px var(--accent);color:var(--accent-fort);
+  font-weight:700}
+.pastille-surprise{background:var(--accent-voile)!important;
+  border-color:transparent!important;color:var(--accent)!important}
 
 /* ---------- détail ---------- */
 .detail{padding:1.5rem 1.6rem 1.8rem;max-height:calc(100vh - 13rem);
@@ -114,12 +146,23 @@
   <select id="f-annee"><option value="">Toutes les années</option></select>
   <select id="f-famille"><option value="">Toutes compétitions</option></select>
   <input type="search" id="f-texte" placeholder="Chercher une équipe, un numéro…">
+  <select id="f-surprise" aria-label="Surprises">
+    <option value="">Surprises : toutes</option>
+    <option value="0">Aucune surprise</option>
+    <option value="s1">Au moins 1 surprise</option>
+    <option value="s3">Au moins 3 surprises</option>
+    <option value="g1">Au moins 1 grosse surprise</option>
+    <option value="g2">Au moins 2 grosses surprises</option>
+    <option value="g3">Au moins 3 grosses surprises</option>
+  </select>
   <select id="f-groupe">
     <option value="">Sans regroupement</option>
     <option value="mois">Grouper par mois</option>
     <option value="annee">Grouper par année</option>
     <option value="famille">Grouper par compétition</option>
     <option value="type">Grouper par type de grille</option>
+    <option value="grosses">Grouper par grosses surprises</option>
+    <option value="surprises">Grouper par surprises</option>
   </select>
   <label class="bascule"><input type="checkbox" id="f-overlay"> TRJ &gt; 100 %</label>
   <span class="compte" id="compte"></span>
@@ -135,17 +178,30 @@
 <footer>
   Données collectées depuis Winamax. Les résultats sont lus dans
   <code>strPoolResult</code>, qui s'écrit à l'envers. Les cotes viennent de
-  Winamax, Pinnacle, Bet365 ou Footiqo selon la disponibilité —
-  <span class="pastille">w</span> <span class="pastille">p</span>
-  <span class="pastille">b</span> <span class="pastille">f</span> dans le tableau
-  des affiches. Le TRJ est le montant distribué rapporté aux mises brutes,
-  à 1 € la grille.
+  quatre maisons et de quatre seulement —
+  <img src="img/winamax.svg" width="15" height="15" alt=""> Winamax,
+  <img src="img/pinnacle.svg" width="15" height="15" alt=""> Pinnacle,
+  <img src="img/bet365.svg" width="15" height="15" alt=""> Bet365 et
+  <img src="img/fdj.svg" width="15" height="15" alt=""> la FDJ pour le Loto
+  Foot : le logo de la dernière colonne dit laquelle. Une cote d'une autre
+  provenance n'est plus publiée du tout. Le TRJ est le montant distribué
+  rapporté aux mises brutes, à 1 € la grille.
 </footer>
 </div>
 
 <script>
 
 let IDX = null, COTES = {}, FILTRÉES = [], COURANTE = null;
+/* Le même seuil que construire_site.GROSSE_SURPRISE, et pour la même raison :
+   sur 21 574 matchs cotés, l'issue sortie n'est pas le favori une fois sur
+   deux — c'est banal ; elle paie trois fois la cote du favori dans 6,3 % des
+   cas. C'est ce dernier événement qui fabrique les rapports. */
+const GROSSE_SURPRISE = 3;
+const legendeSurprise = (surp, gros) =>
+  `${surp} match${surp > 1 ? "s" : ""} gagné${surp > 1 ? "s" : ""} par autre chose ` +
+  `que le favori aux cotes` +
+  (gros ? `, dont ${gros} à au moins ${GROSSE_SURPRISE}× la cote du favori.`
+        : ` — aucun à ${GROSSE_SURPRISE}× la cote du favori.`);
 
 async function demarrer() {
   const [idx, cotes] = await Promise.all([
@@ -167,7 +223,8 @@ async function demarrer() {
           v => `Grille ${v}`);
   remplir("f-annee", [...new Set(IDX.map(g => g.date.slice(0, 4)))].sort().reverse());
   remplir("f-famille", [...new Set(IDX.map(g => g.famille).filter(Boolean))].sort());
-  for (const id of ["f-type", "f-annee", "f-famille", "f-texte", "f-overlay", "f-groupe"])
+  for (const id of ["f-type", "f-annee", "f-famille", "f-texte", "f-overlay",
+                    "f-groupe", "f-surprise"])
     document.getElementById(id).addEventListener("input", filtrer);
   window.addEventListener("hashchange", depuisAdresse);
   filtrer();
@@ -189,27 +246,51 @@ function filtrer() {
   const f = document.getElementById("f-famille").value;
   const q = document.getElementById("f-texte").value.trim().toLowerCase();
   const o = document.getElementById("f-overlay").checked;
+  const sp = document.getElementById("f-surprise").value;
   FILTRÉES = IDX.filter(g =>
     (!t || String(g.type) === t) &&
     (!a || g.date.startsWith(a)) &&
     (!f || g.famille === f) &&
     (!o || g.trj > 1) &&
+    retientSurprise(g, sp) &&
     (!q || g.affiches.toLowerCase().includes(q) || String(g.id) === q));
+  FILTRÉES.sort((x, y) => y.date.localeCompare(x.date) || y.id - x.id);
+
   const critere = document.getElementById("f-groupe").value;
-  // TRIER PAR PAQUET D'ABORD. Sans cela un même mois réapparaîtrait plusieurs
-  // fois dans la liste, chaque fois qu'une grille d'un autre mois s'intercale.
-  FILTRÉES.sort((x, y) =>
-    (critere ? paquet(y, critere)[0].localeCompare(paquet(x, critere)[0]) : 0) ||
-    y.date.localeCompare(x.date) || y.id - x.id);
+  if (critere !== CRITERE_VU) { DEPLIES = new Set(); CRITERE_VU = critere; }
+  PAQUETS = grouper(FILTRÉES, critere);
+  // À l'ouverture d'un regroupement, un paquet est déplié — celui qui porte
+  // la grille en cours, à défaut le premier. Tout replié, la liste aurait
+  // l'air vide ; tout déplié, le regroupement ne servirait à rien.
+  if (PAQUETS && !DEPLIES.size) {
+    const porteuse = PAQUETS.find(p =>
+      p.grilles.some(g => `${g.type}/${g.id}` === COURANTE));
+    DEPLIES.add((porteuse || PAQUETS[0]).cle);
+  }
   dessinerListe();
 }
 
+/** Les grilles non mesurables — pas de résultat, pas de cote — ne sont ni
+ *  « avec surprise » ni « sans » : elles sortent dès qu'on trie là-dessus. */
+function retientSurprise(g, regle) {
+  if (!regle) return true;
+  if (g.surprises == null) return false;
+  if (regle === "0") return g.surprises === 0;
+  if (regle[0] === "s") return g.surprises >= Number(regle.slice(1));
+  return g.grosses >= Number(regle.slice(1));
+}
+
 const PLAFOND = 400;
+const PLAFOND_PAQUET = 200;
 const MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
               "août", "septembre", "octobre", "novembre", "décembre"];
+let PAQUETS = null, DEPLIES = new Set(), CRITERE_VU = null;
 
-/* De quel paquet relève une grille. Rend une chaîne triable et son libellé :
-   « 2026-08 » se range correctement là où « août 2026 » se rangerait sous a. */
+const pluriel = (n, mot) => `${n} ${mot}${n > 1 ? "s" : ""}`;
+
+/* De quel paquet relève une grille. Rend une clé triable et un libellé :
+   « 2026-08 » se range correctement là où « août 2026 » se rangerait sous a,
+   et « 03 » là où « 3 » passerait après « 12 ». */
 function paquet(g, critere) {
   if (critere === "mois") {
     const m = Number(g.date.slice(5, 7));
@@ -218,44 +299,101 @@ function paquet(g, critere) {
   if (critere === "annee") return [g.date.slice(0, 4), g.date.slice(0, 4)];
   if (critere === "famille") return [g.famille || "zzz", g.famille || "indéterminée"];
   if (critere === "type") return [String(g.type), `Grille ${g.type}`];
+  if (critere === "grosses" || critere === "surprises") {
+    const n = critere === "grosses" ? g.grosses : g.surprises;
+    const [un, des] = critere === "grosses"
+      ? ["grosse surprise", "grosses surprises"] : ["surprise", "surprises"];
+    // Le troisième élément range ce paquet en fin de liste : une grille non
+    // réglée ou sans cote n'a pas « zéro surprise », elle n'en a pas.
+    if (n == null) return ["", "non mesurable", true];
+    return [String(n).padStart(2, "0"),
+            n === 0 ? `aucune ${un}` : n === 1 ? `1 ${un}` : `${n} ${des}`];
+  }
   return ["", ""];
 }
+
+function grouper(grilles, critere) {
+  if (!critere) return null;
+  const par = new Map();
+  for (const g of grilles) {
+    const [cle, libelle, fin] = paquet(g, critere);
+    if (!par.has(cle)) par.set(cle, {cle, libelle, fin: !!fin, grilles: []});
+    par.get(cle).grilles.push(g);
+  }
+  // Les dates et les comptes de surprises se lisent du plus récent, du plus
+  // fourni en surprises ; les compétitions et les types, du paquet le plus
+  // gros au plus petit — un paquet d'une grille en tête ne renseigne personne.
+  const parCle = critere !== "famille" && critere !== "type";
+  return [...par.values()].sort((x, y) => (x.fin - y.fin) || (parCle
+    ? y.cle.localeCompare(x.cle)
+    : (y.grilles.length - x.grilles.length) || y.cle.localeCompare(x.cle)));
+}
+
 function dessinerListe() {
   const el = document.getElementById("liste");
-  const montrees = FILTRÉES.slice(0, PLAFOND);
   document.getElementById("compte").textContent =
     `${num(FILTRÉES.length)} grille${FILTRÉES.length > 1 ? "s" : ""}` +
-    (FILTRÉES.length > PLAFOND ? ` — ${PLAFOND} affichées` : "");
-  const critere = document.getElementById("f-groupe").value;
+    (PAQUETS ? ` en ${pluriel(PAQUETS.length, "groupe")}`
+             : FILTRÉES.length > PLAFOND ? ` — ${PLAFOND} affichées` : "");
+  const tout = PAQUETS && DEPLIES.size < PAQUETS.length;
   const entete = `<div class="entete-liste"><span>Grille</span><span>Date</span>
-    <span>Garanti</span><span>Distribué</span><span></span></div>`;
-  let paquetCourant = null;
-  el.innerHTML = entete + (montrees.map(g => {
-    let bandeau = "";
-    if (critere) {
-      const [cle, libelle] = paquet(g, critere);
-      if (cle !== paquetCourant) {
-        paquetCourant = cle;
-        const combien = FILTRÉES.filter(x => paquet(x, critere)[0] === cle).length;
-        bandeau = `<div class="groupe">${libelle}<b>${num(combien)} grille${
-          combien > 1 ? "s" : ""}</b></div>`;
-      }
-    }
-    // Le distribué prend l'accent quand il dépasse la garantie : c'est le
-    // signe que le pot s'est rempli tout seul, et l'inverse est plus rare.
-    const comble = g.distribue != null && g.garanti != null
-      && g.distribue > g.garanti + 0.5;
-    return bandeau + `<button class="ligne" data-cle="${g.type}/${g.id}"
-      aria-current="${COURANTE === `${g.type}/${g.id}`}">
-      <span class="num">${g.type}·${g.id}</span>
-      <span class="date">${jjmmaa(g.date)}</span>
-      <span class="eur">${eur(g.garanti, 0)}</span>
-      <span class="eur${comble ? " fort" : ""}">${eur(g.distribue, 0)}</span>
-      <span class="marque">${g.trj > 1 ? '<span class="pastille sur">TRJ+</span>' : ""}</span>
-    </button>`;
-  }).join("") || `<p class="vide" style="padding:1.5rem">Aucune grille.</p>`);
+    <span>Garanti</span><span>Distribué</span>
+    <span>${PAQUETS ? `<button class="tout" data-tout="${tout ? 1 : 0}"
+      title="${tout ? "Déplier tous les groupes" : "Replier tous les groupes"}"
+      >${tout ? "+" : "−"}</button>` : ""}</span></div>`;
+
+  let corps;
+  if (!PAQUETS) {
+    corps = FILTRÉES.slice(0, PLAFOND).map(ligne).join("");
+  } else {
+    corps = PAQUETS.map(p => {
+      const ouvert = DEPLIES.has(p.cle);
+      const entete = `<button class="groupe" data-paquet="${p.cle}"
+        aria-expanded="${ouvert}"><span class="pouce">${ouvert ? "−" : "+"}</span>
+        ${p.libelle}<b>${num(p.grilles.length)}</b></button>`;
+      if (!ouvert) return entete;
+      const reste = p.grilles.length - PLAFOND_PAQUET;
+      return entete + p.grilles.slice(0, PLAFOND_PAQUET).map(ligne).join("") +
+        (reste > 0 ? `<div class="reste">… ${num(reste)} autres dans ce groupe —
+          resserrez les filtres pour les voir</div>` : "");
+    }).join("");
+  }
+  el.innerHTML = entete + (corps ||
+    `<p class="vide" style="padding:1.5rem">Aucune grille.</p>`);
+
   el.querySelectorAll(".ligne").forEach(b =>
     b.addEventListener("click", () => { location.hash = b.dataset.cle; }));
+  el.querySelectorAll(".groupe").forEach(b => b.addEventListener("click", () => {
+    const c = b.dataset.paquet;
+    DEPLIES.has(c) ? DEPLIES.delete(c) : DEPLIES.add(c);
+    dessinerListe();
+  }));
+  const bt = el.querySelector(".tout");
+  if (bt) bt.addEventListener("click", () => {
+    DEPLIES = bt.dataset.tout === "1" ? new Set(PAQUETS.map(p => p.cle)) : new Set();
+    dessinerListe();
+  });
+}
+
+function ligne(g) {
+  // Le distribué prend l'accent quand il dépasse la garantie : c'est le
+  // signe que le pot s'est rempli tout seul, et l'inverse est plus rare.
+  const comble = g.distribue != null && g.garanti != null
+    && g.distribue > g.garanti + 0.5;
+  // Un point par grosse surprise. Le compte de surprises tout court n'a rien
+  // à faire ici : neuf grilles sur dix en portent au moins une.
+  const chocs = g.grosses
+    ? `<span class="chocs" title="${legendeSurprise(g.surprises, g.grosses)}"
+        >${"●".repeat(Math.min(g.grosses, 3))}</span>` : "";
+  return `<button class="ligne" data-cle="${g.type}/${g.id}"
+    aria-current="${COURANTE === `${g.type}/${g.id}`}">
+    <span class="num">${g.type}·${g.id}</span>
+    <span class="date">${jjmmaa(g.date)}</span>
+    <span class="eur">${eur(g.garanti, 0)}</span>
+    <span class="eur${comble ? " fort" : ""}">${eur(g.distribue, 0)}</span>
+    <span class="marque">${chocs}${
+      g.trj > 1 ? '<span class="pastille sur">TRJ+</span>' : ""}</span>
+  </button>`;
 }
 
 function depuisAdresse() {
@@ -288,10 +426,20 @@ async function ouvrir(type, id) {
     const iss = issues[k];
     const annule = iss && iss.length === 3;
     const cote = COTES[String(m.match_id)];
+    // Un match annulé paie sur les trois issues : les trois sont gagnantes.
+    // Et parmi les gagnantes, on distingue celle que le marché n'attendait
+    // pas — c'est là que se fabriquent les rapports.
+    const favori = cote ? Math.min(cote[0], cote[1], cote[2]) : null;
     const cases = ISSUES.map((nom, j) => {
-      const gagne = iss && iss.includes(nom) && !annule;
+      const gagne = !!(iss && iss.includes(nom));
+      const surprise = gagne && !annule && cote && cote[j] > favori;
+      const grosse = surprise && cote[j] >= GROSSE_SURPRISE * favori;
       const v = cote ? cote[j].toFixed(2) : "—";
-      return `<td class="issue${gagne ? " gagne" : ""}"><span>${v}</span></td>`;
+      const titre = grosse ? `grosse surprise : ${(cote[j] / favori).toFixed(1)}× le favori`
+                  : surprise ? `surprise : ${(cote[j] / favori).toFixed(1)}× le favori` : "";
+      return `<td class="issue${gagne ? " gagne" : ""}${
+        grosse ? " grosse" : surprise ? " surprise" : ""}"${
+        titre ? ` title="${titre}"` : ""}><span>${v}</span></td>`;
     }).join("");
     const score = (m.score_home != null && m.score_away != null)
       ? `${m.score_home}-${m.score_away}` : "—";
@@ -299,8 +447,7 @@ async function ouvrir(type, id) {
       <td>${m.home ?? "?"} <span style="color:var(--sourd)">—</span> ${m.away ?? "?"}</td>
       ${cases}
       <td class="${annule ? "annule" : ""}">${annule ? "annulé" : score}</td>
-      <td>${cote ? `<span class="pastille" title="Cote ${PROVENANCES[cote[3]] || cote[3]}"
-        >${cote[3]}</span>` : ""}</td>
+      <td class="source">${logoSource(cote ? cote[3] : null)}</td>
     </tr>`;
   }).join("");
 
@@ -337,12 +484,14 @@ async function ouvrir(type, id) {
       résultats. En vert, les rangs qui ont rapporté.</p>` : "";
 
   const trj = meta.trj;
+  const surp = meta.surprises, gros = meta.grosses;
   el.innerHTML = `
     <div class="tete-detail">
       <h2>Grille ${type} n°${id}</h2>
       <div class="nav">
-        <a class="vers-atelier" href="atelier.html#${type}/${id}"
-           title="Composer un système à partir de ces affiches">Travailler cette grille</a>
+        ${meta.debut && new Date(meta.debut) > new Date() ? `<a class="vers-atelier"
+           href="atelier.html#${type}/${id}"
+           title="Composer un système à partir de ces affiches">Travailler cette grille</a>` : ""}
         <button ${i > 0 ? "" : "disabled"} data-va="${lien(FILTRÉES[i - 1])}">‹ précédente</button>
         <button ${i >= 0 && i < FILTRÉES.length - 1 ? "" : "disabled"}
           data-va="${lien(FILTRÉES[i + 1])}">suivante ›</button>
@@ -350,9 +499,13 @@ async function ouvrir(type, id) {
     </div>
     <div class="sous">
       <span>${d.fin ? jjmmaa(d.fin.slice(0, 10)) : "date inconnue"}</span>
-      ${meta.famille ? `<span>${meta.famille}</span>` : ""}
+      <span title="Famille de compétitions, déduite des affiches de la grille">compétition : ${
+        meta.famille || "indéterminée"}</span>
       <span>${ms.length} matchs</span>
-      ${d.statut ? `<span>${STATUTS[d.statut] || d.statut.toLowerCase()}</span>` : ""}</div>
+      ${d.statut ? `<span title="État de la grille chez Winamax">${
+        STATUTS[d.statut] || d.statut.toLowerCase()}</span>` : ""}
+      ${surp != null ? `<span class="pastille-surprise" title="${legendeSurprise(surp, gros)}">${
+        surp} surprise${surp > 1 ? "s" : ""}${gros ? ` · ${gros} grosse${gros > 1 ? "s" : ""}` : ""}</span>` : ""}</div>
     <div class="tuiles">
       <div class="tuile"><span class="lab">Mises brutes</span>
         <span class="val">${jouees ? num(jouees) + " €" : "—"}</span></div>
@@ -364,13 +517,22 @@ async function ouvrir(type, id) {
         <span class="val ${trj > 1 ? "bien" : trj ? "accent" : ""}">${
           trj ? (100 * trj).toFixed(1) + " %" : "—"}</span></div>
     </div>
+    <p class="legende">${trj ? `TRJ = pot distribué ÷ mises brutes, soit
+      ${eur(d.montant_distribue, 0)} ÷ ${num(jouees)} € = ${(100 * trj).toFixed(1)} %.
+      Les mises brutes sont le nombre de grilles jouées, l'unité étant de 1 € —
+      c'est la somme des rangs de la répartition, pas un chiffre annoncé par
+      Winamax. Au-dessus de 100 %, la maison a distribué plus qu'elle n'a
+      encaissé : c'est la garantie qui a mordu.`
+      : `TRJ non calculable : il faudrait connaître le pot distribué et le
+      nombre de grilles jouées, et l'un des deux manque ici.`}</p>
     <h3>Les affiches</h3>
     <table><thead><tr><th>Match</th><th>1</th><th>N</th><th>2</th>
       <th>Score</th><th title="Provenance de la cote">Cote</th></tr></thead>
       <tbody>${affiches}</tbody></table>
     <p class="legende">Cotes : ${[...new Set(ms.map(m =>
       (COTES[String(m.match_id)] || [])[3]).filter(Boolean))]
-      .map(c => PROVENANCES[c] || c).join(", ") || "aucune"}.</p>
+      .map(c => `${logoSource(c, 14)} ${PROVENANCES[c].nom}`).join(" · ")
+      || "aucune"}.</p>
     ${rangs ? `<h3>Rapports</h3><table><thead><tr><th>Rang</th>
       <th>Gagnants</th><th>Part des grilles</th><th>Par grille</th></tr></thead>
       <tbody>${rangs}</tbody></table>` : ""}

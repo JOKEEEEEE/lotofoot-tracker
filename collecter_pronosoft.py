@@ -23,9 +23,10 @@ y rend huit affiches. La numérotation est globale, et c'est elle qui décide.
 
 LES COTES N'EXISTENT PAS AVANT MARS 2015. Vérifié : la grille 40 de 2015 n'en
 a aucune, la 45 en a une partie, la 50 les a toutes. En deçà la page existe
-mais ne porte que des pourcentages. La collecte s'arrête donc d'elle-même
-après ARRET_SANS_COTES grilles consécutives sans cote — inutile de descendre
-jusqu'en 2011 pour ramasser des grilles inexploitables.
+mais ne porte que des pourcentages de joueurs — ce qui reste une donnée, et
+la raison pour laquelle la collecte descend maintenant JUSQU'AU BOUT par
+défaut. Pour ne ramasser que la période cotée : --cotes-seulement, qui
+s'arrête après ARRET_SANS_COTES grilles consécutives sans cote.
 
 CONDITIONS D'UTILISATION — À LIRE AVANT DE LANCER. Le robots.txt de Pronosoft
 ne bloque que des robots de référencement nommés, pas les visiteurs ordinaires.
@@ -49,10 +50,12 @@ que de l'espérer.
 
     python collecter_pronosoft.py --produit loto-foot-7
     python collecter_pronosoft.py --produit loto-foot-8 --combien 200
+    python collecter_pronosoft.py --produit loto-foot-7 --cotes-seulement
 
 """
 
 import argparse
+import itertools
 import json
 from collections import Counter
 import random
@@ -79,8 +82,13 @@ INDEX = BASE + "/fr/lotosports/historiques/{produit}/"
 # vraiment le serveur, ce n'est pas la borne : c'est de ralentir QUAND IL LE
 # DEMANDE — voir _lire et RALENTIR.
 PAUSE = (1.0, 2.5)
-LOT = 60
-PAUSE_LOT = (60.0, 120.0)
+# LA PAUSE DE LOT PESAIT PLUS LOURD QUE LA PAUSE DE PAGE. Une minute à deux
+# toutes les soixante grilles, cela faisait 1,5 s de plus par grille — presque
+# autant que la pause de page elle-même, et c'est ce qui expliquait qu'on ne
+# sente pas la première accélération. Trente à soixante secondes toutes les
+# cent grilles ramènent cette part à 0,45 s.
+LOT = 100
+PAUSE_LOT = (30.0, 60.0)
 DELAI = 40
 # Une coupure réseau n'est pas une fin de collecte. Le 21 août, une résolution
 # DNS ratée a tué le script après 88 grilles ; il avait passé vingt minutes à
@@ -100,13 +108,17 @@ ISSUES = ("1", "N", "2")
 # Loto Foot 8 n'avait pas de cotes. Celui-ci nomme le produit, et son archive
 # remonte pour les deux.
 REPARTITION = BASE + "/fr/lotosports/repartition/{produit}/{annee}-grille-{numero}/"
-# Après tant de grilles d'affilée sans cote, on considère qu'on a dépassé la
-# période où Pronosoft les publiait, et on s'arrête.
+# Avec --cotes-seulement : après tant de grilles d'affilée sans cote, on
+# considère qu'on a dépassé la période où Pronosoft les publiait, et on
+# s'arrête. Sans l'option, on descend jusqu'au bout — c'est le défaut, parce
+# que reconstituer l'historique complet est une demande légitime même quand
+# les grilles anciennes ne portent que des pourcentages de joueurs.
 ARRET_SANS_COTES = 8
-# La saison en deçà de laquelle on ne descend pas. L'adresse d'une grille
-# historique porte sa saison — /loto-foot-7/2015-2016/2015-grille-97/ — et une
-# comparaison de chaînes suffit à les ordonner. Les cotes n'existent de toute
-# façon pas avant mars 2015.
+# La saison en deçà de laquelle --depuis fait s'arrêter. L'adresse d'une
+# grille historique porte sa saison — /loto-foot-7/2015-2016/2015-grille-97/ —
+# et une comparaison de chaînes suffit à les ordonner. Les cotes n'existent
+# pas avant mars 2015 : c'est le plancher à passer à --depuis si l'on ne veut
+# que la période cotée. Par défaut il n'y a pas de plancher.
 SAISON_PLANCHER = "2015-2016"
 # Part des affiches devant concorder entre les deux pages. Pas 100 % : les
 # abréviations diffèrent d'une page à l'autre et un nom peut rester
@@ -436,7 +448,8 @@ def trop_ancienne(url: str, plancher: str) -> bool:
     return bool(saison and plancher and saison < plancher)
 
 
-def collecter(produit: str, combien: int, saison_plancher: str) -> int:
+def collecter(produit: str, combien: int, saison_plancher: str,
+              cotes_seulement: bool = False) -> int:
     dossier = SORTIE / produit
     dossier.mkdir(parents=True, exist_ok=True)
     url = _depart(produit, dossier)
@@ -446,7 +459,10 @@ def collecter(produit: str, combien: int, saison_plancher: str) -> int:
 
     vus, enregistrees, sautees, attentes = set(), 0, 0, 0
     sans_cotes = 0
-    for tour in range(combien):
+    # --combien 0 : descendre jusqu'au bout. La boucle s'arrête alors d'elle-
+    # même quand Pronosoft n'a plus de grille précédente à proposer.
+    tours = itertools.count() if combien <= 0 else range(combien)
+    for tour in tours:
         if trop_ancienne(url, saison_plancher):
             print(f"  saison {_saison(url)} — on ne descend pas sous "
                   f"{saison_plancher}, on s'arrête")
@@ -502,7 +518,7 @@ def collecter(produit: str, combien: int, saison_plancher: str) -> int:
             else:
                 print(f"  [{cle}] page illisible")
 
-        if sans_cotes >= ARRET_SANS_COTES:
+        if cotes_seulement and sans_cotes >= ARRET_SANS_COTES:
             print(f"  {ARRET_SANS_COTES} grilles d'affilée sans cote — "
                   f"on a dépassé la période exploitable, on s'arrête")
             break
@@ -528,12 +544,17 @@ def main() -> int:
     ap.add_argument("--produit", default="loto-foot-7",
                     choices=["loto-foot-7", "loto-foot-8", "loto-foot-12",
                              "loto-foot-15"])
-    ap.add_argument("--combien", type=int, default=100,
-                    help="nombre de grilles à remonter")
-    ap.add_argument("--depuis", default=SAISON_PLANCHER, metavar="SAISON",
-                    help="ne pas descendre sous cette saison, ex : 2015-2016")
+    ap.add_argument("--combien", type=int, default=0,
+                    help="nombre de grilles à remonter ; 0 = jusqu'au bout")
+    ap.add_argument("--depuis", default="", metavar="SAISON",
+                    help="ne pas descendre sous cette saison, ex : 2015-2016 ; "
+                         "par défaut, pas de plancher")
+    ap.add_argument("--cotes-seulement", action="store_true",
+                    help=f"s'arrêter après {ARRET_SANS_COTES} grilles d'affilée "
+                         "sans cote, au lieu de descendre jusqu'au bout")
     args = ap.parse_args()
-    return collecter(args.produit, args.combien, args.depuis)
+    return collecter(args.produit, args.combien, args.depuis,
+                     args.cotes_seulement)
 
 
 if __name__ == "__main__":

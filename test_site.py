@@ -94,6 +94,47 @@ def test_l_index_porte_ce_qu_une_liste_doit_montrer():
     assert "-" in ligne["affiches"], "les affiches servent à la recherche"
 
 
+def test_une_surprise_se_mesure_contre_les_cotes():
+    """Le favori est l'issue la moins chère ; une surprise, c'est autre chose.
+
+    Une grosse surprise paie au moins trois fois la cote du favori — un
+    rapport, pas une cote absolue : un 4.00 dans un match serré et un 4.00
+    face à un archi-favori ne racontent pas la même histoire.
+    """
+    cotes = {
+        "1": {"cote_1": 1.40, "cote_N": 4.40, "cote_2": 8.00},   # archi-favori
+        "2": {"cote_1": 2.40, "cote_N": 3.35, "cote_2": 2.70},   # match serré
+        "3": {"cote_1": 1.98, "cote_N": 3.10, "cote_2": 3.20},
+    }
+    ms = [{"match_id": 1}, {"match_id": 2}, {"match_id": 3}]
+
+    # Les trois favoris sortent : aucune surprise.
+    assert cs.surprises(ms, [{"1"}, {"1"}, {"1"}], cotes) == (0, 0)
+
+    # Le nul à 4.40 contre un favori à 1.40, c'est 3,14 fois : grosse.
+    # Le nul à 3.35 contre 2.40, c'est 1,40 fois : surprise, mais pas grosse.
+    assert cs.surprises(ms, [{"N"}, {"N"}, {"1"}], cotes) == (2, 1)
+
+    # Un match annulé paie sur les trois issues : il ne dit rien du marché,
+    # ni au numérateur ni au dénominateur.
+    assert cs.surprises(ms, [{"1", "N", "2"}, {"N"}, {"1"}], cotes) == (1, 0)
+
+    # Une grille non réglée ne se mesure pas — et une absence n'est pas un zéro.
+    assert cs.surprises(ms, [None, {"N"}, {"1"}], cotes) == (None, None)
+    assert cs.surprises(ms, [{"1"}, {"1"}, {"1"}], {}) == (None, None)
+
+
+def test_l_index_dit_quand_une_grille_commence():
+    """L'atelier ne propose que des grilles pas encore commencées : c'est le
+    coup d'envoi du PREMIER match qui en décide, pas la fin de la grille."""
+    index = cs.construire()
+    lignes = [dict(zip(index["champs"], g)) for g in index["grilles"]]
+    avec = [g for g in lignes if g["debut"]]
+    assert len(avec) > 100, "le début manque partout"
+    for g in avec[:200]:
+        assert g["debut"][:10] <= g["date"], (g["id"], g["debut"], g["date"])
+
+
 def test_le_trj_est_le_distribue_sur_les_mises_brutes():
     """À 1 € la grille, les mises brutes sont le nombre de grilles jouées."""
     assert cs._trj(7500, 9253) == round(7500 / 9253, 4)
@@ -103,15 +144,38 @@ def test_le_trj_est_le_distribue_sur_les_mises_brutes():
     assert cs._trj(7500, 0) is None
 
 
-def test_les_sources_de_cotes_tiennent_en_une_lettre():
+def test_seules_les_quatre_maisons_retenues_sont_publiees():
+    """Winamax, Pinnacle, Bet365, FDJ — et rien d'autre.
+
+    Une cote dont on ne sait plus d'où elle vient ne se range pas sous « ? » :
+    elle ne franchit pas cette porte. Le site montre un logo pour chacune, et
+    un logo qu'on ne saurait pas dessiner est le signe qu'il ne fallait pas
+    garder la cote.
+    """
     compact = cs.cotes_compactes({
         "1": {"cote_1": 2.4, "cote_N": 3.35, "cote_2": 2.7, "source": "winamax"},
         "2": {"cote_1": 1.5, "cote_N": 4.0, "cote_2": 7.0, "source": "pinnacle_cloture"},
-        "3": {"cote_1": 1.5, "cote_N": 4.0, "cote_2": 7.0, "source": "inconnue"},
+        "3": {"cote_1": 1.5, "cote_N": 4.0, "cote_2": 7.0, "source": "footiqo_cloture"},
+        "4": {"cote_1": 1.5, "cote_N": 4.0, "cote_2": 7.0, "source": "inconnue"},
+        "5": {"cote_1": 1.5, "cote_N": 4.0, "cote_2": 7.0, "source": "fdj"},
     })
     assert compact["1"] == [2.4, 3.35, 2.7, "w"]
     assert compact["2"][3] == "p"
-    assert compact["3"][3] == "?", "une source inconnue se voit, elle ne se devine pas"
+    assert compact["5"][3] == "d"
+    assert "3" not in compact, "Footiqo est sorti de la liste, ses cotes aussi"
+    assert "4" not in compact, "une source inconnue ne se publie pas"
+
+
+def test_chaque_source_publiee_a_son_logo():
+    """Le tableau des affiches montre un logo, pas une lettre. Une lettre sans
+    logo laisserait une case vide là où le lecteur cherche la provenance."""
+    lettres = set(cs.SOURCES.values())
+    fichiers = {f.stem for f in (RACINE / "img").glob("*.svg")}
+    page = (RACINE / "js" / "grilles.js").read_text(encoding="utf-8")
+    for lettre in sorted(lettres):
+        motif = re.search(rf'"?{lettre}"?:\s*\{{[^}}]*logo:\s*"([^"]+)"', page)
+        assert motif, f"la lettre {lettre} n'a pas de logo déclaré"
+        assert motif.group(1) in fichiers, (lettre, motif.group(1), fichiers)
 
 
 def test_la_page_ne_charge_rien_hors_du_depot():

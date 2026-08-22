@@ -35,7 +35,6 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 
-import collecter_footiqo as fq
 import dater_grilles as dg
 
 RACINE = Path(__file__).parent
@@ -43,12 +42,15 @@ DATA_POOLS = RACINE / "data" / "pools"
 SORTIE = RACINE / "data" / "cotes_matchs.json"
 
 # L'ORDRE DE PRÉFÉRENCE DES SOURCES. Pinnacle d'abord — la référence de la
-# littérature sur les biais de marché — puis Bet365, puis Footiqo. Footiqo
-# vient en dernier non par méfiance mais par nature : c'est la clôture d'un
-# opérateur unique, quand les deux premiers sont des maisons dont la
-# littérature a mesuré la justesse. On ne s'en sert donc que là où personne
-# d'autre ne publie : les coupes.
-COLONNES = list(dg.COLONNES_COTES) + [("footiqo_cloture", None)]
+# littérature sur les biais de marché — puis Bet365.
+#
+# FOOTIQO EST SORTI DE LA LISTE. Il servait de repli pour ce que football-data
+# ne publie pas — coupes d'Europe, Libertadores, Coupe du monde — et couvrait
+# 2 624 matchs. Décision du propriétaire du dépôt : ne garder que des maisons
+# identifiables et comparables, quitte à perdre ces matchs le temps de leur
+# retrouver une cote ailleurs. Une couverture plus faible mais homogène vaut
+# mieux qu'une couverture large dont on ne sait plus ce qu'elle mélange.
+COLONNES = list(dg.COLONNES_COTES)
 
 # football-data signale que ses cotes Pinnacle ne sont plus fiables depuis
 # juillet 2025. On ne les utilise donc pas au-delà, plutôt que de faire
@@ -124,20 +126,6 @@ def main() -> int:
     print(f"football-data : {len(index)} affiches, "
           f"{sum(len(v) for v in index.values())} rencontres")
 
-    # LA SOURCE DE REPLI, pour ce que football-data ne publie pas : les coupes
-    # d'Europe, la Libertadores, la Coupe du monde. Elle vient en dernier,
-    # après Winamax et après Pinnacle : un opérateur unique renseigne moins
-    # bien sur l'état du marché qu'un bookmaker de référence.
-    index_fq, table_fq = fq.charger(), {}
-    chemin_alias = RACINE / "data" / "alias_footiqo.json"
-    if chemin_alias.exists():
-        table_fq = {k: v["vers"] for k, v in
-                    json.loads(chemin_alias.read_text(encoding="utf-8")).items()}
-    if index_fq:
-        print(f"footiqo       : {len(index_fq)} affiches, "
-              f"{sum(len(v) for v in index_fq.values())} rencontres, "
-              f"{len(table_fq)} alias")
-
     types = ["grille7", "grille9", "grille12"] if args.type == "tous" else [args.type]
     resultat, motifs, sources = {}, Counter(), Counter()
     # Un match peut figurer dans deux grilles le même jour — une grille 7 et
@@ -172,11 +160,6 @@ def main() -> int:
                     rejets += 1
                     cotes_rejetees.add(mid)
                 trouvee, motif = rapprocher(m, index)
-                if trouvee is None and motif == "affiche absente de football-data":
-                    trouvee, motif_fq = rapprocher(m, index_fq, table_fq)
-                    if trouvee is None:
-                        motif = "absente des deux sources" if \
-                            motif_fq == "affiche absente de football-data" else motif_fq
                 if trouvee is None:
                     motifs[motif] += 1
                     continue

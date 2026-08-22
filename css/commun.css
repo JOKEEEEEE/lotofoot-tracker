@@ -148,6 +148,17 @@ td.issue span{display:inline-block;min-width:2.9rem;padding:.16rem .45rem;
 td.issue.gagne span{color:var(--encre);font-weight:700;background:var(--vert-voile);
   box-shadow:inset 0 0 0 1px var(--vert)}
 td.annule{color:var(--sourd);font-weight:600;font-style:italic}
+/* Le logo de la maison qui a coté le match. Les quatre marques ont leurs
+   couleurs propres : elles ne suivent pas le thème, et c'est voulu — un logo
+   qui change de couleur n'est plus un logo. Un léger voile en mode sombre
+   suffit à ce qu'ils ne brûlent pas la page. */
+.logo-source{display:block;border-radius:4px;vertical-align:middle}
+td.source{width:2.4rem;padding-left:.6rem}
+td.source .logo-source{margin-left:auto}
+footer .logo-source,.legende .logo-source{display:inline-block;
+  vertical-align:-3px;margin-right:.1rem}
+:root[data-theme=dark] .logo-source{opacity:.92}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .logo-source{opacity:.92}}
 
 .legende{font-size:.78rem;color:var(--sourd);margin:.8rem 0 0}
 footer{margin-top:1.4rem;padding:1.1rem 1.4rem;background:var(--surface);

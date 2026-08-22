@@ -16,7 +16,7 @@ import * as A from "./atelier.js";
 const APERCU = 40;
 
 self.onmessage = (e) => {
-  const {jeton, choix, regles, cotes, garantie, couverture} = e.data;
+  const {jeton, choix, regles, garantie, couverture} = e.data;
   const total = A.compter(choix);
   const vides = choix.some(m => !m.length);
   if (vides) {
@@ -28,7 +28,7 @@ self.onmessage = (e) => {
     self.postMessage({jeton, total, trop: A.PLAFOND_ENUMERATION});
     return;
   }
-  const retenues = A.filtrer(toutes, regles, cotes);
+  const retenues = A.filtrer(toutes, regles);
   const reponse = {
     jeton, total, retenues: retenues.length,
     apercu: A.versTexte(retenues.slice(0, APERCU)).split("\n").filter(Boolean),

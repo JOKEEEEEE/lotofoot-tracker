@@ -36,6 +36,8 @@ main{grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr)}
 
 table.composer td{padding:.28rem 0 .28rem .3rem;vertical-align:middle}
 table.composer td:first-child{font-size:.84rem;line-height:1.25}
+.rang{display:inline-block;width:1.35rem;color:var(--sourd);font-weight:600;
+  font-variant-numeric:tabular-nums;font-size:.76rem}
 /* LA CASE PORTE LE BOUTON, PAS LE STYLE. Poser le fond sur la cellule le
    faisait s'étirer sur toute la hauteur de la ligne et déborder les arrondis ;
    le bouton, lui, se dimensionne sur son contenu. */
@@ -79,6 +81,46 @@ td.outils{width:6.6rem;padding-left:.5rem;white-space:nowrap}
 .rangee label{font-size:.79rem;font-weight:600;color:var(--sourd)}
 .rangee select{padding:.35rem .9rem;padding-right:1.9rem;font-size:.8rem}
 .etat{font-size:.76rem;font-weight:600;color:var(--accent);margin-left:auto}
+.dispo{font-size:.78rem;font-weight:500;color:var(--sourd)}
+
+/* ---------- groupes de matchs ---------- */
+.aide{font-size:.78rem;color:var(--sourd);margin:.1rem 0 .8rem;line-height:1.45}
+.rares{margin-top:.7rem}
+.rares summary{font-size:.75rem;font-weight:600;color:var(--sourd);cursor:pointer;
+  padding:.35rem 0;list-style:none;display:flex;align-items:center;gap:.4rem}
+.rares summary::before{content:"▸";font-size:.7rem;transition:transform .12s}
+.rares[open] summary::before{transform:rotate(90deg)}
+.rares summary small{font-weight:400;opacity:.75}
+.rares summary:hover{color:var(--accent)}
+.rares .reglages{padding-top:.4rem}
+
+.groupe-filtre{border:1px solid var(--trait);border-radius:var(--r-petit);
+  padding:.7rem .85rem;margin-bottom:.5rem;background:var(--carte-2)}
+.tete-groupe{display:flex;align-items:center;gap:.5rem;font-size:.72rem;
+  font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--sourd);margin-bottom:.5rem}
+.tete-groupe button{margin-left:auto;background:none;border:0;cursor:pointer;
+  color:var(--sourd);font-size:1rem;line-height:1;padding:0 .2rem}
+.tete-groupe button:hover{color:var(--accent)}
+.jetons{display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:.55rem}
+.jetons button{width:1.7rem;height:1.7rem;padding:0;border-radius:var(--r-pilule);
+  background:var(--surface);border:1px solid var(--trait);cursor:pointer;
+  font-size:.74rem;font-weight:700;color:var(--sourd);transition:.12s;
+  font-variant-numeric:tabular-nums}
+.jetons button:hover{border-color:var(--accent);color:var(--accent)}
+.jetons button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);
+  color:#fff}
+.bornes{display:flex;flex-wrap:wrap;gap:.3rem .9rem;align-items:center}
+.bornes span{font-size:.78rem;font-weight:700;color:var(--sourd);width:.9rem;
+  text-align:center}
+.bornes input{width:3.5rem;padding:.24rem .4rem;font-size:.76rem;text-align:center;
+  box-shadow:none;border-radius:var(--r-petit)}
+.bornes input::-webkit-inner-spin-button{appearance:none;margin:0}
+.bornes input{-moz-appearance:textfield}
+.ajout{background:var(--accent-voile);border:1px dashed var(--accent);
+  border-radius:var(--r-pilule);padding:.35rem 1rem;font-size:.78rem;
+  font-weight:600;color:var(--accent);cursor:pointer;transition:.12s}
+.ajout:hover{background:var(--accent);border-style:solid;color:#fff}
 
 textarea{width:100%;min-height:11rem;resize:vertical;font:inherit;
   font-family:ui-monospace,Menlo,monospace;font-size:.82rem;line-height:1.65;
@@ -112,6 +154,7 @@ textarea{width:100%;min-height:11rem;resize:vertical;font:inherit;
 
 <div class="filtres">
   <select id="f-source" aria-label="Grille de départ"></select>
+  <span class="dispo" id="dispo"></span>
   <span class="compte" id="compte"></span>
 </div>
 
@@ -151,6 +194,19 @@ textarea{width:100%;min-height:11rem;resize:vertical;font:inherit;
       <span class="etat" id="etat"></span>
     </div>
     <div class="reglages" id="reglages"></div>
+    <details class="rares">
+      <summary>Critères de forme <small>(alternances, symétries, diagonales, suites distinctes)</small></summary>
+      <div class="reglages" id="reglages-rares"></div>
+    </details>
+
+    <h3>Groupes de matchs</h3>
+    <p class="aide">Une borne qui ne porte que sur quelques matchs. « Sur ces
+      trois-là où j'ai couvert le favori d'un nul, j'en attends au plus deux »
+      ne se dit pas autrement : un maximum de deux nuls sur la grille entière
+      laisserait passer les trois nuls groupés, et écarterait des grilles
+      saines dont les nuls sont ailleurs. Les groupes peuvent se chevaucher.</p>
+    <div id="groupes"></div>
+    <button type="button" class="ajout" id="ajouter-groupe">+ Ajouter un groupe</button>
 
     <h3>Réduction</h3>
     <div class="rangee">

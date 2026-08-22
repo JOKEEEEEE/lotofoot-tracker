@@ -27,5 +27,22 @@ const num = v => v == null ? "—" : v.toLocaleString("fr-FR");
 
 const STATUTS = {CLOSED: "réglée", OPEN: "en cours", CANCELLED: "annulée",
                  SUSPENDED: "suspendue"};
-const PROVENANCES = {w: "Winamax", p: "Pinnacle (clôture)", b: "Bet365 (clôture)",
-                     f: "Footiqo (clôture)", "?": "source inconnue"};
+/* Les quatre maisons dont on garde les cotes, chacune avec son logo. Une
+   lettre ne disait rien à personne ; un logo se reconnaît sans légende.
+   Toute cote d'une autre provenance a été retirée de la base — voir
+   construire_site.SOURCES, dont ce tableau est le miroir, et que
+   test_site.py compare fichier par fichier. */
+const PROVENANCES = {
+  w: {nom: "Winamax", logo: "winamax"},
+  p: {nom: "Pinnacle (clôture)", logo: "pinnacle"},
+  b: {nom: "Bet365 (clôture)", logo: "bet365"},
+  d: {nom: "FDJ — Loto Foot", logo: "fdj"},
+};
+/** Le logo d'une source, ou rien du tout : pas de pictogramme inventé pour
+ *  une provenance qu'on ne connaît pas. */
+function logoSource(code, taille = 18) {
+  const p = PROVENANCES[code];
+  if (!p) return "";
+  return `<img class="logo-source" src="img/${p.logo}.svg" alt="${p.nom}"
+    title="Cote ${p.nom}" width="${taille}" height="${taille}">`;
+}

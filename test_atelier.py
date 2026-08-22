@@ -130,23 +130,6 @@ def test_la_couverture_partielle_coute_moins_cher():
     assert r["tauxPartiel"] >= 0.64, r
 
 
-def test_le_produit_des_cotes_refuse_de_deviner():
-    """Une cote manquante ne vaut pas 1 : elle rend le produit inconnu, et un
-    critère sur les cotes ne doit alors écarter personne."""
-    r = js("""
-      const cotes = [[2,3,4],[1.5,3.5,5],[null,null,null]];
-      console.log(JSON.stringify({
-        complet: A.produitCotes([0,0,0], [[2,3,4],[1.5,3.5,5],[2,2,2]]),
-        manquant: A.produitCotes([0,0,0], cotes),
-        garde: A.retenue([0,0,0], {cote:{min:1000}}, cotes),
-        ecarte: A.retenue([0,0,0], {cote:{min:1000}}, [[2,3,4],[1.5,3.5,5],[2,2,2]]),
-      }));""")
-    assert abs(r["complet"] - 6.0) < 1e-9
-    assert r["manquant"] is None
-    assert r["garde"] is True, "sans cote, on ne filtre pas sur la cote"
-    assert r["ecarte"] is False, "avec les cotes, le seuil s'applique"
-
-
 def test_les_filtres_sur_les_signes():
     r = js("""
       const g = t => [...t].map(c => ({"1":0,"N":1,"2":2})[c]);
@@ -196,6 +179,41 @@ def test_les_bons_resultats_se_comptent_sur_les_places_identiques():
     assert r["pareil"] == 7
     assert r["deuxEcarts"] == 5
     assert r["rien"] == 0
+
+
+def test_un_groupe_borne_ses_propres_matchs_et_pas_la_grille():
+    """La demande, mot pour mot : « j'ai un groupe de trois matchs où j'ai mis
+    1 pour le favori et N pour couvrir la surprise ; j'en attends au plus deux
+    nuls, pas trois ».
+
+    Ce n'est PAS un maximum de deux nuls sur la grille : celui-là laisserait
+    passer trois nuls groupés dès qu'il y en a zéro ailleurs, et écarterait
+    des grilles saines dont les nuls sont ailleurs.
+    """
+    r = js("""
+      const g = A.enumerer([[0,1],[0,1],[0,1],[0,1],[0,1],[0],[0]]);
+      const groupe = {matchs: [0, 1, 2], nul: {max: 2}};
+      const nnn = [1,1,1,0,0,0,0], ailleurs = [0,0,0,1,1,1,0];
+      const surLaGrille = A.filtrer(g, {nul: {max: 2}});
+      const surLeGroupe = A.filtrer(g, {groupes: [groupe]});
+      console.log(JSON.stringify({
+        total: g.length,
+        grille: surLaGrille.length,
+        groupe: surLeGroupe.length,
+        // NNN sur le groupe, rien ailleurs : le filtre de grille le laisse
+        // passer, celui de groupe l'écarte. C'est tout l'écart entre les deux.
+        grilleGardeNNN: A.retenue(nnn, {nul: {max: 2}}),
+        groupeEcarteNNN: A.retenue(nnn, {groupes: [groupe]}),
+        // Trois nuls, mais hors du groupe : le groupe s'en moque.
+        groupeGardeAilleurs: A.retenue(ailleurs, {groupes: [groupe]}),
+      }));""")
+    assert r["total"] == 32
+    assert r["grilleGardeNNN"] is False
+    assert r["groupeEcarteNNN"] is False
+    assert r["groupeGardeAilleurs"] is True
+    # Le filtre de groupe ne touche qu'aux trois premiers matchs : il garde
+    # donc strictement plus de grilles que le même maximum sur la grille.
+    assert r["groupe"] > r["grille"], (r["groupe"], r["grille"])
 
 
 def test_la_cote_plausible_tranche_comme_le_python():

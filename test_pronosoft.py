@@ -111,6 +111,23 @@ def test_une_panne_qui_dure_finit_par_remonter():
         cp.urllib.request.urlopen, cp.time.sleep = vrais
 
 
+def test_par_defaut_la_collecte_descend_jusqu_au_bout():
+    """L'historique complet est le défaut, la période cotée une option.
+
+    Les grilles d'avant mars 2015 ne portent pas de cotes, seulement des
+    pourcentages de joueurs — ce qui reste une donnée. S'arrêter dessus par
+    défaut, c'était décider à la place de celui qui collecte.
+    """
+    ap = cp.argparse.ArgumentParser()
+    # Le plancher de saison ne mord que si on le demande.
+    assert cp.trop_ancienne(
+        "https://x/fr/lotosports/historiques/loto-foot-7/2011-2012/2011-grille-9/",
+        "") is False, "sans plancher, aucune saison n'est trop ancienne"
+    assert cp.trop_ancienne(
+        "https://x/fr/lotosports/historiques/loto-foot-7/2011-2012/2011-grille-9/",
+        "2015-2016") is True
+
+
 def test_une_page_absente_ne_se_redemande_pas_quatre_fois():
     """Un 404 est une réponse, pas une panne.
 
