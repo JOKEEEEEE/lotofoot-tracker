@@ -38,7 +38,9 @@ D'où deux règles, non négociables dans ce dépôt :
     la collecte va dans data/pronosoft/, qui est IGNORÉ PAR GIT — la donnée
     reste sur la machine et n'est jamais republiée, exactement comme le cache
     football-data et la collecte Footiqo ;
-    le rythme est lent et il n'y a pas d'option pour l'accélérer.
+    le rythme reste lent — une à deux secondes et demie par page, une
+    pause d'une minute tous les soixante — et il n'y a pas d'option pour
+    l'accélérer davantage ; un 429 fait lever le pied plus longtemps.
 
 Ce qu'on publie, ce sont des résultats d'analyse — des moyennes, des écarts —
 et non le contenu de leurs pages. Si le projet devait un jour diffuser cette
@@ -68,7 +70,15 @@ INDEX = BASE + "/fr/lotosports/historiques/{produit}/"
 
 # Le rythme. Ces bornes ne sont pas paramétrables : une option s'oublie, et
 # c'est précisément celle-là qu'il ne faut pas oublier.
-PAUSE = (2.5, 5.0)
+#
+# UNE SECONDE À DEUX ET DEMIE, ET C'EST DÉLIBÉRÉ. Le premier réglage — deux et
+# demie à cinq — mettait huit heures à descendre onze ans d'archives, pour une
+# collecte personnelle sur un site qui n'interdit rien de tel. À 1,75 s de
+# moyenne on reste sous le rythme d'un visiteur pressé, la pause d'un lot sur
+# soixante tient toujours, et le tout passe à quatre heures. Ce qui protège
+# vraiment le serveur, ce n'est pas la borne : c'est de ralentir QUAND IL LE
+# DEMANDE — voir _lire et RALENTIR.
+PAUSE = (1.0, 2.5)
 LOT = 60
 PAUSE_LOT = (60.0, 120.0)
 DELAI = 40
@@ -77,6 +87,10 @@ DELAI = 40
 # les télécharger. On réessaie, en espaçant.
 ESSAIS = 4
 ATTENTE_ESSAI = (5, 15, 45)
+# Quand le serveur dit « trop vite » ou « pas maintenant », on l'écoute plus
+# longuement qu'un simple hoquet réseau.
+RALENTIR = {429, 503}
+ATTENTE_RALENTIR = (30, 120, 300)
 ENTETE = {"User-Agent": "lotofoot-tracker (collecte personnelle, rythme lent)"}
 
 ISSUES = ("1", "N", "2")
@@ -236,6 +250,19 @@ def _lire(url: str) -> str:
             requete = urllib.request.Request(url, headers=ENTETE)
             with urllib.request.urlopen(requete, timeout=DELAI) as reponse:
                 return reponse.read().decode("latin-1", "replace")
+        except urllib.error.HTTPError as souci:
+            # UNE PAGE ABSENTE N'EST PAS UNE PANNE. Redemander quatre fois un
+            # 404 coûtait soixante-cinq secondes d'attente pour rien, et une
+            # grille sur dix n'a pas de page de répartition : on rendait la
+            # main au bout d'une minute là où la réponse était immédiate.
+            if souci.code not in RALENTIR:
+                raise
+            if essai == ESSAIS - 1:
+                raise
+            repos = ATTENTE_RALENTIR[min(essai, len(ATTENTE_RALENTIR) - 1)]
+            print(f"    {souci.code} — le serveur demande de lever le pied, "
+                  f"pause de {repos} s")
+            time.sleep(repos)
         except (urllib.error.URLError, TimeoutError, OSError) as souci:
             if essai == ESSAIS - 1:
                 raise

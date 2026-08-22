@@ -111,6 +111,47 @@ def test_une_panne_qui_dure_finit_par_remonter():
         cp.urllib.request.urlopen, cp.time.sleep = vrais
 
 
+def test_une_page_absente_ne_se_redemande_pas_quatre_fois():
+    """Un 404 est une réponse, pas une panne.
+
+    Une grille sur dix n'a pas de page de répartition. Redemander quatre fois
+    coûtait soixante-cinq secondes d'attente pour une réponse immédiate — et
+    la collecte a des milliers de pages à parcourir.
+
+    Un 429, lui, est le serveur qui demande de lever le pied : celui-là se
+    réessaie, et plus longuement qu'un hoquet réseau.
+    """
+    def repond(code):
+        appels = []
+
+        def faux_urlopen(requete, timeout=None):
+            appels.append(requete.full_url)
+            raise urllib.error.HTTPError(requete.full_url, code, "non", {}, None)
+
+        repos = []
+        vrais = (cp.urllib.request.urlopen, cp.time.sleep)
+        cp.urllib.request.urlopen = faux_urlopen
+        cp.time.sleep = repos.append
+        try:
+            try:
+                cp._lire("https://exemple.fr/x")
+            except urllib.error.HTTPError:
+                pass
+            return len(appels), repos
+        finally:
+            cp.urllib.request.urlopen, cp.time.sleep = vrais
+
+    essais, repos = repond(404)
+    assert essais == 1, f"un 404 redemandé {essais} fois"
+    assert not repos, f"un 404 ne doit pas faire attendre : {repos}"
+
+    essais, repos = repond(429)
+    assert essais == cp.ESSAIS, f"un 429 doit se réessayer, vu {essais} fois"
+    # Le serveur qui dit « trop vite » mérite, à chaque tour, une pause plus
+    # longue que le simple hoquet réseau.
+    assert all(r > h for r, h in zip(repos, cp.ATTENTE_ESSAI)), repos
+
+
 def test_la_reprise_ne_relit_pas_ce_qui_est_deja_en_base():
     """Reprendre ne veut pas dire tout relire.
 
