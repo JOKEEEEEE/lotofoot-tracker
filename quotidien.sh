@@ -84,3 +84,11 @@ if git push -q origin main >> "$JOURNAL" 2>&1; then
 else
     echo "push impossible — les données restent commitées en local" >> "$JOURNAL"
 fi
+
+# LES COLLECTES QU'ON NE PUBLIE PAS SE SAUVEGARDENT AUSSI. data/pronosoft et
+# data/football-data sont ignorés par ce dépôt — donc absents du site, donc
+# hors de portée de GitHub Pages, donc jamais rediffusés. Mais « ignoré par
+# git » voulait aussi dire « en un seul exemplaire sur un seul disque ». Ce
+# script les pousse vers leurs dépôts PRIVÉS, quand ils sont configurés.
+echo "sauvegardes privées :" >> "$JOURNAL"
+sh ./sauver_donnees.sh
