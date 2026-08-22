@@ -8,134 +8,216 @@
 <meta name="description" content="Onze ans de grilles Winamax : affiches, cotes, résultats, rapports et répartition du public.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
 <style>
-:root {
-  --fond:#F1F3F1; --surface:#FBFCFB; --encre:#16262B; --sourd:#5C6E73;
-  --trait:#D3DAD8; --laiton:#8A6A18; --laiton-voile:#8A6A1826;
-  --brique:#8E3B2C; --brique-voile:#8E3B2C14; --vert:#2F6B4F;
-  --serif:"Newsreader",Georgia,serif;
-  --sans:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+:root{
+  --fond:#F2F3F6; --surface:#FFFFFF; --carte-2:#FAFAFB;
+  --encre:#1B2A4A; --sourd:#5C6780; --trait:#E6E8EE;
+  --accent:#2563C9; --accent-voile:#2563C914; --accent-fort:#1E4FA8;
+  --vert:#2E7D5B; --vert-voile:#2E7D5B14;
+  --bandeau:#1B2A4A; --bandeau-2:#2A3F6B;
+  --ombre:0 1px 2px rgba(27,42,74,.05), 0 8px 24px -12px rgba(27,42,74,.10);
+  --r-carte:18px; --r-petit:12px; --r-pilule:999px;
+  --sans:"Manrope",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
 }
-@media (prefers-color-scheme:dark){:root{
-  --fond:#0D1316; --surface:#141C20; --encre:#E3E9E7; --sourd:#93A6AA;
-  --trait:#26343A; --laiton:#D2A33A; --laiton-voile:#D2A33A2E;
-  --brique:#DB8570; --brique-voile:#DB85701A; --vert:#6FBF97;
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --fond:#0C0E12; --surface:#15181F; --carte-2:#1A1E26;
+  --encre:#EDEFF3; --sourd:#8F99AD; --trait:#252A34;
+  --accent:#6FA0F0; --accent-voile:#6FA0F01F; --accent-fort:#8FB8FA;
+  --vert:#5CC49B; --vert-voile:#5CC49B1A;
+  --bandeau:#1B2432; --bandeau-2:#243043;
+  --ombre:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -14px rgba(0,0,0,.5);
 }}
+:root[data-theme=dark]{
+  --fond:#0C0E12; --surface:#15181F; --carte-2:#1A1E26;
+  --encre:#EDEFF3; --sourd:#8F99AD; --trait:#252A34;
+  --accent:#6FA0F0; --accent-voile:#6FA0F01F; --accent-fort:#8FB8FA;
+  --vert:#5CC49B; --vert-voile:#5CC49B1A;
+  --bandeau:#1B2432; --bandeau-2:#243043;
+  --ombre:0 1px 2px rgba(0,0,0,.3), 0 10px 30px -14px rgba(0,0,0,.5);
+}
 *{box-sizing:border-box}
 body{margin:0;background:var(--fond);color:var(--encre);font-family:var(--sans);
-  font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
-a{color:var(--laiton)}
+  font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;
+  letter-spacing:-.005em}
+a{color:var(--accent)}
 button{font:inherit;color:inherit}
-:focus-visible{outline:2px solid var(--laiton);outline-offset:2px;border-radius:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.chiffres{font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
 
-header{padding:1.6rem 1.5rem 1.1rem;border-bottom:1px solid var(--trait)}
-.bandeau{max-width:1400px;margin:0 auto;display:flex;flex-wrap:wrap;
-  align-items:baseline;gap:0 1.6rem}
-h1{font-family:var(--serif);font-weight:600;font-size:1.7rem;letter-spacing:-.015em;
-  margin:0 .6rem 0 0}
-.resume{font-family:var(--mono);font-size:.72rem;letter-spacing:.03em;
-  text-transform:uppercase;color:var(--sourd)}
-.resume b{color:var(--encre);font-weight:500}
+.page{max-width:1360px;margin:0 auto;padding:1.6rem 1.4rem 3rem}
 
-.filtres{max-width:1400px;margin:0 auto;padding:.9rem 1.5rem;display:flex;
-  flex-wrap:wrap;gap:.5rem;align-items:center;border-bottom:1px solid var(--trait)}
-select,input[type=search]{font:inherit;font-size:.85rem;padding:.35rem .6rem;
-  background:var(--surface);color:var(--encre);border:1px solid var(--trait);
-  border-radius:3px}
-input[type=search]{min-width:15rem;flex:1}
-.bascule{display:inline-flex;align-items:center;gap:.4rem;font-size:.85rem;
-  color:var(--sourd);cursor:pointer}
-.compte{font-family:var(--mono);font-size:.78rem;color:var(--sourd);
-  margin-left:auto;padding-left:1.2rem}
+/* ---------- bandeau ---------- */
+header{margin-bottom:1.1rem}
+.bandeau{background:linear-gradient(115deg,var(--bandeau) 0%,var(--bandeau-2) 100%);
+  border-radius:var(--r-carte);padding:1.5rem 1.8rem;display:flex;
+  flex-wrap:wrap;align-items:center;gap:1rem 1.6rem;color:#fff;
+  box-shadow:var(--ombre);position:relative;overflow:hidden}
+/* Décoratif, donc transparent au clic : sans cela le cercle recouvre les
+   boutons de thème et les rend inutilisables. */
+.bandeau::after{content:"";position:absolute;right:-90px;top:-140px;width:340px;
+  height:340px;border-radius:50%;background:rgba(255,255,255,.045);
+  pointer-events:none}
+h1{font-weight:800;font-size:1.6rem;letter-spacing:-.03em;margin:0;line-height:1.1}
+.resume{display:flex;gap:1.4rem;flex-wrap:wrap;font-size:.8rem;
+  color:rgba(255,255,255,.62);position:relative}
+.resume i{font-style:normal;display:block;font-size:1.15rem;font-weight:700;
+  color:#fff;letter-spacing:-.02em}
+.theme{margin-left:auto;display:flex;gap:2px;padding:3px;border-radius:var(--r-pilule);
+  background:rgba(255,255,255,.10);position:relative}
+.theme button{background:none;border:0;padding:.3rem .8rem;cursor:pointer;
+  font-size:.74rem;font-weight:600;color:rgba(255,255,255,.6);
+  border-radius:var(--r-pilule);transition:background .15s,color .15s}
+.theme button[aria-pressed=true]{background:#fff;color:var(--bandeau)}
+.theme button:hover:not([aria-pressed=true]){color:#fff}
 
-main{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);
-  gap:0;align-items:start}
-@media (max-width:900px){main{grid-template-columns:1fr}}
+/* ---------- filtres ---------- */
+.filtres{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;
+  margin-bottom:1.1rem}
+select,input[type=search]{font:inherit;font-size:.85rem;font-weight:500;
+  padding:.5rem .95rem;background:var(--surface);color:var(--encre);
+  border:1px solid var(--trait);border-radius:var(--r-pilule);
+  box-shadow:var(--ombre);appearance:none;cursor:pointer}
+select{padding-right:2rem;background-image:linear-gradient(45deg,transparent 50%,var(--sourd) 50%),linear-gradient(135deg,var(--sourd) 50%,transparent 50%);
+  background-position:calc(100% - 15px) 51%,calc(100% - 10px) 51%;
+  background-size:5px 5px,5px 5px;background-repeat:no-repeat}
+input[type=search]{min-width:16rem;flex:1;cursor:text}
+input[type=search]::placeholder{color:var(--sourd)}
+.bascule{display:inline-flex;align-items:center;gap:.45rem;font-size:.82rem;
+  font-weight:500;color:var(--sourd);cursor:pointer;padding:.5rem .95rem;
+  background:var(--surface);border:1px solid var(--trait);
+  border-radius:var(--r-pilule);box-shadow:var(--ombre)}
+.bascule input{accent-color:var(--accent);cursor:pointer}
+.compte{margin-left:auto;font-size:.78rem;font-weight:600;color:var(--sourd);
+  padding-left:1rem}
 
-.liste{border-right:1px solid var(--trait);max-height:calc(100vh - 9.5rem);
-  overflow-y:auto}
-@media (max-width:900px){.liste{max-height:26rem;border-right:0;
-  border-bottom:1px solid var(--trait)}}
-.ligne{display:grid;grid-template-columns:4.4rem 5.6rem 1fr auto;gap:.7rem;
-  align-items:baseline;padding:.55rem 1.5rem;border-bottom:1px solid var(--trait);
-  cursor:pointer;background:none;border-left:0;border-right:0;border-top:0;
-  width:100%;text-align:left;font-size:.84rem}
-.ligne:hover{background:var(--laiton-voile)}
-.ligne[aria-current=true]{background:var(--laiton-voile);
-  box-shadow:inset 3px 0 0 var(--laiton)}
-.ligne .num{font-family:var(--mono);font-weight:500}
-.ligne .date{font-family:var(--mono);color:var(--sourd);font-size:.78rem}
-.ligne .aff{color:var(--sourd);overflow:hidden;text-overflow:ellipsis;
-  white-space:nowrap}
-.ligne .rap{font-family:var(--mono);font-variant-numeric:tabular-nums;
-  font-size:.8rem;text-align:right}
+/* ---------- disposition ---------- */
+main{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);
+  gap:1.1rem;align-items:start}
+@media (max-width:960px){main{grid-template-columns:1fr}}
+.carte{background:var(--surface);border:1px solid var(--trait);
+  border-radius:var(--r-carte);box-shadow:var(--ombre);overflow:hidden}
 
-.pastille{display:inline-block;font-family:var(--mono);font-size:.64rem;
-  letter-spacing:.05em;padding:.05rem .34rem;border-radius:2px;
-  border:1px solid var(--trait);color:var(--sourd);vertical-align:.06em}
-.pastille.sur{border-color:var(--vert);color:var(--vert);font-weight:500}
-.pastille.gar{border-color:var(--laiton);color:var(--laiton)}
+/* ---------- liste ---------- */
+.liste{max-height:calc(100vh - 13rem);overflow-y:auto;overscroll-behavior:contain}
+@media (max-width:960px){.liste{max-height:24rem}}
+.entete-liste{display:grid;grid-template-columns:4.8rem 4.4rem 1fr 1fr 2.9rem;
+  gap:.6rem;padding:.85rem 1.2rem;position:sticky;top:0;z-index:1;
+  background:var(--surface);border-bottom:1px solid var(--trait);
+  font-size:.63rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--sourd)}
+.entete-liste span:nth-child(n+3){text-align:right}
+.ligne{display:grid;grid-template-columns:4.8rem 4.4rem 1fr 1fr 2.9rem;gap:.6rem;
+  align-items:center;padding:.62rem 1.2rem;border:0;border-bottom:1px solid var(--trait);
+  cursor:pointer;background:none;width:100%;text-align:left;font-size:.85rem;
+  transition:background .12s}
+.ligne:last-child{border-bottom:0}
+.ligne:hover{background:var(--carte-2)}
+.ligne[aria-current=true]{background:var(--accent-voile);
+  box-shadow:inset 3px 0 0 var(--accent)}
+.ligne .num{font-weight:700;letter-spacing:-.02em}
+.ligne .date{color:var(--sourd);font-size:.8rem;font-variant-numeric:tabular-nums}
+.ligne .eur{text-align:right;font-size:.82rem;color:var(--sourd);
+  font-variant-numeric:tabular-nums}
+.ligne .eur.fort{color:var(--encre);font-weight:600}
+.ligne .marque{text-align:right}
 
-.detail{padding:1.4rem 1.5rem 4rem;max-height:calc(100vh - 9.5rem);overflow-y:auto}
-@media (max-width:900px){.detail{max-height:none}}
-.vide{color:var(--sourd);font-family:var(--serif);font-size:1.05rem;padding:2rem 0}
-.tete-detail{display:flex;flex-wrap:wrap;align-items:baseline;gap:.8rem;
-  margin-bottom:.2rem}
-h2{font-family:var(--serif);font-weight:600;font-size:1.45rem;margin:0;
-  letter-spacing:-.012em}
-.sous{font-family:var(--mono);font-size:.76rem;color:var(--sourd);
-  text-transform:uppercase;letter-spacing:.04em;margin-bottom:1.1rem}
+.pastille{display:inline-block;font-size:.6rem;font-weight:700;letter-spacing:.04em;
+  padding:.14rem .45rem;border-radius:var(--r-pilule);background:var(--carte-2);
+  border:1px solid var(--trait);color:var(--sourd);text-transform:uppercase}
+.pastille.sur{background:var(--vert-voile);border-color:transparent;color:var(--vert)}
+
+/* ---------- détail ---------- */
+.detail{padding:1.5rem 1.6rem 1.8rem;max-height:calc(100vh - 13rem);
+  overflow-y:auto;overscroll-behavior:contain}
+@media (max-width:960px){.detail{max-height:none}}
+.vide{color:var(--sourd);font-size:.95rem;padding:2.5rem 0;text-align:center}
+.tete-detail{display:flex;flex-wrap:wrap;align-items:center;gap:.7rem}
+h2{font-weight:800;font-size:1.35rem;margin:0;letter-spacing:-.03em}
+.sous{display:flex;flex-wrap:wrap;gap:.4rem;margin:.65rem 0 1.2rem}
+.sous span{font-size:.72rem;font-weight:600;padding:.2rem .65rem;
+  border-radius:var(--r-pilule);background:var(--carte-2);color:var(--sourd);
+  border:1px solid var(--trait)}
 .nav{display:flex;gap:.4rem;margin-left:auto}
-.nav button{background:var(--surface);border:1px solid var(--trait);
-  border-radius:3px;padding:.2rem .6rem;font-size:.82rem;cursor:pointer}
-.nav button:hover:not(:disabled){border-color:var(--laiton);color:var(--laiton)}
+.nav button{background:var(--carte-2);border:1px solid var(--trait);
+  border-radius:var(--r-pilule);padding:.32rem .85rem;font-size:.78rem;
+  font-weight:600;cursor:pointer;color:var(--sourd);transition:.12s}
+.nav button:hover:not(:disabled){background:var(--accent);border-color:var(--accent);
+  color:#fff}
 .nav button:disabled{opacity:.35;cursor:default}
 
-.tuiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));
-  gap:1px;background:var(--trait);border:1px solid var(--trait);border-radius:3px;
-  overflow:hidden;margin-bottom:1.3rem}
-.tuile{background:var(--surface);padding:.7rem .8rem}
-.tuile .lab{font-family:var(--mono);font-size:.63rem;letter-spacing:.07em;
-  text-transform:uppercase;color:var(--sourd);display:block}
-.tuile .val{font-family:var(--mono);font-variant-numeric:tabular-nums;
-  font-size:1.15rem;font-weight:500;letter-spacing:-.01em}
-.tuile .val.accent{color:var(--laiton)}
+.tuiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));
+  gap:.6rem;margin-bottom:1.6rem}
+.tuile{background:var(--carte-2);border:1px solid var(--trait);
+  border-radius:var(--r-petit);padding:.85rem 1rem}
+.tuile .lab{font-size:.62rem;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--sourd);display:block;margin-bottom:.25rem}
+.tuile .val{font-size:1.3rem;font-weight:700;letter-spacing:-.03em;
+  font-variant-numeric:tabular-nums;display:block;line-height:1.15}
+.tuile .val.accent{color:var(--accent)}
 .tuile .val.bien{color:var(--vert)}
 
-h3{font-family:var(--sans);font-weight:600;font-size:.72rem;letter-spacing:.09em;
-  text-transform:uppercase;color:var(--sourd);margin:1.4rem 0 .5rem}
-table{width:100%;border-collapse:collapse;font-size:.85rem}
-th{font-family:var(--mono);font-weight:400;font-size:.64rem;letter-spacing:.07em;
-  text-transform:uppercase;color:var(--sourd);text-align:right;
-  padding:0 0 .4rem .7rem;border-bottom:1px solid var(--trait);white-space:nowrap}
+h3{font-size:.66rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--sourd);margin:1.7rem 0 .7rem}
+table{width:100%;border-collapse:collapse;font-size:.86rem}
+th{font-size:.6rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--sourd);text-align:right;padding:0 0 .55rem .6rem;
+  border-bottom:1px solid var(--trait);white-space:nowrap}
 th:first-child{text-align:left;padding-left:0}
-td{padding:.32rem 0 .32rem .7rem;text-align:right;border-bottom:1px solid var(--trait);
-  font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--sourd);
-  white-space:nowrap}
-td:first-child{text-align:left;padding-left:0;font-family:var(--sans);
-  color:var(--encre);white-space:normal}
-td.issue{width:2.6rem;color:var(--sourd)}
-td.issue.gagne{color:var(--encre);font-weight:500;background:var(--laiton-voile);
-  border-radius:2px}
-td.annule{color:var(--brique)}
-.barres td{padding:.15rem 0}
-.jauge{position:relative;height:11px;background:var(--trait);border-radius:2px;
-  overflow:hidden;min-width:4rem}
-.jauge span{position:absolute;inset:0 auto 0 0;background:var(--laiton);
-  border-radius:0 2px 2px 0}
-footer{max-width:1400px;margin:0 auto;padding:1.2rem 1.5rem 3rem;
-  border-top:1px solid var(--trait);font-size:.8rem;color:var(--sourd)}
-code{font-family:var(--mono);font-size:.88em;color:var(--encre)}
+td{padding:.5rem 0 .5rem .6rem;text-align:right;border-bottom:1px solid var(--trait);
+  color:var(--sourd);white-space:nowrap;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+td:first-child{text-align:left;padding-left:0;color:var(--encre);
+  white-space:normal;font-weight:600;letter-spacing:-.01em}
+td.issue{width:3rem;font-weight:500}
+td.issue.gagne{color:var(--encre);font-weight:700;background:var(--vert-voile);
+  border-radius:var(--r-pilule);box-shadow:inset 0 0 0 1px var(--vert-voile)}
+td.annule{color:var(--sourd);font-weight:600;font-style:italic}
+
+/* ---------- histogramme ---------- */
+.colonnes{display:flex;align-items:flex-end;gap:5px;height:160px;
+  padding:1.5rem .2rem 0}
+.colonnes .col{flex:1;display:flex;flex-direction:column;justify-content:flex-end;
+  height:100%;position:relative;min-width:0}
+/* Une hauteur minimale de 5 px : les rangs payants concernent trois grilles
+   sur neuf mille, donc leur barre est invisible à l'échelle. La rareté reste
+   lisible — la barre reste minuscule — mais l'information ne disparaît pas. */
+.colonnes .barre{background:var(--encre);border-radius:6px 6px 3px 3px;
+  min-height:5px;opacity:.26;transition:opacity .15s}
+.colonnes .col.paye .barre{background:var(--vert);opacity:1}
+.colonnes .col:hover .barre{opacity:.55}
+.colonnes .col.paye:hover .barre{opacity:.85}
+.colonnes .val{position:absolute;bottom:100%;left:-3px;right:-3px;text-align:center;
+  font-size:.62rem;font-weight:600;color:var(--sourd);padding-bottom:4px;
+  font-variant-numeric:tabular-nums}
+.abscisse{display:flex;gap:5px;padding:.5rem .2rem 0;border-top:1px solid var(--trait);
+  margin-top:.35rem}
+.abscisse span{flex:1;text-align:center;font-size:.72rem;font-weight:600;
+  color:var(--sourd);min-width:0}
+.abscisse span.paye{color:var(--vert)}
+.legende{font-size:.78rem;color:var(--sourd);margin:.8rem 0 0}
+
+footer{margin-top:1.4rem;padding:1.1rem 1.4rem;background:var(--surface);
+  border:1px solid var(--trait);border-radius:var(--r-carte);
+  font-size:.78rem;color:var(--sourd);box-shadow:var(--ombre)}
+code{font-family:ui-monospace,Menlo,monospace;font-size:.86em;color:var(--encre)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
 <body>
 
-<header><div class="bandeau">
-  <h1>Grilles Loto Foot</h1>
-  <span class="resume" id="resume">chargement…</span>
-</div></header>
+<div class="page">
+<header>
+  <div class="bandeau">
+    <h1>Grilles Loto&nbsp;Foot</h1>
+    <div class="resume" id="resume"><span>chargement…</span></div>
+    <div class="theme" role="group" aria-label="Thème">
+      <button data-theme="" aria-pressed="false">Auto</button>
+      <button data-theme="light" aria-pressed="false">Clair</button>
+      <button data-theme="dark" aria-pressed="false">Sombre</button>
+    </div>
+  </div>
+</header>
 
 <div class="filtres">
   <select id="f-type"><option value="">Tous les types</option></select>
@@ -147,8 +229,8 @@ code{font-family:var(--mono);font-size:.88em;color:var(--encre)}
 </div>
 
 <main>
-  <div class="liste" id="liste"></div>
-  <div class="detail" id="detail">
+  <div class="carte liste" id="liste"></div>
+  <div class="carte detail" id="detail">
     <p class="vide">Choisis une grille dans la liste.</p>
   </div>
 </main>
@@ -162,8 +244,24 @@ code{font-family:var(--mono);font-size:.88em;color:var(--encre)}
   des affiches. Le TRJ est le montant distribué rapporté aux mises brutes,
   à 1 € la grille.
 </footer>
+</div>
 
 <script>
+/* Le thème choisi survit au rechargement. localStorage peut lever — fenêtre
+   privée, cookies bloqués — et la page doit alors se contenter du système. */
+function appliquerTheme(t) {
+  if (t) document.documentElement.setAttribute("data-theme", t);
+  else document.documentElement.removeAttribute("data-theme");
+  document.querySelectorAll(".theme button").forEach(b =>
+    b.setAttribute("aria-pressed", String(b.dataset.theme === t)));
+  try { t ? localStorage.setItem("theme", t) : localStorage.removeItem("theme"); }
+  catch (e) { /* sans stockage, le choix vaut pour la session */ }
+}
+try { appliquerTheme(localStorage.getItem("theme") || ""); }
+catch (e) { appliquerTheme(""); }
+document.querySelectorAll(".theme button").forEach(b =>
+  b.addEventListener("click", () => appliquerTheme(b.dataset.theme)));
+
 const ISSUES = ["1", "N", "2"];
 let IDX = null, COTES = {}, FILTRÉES = [], COURANTE = null;
 
@@ -182,6 +280,11 @@ function decoderResultat(code, nb) {
 
 const eur = (v, d = 2) => v == null ? "—" :
   v.toLocaleString("fr-FR", {minimumFractionDigits: d, maximumFractionDigits: d}) + " €";
+/* 2026-08-16 devient 16/08/26 : c'est la forme qu'on lit sur un bulletin. */
+const STATUTS = {CLOSED: "réglée", OPEN: "en cours", CANCELLED: "annulée",
+                 SUSPENDED: "suspendue"};
+const jjmmaa = d => /^\d{4}-\d{2}-\d{2}$/.test(d || "")
+  ? `${d.slice(8, 10)}/${d.slice(5, 7)}/${d.slice(2, 4)}` : "—";
 const num = v => v == null ? "—" : v.toLocaleString("fr-FR");
 
 async function demarrer() {
@@ -196,8 +299,9 @@ async function demarrer() {
   const cotees = IDX.filter(g => g.cotees).length;
   const overlays = IDX.filter(g => g.trj > 1).length;
   document.getElementById("resume").innerHTML =
-    `<b>${num(IDX.length)}</b> grilles · <b>${num(cotees)}</b> avec cotes · ` +
-    `<b>${overlays}</b> à TRJ &gt; 100 %`;
+    `<span><i class="chiffres">${num(IDX.length)}</i>grilles</span>
+     <span><i class="chiffres">${num(cotees)}</i>avec cotes</span>
+     <span><i class="chiffres">${overlays}</i>TRJ &gt; 100 %</span>`;
 
   remplir("f-type", [...new Set(IDX.map(g => g.type))].sort((a, b) => a - b),
           v => `Grille ${v}`);
@@ -242,17 +346,22 @@ function dessinerListe() {
   document.getElementById("compte").textContent =
     `${num(FILTRÉES.length)} grille${FILTRÉES.length > 1 ? "s" : ""}` +
     (FILTRÉES.length > PLAFOND ? ` — ${PLAFOND} affichées` : "");
-  el.innerHTML = montrees.map(g => {
-    const r1 = (g.rapports || [])[0];
+  const entete = `<div class="entete-liste"><span>Grille</span><span>Date</span>
+    <span>Garanti</span><span>Distribué</span><span></span></div>`;
+  el.innerHTML = entete + (montrees.map(g => {
+    // Le distribué prend l'accent quand il dépasse la garantie : c'est le
+    // signe que le pot s'est rempli tout seul, et l'inverse est plus rare.
+    const comble = g.distribue != null && g.garanti != null
+      && g.distribue > g.garanti + 0.5;
     return `<button class="ligne" data-cle="${g.type}/${g.id}"
       aria-current="${COURANTE === `${g.type}/${g.id}`}">
       <span class="num">${g.type}·${g.id}</span>
-      <span class="date">${g.date}</span>
-      <span class="aff">${g.affiches || "—"}</span>
-      <span class="rap">${r1 && r1[2] != null ? eur(r1[2], 0) : "—"}
-        ${g.trj > 1 ? '<span class="pastille sur">TRJ+</span>' : ""}</span>
+      <span class="date">${jjmmaa(g.date)}</span>
+      <span class="eur">${eur(g.garanti, 0)}</span>
+      <span class="eur${comble ? " fort" : ""}">${eur(g.distribue, 0)}</span>
+      <span class="marque">${g.trj > 1 ? '<span class="pastille sur">TRJ+</span>' : ""}</span>
     </button>`;
-  }).join("") || `<p class="vide" style="padding:1.5rem">Aucune grille.</p>`;
+  }).join("") || `<p class="vide" style="padding:1.5rem">Aucune grille.</p>`);
   el.querySelectorAll(".ligne").forEach(b =>
     b.addEventListener("click", () => { location.hash = b.dataset.cle; }));
 }
@@ -311,14 +420,19 @@ async function ouvrir(type, id) {
   const rep = d.repartition || [];
   const maxi = Math.max(1, ...rep);
   const jouees = rep.reduce((a, b) => a + b, 0);
+  // Les rangs effectivement payés se colorent : on voit d'un coup où la
+  // masse des joueurs s'est arrêtée, et où l'argent a commencé.
+  const payes = new Set((d.rapports || []).map(r => r.nbCorrectResults));
   const public_ = rep.length ? `<h3>Ce que le public a obtenu</h3>
-    <table class="barres"><thead><tr><th>Bons résultats</th><th>Grilles</th>
-    <th style="width:45%">Part</th></tr></thead><tbody>${
-      rep.map((n, k) => `<tr><td>${k}</td><td>${num(n)}</td>
-        <td><div class="jauge"><span style="width:${100 * n / maxi}%"></span></div></td>
-      </tr>`).join("")}</tbody></table>
-    <p style="font-size:.8rem;color:var(--sourd);margin:.5rem 0 0">
-      ${num(jouees)} grilles jouées.</p>` : "";
+    <div class="colonnes">${rep.map((n, k) => `
+      <div class="col${payes.has(k) ? " paye" : ""}" title="${k} bons résultats : ${num(n)} grilles">
+        <span class="val">${n ? num(n) : ""}</span>
+        <div class="barre" style="height:${100 * n / maxi}%"></div>
+      </div>`).join("")}</div>
+    <div class="abscisse">${rep.map((n, k) =>
+      `<span class="${payes.has(k) ? "paye" : ""}">${k}</span>`).join("")}</div>
+    <p class="legende">${num(jouees)} grilles jouées, par nombre de bons
+      résultats. En vert, les rangs qui ont rapporté.</p>` : "";
 
   const trj = meta.trj;
   el.innerHTML = `
@@ -330,8 +444,11 @@ async function ouvrir(type, id) {
           data-va="${lien(FILTRÉES[i + 1])}">suivante ›</button>
       </div>
     </div>
-    <div class="sous">${d.fin ? d.fin.slice(0, 10) : "date inconnue"}
-      ${meta.famille ? " · " + meta.famille : ""} · ${ms.length} matchs</div>
+    <div class="sous">
+      <span>${d.fin ? jjmmaa(d.fin.slice(0, 10)) : "date inconnue"}</span>
+      ${meta.famille ? `<span>${meta.famille}</span>` : ""}
+      <span>${ms.length} matchs</span>
+      ${d.statut ? `<span>${STATUTS[d.statut] || d.statut.toLowerCase()}</span>` : ""}</div>
     <div class="tuiles">
       <div class="tuile"><span class="lab">Mises brutes</span>
         <span class="val">${jouees ? num(jouees) + " €" : "—"}</span></div>
