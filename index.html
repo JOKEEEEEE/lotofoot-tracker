@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grilles Loto Foot — Winamax</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='2' fill='%238A6A18'/%3E%3Cg fill='%23fff'%3E%3Crect x='3' y='3' width='3' height='2.4' rx='.5'/%3E%3Crect x='3' y='6.8' width='3' height='2.4' rx='.5' opacity='.45'/%3E%3Crect x='3' y='10.6' width='3' height='2.4' rx='.5' opacity='.45'/%3E%3Crect x='10' y='3' width='3' height='2.4' rx='.5' opacity='.45'/%3E%3Crect x='10' y='6.8' width='3' height='2.4' rx='.5'/%3E%3Crect x='10' y='10.6' width='3' height='2.4' rx='.5' opacity='.45'/%3E%3C/g%3E%3C/svg%3E">
+<meta name="description" content="Onze ans de grilles Winamax : affiches, cotes, résultats, rapports et répartition du public.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root {
+  --fond:#F1F3F1; --surface:#FBFCFB; --encre:#16262B; --sourd:#5C6E73;
+  --trait:#D3DAD8; --laiton:#8A6A18; --laiton-voile:#8A6A1826;
+  --brique:#8E3B2C; --brique-voile:#8E3B2C14; --vert:#2F6B4F;
+  --serif:"Newsreader",Georgia,serif;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root{
+  --fond:#0D1316; --surface:#141C20; --encre:#E3E9E7; --sourd:#93A6AA;
+  --trait:#26343A; --laiton:#D2A33A; --laiton-voile:#D2A33A2E;
+  --brique:#DB8570; --brique-voile:#DB85701A; --vert:#6FBF97;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--encre);font-family:var(--sans);
+  font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--laiton)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--laiton);outline-offset:2px;border-radius:2px}
+
+header{padding:1.6rem 1.5rem 1.1rem;border-bottom:1px solid var(--trait)}
+.bandeau{max-width:1400px;margin:0 auto;display:flex;flex-wrap:wrap;
+  align-items:baseline;gap:0 1.6rem}
+h1{font-family:var(--serif);font-weight:600;font-size:1.7rem;letter-spacing:-.015em;
+  margin:0 .6rem 0 0}
+.resume{font-family:var(--mono);font-size:.72rem;letter-spacing:.03em;
+  text-transform:uppercase;color:var(--sourd)}
+.resume b{color:var(--encre);font-weight:500}
+
+.filtres{max-width:1400px;margin:0 auto;padding:.9rem 1.5rem;display:flex;
+  flex-wrap:wrap;gap:.5rem;align-items:center;border-bottom:1px solid var(--trait)}
+select,input[type=search]{font:inherit;font-size:.85rem;padding:.35rem .6rem;
+  background:var(--surface);color:var(--encre);border:1px solid var(--trait);
+  border-radius:3px}
+input[type=search]{min-width:15rem;flex:1}
+.bascule{display:inline-flex;align-items:center;gap:.4rem;font-size:.85rem;
+  color:var(--sourd);cursor:pointer}
+.compte{font-family:var(--mono);font-size:.78rem;color:var(--sourd);
+  margin-left:auto;padding-left:1.2rem}
+
+main{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);
+  gap:0;align-items:start}
+@media (max-width:900px){main{grid-template-columns:1fr}}
+
+.liste{border-right:1px solid var(--trait);max-height:calc(100vh - 9.5rem);
+  overflow-y:auto}
+@media (max-width:900px){.liste{max-height:26rem;border-right:0;
+  border-bottom:1px solid var(--trait)}}
+.ligne{display:grid;grid-template-columns:4.4rem 5.6rem 1fr auto;gap:.7rem;
+  align-items:baseline;padding:.55rem 1.5rem;border-bottom:1px solid var(--trait);
+  cursor:pointer;background:none;border-left:0;border-right:0;border-top:0;
+  width:100%;text-align:left;font-size:.84rem}
+.ligne:hover{background:var(--laiton-voile)}
+.ligne[aria-current=true]{background:var(--laiton-voile);
+  box-shadow:inset 3px 0 0 var(--laiton)}
+.ligne .num{font-family:var(--mono);font-weight:500}
+.ligne .date{font-family:var(--mono);color:var(--sourd);font-size:.78rem}
+.ligne .aff{color:var(--sourd);overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap}
+.ligne .rap{font-family:var(--mono);font-variant-numeric:tabular-nums;
+  font-size:.8rem;text-align:right}
+
+.pastille{display:inline-block;font-family:var(--mono);font-size:.64rem;
+  letter-spacing:.05em;padding:.05rem .34rem;border-radius:2px;
+  border:1px solid var(--trait);color:var(--sourd);vertical-align:.06em}
+.pastille.sur{border-color:var(--vert);color:var(--vert);font-weight:500}
+.pastille.gar{border-color:var(--laiton);color:var(--laiton)}
+
+.detail{padding:1.4rem 1.5rem 4rem;max-height:calc(100vh - 9.5rem);overflow-y:auto}
+@media (max-width:900px){.detail{max-height:none}}
+.vide{color:var(--sourd);font-family:var(--serif);font-size:1.05rem;padding:2rem 0}
+.tete-detail{display:flex;flex-wrap:wrap;align-items:baseline;gap:.8rem;
+  margin-bottom:.2rem}
+h2{font-family:var(--serif);font-weight:600;font-size:1.45rem;margin:0;
+  letter-spacing:-.012em}
+.sous{font-family:var(--mono);font-size:.76rem;color:var(--sourd);
+  text-transform:uppercase;letter-spacing:.04em;margin-bottom:1.1rem}
+.nav{display:flex;gap:.4rem;margin-left:auto}
+.nav button{background:var(--surface);border:1px solid var(--trait);
+  border-radius:3px;padding:.2rem .6rem;font-size:.82rem;cursor:pointer}
+.nav button:hover:not(:disabled){border-color:var(--laiton);color:var(--laiton)}
+.nav button:disabled{opacity:.35;cursor:default}
+
+.tuiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));
+  gap:1px;background:var(--trait);border:1px solid var(--trait);border-radius:3px;
+  overflow:hidden;margin-bottom:1.3rem}
+.tuile{background:var(--surface);padding:.7rem .8rem}
+.tuile .lab{font-family:var(--mono);font-size:.63rem;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--sourd);display:block}
+.tuile .val{font-family:var(--mono);font-variant-numeric:tabular-nums;
+  font-size:1.15rem;font-weight:500;letter-spacing:-.01em}
+.tuile .val.accent{color:var(--laiton)}
+.tuile .val.bien{color:var(--vert)}
+
+h3{font-family:var(--sans);font-weight:600;font-size:.72rem;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--sourd);margin:1.4rem 0 .5rem}
+table{width:100%;border-collapse:collapse;font-size:.85rem}
+th{font-family:var(--mono);font-weight:400;font-size:.64rem;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--sourd);text-align:right;
+  padding:0 0 .4rem .7rem;border-bottom:1px solid var(--trait);white-space:nowrap}
+th:first-child{text-align:left;padding-left:0}
+td{padding:.32rem 0 .32rem .7rem;text-align:right;border-bottom:1px solid var(--trait);
+  font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--sourd);
+  white-space:nowrap}
+td:first-child{text-align:left;padding-left:0;font-family:var(--sans);
+  color:var(--encre);white-space:normal}
+td.issue{width:2.6rem;color:var(--sourd)}
+td.issue.gagne{color:var(--encre);font-weight:500;background:var(--laiton-voile);
+  border-radius:2px}
+td.annule{color:var(--brique)}
+.barres td{padding:.15rem 0}
+.jauge{position:relative;height:11px;background:var(--trait);border-radius:2px;
+  overflow:hidden;min-width:4rem}
+.jauge span{position:absolute;inset:0 auto 0 0;background:var(--laiton);
+  border-radius:0 2px 2px 0}
+footer{max-width:1400px;margin:0 auto;padding:1.2rem 1.5rem 3rem;
+  border-top:1px solid var(--trait);font-size:.8rem;color:var(--sourd)}
+code{font-family:var(--mono);font-size:.88em;color:var(--encre)}
+</style>
+</head>
+<body>
+
+<header><div class="bandeau">
+  <h1>Grilles Loto Foot</h1>
+  <span class="resume" id="resume">chargement…</span>
+</div></header>
+
+<div class="filtres">
+  <select id="f-type"><option value="">Tous les types</option></select>
+  <select id="f-annee"><option value="">Toutes les années</option></select>
+  <select id="f-famille"><option value="">Toutes compétitions</option></select>
+  <input type="search" id="f-texte" placeholder="Chercher une équipe, un numéro…">
+  <label class="bascule"><input type="checkbox" id="f-overlay"> TRJ &gt; 100 %</label>
+  <span class="compte" id="compte"></span>
+</div>
+
+<main>
+  <div class="liste" id="liste"></div>
+  <div class="detail" id="detail">
+    <p class="vide">Choisis une grille dans la liste.</p>
+  </div>
+</main>
+
+<footer>
+  Données collectées depuis Winamax. Les résultats sont lus dans
+  <code>strPoolResult</code>, qui s'écrit à l'envers. Les cotes viennent de
+  Winamax, Pinnacle, Bet365 ou Footiqo selon la disponibilité —
+  <span class="pastille">w</span> <span class="pastille">p</span>
+  <span class="pastille">b</span> <span class="pastille">f</span> dans le tableau
+  des affiches. Le TRJ est le montant distribué rapporté aux mises brutes,
+  à 1 € la grille.
+</footer>
+
+<script>
+const ISSUES = ["1", "N", "2"];
+let IDX = null, COTES = {}, FILTRÉES = [], COURANTE = null;
+
+/* strPoolResult S'ÉCRIT À L'ENVERS : le premier triplet décrit le DERNIER
+   match. Lu à l'endroit, le site attribuerait chaque résultat au mauvais
+   match — l'erreur la plus facile à commettre et la plus dure à voir. */
+function decoderResultat(code, nb) {
+  if (!code || code.length !== 3 * nb) return Array(nb).fill(null);
+  const triplets = [];
+  for (let i = 0; i < code.length; i += 3) triplets.push(code.slice(i, i + 3));
+  return triplets.reverse().map(t => {
+    const gagnantes = ISSUES.filter((_, i) => t[i] === "1");
+    return gagnantes.length ? gagnantes : null;
+  });
+}
+
+const eur = (v, d = 2) => v == null ? "—" :
+  v.toLocaleString("fr-FR", {minimumFractionDigits: d, maximumFractionDigits: d}) + " €";
+const num = v => v == null ? "—" : v.toLocaleString("fr-FR");
+
+async function demarrer() {
+  const [idx, cotes] = await Promise.all([
+    fetch("data/index_site.json").then(r => r.json()),
+    fetch("data/cotes_site.json").then(r => r.json()).catch(() => ({})),
+  ]);
+  const c = idx.champs;
+  IDX = idx.grilles.map(g => Object.fromEntries(c.map((n, i) => [n, g[i]])));
+  COTES = cotes;
+
+  const cotees = IDX.filter(g => g.cotees).length;
+  const overlays = IDX.filter(g => g.trj > 1).length;
+  document.getElementById("resume").innerHTML =
+    `<b>${num(IDX.length)}</b> grilles · <b>${num(cotees)}</b> avec cotes · ` +
+    `<b>${overlays}</b> à TRJ &gt; 100 %`;
+
+  remplir("f-type", [...new Set(IDX.map(g => g.type))].sort((a, b) => a - b),
+          v => `Grille ${v}`);
+  remplir("f-annee", [...new Set(IDX.map(g => g.date.slice(0, 4)))].sort().reverse());
+  remplir("f-famille", [...new Set(IDX.map(g => g.famille).filter(Boolean))].sort());
+  for (const id of ["f-type", "f-annee", "f-famille", "f-texte", "f-overlay"])
+    document.getElementById(id).addEventListener("input", filtrer);
+  window.addEventListener("hashchange", depuisAdresse);
+  filtrer();
+  depuisAdresse();
+}
+
+function remplir(id, valeurs, libelle = v => v) {
+  const s = document.getElementById(id);
+  for (const v of valeurs) {
+    const o = document.createElement("option");
+    o.value = v; o.textContent = libelle(v);
+    s.appendChild(o);
+  }
+}
+
+function filtrer() {
+  const t = document.getElementById("f-type").value;
+  const a = document.getElementById("f-annee").value;
+  const f = document.getElementById("f-famille").value;
+  const q = document.getElementById("f-texte").value.trim().toLowerCase();
+  const o = document.getElementById("f-overlay").checked;
+  FILTRÉES = IDX.filter(g =>
+    (!t || String(g.type) === t) &&
+    (!a || g.date.startsWith(a)) &&
+    (!f || g.famille === f) &&
+    (!o || g.trj > 1) &&
+    (!q || g.affiches.toLowerCase().includes(q) || String(g.id) === q));
+  FILTRÉES.sort((x, y) => y.date.localeCompare(x.date) || y.id - x.id);
+  dessinerListe();
+}
+
+const PLAFOND = 400;
+function dessinerListe() {
+  const el = document.getElementById("liste");
+  const montrees = FILTRÉES.slice(0, PLAFOND);
+  document.getElementById("compte").textContent =
+    `${num(FILTRÉES.length)} grille${FILTRÉES.length > 1 ? "s" : ""}` +
+    (FILTRÉES.length > PLAFOND ? ` — ${PLAFOND} affichées` : "");
+  el.innerHTML = montrees.map(g => {
+    const r1 = (g.rapports || [])[0];
+    return `<button class="ligne" data-cle="${g.type}/${g.id}"
+      aria-current="${COURANTE === `${g.type}/${g.id}`}">
+      <span class="num">${g.type}·${g.id}</span>
+      <span class="date">${g.date}</span>
+      <span class="aff">${g.affiches || "—"}</span>
+      <span class="rap">${r1 && r1[2] != null ? eur(r1[2], 0) : "—"}
+        ${g.trj > 1 ? '<span class="pastille sur">TRJ+</span>' : ""}</span>
+    </button>`;
+  }).join("") || `<p class="vide" style="padding:1.5rem">Aucune grille.</p>`;
+  el.querySelectorAll(".ligne").forEach(b =>
+    b.addEventListener("click", () => { location.hash = b.dataset.cle; }));
+}
+
+function depuisAdresse() {
+  const cle = location.hash.replace(/^#/, "");
+  if (!/^\d+\/\d+$/.test(cle)) return;
+  COURANTE = cle;
+  dessinerListe();
+  ouvrir(...cle.split("/").map(Number));
+}
+
+async function ouvrir(type, id) {
+  const el = document.getElementById("detail");
+  el.innerHTML = `<p class="vide">Chargement de la grille ${id}…</p>`;
+  let d;
+  try {
+    d = await fetch(`data/pools/grille${type}/${id}.json`).then(r => {
+      if (!r.ok) throw new Error(r.status); return r.json();
+    });
+  } catch (e) {
+    el.innerHTML = `<p class="vide">Grille ${id} introuvable (${e.message}).</p>`;
+    return;
+  }
+  const meta = IDX.find(g => g.type === type && g.id === id) || {};
+  const ms = d.matches || [];
+  const issues = decoderResultat(d.resultat_code, ms.length);
+  const i = FILTRÉES.findIndex(g => g.type === type && g.id === id);
+  const lien = g => g ? `${g.type}/${g.id}` : null;
+
+  const affiches = ms.map((m, k) => {
+    const iss = issues[k];
+    const annule = iss && iss.length === 3;
+    const cote = COTES[String(m.match_id)];
+    const cases = ISSUES.map((nom, j) => {
+      const gagne = iss && iss.includes(nom) && !annule;
+      const v = cote ? cote[j].toFixed(2) : "—";
+      return `<td class="issue${gagne ? " gagne" : ""}">${v}</td>`;
+    }).join("");
+    const score = (m.score_home != null && m.score_away != null)
+      ? `${m.score_home}-${m.score_away}` : "—";
+    return `<tr>
+      <td>${m.home ?? "?"} <span style="color:var(--sourd)">—</span> ${m.away ?? "?"}</td>
+      ${cases}
+      <td class="${annule ? "annule" : ""}">${annule ? "annulé" : score}</td>
+      <td>${cote ? `<span class="pastille">${cote[3]}</span>` : ""}</td>
+    </tr>`;
+  }).join("");
+
+  const rangs = (d.rapports || []).map(r => `<tr>
+      <td>${r.nbCorrectResults} bons résultats</td>
+      <td>${num(r.winningGrids)}</td>
+      <td>${eur(r.winningsPerGrid)}</td>
+    </tr>`).join("");
+
+  const rep = d.repartition || [];
+  const maxi = Math.max(1, ...rep);
+  const jouees = rep.reduce((a, b) => a + b, 0);
+  const public_ = rep.length ? `<h3>Ce que le public a obtenu</h3>
+    <table class="barres"><thead><tr><th>Bons résultats</th><th>Grilles</th>
+    <th style="width:45%">Part</th></tr></thead><tbody>${
+      rep.map((n, k) => `<tr><td>${k}</td><td>${num(n)}</td>
+        <td><div class="jauge"><span style="width:${100 * n / maxi}%"></span></div></td>
+      </tr>`).join("")}</tbody></table>
+    <p style="font-size:.8rem;color:var(--sourd);margin:.5rem 0 0">
+      ${num(jouees)} grilles jouées.</p>` : "";
+
+  const trj = meta.trj;
+  el.innerHTML = `
+    <div class="tete-detail">
+      <h2>Grille ${type} n°${id}</h2>
+      <div class="nav">
+        <button ${i > 0 ? "" : "disabled"} data-va="${lien(FILTRÉES[i - 1])}">‹ précédente</button>
+        <button ${i >= 0 && i < FILTRÉES.length - 1 ? "" : "disabled"}
+          data-va="${lien(FILTRÉES[i + 1])}">suivante ›</button>
+      </div>
+    </div>
+    <div class="sous">${d.fin ? d.fin.slice(0, 10) : "date inconnue"}
+      ${meta.famille ? " · " + meta.famille : ""} · ${ms.length} matchs</div>
+    <div class="tuiles">
+      <div class="tuile"><span class="lab">Mises brutes</span>
+        <span class="val">${jouees ? num(jouees) + " €" : "—"}</span></div>
+      <div class="tuile"><span class="lab">Pot distribué</span>
+        <span class="val">${eur(d.montant_distribue, 0)}</span></div>
+      <div class="tuile"><span class="lab">Garanti</span>
+        <span class="val">${eur(d.montant_garanti, 0)}</span></div>
+      <div class="tuile"><span class="lab">TRJ</span>
+        <span class="val ${trj > 1 ? "bien" : trj ? "accent" : ""}">${
+          trj ? (100 * trj).toFixed(1) + " %" : "—"}</span></div>
+    </div>
+    <h3>Les affiches</h3>
+    <table><thead><tr><th>Match</th><th>1</th><th>N</th><th>2</th>
+      <th>Score</th><th></th></tr></thead><tbody>${affiches}</tbody></table>
+    ${rangs ? `<h3>Rapports</h3><table><thead><tr><th>Rang</th>
+      <th>Gagnants</th><th>Par grille</th></tr></thead><tbody>${rangs}</tbody></table>` : ""}
+    ${public_}`;
+  el.querySelectorAll("[data-va]").forEach(b => b.addEventListener("click", () => {
+    if (b.dataset.va !== "null") location.hash = b.dataset.va;
+  }));
+  el.scrollTop = 0;
+}
+
+demarrer().catch(e => {
+  document.getElementById("resume").textContent = "erreur de chargement : " + e.message;
+});
+</script>
+</body>
+</html>

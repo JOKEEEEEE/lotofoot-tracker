@@ -55,6 +55,13 @@ if [ "$echec" = 1 ] && ! ls data/pools/*/*.json >/dev/null 2>&1; then
     exit 0
 fi
 
+# L'INDEX DU SITE SE REFAIT AVEC LA COLLECTE. Sans cette ligne, le site
+# publié par GitHub Pages afficherait indéfiniment la base d'hier alors que
+# les fichiers de grille, eux, seraient à jour — l'incohérence la plus
+# pénible à diagnostiquer, puisque tout paraît fonctionner.
+python construire_site.py >> "$JOURNAL" 2>&1 || \
+    echo "index du site non refait" >> "$JOURNAL"
+
 # Le dépôt d'abord à jour, sinon le push sera refusé et la collecte du
 # lendemain repartirait sur un dépôt divergent.
 git pull --rebase --autostash -q origin main >> "$JOURNAL" 2>&1 || {
@@ -62,7 +69,7 @@ git pull --rebase --autostash -q origin main >> "$JOURNAL" 2>&1 || {
     exit 0
 }
 
-git add data/pools
+git add data/pools data/index_site.json data/cotes_site.json
 if git diff --cached --quiet; then
     echo "rien de nouveau" >> "$JOURNAL"
     exit 0
