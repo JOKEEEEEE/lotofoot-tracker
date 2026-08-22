@@ -107,6 +107,11 @@ main{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);
   font-size:.63rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
   color:var(--sourd)}
 .entete-liste span:nth-child(n+3){text-align:right}
+.groupe{position:sticky;top:2.45rem;z-index:1;display:flex;align-items:baseline;
+  gap:.6rem;padding:.5rem 1.2rem;background:var(--carte-2);
+  border-bottom:1px solid var(--trait);border-top:1px solid var(--trait);
+  font-size:.72rem;font-weight:700;letter-spacing:.04em;color:var(--encre)}
+.groupe b{margin-left:auto;font-weight:600;color:var(--sourd);font-size:.7rem}
 .ligne{display:grid;grid-template-columns:4.8rem 4.4rem 1fr 1fr 2.9rem;gap:.6rem;
   align-items:center;padding:.62rem 1.2rem;border:0;border-bottom:1px solid var(--trait);
   cursor:pointer;background:none;width:100%;text-align:left;font-size:.85rem;
@@ -169,9 +174,15 @@ td{padding:.5rem 0 .5rem .6rem;text-align:right;border-bottom:1px solid var(--tr
 tr:last-child td{border-bottom:0}
 td:first-child{text-align:left;padding-left:0;color:var(--encre);
   white-space:normal;font-weight:600;letter-spacing:-.01em}
-td.issue{width:3rem;font-weight:500}
-td.issue.gagne{color:var(--encre);font-weight:700;background:var(--vert-voile);
-  border-radius:var(--r-pilule);box-shadow:inset 0 0 0 1px var(--vert-voile)}
+/* LE SURLIGNAGE VA SUR UN SPAN, PAS SUR LA CELLULE. Une cellule de tableau
+   porte son propre remplissage et s'étire sur toute la hauteur de la ligne :
+   le fond arrondi s'y décalait et débordait. Un span en bloc en ligne se
+   dimensionne sur son texte, donc la pastille tombe juste. */
+td.issue{width:3.4rem;font-weight:500;padding-left:.4rem}
+td.issue span{display:inline-block;min-width:2.9rem;padding:.16rem .45rem;
+  border-radius:var(--r-pilule);text-align:center}
+td.issue.gagne span{color:var(--encre);font-weight:700;background:var(--vert-voile);
+  box-shadow:inset 0 0 0 1px var(--vert)}
 td.annule{color:var(--sourd);font-weight:600;font-style:italic}
 
 /* ---------- histogramme ---------- */
@@ -224,6 +235,13 @@ code{font-family:ui-monospace,Menlo,monospace;font-size:.86em;color:var(--encre)
   <select id="f-annee"><option value="">Toutes les années</option></select>
   <select id="f-famille"><option value="">Toutes compétitions</option></select>
   <input type="search" id="f-texte" placeholder="Chercher une équipe, un numéro…">
+  <select id="f-groupe">
+    <option value="">Sans regroupement</option>
+    <option value="mois">Grouper par mois</option>
+    <option value="annee">Grouper par année</option>
+    <option value="famille">Grouper par compétition</option>
+    <option value="type">Grouper par type de grille</option>
+  </select>
   <label class="bascule"><input type="checkbox" id="f-overlay"> TRJ &gt; 100 %</label>
   <span class="compte" id="compte"></span>
 </div>
@@ -283,6 +301,8 @@ const eur = (v, d = 2) => v == null ? "—" :
 /* 2026-08-16 devient 16/08/26 : c'est la forme qu'on lit sur un bulletin. */
 const STATUTS = {CLOSED: "réglée", OPEN: "en cours", CANCELLED: "annulée",
                  SUSPENDED: "suspendue"};
+const PROVENANCES = {w: "Winamax", p: "Pinnacle (clôture)", b: "Bet365 (clôture)",
+                     f: "Footiqo (clôture)", "?": "source inconnue"};
 const jjmmaa = d => /^\d{4}-\d{2}-\d{2}$/.test(d || "")
   ? `${d.slice(8, 10)}/${d.slice(5, 7)}/${d.slice(2, 4)}` : "—";
 const num = v => v == null ? "—" : v.toLocaleString("fr-FR");
@@ -307,7 +327,7 @@ async function demarrer() {
           v => `Grille ${v}`);
   remplir("f-annee", [...new Set(IDX.map(g => g.date.slice(0, 4)))].sort().reverse());
   remplir("f-famille", [...new Set(IDX.map(g => g.famille).filter(Boolean))].sort());
-  for (const id of ["f-type", "f-annee", "f-famille", "f-texte", "f-overlay"])
+  for (const id of ["f-type", "f-annee", "f-famille", "f-texte", "f-overlay", "f-groupe"])
     document.getElementById(id).addEventListener("input", filtrer);
   window.addEventListener("hashchange", depuisAdresse);
   filtrer();
@@ -335,25 +355,57 @@ function filtrer() {
     (!f || g.famille === f) &&
     (!o || g.trj > 1) &&
     (!q || g.affiches.toLowerCase().includes(q) || String(g.id) === q));
-  FILTRÉES.sort((x, y) => y.date.localeCompare(x.date) || y.id - x.id);
+  const critere = document.getElementById("f-groupe").value;
+  // TRIER PAR PAQUET D'ABORD. Sans cela un même mois réapparaîtrait plusieurs
+  // fois dans la liste, chaque fois qu'une grille d'un autre mois s'intercale.
+  FILTRÉES.sort((x, y) =>
+    (critere ? paquet(y, critere)[0].localeCompare(paquet(x, critere)[0]) : 0) ||
+    y.date.localeCompare(x.date) || y.id - x.id);
   dessinerListe();
 }
 
 const PLAFOND = 400;
+const MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
+              "août", "septembre", "octobre", "novembre", "décembre"];
+
+/* De quel paquet relève une grille. Rend une chaîne triable et son libellé :
+   « 2026-08 » se range correctement là où « août 2026 » se rangerait sous a. */
+function paquet(g, critere) {
+  if (critere === "mois") {
+    const m = Number(g.date.slice(5, 7));
+    return [g.date.slice(0, 7), `${MOIS[m - 1] || "?"} ${g.date.slice(0, 4)}`];
+  }
+  if (critere === "annee") return [g.date.slice(0, 4), g.date.slice(0, 4)];
+  if (critere === "famille") return [g.famille || "zzz", g.famille || "indéterminée"];
+  if (critere === "type") return [String(g.type), `Grille ${g.type}`];
+  return ["", ""];
+}
 function dessinerListe() {
   const el = document.getElementById("liste");
   const montrees = FILTRÉES.slice(0, PLAFOND);
   document.getElementById("compte").textContent =
     `${num(FILTRÉES.length)} grille${FILTRÉES.length > 1 ? "s" : ""}` +
     (FILTRÉES.length > PLAFOND ? ` — ${PLAFOND} affichées` : "");
+  const critere = document.getElementById("f-groupe").value;
   const entete = `<div class="entete-liste"><span>Grille</span><span>Date</span>
     <span>Garanti</span><span>Distribué</span><span></span></div>`;
+  let paquetCourant = null;
   el.innerHTML = entete + (montrees.map(g => {
+    let bandeau = "";
+    if (critere) {
+      const [cle, libelle] = paquet(g, critere);
+      if (cle !== paquetCourant) {
+        paquetCourant = cle;
+        const combien = FILTRÉES.filter(x => paquet(x, critere)[0] === cle).length;
+        bandeau = `<div class="groupe">${libelle}<b>${num(combien)} grille${
+          combien > 1 ? "s" : ""}</b></div>`;
+      }
+    }
     // Le distribué prend l'accent quand il dépasse la garantie : c'est le
     // signe que le pot s'est rempli tout seul, et l'inverse est plus rare.
     const comble = g.distribue != null && g.garanti != null
       && g.distribue > g.garanti + 0.5;
-    return `<button class="ligne" data-cle="${g.type}/${g.id}"
+    return bandeau + `<button class="ligne" data-cle="${g.type}/${g.id}"
       aria-current="${COURANTE === `${g.type}/${g.id}`}">
       <span class="num">${g.type}·${g.id}</span>
       <span class="date">${jjmmaa(g.date)}</span>
@@ -399,7 +451,7 @@ async function ouvrir(type, id) {
     const cases = ISSUES.map((nom, j) => {
       const gagne = iss && iss.includes(nom) && !annule;
       const v = cote ? cote[j].toFixed(2) : "—";
-      return `<td class="issue${gagne ? " gagne" : ""}">${v}</td>`;
+      return `<td class="issue${gagne ? " gagne" : ""}"><span>${v}</span></td>`;
     }).join("");
     const score = (m.score_home != null && m.score_away != null)
       ? `${m.score_home}-${m.score_away}` : "—";
@@ -407,15 +459,25 @@ async function ouvrir(type, id) {
       <td>${m.home ?? "?"} <span style="color:var(--sourd)">—</span> ${m.away ?? "?"}</td>
       ${cases}
       <td class="${annule ? "annule" : ""}">${annule ? "annulé" : score}</td>
-      <td>${cote ? `<span class="pastille">${cote[3]}</span>` : ""}</td>
+      <td>${cote ? `<span class="pastille" title="Cote ${PROVENANCES[cote[3]] || cote[3]}"
+        >${cote[3]}</span>` : ""}</td>
     </tr>`;
   }).join("");
 
-  const rangs = (d.rapports || []).map(r => `<tr>
-      <td>${r.nbCorrectResults} bons résultats</td>
+  const jouees0 = (d.repartition || []).reduce((a, b) => a + b, 0);
+  // « 10/12 » dit tout de suite que le rang 1 est descendu faute de gagnants
+  // à 12/12 — ce que « 10 bons résultats » oblige à reconstituer.
+  const rangs = (d.rapports || []).map(r => {
+    const part = jouees0 ? 100 * (r.winningGrids || 0) / jouees0 : null;
+    return `<tr>
+      <td>${r.nbCorrectResults}/${ms.length}</td>
       <td>${num(r.winningGrids)}</td>
+      <td>${part == null ? "—" :
+        (part < 0.01 ? "&lt; 0,01" : part.toLocaleString("fr-FR",
+          {minimumFractionDigits: 2, maximumFractionDigits: 2})) + " %"}</td>
       <td>${eur(r.winningsPerGrid)}</td>
-    </tr>`).join("");
+    </tr>`;
+  }).join("");
 
   const rep = d.repartition || [];
   const maxi = Math.max(1, ...rep);
@@ -462,9 +524,14 @@ async function ouvrir(type, id) {
     </div>
     <h3>Les affiches</h3>
     <table><thead><tr><th>Match</th><th>1</th><th>N</th><th>2</th>
-      <th>Score</th><th></th></tr></thead><tbody>${affiches}</tbody></table>
+      <th>Score</th><th title="Provenance de la cote">Cote</th></tr></thead>
+      <tbody>${affiches}</tbody></table>
+    <p class="legende">Cotes : ${[...new Set(ms.map(m =>
+      (COTES[String(m.match_id)] || [])[3]).filter(Boolean))]
+      .map(c => PROVENANCES[c] || c).join(", ") || "aucune"}.</p>
     ${rangs ? `<h3>Rapports</h3><table><thead><tr><th>Rang</th>
-      <th>Gagnants</th><th>Par grille</th></tr></thead><tbody>${rangs}</tbody></table>` : ""}
+      <th>Gagnants</th><th>Part des grilles</th><th>Par grille</th></tr></thead>
+      <tbody>${rangs}</tbody></table>` : ""}
     ${public_}`;
   el.querySelectorAll("[data-va]").forEach(b => b.addEventListener("click", () => {
     if (b.dataset.va !== "null") location.hash = b.dataset.va;
