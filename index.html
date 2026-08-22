@@ -20,12 +20,13 @@
 /* ---------- liste ---------- */
 .liste{max-height:calc(100vh - 13rem);overflow-y:auto;overscroll-behavior:contain}
 @media (max-width:960px){.liste{max-height:24rem}}
-.entete-liste{display:grid;grid-template-columns:4.8rem 4.4rem 1fr 1fr 4.4rem;
+.entete-liste{display:grid;grid-template-columns:4.5rem 4rem 1fr 1fr 3.2rem 2.8rem 1.6rem;
   gap:.6rem;padding:.85rem 1.2rem;position:sticky;top:0;z-index:1;
   background:var(--surface);border-bottom:1px solid var(--trait);
   font-size:.63rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
   color:var(--sourd)}
 .entete-liste span:nth-child(n+3){text-align:right}
+.entete-liste,.ligne{gap:.45rem}
 /* Un entête de groupe est un BOUTON, pas un bandeau. Le regroupement ne sert
    à rien si l'on ne peut pas replier : quatre mille grilles réparties en douze
    mois restent quatre mille grilles à faire défiler. */
@@ -50,7 +51,7 @@
 .tout:hover{background:var(--accent);border-color:var(--accent);color:#fff}
 .reste{padding:.55rem 1.2rem;font-size:.75rem;color:var(--sourd);
   border-bottom:1px solid var(--trait)}
-.ligne{display:grid;grid-template-columns:4.8rem 4.4rem 1fr 1fr 4.4rem;gap:.6rem;
+.ligne{display:grid;grid-template-columns:4.5rem 4rem 1fr 1fr 3.2rem 2.8rem 1.6rem;gap:.6rem;
   align-items:center;padding:.62rem 1.2rem;border:0;border-bottom:1px solid var(--trait);
   cursor:pointer;background:none;width:100%;text-align:left;font-size:.85rem;
   transition:background .12s}
@@ -65,6 +66,15 @@
 .ligne .eur.fort{color:var(--encre);font-weight:600}
 .ligne .marque{text-align:right;display:flex;justify-content:flex-end;
   align-items:center;gap:.25rem}
+.ligne .trj{text-align:right;font-size:.8rem;color:var(--sourd);font-weight:600;
+  font-variant-numeric:tabular-nums}
+/* Au-dessus de 100 %, la maison a distribué plus qu'elle n'a encaissé. */
+.ligne .trj.sur{color:var(--vert)}
+.ligne .score{text-align:right;font-size:.8rem;color:var(--sourd);font-weight:600;
+  font-variant-numeric:tabular-nums}
+/* Le rang 1 n'atteint pas le maximum : personne n'a tout trouvé, et le pot
+   du haut est allé à des grilles imparfaites. C'est ce qu'on cherche. */
+.ligne .score.manque{color:var(--accent)}
 /* Un point par grosse surprise. Le compte de surprises tout court ne mérite
    pas de place : neuf grilles sur dix en portent au moins une. */
 .chocs{font-size:.52rem;letter-spacing:.06em;color:var(--accent);line-height:1}
@@ -337,7 +347,9 @@ function dessinerListe() {
              : FILTRÉES.length > PLAFOND ? ` — ${PLAFOND} affichées` : "");
   const tout = PAQUETS && DEPLIES.size < PAQUETS.length;
   const entete = `<div class="entete-liste"><span>Grille</span><span>Date</span>
-    <span>Garanti</span><span>Distribué</span>
+    <span>Garanti</span><span>Distribué</span><span title="Montant distribué ÷ mises brutes"
+    >TRJ</span><span title="Le meilleur score réalisé sur cette grille, tous joueurs confondus"
+    >Meilleur</span>
     <span>${PAQUETS ? `<button class="tout" data-tout="${tout ? 1 : 0}"
       title="${tout ? "Déplier tous les groupes" : "Replier tous les groupes"}"
       >${tout ? "+" : "−"}</button>` : ""}</span></div>`;
@@ -385,14 +397,27 @@ function ligne(g) {
   const chocs = g.grosses
     ? `<span class="chocs" title="${legendeSurprise(g.surprises, g.grosses)}"
         >${"●".repeat(Math.min(g.grosses, 3))}</span>` : "";
+  // LE MEILLEUR SCORE RÉALISÉ, PAS LE MAXIMUM POSSIBLE. Le rang 1 d'une
+  // grille 7 est un 6/7 dès que personne n'a fait mieux — et c'est
+  // précisément ce qu'on veut voir d'un coup d'œil.
+  const meilleur = g.rapports && g.rapports.length
+    ? Math.max(...g.rapports.map(r => r[0])) : null;
+  const parfait = meilleur != null && meilleur >= g.matchs;
   return `<button class="ligne" data-cle="${g.type}/${g.id}"
     aria-current="${COURANTE === `${g.type}/${g.id}`}">
     <span class="num">${g.type}·${g.id}</span>
     <span class="date">${jjmmaa(g.date)}</span>
     <span class="eur">${eur(g.garanti, 0)}</span>
     <span class="eur${comble ? " fort" : ""}">${eur(g.distribue, 0)}</span>
-    <span class="marque">${chocs}${
-      g.trj > 1 ? '<span class="pastille sur">TRJ+</span>' : ""}</span>
+    <span class="trj${g.trj > 1 ? " sur" : ""}" ${g.trj
+      ? `title="${eur(g.distribue, 0)} distribués pour ${num(g.jouees)} € misés"` : ""
+      }>${g.trj ? (100 * g.trj).toFixed(0) + " %" : "—"}</span>
+    <span class="score${meilleur == null ? "" : parfait ? "" : " manque"}"
+      ${meilleur == null ? "" : `title="${parfait
+        ? "au moins un joueur a tout trouvé"
+        : `personne n'a dépassé ${meilleur} bons résultats sur ${g.matchs}`}"`
+      }>${meilleur == null ? "—" : `${meilleur}/${g.matchs}`}</span>
+    <span class="marque">${chocs}</span>
   </button>`;
 }
 

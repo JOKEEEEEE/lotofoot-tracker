@@ -169,6 +169,43 @@ def test_une_page_absente_ne_se_redemande_pas_quatre_fois():
     assert all(r > h for r, h in zip(repos, cp.ATTENTE_ESSAI)), repos
 
 
+def test_une_grille_sans_cote_rend_quand_meme_les_parts_du_public():
+    """Le tableau des cotes disparaît, la liste des pourcentages reste.
+
+    Mesuré sur les vraies pages : du 24 décembre 2022 au 11 janvier 2023, une
+    quinzaine de grilles n'ont pas de tableau de cotes. La version précédente
+    rendait alors ZÉRO affiche — donc pas de pourcentages non plus, alors
+    qu'ils étaient sur la page, et qu'ils sont la seule raison de venir chez
+    Pronosoft : Winamax ne dit pas comment le public a réparti ses mises.
+    """
+    # Le balisage de la liste, tel qu'il est servi : le pourcentage est tantôt
+    # dans le span, tantôt juste après.
+    page = """<html><body>
+      <ul class="repart">
+        <li><span>1.</span><span class="team">Chelsea - Man. City</span>
+          <div class="perc">
+            <div class="blc-p"><span class="grey_r" style="width:20%">&nbsp;</span>20,8%</div>
+            <div class="blc-p"><span class="grey_r" style="width:30%">&nbsp;</span>30,6%</div>
+            <div class="blc-p"><span class="green_r" style="width:48%">48,5%</span></div>
+          </div></li>
+        <li><span>2.</span><span class="team">Birmingham - Reading</span>
+          <div class="perc">
+            <div class="blc-p"><span class="green_r" style="width:53%">53,2%</span></div>
+            <div class="blc-p"><span class="grey_r" style="width:24%">&nbsp;</span>24,8%</div>
+            <div class="blc-p"><span class="grey_r" style="width:21%">&nbsp;</span>21,9%</div>
+          </div></li>
+      </ul></body></html>"""
+    lignes = cp.analyser_repartition(page)
+    assert len(lignes) == 2, f"{len(lignes)} affiches — la liste n'est pas lue"
+    assert lignes[0]["home"] == "Chelsea" and lignes[0]["away"] == "Man. City"
+    assert lignes[0]["public"] == [20.8, 30.6, 48.5]
+    assert lignes[1]["public"] == [53.2, 24.8, 21.9]
+    assert lignes[0]["cotes"] is None, "pas de cote sur ces grilles, et on n'en invente pas"
+    # L'ordre de la liste est celui de la grille : enrichir() apparie ligne à
+    # ligne, une inversion collerait les parts du mauvais match.
+    assert [l["home"] for l in lignes] == ["Chelsea", "Birmingham"]
+
+
 def test_une_grille_sans_cote_n_arrete_pas_la_collecte():
     """Un pourcentage de joueurs sans cote reste une donnée.
 

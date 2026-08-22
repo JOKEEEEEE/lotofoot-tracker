@@ -127,6 +127,14 @@ SAISON_PLANCHER = "2015-2016"
 # Freiburg, St Trond contre St.Truiden, Étoile Rouge contre Crvena Zvezda. Le
 # seuil est donc posé entre les deux, et le contrôle des scores fait le reste.
 CONCORDANCE_MINI = 0.4
+# LES REFUS QUI MÉRITENT UNE SECONDE CHANCE À LA REPRISE. Une grille dont la
+# répartition avait été jugée « absente » l'était parce que le collecteur ne
+# savait lire que le tableau des cotes ; il lit maintenant aussi la liste des
+# pourcentages, qui existe sur toutes les pages. Repasser dessus coûte une
+# requête et récupère la donnée. Les autres motifs — affiches différentes,
+# scores contradictoires — disent que la page ne parle pas de cette grille :
+# les redemander ne changerait rien.
+REFUS_A_REESSAYER = (None, "absente", "désaccord de longueur")
 LIEN_GRILLE = r'href="(/fr/lotosports/historiques/{produit}/[^"]*?grille-(\d+)/)"'
 
 
@@ -197,6 +205,45 @@ def analyser(html: str, produit: str, numero: int) -> dict:
             "reglee": bool(matchs) and all(m["issue"] for m in matchs)}
 
 
+def _parts_du_public(html: str) -> list:
+    """Les pourcentages de joueurs, lus dans la liste et non dans le tableau.
+
+    POURQUOI DEUX LECTURES DE LA MÊME PAGE. Le tableau des cotes disparaît sur
+    certaines grilles — la trêve de Noël 2022 en compte une quinzaine
+    d'affilée, du 24 décembre au 11 janvier — et avec lui, jusqu'ici, TOUT ce
+    que la page disait. Y compris les pourcentages, qui sont la seule raison de
+    venir chez Pronosoft : Winamax ne dit pas comment le public a réparti ses
+    mises. Ces pourcentages vivent dans un second bloc, celui-là présent sur
+    toutes les grilles, cotées ou non.
+
+    C'est aussi ce trou qui a fait mentir l'ancien message d'arrêt : huit
+    grilles sans cote n'annonçaient pas la fin de la période exploitable, elles
+    annonçaient Noël, avec huit ans d'archives cotées en dessous.
+    """
+    bloc = re.search(r'<ul class="repart">(.*?)</ul>', html, re.S)
+    if not bloc:
+        return []
+    lignes = []
+    for item in re.findall(r"<li[^>]*>(.*?)</li>", bloc.group(1), re.S):
+        affiche = re.search(r'class="team"[^>]*>(.*?)</span>', item, re.S)
+        if not affiche:
+            continue
+        # Le pourcentage est tantôt DANS le span, tantôt juste après : on
+        # coupe donc à la première fermeture et on lit tout le morceau.
+        parts = []
+        for cellule in re.findall(r'class="blc-p"[^>]*>(.*?)</div>', item, re.S):
+            trouve = re.search(r"(\d{1,3}(?:,\d)?)\s*%", _texte(cellule))
+            parts.append(_nombre(trouve.group(1)) if trouve else None)
+        equipes = [e.strip() for e in _texte(affiche.group(1)).split("-", 1)]
+        lignes.append({
+            "home": equipes[0], "away": equipes[1] if len(equipes) > 1 else "",
+            "debut": None, "cotes": None, "score": None,
+            "public": parts[:3] if len(parts) >= 3 and all(
+                p is not None for p in parts[:3]) else None,
+        })
+    return lignes
+
+
 def analyser_repartition(html: str) -> list:
     """Cotes, part du public, date et score, ligne à ligne.
 
@@ -214,10 +261,8 @@ def analyser_repartition(html: str) -> list:
     n'importe quelle autre.
     """
     tables = re.findall(r"<table.*?</table>", html, re.S)
-    if not tables:
-        return []
     lignes = []
-    for ligne in re.findall(r"<tr[^>]*>.*?</tr>", tables[-1], re.S):
+    for ligne in re.findall(r"<tr[^>]*>.*?</tr>", tables[-1] if tables else "", re.S):
         affiche = re.search(r'class="match"[^>]*>(.*?)</td>', ligne, re.S)
         if not affiche:
             continue
@@ -245,6 +290,32 @@ def analyser_repartition(html: str) -> list:
             "public": publics if all(p is not None for p in publics) else None,
             "score": [int(score.group(1)), int(score.group(2))] if score else None,
         })
+
+    # LE TABLEAU N'EST PAS TOUJOURS COMPLET, ET PARFOIS IL EST ABSENT. La
+    # liste des pourcentages, elle, porte toujours toutes les affiches : quand
+    # elle en compte plus que le tableau, c'est elle qui donne la charpente, et
+    # le tableau ne fait plus qu'y verser ses cotes. Sans cela une grille sans
+    # cote rendait zéro affiche — donc pas de pourcentages non plus, alors
+    # qu'ils étaient sur la page.
+    parts = _parts_du_public(html)
+    if len(parts) <= len(lignes):
+        return lignes
+    for entree in parts:
+        jumelle = next((l for l in lignes if meme_affiche(l["home"], entree["home"])
+                        and meme_affiche(l["away"], entree["away"])), None)
+        if jumelle:
+            # Le tableau sait le reste ; la liste ne sait que les parts, et
+            # les siennes sont plus précises (53,2 % contre 53 %).
+            if entree["public"]:
+                jumelle["public"] = entree["public"]
+        else:
+            lignes.append(entree)
+    # L'ordre de la liste est celui de la grille : c'est lui qui fait foi,
+    # puisque enrichir() apparie ligne à ligne.
+    rang = {(l["home"], l["away"]): i for i, l in enumerate(parts)}
+    lignes.sort(key=lambda l: next(
+        (i for (h, a), i in rang.items()
+         if meme_affiche(l["home"], h) and meme_affiche(l["away"], a)), len(parts)))
     return lignes
 
 
@@ -479,14 +550,16 @@ def collecter(produit: str, combien: int, saison_plancher: str = "") -> int:
             # une collecte interrompue rechargeait toutes les pages déjà en
             # base pour retrouver son chemin.
             connue = json.loads(chemin.read_text(encoding="utf-8"))
-            if connue.get("repartition") is None:
-                # Grille collectée avant que le collecteur ne sache lire les
-                # cotes : on va chercher la seule page qui manque, sans
-                # retélécharger l'historique.
+            if connue.get("repartition") in REFUS_A_REESSAYER:
+                # Grille collectée avant que le collecteur ne sache lire cette
+                # page : on va chercher la seule qui manque, sans retélécharger
+                # l'historique.
                 enrichir(connue, _repartition(produit, cle))
                 chemin.write_text(json.dumps(connue, ensure_ascii=False, indent=2),
                                   encoding="utf-8")
-                print(f"  [{cle}] complétée — {connue.get('cotees', 0)} matchs cotés")
+                parts = sum(1 for m in connue.get("matchs", []) if m.get("public"))
+                print(f"  [{cle}] complétée — {connue.get('cotees', 0)} cotés, "
+                      f"{parts} avec la part du public")
                 enregistrees += 1
                 time.sleep(random.uniform(*PAUSE))
             suivante = connue.get("precedente")
