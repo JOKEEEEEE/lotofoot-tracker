@@ -3,16 +3,36 @@
   "grille_type": "grille7",
   "pool_id": 7004175,
   "titre": "Grille 7 n°4175",
-  "statut": "OPEN",
+  "statut": "CLOSED",
   "fin": "2026-08-21T18:00:00+00:00",
-  "collecte_le": "2026-08-21T07:00:17.421528+00:00",
-  "mises_nettes": 2223.75,
-  "montant_distribue": null,
+  "collecte_le": "2026-08-22T07:00:14.376523+00:00",
+  "mises_nettes": 10491,
+  "montant_distribue": 10491,
   "montant_garanti": 5000,
   "montant_ajoute": null,
-  "resultat_code": "000000000000000000000",
-  "rapports": null,
-  "repartition": null,
+  "resultat_code": "100100001100010010001",
+  "rapports": [
+    {
+      "nbCorrectResults": 7,
+      "winningGrids": 17,
+      "winningsPerGrid": 308.56
+    },
+    {
+      "nbCorrectResults": 6,
+      "winningGrids": 227,
+      "winningsPerGrid": 23.11
+    }
+  ],
+  "repartition": [
+    73,
+    1030,
+    3410,
+    4788,
+    3257,
+    1186,
+    227,
+    17
+  ],
   "matches": [
     {
       "match_id": 72037276,
@@ -21,12 +41,12 @@
       "away": "Montpellier",
       "home_id": "sr:competitor:6918",
       "away_id": "sr:competitor:1642",
-      "score_home": null,
-      "score_away": null,
-      "statut": "PREMATCH",
-      "cote_1": 2.3,
-      "cote_N": 3.35,
-      "cote_2": 2.8
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.05,
+      "cote_N": 3.4,
+      "cote_2": 2.7
     },
     {
       "match_id": 72037274,
@@ -35,12 +55,12 @@
       "away": "Dijon",
       "home_id": "sr:competitor:1680",
       "away_id": "sr:competitor:1686",
-      "score_home": null,
-      "score_away": null,
-      "statut": "PREMATCH",
-      "cote_1": 2.5,
-      "cote_N": 3.25,
-      "cote_2": 2.6
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 2.75,
+      "cote_N": 3.15,
+      "cote_2": 2.45
     },
     {
       "match_id": 72037272,
@@ -49,12 +69,12 @@
       "away": "Red Star",
       "home_id": "sr:competitor:1711",
       "away_id": "sr:competitor:52874",
-      "score_home": null,
-      "score_away": null,
-      "statut": "PREMATCH",
-      "cote_1": 3.25,
-      "cote_N": 3.35,
-      "cote_2": 2.05
+      "score_home": 1,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": 3.45,
+      "cote_N": 3.05,
+      "cote_2": 1.92
     },
     {
       "match_id": 72037288,
@@ -63,12 +83,12 @@
       "away": "Guingamp",
       "home_id": "sr:competitor:1657",
       "away_id": "sr:competitor:1654",
-      "score_home": null,
-      "score_away": null,
-      "statut": "PREMATCH",
-      "cote_1": 2.8,
+      "score_home": 1,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 2.65,
       "cote_N": 3.2,
-      "cote_2": 2.35
+      "cote_2": 2.5
     },
     {
       "match_id": 72037282,
@@ -77,12 +97,12 @@
       "away": "Nancy",
       "home_id": "sr:competitor:1685",
       "away_id": "sr:competitor:1675",
-      "score_home": null,
-      "score_away": null,
-      "statut": "PREMATCH",
-      "cote_1": 2.25,
-      "cote_N": 3.2,
-      "cote_2": 2.95
+      "score_home": 0,
+      "score_away": 1,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": 65,
+      "cote_2": 1
     },
     {
       "match_id": 72036118,
@@ -91,12 +111,12 @@
       "away": "Strasbourg",
       "home_id": "sr:competitor:1641",
       "away_id": "sr:competitor:1659",
-      "score_home": null,
-      "score_away": null,
-      "statut": "PREMATCH",
-      "cote_1": 1.72,
-      "cote_N": 4.1,
-      "cote_2": 4.1
+      "score_home": 4,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": null,
+      "cote_N": null,
+      "cote_2": null
     },
     {
       "match_id": 72221154,
@@ -105,12 +125,12 @@
       "away": "Coventry City",
       "home_id": "sr:competitor:42",
       "away_id": "sr:competitor:11",
-      "score_home": null,
-      "score_away": null,
-      "statut": "PREMATCH",
-      "cote_1": 1.17,
-      "cote_N": 7.5,
-      "cote_2": 13.5
+      "score_home": 3,
+      "score_away": 0,
+      "statut": "ENDED",
+      "cote_1": 1.2,
+      "cote_N": 5.6,
+      "cote_2": 12.5
     }
   ]
 }
