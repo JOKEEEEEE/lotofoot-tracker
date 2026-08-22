@@ -169,6 +169,53 @@ def test_une_page_absente_ne_se_redemande_pas_quatre_fois():
     assert all(r > h for r, h in zip(repos, cp.ATTENTE_ESSAI)), repos
 
 
+def test_une_grille_sans_cote_n_arrete_pas_la_collecte():
+    """Un pourcentage de joueurs sans cote reste une donnée.
+
+    Une version antérieure coupait après huit grilles consécutives sans cote,
+    pour ne pas « descendre jusqu'en 2011 ramasser des grilles
+    inexploitables ». C'était décider à la place de celui qui collecte, et
+    l'historique complet lui a été redemandé deux fois. Ce test empêche la
+    condition de revenir par la bande.
+    """
+    # Aucune grille ne porte de cote : dix pages de suite, et la collecte doit
+    # les avoir toutes vues avant que Pronosoft ne dise « plus de précédente ».
+    total = 10
+    pages = {}
+    for n in range(total, 0, -1):
+        pages[f"https://x/2020-grille-{n}/"] = n
+    vus = []
+
+    def faux_lire(url):
+        vus.append(url)
+        return f"<html>{url}</html>"
+
+    def faux_analyser(html, produit, numero):
+        return {"matchs": [{"home": "A", "away": "B"}], "reglee": True,
+                "date": "2020-01-01", "rapports": [], "cotees": 0}
+
+    def fausse_precedente(html, produit, numero):
+        return f"https://x/2020-grille-{numero - 1}/" if numero > 1 else ""
+
+    vrais = (cp._lire, cp.analyser, cp._precedente, cp._depart,
+             cp._repartition, cp.time.sleep, cp.SORTIE)
+    with tempfile.TemporaryDirectory() as rep:
+        cp._lire, cp.analyser = faux_lire, faux_analyser
+        cp._precedente = fausse_precedente
+        cp._depart = lambda produit, dossier: f"https://x/2020-grille-{total}/"
+        cp._repartition = lambda produit, cle: []
+        cp.time.sleep = lambda s: None
+        cp.SORTIE = Path(rep)
+        try:
+            cp.collecter("loto-foot-7", 0)
+            ecrites = sorted((Path(rep) / "loto-foot-7").glob("*.json"))
+        finally:
+            (cp._lire, cp.analyser, cp._precedente, cp._depart,
+             cp._repartition, cp.time.sleep, cp.SORTIE) = vrais
+    assert len(ecrites) == total, \
+        f"{len(ecrites)} grilles sur {total} — quelque chose coupe encore"
+
+
 def test_la_reprise_ne_relit_pas_ce_qui_est_deja_en_base():
     """Reprendre ne veut pas dire tout relire.
 

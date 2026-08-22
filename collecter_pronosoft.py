@@ -23,10 +23,15 @@ y rend huit affiches. La numérotation est globale, et c'est elle qui décide.
 
 LES COTES N'EXISTENT PAS AVANT MARS 2015. Vérifié : la grille 40 de 2015 n'en
 a aucune, la 45 en a une partie, la 50 les a toutes. En deçà la page existe
-mais ne porte que des pourcentages de joueurs — ce qui reste une donnée, et
-la raison pour laquelle la collecte descend maintenant JUSQU'AU BOUT par
-défaut. Pour ne ramasser que la période cotée : --cotes-seulement, qui
-s'arrête après ARRET_SANS_COTES grilles consécutives sans cote.
+mais ne porte que des pourcentages de joueurs.
+
+CE N'EST PAS UNE RAISON DE S'ARRÊTER, ET IL N'Y A PLUS RIEN POUR LE FAIRE.
+Une version antérieure coupait après huit grilles consécutives sans cote —
+c'était décider à la place de celui qui collecte, et un pourcentage de
+joueurs reste une donnée. La collecte descend jusqu'à ce que Pronosoft n'ait
+plus de grille précédente à proposer. Les seules autres sorties sont un
+--combien atteint, un --depuis franchi, et une boucle détectée dans les
+liens.
 
 CONDITIONS D'UTILISATION — À LIRE AVANT DE LANCER. Le robots.txt de Pronosoft
 ne bloque que des robots de référencement nommés, pas les visiteurs ordinaires.
@@ -50,7 +55,6 @@ que de l'espérer.
 
     python collecter_pronosoft.py --produit loto-foot-7
     python collecter_pronosoft.py --produit loto-foot-8 --combien 200
-    python collecter_pronosoft.py --produit loto-foot-7 --cotes-seulement
 
 """
 
@@ -108,12 +112,6 @@ ISSUES = ("1", "N", "2")
 # Loto Foot 8 n'avait pas de cotes. Celui-ci nomme le produit, et son archive
 # remonte pour les deux.
 REPARTITION = BASE + "/fr/lotosports/repartition/{produit}/{annee}-grille-{numero}/"
-# Avec --cotes-seulement : après tant de grilles d'affilée sans cote, on
-# considère qu'on a dépassé la période où Pronosoft les publiait, et on
-# s'arrête. Sans l'option, on descend jusqu'au bout — c'est le défaut, parce
-# que reconstituer l'historique complet est une demande légitime même quand
-# les grilles anciennes ne portent que des pourcentages de joueurs.
-ARRET_SANS_COTES = 8
 # La saison en deçà de laquelle --depuis fait s'arrêter. L'adresse d'une
 # grille historique porte sa saison — /loto-foot-7/2015-2016/2015-grille-97/ —
 # et une comparaison de chaînes suffit à les ordonner. Les cotes n'existent
@@ -448,8 +446,7 @@ def trop_ancienne(url: str, plancher: str) -> bool:
     return bool(saison and plancher and saison < plancher)
 
 
-def collecter(produit: str, combien: int, saison_plancher: str,
-              cotes_seulement: bool = False) -> int:
+def collecter(produit: str, combien: int, saison_plancher: str = "") -> int:
     dossier = SORTIE / produit
     dossier.mkdir(parents=True, exist_ok=True)
     url = _depart(produit, dossier)
@@ -458,7 +455,6 @@ def collecter(produit: str, combien: int, saison_plancher: str,
         return 1
 
     vus, enregistrees, sautees, attentes = set(), 0, 0, 0
-    sans_cotes = 0
     # --combien 0 : descendre jusqu'au bout. La boucle s'arrête alors d'elle-
     # même quand Pronosoft n'a plus de grille précédente à proposer.
     tours = itertools.count() if combien <= 0 else range(combien)
@@ -508,7 +504,6 @@ def collecter(produit: str, combien: int, saison_plancher: str,
                 grille["url"] = url
                 grille["precedente"] = _precedente(html, produit, numero)
                 enrichir(grille, _repartition(produit, cle))
-                sans_cotes = 0 if grille.get("cotees") else sans_cotes + 1
                 chemin.write_text(json.dumps(grille, ensure_ascii=False, indent=2),
                                   encoding="utf-8")
                 enregistrees += 1
@@ -518,10 +513,6 @@ def collecter(produit: str, combien: int, saison_plancher: str,
             else:
                 print(f"  [{cle}] page illisible")
 
-        if cotes_seulement and sans_cotes >= ARRET_SANS_COTES:
-            print(f"  {ARRET_SANS_COTES} grilles d'affilée sans cote — "
-                  f"on a dépassé la période exploitable, on s'arrête")
-            break
         suivante = _precedente(html, produit, numero)
         if not suivante:
             print("  plus de grille précédente")
@@ -549,12 +540,8 @@ def main() -> int:
     ap.add_argument("--depuis", default="", metavar="SAISON",
                     help="ne pas descendre sous cette saison, ex : 2015-2016 ; "
                          "par défaut, pas de plancher")
-    ap.add_argument("--cotes-seulement", action="store_true",
-                    help=f"s'arrêter après {ARRET_SANS_COTES} grilles d'affilée "
-                         "sans cote, au lieu de descendre jusqu'au bout")
     args = ap.parse_args()
-    return collecter(args.produit, args.combien, args.depuis,
-                     args.cotes_seulement)
+    return collecter(args.produit, args.combien, args.depuis)
 
 
 if __name__ == "__main__":
