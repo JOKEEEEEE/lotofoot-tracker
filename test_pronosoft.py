@@ -169,14 +169,13 @@ def test_une_page_absente_ne_se_redemande_pas_quatre_fois():
     assert all(r > h for r, h in zip(repos, cp.ATTENTE_ESSAI)), repos
 
 
-def test_une_grille_sans_cote_rend_quand_meme_les_parts_du_public():
-    """Le tableau des cotes disparaît, la liste des pourcentages reste.
+def test_une_grille_sans_cote_rend_quand_meme_ses_affiches():
+    """Le tableau des cotes disparaît, la liste des affiches reste.
 
     Mesuré sur les vraies pages : du 24 décembre 2022 au 11 janvier 2023, une
     quinzaine de grilles n'ont pas de tableau de cotes. La version précédente
-    rendait alors ZÉRO affiche — donc pas de pourcentages non plus, alors
-    qu'ils étaient sur la page, et qu'ils sont la seule raison de venir chez
-    Pronosoft : Winamax ne dit pas comment le public a réparti ses mises.
+    rendait alors ZÉRO affiche, si bien que la grille était redemandée à
+    chaque reprise sans jamais aboutir.
     """
     # Le balisage de la liste, tel qu'il est servi : le pourcentage est tantôt
     # dans le span, tantôt juste après.
@@ -198,9 +197,10 @@ def test_une_grille_sans_cote_rend_quand_meme_les_parts_du_public():
     lignes = cp.analyser_repartition(page)
     assert len(lignes) == 2, f"{len(lignes)} affiches — la liste n'est pas lue"
     assert lignes[0]["home"] == "Chelsea" and lignes[0]["away"] == "Man. City"
-    assert lignes[0]["public"] == [20.8, 30.6, 48.5]
-    assert lignes[1]["public"] == [53.2, 24.8, 21.9]
     assert lignes[0]["cotes"] is None, "pas de cote sur ces grilles, et on n'en invente pas"
+    # Les pourcentages sont dans ce bloc, juste à côté des noms. On les lit
+    # sans les prendre : c'est la ligne que ce test protège.
+    assert all("public" not in l for l in lignes), lignes
     # L'ordre de la liste est celui de la grille : enrichir() apparie ligne à
     # ligne, une inversion collerait les parts du mauvais match.
     assert [l["home"] for l in lignes] == ["Chelsea", "Birmingham"]
@@ -302,14 +302,15 @@ REPART = """<table><tr><th>1</th><th>N</th><th>2</th></tr>
 <td class="dev_s">2-0</td></tr></table>"""
 
 
-def test_la_repartition_donne_cotes_public_date_et_score():
+def test_la_repartition_donne_cotes_date_et_score():
     ligne = cp.analyser_repartition(REPART)[0]
     assert ligne["home"] == "Lens" and ligne["away"] == "Paris SG"
     assert ligne["cotes"] == [1.96, 3.70, 3.90], ligne
-    # Le piège : une expression qui traverse les cellules ramenait 38 % trois
-    # fois. Les trois parts doivent être distinctes.
-    assert ligne["public"] == [38.0, 29.0, 33.0], ligne
     assert ligne["score"] == [2, 0] and ligne["debut"] == "2026-08-16 13:55:00"
+    # LE POURCENTAGE DE JOUEURS EST SUR LA PAGE ET NE DOIT PAS EN SORTIR.
+    # C'est la seule donnée de ces pages qui soit la production de Pronosoft,
+    # et ne pas la garder est ce qui permet de versionner tout le reste.
+    assert "public" not in ligne, ligne
 
 
 def test_une_page_de_repli_ne_se_colle_pas_sur_la_mauvaise_grille():
@@ -323,9 +324,9 @@ def test_une_page_de_repli_ne_se_colle_pas_sur_la_mauvaise_grille():
     grille = {"matchs": [{"home": "Atl. Madrid", "away": "Malaga", "issue": "1"},
                          {"home": "Celtic", "away": "Lask Linz", "issue": "1"}]}
     repli = [{"home": "Marseille", "away": "Strasbourg", "cotes": [1.68, 4.25, 4.4],
-              "public": None, "score": None, "debut": None},
+              "score": None, "debut": None},
              {"home": "Sochaux", "away": "Guingamp", "cotes": [3.0, 3.2, 2.35],
-              "public": None, "score": None, "debut": None}]
+              "score": None, "debut": None}]
     resultat = cp.enrichir(dict(grille), repli)
     assert resultat["repartition"].startswith("affiches différentes"), resultat
     assert "cotes" not in resultat["matchs"][0]
@@ -365,50 +366,42 @@ def test_la_saison_borne_la_descente():
     assert not cp.trop_ancienne(u("2010-2011"), "")
 
 
-def test_le_remplissage_par_defaut_du_public_est_ecarte():
-    """Là où le public n'est pas publié, la page affiche 38 / 29 / 32.
-
-    Sur la grille 108 de 2026, six affiches sur huit portent ce triplet et
-    deux sont réelles. On l'écarte donc ligne à ligne : garder les six
-    reviendrait à inventer une foule qui aurait parié pareil partout.
-    """
-    six_remplies = [[38, 29, 32]] * 4 + [[59, 20, 21], [41, 35, 23]] \
-        + [[38, 29, 32]] * 2
-    assert cp._triplet_de_remplissage(six_remplies) == (38, 29, 32)
-
-    # Une vraie répartition varie à chaque affiche.
-    vraie = [[26, 37, 37], [44, 24, 32], [35, 29, 36], [74, 14, 11],
-             [40, 32, 28], [41, 32, 28], [33, 28, 39]]
-    assert cp._triplet_de_remplissage(vraie) is None
-
-    # Deux matchs pronostiqués pareil ne font pas un remplissage, même sur
-    # une grille courte où ils pèsent la moitié des lignes.
-    assert cp._triplet_de_remplissage([[40, 30, 30], [40, 30, 30]] + vraie[:5]) is None
-    assert cp._triplet_de_remplissage([[40, 30, 30], [40, 30, 30]] + vraie[:2]) is None
-    # Trois, en revanche, sur une grille de sept : c'en est un.
-    assert cp._triplet_de_remplissage([[40, 30, 30]] * 3 + vraie[:4]) == (40, 30, 30)
-    # Mais trois sur huit ne pèsent plus assez : le seuil est une part de la
-    # grille, pas seulement un compte. Une grille 8 doit en montrer quatre.
-    huit = [[40, 30, 30]] * 3 + vraie[:5]
-    assert cp._triplet_de_remplissage(huit) is None, huit
-    assert cp._triplet_de_remplissage([[40, 30, 30]] * 4 + vraie[:4]) == (40, 30, 30)
-    assert cp._triplet_de_remplissage([]) is None
-
-
-def test_les_cotes_survivent_au_remplissage_du_public():
-    """Les deux champs sont indépendants : le public peut manquer là où la
-    cote est bien réelle. C'est le cas de la majorité des grilles récentes."""
+def test_les_cotes_arrivent_sans_le_moindre_pourcentage():
+    """Le contrôle qui tient la décision : rien de ce qu'enrichir écrit ne
+    porte de pourcentage de joueurs, ni sur les matchs, ni sur la grille."""
     grille = {"matchs": [{"home": f"E{i}", "away": f"A{i}", "issue": None}
                          for i in range(4)]}
     lignes = [{"home": f"E{i}", "away": f"A{i}", "cotes": [1.5 + i, 3.5, 4.0],
-               "public": [38.0, 29.0, 32.0], "score": None, "debut": None}
-              for i in range(4)]
+               "score": None, "debut": None} for i in range(4)]
     r = cp.enrichir(grille, lignes)
     assert r["repartition"] == "ok"
     assert r["cotees"] == 4, r
-    assert r["public_connu"] == 0, r
-    assert all(m["public"] is None for m in r["matchs"])
-    assert r["matchs"][2]["cotes"] == [3.5, 3.5, 4.0]
+    assert "public_connu" not in r, r
+    assert all("public" not in m for m in r["matchs"]), r["matchs"]
+
+
+def test_l_outil_de_nettoyage_est_idempotent_et_sait_verifier():
+    """Le garde-fou de la collecte quotidienne : sans lui, un fichier ancien
+    oublié suffirait à publier ce qu'on a décidé de ne pas publier."""
+    import importlib.util
+    chemin = Path(__file__).parent / "outils" / "retirer_public.py"
+    spec = importlib.util.spec_from_file_location("retirer_public", chemin)
+    rp = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(rp)
+
+    grille = {"cotees": 1, "public_connu": 2, "matchs": [
+        {"home": "A", "away": "B", "cotes": [2.0, 3.0, 4.0], "public": [40, 30, 30]},
+        {"home": "C", "away": "D", "cotes": None, "public": None},
+    ]}
+    assert rp.restants(grille) == 3
+    assert rp.nettoyer(grille) == 3
+    assert rp.restants(grille) == 0
+    # Idempotent : un second passage ne trouve plus rien à retirer.
+    assert rp.nettoyer(grille) == 0
+    # Et il n'emporte que ce qu'on lui demande.
+    assert grille["cotees"] == 1
+    assert grille["matchs"][0]["cotes"] == [2.0, 3.0, 4.0]
+    assert grille["matchs"][1]["cotes"] is None
 
 
 if __name__ == "__main__":

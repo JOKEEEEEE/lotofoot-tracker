@@ -69,7 +69,21 @@ git pull --rebase --autostash -q origin main >> "$JOURNAL" 2>&1 || {
     exit 0
 }
 
-git add data/pools data/index_site.json data/cotes_site.json
+# LE GARDE-FOU AVANT DE PUBLIER. data/pronosoft/ est versionné parce qu'il ne
+# porte que des faits — affiches, cotes de marché, rapports de la FDJ — et
+# jamais le pourcentage de joueurs, qui est la production de Pronosoft. Un
+# fichier ancien oublié suffirait à rompre cette règle sans que personne ne
+# le voie : on vérifie, et on n'ajoute pas ce dossier si ça coince.
+A_PUBLIER="data/pools data/index_site.json data/cotes_site.json"
+if python outils/retirer_public.py --verifier >> "$JOURNAL" 2>&1; then
+    A_PUBLIER="$A_PUBLIER data/pronosoft"
+else
+    echo "des pourcentages traînent dans data/pronosoft — dossier NON publié," \
+         "lancer : python outils/retirer_public.py" >> "$JOURNAL"
+fi
+
+# shellcheck disable=SC2086
+git add $A_PUBLIER
 if git diff --cached --quiet; then
     echo "rien de nouveau" >> "$JOURNAL"
     exit 0
@@ -85,10 +99,3 @@ else
     echo "push impossible — les données restent commitées en local" >> "$JOURNAL"
 fi
 
-# LES COLLECTES QU'ON NE PUBLIE PAS SE SAUVEGARDENT AUSSI. data/pronosoft et
-# data/football-data sont ignorés par ce dépôt — donc absents du site, donc
-# hors de portée de GitHub Pages, donc jamais rediffusés. Mais « ignoré par
-# git » voulait aussi dire « en un seul exemplaire sur un seul disque ». Ce
-# script les pousse vers leurs dépôts PRIVÉS, quand ils sont configurés.
-echo "sauvegardes privées :" >> "$JOURNAL"
-sh ./sauver_donnees.sh

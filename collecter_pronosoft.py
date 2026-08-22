@@ -1,10 +1,21 @@
 """Les grilles Loto Foot de la FDJ, telles que Pronosoft les archive.
 
-POURQUOI CETTE SOURCE. Winamax ne dit pas comment le public a réparti ses
-mises entre le 1, le N et le 2 — seulement combien de grilles ont fait k bons
-résultats. Pronosoft, lui, publie le pourcentage de joueurs par issue et par
-match. C'est la donnée qui manque pour répondre à « où le public se trompe-t-il
-exactement », et pas seulement « de combien ».
+POURQUOI CETTE SOURCE. Le Loto Foot de la FDJ est un autre produit que les
+grilles Winamax, et son historique n'est publié nulle part ailleurs de façon
+exploitable. Pronosoft l'archive grille par grille : les affiches, l'issue
+sortie, les rapports par rang et les cotes du marché.
+
+CE QU'ON N'EN PREND PAS, ET POURQUOI. Leurs pages portent aussi le pourcentage
+de joueurs ayant coché chaque issue. C'est la seule donnée de ces pages qui
+soit la PRODUCTION de Pronosoft — l'agrégat des pronostics de leur communauté,
+qui n'existe que parce qu'ils l'ont compilé — quand tout le reste est un fait
+public : un score, une cote de marché, un rapport de la FDJ. C'est aussi
+exactement ce que protège le droit sui generis du producteur de base de
+données. On ne l'enregistre donc pas.
+
+C'est ce choix qui permet à data/pronosoft/ d'être versionné comme le reste
+plutôt que tenu à l'écart du dépôt. Il a un coût, assumé : la question « où le
+public se trompe-t-il exactement » reste sans réponse de ce côté-là.
 
 DEUX PAGES PAR GRILLE, PARCE QU'AUCUNE NE SUFFIT.
 
@@ -35,23 +46,20 @@ liens.
 
 CONDITIONS D'UTILISATION — À LIRE AVANT DE LANCER. Le robots.txt de Pronosoft
 ne bloque que des robots de référencement nommés, pas les visiteurs ordinaires.
-En revanche leurs mentions légales sont explicites : « Il est interdit de
+Leurs mentions légales, en revanche, sont explicites : « Il est interdit de
 reproduire et rediffuser tout ou partie de ces contenus, sans l'autorisation
 préalable et écrite de Pronosoft. »
 
-D'où deux règles, non négociables dans ce dépôt :
+D'où les deux règles ci-dessus, et une troisième :
 
-    la collecte va dans data/pronosoft/, qui est IGNORÉ PAR GIT — la donnée
-    reste sur la machine et n'est jamais republiée, exactement comme le cache
-    football-data et la collecte Footiqo ;
-    le rythme reste lent — une à deux secondes et demie par page, une
-    pause d'une minute tous les soixante — et il n'y a pas d'option pour
-    l'accélérer davantage ; un 429 fait lever le pied plus longtemps.
+    on ne garde que des faits — affiches, scores, cotes de marché, rapports de
+    la FDJ — et jamais le pourcentage de joueurs, qui est leur production ;
+    le rythme reste lent : une à deux secondes et demie par page, une pause
+    tous les cent, et pas d'option pour l'accélérer davantage. Un 429 fait
+    lever le pied plus longtemps.
 
-Ce qu'on publie, ce sont des résultats d'analyse — des moyennes, des écarts —
-et non le contenu de leurs pages. Si le projet devait un jour diffuser cette
-donnée, il faudrait leur autorisation écrite, et il vaudrait mieux la demander
-que de l'espérer.
+Ces deux règles ne sont pas de même nature. La première est une limite sur ce
+qu'on prend ; la seconde, une politesse envers un serveur qu'on n'a pas payé.
 
     python collecter_pronosoft.py --produit loto-foot-7
     python collecter_pronosoft.py --produit loto-foot-8 --combien 200
@@ -205,20 +213,24 @@ def analyser(html: str, produit: str, numero: int) -> dict:
             "reglee": bool(matchs) and all(m["issue"] for m in matchs)}
 
 
-def _parts_du_public(html: str) -> list:
-    """Les pourcentages de joueurs, lus dans la liste et non dans le tableau.
+def _affiches_de_la_liste(html: str) -> list:
+    """Les affiches, lues dans la liste et non dans le tableau.
 
     POURQUOI DEUX LECTURES DE LA MÊME PAGE. Le tableau des cotes disparaît sur
     certaines grilles — la trêve de Noël 2022 en compte une quinzaine
     d'affilée, du 24 décembre au 11 janvier — et avec lui, jusqu'ici, TOUT ce
-    que la page disait. Y compris les pourcentages, qui sont la seule raison de
-    venir chez Pronosoft : Winamax ne dit pas comment le public a réparti ses
-    mises. Ces pourcentages vivent dans un second bloc, celui-là présent sur
-    toutes les grilles, cotées ou non.
+    que la page disait. Le second bloc, lui, porte les affiches sur toutes les
+    grilles, cotées ou non : c'est ce qui permet de reconnaître la grille et de
+    ne pas la redemander indéfiniment.
 
     C'est aussi ce trou qui a fait mentir l'ancien message d'arrêt : huit
     grilles sans cote n'annonçaient pas la fin de la période exploitable, elles
     annonçaient Noël, avec huit ans d'archives cotées en dessous.
+
+    LES POURCENTAGES DE JOUEURS SONT DANS CE BLOC, ET ON NE LES PREND PAS.
+    Voir l'entête du module : c'est la seule donnée de ces pages qui soit la
+    production de Pronosoft, et la raison pour laquelle tout le reste peut
+    être versionné.
     """
     bloc = re.search(r'<ul class="repart">(.*?)</ul>', html, re.S)
     if not bloc:
@@ -228,24 +240,16 @@ def _parts_du_public(html: str) -> list:
         affiche = re.search(r'class="team"[^>]*>(.*?)</span>', item, re.S)
         if not affiche:
             continue
-        # Le pourcentage est tantôt DANS le span, tantôt juste après : on
-        # coupe donc à la première fermeture et on lit tout le morceau.
-        parts = []
-        for cellule in re.findall(r'class="blc-p"[^>]*>(.*?)</div>', item, re.S):
-            trouve = re.search(r"(\d{1,3}(?:,\d)?)\s*%", _texte(cellule))
-            parts.append(_nombre(trouve.group(1)) if trouve else None)
         equipes = [e.strip() for e in _texte(affiche.group(1)).split("-", 1)]
         lignes.append({
             "home": equipes[0], "away": equipes[1] if len(equipes) > 1 else "",
             "debut": None, "cotes": None, "score": None,
-            "public": parts[:3] if len(parts) >= 3 and all(
-                p is not None for p in parts[:3]) else None,
         })
     return lignes
 
 
 def analyser_repartition(html: str) -> list:
-    """Cotes, part du public, date et score, ligne à ligne.
+    """Cotes, date et score, ligne à ligne.
 
     ON NE COMPTE PAS LES COLONNES, on lit les classes. Chaque cellule d'issue
     porte le pourcentage de joueurs suivi d'un `<span class="dev_span_1">`,
@@ -270,16 +274,14 @@ def analyser_repartition(html: str) -> list:
         # `<td>` jusqu'au span voulu traverse les cellules voisines et ramène
         # le pourcentage de la première : les trois issues sortaient à 38 %.
         cellules = re.findall(r"<td[^>]*>.*?</td>", ligne, re.S)
-        cotes, publics = [], []
+        cotes = []
         for issue in ("1", "n", "2"):
             cellule = next((c for c in cellules
                             if f'dev_span_{issue}"' in c), None)
             if not cellule:
-                cotes.append(None); publics.append(None); continue
+                cotes.append(None); continue
             valeur = re.search(r'dev_span_%s"[^>]*>(.*?)</span>' % issue, cellule, re.S)
             cotes.append(_nombre(valeur.group(1)) if valeur else None)
-            part = re.search(r"(\d{1,3})\s*%", _texte(cellule))
-            publics.append(float(part.group(1)) if part else None)
         quand = re.search(r'data-date-utc="([^"]+)"', ligne)
         score = re.search(r">\s*(\d{1,2})\s*-\s*(\d{1,2})\s*<", ligne[-400:])
         equipes = [e.strip() for e in _texte(affiche.group(1)).split("-", 1)]
@@ -287,28 +289,21 @@ def analyser_repartition(html: str) -> list:
             "home": equipes[0], "away": equipes[1] if len(equipes) > 1 else "",
             "debut": quand.group(1) if quand else None,
             "cotes": cotes if all(cotes) else None,
-            "public": publics if all(p is not None for p in publics) else None,
             "score": [int(score.group(1)), int(score.group(2))] if score else None,
         })
 
     # LE TABLEAU N'EST PAS TOUJOURS COMPLET, ET PARFOIS IL EST ABSENT. La
-    # liste des pourcentages, elle, porte toujours toutes les affiches : quand
-    # elle en compte plus que le tableau, c'est elle qui donne la charpente, et
-    # le tableau ne fait plus qu'y verser ses cotes. Sans cela une grille sans
-    # cote rendait zéro affiche — donc pas de pourcentages non plus, alors
-    # qu'ils étaient sur la page.
-    parts = _parts_du_public(html)
+    # liste, elle, porte toujours toutes les affiches : quand elle en compte
+    # plus que le tableau, c'est elle qui donne la charpente, et le tableau ne
+    # fait plus qu'y verser ses cotes. Sans cela une grille sans cote rendait
+    # zéro affiche, et se faisait redemander à chaque reprise.
+    parts = _affiches_de_la_liste(html)
     if len(parts) <= len(lignes):
         return lignes
     for entree in parts:
         jumelle = next((l for l in lignes if meme_affiche(l["home"], entree["home"])
                         and meme_affiche(l["away"], entree["away"])), None)
-        if jumelle:
-            # Le tableau sait le reste ; la liste ne sait que les parts, et
-            # les siennes sont plus précises (53,2 % contre 53 %).
-            if entree["public"]:
-                jumelle["public"] = entree["public"]
-        else:
+        if not jumelle:
             lignes.append(entree)
     # L'ordre de la liste est celui de la grille : c'est lui qui fait foi,
     # puisque enrichir() apparie ligne à ligne.
@@ -412,19 +407,6 @@ def _precedente(html: str, produit: str, numero: int) -> str:
 # Un triplet répété sur une bonne part des affiches n'est pas une
 # coïncidence : c'est le remplissage. On exige au moins trois occurrences pour
 # ne pas confondre avec deux matchs réellement pronostiqués pareil.
-REMPLISSAGE_MINI = 3
-REMPLISSAGE_PART = 0.4
-
-
-def _triplet_de_remplissage(parts: list):
-    """Le triplet servi par défaut sur cette grille, s'il y en a un."""
-    comptes = Counter(tuple(p) for p in parts if p)
-    if not comptes:
-        return None
-    triplet, combien = comptes.most_common(1)[0]
-    if combien >= max(REMPLISSAGE_MINI, REMPLISSAGE_PART * len(parts)):
-        return triplet
-    return None
 
 
 def _mots(nom: str) -> set:
@@ -446,7 +428,7 @@ def meme_affiche(a: str, b: str) -> bool:
 
 
 def enrichir(grille: dict, lignes: list) -> dict:
-    """Coller les cotes et la part du public sur les affiches de la grille.
+    """Coller les cotes, les scores et les dates sur les affiches de la grille.
 
     LA VÉRIFICATION PAR LES NOMS N'EST PAS UNE PRÉCAUTION, C'EST LA CONDITION.
     Un numéro hors série ne renvoie pas 404 chez Pronosoft : la page sert
@@ -487,16 +469,12 @@ def enrichir(grille: dict, lignes: list) -> dict:
     # affiches sur huit le portent et deux sont réelles. On l'écarte donc
     # ligne à ligne, pas grille par grille. Les COTES, elles, sont réelles
     # dans les deux cas : 1,86 / 3,05 / 3,55 pour Boca-Paranaense.
-    remplissage = _triplet_de_remplissage([l["public"] for l in lignes])
     for match, ligne in zip(matchs, lignes):
         match["cotes"] = ligne["cotes"]
-        part = ligne["public"]
-        match["public"] = None if (part and tuple(part) == remplissage) else part
         match["score"] = ligne["score"]
         match["debut"] = ligne["debut"]
     grille["repartition"] = "ok"
     grille["cotees"] = sum(1 for m in grille["matchs"] if m.get("cotes"))
-    grille["public_connu"] = sum(1 for m in matchs if m.get("public"))
     return grille
 
 
@@ -557,9 +535,7 @@ def collecter(produit: str, combien: int, saison_plancher: str = "") -> int:
                 enrichir(connue, _repartition(produit, cle))
                 chemin.write_text(json.dumps(connue, ensure_ascii=False, indent=2),
                                   encoding="utf-8")
-                parts = sum(1 for m in connue.get("matchs", []) if m.get("public"))
-                print(f"  [{cle}] complétée — {connue.get('cotees', 0)} cotés, "
-                      f"{parts} avec la part du public")
+                print(f"  [{cle}] complétée — {connue.get('cotees', 0)} matchs cotés")
                 enregistrees += 1
                 time.sleep(random.uniform(*PAUSE))
             suivante = connue.get("precedente")
